@@ -340,6 +340,11 @@ export default function AboutPage() {
             Call 248.755.3545
           </a>
         </div>
+        <p className="mt-6 text-white/50 text-sm">
+          <Link href="/reviews" className="hover:text-white underline underline-offset-2 transition-colors">
+            See what our clients say →
+          </Link>
+        </p>
       </section>
 
       {/* Organization Schema */}

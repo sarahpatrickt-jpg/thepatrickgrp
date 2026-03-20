@@ -135,6 +135,75 @@ export default function SellingPage() {
         </div>
       </section>
 
+      {/* VS. AVERAGE AGENT COMPARISON */}
+      <section className="py-20 px-4 sm:px-6 bg-[#1a1a1a] text-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              The honest comparison
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold">
+              Most Agents vs. The Patrick Group
+            </h2>
+            <p className="mt-4 text-white/60 max-w-xl mx-auto text-sm">
+              The average listing agent in Southeast Michigan follows the same
+              playbook: price it, photograph it, post it, wait. We don&apos;t wait.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-white/10">
+                  <th className="text-left py-3 pr-8 text-white/40 font-normal text-xs uppercase tracking-widest w-2/5">
+                    What most agents do
+                  </th>
+                  <th className="text-left py-3 text-white/40 font-normal text-xs uppercase tracking-widest w-1/5 text-center">
+                    Typical agent
+                  </th>
+                  <th className="text-left py-3 pl-8 text-[#c70000] font-semibold text-xs uppercase tracking-widest w-1/5 text-center">
+                    The Patrick Group
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5">
+                {[
+                  ["Photography", "Agent with a smartphone", "Nationwide professional photographer"],
+                  ["Video", "None", "Full walkthrough on YouTube + Vimeo"],
+                  ["Property website", "MLS page only", "Custom property website, every listing"],
+                  ["Agent outreach before launch", "None", "~300 local agents notified before going live"],
+                  ["Direct mail", "Rarely", "Targeted postcards to your neighbors"],
+                  ["Platform syndication", "Zillow + Realtor.com", "15+ platforms simultaneously"],
+                  ["Buyer feedback", "Rarely shared", "Regular showing feedback reports"],
+                  ["Listing contract exit", "Locked in", "Unconditional Release Guarantee"],
+                ].map(([feature, them, us]) => (
+                  <tr key={feature}>
+                    <td className="py-4 pr-8 text-white/50 text-xs font-medium uppercase tracking-wide">
+                      {feature}
+                    </td>
+                    <td className="py-4 text-white/40 text-sm text-center">
+                      {them}
+                    </td>
+                    <td className="py-4 pl-8 text-white font-semibold text-sm text-center">
+                      {us}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              href="/home-valuation"
+              className="inline-block bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+            >
+              Get My Free Home Valuation
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* SYNDICATION */}
       <section className="py-12 px-4 sm:px-6 bg-[#faf9f7] border-y border-gray-100">
         <div className="max-w-4xl mx-auto text-center">
@@ -253,6 +322,11 @@ export default function SellingPage() {
               </div>
             ))}
           </div>
+          <div className="mt-8 text-center">
+            <Link href="/reviews" className="text-sm text-[#c70000] font-semibold hover:underline">
+              See all client reviews →
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -278,6 +352,16 @@ export default function SellingPage() {
             Call 248.755.3545
           </a>
         </div>
+        <p className="text-white/70 text-xs mt-6">
+          Want to know what the market is doing right now?{" "}
+          <Link href="/market-updates" className="underline hover:text-white transition-colors">
+            See our latest market report →
+          </Link>
+          {" · "}
+          <Link href="/cash-offer" className="underline hover:text-white transition-colors">
+            Need to sell fast? See our cash offer program →
+          </Link>
+        </p>
       </section>
     </>
   );

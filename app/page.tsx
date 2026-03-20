@@ -12,8 +12,8 @@ const testimonials = [
   {
     quote:
       "Brad was not just our realtor, but our partner throughout the entire process. He went to bat for us — and we secured our dream home.",
-    name: "Verified Client",
-    type: "Buyer & Seller",
+    name: "Sabella Cascarelli",
+    type: "Buyer",
   },
   {
     quote: "Sold in 18 hours.",
@@ -22,8 +22,8 @@ const testimonials = [
   },
   {
     quote:
-      "Sarah is amazing and I will recommend her to every person I know that is looking to buy a home.",
-    name: "Verified Client",
+      "Brad was great to work with as a first time home buyer! He was knowledgeable, patient, and just an overall nice guy.",
+    name: "Jasmine Coleman",
     type: "First-Time Buyer",
   },
   {
@@ -135,8 +135,9 @@ export default function HomePage() {
 
           {/* Sub-headline */}
           <p className="text-white/70 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Boutique service. 26 years of experience. A team that treats your
-            home — and your situation — like it actually matters.
+            Get more for your home sale. Find the right home before it hits
+            Zillow. That&apos;s what 26 years of Southeast Michigan relationships
+            actually looks like.
           </p>
 
           {/* Primary CTAs */}
@@ -453,18 +454,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══ NEWSLETTER ═══ */}
+      {/* ═══ NEWSLETTER / LEAD MAGNET ═══ */}
       <section className="py-16 px-4 sm:px-6 bg-[#c70000]">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-white/70 text-xs uppercase tracking-widest font-semibold mb-3">
-            Stay connected
+            Free resource
           </p>
           <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-3">
-            The Patrick Group Local Intel
+            Get the 2026 Southeast Michigan Market Report
           </h2>
-          <p className="text-white/80 text-sm mb-6">
-            Monthly: local market updates, community events, featured listings,
-            and real estate insights for Southeast Michigan.
+          <p className="text-white/80 text-sm mb-2">
+            Median sale prices, days on market, and year-over-year trends across Oakland, Macomb, Wayne, Washtenaw, and Livingston counties — straight from Realcomp.
+          </p>
+          <p className="text-white/60 text-xs mb-6">
+            Plus monthly local intel: market shifts, featured listings, and real estate insights delivered to your inbox.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input
@@ -475,9 +478,9 @@ export default function HomePage() {
             />
             <button
               type="submit"
-              className="bg-[#1a1a1a] text-white font-semibold px-6 py-3 text-sm rounded-sm hover:bg-black transition-colors"
+              className="bg-[#1a1a1a] text-white font-semibold px-6 py-3 text-sm rounded-sm hover:bg-black transition-colors whitespace-nowrap"
             >
-              Subscribe Free
+              Send Me the Report
             </button>
           </form>
           <p className="text-white/50 text-xs mt-3">

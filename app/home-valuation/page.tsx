@@ -118,7 +118,7 @@ export default function HomeValuationPage() {
                       Pricing strategy changes in every market
                     </p>
                     <p className="text-sm text-gray-500">
-                      The 2024 rate environment is different from 2021 or 2019.
+                      The 2026 market is different from 2021, 2022, or 2019.
                       You need an agent who has sold through all of them.
                     </p>
                   </div>

@@ -10,12 +10,8 @@ export const metadata: Metadata = {
 
 const buyerBenefits = [
   {
-    title: "Transparent, negotiable representation fees",
-    desc: "Our buyer representation fees are transparent and negotiable. We prioritize structuring your offer so that our professional services are funded through seller-paid concessions whenever possible, ensuring you get expert advocacy throughout the transaction.",
-  },
-  {
     title: "Brad's mortgage background",
-    desc: "Brad started his career in mortgage lending. He understands financing at a level most agents never reach — which means better offers and fewer surprises at closing.",
+    desc: "Brad started his career in mortgage lending. He understands financing at a level most agents never reach — which means better-structured offers, fewer surprises at closing, and an edge in competitive situations.",
   },
   {
     title: "Access before it hits Zillow",
@@ -26,12 +22,16 @@ const buyerBenefits = [
     desc: "Brad doesn't just write an offer — he develops a strategy. Multiple offers? He's been there. He knows how to win without overpaying.",
   },
   {
+    title: "Principal Broker oversight on every transaction",
+    desc: "Every deal at The Patrick Group has Sarah Patrick behind it — a licensed Principal Broker since 2000 with over 26 years navigating every market cycle Metro Detroit has seen. That level of brokerage experience, market depth, and accountability isn't something most teams can offer. It's your protection from contract to close.",
+  },
+  {
     title: "One relationship, all the way to close",
     desc: "We work with a carefully vetted network of local lenders and title professionals who share our standards. Contact us for our list of trusted service providers.",
   },
   {
-    title: "Principal Broker oversight on every transaction",
-    desc: "Every deal at The Patrick Group has Sarah Patrick behind it — a licensed Principal Broker since 2000 with over 26 years navigating every market cycle Metro Detroit has seen. That level of brokerage experience, market depth, and accountability isn't something most teams can offer. It's your protection from contract to close.",
+    title: "Transparent, negotiable representation fees",
+    desc: "Our buyer representation fees are transparent and negotiable. We prioritize structuring your offer so that our professional services are funded through seller-paid concessions whenever possible, ensuring you get expert advocacy throughout the transaction.",
   },
   {
     title: "Patience and education",
@@ -247,6 +247,11 @@ export default function BuyingPage() {
               </div>
             ))}
           </div>
+          <div className="mt-8 text-center">
+            <Link href="/reviews" className="text-sm text-[#c70000] font-semibold hover:underline">
+              See all client reviews →
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -343,6 +348,10 @@ export default function BuyingPage() {
           Relocating from out of state?{" "}
           <Link href="/relocation" className="underline hover:text-white/70">
             See our relocation services →
+          </Link>
+          {" · "}
+          <Link href="/new-construction" className="underline hover:text-white/70">
+            Interested in new construction? →
           </Link>
         </p>
       </section>

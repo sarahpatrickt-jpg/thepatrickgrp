@@ -109,6 +109,8 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 mb-6">
               {[
+                { href: "/cash-offer",           label: "Cash Offer Program" },
+                { href: "/new-construction",     label: "New Construction" },
                 { href: "/divorce-real-estate", label: "Divorce Real Estate" },
                 { href: "/relocation",          label: "Relocating to Michigan" },
                 { href: "/downsizing",          label: "Downsizing" },
@@ -129,8 +131,13 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               {[
-                { href: "/about",     label: "Our Team" },
-                { href: "/newsletter", label: "Newsletter" },
+                { href: "/about",          label: "Our Team" },
+                { href: "/reviews",        label: "Client Reviews" },
+                { href: "/neighborhoods",  label: "Neighborhood Guides" },
+                { href: "/market-updates", label: "Market Reports" },
+                { href: "/faq",            label: "FAQ" },
+                { href: "/contact",        label: "Contact Us" },
+                { href: "/newsletter",     label: "Newsletter" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
@@ -223,7 +230,7 @@ export default function Footer() {
             © {year} Oak &amp; Stone Real Estate | The Patrick Group. All rights reserved. | Sarah Patrick, Principal Broker.
           </p>
           <p className="text-white/30 text-xs">
-            408 East Street, Rochester, MI 48307 | Licensed in Michigan
+            408 East Street, Rochester, MI 48307 | Licensed in Michigan | Equal Housing Opportunity
           </p>
         </div>
       </div>

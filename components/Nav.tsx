@@ -8,9 +8,12 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/buying",               label: "Buy" },
   { href: "/selling",              label: "Sell" },
-  { href: "/home-valuation",       label: "Home Value" },
+  { href: "/cash-offer",           label: "Cash Offer" },
+  { href: "/neighborhoods",        label: "Neighborhoods" },
+  { href: "/new-construction",      label: "New Homes" },
   { href: "/divorce-real-estate",  label: "Divorce" },
   { href: "/relocation",           label: "Relocating" },
+  { href: "/market-updates",       label: "Market Reports" },
   { href: "/about",                label: "Our Team" },
 ];
 
