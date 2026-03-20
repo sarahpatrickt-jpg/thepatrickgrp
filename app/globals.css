@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ─── Brand Tokens ─── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-brand-red:    #c70000;
+  --color-brand-black:  #000000;
+  --color-brand-white:  #ffffff;
+  --color-brand-cream:  #faf9f7;
+  --color-brand-gray:   #f5f4f2;
+  --color-brand-mid:    #6b7280;
+  --color-brand-dark:   #1a1a1a;
+
+  --font-serif:  var(--font-playfair);
+  --font-sans:   var(--font-inter);
+
+  --background:  #ffffff;
+  --foreground:  #1a1a1a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── Base ─── */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Typography helpers ─── */
+.font-serif {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+/* ─── Red underline accent (used in section headings) ─── */
+.heading-underline {
+  position: relative;
+  display: inline-block;
+}
+.heading-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 48px;
+  height: 3px;
+  background: #c70000;
+}
+
+/* ─── Smooth anchor offset for sticky nav ─── */
+[id] {
+  scroll-margin-top: 80px;
+}
+
+/* ─── Custom prose styles ─── */
+.prose-brand a {
+  color: #c70000;
+  text-decoration: underline;
 }
