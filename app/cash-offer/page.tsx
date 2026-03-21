@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import CashOfferForm from "@/components/CashOfferForm";
 
 export const metadata: Metadata = {
   title: "Sell Your Home for Cash in Southeast Michigan | The Patrick Group",
@@ -377,52 +378,61 @@ export default function CashOfferPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
-          No obligation. No pressure.
-        </p>
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
-          Find Out What a Cash Offer Looks Like for Your Home.
-        </h2>
-        <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
-          A 15-minute call is all it takes. We&apos;ll learn about your situation,
-          explain how the program works, and give you an honest assessment of
-          whether it&apos;s the right path.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="tel:2487553545"
-            className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
-          >
-            Call Brad: 248.755.3545
-          </a>
-          <Link
-            href="/home-valuation"
-            className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
-          >
-            Get My Free Home Valuation
-          </Link>
+      {/* CTA + FORM */}
+      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+
+            {/* Left — copy */}
+            <div>
+              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+                No obligation. No pressure.
+              </p>
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+                Find Out What a Cash Offer Looks Like for Your Home.
+              </h2>
+              <p className="text-white/70 mb-6 text-sm leading-relaxed">
+                Fill out the form and we&apos;ll reach out within one business day.
+                Or call Brad directly — a 15-minute conversation is all it takes
+                to understand your options.
+              </p>
+              <a
+                href="tel:2487553545"
+                className="inline-block bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors mb-6"
+              >
+                Call Brad: 248.755.3545
+              </a>
+              <div className="space-y-2 text-sm text-white/50">
+                <p>✓ No repairs required &nbsp;·&nbsp; Sell as-is</p>
+                <p>✓ Close in as few as 14 days</p>
+                <p>✓ Licensed agent represents your interests</p>
+                <p>✓ Zero obligation to accept any offer</p>
+              </div>
+              <p className="text-white/30 text-xs mt-8">
+                Need a traditional listing instead?{" "}
+                <Link href="/selling" className="underline hover:text-white/60 transition-colors">
+                  See our full seller marketing program →
+                </Link>
+                {" · "}
+                <Link href="/divorce-real-estate" className="underline hover:text-white/60 transition-colors">
+                  Selling during a divorce →
+                </Link>
+              </p>
+            </div>
+
+            {/* Right — form */}
+            <div className="bg-white/5 border border-white/10 rounded-sm p-8">
+              <p className="text-white font-semibold text-lg mb-1">Request a Cash Offer</p>
+              <p className="text-white/50 text-sm mb-6">We&apos;ll respond within one business day.</p>
+              <CashOfferForm />
+            </div>
+
+          </div>
+          <p className="text-white/20 text-xs mt-10 text-center">
+            The Patrick Group · Oak &amp; Stone Real Estate · Sarah Patrick, Principal Broker · Licensed in Michigan ·
+            We connect sellers with vetted investors. We do not purchase properties directly. All offers are no-obligation.
+          </p>
         </div>
-        <p className="text-white/40 text-xs mt-6">
-          The Patrick Group · Oak &amp; Stone Real Estate · Sarah Patrick, Principal Broker · Licensed in Michigan{" "}
-          <br className="hidden sm:block" />
-          We connect sellers with vetted investors. We do not purchase properties directly. All offers are no-obligation.
-        </p>
-        <p className="mt-4 text-white/30 text-xs">
-          Need a traditional listing instead?{" "}
-          <Link href="/selling" className="underline hover:text-white/60 transition-colors">
-            See our full seller marketing program →
-          </Link>
-          {" · "}
-          <Link href="/divorce-real-estate" className="underline hover:text-white/60 transition-colors">
-            Selling during a divorce →
-          </Link>
-          {" · "}
-          <Link href="/estate-sales" className="underline hover:text-white/60 transition-colors">
-            Estate &amp; probate sales →
-          </Link>
-        </p>
       </section>
     </>
   );

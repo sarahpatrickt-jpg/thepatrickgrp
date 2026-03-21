@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 
-const FORMSPREE_ID = "xaqpvzkp";
-
 type Status = "idle" | "loading" | "success" | "error";
 
 const inputClass =
@@ -18,16 +16,38 @@ export default function VipSignupForm() {
     e.preventDefault();
     setStatus("loading");
     const form = e.currentTarget;
-    const data = new FormData(form);
+    const fd = new FormData(form);
 
-    // Add a subject line for the email notification
-    data.append("_subject", "New VIP Buyer List Signup — The Patrick Group");
+    const firstName = fd.get("firstName") as string;
+    const lastName = fd.get("lastName") as string;
+    const email = fd.get("email") as string;
+    const phone = fd.get("phone") as string;
+    const preferredArea = fd.get("preferredArea") as string;
+    const priceRange = fd.get("priceRange") as string;
+    const beds = fd.get("beds") as string;
+
+    const note = [
+      preferredArea ? `Preferred area: ${preferredArea}` : "",
+      priceRange ? `Price range: ${priceRange}` : "",
+      beds ? `Bedrooms: ${beds}` : "",
+    ]
+      .filter(Boolean)
+      .join(" | ");
 
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch("/api/sierra-lead", {
         method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          email,
+          phone,
+          leadType: 1, // Buyer
+          source: "thepatrickgrp.com - VIP Buyers",
+          note,
+          tags: ["vip-buyer", "coming-soon-list"],
+        }),
       });
       if (res.ok) {
         setStatus("success");
