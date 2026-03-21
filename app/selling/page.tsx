@@ -175,7 +175,7 @@ export default function SellingPage() {
                   ["Direct mail", "Rarely", "Targeted postcards to your neighbors"],
                   ["Platform syndication", "Zillow + Realtor.com", "15+ platforms simultaneously"],
                   ["Buyer feedback", "Rarely shared", "Regular showing feedback reports"],
-                  ["Listing contract exit", "Locked in", "Unconditional Release Guarantee"],
+                  ["Listing contract exit", "Locked in", "Unconditional Release Guarantee*"],
                 ].map(([feature, them, us]) => (
                   <tr key={feature}>
                     <td className="py-4 pr-8 text-white/50 text-xs font-medium uppercase tracking-wide">
@@ -266,7 +266,7 @@ export default function SellingPage() {
             Zero risk
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold mb-6">
-            The Unconditional Release Guarantee
+            The Unconditional Release Guarantee*
           </h2>
           <p className="text-white/70 text-lg leading-relaxed mb-6 max-w-2xl mx-auto">
             &ldquo;If at any time you are unhappy with our service, simply provide
@@ -277,6 +277,9 @@ export default function SellingPage() {
             No high-volume team. No national portal agent. No discount brokerage.
             <br />
             None of them can make this offer credibly. We can.
+          </p>
+          <p className="text-white/30 text-xs mt-6">
+            * Applies to active listings only. Once an offer has been accepted, the listing agreement can no longer be withdrawn.
           </p>
           <div className="mt-8">
             <Link

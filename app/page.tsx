@@ -57,7 +57,7 @@ const differentiators = [
   },
   {
     icon: "📜",
-    title: "Unconditional Release Guarantee",
+    title: "Unconditional Release Guarantee*",
     body: "If you're ever unhappy with our service, just say so in writing and we'll release you from your listing contract. No other team can offer this credibly.",
   },
   {
@@ -448,8 +448,11 @@ export default function HomePage() {
             </Link>
           </div>
           <p className="mt-4 text-xs text-gray-400">
-            Unconditional Release Guarantee — if you&apos;re not satisfied, we&apos;ll
+            Unconditional Release Guarantee* — if you&apos;re not satisfied, we&apos;ll
             release you from your listing contract.
+          </p>
+          <p className="mt-2 text-xs text-gray-300">
+            * Applies to active listings only. Once an offer has been accepted, the listing agreement can no longer be withdrawn.
           </p>
         </div>
       </section>

@@ -54,7 +54,7 @@ const sellerFaqs = [
   },
   {
     q: "What is your Unconditional Release Guarantee?",
-    a: "If at any point during our listing agreement you are unhappy with our service, you may notify us in writing and we will release you from the contract. No fees, no penalties. We believe that a listing relationship should be earned continuously — not locked in by contract.",
+    a: "If at any point during our listing agreement you are unhappy with our service, you may notify us in writing and we will release you from the contract. No fees, no penalties. We believe that a listing relationship should be earned continuously — not locked in by contract. This guarantee applies to active listings only; once an offer has been accepted, the listing agreement can no longer be withdrawn.",
   },
   {
     q: "What are typical seller closing costs in Michigan?",

@@ -144,13 +144,16 @@ export default function HomeValuationPage() {
                   Our Guarantee
                 </p>
                 <p className="font-serif text-lg font-bold mb-2">
-                  Unconditional Release
+                  Unconditional Release*
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed">
                   If at any time you&apos;re unhappy with our service, simply provide
                   written notice and we will unconditionally release you from
                   your listing contract. No other team in Southeast Michigan can say
                   this credibly.
+                </p>
+                <p className="text-white/30 text-xs mt-3">
+                  * Applies to active listings only. Once an offer has been accepted, the listing agreement can no longer be withdrawn.
                 </p>
               </div>
 

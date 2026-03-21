@@ -168,13 +168,16 @@ export default function DownsizingPage() {
               </div>
               <div className="bg-[#1a1a1a] text-white p-6 rounded-sm">
                 <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
-                  Unconditional Release Guarantee
+                  Unconditional Release Guarantee*
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed">
                   If at any point you&apos;re unhappy with our service, provide
                   written notice and we will unconditionally release you from
                   your listing contract. No other team in Southeast Michigan
                   can say this credibly.
+                </p>
+                <p className="text-white/30 text-xs mt-3">
+                  * Applies to active listings only. Once an offer has been accepted, the listing agreement can no longer be withdrawn.
                 </p>
               </div>
             </div>
