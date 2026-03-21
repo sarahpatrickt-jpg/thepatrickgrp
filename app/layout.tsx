@@ -5,6 +5,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ExitIntentPopup from "@/components/ExitIntentPopup";
+import Script from "next/script";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -150,6 +151,18 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col antialiased bg-white text-[#1a1a1a]">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DPFLY88Y4D"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DPFLY88Y4D');
+          `}
+        </Script>
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
