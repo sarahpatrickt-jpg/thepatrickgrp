@@ -242,7 +242,7 @@ export const cities: City[] = [
       "Oakland University located adjacent to Rochester Hills, approximately 3 miles from downtown",
     ],
     schoolInfo:
-      "Rochester is served by the Rochester Community School District. Adams and Rochester High Schools serve the secondary level. Verify address-specific school assignments with the district before purchasing.",
+      "Rochester is served by the Rochester Community School District. Adams, Rochester, and Stoney Creek High Schools serve the secondary level. Verify address-specific school assignments with the district before purchasing.",
     bradQuote:
       "Rochester punches above its weight class in almost every measurable category — the downtown, the Paint Creek Trail, the community feel. What surprises buyers is how competitive it is; you'd think a city this size would have more inventory, but demand consistently outpaces supply. If you want Rochester, you need to move fast when the right one comes up.",
     quoteAuthor: "Brad",
@@ -255,7 +255,7 @@ export const cities: City[] = [
       },
       {
         q: "Is Rochester different from Rochester Hills?",
-        a: "Yes — they're two separate municipalities. Rochester is a small city with a distinct downtown village. Rochester Hills is a much larger city with a suburban character and no comparable downtown. Both share the Rochester Community School District, but the lifestyle and price point differ.",
+        a: "Yes — they're two separate municipalities. Rochester is a small city with a distinct downtown village. Rochester Hills is a much larger city with a suburban character and no comparable downtown. Both share the Rochester Community School District (Adams, Rochester, and Stoney Creek High Schools), but the lifestyle and price point differ.",
       },
       {
         q: "Are there condos or townhomes available in Rochester?",
