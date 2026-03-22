@@ -3,27 +3,46 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
+// Module-level flag persists across React remounts for the lifetime of the browser tab
+let popupHasShown = false;
+
+function markShown() {
+  popupHasShown = true;
+  try {
+    sessionStorage.setItem("exitPopupShown", "1");
+  } catch {
+    // ignore private-browsing storage errors
+  }
+}
+
+function alreadyShown() {
+  if (popupHasShown) return true;
+  try {
+    return !!sessionStorage.getItem("exitPopupShown");
+  } catch {
+    return false;
+  }
+}
+
 export default function ExitIntentPopup() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Show once per session
-    if (sessionStorage.getItem("exitPopupShown")) return;
+    if (alreadyShown()) return;
 
     // Desktop: detect cursor leaving viewport through top edge
     const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY <= 0) {
-        if (sessionStorage.getItem("exitPopupShown")) return;
+      if (e.clientY <= 0 && !alreadyShown()) {
+        markShown();
         setVisible(true);
-        sessionStorage.setItem("exitPopupShown", "1");
       }
     };
 
     // Mobile fallback: show after 60 seconds of engagement
     const timer = setTimeout(() => {
-      if (!sessionStorage.getItem("exitPopupShown")) {
+      if (!alreadyShown()) {
+        markShown();
         setVisible(true);
-        sessionStorage.setItem("exitPopupShown", "1");
       }
     }, 60000);
 
@@ -34,7 +53,10 @@ export default function ExitIntentPopup() {
     };
   }, []);
 
-  const dismiss = () => setVisible(false);
+  const dismiss = () => {
+    markShown(); // prevent any pending trigger from re-opening
+    setVisible(false);
+  };
 
   if (!visible) return null;
 
