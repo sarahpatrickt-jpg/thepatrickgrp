@@ -30,25 +30,29 @@ export default function ExitIntentPopup() {
   useEffect(() => {
     if (alreadyShown()) return;
 
-    // Desktop: detect cursor leaving viewport through top edge
-    const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY <= 0 && !alreadyShown()) {
-        markShown();
-        setVisible(true);
-      }
+    // Single-fire trigger — once called, removes the listener and clears the timer
+    let fired = false;
+    const trigger = () => {
+      if (fired || alreadyShown()) return;
+      fired = true;
+      markShown();
+      document.documentElement.removeEventListener("mouseleave", handleMouseLeave);
+      clearTimeout(timer);
+      setVisible(true);
     };
 
-    // Mobile fallback: show after 60 seconds of engagement
-    const timer = setTimeout(() => {
-      if (!alreadyShown()) {
-        markShown();
-        setVisible(true);
-      }
-    }, 60000);
+    // Desktop: detect cursor leaving viewport through top edge
+    // { once: true } auto-removes the listener after first fire as a second safeguard
+    const handleMouseLeave = (e: MouseEvent) => {
+      if (e.clientY <= 0) trigger();
+    };
 
-    document.addEventListener("mouseleave", handleMouseLeave);
+    // Mobile / long-session fallback: show after 45 seconds of engagement
+    const timer = setTimeout(trigger, 45000);
+
+    document.documentElement.addEventListener("mouseleave", handleMouseLeave, { once: true });
     return () => {
-      document.removeEventListener("mouseleave", handleMouseLeave);
+      document.documentElement.removeEventListener("mouseleave", handleMouseLeave);
       clearTimeout(timer);
     };
   }, []);
