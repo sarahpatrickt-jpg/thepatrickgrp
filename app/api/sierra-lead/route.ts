@@ -51,7 +51,7 @@ export async function POST(req: NextRequest) {
       const err = await res.text();
       console.error("Sierra API error:", err);
       return NextResponse.json(
-        { error: "Lead submission failed. Please try again." },
+        { error: "Lead submission failed.", detail: err, keyPresent: !!process.env.SIERRA_API_KEY, keyLength: (process.env.SIERRA_API_KEY || "").length },
         { status: 500 }
       );
     }
