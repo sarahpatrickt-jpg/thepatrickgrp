@@ -172,8 +172,7 @@ export default function HomePage() {
 
           {/* Social proof micro-line */}
           <p className="mt-6 text-white/40 text-sm">
-            Hour Detroit Real Estate All-Stars &nbsp;·&nbsp; Real Producers Top
-            300 &nbsp;·&nbsp; Licensed Since 2000
+            Hour Detroit Real Estate All-Stars &nbsp;·&nbsp; Real Producers Top 300
           </p>
         </div>
 
@@ -209,11 +208,6 @@ export default function HomePage() {
                 label: "Featured in",
                 title: "Real Producers",
                 sub: "Oakland County Top 300 · 2026",
-              },
-              {
-                label: "Licensed since",
-                title: "2000",
-                sub: "26 Years · Every Market Cycle",
               },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-12">
@@ -363,8 +357,8 @@ export default function HomePage() {
                 Sarah &amp; Brad Patrick
               </h2>
               <p className="text-white/70 text-base leading-relaxed mb-5">
-                Sarah Patrick has been a licensed Principal Broker in Michigan
-                since 2000. Brad Patrick brings 15+ years of real estate
+                Sarah Patrick is a licensed Principal Broker in Michigan.
+                Brad Patrick brings 15+ years of real estate
                 experience on top of a prior career in mortgage lending.
                 Together — with Christian Brown and Christian Wodtke — The
                 Patrick Group is a team that outperforms individuals at every

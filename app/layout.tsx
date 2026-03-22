@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | The Patrick Group",
   },
   description:
-    "The Patrick Group — Southeast Michigan real estate specialists. 26 years of experience, boutique service. Led by Sarah Patrick, Principal Broker.",
+    "The Patrick Group — Southeast Michigan real estate specialists. Boutique service, deep local knowledge. Led by Sarah Patrick, Principal Broker.",
   metadataBase: new URL("https://thepatrickgrp.com"),
   verification: {
     google: "DMvVDBTW9H-kSbHatJUzmNyGPErhzEAs0cBcePYjZrc",

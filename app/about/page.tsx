@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
   description:
-    "Meet Sarah Patrick, Brad Patrick, Christian Brown, Christian Wodtke, and the rest of The Patrick Group — Southeast Michigan's boutique real estate team. 26 years of experience, multiple awards, results-driven service.",
+    "Meet Sarah Patrick, Brad Patrick, Christian Brown, Christian Wodtke, and the rest of The Patrick Group — Southeast Michigan's boutique real estate team. Multiple awards, results-driven service.",
   alternates: { canonical: "https://thepatrickgrp.com/about" },
 };
 
@@ -23,7 +23,7 @@ A consecutive recipient of the Hour Detroit Real Estate All-Stars honor and a fe
 As a broker-owner, Sarah brings a level of accountability to every transaction that a typical agent simply cannot offer. Whether she's guiding a family through a move-up purchase, navigating a sensitive divorce situation, or helping out-of-state buyers find their place in Southeast Michigan, her approach is the same: knowledgeable, calm, and entirely focused on you.`,
     credentials: [
       "Principal Broker / Owner — Oak and Stone Real Estate",
-      "Licensed since 2000 — 26 years",
+      "Licensed since 2000",
       "Hour Detroit Real Estate All-Stars — multiple years",
       "Top Producers Magazine — February 2022 Feature",
       "Award-winning service — Hour Detroit All-Stars",
@@ -142,7 +142,7 @@ export default function AboutPage() {
           </p>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
             We&apos;re The Patrick Group.{" "}
-            <span className="text-[#c70000]">We&apos;ve Been Doing This Since 2000.</span>
+            <span className="text-[#c70000]">Southeast Michigan&apos;s Boutique Team.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed">
             A boutique real estate team built on results and relationships. We

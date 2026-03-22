@@ -60,7 +60,7 @@ const buyerBenefits = [
   },
   {
     title: "Principal Broker oversight on every transaction",
-    desc: "Every deal at The Patrick Group has Sarah Patrick behind it — a licensed Principal Broker since 2000 with over 26 years navigating every market cycle Metro Detroit has seen. That level of brokerage experience, market depth, and accountability isn't something most teams can offer. It's your protection from contract to close.",
+    desc: "Every deal at The Patrick Group has Sarah Patrick behind it — a licensed Principal Broker who has navigated every market cycle Metro Detroit has seen. That level of brokerage experience, market depth, and accountability isn't something most teams can offer. It's your protection from contract to close.",
   },
   {
     title: "One relationship, all the way to close",

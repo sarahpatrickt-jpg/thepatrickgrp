@@ -36,7 +36,7 @@ const contentPillars = [
   },
   {
     icon: "🤝",
-    title: "Referral Spotlight",
+    title: "Local Spotlight",
     desc: "We highlight trusted local businesses and service providers — because your home needs more than just an agent.",
   },
 ];
