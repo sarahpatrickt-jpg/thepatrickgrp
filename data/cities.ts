@@ -358,7 +358,7 @@ export const cities: City[] = [
     schoolInfo:
       "Troy is served by the Troy School District, which consistently ranks among the top public school systems in Oakland County and Michigan. Athens and Troy High Schools serve secondary students, and school assignment depends on address-specific boundaries within the city.",
     bradQuote:
-      "I've been selling homes in Troy since 2000 and I cannot think of a market in Southeast Michigan with more consistent fundamentals. Great schools, major employers right there, highway access in every direction — Troy has held value through every downturn I've witnessed. When clients are nervous about making a move in this market, I often point them to Troy because the data does the reassuring.",
+      "I've been selling homes in Troy since 2000 and I cannot think of a market in Southeast Michigan with more consistent fundamentals. Award-winning schools, major employers right there, highway access in every direction — Troy has held value through every downturn I've witnessed. When clients are nervous about making a move in this market, I often point them to Troy because the data does the reassuring.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["rochester-hills-mi", "birmingham-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Troy MI")}`,
@@ -700,7 +700,7 @@ export const cities: City[] = [
     schoolInfo:
       "Novi Community School District serves the city and is consistently ranked among Oakland County's top districts. Novi High School is the sole secondary school. The district's academic performance and extracurricular programming attract families from across the metro area.",
     bradQuote:
-      "Novi is one of the most well-rounded markets in Oakland County right now. You've got great schools, new construction still available, lake access options, and I-96 right there. Buyers who've been comparing Novi to West Bloomfield or Bloomfield Township often end up in Novi because you get more for your dollar and the school district is legitimately excellent.",
+      "Novi is one of the most well-rounded markets in Oakland County right now. You've got award-winning schools, new construction still available, lake access options, and I-96 right there. Buyers who've been comparing Novi to West Bloomfield or Bloomfield Township often end up in Novi because you get more for your dollar and the school district is legitimately excellent.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["west-bloomfield-mi", "bloomfield-township-mi", "northville-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Novi MI")}`,
