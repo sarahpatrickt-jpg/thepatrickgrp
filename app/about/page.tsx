@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
   description:
-    "Meet Sarah Patrick, Brad Patrick, Christian Brown, Christian Wodtke, and the rest of The Patrick Group — Southeast Michigan's boutique real estate team. 26 years of experience, multiple awards, referral-based business.",
+    "Meet Sarah Patrick, Brad Patrick, Christian Brown, Christian Wodtke, and the rest of The Patrick Group — Southeast Michigan's boutique real estate team. 26 years of experience, multiple awards, results-driven service.",
   alternates: { canonical: "https://thepatrickgrp.com/about" },
 };
 
@@ -26,7 +26,7 @@ As a broker-owner, Sarah brings a level of accountability to every transaction t
       "Licensed since 2000 — 26 years",
       "Hour Detroit Real Estate All-Stars — multiple years",
       "Top Producers Magazine — February 2022 Feature",
-      "Referral-based business model",
+      "Award-winning service — Hour Detroit All-Stars",
     ],
   },
   {
@@ -145,9 +145,9 @@ export default function AboutPage() {
             <span className="text-[#c70000]">We&apos;ve Been Doing This Since 2000.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed">
-            A boutique real estate team built on referrals, not advertising. Our
-            clients send us their friends and family because we do our job the
-            way it was supposed to be done.
+            A boutique real estate team built on results and relationships. We
+            do our job the way it was supposed to be done — and our clients
+            remember that.
           </p>
         </div>
       </section>

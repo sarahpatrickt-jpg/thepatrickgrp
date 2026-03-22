@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | The Patrick Group",
   },
   description:
-    "The Patrick Group — Southeast Michigan real estate specialists. 26 years of experience, boutique service, referral-based business. Led by Sarah Patrick, Principal Broker.",
+    "The Patrick Group — Southeast Michigan real estate specialists. 26 years of experience, boutique service. Led by Sarah Patrick, Principal Broker.",
   metadataBase: new URL("https://thepatrickgrp.com"),
   verification: {
     google: "DMvVDBTW9H-kSbHatJUzmNyGPErhzEAs0cBcePYjZrc",
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
     siteName: "The Patrick Group",
     title: "The Patrick Group | Southeast Michigan Real Estate Experts",
     description:
-      "Boutique real estate service from Southeast Michigan's most trusted team. Referral-based. Leading You Home.",
+      "Boutique real estate service from Southeast Michigan's most trusted team. Leading You Home.",
   },
   twitter: {
     card: "summary_large_image",
     title: "The Patrick Group | Southeast Michigan Real Estate Experts",
     description:
-      "Boutique real estate service from Southeast Michigan's most trusted team. Referral-based.",
+      "Boutique real estate service from Southeast Michigan's most trusted team.",
   },
   robots: {
     index: true,

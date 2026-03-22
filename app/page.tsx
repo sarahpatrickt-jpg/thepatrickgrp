@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Southeast Michigan Real Estate | The Patrick Group",
   description:
-    "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Referral-based. Leading You Home.",
+    "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
   alternates: { canonical: "https://thepatrickgrp.com" },
 };
 
@@ -39,11 +39,6 @@ const differentiators = [
     icon: "🏆",
     title: "26 Years of Experience",
     body: "Sarah Patrick has navigated every market cycle since 2000 — the 2008 crash, the COVID spike, the 2022 rate shock. Experience like that doesn't come from Zillow.",
-  },
-  {
-    icon: "🤝",
-    title: "Referral-Based Business",
-    body: "Most of our clients come from other happy clients. That's the highest trust signal in real estate — and the reason we don't need to buy leads.",
   },
   {
     icon: "🏡",
@@ -219,11 +214,6 @@ export default function HomePage() {
                 label: "Licensed since",
                 title: "2000",
                 sub: "26 Years · Every Market Cycle",
-              },
-              {
-                label: "Business model",
-                title: "Referral-Based",
-                sub: "Clients Send Their Friends",
               },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-12">
