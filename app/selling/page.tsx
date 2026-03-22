@@ -8,6 +8,43 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thepatrickgrp.com/selling" },
 };
 
+const sellingFaqs = [
+  {
+    q: "How long does it take to sell a home in Southeast Michigan?",
+    a: "In March 2026, average days on market ranged from 15 days in Washtenaw County to 18 days in Macomb County. Well-priced, well-prepared homes in strong condition continue to sell quickly. The Patrick Group's listings have consistently performed at or above county averages due to pre-market agent outreach and professional marketing.",
+  },
+  {
+    q: "What does it cost to sell a home in Southeast Michigan?",
+    a: "Sellers in Michigan typically pay 7–9% of the sale price at closing, which includes real estate commissions, Michigan state transfer tax ($7.50 per $1,000), county transfer tax (varies by county), and any buyer concessions negotiated in the offer. Title insurance is customarily paid by the seller in Michigan. We provide a full net proceeds estimate at your listing consultation.",
+  },
+  {
+    q: "What is the Unconditional Release Guarantee?",
+    a: "If at any point during our listing agreement you are unhappy with our service, you may notify us in writing and we will release you from the listing contract — no fees, no penalties. This applies to active listings only; once an offer has been accepted, the agreement can no longer be withdrawn.",
+  },
+  {
+    q: "How do you market a home differently than other agents?",
+    a: "Every Patrick Group listing receives professional photography, a custom property website, full video walkthrough on YouTube, and a broker preview sent to approximately 300 agents who have recently sold in your area before the home hits the public MLS. This pre-market exposure creates competition before most buyers even know the home exists.",
+  },
+  {
+    q: "Should I make repairs before listing my home?",
+    a: "Fix anything a buyer's inspector is likely to flag — deferred maintenance creates perceived risk and weakens your negotiating position. Cosmetic updates like fresh paint, landscaping, and decluttering almost always return dollar-for-dollar or better. Major renovations rarely pay back fully in a sale context. We walk through a prioritized prep list during your listing consultation.",
+  },
+  {
+    q: "What is the median home sale price in Southeast Michigan right now?",
+    a: "As of March 2026, median sale prices by county are: Washtenaw County $420,000 (+2.4% YoY), Livingston County $404,000 (+2.3%), Oakland County $367,000 (+4.2%), Macomb County $270,000 (+4.7%), and Wayne County $202,000 (+6.2%). Data sourced from Realcomp MLS.",
+  },
+];
+
+const sellingFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: sellingFaqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: { "@type": "Answer", text: faq.a },
+  })),
+};
+
 const marketingToolkit = [
   {
     icon: "📸",
@@ -329,6 +366,32 @@ export default function SellingPage() {
             <Link href="/reviews" className="text-sm text-[#c70000] font-semibold hover:underline">
               See all client reviews →
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(sellingFaqSchema) }}
+      />
+      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-8 text-center">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            {sellingFaqs.map((faq, i) => (
+              <details key={i} className="bg-white border border-gray-100 rounded-sm group">
+                <summary className="px-6 py-4 cursor-pointer font-semibold text-[#1a1a1a] list-none flex justify-between items-center hover:text-[#c70000] transition-colors">
+                  {faq.q}
+                  <span className="text-[#c70000] ml-4 shrink-0 group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="px-6 pb-5 text-sm text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
           </div>
         </div>
       </section>

@@ -8,6 +8,43 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thepatrickgrp.com/buying" },
 };
 
+const buyingFaqs = [
+  {
+    q: "Do I need a buyer's agent when purchasing a home in Michigan?",
+    a: "You are not legally required to have a buyer's agent in Michigan, but it is strongly recommended. The seller's agent represents the seller's interests — not yours. A buyer's agent negotiates on your behalf, reviews contracts for red flags, coordinates inspections, and guides you through every step at no direct cost to you in most transactions.",
+  },
+  {
+    q: "How much does a buyer's agent cost in Southeast Michigan?",
+    a: "In most transactions, buyer's agent compensation is negotiated as part of the purchase offer and is often covered through seller-paid concessions, meaning buyers typically pay nothing out of pocket for professional representation. The Patrick Group's buyer representation fees are transparent and negotiable — we explain the structure clearly before you sign anything.",
+  },
+  {
+    q: "What is the VIP Coming Soon Buyer List?",
+    a: "The Patrick Group maintains a network of approximately 300 Southeast Michigan agents. When a home enters 'Coming Soon' status, our VIP buyers receive advance notice before the property appears on Zillow or Realtor.com. In competitive markets, this head start can be the difference between getting the home or missing it.",
+  },
+  {
+    q: "How long does it take to buy a home in Southeast Michigan?",
+    a: "From accepted offer to closing, most Michigan residential transactions close in 30–45 days. The search process varies — some buyers find the right home in one weekend, others take several months. As of March 2026, average days on market range from 15–18 days across Southeast Michigan counties, meaning well-priced homes move quickly.",
+  },
+  {
+    q: "Why does Brad's mortgage background matter when buying a home?",
+    a: "Brad Patrick began his career in mortgage lending before transitioning to real estate. This means he understands how loans are underwritten, how financing contingencies should be structured, and how to spot terms in a purchase agreement that could create problems at closing. Most buyer's agents don't have this background — it gives The Patrick Group clients a meaningful edge in offer strategy and negotiation.",
+  },
+  {
+    q: "Which Southeast Michigan cities and counties does The Patrick Group serve?",
+    a: "The Patrick Group serves buyers throughout Oakland County (Rochester, Birmingham, Bloomfield Hills, Troy, Novi, Royal Oak), Macomb County (Shelby Township, Clinton Township, Macomb Township), Wayne County (Grosse Pointe, Plymouth, Livonia, Northville), Washtenaw County, and Livingston County.",
+  },
+];
+
+const buyingFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: buyingFaqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: { "@type": "Answer", text: faq.a },
+  })),
+};
+
 const buyerBenefits = [
   {
     title: "Brad's mortgage background",
@@ -255,8 +292,34 @@ export default function BuyingPage() {
         </div>
       </section>
 
+      {/* FAQ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buyingFaqSchema) }}
+      />
+      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-8 text-center">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            {buyingFaqs.map((faq, i) => (
+              <details key={i} className="bg-white border border-gray-100 rounded-sm group">
+                <summary className="px-6 py-4 cursor-pointer font-semibold text-[#1a1a1a] list-none flex justify-between items-center hover:text-[#c70000] transition-colors">
+                  {faq.q}
+                  <span className="text-[#c70000] ml-4 shrink-0 group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="px-6 pb-5 text-sm text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* SEARCH CTA */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Search now */}
