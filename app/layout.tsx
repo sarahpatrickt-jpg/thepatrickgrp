@@ -117,7 +117,7 @@ const localBusinessSchema = {
     {
       "@type": "Person",
       name: "Brad Patrick",
-      jobTitle: "Realtor® — Lead Buyer's Agent",
+      jobTitle: "Realtor®",
       url: "https://thepatrickgrp.com/about",
       email: "brad@youragentbrad.net",
       telephone: "+12487553545",

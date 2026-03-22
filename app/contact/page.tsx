@@ -103,7 +103,7 @@ export default function ContactPage() {
               {/* Brad */}
               <div className="border border-gray-100 rounded-sm p-6 bg-[#faf9f7]">
                 <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
-                  Realtor® · Lead Buyer&apos;s Agent
+                  Realtor®
                 </p>
                 <p className="font-serif text-xl font-bold text-[#1a1a1a] mb-3">
                   Brad Patrick

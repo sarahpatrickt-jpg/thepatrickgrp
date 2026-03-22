@@ -242,7 +242,7 @@ export default async function CityPage({ params }: Props) {
               <div>
                 <p className="text-white font-semibold text-sm">Brad Patrick</p>
                 <p className="text-white/60 text-xs">
-                  Realtor® — Lead Buyer&apos;s Agent, The Patrick Group
+                  Realtor®, The Patrick Group
                 </p>
               </div>
             </div>

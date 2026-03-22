@@ -407,7 +407,7 @@ export default function HomePage() {
                   Brad Patrick
                 </p>
                 <p className="text-[#c70000] text-xs uppercase tracking-widest mb-3">
-                  Realtor® · Lead Buyer&apos;s Agent
+                  Realtor®
                 </p>
                 <p className="text-white/60 text-sm">
                   15+ years · Mortgage background · Real Producers April 2026
