@@ -37,8 +37,8 @@ const testimonials = [
 const differentiators = [
   {
     icon: "🏆",
-    title: "26 Years of Experience",
-    body: "Sarah Patrick has navigated every market cycle since 2000 — the 2008 crash, the COVID spike, the 2022 rate shock. Experience like that doesn't come from Zillow.",
+    title: "Every Market Cycle",
+    body: "Sarah Patrick has navigated the 2008 crash, the COVID spike, and the 2022 rate shock. That depth of experience shapes every pricing, offer, and negotiation decision we make.",
   },
   {
     icon: "🏡",

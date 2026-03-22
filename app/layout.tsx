@@ -112,7 +112,7 @@ const localBusinessSchema = {
       email: "sarah@sarahpatrickhomes.com",
       sameAs: "https://www.linkedin.com/in/sarahkpatrick/",
       worksFor: { "@type": "Organization", name: "The Patrick Group | Oak and Stone Real Estate" },
-      description: "Sarah Patrick has been a licensed Principal Broker in Michigan since 2000, with 26 years of experience navigating every market cycle in Southeast Michigan.",
+      description: "Sarah Patrick is a licensed Principal Broker in Michigan and the owner of Oak and Stone Real Estate, serving Southeast Michigan buyers and sellers.",
     },
     {
       "@type": "Person",

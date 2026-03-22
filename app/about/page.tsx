@@ -16,7 +16,7 @@ const team = [
     photo: "/team/sarah-patrick.jpg",
     phone: "248.755.3545",
     email: "sarah@sarahpatrickhomes.com",
-    bio: `Sarah Patrick is the Principal Broker and Owner of Oak and Stone Real Estate and the driving force behind The Patrick Group — one of Southeast Michigan's most recognized real estate teams. With over 26 years of experience navigating every market cycle Metro Detroit has seen, Sarah has built a reputation not on advertising, but on results and relationships.
+    bio: `Sarah Patrick is the Principal Broker and Owner of Oak and Stone Real Estate and the driving force behind The Patrick Group — one of Southeast Michigan's most recognized real estate teams. With over 26 years of experience navigating every market cycle Metro Detroit has seen, Sarah has built a reputation on results and relationships.
 
 A consecutive recipient of the Hour Detroit Real Estate All-Stars honor and a featured broker in Top Producers Magazine, Sarah's credentials speak for themselves. But what her clients remember most is the experience: bespoke, attentive service from an agent who genuinely knows the market — and genuinely cares about the outcome.
 
