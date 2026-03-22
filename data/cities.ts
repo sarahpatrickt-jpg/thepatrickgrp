@@ -1384,7 +1384,7 @@ export const cities: City[] = [
     schoolInfo:
       "Romulus Community Schools serves the city and is a smaller district with a single high school. Buyers with school-age children should research current district programming and performance metrics. Some residents access Wayne-Westland Community Schools depending on specific address.",
     bradQuote:
-      "Romulus is for buyers who are running out of budget and need to be close to the airport or the I-94/I-275 corridors. It's not going to win awards for its downtown, but the price-per-square-foot is among the best in Wayne County, and for buyers who work in logistics, aviation, or the airport, it genuinely makes sense. I'd rather have a client in Romulus than in an overextended mortgage somewhere else.",
+      "If you're looking for a place where your dollar goes further and convenience is king, Romulus is the ultimate 'connected' suburb. Known as the Aerotropolis of Michigan, it's a hub of activity that manages to keep a cozy, small-town feel. It's perfect for people who want a quick commute to major employers like Amazon or Delta, or those who love being minutes away from Detroit Metro Airport for travel. With a cost of living below the national average and a massive investment in new infrastructure — like the Restore I-94 project and upgraded community facilities — it's an area on the rise that still feels grounded and welcoming.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["livonia-mi", "plymouth-mi", "detroit-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Romulus MI")}`,
