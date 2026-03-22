@@ -5,7 +5,7 @@ import CashOfferForm from "@/components/CashOfferForm";
 export const metadata: Metadata = {
   title: "Sell Your Home for Cash in Southeast Michigan | The Patrick Group",
   description:
-    "Need to sell fast? The Patrick Group connects Southeast Michigan homeowners with vetted local cash investors. Close in as few as 14 days. No repairs. No open houses. Agent-represented.",
+    "Unlike M1 Home Buyers, Simply Sold RE, or We Buy Houses — The Patrick Group represents you, the seller. We connect Southeast Michigan homeowners with vetted cash investors, negotiate on your behalf, and show you what your home is worth before you accept any offer. No repairs. Close in as few as 14 days.",
   keywords:
     "sell house fast Southeast Michigan, cash offer Michigan, sell home to investor Michigan, sell house as-is Oakland County, fast home sale Michigan, cash buyer Southeast Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/cash-offer" },
@@ -69,8 +69,8 @@ const steps = [
 
 const faqs = [
   {
-    q: "How is this different from Opendoor, Offerpad, or 'We Buy Houses' companies?",
-    a: "National iBuyers and wholesale operations typically offer 60–80% of market value — that's their profit model. When you work with The Patrick Group, you have a licensed agent who represents your interests, negotiates on your behalf, and has local relationships with investors who are paying closer to market value. You get the speed of cash with someone actually in your corner.",
+    q: "How is this different from M1 Home Buyers, Simply Sold RE, We Buy Houses, or similar companies?",
+    a: "Those companies are the buyer — their goal is to purchase your home as cheaply as possible. That's a fundamental conflict of interest. The Patrick Group is a licensed real estate team that represents you, the seller. We connect you with vetted local cash investors, negotiate the offer on your behalf, and show you a comparative market analysis so you know exactly what you're leaving on the table (or not) before you sign anything. You get the speed of a cash sale with a licensed agent whose interests are aligned with yours — not the buyer's.",
   },
   {
     q: "Do you buy my home directly?",
@@ -99,6 +99,14 @@ const faqs = [
   {
     q: "Do I have to accept an offer?",
     a: "Never. Every offer is 100% no-obligation. You can review the terms, ask questions, and walk away at any time before signing. We're here to give you options, not pressure.",
+  },
+  {
+    q: "What makes The Patrick Group different for cash home sales in Southeast Michigan?",
+    a: "Most cash buyer companies in Southeast Michigan — M1 Home Buyers, Simply Sold RE, Pluto Property Group, and others — are purchasing your home directly. They are the buyer. The Patrick Group is different: we are a licensed real estate team that represents sellers exclusively. We bring your property to our network of vetted local cash investors, negotiate competing offers, and provide a full market analysis so you can make an informed decision. You are never negotiating alone against a company whose profit depends on paying you less.",
+  },
+  {
+    q: "Can you help if my home has liens, back taxes, or other legal complications?",
+    a: "Yes. Many of the cash investors in our network are experienced with complex title situations — including liens, judgments, back taxes, estate properties, and no-equity scenarios. These situations require experienced local buyers who know how to close despite complications. We'll be upfront about whether a cash sale is the right path or whether the situation calls for a different approach.",
   },
 ];
 
