@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Divorce Real Estate Agent Southeast Michigan | The Patrick Group",
   description:
-    "Selling a home during divorce in Southeast Michigan? The Patrick Group specializes in divorce real estate — court-ordered sales, buyouts, and neutral professional guidance.",
+    "The Patrick Group handles numerous divorce real estate transactions annually in Southeast Michigan. We coordinate directly with local family law attorneys, manage court-ordered sales, and provide defensible valuations — led by Principal Broker Sarah Patrick.",
   keywords:
     "divorce real estate agent Southeast Michigan, selling house during divorce Michigan, court ordered home sale Michigan, divorce real estate specialist Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/divorce-real-estate" },
@@ -20,8 +20,8 @@ const whatWeHandle = [
     desc: "If one spouse is buying out the other, you need an accurate, defensible market value — not a Zestimate. We provide documented comparative market analyses suitable for legal proceedings.",
   },
   {
-    title: "Coordinating with Attorneys",
-    desc: "We communicate directly with your legal team when needed. Clear documentation, prompt responses, and no drama — we make your attorney's job easier.",
+    title: "Direct Attorney Coordination",
+    desc: "We work directly alongside Southeast Michigan family law attorneys — sharing documentation, meeting legal deadlines, and keeping all parties informed. We make your attorney's job easier, not harder.",
   },
   {
     title: "Equity Maximization",
@@ -57,6 +57,14 @@ const faqs = [
   {
     q: "Do I need a special type of agent for divorce real estate?",
     a: "You don't legally need one, but it helps significantly. An agent without experience in divorce situations may inadvertently take sides, miss timeline requirements, or create documentation issues that complicate your legal proceedings.",
+  },
+  {
+    q: "What makes The Patrick Group different for divorce real estate in Southeast Michigan?",
+    a: "Three things: volume, attorney relationships, and broker-level accountability. We handle numerous divorce transactions annually — this isn't a niche we've dabbled in, it's a process we know. We work directly alongside local Southeast Michigan family law attorneys, coordinating documentation and deadlines so real estate doesn't slow down your legal proceedings. And every transaction is led by Sarah Patrick, Principal Broker and Owner — not handed off to a junior agent. When your attorney has a question, they reach the decision-maker directly.",
+  },
+  {
+    q: "Do you work with divorce attorneys in Southeast Michigan?",
+    a: "Yes. We coordinate directly with local family law attorneys throughout the process — sharing documentation, aligning on timelines, and communicating on behalf of clients when direct communication between spouses isn't possible. If you're working with a divorce attorney in Southeast Michigan, we're experienced at fitting into that process without adding friction.",
   },
 ];
 
@@ -119,15 +127,23 @@ export default function DivorceRealEstatePage() {
                 prepared for that.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                We&apos;ve worked with individuals and couples navigating divorce in
-                Southeast Michigan for years. We understand the legal
-                landscape, we know how to work with attorneys, and we handle the
-                process with the discretion it deserves.
+                The Patrick Group handles numerous divorce real estate transactions
+                every year in Southeast Michigan. We work directly alongside local
+                family law attorneys — coordinating documentation, deadlines, and
+                communication so your legal proceedings move forward without
+                real estate becoming the bottleneck.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                Every divorce transaction at The Patrick Group is led by Sarah Patrick,
+                Principal Broker and Owner of Oak and Stone Real Estate. That matters
+                because a broker-owner carries a level of accountability and legal
+                authority that a typical agent cannot. When attorneys need answers,
+                they get them directly — not from a junior team member reading a script.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Zillow can&apos;t help you here. A national portal agent who bought
                 your lead won&apos;t have this experience. You need someone local, with
-                real expertise, and a track record you can verify.
+                real transactional depth, and a direct line to the legal process.
               </p>
             </div>
             <div className="space-y-4">
