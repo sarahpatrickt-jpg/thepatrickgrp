@@ -19,9 +19,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Email is required." }, { status: 400 });
     }
 
-    // Sierra requires a password field — we generate a non-guessable one
+    // Sierra requires a password field (max 30 chars) — we generate a non-guessable one
     // since these leads log into Sierra's portal, not our site
-    const password = crypto.randomUUID();
+    const password = crypto.randomUUID().replace(/-/g, "").slice(0, 30);
 
     const payload = {
       firstName: firstName || "",
@@ -51,7 +51,7 @@ export async function POST(req: NextRequest) {
       const err = await res.text();
       console.error("Sierra API error:", err);
       return NextResponse.json(
-        { error: "Lead submission failed.", detail: err, keyPresent: !!process.env.SIERRA_API_KEY, keyLength: (process.env.SIERRA_API_KEY || "").length },
+        { error: "Lead submission failed. Please try again." },
         { status: 500 }
       );
     }
