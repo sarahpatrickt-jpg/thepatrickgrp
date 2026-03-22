@@ -222,31 +222,42 @@ export default async function CityPage({ params }: Props) {
             </div>
           </div>
 
-          {/* Brad's Take */}
-          <div
-            className="rounded-sm p-8"
-            style={{
-              background: "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
-            }}
-          >
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
-              Brad&apos;s Take
-            </p>
-            <blockquote className="text-white text-lg leading-relaxed font-serif italic mb-6">
-              &ldquo;{city.bradQuote}&rdquo;
-            </blockquote>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center flex-shrink-0">
-                <span className="text-white/60 text-xs font-semibold">BP</span>
-              </div>
-              <div>
-                <p className="text-white font-semibold text-sm">Brad Patrick</p>
-                <p className="text-white/60 text-xs">
-                  Realtor®, The Patrick Group
+          {/* Agent's Take */}
+          {(() => {
+            const isSarah = city.quoteAuthor === "Sarah";
+            return (
+              <div
+                className="rounded-sm p-8"
+                style={{
+                  background: "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
+                }}
+              >
+                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+                  {isSarah ? "Sarah\u2019s Take" : "Brad\u2019s Take"}
                 </p>
+                <blockquote className="text-white text-lg leading-relaxed font-serif italic mb-6">
+                  &ldquo;{city.bradQuote}&rdquo;
+                </blockquote>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center flex-shrink-0">
+                    <span className="text-white/60 text-xs font-semibold">
+                      {isSarah ? "SP" : "BP"}
+                    </span>
+                  </div>
+                  <div>
+                    <p className="text-white font-semibold text-sm">
+                      {isSarah ? "Sarah Patrick" : "Brad Patrick"}
+                    </p>
+                    <p className="text-white/60 text-xs">
+                      {isSarah
+                        ? "Principal Broker, The Patrick Group"
+                        : "Realtor®, The Patrick Group"}
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            );
+          })()}
 
           {/* Location & Access */}
           <div className="bg-white p-8 rounded-sm border border-gray-100">

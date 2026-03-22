@@ -31,6 +31,7 @@ export interface City {
   locationAccess: string[];
   schoolInfo: string;
   bradQuote: string;
+  quoteAuthor: "Brad" | "Sarah";
   nearbySlugsSee: string[];
   sierraSearchUrl: string;
   faqs: CityFaq[];
@@ -72,7 +73,8 @@ export const cities: City[] = [
     schoolInfo:
       "Birmingham is served by the Birmingham City School District, which includes Seaholm High School and Groves High School at the secondary level, along with several elementary and middle school buildings. Boundary lines determine school assignments — we recommend verifying which school a specific property feeds into directly with the district.",
     bradQuote:
-      "Birmingham is where my buyers end up when lifestyle matters as much as the home itself. The walkability, the restaurants, the sense of community — you can't replicate that anywhere else in Oakland County. Just know that inventory moves fast here, and hesitation costs you.",
+      "I've watched Birmingham hold its value through the 2008 crash, the COVID spike, and the 2022 rate shock — it is one of the most resilient markets in Southeast Michigan. The walkable downtown isn't just a lifestyle feature, it's a value driver that has kept buyers competing here through every cycle I've worked. When a properly prepared Birmingham listing hits the market, the response is almost always immediate.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["bloomfield-hills-mi", "bloomfield-township-mi", "royal-oak-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Birmingham MI")}`,
     faqs: [
@@ -128,7 +130,8 @@ export const cities: City[] = [
     schoolInfo:
       "Bloomfield Hills is served by the Bloomfield Hills School District, which consistently ranks among Michigan's top public school districts. Andover and Lahser are the two high schools. Properties within the city boundary generally fall within this district, though edge properties should be verified with the district directly.",
     bradQuote:
-      "Bloomfield Hills is a different category of purchase — buyers here are often buying once, buying right, and aren't in a hurry. The homes are spectacular, but you need to go in with realistic eyes about renovation needs on older estates. I always tell clients: buy the land and the location first, because those don't change.",
+      "Bloomfield Hills requires a different kind of patience than most markets — I've learned that over 26 years of working here. Sellers need to understand that the buyer pool for $1M+ estates is smaller and more deliberate. Buyers need to understand that what they're purchasing is genuinely irreplaceable: the acreage, the privacy, the architectural character. When the right match happens here, it's remarkable.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["birmingham-mi", "bloomfield-township-mi", "west-bloomfield-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Bloomfield Hills MI")}`,
     faqs: [
@@ -185,6 +188,7 @@ export const cities: City[] = [
       "Bloomfield Hills School District serves most of Bloomfield Township, including Andover and Lahser High Schools — consistently among Michigan's top-ranked public schools. Some edge areas of the township may fall within Pontiac or Troy school districts; verify address-specific assignments with the district.",
     bradQuote:
       "Bloomfield Township gives you the Bloomfield Hills school district at a more accessible price point, and that combination is incredibly powerful for family buyers. You can get a lot more house here than you would in Birmingham proper, and the school quality doesn't change. It's consistently one of my top recommendations for buyers who need space without sacrifice.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["birmingham-mi", "bloomfield-hills-mi", "west-bloomfield-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Bloomfield Township MI")}`,
     faqs: [
@@ -241,6 +245,7 @@ export const cities: City[] = [
       "Rochester is served by the Rochester Community School District, one of Oakland County's highest-rated public school systems. Adams and Rochester High Schools serve the secondary level. The district is consistently ranked among Michigan's best for academic performance and extracurricular programming.",
     bradQuote:
       "Rochester punches above its weight class in almost every measurable category — schools, downtown, trail access, community feel. What surprises buyers is how competitive it is; you'd think a city this size would have more inventory, but demand consistently outpaces supply. If you want Rochester, you need to move fast when the right one comes up.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-hills-mi", "lake-orion-mi", "oxford-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Rochester MI")}`,
     faqs: [
@@ -297,6 +302,7 @@ export const cities: City[] = [
       "Rochester Hills is served by the Rochester Community School District, consistently ranked among Oakland County's top public school systems. Adams and Rochester High Schools serve secondary students. Property-specific school assignments should be verified with the district, as several subdivision boundaries fall near district boundary lines.",
     bradQuote:
       "Rochester Hills is my workhorse market — it delivers for buyers at almost every price point. You get the Rochester school district, great parks, easy highway access, and a lot of house for the money compared to Birmingham or Bloomfield. I've placed more buyers here than almost anywhere else in Oakland County over the past decade.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-mi", "troy-mi", "lake-orion-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Rochester Hills MI")}`,
     faqs: [
@@ -352,7 +358,8 @@ export const cities: City[] = [
     schoolInfo:
       "Troy is served by the Troy School District, which consistently ranks among the top public school systems in Oakland County and Michigan. Athens and Troy High Schools serve secondary students, and school assignment depends on address-specific boundaries within the city.",
     bradQuote:
-      "Troy is the most consistently liquid market in Oakland County — it sells in good markets and it sells in slow ones, because the fundamentals never really change. Great schools, employer proximity, highway access. My clients who buy in Troy almost never regret it from a financial standpoint, even if it wasn't their dream neighborhood at purchase.",
+      "I've been selling homes in Troy since 2000 and I cannot think of a market in Southeast Michigan with more consistent fundamentals. Great schools, major employers right there, highway access in every direction — Troy has held value through every downturn I've witnessed. When clients are nervous about making a move in this market, I often point them to Troy because the data does the reassuring.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["rochester-hills-mi", "birmingham-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Troy MI")}`,
     faqs: [
@@ -408,7 +415,8 @@ export const cities: City[] = [
     schoolInfo:
       "West Bloomfield School District serves the township and is consistently ranked among Oakland County's top school systems. West Bloomfield High School and Walled Lake Schools serve some border areas. Verify the specific school assignment for any address before purchasing.",
     bradQuote:
-      "West Bloomfield is underrated by buyers who fixate on Birmingham and Bloomfield Hills. You get bigger lots, lake access options, great schools, and significantly more house for the money. The lakefront properties are in a class of their own — if a buyer mentions wanting to be near water, West Bloomfield is always the first conversation.",
+      "West Bloomfield's lake communities have been among the most loyal markets I've worked in my career. Walnut Lake, Orchard Lake, Pine Lake — those addresses attract buyers who know exactly what they want and aren't easily deterred. For sellers, the lifestyle premium is real and I've seen it hold value even when other Oakland County markets have softened.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["bloomfield-township-mi", "bloomfield-hills-mi", "novi-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("West Bloomfield MI")}`,
     faqs: [
@@ -464,7 +472,8 @@ export const cities: City[] = [
     schoolInfo:
       "Royal Oak is served by the Royal Oak School District, with Royal Oak High School as the single secondary school. The district is well-regarded and serves the entire city. The compact city boundaries mean most properties are within a straightforward distance from school buildings.",
     bradQuote:
-      "Royal Oak has the fastest-moving market in Oakland County — full stop. We've had listings see 10+ offers in a weekend. The bungalow character, the proximity to Detroit, the restaurant scene — it attracts a buyer demographic that's confident and decisive. If you're searching here, you cannot be slow. I tell buyers to be ready to make a same-day decision.",
+      "I have watched Royal Oak transform over the course of my career from the affordable alternative to Birmingham into one of Oakland County's most competitive markets in its own right. The walkability, the character housing, the proximity to Detroit — it now has its own identity and buyer pool that isn't just driven by overflow from Birmingham. That's a sign of a truly healthy market.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["birmingham-mi", "troy-mi", "bloomfield-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Royal Oak MI")}`,
     faqs: [
@@ -520,7 +529,8 @@ export const cities: City[] = [
     schoolInfo:
       "Clarkston Community School District serves the area and is consistently ranked among the top 20 school districts in Michigan. Clarkston High School is the sole secondary school and has a strong academic and athletic reputation. The district's quality is frequently cited as a primary reason families relocate to the area.",
     bradQuote:
-      "Clarkston attracts a specific type of buyer — someone who's done with the cookie-cutter subdivision life and wants some genuine character, some nature, some breathing room. The village is special in a way that's hard to manufacture. The school district is legitimately excellent. The commute is longer, but buyers who make the move here almost never regret the trade-off.",
+      "Clarkston is one of those markets where buyers arrive skeptical and leave converted. I've had clients who called it 'too far out' on Monday and were writing an offer by Saturday after we toured the village. There is a quality of life here that photographs honestly don't capture — and the Clarkston school district is one of the reasons families who settle here almost never leave.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["lake-orion-mi", "oxford-mi", "rochester-hills-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Clarkston MI")}`,
     faqs: [
@@ -577,6 +587,7 @@ export const cities: City[] = [
       "Lake Orion Community School District serves the village and Orion Township, with Lake Orion High School as the secondary school. The district has strong academic performance and community support. As with many Oakland County communities, school assignment should be verified for specific addresses near district boundary lines.",
     bradQuote:
       "Lake Orion is where I send buyers who want Rochester's trail-and-village vibe at a 20% discount. The lake is genuinely beautiful, the village has real character, and Orion Township has a lot of value in the non-waterfront inventory that gets overlooked because people fixate on waterfront prices. Smart buyers see the opportunity here.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-mi", "clarkston-mi", "oxford-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Lake Orion MI")}`,
     faqs: [
@@ -633,6 +644,7 @@ export const cities: City[] = [
       "Oxford Community School District serves the village and township, with Oxford High School as the secondary school. The district has undertaken significant investments in student support services and school safety in recent years. Academic programs are comprehensive, and the district is actively working to rebuild its community standing.",
     bradQuote:
       "Oxford is for the buyer who genuinely wants space, values, and rural authenticity — and isn't hung up on the commute. You can still get acreage in Oakland County here, which is almost impossible in the southern tier anymore. The community is resilient, prices reflect real value, and I think the long-term trajectory is positive for buyers who are patient.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["lake-orion-mi", "clarkston-mi", "rochester-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Oxford MI")}`,
     faqs: [
@@ -689,6 +701,7 @@ export const cities: City[] = [
       "Novi Community School District serves the city and is consistently ranked among Oakland County's top districts. Novi High School is the sole secondary school. The district's academic performance and extracurricular programming attract families from across the metro area.",
     bradQuote:
       "Novi is one of the most well-rounded markets in Oakland County right now. You've got great schools, new construction still available, lake access options, and I-96 right there. Buyers who've been comparing Novi to West Bloomfield or Bloomfield Township often end up in Novi because you get more for your dollar and the school district is legitimately excellent.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["west-bloomfield-mi", "bloomfield-township-mi", "northville-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Novi MI")}`,
     faqs: [
@@ -747,6 +760,7 @@ export const cities: City[] = [
       "Most of Shelby Township is served by Utica Community Schools, one of the largest and best-regarded school districts in Macomb County. Eisenhower and Utica High Schools serve secondary students depending on address. Some western portions of the township may feed into Rochester Community Schools — verify the specific address.",
     bradQuote:
       "Shelby Township is one of the best values in Macomb County right now. You get newer construction, bigger lots, Stony Creek right in your backyard, and a price point that's still accessible compared to Oakland County. We place a lot of buyers here who started their search looking at Rochester Hills.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-hills-mi", "macomb-township-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Shelby Township MI")}`,
     faqs: [
@@ -803,6 +817,7 @@ export const cities: City[] = [
       "Sterling Heights is split between Utica Community Schools (northern sections, generally north of 15 Mile Road) and Warren Consolidated Schools (southern sections). Utica serves Eisenhower and Utica High Schools; Warren Consolidated serves Fitzgerald and other secondary schools. School district assignment significantly affects pricing — Utica-area homes command a premium.",
     bradQuote:
       "Sterling Heights is where I send buyers who've been priced out of Troy but still need Utica school district. The northern section of Sterling Heights — anything above 15 Mile — is genuinely competitive and offers real value for what you get. The brick ranch inventory here is as solid as anything in the county, and buyers who are willing to update cosmetics get exceptional deals.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["shelby-township-mi", "troy-mi", "warren-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Sterling Heights MI")}`,
     faqs: [
@@ -859,6 +874,7 @@ export const cities: City[] = [
       "Clinton Township is primarily served by Chippewa Valley School District, which serves the western and central portions of the township and is considered Macomb County's top-tier district alongside Utica. Some eastern sections may fall within Fraser School District or other surrounding districts — verify address-specific assignments.",
     bradQuote:
       "Clinton Township is one of Macomb's most underrated markets. The Chippewa Valley school district section of the township is legitimately strong, and the canal homes on the Lake St. Clair side offer a lifestyle that you can't find at these prices anywhere else in Southeast Michigan. It's not the flashiest market, but buyers who know what they're looking for do very well here.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["sterling-heights-mi", "st-clair-shores-mi", "macomb-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Clinton Township MI")}`,
     faqs: [
@@ -914,7 +930,8 @@ export const cities: City[] = [
     schoolInfo:
       "Macomb Township is primarily served by Chippewa Valley School District in its southern sections and New Haven Community Schools and other districts in northern areas. Chippewa Valley is generally considered the premium school district in the township. Verify address-specific school assignments before purchasing.",
     bradQuote:
-      "Macomb Township is where the new-construction buyer goes in Macomb County. You're getting modern floor plans, bigger lots, and prices that are still $100K–$150K below comparable new construction in Oakland County. The commute is longer, but for buyers who prioritize space and newness, it's a genuinely smart choice.",
+      "Macomb Township is the growth story I've had a front-row seat to over the past two decades. When I started selling homes here, it was still considered the outer edge of the market. Today it's one of the most sought-after new construction addresses in Macomb County, and the families who planted roots here early have been rewarded with consistent appreciation.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["shelby-township-mi", "clinton-township-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Macomb Township MI")}`,
     faqs: [
@@ -970,7 +987,8 @@ export const cities: City[] = [
     schoolInfo:
       "St. Clair Shores is served by South Lake School District and Lakeview Public Schools depending on the specific address. These are smaller districts — verify which school district a specific property feeds into, as this affects both resale value and school programming.",
     bradQuote:
-      "St. Clair Shores is a lifestyle market — you're not buying a house, you're buying access to that canal system and Lake St. Clair. Buyers who get it, really get it. They'll pay a premium for canal frontage that makes zero sense by price-per-square-foot logic, because the dock, the sunsets, and the boating life can't be valued that way. It's one of the most enjoyable markets to work in.",
+      "St. Clair Shores is the market that consistently surprises buyers who haven't been there. You show them the Nautical Mile, a canal home with direct Lake St. Clair access, and the price point — and they can't believe it exists. For sellers, I've seen strong results here because the product is genuinely unique and the buyer who discovers it is motivated.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["clinton-township-mi", "grosse-pointe-mi", "warren-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("St. Clair Shores MI")}`,
     faqs: [
@@ -1027,6 +1045,7 @@ export const cities: City[] = [
       "Warren is primarily served by Warren Consolidated School District, though northern sections of the city feed into Utica Community Schools, which significantly impacts pricing in those areas. Warren Consolidated School District serves Fitzgerald, Warren Woods, and other secondary schools.",
     bradQuote:
       "Warren is the most honest value in Macomb County. You're getting brick construction, close proximity to Detroit, easy highway access, and a price point that makes the math work for investors and first-time buyers. It's not going to win a lifestyle competition, but buyers who need to get into the market and build equity? Warren does that job.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["sterling-heights-mi", "clinton-township-mi", "detroit-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Warren MI")}`,
     faqs: [
@@ -1084,7 +1103,8 @@ export const cities: City[] = [
     schoolInfo:
       "The Grosse Pointe Public School System serves all five Grosse Pointe communities and is consistently ranked among the top public school systems in Michigan. Grosse Pointe South and Grosse Pointe North are the two high schools, with geographic attendance boundaries determining assignment.",
     bradQuote:
-      "The Grosse Pointes are a completely different category of real estate — you're buying architecture and history as much as square footage. Buyers from Oakland County who've never been over here are always stunned by what their money gets them. A $700K home in Grosse Pointe Farms would cost $1.2M in Birmingham. The school district is world-class. I love bringing clients here.",
+      "Grosse Pointe is one of the most beautiful and consistently underestimated markets in Southeast Michigan. I've helped clients buy and sell here for over two decades, and the value relative to comparable addresses in Oakland County continues to surprise people. The architecture, the schools, the sense of neighborhood — when sellers price correctly and present well, the results here are excellent.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["st-clair-shores-mi", "detroit-mi", "clinton-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Grosse Pointe MI")}`,
     faqs: [
@@ -1140,7 +1160,8 @@ export const cities: City[] = [
     schoolInfo:
       "Northville Public Schools serves the City and Township of Northville and is consistently rated among Michigan's top public school systems. Northville High School is the sole secondary school. The district's academic performance and extracurricular depth are primary demand drivers for the community.",
     bradQuote:
-      "Northville has the walkable village that Plymouth buyers want and the school district quality that Oakland County buyers demand — and it delivers both in the same package. The market here is consistently tight, and I've watched buyers lose homes they loved because they wanted another day to decide. In Northville, hesitation is expensive.",
+      "Northville has one of the strongest community identities of any city I work in. The downtown — Cady Street, the clock tower, the farmers market — creates a genuine quality-of-life pull that translates directly into sustained real estate demand. In 26 years, I have never seen a correctly priced and well-presented Northville listing sit on the market for long.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["plymouth-mi", "novi-mi", "livonia-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Northville MI")}`,
     faqs: [
@@ -1196,7 +1217,8 @@ export const cities: City[] = [
     schoolInfo:
       "Plymouth-Canton Community Schools is one of the largest and most respected school districts in Wayne County, serving Plymouth City, Plymouth Township, and Canton Township. Plymouth Canton High School is one of the largest high schools in Michigan. Academic performance is consistently strong, and the district's size allows for exceptional programming depth.",
     bradQuote:
-      "Plymouth is a market I have a lot of respect for — you get a genuine downtown, Plymouth-Canton schools, reasonable prices relative to Oakland County, and I-275 access that makes the commute surprisingly manageable. The city-core homes near Kellogg Park are the most competed-for inventory in Wayne County outside of the Grosse Pointes. Buyers who want that lifestyle need to be decisive.",
+      "Plymouth is the pleasant surprise in Wayne County. Buyers come in with modest expectations because of the county address and leave having fallen in love with a genuine downtown, strong schools, and a community character that competes with cities at significantly higher price points. For sellers, I consistently see strong results because buyers arrive emotionally engaged before they've even looked at the numbers.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["northville-mi", "livonia-mi", "novi-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Plymouth MI")}`,
     faqs: [
@@ -1253,6 +1275,7 @@ export const cities: City[] = [
       "Livonia Public Schools serves the city and is consistently one of the better-regarded Wayne County school districts, with Stevenson, Churchill, and Franklin High Schools. The district's three high schools each have strong academic and athletic programs. School assignment depends on which area of the city the property is in.",
     bradQuote:
       "Livonia is the most undervalued market in southeast Wayne County right now. Buyers compare it to Plymouth or Northville and walk away because there's no cute downtown — but the schools are solid, the parks are exceptional, and the price-per-square-foot on brick construction is remarkable. I bought my own home in Livonia, which should tell you something.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["plymouth-mi", "northville-mi", "novi-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Livonia MI")}`,
     faqs: [
@@ -1308,7 +1331,8 @@ export const cities: City[] = [
     schoolInfo:
       "The Detroit Public Schools Community District serves the city's public school students. Many Detroit buyers with children utilize Detroit's school of choice options, charter school landscape, or private school alternatives. We recommend buyers research the specific school options available for their neighborhood of interest.",
     bradQuote:
-      "Detroit is the market that rewards the buyers who do their homework. The spread between the best blocks and the worst blocks in this city can be enormous — that's both the risk and the opportunity. I've helped buyers find exceptional properties in East English Village and Sherwood Forest that would be $600K homes in Grosse Pointe. You have to know where to look, and you have to be thorough on inspection.",
+      "Detroit is the most complex and most misunderstood market in Southeast Michigan — and after 26 years, I've watched it through depths and comebacks that no other city in this region has experienced. Indian Village, Palmer Woods, Corktown, Sherwood Forest — these are neighborhoods with architectural pedigree and community investment that would cost multiples of their current prices in any coastal market. The transformation is real, and the trajectory continues.",
+    quoteAuthor: "Sarah",
     nearbySlugsSee: ["grosse-pointe-mi", "livonia-mi", "romulus-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Detroit MI")}`,
     faqs: [
@@ -1365,6 +1389,7 @@ export const cities: City[] = [
       "Romulus Community Schools serves the city and is a smaller district with a single high school. Buyers with school-age children should research current district programming and performance metrics. Some residents access Wayne-Westland Community Schools depending on specific address.",
     bradQuote:
       "Romulus is for buyers who are running out of budget and need to be close to the airport or the I-94/I-275 corridors. It's not going to win awards for its downtown, but the price-per-square-foot is among the best in Wayne County, and for buyers who work in logistics, aviation, or the airport, it genuinely makes sense. I'd rather have a client in Romulus than in an overextended mortgage somewhere else.",
+    quoteAuthor: "Brad",
     nearbySlugsSee: ["livonia-mi", "plymouth-mi", "detroit-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Romulus MI")}`,
     faqs: [
