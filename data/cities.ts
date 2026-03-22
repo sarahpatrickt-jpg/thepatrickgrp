@@ -759,7 +759,7 @@ export const cities: City[] = [
     schoolInfo:
       "Most of Shelby Township is served by Utica Community Schools, with Eisenhower and Utica High Schools serving secondary students depending on address. Some western portions of the township may feed into Rochester Community Schools — verify the specific address with the district.",
     bradQuote:
-      "Shelby Township is one of the best values in Macomb County right now. You get newer construction, bigger lots, Stony Creek right in your backyard, and a price point that's still accessible compared to Oakland County. We place a lot of buyers here who started their search looking at Rochester Hills.",
+      "If you're looking for a place that feels a bit more 'open' without losing any of the perks, Shelby Township is the spot. It's got a great, laid-back energy, mostly thanks to Stony Creek Metropark being right in your backyard for hiking, biking, or just hanging by the water. You get that perfect mix of beautiful established neighborhoods and all the shopping along Hall Road, but it still manages to feel peaceful and tucked away. It's basically suburban living with a huge side of nature.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-hills-mi", "macomb-township-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Shelby Township MI")}`,
