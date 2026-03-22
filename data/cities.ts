@@ -1103,7 +1103,7 @@ export const cities: City[] = [
     schoolInfo:
       "The Grosse Pointe Public School System serves all five Grosse Pointe communities. Grosse Pointe South and Grosse Pointe North are the two high schools, with geographic attendance boundaries determining assignment. Verify which school a specific property feeds into directly with the district.",
     bradQuote:
-      "Grosse Pointe is one of the most beautiful and consistently underestimated markets in Southeast Michigan. I've helped clients buy and sell here for over two decades, and the value relative to comparable addresses in Oakland County continues to surprise people. The architecture, the streetscapes, the sense of neighborhood — when sellers price correctly and present well, the results here are excellent.",
+      "If you're looking for a place with a little more 'old-world' soul, Grosse Pointe is it. It's all about those beautiful tree-lined streets, unique architecture, and a real sense of tradition. Since it's right on the water, life here revolves around the lake — whether you're at one of the private resident parks or just catching the breeze off Lake St. Clair. It feels like a quiet, upscale escape with a tight-knit community vibe, yet you're only about 15 minutes away from the energy of downtown Detroit. It's classic, scenic, and very laid-back.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["st-clair-shores-mi", "detroit-mi", "clinton-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Grosse Pointe MI")}`,
