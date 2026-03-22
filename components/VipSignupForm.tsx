@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackVipBuyerSignup } from "@/lib/analytics";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -50,6 +51,7 @@ export default function VipSignupForm() {
         }),
       });
       if (res.ok) {
+        trackVipBuyerSignup(priceRange, preferredArea);
         setStatus("success");
         form.reset();
       } else {

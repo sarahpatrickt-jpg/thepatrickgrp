@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { trackPhoneClick } from "@/lib/analytics";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -10,7 +13,7 @@ export default function Footer() {
       <div className="bg-[#c70000] py-3 text-center">
         <p className="text-sm text-white font-medium tracking-wide">
           Ready to make a move?{" "}
-          <a href="tel:2487553545" className="underline font-bold">
+          <a onClick={() => trackPhoneClick("footer")} href="tel:2487553545" className="underline font-bold">
             248.755.3545
           </a>{" "}
           &nbsp;|&nbsp; Southeast Michigan
@@ -59,7 +62,7 @@ export default function Footer() {
                 <p className="text-xs text-white/40 uppercase tracking-wider">Brad Patrick · Realtor®</p>
                 <p className="text-sm">
                   <a
-                    href="tel:2487553545"
+                    onClick={() => trackPhoneClick("footer")} href="tel:2487553545"
                     className="text-white/80 hover:text-white transition-colors"
                   >
                     📞 248.755.3545

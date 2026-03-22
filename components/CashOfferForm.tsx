@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackCashOfferSubmitted } from "@/lib/analytics";
 
 const inputClass =
   "w-full border border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#c70000] rounded-sm";
@@ -47,6 +48,7 @@ export default function CashOfferForm() {
       });
 
       if (res.ok) {
+        trackCashOfferSubmitted(situation, timeline);
         setStatus("success");
       } else {
         setStatus("error");

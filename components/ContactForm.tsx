@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackContactFormSubmitted } from "@/lib/analytics";
 
 const inputClass =
   "w-full border border-gray-200 px-4 py-3 text-sm text-[#1a1a1a] focus:outline-none focus:border-[#c70000] rounded-sm";
@@ -53,6 +54,7 @@ export default function ContactForm() {
       });
 
       if (res.ok) {
+        trackContactFormSubmitted(interest);
         setStatus("success");
       } else {
         setStatus("error");
