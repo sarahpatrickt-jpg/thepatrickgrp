@@ -130,7 +130,7 @@ export const cities: City[] = [
     schoolInfo:
       "Bloomfield Hills is served by the Bloomfield Hills School District. Andover and Lahser are the two high schools. Properties within the city boundary generally fall within this district, though edge properties should be verified with the district directly.",
     bradQuote:
-      "Bloomfield Hills requires a different kind of patience than most markets — I've learned that over 26 years of working here. Sellers need to understand that the buyer pool for $1M+ estates is smaller and more deliberate. Buyers need to understand that what they're purchasing is genuinely irreplaceable: the acreage, the privacy, the architectural character. When the right match happens here, it's remarkable.",
+      "Bloomfield Hills requires a different kind of patience than most markets. Sellers need to understand that the buyer pool for $1M+ estates is smaller and more deliberate. Buyers need to understand that what they're purchasing is genuinely irreplaceable: the acreage, the privacy, the architectural character. When the right match happens here, it's remarkable.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["birmingham-mi", "bloomfield-township-mi", "west-bloomfield-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Bloomfield Hills MI")}`,
@@ -301,7 +301,7 @@ export const cities: City[] = [
     schoolInfo:
       "Rochester Hills is served by the Rochester Community School District. Adams and Rochester High Schools serve secondary students. Property-specific school assignments should be verified with the district, as several subdivision boundaries fall near district boundary lines.",
     bradQuote:
-      "Rochester Hills is my workhorse market — it delivers for buyers at almost every price point. You get great parks, easy highway access, and a lot of house for the money compared to Birmingham or Bloomfield. I've placed more buyers here than almost anywhere else in Oakland County over the past decade.",
+      "Rochester Hills is my workhorse market — it delivers for buyers at almost every price point. You get great parks, easy highway access, and a lot of house for the money compared to Birmingham or Bloomfield. I've placed more buyers here than almost anywhere else in Oakland County.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-mi", "troy-mi", "lake-orion-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Rochester Hills MI")}`,
@@ -358,7 +358,7 @@ export const cities: City[] = [
     schoolInfo:
       "Troy is served by the Troy School District. Athens and Troy High Schools serve secondary students; school assignment depends on address-specific boundaries within the city. Verify the specific assignment for any property with the district.",
     bradQuote:
-      "I've been selling homes in Troy since 2000 and I cannot think of a market in Southeast Michigan with more consistent fundamentals. Major employers right there, highway access in every direction, housing variety at every price point — Troy has held value through every downturn I've witnessed. When clients are nervous about making a move in this market, I often point them to Troy because the data does the reassuring.",
+      "I cannot think of a market in Southeast Michigan with more consistent fundamentals than Troy. Major employers right there, highway access in every direction, housing variety at every price point — Troy has held value through every downturn I've witnessed. When clients are nervous about making a move, I often point them to Troy because the data does the reassuring.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["rochester-hills-mi", "birmingham-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Troy MI")}`,
@@ -930,7 +930,7 @@ export const cities: City[] = [
     schoolInfo:
       "Macomb Township is primarily served by Chippewa Valley School District in its southern sections and New Haven Community Schools and other districts in northern areas. Verify address-specific school assignments with the relevant district before purchasing.",
     bradQuote:
-      "Macomb Township is the growth story I've had a front-row seat to over the past two decades. When I started selling homes here, it was still considered the outer edge of the market. Today it's one of the most sought-after new construction addresses in Macomb County, and the families who planted roots here early have been rewarded with consistent appreciation.",
+      "Macomb Township is one of the great growth stories in Macomb County. What was once considered the outer edge of the market is now one of the most sought-after new construction addresses in the region, and the families who planted roots here early have been rewarded with consistent appreciation.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["shelby-township-mi", "clinton-township-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Macomb Township MI")}`,

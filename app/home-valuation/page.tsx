@@ -5,7 +5,7 @@ import SierraValuationFrame from "@/components/SierraValuationFrame";
 export const metadata: Metadata = {
   title: "Free Home Valuation — Southeast Michigan",
   description:
-    "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — 26 years of local expertise.",
+    "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — deep local expertise, real data.",
   alternates: { canonical: "https://thepatrickgrp.com/home-valuation" },
 };
 
@@ -66,7 +66,7 @@ export default function HomeValuationPage() {
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">
             Zillow&apos;s Zestimate is a starting point — not a selling price. Enter
             your address for an instant estimate, then connect with an agent who
-            has sold homes in your neighborhood for 26 years.
+            knows your neighborhood — not just the data.
           </p>
           <div className="flex flex-wrap gap-6 text-sm text-white/60">
             <span>✓ No pressure, no obligation</span>

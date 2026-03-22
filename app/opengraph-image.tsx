@@ -72,7 +72,7 @@ export default function OGImage() {
             display: "flex",
           }}
         >
-          Boutique real estate service. 26 years of experience. Led by Sarah Patrick, Principal Broker.
+          Boutique real estate service. Referral-based. Led by Sarah Patrick, Principal Broker.
         </div>
 
         {/* Bottom info */}

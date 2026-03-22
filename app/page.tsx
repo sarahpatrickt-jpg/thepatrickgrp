@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Southeast Michigan Real Estate | The Patrick Group",
   description:
-    "The Patrick Group — boutique real estate service for Southeast Michigan. 26 years of experience. Sarah Patrick, Principal Broker. Leading You Home.",
+    "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Referral-based. Leading You Home.",
   alternates: { canonical: "https://thepatrickgrp.com" },
 };
 
@@ -136,8 +136,8 @@ export default function HomePage() {
           {/* Sub-headline */}
           <p className="text-white/70 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
             Get more for your home sale. Find the right home before it hits
-            Zillow. That&apos;s what 26 years of Southeast Michigan relationships
-            actually looks like.
+            Zillow. That&apos;s what deep Southeast Michigan relationships
+            actually look like.
           </p>
 
           {/* Primary CTAs */}
@@ -178,7 +178,7 @@ export default function HomePage() {
           {/* Social proof micro-line */}
           <p className="mt-6 text-white/40 text-sm">
             Hour Detroit Real Estate All-Stars &nbsp;·&nbsp; Real Producers Top
-            300 &nbsp;·&nbsp; 26 Years in Metro Detroit
+            300 &nbsp;·&nbsp; Licensed Since 2000
           </p>
         </div>
 
@@ -399,7 +399,7 @@ export default function HomePage() {
                   Principal Broker / Owner
                 </p>
                 <p className="text-white/60 text-sm">
-                  26 years · Hour Detroit All-Stars · Top Producers Magazine
+                  Hour Detroit All-Stars · Real Producers Top 300
                 </p>
               </div>
               <div className="bg-white/5 border border-white/10 p-6 rounded-sm">

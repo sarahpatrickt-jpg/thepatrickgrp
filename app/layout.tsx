@@ -37,13 +37,13 @@ export const metadata: Metadata = {
     siteName: "The Patrick Group",
     title: "The Patrick Group | Southeast Michigan Real Estate Experts",
     description:
-      "Boutique real estate service from Southeast Michigan's most experienced team. 26 years of market expertise. Leading You Home.",
+      "Boutique real estate service from Southeast Michigan's most trusted team. Referral-based. Leading You Home.",
   },
   twitter: {
     card: "summary_large_image",
     title: "The Patrick Group | Southeast Michigan Real Estate Experts",
     description:
-      "Boutique real estate service from Southeast Michigan's most experienced team. 26 years of market expertise.",
+      "Boutique real estate service from Southeast Michigan's most trusted team. Referral-based.",
   },
   robots: {
     index: true,
@@ -95,7 +95,7 @@ const localBusinessSchema = {
     { "@type": "City", name: "Romulus", containedInPlace: "Michigan" },
   ],
   description:
-    "Boutique real estate team serving Southeast Michigan. 26 years of experience. Sarah Patrick, Principal Broker.",
+    "Boutique real estate team serving Southeast Michigan. Sarah Patrick, Principal Broker.",
   sameAs: [
     "https://www.oakandstonerealestate.com",
     "https://www.facebook.com/search/top?q=your%20agent%20brad",

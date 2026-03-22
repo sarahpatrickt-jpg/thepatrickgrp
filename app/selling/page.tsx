@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sell Your Home in Southeast Michigan | The Patrick Group",
   description:
-    "Sell your Southeast Michigan home with The Patrick Group. 26 years of experience, award-winning marketing, Unconditional Release Guarantee. Free listing consultation.",
+    "Sell your Southeast Michigan home with The Patrick Group. Award-winning marketing, Unconditional Release Guarantee, boutique service. Free listing consultation.",
   alternates: { canonical: "https://thepatrickgrp.com/selling" },
 };
 

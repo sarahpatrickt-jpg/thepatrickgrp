@@ -115,8 +115,8 @@ export default function RelocationPage() {
           </p>
           <p className="text-white/60 text-base max-w-2xl leading-relaxed mb-8">
             We&apos;ve been the local guide for relocators from Chicago, the East
-            Coast, and across the country — for over 26 years. We know Southeast
-            Michigan deeply enough to tell you what the listing doesn&apos;t.
+            Coast, and across the country. We know Southeast Michigan deeply
+            enough to tell you what the listing doesn&apos;t.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
