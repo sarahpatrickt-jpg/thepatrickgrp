@@ -873,7 +873,7 @@ export const cities: City[] = [
     schoolInfo:
       "Clinton Township is primarily served by Chippewa Valley School District in the western and central portions of the township. Some eastern sections may fall within Fraser School District or other surrounding districts — verify address-specific assignments with the relevant district.",
     bradQuote:
-      "Clinton Township is one of Macomb's most underrated markets. The canal homes on the Lake St. Clair side offer a lifestyle that you can't find at these prices anywhere else in Southeast Michigan, and the western sections of the township have solid infrastructure and established neighborhoods. It's not the flashiest market, but buyers who know what they're looking for do very well here.",
+      "Think of Clinton Township as the sweet spot of Metro Detroit — where you get all the perks of a big community without the frantic pace. Whether you're grabbing a coffee at the dog-friendly Partridge Creek, hitting the trails at George George Park, or just enjoying the quiet of your own backyard, it's a place that feels instantly familiar. It's easygoing, centrally located, and just a great spot to actually enjoy where you live.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["sterling-heights-mi", "st-clair-shores-mi", "macomb-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Clinton Township MI")}`,
