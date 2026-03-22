@@ -13,6 +13,7 @@ export default function ExitIntentPopup() {
     // Desktop: detect cursor leaving viewport through top edge
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0) {
+        if (sessionStorage.getItem("exitPopupShown")) return;
         setVisible(true);
         sessionStorage.setItem("exitPopupShown", "1");
       }
