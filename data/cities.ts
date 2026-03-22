@@ -1270,7 +1270,7 @@ export const cities: City[] = [
     schoolInfo:
       "Livonia Public Schools serves the city, with Stevenson, Churchill, and Franklin High Schools. School assignment depends on which area of the city the property is in — verify the specific address with the district before purchasing.",
     bradQuote:
-      "Livonia is the most undervalued market in southeast Wayne County right now. Buyers compare it to Plymouth or Northville and walk away because there's no cute downtown — but the parks are exceptional, the brick construction is remarkable, and the price-per-square-foot is hard to beat anywhere in the region. I bought my own home in Livonia, which should tell you something.",
+      "If you're looking for a place that's as practical as it is comfortable, Livonia is the quintessential 'easy living' suburb. It's famous for having the lowest city tax rate in Wayne County and one of the largest park systems in the state, including the massive Jack E. Kirksey Recreation Center, which is currently undergoing a multi-million dollar modernization. While it has a quiet, established feel, the city is in the middle of a 'City Center' transformation to add more walkable dining and retail. With its central location right on the I-96 and I-275 corridor, you're perfectly positioned halfway between the energy of downtown Detroit and the charm of Ann Arbor.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["plymouth-mi", "northville-mi", "novi-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Livonia MI")}`,
