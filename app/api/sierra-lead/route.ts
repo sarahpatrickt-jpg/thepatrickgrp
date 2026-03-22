@@ -50,8 +50,12 @@ export async function POST(req: NextRequest) {
     if (!res.ok) {
       const err = await res.text();
       console.error("Sierra API error:", err);
+      // Treat duplicate email as success — lead already exists in CRM
+      if (err.includes("already exists")) {
+        return NextResponse.json({ success: true, duplicate: true }, { status: 200 });
+      }
       return NextResponse.json(
-        { error: "Lead submission failed.", detail: err },
+        { error: "Lead submission failed. Please try again." },
         { status: 500 }
       );
     }
