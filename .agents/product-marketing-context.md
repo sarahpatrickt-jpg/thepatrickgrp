@@ -1,12 +1,12 @@
 # Product Marketing Context — The Patrick Group
 
-*Last updated: March 2026*
+*Last updated: March 22, 2026*
 
 ---
 
 ## Product Overview
 
-**One-liner:** Southeast Michigan's boutique real estate team — 26 years of experience, senior agent on every transaction, referral-based.
+**One-liner:** Southeast Michigan's boutique real estate team — senior agent on every transaction, deep local expertise, results-driven.
 
 **What it does:** The Patrick Group helps Southeast Michigan home buyers and sellers navigate real estate transactions with boutique-level service and senior-agent expertise. Led by Sarah Patrick (Principal Broker, licensed since 2000) and Brad Patrick (15+ years, mortgage lending background), the team handles everything from standard listings to complex situations — divorce, probate, relocation, new construction, and cash offers.
 
@@ -105,7 +105,7 @@
 
 **Key differentiators:**
 1. **26 years of experience** — Sarah Patrick licensed since 2000, through the 2008 crash, COVID spike, and 2022 rate shock. This isn't theoretical market knowledge.
-2. **Referral-based business** — Most clients come from past clients sending their friends. No lead-buying, no cold outreach. Trust is the entire business model.
+2. **Digital-first lead generation** — Paid advertising (Google, Meta) combined with organic SEO and programmatic neighborhood pages. Built to reach buyers and sellers at the moment of intent.
 3. **Boutique team model** — Always a senior agent. Never handed off to junior staff. Team efficiency without the anonymity of a large team.
 4. **Brad's mortgage lending background** — Rare in real estate. Means better offer structures, fewer financing surprises, smarter negotiation.
 5. **Unconditional Release Guarantee*** — If you're ever unhappy with our service, written notice releases you from your listing contract. No penalties. (*Active listings only — cannot withdraw after offer accepted.)
@@ -114,7 +114,7 @@
 8. **Principal Broker oversight** — Sarah's license and judgment on every transaction.
 
 **Why customers choose us over alternatives:**
-> "We don't buy your information. You find us because someone you trust sent you here."
+> "We're boutique by design. You'll always work with a senior agent who knows the market and genuinely cares about your outcome."
 
 ---
 
@@ -122,7 +122,7 @@
 
 | Objection | Response |
 |-----------|----------|
-| "I already know an agent" | Most of our clients said the same thing before calling us. We earn referrals because results speak — not because we have the biggest ad spend. |
+| "I already know an agent" | Most clients who call us said the same thing first. We earn business because results speak — compare our track record, our marketing, and our guarantee before you decide. |
 | "I can sell it myself / use a discount broker" | Commission saved rarely equals net gained. Less marketing = fewer competing buyers = lower offers. We walk you through a full net proceeds comparison. |
 | "I'm locked into my current agent" | If you're unhappy, ask about their release policy. Ours is unconditional — in writing, no penalties, active listings only. |
 | "Zillow says my home is worth X" | Zestimates are algorithms. They don't walk through your home, know your upgrades, or understand your neighborhood's micro-market. Our CMAs are built from Realcomp data and local knowledge. |
@@ -145,11 +145,11 @@
 - Felt like a number, not a client
 
 **Pull (what attracts them to The Patrick Group):**
-- Referred by someone they trust
-- 26 years of experience through hard markets
+- Deep market expertise through every cycle
 - Brad's mortgage background = smarter offers
 - The guarantee — no risk to try us
 - Real market data, honest conversation
+- Always a senior agent — never handed off
 
 **Habit (what keeps them stuck):**
 - Already signed a listing agreement with someone else
@@ -183,7 +183,7 @@
 - "Great experience with comprehensive information — and thanks for your patience"
 
 **Words and phrases to use:**
-- Boutique, senior agent, referral-based, partnership, advocate
+- Boutique, senior agent, partnership, advocate
 - "Your situation," "your home," "your timeline"
 - Principal Broker, licensed since 2000, Realcomp, MLS
 - Coming Soon, VIP access, 300-agent network
@@ -255,13 +255,13 @@
 | Mortgage-smart buyer strategy | Brad's lending background · Better offer structure · Fewer closing surprises |
 | Marketing that moves homes | Professional photography · YouTube video · 300-agent preview · Custom property site |
 | Zero-risk listing | Unconditional Release Guarantee* · Written · No fees · No penalties |
-| Referral-based trust | Most clients come from past clients · We don't buy leads |
+| Proven local track record | 5.0 Google stars · Hour Detroit All-Stars · Real Producers Top 300 |
 
 ---
 
 ## Goals
 
-**Business goal:** Grow The Patrick Group's Southeast Michigan market share through organic search, referral amplification, and digital lead generation — while maintaining boutique-quality service.
+**Business goal:** Grow The Patrick Group's Southeast Michigan market share through paid advertising (Google, Meta), organic search, and programmatic SEO — while maintaining boutique-quality service.
 
 **Primary conversion actions (in order):**
 1. Home valuation form at `/home-valuation`
