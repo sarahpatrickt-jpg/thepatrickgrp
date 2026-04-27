@@ -172,106 +172,78 @@ export default function HomePage() {
           }}
         />
 
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full pt-28 pb-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center pt-28 pb-20">
+          {/* Pre-headline eyebrow */}
+          <p className="text-[#c70000] text-xs sm:text-sm tracking-[0.25em] uppercase font-semibold mb-6">
+            Southeast Michigan Real Estate
+          </p>
 
-            {/* ── Left: copy ── */}
-            <div>
-              {/* Pre-headline eyebrow */}
-              <p className="text-[#c70000] text-xs sm:text-sm tracking-[0.25em] uppercase font-semibold mb-6">
-                Southeast Michigan Real Estate
-              </p>
+          {/* H1 */}
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight mb-6">
+            Real Estate the Way
+            <br className="hidden sm:block" />
+            It{" "}
+            <span className="text-[#c70000]">Should</span> Be Done.
+          </h1>
 
-              {/* H1 */}
-              <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-                Real Estate the Way
-                <br />
-                It{" "}
-                <span className="text-[#c70000]">Should</span> Be Done.
-              </h1>
+          {/* Sub-headline */}
+          <p className="text-white/70 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+            Get more for your home sale. Find the right home before it hits
+            Zillow. That&apos;s what deep Southeast Michigan relationships
+            actually look like.
+          </p>
 
-              {/* Sub-headline */}
-              <p className="text-white/70 text-lg sm:text-xl mb-10 leading-relaxed">
-                Get more for your home sale. Find the right home before it hits
-                Zillow. That&apos;s what deep Southeast Michigan relationships
-                actually look like.
-              </p>
+          {/* Primary CTAs */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/home-valuation"
+              className="bg-[#c70000] text-white font-bold text-base sm:text-lg px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors shadow-lg"
+            >
+              What&apos;s My Home Worth?
+            </Link>
+            <a
+              href="https://bradpatrick.oakandstonerealestate.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 border border-white/30 text-white font-semibold text-base sm:text-lg px-8 py-4 rounded-sm hover:bg-white/20 transition-colors backdrop-blur-sm"
+            >
+              Search Homes →
+            </a>
+          </div>
 
-              {/* Primary CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/home-valuation"
-                  className="bg-[#c70000] text-white font-bold text-base sm:text-lg px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors shadow-lg"
-                >
-                  What&apos;s My Home Worth?
-                </Link>
-                <a
-                  href="https://bradpatrick.oakandstonerealestate.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white/10 border border-white/30 text-white font-semibold text-base sm:text-lg px-8 py-4 rounded-sm hover:bg-white/20 transition-colors backdrop-blur-sm"
-                >
-                  Search Homes →
-                </a>
-              </div>
+          {/* VIP teaser */}
+          <div className="mt-6">
+            <Link
+              href="/vip-buyers"
+              className="inline-flex items-center gap-2 text-sm text-white/60 hover:text-white transition-colors group"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-[#c70000] shrink-0">
+                <path fillRule="evenodd" d="M15.98 1.804a1 1 0 00-1.96 0l-.24 1.192a1 1 0 01-.784.785l-1.192.238a1 1 0 000 1.962l1.192.238a1 1 0 01.785.785l.238 1.192a1 1 0 001.962 0l.238-1.192a1 1 0 01.785-.785l1.192-.238a1 1 0 000-1.962l-1.192-.238a1 1 0 01-.785-.785l-.238-1.192zM6.949 5.684a1 1 0 00-1.898 0l-.683 2.051a1 1 0 01-.633.633l-2.051.683a1 1 0 000 1.898l2.051.684a1 1 0 01.633.632l.683 2.051a1 1 0 001.898 0l.683-2.051a1 1 0 01.633-.633l2.051-.683a1 1 0 000-1.897l-2.051-.683a1 1 0 01-.633-.633L6.95 5.684z" clipRule="evenodd" />
+              </svg>
+              <span>
+                Buying soon?{" "}
+                <span className="underline underline-offset-2 group-hover:text-[#c70000]">
+                  Join the Coming Soon VIP List
+                </span>{" "}
+                — see homes before Zillow does.
+              </span>
+            </Link>
+          </div>
 
-              {/* VIP teaser */}
-              <div className="mt-6">
-                <Link
-                  href="/vip-buyers"
-                  className="inline-flex items-center gap-2 text-sm text-white/60 hover:text-white transition-colors group"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-[#c70000] shrink-0">
-                    <path fillRule="evenodd" d="M15.98 1.804a1 1 0 00-1.96 0l-.24 1.192a1 1 0 01-.784.785l-1.192.238a1 1 0 000 1.962l1.192.238a1 1 0 01.785.785l.238 1.192a1 1 0 001.962 0l.238-1.192a1 1 0 01.785-.785l1.192-.238a1 1 0 000-1.962l-1.192-.238a1 1 0 01-.785-.785l-.238-1.192zM6.949 5.684a1 1 0 00-1.898 0l-.683 2.051a1 1 0 01-.633.633l-2.051.683a1 1 0 000 1.898l2.051.684a1 1 0 01.633.632l.683 2.051a1 1 0 001.898 0l.683-2.051a1 1 0 01.633-.633l2.051-.683a1 1 0 000-1.897l-2.051-.683a1 1 0 01-.633-.633L6.95 5.684z" clipRule="evenodd" />
-                  </svg>
-                  <span>
-                    Buying soon?{" "}
-                    <span className="underline underline-offset-2 group-hover:text-[#c70000]">
-                      Join the Coming Soon VIP List
-                    </span>{" "}
-                    — see homes before Zillow does.
-                  </span>
-                </Link>
-              </div>
-
-              {/* Social proof badges */}
-              <div className="mt-8 flex flex-wrap gap-3">
-                <span className="inline-flex items-center gap-1.5 text-xs text-white/55 border border-white/15 rounded-full px-3 py-1.5">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 text-[#c70000]">
-                    <path fillRule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clipRule="evenodd" />
-                  </svg>
-                  Hour Detroit Real Estate All-Stars
-                </span>
-                <span className="inline-flex items-center gap-1.5 text-xs text-white/55 border border-white/15 rounded-full px-3 py-1.5">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 text-[#c70000]">
-                    <path fillRule="evenodd" d="M5.166 5.132A6.5 6.5 0 0115.5 8.232V9a1 1 0 002 0v-.768a8.5 8.5 0 00-13.178-7.085 1 1 0 001.344 1.485zM4.5 8.232a6.5 6.5 0 018.93 6.11A1 1 0 0115.41 15.5H4.59a1 1 0 001.98-1.158A6.5 6.5 0 014.5 8.232zM10 17a1 1 0 100 2 1 1 0 000-2z" clipRule="evenodd" />
-                  </svg>
-                  Real Producers Top 300
-                </span>
-              </div>
-            </div>
-
-            {/* ── Right: photo ── */}
-            <div className="hidden lg:block">
-              <div className="relative aspect-[3/4] rounded-sm overflow-hidden shadow-2xl">
-                <Image
-                  src="/team/sarah-patrick.jpg"
-                  alt="Sarah Patrick, Principal Broker — The Patrick Group, Southeast Michigan Real Estate"
-                  fill
-                  priority
-                  className="object-cover object-top"
-                  sizes="50vw"
-                />
-                {/* Bottom vignette */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d]/70 via-transparent to-transparent" />
-                {/* Name plate */}
-                <div className="absolute bottom-6 left-6 right-6">
-                  <p className="text-white font-serif font-bold text-xl mb-0.5">Sarah Patrick</p>
-                  <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold">Principal Broker / Owner</p>
-                </div>
-              </div>
-            </div>
-
+          {/* Social proof badges */}
+          <div className="mt-8 flex flex-wrap gap-3 justify-center">
+            <span className="inline-flex items-center gap-1.5 text-xs text-white/55 border border-white/15 rounded-full px-3 py-1.5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 text-[#c70000]">
+                <path fillRule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clipRule="evenodd" />
+              </svg>
+              Hour Detroit Real Estate All-Stars
+            </span>
+            <span className="inline-flex items-center gap-1.5 text-xs text-white/55 border border-white/15 rounded-full px-3 py-1.5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 text-[#c70000]">
+                <path fillRule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clipRule="evenodd" />
+              </svg>
+              Real Producers Top 300
+            </span>
           </div>
         </div>
 
