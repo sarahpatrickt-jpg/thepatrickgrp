@@ -13,7 +13,14 @@ export async function POST(req: NextRequest) {
       source,
       note,
       tags = [],
+      honeypot,
     } = await req.json();
+
+    // Honeypot check — bots fill hidden fields, humans don't
+    if (honeypot) {
+      // Return 200 so bots think they succeeded
+      return NextResponse.json({ success: true }, { status: 200 });
+    }
 
     if (!email) {
       return NextResponse.json({ error: "Email is required." }, { status: 400 });

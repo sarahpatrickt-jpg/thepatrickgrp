@@ -29,6 +29,7 @@ export default function ContactForm() {
     const phone = fd.get("phone") as string;
     const interest = fd.get("interest") as string;
     const message = fd.get("message") as string;
+    const honeypot = fd.get("website") as string;
 
     const note = [
       interest ? `Interest: ${interest}` : "",
@@ -50,6 +51,7 @@ export default function ContactForm() {
           source: "thepatrickgrp.com - Contact Form",
           note,
           tags: ["contact-form", interest].filter(Boolean),
+          honeypot,
         }),
       });
 
@@ -87,6 +89,11 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      {/* Honeypot — hidden from real users, bots fill it in */}
+      <div style={{ display: "none" }} aria-hidden="true">
+        <label htmlFor="website">Website</label>
+        <input type="text" id="website" name="website" tabIndex={-1} autoComplete="off" />
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label htmlFor="first-name" className={labelClass}>First Name *</label>

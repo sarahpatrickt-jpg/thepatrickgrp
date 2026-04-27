@@ -26,6 +26,7 @@ export default function VipSignupForm() {
     const preferredArea = fd.get("preferredArea") as string;
     const priceRange = fd.get("priceRange") as string;
     const beds = fd.get("beds") as string;
+    const honeypot = fd.get("website") as string;
 
     const note = [
       preferredArea ? `Preferred area: ${preferredArea}` : "",
@@ -48,6 +49,7 @@ export default function VipSignupForm() {
           source: "thepatrickgrp.com - VIP Buyers",
           note,
           tags: ["vip-buyer", "coming-soon-list"],
+          honeypot,
         }),
       });
       if (res.ok) {
@@ -81,6 +83,11 @@ export default function VipSignupForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      {/* Honeypot — hidden from real users, bots fill it in */}
+      <div style={{ display: "none" }} aria-hidden="true">
+        <label htmlFor="website">Website</label>
+        <input type="text" id="website" name="website" tabIndex={-1} autoComplete="off" />
+      </div>
       <div className="grid grid-cols-2 gap-4">
         <div>
           <label className={labelClass}>First Name *</label>
