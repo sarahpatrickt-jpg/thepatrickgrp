@@ -14,6 +14,7 @@ const navLinks = [
   { href: "/divorce-real-estate",  label: "Divorce" },
   { href: "/relocation",           label: "Relocating" },
   { href: "/market-updates",       label: "Market Reports" },
+  { href: "/insights",             label: "Insights" },
   { href: "/about",                label: "Our Team" },
 ];
 
@@ -39,7 +40,7 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
 
           {/* ── Real Logo ── */}
           <Link href="/" className="flex items-center shrink-0">
@@ -55,7 +56,7 @@ export default function Nav() {
               width={500}
               height={500}
               priority
-              className="h-16 w-auto object-contain transition-all duration-300"
+              className="h-20 w-auto object-contain transition-all duration-300"
               style={{ filter: transparent ? "brightness(0) invert(1)" : "none" }}
             />
           </Link>
