@@ -160,6 +160,206 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  // ─── "Why Birmingham Keeps Appreciating" ─────────────────────────────────
+  {
+    slug: "why-birmingham-keeps-appreciating",
+    title: "Why Birmingham Keeps Appreciating",
+    excerpt:
+      "A walkable downtown isn't just a lifestyle feature — it's a durable value driver that has held through every market cycle we've seen.",
+    date: "2026-03-15",
+    author: "Sarah",
+    category: "Neighborhood",
+    readTime: "5 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Birmingham is one of the few markets in Southeast Michigan where I consistently have to tell sellers not to anchor too low. Across every cycle I've worked through, this city has held its value in ways that other Oakland County markets haven't. That's not an accident.",
+      },
+      {
+        type: "h2",
+        text: "The Downtown Effect Is Real",
+      },
+      {
+        type: "paragraph",
+        text: "Birmingham's walkable downtown core along Old Woodward and Merrill Street isn't just a lifestyle amenity — it's a structural demand driver. Very few communities in Southeast Michigan offer the density of independently owned restaurants, retail, and year-round foot traffic that Birmingham does within walking distance of residential streets.",
+      },
+      {
+        type: "paragraph",
+        text: "That walkability has a direct effect on buyer behavior. Buyers who want this don't have close alternatives. You can't replicate a walkable downtown in a suburb. So when inventory in Birmingham is low — which it almost always is — buyers compete for it.",
+      },
+      {
+        type: "h2",
+        text: "Supply Is Structurally Constrained",
+      },
+      {
+        type: "paragraph",
+        text: "Birmingham is approximately 4.7 square miles. It doesn't have room to expand the way communities like Shelby Township or Novi do. When demand rises, there's limited new inventory to absorb it. That supply constraint is a core reason why prices hold and appreciate in ways that larger, more developable communities don't.",
+      },
+      {
+        type: "paragraph",
+        text: "New construction does happen in Birmingham, but it's infill — replacing older homes or building on the rare available lot. When new construction hits the market here, it typically sets new price floors rather than competing with existing homes on value.",
+      },
+      {
+        type: "h2",
+        text: "What the Numbers Show",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Median Sale Price", value: "$720,000", note: "+4.2% year-over-year" },
+          { label: "Days on Market",    value: "11",       note: "Oakland avg: 16" },
+          { label: "Price Per Sq Ft",  value: "$298",     note: "Among highest in Oakland Co." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Eleven days on market. That number tells you what the demand curve looks like. In a county where the March 2026 average was 16 days, Birmingham's sub-two-week pace signals that well-priced homes here face real competition — and that buyers aren't waiting.",
+      },
+      {
+        type: "h2",
+        text: "Architectural Quality Holds Value",
+      },
+      {
+        type: "paragraph",
+        text: "Birmingham's housing stock includes Tudor revivals and colonials from the 1920s through the 1950s built with quality that shows up in resale. Solid brick construction, larger-than-usual lots for an inner-ring suburb, mature street trees. When buyers compare these homes to newer suburban construction, the quality differential justifies a meaningful premium for a large segment of the market.",
+      },
+      {
+        type: "paragraph",
+        text: "Buyers often tell me they didn't expect to love the older stock as much as they do. The bones are good. And when the bones are good, a renovation budget goes further than it does when you're trying to fix structural mediocrity.",
+      },
+      {
+        type: "h2",
+        text: "What I Watch for as a Listing Agent",
+      },
+      {
+        type: "paragraph",
+        text: "When I'm preparing a Birmingham listing, I'm looking at a handful of things: the condition of windows and mechanicals (buyers at this price point expect them to be updated), the lot size — even 15 feet of extra depth matters here — and the kitchen and primary suite. Buyers at $700K and above are comparing this home against renovated homes in other Oakland County markets. The listings that win are the ones that look genuinely ready.",
+      },
+      {
+        type: "callout",
+        label: "The pattern",
+        text: "Birmingham has outperformed through the 2008 crash, the COVID spike, and the 2022 rate correction. Every time the market has softened, Birmingham has held firmer than comparable Oakland County communities. That consistency is what makes it one of the most reliable value stores in Southeast Michigan.",
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "If you're buying in Birmingham, understand that you're paying for one of the most durable markets in the region. Don't expect to steal it. Do expect that in 5–7 years, you'll have strong resale optionality. In most markets, that's not something I can promise.",
+      },
+      {
+        type: "paragraph",
+        text: "For sellers: your biggest risk is overpricing at the luxury tier above $1.5M. Below that, well-prepared homes continue to see competitive activity. The fundamentals here are as strong as they've been.",
+      },
+    ],
+  },
+
+  // ─── "A Buyer's Map to Grosse Pointe" ────────────────────────────────────
+  {
+    slug: "buyers-map-to-grosse-pointe",
+    title: "A Buyer's Map to Grosse Pointe",
+    excerpt:
+      "Five distinct communities, each with a different feel and price point. Here's how to navigate them before you tour a single home.",
+    date: "2026-02-10",
+    author: "Brad",
+    category: "Buyer Tips",
+    readTime: "7 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "\"Grosse Pointe\" isn't one market — it's five. And if you're buying here without understanding the differences, you're navigating blind. I've helped buyers find the right fit across all five communities, and the answer almost always comes down to the same three things: budget, lifestyle, and how much proximity to Detroit matters to you.",
+      },
+      {
+        type: "h2",
+        text: "The Five Communities at a Glance",
+      },
+      {
+        type: "h3",
+        text: "Grosse Pointe Park — Most Urban, Most Accessible Entry Point",
+      },
+      {
+        type: "paragraph",
+        text: "Park is the most urban of the five, bordering Detroit to the west. Homes sit on smaller lots, and the architectural range is wide — solid brick colonials, Queen Anne revivals, bungalows. The neighborhood has a walkability that the other communities don't quite match. Entry points are the lowest of the five, and the upside for buyers who are comfortable with the proximity to Detroit is real.",
+      },
+      {
+        type: "h3",
+        text: "Grosse Pointe City — Village Center, Strongest Lifestyle Appeal",
+      },
+      {
+        type: "paragraph",
+        text: "What most people picture when they imagine \"Grosse Pointe\" is Grosse Pointe City — the village center along Kercheval, independent restaurants, boutiques, and a neighborhood feel that's more insular than Park. Prices run slightly higher than Park in the same size home. Well-maintained homes in the $400K–$650K range move quickly when they're priced right.",
+      },
+      {
+        type: "h3",
+        text: "Grosse Pointe Farms — Larger Lots, Premium Addresses",
+      },
+      {
+        type: "paragraph",
+        text: "Farms commands a premium for tangible reasons: larger lots, more architectural standouts, and addresses that carry weight with a certain buyer profile. The Farms also has access to private lakefront amenities through Pier Park, which matters to buyers who want Lake St. Clair access without owning waterfront. Above $800K, competition is real and inventory is consistently thin.",
+      },
+      {
+        type: "h3",
+        text: "Grosse Pointe Woods — Best Value Per Square Foot",
+      },
+      {
+        type: "paragraph",
+        text: "Woods is where I point first-time Grosse Pointe buyers who want the community feel on a tighter budget. Larger lots than Park, better value per square foot than Farms, and a residential character that feels more removed from the city. The tradeoff is distance from the main commercial corridors and a slightly longer drive to the waterfront amenities.",
+      },
+      {
+        type: "h3",
+        text: "Grosse Pointe Shores — Waterfront and Estate Territory",
+      },
+      {
+        type: "paragraph",
+        text: "Shores is the outlier — smaller in population, significant lakefront inventory, and estate-scale properties. If direct Lake St. Clair access is the priority, this is where you look. Expect to pay the waterfront premium, and expect that well-positioned waterfront homes sell in a compressed window when they come to market.",
+      },
+      {
+        type: "h2",
+        text: "The Detroit Proximity Question",
+      },
+      {
+        type: "paragraph",
+        text: "I'll be direct: Detroit's proximity is an asset for many buyers and a hesitation for others. If you're coming from outside the region, it can feel like a concern. What I consistently hear from buyers a year after they move in — especially those coming from Chicago or the coasts — is that the concern was unfounded. Grosse Pointe has maintained a clear identity and strong price performance through multiple cycles.",
+      },
+      {
+        type: "paragraph",
+        text: "For certain buyer profiles — remote workers, buyers who value easy city access for dining and culture, and buyers who simply want more house for the money — the proximity is a feature, not a liability.",
+      },
+      {
+        type: "h2",
+        text: "Before You Tour: The Practical Checklist",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Know which community fits your budget before you start. The price tiers are real and meaningful.",
+          "If waterfront access matters, clarify upfront whether you want direct ownership or shared amenity access — they're priced very differently.",
+          "Architecture varies more than you'd expect. Decide whether you want historic character or updated finishes before scheduling showings, or you'll burn weekends.",
+          "Check the flood zone status on any property near the lake. It affects insurance cost and can affect financing.",
+          "Grosse Pointe Park and City homes at the right price can sell quickly. Get pre-approved before you look seriously.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "My Take",
+      },
+      {
+        type: "paragraph",
+        text: "Grosse Pointe as a whole has outperformed my expectations as a market over the past five years. The Lake St. Clair waterfront gives the community a lifestyle asset with no real substitute in Southeast Michigan. And the value you get relative to comparable Oakland County markets is significant — you're getting more house, access to water, and a community with a strong sense of place.",
+      },
+      {
+        type: "callout",
+        label: "Practical advice",
+        text: "Get pre-approved, know your community, and move when you find the right home. Grosse Pointe isn't the kind of market where waiting typically produces a better deal — especially on the Farms and Shores end of the price spectrum.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're weighing Grosse Pointe against Northville, Rochester Hills, or Royal Oak, the conversation is worth having. The right answer depends on what matters most to you, and I'm happy to walk through it before you start touring.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
