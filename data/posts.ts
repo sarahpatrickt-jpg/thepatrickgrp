@@ -31,7 +31,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Every spring the question is the same: is this the year the market finally softens? And every year, Southeast Michigan finds a way to surprise people. Spring 2026 is no different — but it's nuanced in ways that matter if you're deciding whether to list, buy, or wait.",
+        text: "Every spring the question is the same: is this the year the market finally softens? And every year, Southeast Michigan finds a way to surprise people. Spring 2026 is no different - but it's nuanced in ways that matter if you're deciding whether to list, buy, or wait.",
       },
       {
         type: "paragraph",
@@ -39,7 +39,7 @@ export const posts: Post[] = [
       },
       {
         type: "h2",
-        text: "Prices Are Still Rising — Just More Slowly",
+        text: "Prices Are Still Rising - Just More Slowly",
       },
       {
         type: "paragraph",
@@ -57,7 +57,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Wayne County's 6.2% gain stands out — that market has been quietly outperforming for a few years now as buyers price out of Oakland and push east and south. Macomb at +4.7% is similarly strong. Oakland and Washtenaw, which surged hardest in 2021–2022, are settling into a more measured growth pattern.",
+        text: "Wayne County's 6.2% gain stands out - that market has been quietly outperforming for a few years now as buyers price out of Oakland and push east and south. Macomb at +4.7% is similarly strong. Oakland and Washtenaw, which surged hardest in 2021–2022, are settling into a more measured growth pattern.",
       },
       {
         type: "h2",
@@ -65,21 +65,21 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The more telling story is in days on market. Every county saw average DOM increase year-over-year in March — and in some cases significantly.",
+        text: "The more telling story is in days on market. Every county saw average DOM increase year-over-year in March - and in some cases significantly.",
       },
       {
         type: "bullets",
         items: [
-          "Macomb County: 18 days average — up 28.6% from March 2025",
-          "Livingston County: 17 days average — up 21.4% from March 2025",
-          "Oakland County: 16 days average — up 14.3% from March 2025",
-          "Wayne County: 17 days average — up 13.3% from March 2025",
-          "Washtenaw County: 15 days average — up 6.3% from March 2025",
+          "Macomb County: 18 days average - up 28.6% from March 2025",
+          "Livingston County: 17 days average - up 21.4% from March 2025",
+          "Oakland County: 16 days average - up 14.3% from March 2025",
+          "Wayne County: 17 days average - up 13.3% from March 2025",
+          "Washtenaw County: 15 days average - up 6.3% from March 2025",
         ],
       },
       {
         type: "paragraph",
-        text: "To be clear: 15–18 days is still a fast market by historical standards. But the direction matters. A year ago, a well-priced home in Oakland County might have had offers in 48–72 hours. Today, sellers who overprice or under-prepare are waiting — and that wait is costing them leverage.",
+        text: "To be clear: 15–18 days is still a fast market by historical standards. But the direction matters. A year ago, a well-priced home in Oakland County might have had offers in 48–72 hours. Today, sellers who overprice or under-prepare are waiting - and that wait is costing them leverage.",
       },
       {
         type: "callout",
@@ -96,11 +96,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Inventory is still tight in the sub-$400k range in Oakland County. Birmingham, Troy, and Rochester Hills continue to see competitive offers on well-presented homes. We had a listing in Troy last month that drew four offers in the first weekend — but we priced it carefully and the sellers invested in a pre-market refresh.",
+        text: "Inventory is still tight in the sub-$400k range in Oakland County. Birmingham, Troy, and Rochester Hills continue to see competitive offers on well-presented homes. We had a listing in Troy last month that drew four offers in the first weekend - but we priced it carefully and the sellers invested in a pre-market refresh.",
       },
       {
         type: "paragraph",
-        text: "Above $600k, it's a different conversation. Buyers at that price point have options, they're taking their time, and they're negotiating. Sellers who priced optimistically in the fall have come down. That's not a crash — it's a recalibration.",
+        text: "Above $600k, it's a different conversation. Buyers at that price point have options, they're taking their time, and they're negotiating. Sellers who priced optimistically in the fall have come down. That's not a crash - it's a recalibration.",
       },
       {
         type: "paragraph",
@@ -112,7 +112,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "You have more breathing room than you did in 2022. Use it wisely — don't use it as an excuse to move slowly on something you genuinely want. The best homes at the right prices still attract competition.",
+        text: "You have more breathing room than you did in 2022. Use it wisely - don't use it as an excuse to move slowly on something you genuinely want. The best homes at the right prices still attract competition.",
       },
       {
         type: "bullets",
@@ -144,7 +144,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The window to sell remains favorable — prices are up, buyer demand is real, and inventory is still relatively low by historical standards. But the sellers getting top dollar are the ones treating this like a competitive process, not a guaranteed windfall.",
+        text: "The window to sell remains favorable - prices are up, buyer demand is real, and inventory is still relatively low by historical standards. But the sellers getting top dollar are the ones treating this like a competitive process, not a guaranteed windfall.",
       },
       {
         type: "h2",
@@ -152,11 +152,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Southeast Michigan real estate in spring 2026 is a good market — not a wild one. Prices are growing, not crashing. Buyers have slightly more leverage than they did a year ago. Sellers who do the work are still seeing strong results.",
+        text: "Southeast Michigan real estate in spring 2026 is a good market - not a wild one. Prices are growing, not crashing. Buyers have slightly more leverage than they did a year ago. Sellers who do the work are still seeing strong results.",
       },
       {
         type: "paragraph",
-        text: "If you're thinking about making a move this year, now is the time to have the conversation — not because the market is going to fall, but because spring is historically the best window to act, and that window is already open.",
+        text: "If you're thinking about making a move this year, now is the time to have the conversation - not because the market is going to fall, but because spring is historically the best window to act, and that window is already open.",
       },
     ],
   },
@@ -166,7 +166,7 @@ export const posts: Post[] = [
     slug: "why-birmingham-keeps-appreciating",
     title: "Why Birmingham Keeps Appreciating",
     excerpt:
-      "A walkable downtown isn't just a lifestyle feature — it's a durable value driver that has held through every market cycle we've seen.",
+      "A walkable downtown isn't just a lifestyle feature - it's a durable value driver that has held through every market cycle we've seen.",
     date: "2026-03-15",
     author: "Sarah",
     category: "Neighborhood",
@@ -182,11 +182,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Birmingham's walkable downtown core along Old Woodward and Merrill Street isn't just a lifestyle amenity — it's a structural demand driver. Very few communities in Southeast Michigan offer the density of independently owned restaurants, retail, and year-round foot traffic that Birmingham does within walking distance of residential streets.",
+        text: "Birmingham's walkable downtown core along Old Woodward and Merrill Street isn't just a lifestyle amenity - it's a structural demand driver. Very few communities in Southeast Michigan offer the density of independently owned restaurants, retail, and year-round foot traffic that Birmingham does within walking distance of residential streets.",
       },
       {
         type: "paragraph",
-        text: "That walkability has a direct effect on buyer behavior. Buyers who want this don't have close alternatives. You can't replicate a walkable downtown in a suburb. So when inventory in Birmingham is low — which it almost always is — buyers compete for it.",
+        text: "That walkability has a direct effect on buyer behavior. Buyers who want this don't have close alternatives. You can't replicate a walkable downtown in a suburb. So when inventory in Birmingham is low - which it almost always is - buyers compete for it.",
       },
       {
         type: "h2",
@@ -198,7 +198,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "New construction does happen in Birmingham, but it's infill — replacing older homes or building on the rare available lot. When new construction hits the market here, it typically sets new price floors rather than competing with existing homes on value.",
+        text: "New construction does happen in Birmingham, but it's infill - replacing older homes or building on the rare available lot. When new construction hits the market here, it typically sets new price floors rather than competing with existing homes on value.",
       },
       {
         type: "h2",
@@ -214,7 +214,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Eleven days on market. That number tells you what the demand curve looks like. In a county where the March 2026 average was 16 days, Birmingham's sub-two-week pace signals that well-priced homes here face real competition — and that buyers aren't waiting.",
+        text: "Eleven days on market. That number tells you what the demand curve looks like. In a county where the March 2026 average was 16 days, Birmingham's sub-two-week pace signals that well-priced homes here face real competition - and that buyers aren't waiting.",
       },
       {
         type: "h2",
@@ -234,7 +234,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "When I'm preparing a Birmingham listing, I'm looking at a handful of things: the condition of windows and mechanicals (buyers at this price point expect them to be updated), the lot size — even 15 feet of extra depth matters here — and the kitchen and primary suite. Buyers at $700K and above are comparing this home against renovated homes in other Oakland County markets. The listings that win are the ones that look genuinely ready.",
+        text: "When I'm preparing a Birmingham listing, I'm looking at a handful of things: the condition of windows and mechanicals (buyers at this price point expect them to be updated), the lot size - even 15 feet of extra depth matters here - and the kitchen and primary suite. Buyers at $700K and above are comparing this home against renovated homes in other Oakland County markets. The listings that win are the ones that look genuinely ready.",
       },
       {
         type: "callout",
@@ -269,7 +269,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "\"Grosse Pointe\" isn't one market — it's five. And if you're buying here without understanding the differences, you're navigating blind. I've helped buyers find the right fit across all five communities, and the answer almost always comes down to the same three things: budget, lifestyle, and how much proximity to Detroit matters to you.",
+        text: "\"Grosse Pointe\" isn't one market - it's five. And if you're buying here without understanding the differences, you're navigating blind. I've helped buyers find the right fit across all five communities, and the answer almost always comes down to the same three things: budget, lifestyle, and how much proximity to Detroit matters to you.",
       },
       {
         type: "h2",
@@ -277,23 +277,23 @@ export const posts: Post[] = [
       },
       {
         type: "h3",
-        text: "Grosse Pointe Park — Most Urban, Most Accessible Entry Point",
+        text: "Grosse Pointe Park - Most Urban, Most Accessible Entry Point",
       },
       {
         type: "paragraph",
-        text: "Park is the most urban of the five, bordering Detroit to the west. Homes sit on smaller lots, and the architectural range is wide — solid brick colonials, Queen Anne revivals, bungalows. The neighborhood has a walkability that the other communities don't quite match. Entry points are the lowest of the five, and the upside for buyers who are comfortable with the proximity to Detroit is real.",
+        text: "Park is the most urban of the five, bordering Detroit to the west. Homes sit on smaller lots, and the architectural range is wide - solid brick colonials, Queen Anne revivals, bungalows. The neighborhood has a walkability that the other communities don't quite match. Entry points are the lowest of the five, and the upside for buyers who are comfortable with the proximity to Detroit is real.",
       },
       {
         type: "h3",
-        text: "Grosse Pointe City — Village Center, Strongest Lifestyle Appeal",
+        text: "Grosse Pointe City - Village Center, Strongest Lifestyle Appeal",
       },
       {
         type: "paragraph",
-        text: "What most people picture when they imagine \"Grosse Pointe\" is Grosse Pointe City — the village center along Kercheval, independent restaurants, boutiques, and a neighborhood feel that's more insular than Park. Prices run slightly higher than Park in the same size home. Well-maintained homes in the $400K–$650K range move quickly when they're priced right.",
+        text: "What most people picture when they imagine \"Grosse Pointe\" is Grosse Pointe City - the village center along Kercheval, independent restaurants, boutiques, and a neighborhood feel that's more insular than Park. Prices run slightly higher than Park in the same size home. Well-maintained homes in the $400K–$650K range move quickly when they're priced right.",
       },
       {
         type: "h3",
-        text: "Grosse Pointe Farms — Larger Lots, Premium Addresses",
+        text: "Grosse Pointe Farms - Larger Lots, Premium Addresses",
       },
       {
         type: "paragraph",
@@ -301,7 +301,7 @@ export const posts: Post[] = [
       },
       {
         type: "h3",
-        text: "Grosse Pointe Woods — Best Value Per Square Foot",
+        text: "Grosse Pointe Woods - Best Value Per Square Foot",
       },
       {
         type: "paragraph",
@@ -309,11 +309,11 @@ export const posts: Post[] = [
       },
       {
         type: "h3",
-        text: "Grosse Pointe Shores — Waterfront and Estate Territory",
+        text: "Grosse Pointe Shores - Waterfront and Estate Territory",
       },
       {
         type: "paragraph",
-        text: "Shores is the outlier — smaller in population, significant lakefront inventory, and estate-scale properties. If direct Lake St. Clair access is the priority, this is where you look. Expect to pay the waterfront premium, and expect that well-positioned waterfront homes sell in a compressed window when they come to market.",
+        text: "Shores is the outlier - smaller in population, significant lakefront inventory, and estate-scale properties. If direct Lake St. Clair access is the priority, this is where you look. Expect to pay the waterfront premium, and expect that well-positioned waterfront homes sell in a compressed window when they come to market.",
       },
       {
         type: "h2",
@@ -321,11 +321,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "I'll be direct: Detroit's proximity is an asset for many buyers and a hesitation for others. If you're coming from outside the region, it can feel like a concern. What I consistently hear from buyers a year after they move in — especially those coming from Chicago or the coasts — is that the concern was unfounded. Grosse Pointe has maintained a clear identity and strong price performance through multiple cycles.",
+        text: "I'll be direct: Detroit's proximity is an asset for many buyers and a hesitation for others. If you're coming from outside the region, it can feel like a concern. What I consistently hear from buyers a year after they move in - especially those coming from Chicago or the coasts - is that the concern was unfounded. Grosse Pointe has maintained a clear identity and strong price performance through multiple cycles.",
       },
       {
         type: "paragraph",
-        text: "For certain buyer profiles — remote workers, buyers who value easy city access for dining and culture, and buyers who simply want more house for the money — the proximity is a feature, not a liability.",
+        text: "For certain buyer profiles - remote workers, buyers who value easy city access for dining and culture, and buyers who simply want more house for the money - the proximity is a feature, not a liability.",
       },
       {
         type: "h2",
@@ -335,7 +335,7 @@ export const posts: Post[] = [
         type: "bullets",
         items: [
           "Know which community fits your budget before you start. The price tiers are real and meaningful.",
-          "If waterfront access matters, clarify upfront whether you want direct ownership or shared amenity access — they're priced very differently.",
+          "If waterfront access matters, clarify upfront whether you want direct ownership or shared amenity access - they're priced very differently.",
           "Architecture varies more than you'd expect. Decide whether you want historic character or updated finishes before scheduling showings, or you'll burn weekends.",
           "Check the flood zone status on any property near the lake. It affects insurance cost and can affect financing.",
           "Grosse Pointe Park and City homes at the right price can sell quickly. Get pre-approved before you look seriously.",
@@ -347,12 +347,12 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Grosse Pointe as a whole has outperformed my expectations as a market over the past five years. The Lake St. Clair waterfront gives the community a lifestyle asset with no real substitute in Southeast Michigan. And the value you get relative to comparable Oakland County markets is significant — you're getting more house, access to water, and a community with a strong sense of place.",
+        text: "Grosse Pointe as a whole has outperformed my expectations as a market over the past five years. The Lake St. Clair waterfront gives the community a lifestyle asset with no real substitute in Southeast Michigan. And the value you get relative to comparable Oakland County markets is significant - you're getting more house, access to water, and a community with a strong sense of place.",
       },
       {
         type: "callout",
         label: "Practical advice",
-        text: "Get pre-approved, know your community, and move when you find the right home. Grosse Pointe isn't the kind of market where waiting typically produces a better deal — especially on the Farms and Shores end of the price spectrum.",
+        text: "Get pre-approved, know your community, and move when you find the right home. Grosse Pointe isn't the kind of market where waiting typically produces a better deal - especially on the Farms and Shores end of the price spectrum.",
       },
       {
         type: "paragraph",

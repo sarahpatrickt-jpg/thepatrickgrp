@@ -56,14 +56,14 @@ export const cities: City[] = [
     priceRange: {
       low: "Mid-$400s to $650K gets you a well-maintained colonial or Tudor on a small to mid-sized lot within the city core.",
       high: "$650K–$1.2M brings fully renovated homes, newer construction, and premium streets a few blocks from downtown.",
-      luxury: "Above $1.2M you're looking at architectural standouts — custom builds, large lots near Quarton Lake, or recently constructed modern homes with every upgrade.",
+      luxury: "Above $1.2M you're looking at architectural standouts - custom builds, large lots near Quarton Lake, or recently constructed modern homes with every upgrade.",
     },
     schoolDistrict: "Birmingham City School District",
     commuteToDetroit: "20 min",
     about:
-      "Birmingham is one of Oakland County's most established cities, known for its walkable downtown along Merrill Street and Old Woodward Avenue — a dense concentration of independent restaurants, boutiques, galleries, and year-round community events. The city sits at approximately 4.7 square miles and borders Bloomfield Township to the north and Beverly Hills to the west.\n\nReal estate in Birmingham spans a wide range — from historic bungalows and Tudor revivals on tree-lined streets to modern new construction and luxury condominiums. The city has consistently maintained strong buyer demand and competitive days-on-market figures across every market cycle, making it one of the most reliable markets in Southeast Michigan.",
+      "Birmingham is one of Oakland County's most established cities, known for its walkable downtown along Merrill Street and Old Woodward Avenue - a dense concentration of independent restaurants, boutiques, galleries, and year-round community events. The city sits at approximately 4.7 square miles and borders Bloomfield Township to the north and Beverly Hills to the west.\n\nReal estate in Birmingham spans a wide range - from historic bungalows and Tudor revivals on tree-lined streets to modern new construction and luxury condominiums. The city has consistently maintained strong buyer demand and competitive days-on-market figures across every market cycle, making it one of the most reliable markets in Southeast Michigan.",
     realEstateOverview:
-      "Birmingham's housing stock includes a mix of Tudor revivals and colonials from the 1920s–1950s, alongside significant new construction activity. Lots tend to be smaller in the downtown core and larger toward the city's edges. Entry-level homes typically begin in the mid-$400s, while renovated or new-construction properties regularly exceed $1.5M.\n\nThe condominium market is active, with several well-maintained buildings in and around the downtown area offering lock-and-leave convenience. Inventory in Birmingham moves quickly — well-priced homes often see multiple offers within the first week.",
+      "Birmingham's housing stock includes a mix of Tudor revivals and colonials from the 1920s–1950s, alongside significant new construction activity. Lots tend to be smaller in the downtown core and larger toward the city's edges. Entry-level homes typically begin in the mid-$400s, while renovated or new-construction properties regularly exceed $1.5M.\n\nThe condominium market is active, with several well-maintained buildings in and around the downtown area offering lock-and-leave convenience. Inventory in Birmingham moves quickly - well-priced homes often see multiple offers within the first week.",
     locationAccess: [
       "Approximately 20 miles north of downtown Detroit via Woodward Avenue (M-1)",
       "Quick access to I-696 and US-24 (Telegraph Road)",
@@ -71,16 +71,16 @@ export const cities: City[] = [
       "Downtown Birmingham is walkable from most residential streets within the city core",
     ],
     schoolInfo:
-      "Birmingham is served by the Birmingham City School District, which includes Seaholm High School and Groves High School at the secondary level, along with several elementary and middle school buildings. Boundary lines determine school assignments — we recommend verifying which school a specific property feeds into directly with the district.",
+      "Birmingham is served by the Birmingham City School District, which includes Seaholm High School and Groves High School at the secondary level, along with several elementary and middle school buildings. Boundary lines determine school assignments - we recommend verifying which school a specific property feeds into directly with the district.",
     bradQuote:
-      "I've watched Birmingham hold its value through the 2008 crash, the COVID spike, and the 2022 rate shock — it is one of the most resilient markets in Southeast Michigan. The walkable downtown isn't just a lifestyle feature, it's a value driver that has kept buyers competing here through every cycle I've worked. When a properly prepared Birmingham listing hits the market, the response is almost always immediate.",
+      "I've watched Birmingham hold its value through the 2008 crash, the COVID spike, and the 2022 rate shock - it is one of the most resilient markets in Southeast Michigan. The walkable downtown isn't just a lifestyle feature, it's a value driver that has kept buyers competing here through every cycle I've worked. When a properly prepared Birmingham listing hits the market, the response is almost always immediate.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["bloomfield-hills-mi", "bloomfield-township-mi", "royal-oak-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Birmingham MI")}`,
     faqs: [
       {
         q: "What's the difference between Birmingham and Bloomfield Hills?",
-        a: "Birmingham is a walkable city with a dense downtown — you can walk to dinner, coffee, and shops from most neighborhoods. Bloomfield Hills is a city of estates: larger lots, wooded privacy, no commercial downtown, and a prestige address. Both have strong markets, but the lifestyle is completely different.",
+        a: "Birmingham is a walkable city with a dense downtown - you can walk to dinner, coffee, and shops from most neighborhoods. Bloomfield Hills is a city of estates: larger lots, wooded privacy, no commercial downtown, and a prestige address. Both have strong markets, but the lifestyle is completely different.",
       },
       {
         q: "Are there condos available in downtown Birmingham?",
@@ -88,7 +88,7 @@ export const cities: City[] = [
       },
       {
         q: "How competitive is the Birmingham real estate market?",
-        a: "Very. Well-priced Birmingham homes routinely see multiple offers within the first 7–10 days. If you're serious about buying here, having your financing ready before you look is critical — not optional.",
+        a: "Very. Well-priced Birmingham homes routinely see multiple offers within the first 7–10 days. If you're serious about buying here, having your financing ready before you look is critical - not optional.",
       },
       {
         q: "Does Birmingham have good walkability compared to other Oakland County cities?",
@@ -111,16 +111,16 @@ export const cities: City[] = [
       pricePerSqft: 268,
     },
     priceRange: {
-      low: "$700K–$1M gets you an established home on a wooded lot — expect to budget for updates on older properties in this range.",
+      low: "$700K–$1M gets you an established home on a wooded lot - expect to budget for updates on older properties in this range.",
       high: "$1M–$2M covers well-maintained to fully updated estates with significant square footage and mature landscaping.",
       luxury: "Above $2M you enter the realm of custom-built estates, significant acreage, and some of the most architecturally notable homes in Southeast Michigan.",
     },
     schoolDistrict: "Bloomfield Hills School District",
     commuteToDetroit: "25 min",
     about:
-      "Bloomfield Hills is one of Michigan's most prestigious addresses — a small city of roughly 4,000 residents spread across wooded, estate-sized lots. The city has no commercial downtown of its own; its identity is defined entirely by its residential character: private drives, mature tree canopy, and some of the most architecturally significant homes in the state.\n\nThe city is home to Cranbrook Educational Community, a National Historic Landmark campus that includes museums, art academies, and K–12 schools. That cultural anchor, combined with strict zoning that has kept lot sizes large and commercial intrusion minimal, has preserved the city's character across decades of market cycles.",
+      "Bloomfield Hills is one of Michigan's most prestigious addresses - a small city of roughly 4,000 residents spread across wooded, estate-sized lots. The city has no commercial downtown of its own; its identity is defined entirely by its residential character: private drives, mature tree canopy, and some of the most architecturally significant homes in the state.\n\nThe city is home to Cranbrook Educational Community, a National Historic Landmark campus that includes museums, art academies, and K–12 schools. That cultural anchor, combined with strict zoning that has kept lot sizes large and commercial intrusion minimal, has preserved the city's character across decades of market cycles.",
     realEstateOverview:
-      "The housing stock in Bloomfield Hills skews larger than almost any other Southeast Michigan city — median lot sizes well exceed an acre, and square footage commonly runs 3,000–7,000+ square feet. Architectural styles include mid-century modernist homes, traditional English estates, and significant custom construction from the past 20 years.\n\nDays on market tend to be longer here than in Birmingham or Royal Oak — this is a patient, selective market where buyers are typically well-capitalized and properties are purchased for their unique characteristics rather than comparable value.",
+      "The housing stock in Bloomfield Hills skews larger than almost any other Southeast Michigan city - median lot sizes well exceed an acre, and square footage commonly runs 3,000–7,000+ square feet. Architectural styles include mid-century modernist homes, traditional English estates, and significant custom construction from the past 20 years.\n\nDays on market tend to be longer here than in Birmingham or Royal Oak - this is a patient, selective market where buyers are typically well-capitalized and properties are purchased for their unique characteristics rather than comparable value.",
     locationAccess: [
       "Situated between Birmingham to the south and Bloomfield Township to the north",
       "Quick access to US-24 (Telegraph Road) and M-1 (Woodward Avenue)",
@@ -137,7 +137,7 @@ export const cities: City[] = [
     faqs: [
       {
         q: "Is Bloomfield Hills the same as Bloomfield Township?",
-        a: "No — they're two separate municipalities. Bloomfield Hills is an incorporated city with its own city government and school district. Bloomfield Township is a much larger township that surrounds it. Both are prestigious, but Bloomfield Hills commands a higher price premium due to exclusivity and lot sizes.",
+        a: "No - they're two separate municipalities. Bloomfield Hills is an incorporated city with its own city government and school district. Bloomfield Township is a much larger township that surrounds it. Both are prestigious, but Bloomfield Hills commands a higher price premium due to exclusivity and lot sizes.",
       },
       {
         q: "What schools serve Bloomfield Hills?",
@@ -149,7 +149,7 @@ export const cities: City[] = [
       },
       {
         q: "How is the Bloomfield Hills market for sellers?",
-        a: "It's a patient market. Days on market run longer than surrounding cities because the buyer pool for $1M+ homes is smaller and more selective. Correct pricing strategy is critical — overpriced listings in this range sit for months. We price Bloomfield Hills listings very carefully.",
+        a: "It's a patient market. Days on market run longer than surrounding cities because the buyer pool for $1M+ homes is smaller and more selective. Correct pricing strategy is critical - overpriced listings in this range sit for months. We price Bloomfield Hills listings very carefully.",
       },
     ],
     ctaVariant: "both",
@@ -168,16 +168,16 @@ export const cities: City[] = [
       pricePerSqft: 214,
     },
     priceRange: {
-      low: "$450K–$650K gets you a solid colonial or ranch on a generous lot — likely in an established subdivision, possible cosmetic updates needed.",
+      low: "$450K–$650K gets you a solid colonial or ranch on a generous lot - likely in an established subdivision, possible cosmetic updates needed.",
       high: "$650K–$1.2M brings updated homes, lakefront access, or newer construction in premier subdivisions.",
       luxury: "Above $1.2M you have access to estate-level properties, private pond-front lots, and custom homes throughout the township's most sought-after enclaves.",
     },
     schoolDistrict: "Bloomfield Hills School District",
     commuteToDetroit: "25 min",
     about:
-      "Bloomfield Township is one of Oakland County's largest and most diverse communities — a broad swath of land surrounding the City of Bloomfield Hills, encompassing dozens of established subdivisions, private lakes, and pockets of newer construction. Unlike its city neighbor, the township has a much wider price range and housing variety, making it accessible to buyers at multiple price points.\n\nThe township has no commercial downtown of its own, but sits adjacent to Birmingham and Troy, giving residents convenient access to both. Bloomfield Hills School District serves much of the township, which remains one of the area's strongest draws.",
+      "Bloomfield Township is one of Oakland County's largest and most diverse communities - a broad swath of land surrounding the City of Bloomfield Hills, encompassing dozens of established subdivisions, private lakes, and pockets of newer construction. Unlike its city neighbor, the township has a much wider price range and housing variety, making it accessible to buyers at multiple price points.\n\nThe township has no commercial downtown of its own, but sits adjacent to Birmingham and Troy, giving residents convenient access to both. Bloomfield Hills School District serves much of the township, which remains one of the area's strongest draws.",
     realEstateOverview:
-      "Bloomfield Township's housing stock spans colonials and ranches from the 1950s through the 1980s to large, newer custom homes in premier subdivisions. Many properties include significant lot sizes, and lake and pond frontage is available across multiple price tiers. The condominium market here is active, particularly in communities targeting empty nesters and downsizers.\n\nAppraisal-supported pricing is critical here — the wide range of property types and conditions means comparables can vary significantly even within the same subdivision.",
+      "Bloomfield Township's housing stock spans colonials and ranches from the 1950s through the 1980s to large, newer custom homes in premier subdivisions. Many properties include significant lot sizes, and lake and pond frontage is available across multiple price tiers. The condominium market here is active, particularly in communities targeting empty nesters and downsizers.\n\nAppraisal-supported pricing is critical here - the wide range of property types and conditions means comparables can vary significantly even within the same subdivision.",
     locationAccess: [
       "Surrounded by Birmingham (south), Troy (east), West Bloomfield (west), and Pontiac (north)",
       "Access via US-24 (Telegraph), Woodward Avenue (M-1), and Opdyke Road",
@@ -187,14 +187,14 @@ export const cities: City[] = [
     schoolInfo:
       "Bloomfield Hills School District serves most of Bloomfield Township, including Andover and Lahser High Schools. Some edge areas of the township may fall within Pontiac or Troy school districts; verify address-specific assignments with the district.",
     bradQuote:
-      "Bloomfield Township gives you Birmingham-area proximity and significantly more house for the money — larger lots, more square footage, and access to a broader range of property types than you'll find inside Birmingham proper. It's consistently one of my top recommendations for buyers who need space without sacrifice.",
+      "Bloomfield Township gives you Birmingham-area proximity and significantly more house for the money - larger lots, more square footage, and access to a broader range of property types than you'll find inside Birmingham proper. It's consistently one of my top recommendations for buyers who need space without sacrifice.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["birmingham-mi", "bloomfield-hills-mi", "west-bloomfield-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Bloomfield Township MI")}`,
     faqs: [
       {
         q: "What's the school district for Bloomfield Township?",
-        a: "Most of Bloomfield Township is served by the Bloomfield Hills School District, which includes Andover and Lahser High Schools. Some properties near the township's edges may feed into Pontiac, Troy, or Birmingham school districts — always verify the specific address with the district before purchasing.",
+        a: "Most of Bloomfield Township is served by the Bloomfield Hills School District, which includes Andover and Lahser High Schools. Some properties near the township's edges may feed into Pontiac, Troy, or Birmingham school districts - always verify the specific address with the district before purchasing.",
       },
       {
         q: "Is Bloomfield Township more affordable than Birmingham?",
@@ -206,7 +206,7 @@ export const cities: City[] = [
       },
       {
         q: "How does Bloomfield Township compare to West Bloomfield?",
-        a: "Both are strong markets with lake access and established residential character. Bloomfield Township generally runs slightly higher in price. West Bloomfield has more active lake communities and a broader inventory range. Both are served by their respective school districts — verify address-specific assignments with the relevant district.",
+        a: "Both are strong markets with lake access and established residential character. Bloomfield Township generally runs slightly higher in price. West Bloomfield has more active lake communities and a broader inventory range. Both are served by their respective school districts - verify address-specific assignments with the relevant district.",
       },
     ],
     ctaVariant: "buyer",
@@ -232,9 +232,9 @@ export const cities: City[] = [
     schoolDistrict: "Rochester Community School District",
     commuteToDetroit: "35 min",
     about:
-      "Rochester is one of Oakland County's most beloved communities — a small city with a genuine downtown village character centered on Main Street, with the Paint Creek Trail weaving through the heart of the community. The trail connects Rochester to Rochester Hills and Lake Orion, and is one of the most-used non-motorized corridors in Oakland County.\n\nThe city has a tight-knit, community-oriented feel distinct from Birmingham's more cosmopolitan energy. Downtown Rochester hosts seasonal events, farmers markets, and a mix of independent restaurants and boutiques. Oakland University sits just north of the city, adding an academic and cultural dimension to the local fabric.",
+      "Rochester is one of Oakland County's most beloved communities - a small city with a genuine downtown village character centered on Main Street, with the Paint Creek Trail weaving through the heart of the community. The trail connects Rochester to Rochester Hills and Lake Orion, and is one of the most-used non-motorized corridors in Oakland County.\n\nThe city has a tight-knit, community-oriented feel distinct from Birmingham's more cosmopolitan energy. Downtown Rochester hosts seasonal events, farmers markets, and a mix of independent restaurants and boutiques. Oakland University sits just north of the city, adding an academic and cultural dimension to the local fabric.",
     realEstateOverview:
-      "Rochester's housing stock includes a healthy mix of established colonials and ranches from the 1960s–1980s, alongside newer in-fill construction and renovated homes in walkable blocks near downtown. Townhomes and condominiums are available at more accessible price points, particularly for buyers who want proximity to downtown without a large single-family maintenance commitment.\n\nDemand in Rochester is consistent and the market is competitive — the combination of walkable downtown, trail access, and community character creates broad appeal across buyer profiles.",
+      "Rochester's housing stock includes a healthy mix of established colonials and ranches from the 1960s–1980s, alongside newer in-fill construction and renovated homes in walkable blocks near downtown. Townhomes and condominiums are available at more accessible price points, particularly for buyers who want proximity to downtown without a large single-family maintenance commitment.\n\nDemand in Rochester is consistent and the market is competitive - the combination of walkable downtown, trail access, and community character creates broad appeal across buyer profiles.",
     locationAccess: [
       "Located at the intersection of Rochester Road and University Drive, approximately 30 miles north of Detroit",
       "Access via M-59 (Auburn Road), Avon Road, and Rochester Road",
@@ -244,7 +244,7 @@ export const cities: City[] = [
     schoolInfo:
       "Rochester is served by the Rochester Community School District. Adams, Rochester, and Stoney Creek High Schools serve the secondary level. Verify address-specific school assignments with the district before purchasing.",
     bradQuote:
-      "Rochester punches above its weight class in almost every measurable category — the downtown, the Paint Creek Trail, the community feel. What surprises buyers is how competitive it is; you'd think a city this size would have more inventory, but demand consistently outpaces supply. If you want Rochester, you need to move fast when the right one comes up.",
+      "Rochester punches above its weight class in almost every measurable category - the downtown, the Paint Creek Trail, the community feel. What surprises buyers is how competitive it is; you'd think a city this size would have more inventory, but demand consistently outpaces supply. If you want Rochester, you need to move fast when the right one comes up.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-hills-mi", "lake-orion-mi", "oxford-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Rochester MI")}`,
@@ -255,7 +255,7 @@ export const cities: City[] = [
       },
       {
         q: "Is Rochester different from Rochester Hills?",
-        a: "Yes — they're two separate municipalities. Rochester is a small city with a distinct downtown village. Rochester Hills is a much larger city with a suburban character and no comparable downtown. Both share the Rochester Community School District (Adams, Rochester, and Stoney Creek High Schools), but the lifestyle and price point differ.",
+        a: "Yes - they're two separate municipalities. Rochester is a small city with a distinct downtown village. Rochester Hills is a much larger city with a suburban character and no comparable downtown. Both share the Rochester Community School District (Adams, Rochester, and Stoney Creek High Schools), but the lifestyle and price point differ.",
       },
       {
         q: "Are there condos or townhomes available in Rochester?",
@@ -282,16 +282,16 @@ export const cities: City[] = [
       pricePerSqft: 185,
     },
     priceRange: {
-      low: "$300K–$420K gets you a solid ranch or colonial in an established subdivision — often updated kitchens or baths, good lot sizes.",
+      low: "$300K–$420K gets you a solid ranch or colonial in an established subdivision - often updated kitchens or baths, good lot sizes.",
       high: "$420K–$600K brings newer construction, larger homes, or well-renovated properties in the city's premier subdivisions.",
       luxury: "Above $600K you have access to executive-level homes, custom builds, and properties on larger parcels in the city's northern sections.",
     },
     schoolDistrict: "Rochester Community School District",
     commuteToDetroit: "35 min",
     about:
-      "Rochester Hills is one of Oakland County's larger cities by area and population — a sprawling suburban community with dozens of established subdivisions, convenient access to major employment corridors, and exceptional quality of life fundamentals. Unlike its neighbor Rochester, it lacks a walkable downtown core, but compensates with a wide variety of housing and accessible price points.\n\nThe city is home to multiple parks, Stony Creek Metropark at its northern edge, and Oakland University within its boundaries. The combination of employment proximity, housing variety, and park access makes Rochester Hills consistently one of the highest-demand cities in Oakland County.",
+      "Rochester Hills is one of Oakland County's larger cities by area and population - a sprawling suburban community with dozens of established subdivisions, convenient access to major employment corridors, and exceptional quality of life fundamentals. Unlike its neighbor Rochester, it lacks a walkable downtown core, but compensates with a wide variety of housing and accessible price points.\n\nThe city is home to multiple parks, Stony Creek Metropark at its northern edge, and Oakland University within its boundaries. The combination of employment proximity, housing variety, and park access makes Rochester Hills consistently one of the highest-demand cities in Oakland County.",
     realEstateOverview:
-      "Rochester Hills offers one of the broadest ranges of housing stock in Oakland County — from affordable 1,400-square-foot ranches to 4,000+ square foot executive colonials in gated communities. New construction is available in select areas, and the condo market is active near major corridors.\n\nThe market here is reliable and liquid. Homes priced accurately in Rochester Hills sell quickly across all price tiers. Employment proximity, housing variety, and trail and park access create broad and consistent buyer demand.",
+      "Rochester Hills offers one of the broadest ranges of housing stock in Oakland County - from affordable 1,400-square-foot ranches to 4,000+ square foot executive colonials in gated communities. New construction is available in select areas, and the condo market is active near major corridors.\n\nThe market here is reliable and liquid. Homes priced accurately in Rochester Hills sell quickly across all price tiers. Employment proximity, housing variety, and trail and park access create broad and consistent buyer demand.",
     locationAccess: [
       "Bounded by Auburn Hills to the north, Troy to the south, Oakland Township to the east, and Pontiac to the west",
       "Access via M-59 (Auburn Road), Avon Road, Adams Road, and Rochester Road",
@@ -301,7 +301,7 @@ export const cities: City[] = [
     schoolInfo:
       "Rochester Hills is served by the Rochester Community School District. Adams and Rochester High Schools serve secondary students. Property-specific school assignments should be verified with the district, as several subdivision boundaries fall near district boundary lines.",
     bradQuote:
-      "Rochester Hills is my workhorse market — it delivers for buyers at almost every price point. You get great parks, easy highway access, and a lot of house for the money compared to Birmingham or Bloomfield. I've placed more buyers here than almost anywhere else in Oakland County.",
+      "Rochester Hills is my workhorse market - it delivers for buyers at almost every price point. You get great parks, easy highway access, and a lot of house for the money compared to Birmingham or Bloomfield. I've placed more buyers here than almost anywhere else in Oakland County.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["rochester-mi", "troy-mi", "lake-orion-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Rochester Hills MI")}`,
@@ -346,26 +346,26 @@ export const cities: City[] = [
     schoolDistrict: "Troy School District",
     commuteToDetroit: "25 min",
     about:
-      "Troy is one of Michigan's most significant commercial and residential cities — a major I-75 employment hub that is home to dozens of corporate headquarters, the Somerset Collection (one of Michigan's premier luxury malls), and a highly diverse population of over 85,000 residents. The city is one of Oakland County's largest, and its residential real estate market reflects that scale: diverse inventory, consistent demand, and strong long-term value retention.\n\nResidential Troy is quieter than its commercial reputation suggests. The city is organized into dozens of well-maintained subdivisions with tree-lined streets, active homeowner associations, and strong neighborhood identities. The combination of employment proximity, highway access, and housing variety makes Troy one of Oakland County's most perpetually in-demand markets.",
+      "Troy is one of Michigan's most significant commercial and residential cities - a major I-75 employment hub that is home to dozens of corporate headquarters, the Somerset Collection (one of Michigan's premier luxury malls), and a highly diverse population of over 85,000 residents. The city is one of Oakland County's largest, and its residential real estate market reflects that scale: diverse inventory, consistent demand, and strong long-term value retention.\n\nResidential Troy is quieter than its commercial reputation suggests. The city is organized into dozens of well-maintained subdivisions with tree-lined streets, active homeowner associations, and strong neighborhood identities. The combination of employment proximity, highway access, and housing variety makes Troy one of Oakland County's most perpetually in-demand markets.",
     realEstateOverview:
       "Troy offers housing at a range of price points, from affordable condos and townhomes to executive-level colonials and custom homes in premier subdivisions. The bulk of the housing stock was built between the 1960s and 1990s, with consistent renovation activity keeping properties updated and competitive.\n\nDemand in Troy is driven by a combination of employment proximity (major tech, automotive, and financial employers within or adjacent to the city), highway access, and a well-established residential character across dozens of subdivisions.",
     locationAccess: [
       "Bordered by Birmingham (west), Rochester Hills (north), Sterling Heights (east), and Royal Oak (south)",
-      "Direct access to I-75, I-696, and Crooks Road — one of Oakland County's most connected cities",
+      "Direct access to I-75, I-696, and Crooks Road - one of Oakland County's most connected cities",
       "Somerset Collection and major retail corridors along Big Beaver Road (16 Mile)",
       "Approximately 25 miles north of downtown Detroit via I-75",
     ],
     schoolInfo:
       "Troy is served by the Troy School District. Athens and Troy High Schools serve secondary students; school assignment depends on address-specific boundaries within the city. Verify the specific assignment for any property with the district.",
     bradQuote:
-      "I cannot think of a market in Southeast Michigan with more consistent fundamentals than Troy. Major employers right there, highway access in every direction, housing variety at every price point — Troy has held value through every downturn I've witnessed. When clients are nervous about making a move, I often point them to Troy because the data does the reassuring.",
+      "I cannot think of a market in Southeast Michigan with more consistent fundamentals than Troy. Major employers right there, highway access in every direction, housing variety at every price point - Troy has held value through every downturn I've witnessed. When clients are nervous about making a move, I often point them to Troy because the data does the reassuring.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["rochester-hills-mi", "birmingham-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Troy MI")}`,
     faqs: [
       {
         q: "What are the two high schools in Troy and how do I know which one my property feeds?",
-        a: "Troy has Athens High School and Troy High School. School assignment is determined by address — properties west of specific boundary roads feed Athens, and those east feed Troy High. We verify the specific assignment for any property before buyers commit.",
+        a: "Troy has Athens High School and Troy High School. School assignment is determined by address - properties west of specific boundary roads feed Athens, and those east feed Troy High. We verify the specific assignment for any property before buyers commit.",
       },
       {
         q: "Is Troy a good city to invest in real estate?",
@@ -377,7 +377,7 @@ export const cities: City[] = [
       },
       {
         q: "Are there condos available in Troy?",
-        a: "Yes — Troy has one of the larger condo markets in Oakland County, particularly along Big Beaver Road and near the Somerset Collection. These range from modestly priced units in the $200Ks to luxury high-rise style condos in the $500K+ range.",
+        a: "Yes - Troy has one of the larger condo markets in Oakland County, particularly along Big Beaver Road and near the Somerset Collection. These range from modestly priced units in the $200Ks to luxury high-rise style condos in the $500K+ range.",
       },
     ],
     ctaVariant: "both",
@@ -396,14 +396,14 @@ export const cities: City[] = [
       pricePerSqft: 198,
     },
     priceRange: {
-      low: "$380K–$550K gets you a spacious colonial or ranch in an established subdivision — often larger lot sizes than comparable prices in Troy or Birmingham.",
+      low: "$380K–$550K gets you a spacious colonial or ranch in an established subdivision - often larger lot sizes than comparable prices in Troy or Birmingham.",
       high: "$550K–$850K brings lakefront access, well-updated executive homes, and newer construction in West Bloomfield's premier communities.",
       luxury: "Above $850K you're looking at Walnut Lake or Orchard Lake waterfront estates, custom-built homes, and properties with significant privacy and acreage.",
     },
     schoolDistrict: "West Bloomfield School District",
     commuteToDetroit: "30 min",
     about:
-      "West Bloomfield Township is one of Oakland County's most established lake communities — a broad, wooded township dotted with private and semi-private lakes including Walnut Lake, Orchard Lake, and Pine Lake. The community has a quieter, more residential character than its Birmingham and Troy neighbors, with a strong emphasis on private lake living and suburban comfort.\n\nWest Bloomfield has a large and established Jewish community that has shaped much of the township's cultural infrastructure, including a concentration of delis, specialty grocers, synagogues, and community organizations along Orchard Lake Road. The township's population is roughly 65,000, and the housing market reflects a wide range of buyer profiles from young families to long-established residents.",
+      "West Bloomfield Township is one of Oakland County's most established lake communities - a broad, wooded township dotted with private and semi-private lakes including Walnut Lake, Orchard Lake, and Pine Lake. The community has a quieter, more residential character than its Birmingham and Troy neighbors, with a strong emphasis on private lake living and suburban comfort.\n\nWest Bloomfield has a large and established Jewish community that has shaped much of the township's cultural infrastructure, including a concentration of delis, specialty grocers, synagogues, and community organizations along Orchard Lake Road. The township's population is roughly 65,000, and the housing market reflects a wide range of buyer profiles from young families to long-established residents.",
     realEstateOverview:
       "West Bloomfield's housing market ranges from entry-level ranches and colonials in established inland subdivisions to multi-million dollar lakefront estates on Walnut Lake and Orchard Lake. The mid-range market ($400K–$700K) is particularly active, with strong demand from families targeting West Bloomfield School District and buyers seeking more lot size than Birmingham or Troy offers at comparable prices.\n\nLakefront properties in West Bloomfield represent their own distinct market segment with premium pricing driven by scarcity and recreational value.",
     locationAccess: [
@@ -415,22 +415,22 @@ export const cities: City[] = [
     schoolInfo:
       "West Bloomfield Township is primarily served by the West Bloomfield School District. West Bloomfield High School serves most of the township; some border areas fall within Walled Lake Schools. Verify the specific school assignment for any address before purchasing.",
     bradQuote:
-      "West Bloomfield's lake communities have been among the most loyal markets I've worked in my career. Walnut Lake, Orchard Lake, Pine Lake — those addresses attract buyers who know exactly what they want and aren't easily deterred. For sellers, the lifestyle premium is real and I've seen it hold value even when other Oakland County markets have softened.",
+      "West Bloomfield's lake communities have been among the most loyal markets I've worked in my career. Walnut Lake, Orchard Lake, Pine Lake - those addresses attract buyers who know exactly what they want and aren't easily deterred. For sellers, the lifestyle premium is real and I've seen it hold value even when other Oakland County markets have softened.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["bloomfield-township-mi", "bloomfield-hills-mi", "novi-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("West Bloomfield MI")}`,
     faqs: [
       {
         q: "What lakes are in West Bloomfield and are they open to all residents?",
-        a: "West Bloomfield has several notable lakes including Walnut Lake, Orchard Lake, Pine Lake, and Upper Straits Lake. Access varies — some are private with riparian rights restricted to lakefront owners, while others have semi-public access points. Lakefront property buyers need to understand access rights specific to each lake.",
+        a: "West Bloomfield has several notable lakes including Walnut Lake, Orchard Lake, Pine Lake, and Upper Straits Lake. Access varies - some are private with riparian rights restricted to lakefront owners, while others have semi-public access points. Lakefront property buyers need to understand access rights specific to each lake.",
       },
       {
         q: "Is West Bloomfield in Bloomfield Hills School District?",
-        a: "No — West Bloomfield Township is primarily served by the West Bloomfield School District, with West Bloomfield High School as the main secondary school. Some edge areas may fall within Walled Lake or Pontiac school districts. This is different from the Bloomfield Hills School District that serves Bloomfield Township and the City of Bloomfield Hills.",
+        a: "No - West Bloomfield Township is primarily served by the West Bloomfield School District, with West Bloomfield High School as the main secondary school. Some edge areas may fall within Walled Lake or Pontiac school districts. This is different from the Bloomfield Hills School District that serves Bloomfield Township and the City of Bloomfield Hills.",
       },
       {
         q: "How does West Bloomfield compare to Bloomfield Township for home prices?",
-        a: "West Bloomfield generally runs slightly below Bloomfield Township at the median, offering more home for the money in many cases. Both are served by their respective school districts — verify address-specific assignments directly with the district.",
+        a: "West Bloomfield generally runs slightly below Bloomfield Township at the median, offering more home for the money in many cases. Both are served by their respective school districts - verify address-specific assignments directly with the district.",
       },
       {
         q: "Are there new construction homes in West Bloomfield?",
@@ -453,16 +453,16 @@ export const cities: City[] = [
       pricePerSqft: 210,
     },
     priceRange: {
-      low: "$280K–$380K gets you a bungalow or cape cod in one of Royal Oak's established neighborhoods — often these are the renovator's opportunity in a desirable location.",
+      low: "$280K–$380K gets you a bungalow or cape cod in one of Royal Oak's established neighborhoods - often these are the renovator's opportunity in a desirable location.",
       high: "$380K–$550K brings fully updated bungalows, well-maintained colonials, and newer construction within walking distance of downtown.",
       luxury: "Above $550K you're looking at new custom construction, high-end renovations, or premium condos in the downtown core.",
     },
     schoolDistrict: "Royal Oak School District",
     commuteToDetroit: "15 min",
     about:
-      "Royal Oak is one of Southeast Michigan's most vibrant and diverse communities — a compact, walkable city just 15 miles from downtown Detroit with a thriving arts scene, independent restaurant culture, and one of the most active real estate markets in Oakland County. The city's Main Street corridor and Washington Avenue create a pedestrian-friendly downtown that rivals Birmingham's in energy if not in scale.\n\nThe city is known for its bungalow housing stock — thousands of 1920s–1940s craftsman-style homes that continue to attract buyers who value character, neighborhood density, and walkability. Royal Oak also has the Detroit Zoo within its city limits, one of the finest metropolitan zoos in the United States.",
+      "Royal Oak is one of Southeast Michigan's most vibrant and diverse communities - a compact, walkable city just 15 miles from downtown Detroit with a thriving arts scene, independent restaurant culture, and one of the most active real estate markets in Oakland County. The city's Main Street corridor and Washington Avenue create a pedestrian-friendly downtown that rivals Birmingham's in energy if not in scale.\n\nThe city is known for its bungalow housing stock - thousands of 1920s–1940s craftsman-style homes that continue to attract buyers who value character, neighborhood density, and walkability. Royal Oak also has the Detroit Zoo within its city limits, one of the finest metropolitan zoos in the United States.",
     realEstateOverview:
-      "Royal Oak's market is driven by strong buyer demand from first-time homebuyers, Detroit exurban buyers seeking walkability, and investors targeting the city's renovation-ready bungalow stock. Homes here move faster than almost anywhere else in Oakland County — well-priced listings routinely sell within days.\n\nNew construction activity, including luxury infill and condo development near downtown, has added a higher-priced segment to the market. The broad range from affordable bungalows to luxury new builds makes Royal Oak one of the most demographically diverse buyer markets in Southeast Michigan.",
+      "Royal Oak's market is driven by strong buyer demand from first-time homebuyers, Detroit exurban buyers seeking walkability, and investors targeting the city's renovation-ready bungalow stock. Homes here move faster than almost anywhere else in Oakland County - well-priced listings routinely sell within days.\n\nNew construction activity, including luxury infill and condo development near downtown, has added a higher-priced segment to the market. The broad range from affordable bungalows to luxury new builds makes Royal Oak one of the most demographically diverse buyer markets in Southeast Michigan.",
     locationAccess: [
       "Approximately 15 miles north of downtown Detroit via Woodward Avenue (M-1)",
       "I-696 access at Woodward and Crooks Road",
@@ -472,7 +472,7 @@ export const cities: City[] = [
     schoolInfo:
       "Royal Oak is served by the Royal Oak School District, with Royal Oak High School as the single secondary school. The district is well-regarded and serves the entire city. The compact city boundaries mean most properties are within a straightforward distance from school buildings.",
     bradQuote:
-      "I have watched Royal Oak transform over the course of my career from the affordable alternative to Birmingham into one of Oakland County's most competitive markets in its own right. The walkability, the character housing, the proximity to Detroit — it now has its own identity and buyer pool that isn't just driven by overflow from Birmingham. That's a sign of a truly healthy market.",
+      "I have watched Royal Oak transform over the course of my career from the affordable alternative to Birmingham into one of Oakland County's most competitive markets in its own right. The walkability, the character housing, the proximity to Detroit - it now has its own identity and buyer pool that isn't just driven by overflow from Birmingham. That's a sign of a truly healthy market.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["birmingham-mi", "troy-mi", "bloomfield-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Royal Oak MI")}`,
@@ -483,7 +483,7 @@ export const cities: City[] = [
       },
       {
         q: "Are the bungalows in Royal Oak expensive to maintain?",
-        a: "Homes built in the 1920s–1940s can have deferred maintenance needs — older electrical, original windows, aging plumbing. Many have been updated, but pre-inspection diligence matters here more than in newer-construction cities. A $10K–$20K systems budget isn't unreasonable for an uninspected bungalow purchase.",
+        a: "Homes built in the 1920s–1940s can have deferred maintenance needs - older electrical, original windows, aging plumbing. Many have been updated, but pre-inspection diligence matters here more than in newer-construction cities. A $10K–$20K systems budget isn't unreasonable for an uninspected bungalow purchase.",
       },
       {
         q: "How does Royal Oak compare to Birmingham?",
@@ -491,7 +491,7 @@ export const cities: City[] = [
       },
       {
         q: "Is parking a challenge in Royal Oak?",
-        a: "Near downtown, yes — parking is limited on weekends and evenings, which is typical for a walkable urban environment. Most residential streets have adequate on-street parking, and the city has multiple public parking structures within the downtown core.",
+        a: "Near downtown, yes - parking is limited on weekends and evenings, which is typical for a walkable urban environment. Most residential streets have adequate on-street parking, and the city has multiple public parking structures within the downtown core.",
       },
     ],
     ctaVariant: "buyer",
@@ -510,16 +510,16 @@ export const cities: City[] = [
       pricePerSqft: 188,
     },
     priceRange: {
-      low: "$320K–$480K gets you a solid suburban home in an established Clarkston-area subdivision — often with more lot size than you'd get at similar prices in southern Oakland County.",
+      low: "$320K–$480K gets you a solid suburban home in an established Clarkston-area subdivision - often with more lot size than you'd get at similar prices in southern Oakland County.",
       high: "$480K–$750K brings updated homes near the village, lake access, or newer construction in premium Independence Township communities.",
       luxury: "Above $750K opens up acreage properties, lake-front estates, and truly rural parcels that don't exist in other parts of Oakland County.",
     },
     schoolDistrict: "Clarkston Community School District",
     commuteToDetroit: "45 min",
     about:
-      "Clarkston is a genuinely distinct community in Oakland County's northern reaches — a village with authentic small-town character, beloved by buyers who want to leave dense suburban living behind without completely abandoning metro area amenities. The Village of Clarkston (a separate incorporated entity from Independence Township) has one of the most charming downtown streets in Oakland County, anchored by the Clarkston Union restaurant and a collection of locally-owned businesses.\n\nThe broader Clarkston area includes Independence Township, Springfield Township, and portions of other surrounding municipalities — all marketed under the Clarkston name. Pine Knob (now Pine Knob Music Theatre), Deer Lake, and multiple natural areas are defining recreational assets. Buyers who discover Clarkston frequently describe it as the kind of place they weren't looking for but couldn't leave.",
+      "Clarkston is a genuinely distinct community in Oakland County's northern reaches - a village with authentic small-town character, beloved by buyers who want to leave dense suburban living behind without completely abandoning metro area amenities. The Village of Clarkston (a separate incorporated entity from Independence Township) has one of the most charming downtown streets in Oakland County, anchored by the Clarkston Union restaurant and a collection of locally-owned businesses.\n\nThe broader Clarkston area includes Independence Township, Springfield Township, and portions of other surrounding municipalities - all marketed under the Clarkston name. Pine Knob (now Pine Knob Music Theatre), Deer Lake, and multiple natural areas are defining recreational assets. Buyers who discover Clarkston frequently describe it as the kind of place they weren't looking for but couldn't leave.",
     realEstateOverview:
-      "The Clarkston area offers a genuinely diverse real estate inventory — from modest ranches in established subdivisions to lakefront estates and rural acreage parcels that are impossible to find in southern Oakland County. New construction activity is limited, preserving the area's natural character.\n\nThe market runs at a slightly slower pace than Troy or Rochester Hills, giving buyers a bit more time to make decisions. But well-priced properties in the village and on popular lakes still see strong demand.",
+      "The Clarkston area offers a genuinely diverse real estate inventory - from modest ranches in established subdivisions to lakefront estates and rural acreage parcels that are impossible to find in southern Oakland County. New construction activity is limited, preserving the area's natural character.\n\nThe market runs at a slightly slower pace than Troy or Rochester Hills, giving buyers a bit more time to make decisions. But well-priced properties in the village and on popular lakes still see strong demand.",
     locationAccess: [
       "Located at I-75 and Dixie Highway (M-15), approximately 40 miles north of downtown Detroit",
       "Quick access to I-75 for commuting south toward Troy, Auburn Hills, and Detroit",
@@ -529,7 +529,7 @@ export const cities: City[] = [
     schoolInfo:
       "Clarkston Community School District serves the area, with Clarkston High School as the sole secondary school. Verify address-specific school assignments with the district before purchasing.",
     bradQuote:
-      "Clarkston is one of those markets where buyers arrive skeptical and leave converted. I've had clients who called it 'too far out' on Monday and were writing an offer by Saturday after we toured the village. There is a quality of life here — the village character, the lakes, the natural setting — that photographs honestly don't capture. Buyers who make the move here almost never regret it.",
+      "Clarkston is one of those markets where buyers arrive skeptical and leave converted. I've had clients who called it 'too far out' on Monday and were writing an offer by Saturday after we toured the village. There is a quality of life here - the village character, the lakes, the natural setting - that photographs honestly don't capture. Buyers who make the move here almost never regret it.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["lake-orion-mi", "oxford-mi", "rochester-hills-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Clarkston MI")}`,
@@ -540,15 +540,15 @@ export const cities: City[] = [
       },
       {
         q: "How long is the commute from Clarkston to Detroit?",
-        a: "Plan on 40–50 minutes to downtown Detroit in normal conditions, primarily via I-75. The commute to Troy and Auburn Hills runs 20–30 minutes. This is a genuine trade-off — Clarkston buyers tend to be buyers who have accepted the drive in exchange for the lifestyle.",
+        a: "Plan on 40–50 minutes to downtown Detroit in normal conditions, primarily via I-75. The commute to Troy and Auburn Hills runs 20–30 minutes. This is a genuine trade-off - Clarkston buyers tend to be buyers who have accepted the drive in exchange for the lifestyle.",
       },
       {
         q: "Are there lakefront homes available in the Clarkston area?",
-        a: "Yes — several lakes including Deer Lake, Cranberry Lake, Lake Louise, and others have private lakefront properties. These range from mid-priced cottages to significant lakefront estates. Lake access is one of Clarkston's strongest market differentiators.",
+        a: "Yes - several lakes including Deer Lake, Cranberry Lake, Lake Louise, and others have private lakefront properties. These range from mid-priced cottages to significant lakefront estates. Lake access is one of Clarkston's strongest market differentiators.",
       },
       {
         q: "Is Clarkston in Oakland County or Lapeer County?",
-        a: "Most of what's referred to as Clarkston — Independence Township and the village itself — is in Oakland County. Some adjacent areas and rural parcels marketed under the Clarkston name may cross into Lapeer County. Always verify the county and tax jurisdiction on specific properties.",
+        a: "Most of what's referred to as Clarkston - Independence Township and the village itself - is in Oakland County. Some adjacent areas and rural parcels marketed under the Clarkston name may cross into Lapeer County. Always verify the county and tax jurisdiction on specific properties.",
       },
     ],
     ctaVariant: "buyer",
@@ -567,14 +567,14 @@ export const cities: City[] = [
       pricePerSqft: 178,
     },
     priceRange: {
-      low: "$250K–$350K gets you a non-waterfront home in Orion Township — often ranch or colonial with reasonable lot sizes.",
+      low: "$250K–$350K gets you a non-waterfront home in Orion Township - often ranch or colonial with reasonable lot sizes.",
       high: "$350K–$550K brings well-updated homes, newer construction, or lake access properties on smaller lakes.",
       luxury: "Above $550K opens up direct frontage on Lake Orion and larger private lakes, with a handful of true estates at the high end.",
     },
     schoolDistrict: "Lake Orion Community School District",
     commuteToDetroit: "40 min",
     about:
-      "Lake Orion is northern Oakland County's recreational centerpiece — a community defined by the 520-acre Lake Orion at its core, surrounded by a charming village downtown and miles of Paint Creek Trail connectivity to the south. The village has a genuine small-town character with seasonal activity around the lake, annual events, and a local retail and dining scene that punches above its size.\n\nThe broader Lake Orion market includes Orion Township, which offers a wider range of housing types from affordable ranches to newer construction communities. The General Motors Orion Assembly Plant, one of GM's most modern facilities, is located in Orion Township — a significant local employment anchor.",
+      "Lake Orion is northern Oakland County's recreational centerpiece - a community defined by the 520-acre Lake Orion at its core, surrounded by a charming village downtown and miles of Paint Creek Trail connectivity to the south. The village has a genuine small-town character with seasonal activity around the lake, annual events, and a local retail and dining scene that punches above its size.\n\nThe broader Lake Orion market includes Orion Township, which offers a wider range of housing types from affordable ranches to newer construction communities. The General Motors Orion Assembly Plant, one of GM's most modern facilities, is located in Orion Township - a significant local employment anchor.",
     realEstateOverview:
       "Lake Orion's real estate market offers two distinct segments: the lakefront market, driven by recreational demand and scarcity, and the broader non-waterfront suburban market in Orion Township. The non-waterfront market is more price-accessible, offering good value relative to southern Oakland County cities.\n\nWaterfront properties on Lake Orion itself command significant premiums and have their own set of township regulations regarding dock permits, shoreline use, and seasonal access.",
     locationAccess: [
@@ -597,11 +597,11 @@ export const cities: City[] = [
       },
       {
         q: "How does Lake Orion compare to Clarkston for home prices?",
-        a: "Lake Orion generally runs slightly below Clarkston, particularly in the non-waterfront market. Both serve similar buyer profiles — buyers who want northern Oakland County character at prices below the southern corridor. Clarkston's village is generally considered more upscale in character.",
+        a: "Lake Orion generally runs slightly below Clarkston, particularly in the non-waterfront market. Both serve similar buyer profiles - buyers who want northern Oakland County character at prices below the southern corridor. Clarkston's village is generally considered more upscale in character.",
       },
       {
         q: "Is the GM Orion Assembly Plant a good or bad thing for home values?",
-        a: "It's been a net positive for the area — the plant is a major local employer and has invested significantly in the community. It doesn't have a meaningful negative impact on residential neighborhoods because it's separated from residential areas. If anything, the employment base supports demand.",
+        a: "It's been a net positive for the area - the plant is a major local employer and has invested significantly in the community. It doesn't have a meaningful negative impact on residential neighborhoods because it's separated from residential areas. If anything, the employment base supports demand.",
       },
       {
         q: "What is the Paint Creek Trail connection to Lake Orion?",
@@ -624,14 +624,14 @@ export const cities: City[] = [
       pricePerSqft: 170,
     },
     priceRange: {
-      low: "$220K–$320K gets you a solid ranch or colonial in Oxford Township — often on a generous lot with more space than comparable prices anywhere in southern Oakland County.",
+      low: "$220K–$320K gets you a solid ranch or colonial in Oxford Township - often on a generous lot with more space than comparable prices anywhere in southern Oakland County.",
       high: "$320K–$480K brings newer construction communities, updated homes in the village area, or acreage properties with rural character.",
       luxury: "Above $480K opens up equestrian properties, larger rural parcels, and custom builds in Oxford Township's more rural northern sections.",
     },
     schoolDistrict: "Oxford Community School District",
     commuteToDetroit: "50 min",
     about:
-      "Oxford is one of Oakland County's northernmost communities — a village and township with a rural character, small-town downtown, and price points that offer significant value relative to the county's southern tier. Oxford Village has an authentic historic character with local restaurants, antique shops, and a community feel that's increasingly rare in suburban Michigan.\n\nThe community gained national attention in late 2021 for difficult reasons, and the subsequent years have shown a community actively engaged in healing and rebuilding. For buyers, Oxford offers genuine value, rural character, and a school district that has worked hard to rebuild community trust and support.",
+      "Oxford is one of Oakland County's northernmost communities - a village and township with a rural character, small-town downtown, and price points that offer significant value relative to the county's southern tier. Oxford Village has an authentic historic character with local restaurants, antique shops, and a community feel that's increasingly rare in suburban Michigan.\n\nThe community gained national attention in late 2021 for difficult reasons, and the subsequent years have shown a community actively engaged in healing and rebuilding. For buyers, Oxford offers genuine value, rural character, and a school district that has worked hard to rebuild community trust and support.",
     realEstateOverview:
       "Oxford's market offers a range that includes everything from modest village homes and subdivisions to genuine rural acreage, equestrian properties, and lakefront parcels. It's one of the few remaining places in Oakland County where a buyer can acquire meaningful land at a reasonable price.\n\nNew construction activity has been moderate in Oxford Township, primarily in planned residential communities with suburban amenities. The market generally moves at a slightly slower pace than southern Oakland County cities, giving buyers more time to make considered decisions.",
     locationAccess: [
@@ -643,22 +643,22 @@ export const cities: City[] = [
     schoolInfo:
       "Oxford Community School District serves the village and township, with Oxford High School as the secondary school. The district has undertaken significant investments in student support services and school safety in recent years. Academic programs are comprehensive, and the district is actively working to rebuild its community standing.",
     bradQuote:
-      "Oxford is for the buyer who genuinely wants space, values, and rural authenticity — and isn't hung up on the commute. You can still get acreage in Oakland County here, which is almost impossible in the southern tier anymore. The community is resilient, prices reflect real value, and I think the long-term trajectory is positive for buyers who are patient.",
+      "Oxford is for the buyer who genuinely wants space, values, and rural authenticity - and isn't hung up on the commute. You can still get acreage in Oakland County here, which is almost impossible in the southern tier anymore. The community is resilient, prices reflect real value, and I think the long-term trajectory is positive for buyers who are patient.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["lake-orion-mi", "clarkston-mi", "rochester-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Oxford MI")}`,
     faqs: [
       {
         q: "Is Oxford a good place to buy a home in 2025?",
-        a: "Oxford offers genuine value — lower prices, more lot size, and rural character that's increasingly hard to find in Oakland County. The community has shown resilience and continued market activity since 2021. Buyers who are drawn to rural character and space per dollar will find Oxford compelling.",
+        a: "Oxford offers genuine value - lower prices, more lot size, and rural character that's increasingly hard to find in Oakland County. The community has shown resilience and continued market activity since 2021. Buyers who are drawn to rural character and space per dollar will find Oxford compelling.",
       },
       {
         q: "Can you buy acreage or farmland in Oxford?",
-        a: "Yes — Oxford Township has one of the remaining inventory pools for acreage, equestrian properties, and rural parcels in Oakland County. Five-to-twenty-acre properties are available at prices that would be impossible to find 10–15 miles to the south.",
+        a: "Yes - Oxford Township has one of the remaining inventory pools for acreage, equestrian properties, and rural parcels in Oakland County. Five-to-twenty-acre properties are available at prices that would be impossible to find 10–15 miles to the south.",
       },
       {
         q: "What is the commute like from Oxford to Auburn Hills or Troy?",
-        a: "Auburn Hills is approximately 20–25 minutes south via M-24. Troy runs 35–45 minutes. The commute to Detroit is 50+ minutes. Oxford is a genuine commute — buyers need to be honest with themselves about whether the rural lifestyle trade-off is worth it for their specific work situation.",
+        a: "Auburn Hills is approximately 20–25 minutes south via M-24. Troy runs 35–45 minutes. The commute to Detroit is 50+ minutes. Oxford is a genuine commute - buyers need to be honest with themselves about whether the rural lifestyle trade-off is worth it for their specific work situation.",
       },
       {
         q: "Is Oxford different from Lake Orion?",
@@ -688,9 +688,9 @@ export const cities: City[] = [
     schoolDistrict: "Novi Community School District",
     commuteToDetroit: "30 min",
     about:
-      "Novi is one of Oakland County's most strategically positioned cities — a major I-96 corridor hub with diverse housing, significant commercial development, and a growing population that has made it one of Michigan's fastest-growing cities over the past two decades. The city is home to Twelve Oaks Mall, major employer campuses, and Walled Lake, which provides waterfront living access within the city limits.\n\nNovi has one of the most diverse populations in Oakland County, with a significant South Asian community that has shaped the city's restaurant, retail, and cultural infrastructure. The combination of highway access, housing variety, and a diverse community character makes Novi a consistently high-demand market.",
+      "Novi is one of Oakland County's most strategically positioned cities - a major I-96 corridor hub with diverse housing, significant commercial development, and a growing population that has made it one of Michigan's fastest-growing cities over the past two decades. The city is home to Twelve Oaks Mall, major employer campuses, and Walled Lake, which provides waterfront living access within the city limits.\n\nNovi has one of the most diverse populations in Oakland County, with a significant South Asian community that has shaped the city's restaurant, retail, and cultural infrastructure. The combination of highway access, housing variety, and a diverse community character makes Novi a consistently high-demand market.",
     realEstateOverview:
-      "Novi's housing market covers substantial ground — from affordable condos in planned communities to lakefront estates on Walled Lake. New construction has been a consistent feature of the Novi market, with active builder communities in various stages throughout the city.\n\nProximity to major employer campuses in Southfield, Auburn Hills, and along the M-5 corridor drives consistent demand, along with the city's highway access and housing diversity. The market is active and competitive at most price points.",
+      "Novi's housing market covers substantial ground - from affordable condos in planned communities to lakefront estates on Walled Lake. New construction has been a consistent feature of the Novi market, with active builder communities in various stages throughout the city.\n\nProximity to major employer campuses in Southfield, Auburn Hills, and along the M-5 corridor drives consistent demand, along with the city's highway access and housing diversity. The market is active and competitive at most price points.",
     locationAccess: [
       "Located at I-96 and Beck Road, one of Oakland County's best-connected highway positions",
       "M-5 (Grand River Avenue) provides direct access east toward Southfield and west toward Brighton",
@@ -707,11 +707,11 @@ export const cities: City[] = [
     faqs: [
       {
         q: "What lakes are in Novi and can anyone buy waterfront?",
-        a: "Walled Lake is the largest body of water associated with Novi, though much of its shoreline is in the City of Walled Lake. Novi also has several smaller private lakes within planned communities. Waterfront availability is limited and commands a significant premium — these properties move quickly when they list.",
+        a: "Walled Lake is the largest body of water associated with Novi, though much of its shoreline is in the City of Walled Lake. Novi also has several smaller private lakes within planned communities. Waterfront availability is limited and commands a significant premium - these properties move quickly when they list.",
       },
       {
         q: "Is there new construction available in Novi?",
-        a: "Yes — Novi is one of the few established Oakland County cities where new construction communities are still actively developing. Several builders have active phases throughout the city, typically ranging from $500K–$800K+ for new detached homes.",
+        a: "Yes - Novi is one of the few established Oakland County cities where new construction communities are still actively developing. Several builders have active phases throughout the city, typically ranging from $500K–$800K+ for new detached homes.",
       },
       {
         q: "How is Novi's diversity and what does it mean for buyers?",
@@ -740,14 +740,14 @@ export const cities: City[] = [
       pricePerSqft: 168,
     },
     priceRange: {
-      low: "$280K–$370K gets you a solid brick ranch or colonial in an established Shelby Township subdivision — often with newer mechanicals and move-in ready condition.",
+      low: "$280K–$370K gets you a solid brick ranch or colonial in an established Shelby Township subdivision - often with newer mechanicals and move-in ready condition.",
       high: "$370K–$550K brings newer construction, larger lots, or well-updated executive homes in premium Shelby communities.",
       luxury: "Above $550K opens up custom builds, larger acreage properties, and the newer estate developments near 26 Mile Road and Rochester Road corridors.",
     },
     schoolDistrict: "Utica Community Schools",
     commuteToDetroit: "35 min",
     about:
-      "Shelby Township sits at the Oakland-Macomb county line — geographically and culturally — giving buyers proximity to Oakland County's lifestyle amenities at Macomb County price points. The township is established, well-maintained, and home to Stony Creek Metropark, one of Southeast Michigan's most-used outdoor recreation facilities with trails, beaches, and a golf course.\n\nShelby Township has a strong concentration of newer construction built over the past 20 years, particularly in the northern sections near 25 Mile and 26 Mile Roads. The township population is roughly 80,000, making it one of Michigan's larger townships, and the quality of the housing stock is consistently high.",
+      "Shelby Township sits at the Oakland-Macomb county line - geographically and culturally - giving buyers proximity to Oakland County's lifestyle amenities at Macomb County price points. The township is established, well-maintained, and home to Stony Creek Metropark, one of Southeast Michigan's most-used outdoor recreation facilities with trails, beaches, and a golf course.\n\nShelby Township has a strong concentration of newer construction built over the past 20 years, particularly in the northern sections near 25 Mile and 26 Mile Roads. The township population is roughly 80,000, making it one of Michigan's larger townships, and the quality of the housing stock is consistently high.",
     realEstateOverview:
       "Shelby Township offers exceptional value relative to neighboring Oakland County cities. Buyers who start their search in Rochester Hills or Troy frequently end up here when they realize they can get a newer, larger home with a bigger lot for $50K–$100K less across the county line.\n\nThe market is active and competitive, with consistent demand from families targeting Utica Community Schools and buyers who value the Stony Creek access. Inventory is broader than many comparable cities, which gives buyers slightly more flexibility.",
     locationAccess: [
@@ -757,7 +757,7 @@ export const cities: City[] = [
       "Approximately 30 miles north of downtown Detroit via I-75 or M-53",
     ],
     schoolInfo:
-      "Most of Shelby Township is served by Utica Community Schools, with Eisenhower and Utica High Schools serving secondary students depending on address. Some western portions of the township may feed into Rochester Community Schools — verify the specific address with the district.",
+      "Most of Shelby Township is served by Utica Community Schools, with Eisenhower and Utica High Schools serving secondary students depending on address. Some western portions of the township may feed into Rochester Community Schools - verify the specific address with the district.",
     bradQuote:
       "If you're looking for a place that feels a bit more 'open' without losing any of the perks, Shelby Township is the spot. It's got a great, laid-back energy, mostly thanks to Stony Creek Metropark being right in your backyard for hiking, biking, or just hanging by the water. You get that perfect mix of beautiful established neighborhoods and all the shopping along Hall Road, but it still manages to feel peaceful and tucked away. It's basically suburban living with a huge side of nature.",
     quoteAuthor: "Brad",
@@ -766,7 +766,7 @@ export const cities: City[] = [
     faqs: [
       {
         q: "Is Shelby Township in Oakland or Macomb County?",
-        a: "Shelby Township is in Macomb County, though it borders Oakland County directly to the west (Rochester Hills and Auburn Hills). This county-line position is actually one of its strongest selling points — you get Macomb pricing with Oakland County proximity.",
+        a: "Shelby Township is in Macomb County, though it borders Oakland County directly to the west (Rochester Hills and Auburn Hills). This county-line position is actually one of its strongest selling points - you get Macomb pricing with Oakland County proximity.",
       },
       {
         q: "What school district is Shelby Township in?",
@@ -774,11 +774,11 @@ export const cities: City[] = [
       },
       {
         q: "How close is Stony Creek Metropark to Shelby Township homes?",
-        a: "Stony Creek Metropark occupies the southeastern corner of Shelby Township and spills into neighboring communities. Depending on your address, you can literally walk or bike to the park. It's a genuine lifestyle amenity — 4,461 acres with trails, a swim beach, golf, and winter activities.",
+        a: "Stony Creek Metropark occupies the southeastern corner of Shelby Township and spills into neighboring communities. Depending on your address, you can literally walk or bike to the park. It's a genuine lifestyle amenity - 4,461 acres with trails, a swim beach, golf, and winter activities.",
       },
       {
         q: "How does Shelby Township compare to Macomb Township?",
-        a: "Shelby Township is generally more established with a wider range of housing age — from 1970s ranches to new construction. Macomb Township skews newer with more active builder communities. Shelby sits closer to Oakland County, which adds proximity value. Both are strong markets within Macomb County.",
+        a: "Shelby Township is generally more established with a wider range of housing age - from 1970s ranches to new construction. Macomb Township skews newer with more active builder communities. Shelby sits closer to Oakland County, which adds proximity value. Both are strong markets within Macomb County.",
       },
     ],
     ctaVariant: "buyer",
@@ -797,14 +797,14 @@ export const cities: City[] = [
       pricePerSqft: 168,
     },
     priceRange: {
-      low: "$220K–$295K gets you a well-maintained brick ranch in an established Sterling Heights neighborhood — solid bones, reasonable lot, often updated kitchen or bath.",
+      low: "$220K–$295K gets you a well-maintained brick ranch in an established Sterling Heights neighborhood - solid bones, reasonable lot, often updated kitchen or bath.",
       high: "$295K–$400K brings larger colonials, well-renovated homes, and properties in the city's newer subdivisions.",
-      luxury: "Above $400K you're in the premium tier for Sterling Heights — executive homes, newer builds, and properties adjacent to the Shelby Township border.",
+      luxury: "Above $400K you're in the premium tier for Sterling Heights - executive homes, newer builds, and properties adjacent to the Shelby Township border.",
     },
     schoolDistrict: "Utica Community Schools",
     commuteToDetroit: "25 min",
     about:
-      "Sterling Heights is Macomb County's largest city and one of Michigan's most populous — a sprawling, diverse community of nearly 135,000 residents that has consistently attracted buyers seeking solid housing values, employment proximity, and accessible price points. The city's housing stock is anchored by thousands of brick ranches and colonials built during Michigan's postwar suburban expansion, many of which have been well-maintained or renovated.\n\nSterling Heights has a significant Middle Eastern and South Asian population that has shaped the city's restaurant, retail, and cultural character — particularly along Van Dyke Avenue and Mound Road. The city is also home to major defense and automotive employers, including military vehicle manufacturers and automotive supplier campuses.",
+      "Sterling Heights is Macomb County's largest city and one of Michigan's most populous - a sprawling, diverse community of nearly 135,000 residents that has consistently attracted buyers seeking solid housing values, employment proximity, and accessible price points. The city's housing stock is anchored by thousands of brick ranches and colonials built during Michigan's postwar suburban expansion, many of which have been well-maintained or renovated.\n\nSterling Heights has a significant Middle Eastern and South Asian population that has shaped the city's restaurant, retail, and cultural character - particularly along Van Dyke Avenue and Mound Road. The city is also home to major defense and automotive employers, including military vehicle manufacturers and automotive supplier campuses.",
     realEstateOverview:
       "Sterling Heights offers straightforward, honest value. The housing stock is predominantly brick construction with good bones, and the market rewards buyers who can look past cosmetic issues on slightly dated interiors. Homes here appraise reliably and sell consistently because the buyer pool is broad and the price points are accessible.\n\nThe market is competitive for well-priced, move-in ready inventory, particularly in the Utica Community Schools section of the city, which draws strong demand from family buyers.",
     locationAccess: [
@@ -816,7 +816,7 @@ export const cities: City[] = [
     schoolInfo:
       "Sterling Heights is split between Utica Community Schools (northern sections, generally north of 15 Mile Road) and Warren Consolidated Schools (southern sections). Utica serves Eisenhower and Utica High Schools; Warren Consolidated serves Fitzgerald and other secondary schools. Verify address-specific assignments with the relevant district before purchasing.",
     bradQuote:
-      "Sterling Heights is where I send buyers who need the value of Macomb County pricing without sacrificing proximity to Troy and the I-75 corridor. The northern section of Sterling Heights — anything above 15 Mile — is genuinely competitive and offers real value for what you get. The brick ranch inventory here is as solid as anything in the county, and buyers who are willing to update cosmetics get exceptional deals.",
+      "Sterling Heights is where I send buyers who need the value of Macomb County pricing without sacrificing proximity to Troy and the I-75 corridor. The northern section of Sterling Heights - anything above 15 Mile - is genuinely competitive and offers real value for what you get. The brick ranch inventory here is as solid as anything in the county, and buyers who are willing to update cosmetics get exceptional deals.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["shelby-township-mi", "troy-mi", "warren-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Sterling Heights MI")}`,
@@ -835,7 +835,7 @@ export const cities: City[] = [
       },
       {
         q: "How competitive is Sterling Heights compared to Shelby Township?",
-        a: "Sterling Heights is generally less competitive — more inventory, more time on market, and a broader price range. Shelby Township (north of Sterling Heights) runs slightly higher due to newer construction and proximity to Oakland County. If budget is the primary driver, Sterling Heights delivers more for the money.",
+        a: "Sterling Heights is generally less competitive - more inventory, more time on market, and a broader price range. Shelby Township (north of Sterling Heights) runs slightly higher due to newer construction and proximity to Oakland County. If budget is the primary driver, Sterling Heights delivers more for the money.",
       },
     ],
     ctaVariant: "buyer",
@@ -854,14 +854,14 @@ export const cities: City[] = [
       pricePerSqft: 155,
     },
     priceRange: {
-      low: "$190K–$270K gets you a solid brick ranch or older colonial in Clinton Township — reasonable lot, brick construction, often with Lake St. Clair proximity.",
+      low: "$190K–$270K gets you a solid brick ranch or older colonial in Clinton Township - reasonable lot, brick construction, often with Lake St. Clair proximity.",
       high: "$270K–$420K brings newer construction, well-updated homes, and properties with Lake St. Clair or canal access in the township's lakeside sections.",
-      luxury: "Above $420K is the waterfront premium — direct Lake St. Clair frontage and the finest canal homes push pricing into the $600K–$1M+ range.",
+      luxury: "Above $420K is the waterfront premium - direct Lake St. Clair frontage and the finest canal homes push pricing into the $600K–$1M+ range.",
     },
     schoolDistrict: "Chippewa Valley School District",
     commuteToDetroit: "25 min",
     about:
-      "Clinton Township is one of Macomb County's most geographically diverse communities — ranging from inland ranch subdivisions near major commercial corridors to waterfront properties with direct Lake St. Clair and canal access in the township's eastern sections. With nearly 100,000 residents, it's one of Michigan's larger townships and offers a broad range of buyer profiles and price points.\n\nMacomb Community College, one of Michigan's largest community colleges, is headquartered in Clinton Township, adding an educational and employment anchor. The township's proximity to Lake St. Clair is one of its most significant lifestyle differentiators — particularly for buyers who value boating, fishing, and water recreation.",
+      "Clinton Township is one of Macomb County's most geographically diverse communities - ranging from inland ranch subdivisions near major commercial corridors to waterfront properties with direct Lake St. Clair and canal access in the township's eastern sections. With nearly 100,000 residents, it's one of Michigan's larger townships and offers a broad range of buyer profiles and price points.\n\nMacomb Community College, one of Michigan's largest community colleges, is headquartered in Clinton Township, adding an educational and employment anchor. The township's proximity to Lake St. Clair is one of its most significant lifestyle differentiators - particularly for buyers who value boating, fishing, and water recreation.",
     realEstateOverview:
       "Clinton Township's market divides clearly into two segments: the inland residential market, which is broadly affordable and accessible, and the waterfront market, which carries significant premium pricing. Both segments are active, though the inland market sees far more transaction volume.\n\nBuyers looking for Macomb County value who don't require waterfront access will find Clinton Township's inland market competitive and well-supplied. Chippewa Valley School District drives demand in the western sections of the township.",
     locationAccess: [
@@ -871,16 +871,16 @@ export const cities: City[] = [
       "Approximately 20 miles northeast of downtown Detroit via I-94",
     ],
     schoolInfo:
-      "Clinton Township is primarily served by Chippewa Valley School District in the western and central portions of the township. Some eastern sections may fall within Fraser School District or other surrounding districts — verify address-specific assignments with the relevant district.",
+      "Clinton Township is primarily served by Chippewa Valley School District in the western and central portions of the township. Some eastern sections may fall within Fraser School District or other surrounding districts - verify address-specific assignments with the relevant district.",
     bradQuote:
-      "Think of Clinton Township as the sweet spot of Metro Detroit — where you get all the perks of a big community without the frantic pace. Whether you're grabbing a coffee at the dog-friendly Partridge Creek, hitting the trails at George George Park, or just enjoying the quiet of your own backyard, it's a place that feels instantly familiar. It's easygoing, centrally located, and just a great spot to actually enjoy where you live.",
+      "Think of Clinton Township as the sweet spot of Metro Detroit - where you get all the perks of a big community without the frantic pace. Whether you're grabbing a coffee at the dog-friendly Partridge Creek, hitting the trails at George George Park, or just enjoying the quiet of your own backyard, it's a place that feels instantly familiar. It's easygoing, centrally located, and just a great spot to actually enjoy where you live.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["sterling-heights-mi", "st-clair-shores-mi", "macomb-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Clinton Township MI")}`,
     faqs: [
       {
         q: "Are there waterfront homes in Clinton Township?",
-        a: "Yes — eastern Clinton Township has canal-front properties with access to Lake St. Clair, as well as some direct lakefront. These run significantly higher than inland homes, typically from the mid-$300s to $800K+ for direct lake frontage. The canal lifestyle is a major draw for boating enthusiasts.",
+        a: "Yes - eastern Clinton Township has canal-front properties with access to Lake St. Clair, as well as some direct lakefront. These run significantly higher than inland homes, typically from the mid-$300s to $800K+ for direct lake frontage. The canal lifestyle is a major draw for boating enthusiasts.",
       },
       {
         q: "Which school district serves Clinton Township?",
@@ -911,16 +911,16 @@ export const cities: City[] = [
       pricePerSqft: 172,
     },
     priceRange: {
-      low: "$280K–$380K gets you a newer colonial in an established Macomb Township subdivision — often with larger lots than you'd find in Sterling Heights or Clinton Township.",
+      low: "$280K–$380K gets you a newer colonial in an established Macomb Township subdivision - often with larger lots than you'd find in Sterling Heights or Clinton Township.",
       high: "$380K–$520K brings executive-level new construction, larger homes on generous lots, and premium subdivision communities.",
-      luxury: "Above $520K is the top of the Macomb Township market — custom builds, oversized lots, and the newest builder communities in the township's northern sections.",
+      luxury: "Above $520K is the top of the Macomb Township market - custom builds, oversized lots, and the newest builder communities in the township's northern sections.",
     },
     schoolDistrict: "Chippewa Valley School District",
     commuteToDetroit: "35 min",
     about:
-      "Macomb Township is one of Michigan's fastest-growing communities and has been for two decades. The township's northern location in Macomb County — further from Detroit but with more land available for development — has made it a builder's market, with new construction communities continuously opening in its vast open acreage. The result is a township full of newer homes, larger lots, and modern amenities.\n\nThe community is family-oriented with good parks and the active new construction market that gives buyers options not available in more built-out cities. The growth trajectory shows no signs of slowing, driven by buyers who want new construction without paying Oakland County prices.",
+      "Macomb Township is one of Michigan's fastest-growing communities and has been for two decades. The township's northern location in Macomb County - further from Detroit but with more land available for development - has made it a builder's market, with new construction communities continuously opening in its vast open acreage. The result is a township full of newer homes, larger lots, and modern amenities.\n\nThe community is family-oriented with good parks and the active new construction market that gives buyers options not available in more built-out cities. The growth trajectory shows no signs of slowing, driven by buyers who want new construction without paying Oakland County prices.",
     realEstateOverview:
-      "Macomb Township is almost entirely a newer-construction or newer-vintage market — the bulk of the housing stock dates from the 1990s through today, giving buyers modern floor plans, updated systems, and garage space that older Macomb County communities can't match. Builder communities with active spec inventory are a consistent feature.\n\nThe market runs competitive for new construction and well-priced newer homes. The township's ongoing growth means it's not unusual to find a neighborhood where both resale and new-build options exist side by side.",
+      "Macomb Township is almost entirely a newer-construction or newer-vintage market - the bulk of the housing stock dates from the 1990s through today, giving buyers modern floor plans, updated systems, and garage space that older Macomb County communities can't match. Builder communities with active spec inventory are a consistent feature.\n\nThe market runs competitive for new construction and well-priced newer homes. The township's ongoing growth means it's not unusual to find a neighborhood where both resale and new-build options exist side by side.",
     locationAccess: [
       "Located in northern Macomb County, bounded by Romeo (north), Shelby Township (west), Clinton Township (south), and Washington Township (northeast)",
       "Access via M-53 (Van Dyke), 26 Mile Road, and 23 Mile Road",
@@ -937,7 +937,7 @@ export const cities: City[] = [
     faqs: [
       {
         q: "Is Macomb Township a good place for new construction?",
-        a: "Yes — it's one of the few places in Southeast Michigan where multiple builder communities with spec inventory are still actively developing. Buyers who want new construction at Macomb County prices find Macomb Township one of the primary options.",
+        a: "Yes - it's one of the few places in Southeast Michigan where multiple builder communities with spec inventory are still actively developing. Buyers who want new construction at Macomb County prices find Macomb Township one of the primary options.",
       },
       {
         q: "What school district covers Macomb Township?",
@@ -949,7 +949,7 @@ export const cities: City[] = [
       },
       {
         q: "Are lot sizes in Macomb Township larger than in Sterling Heights?",
-        a: "Yes, generally. Macomb Township's newer developments were designed for larger lots — 80 to 100+ foot wide parcels are common. Sterling Heights' older stock tends to run 60–70 foot lots. If lot size matters to you, Macomb Township generally wins that comparison.",
+        a: "Yes, generally. Macomb Township's newer developments were designed for larger lots - 80 to 100+ foot wide parcels are common. Sterling Heights' older stock tends to run 60–70 foot lots. If lot size matters to you, Macomb Township generally wins that comparison.",
       },
     ],
     ctaVariant: "buyer",
@@ -968,16 +968,16 @@ export const cities: City[] = [
       pricePerSqft: 170,
     },
     priceRange: {
-      low: "$180K–$270K gets you a ranch or bungalow in SCS's inland sections — solid brick construction, well-established neighborhoods.",
+      low: "$180K–$270K gets you a ranch or bungalow in SCS's inland sections - solid brick construction, well-established neighborhoods.",
       high: "$270K–$450K brings canal-front access with dock rights, updated ranches with water views, or well-maintained canal-front colonials.",
-      luxury: "Above $450K is where you find direct Lake St. Clair frontage — a genuinely rare category in Southeast Michigan.",
+      luxury: "Above $450K is where you find direct Lake St. Clair frontage - a genuinely rare category in Southeast Michigan.",
     },
     schoolDistrict: "South Lake School District",
     commuteToDetroit: "20 min",
     about:
-      "St. Clair Shores is the canal capital of Macomb County — a waterfront community with over 25 miles of navigable canals connecting to Lake St. Clair and the Lake St. Clair Metropark. The community has a strong boating culture, annual waterfront events, and a lifestyle that is essentially unique in the Detroit metro area. Residents who choose SCS do so largely for the water access.\n\nInland St. Clair Shores is a straightforward brick-ranch community with good bones and accessible prices. The community's proximity to Detroit makes it attractive for buyers who want to be close to the city without paying Detroit-adjacent prices.",
+      "St. Clair Shores is the canal capital of Macomb County - a waterfront community with over 25 miles of navigable canals connecting to Lake St. Clair and the Lake St. Clair Metropark. The community has a strong boating culture, annual waterfront events, and a lifestyle that is essentially unique in the Detroit metro area. Residents who choose SCS do so largely for the water access.\n\nInland St. Clair Shores is a straightforward brick-ranch community with good bones and accessible prices. The community's proximity to Detroit makes it attractive for buyers who want to be close to the city without paying Detroit-adjacent prices.",
     realEstateOverview:
-      "St. Clair Shores divides clearly into the canal market and the inland market. Canal homes carry a significant premium over comparable inland properties due to the dock rights, water views, and recreational access they provide. Both markets are active, with inland homes moving briskly due to accessible price points and the canal market attracting boating-lifestyle buyers from across the region.\n\nThe SCS market tends to be more liquid than its prices might suggest — the specific lifestyle draw creates a concentrated, motivated buyer pool.",
+      "St. Clair Shores divides clearly into the canal market and the inland market. Canal homes carry a significant premium over comparable inland properties due to the dock rights, water views, and recreational access they provide. Both markets are active, with inland homes moving briskly due to accessible price points and the canal market attracting boating-lifestyle buyers from across the region.\n\nThe SCS market tends to be more liquid than its prices might suggest - the specific lifestyle draw creates a concentrated, motivated buyer pool.",
     locationAccess: [
       "Bordered by Grosse Pointe Woods (south), Eastpointe (west), Clinton Township (north), and Lake St. Clair (east)",
       "Access via Jefferson Avenue, 9 Mile Road, and I-94 via Gratiot Avenue",
@@ -985,9 +985,9 @@ export const cities: City[] = [
       "Approximately 15 miles northeast of downtown Detroit",
     ],
     schoolInfo:
-      "St. Clair Shores is served by South Lake School District and Lakeview Public Schools depending on the specific address. These are smaller districts — verify which school district a specific property feeds into, as this affects both resale value and school programming.",
+      "St. Clair Shores is served by South Lake School District and Lakeview Public Schools depending on the specific address. These are smaller districts - verify which school district a specific property feeds into, as this affects both resale value and school programming.",
     bradQuote:
-      "St. Clair Shores is the market that consistently surprises buyers who haven't been there. You show them the Nautical Mile, a canal home with direct Lake St. Clair access, and the price point — and they can't believe it exists. For sellers, I've seen strong results here because the product is genuinely unique and the buyer who discovers it is motivated.",
+      "St. Clair Shores is the market that consistently surprises buyers who haven't been there. You show them the Nautical Mile, a canal home with direct Lake St. Clair access, and the price point - and they can't believe it exists. For sellers, I've seen strong results here because the product is genuinely unique and the buyer who discovers it is motivated.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["clinton-township-mi", "grosse-pointe-mi", "warren-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("St. Clair Shores MI")}`,
@@ -1025,14 +1025,14 @@ export const cities: City[] = [
       pricePerSqft: 141,
     },
     priceRange: {
-      low: "$150K–$220K gets you a brick ranch with good bones — these are honest, straightforward homes that have often been well-maintained by long-term owners.",
+      low: "$150K–$220K gets you a brick ranch with good bones - these are honest, straightforward homes that have often been well-maintained by long-term owners.",
       high: "$220K–$300K brings updated ranches, larger colonials, and well-maintained properties in Warren's northern sections near the Sterling Heights border.",
-      luxury: "Above $300K is the top end for Warren — well-renovated homes in the city's northern sections near the Shelby Township border.",
+      luxury: "Above $300K is the top end for Warren - well-renovated homes in the city's northern sections near the Shelby Township border.",
     },
     schoolDistrict: "Warren Consolidated School District",
     commuteToDetroit: "20 min",
     about:
-      "Warren is Michigan's third-largest city and one of the most significant manufacturing employment centers in the state — home to the U.S. Army Detroit Arsenal, General Motors Tech Center, and dozens of automotive supplier facilities. The city's workforce history has shaped its housing stock: thousands of well-built brick ranches constructed for working-class and middle-class buyers during the postwar suburban expansion.\n\nWarren's real estate market is straightforward and value-driven. It's not a lifestyle destination in the Birmingham or Royal Oak sense, but it delivers honest, durable housing at the most accessible price points of any Macomb County city with direct I-696 access.",
+      "Warren is Michigan's third-largest city and one of the most significant manufacturing employment centers in the state - home to the U.S. Army Detroit Arsenal, General Motors Tech Center, and dozens of automotive supplier facilities. The city's workforce history has shaped its housing stock: thousands of well-built brick ranches constructed for working-class and middle-class buyers during the postwar suburban expansion.\n\nWarren's real estate market is straightforward and value-driven. It's not a lifestyle destination in the Birmingham or Royal Oak sense, but it delivers honest, durable housing at the most accessible price points of any Macomb County city with direct I-696 access.",
     realEstateOverview:
       "Warren's housing stock is predominantly brick ranch and small colonial construction from the 1950s through 1970s. The homes are built well and have aged gracefully, though many have dated interiors that represent renovation opportunities for buyers willing to do the work.\n\nThe market is active at the lower price points, with strong investor and first-time buyer demand. Proximity to Detroit and the major Mound Road employment corridor keeps demand consistent even in slower markets.",
     locationAccess: [
@@ -1051,7 +1051,7 @@ export const cities: City[] = [
     faqs: [
       {
         q: "Is Warren a good city for first-time homebuyers?",
-        a: "Yes — Warren's price points make it one of the most accessible entry markets in Southeast Michigan. Buyers who qualify for a mortgage but have limited down payment funds often find that Warren is where the numbers work. The brick ranch housing stock is durable, and many have been well-maintained.",
+        a: "Yes - Warren's price points make it one of the most accessible entry markets in Southeast Michigan. Buyers who qualify for a mortgage but have limited down payment funds often find that Warren is where the numbers work. The brick ranch housing stock is durable, and many have been well-maintained.",
       },
       {
         q: "What school district is in the north section of Warren?",
@@ -1059,11 +1059,11 @@ export const cities: City[] = [
       },
       {
         q: "Is Warren near the GM Tech Center?",
-        a: "Yes. The GM Technical Center campus is located in Warren at Mound and 12 Mile Road — one of the largest and most significant automotive R&D facilities in the world. This employment anchor contributes directly to housing demand in the area.",
+        a: "Yes. The GM Technical Center campus is located in Warren at Mound and 12 Mile Road - one of the largest and most significant automotive R&D facilities in the world. This employment anchor contributes directly to housing demand in the area.",
       },
       {
         q: "What is the typical condition of homes for sale in Warren?",
-        a: "Condition varies widely. Some homes have been owner-occupied for decades and are meticulously maintained. Others have cosmetic deferred maintenance that represents opportunity. A thorough inspection is non-negotiable in this market — the fundamentals (brick, mechanicals) are usually solid, but interiors often need updating.",
+        a: "Condition varies widely. Some homes have been owner-occupied for decades and are meticulously maintained. Others have cosmetic deferred maintenance that represents opportunity. A thorough inspection is non-negotiable in this market - the fundamentals (brick, mechanicals) are usually solid, but interiors often need updating.",
       },
     ],
     ctaVariant: "buyer",
@@ -1084,16 +1084,16 @@ export const cities: City[] = [
       pricePerSqft: 228,
     },
     priceRange: {
-      low: "$450K–$650K gets you an entry-level home in the Grosse Pointes — often smaller square footage or requiring updates, but in one of Southeast Michigan's most architecturally distinctive communities.",
+      low: "$450K–$650K gets you an entry-level home in the Grosse Pointes - often smaller square footage or requiring updates, but in one of Southeast Michigan's most architecturally distinctive communities.",
       high: "$650K–$1.2M brings well-maintained Tudors, colonials, and brick homes on the premier streets of Grosse Pointe City and Grosse Pointe Farms.",
-      luxury: "Above $1.2M is the lakefront estate category — properties on Lake Shore Drive and directly on Lake St. Clair, architectural standouts by Mies van der Rohe and Albert Kahn.",
+      luxury: "Above $1.2M is the lakefront estate category - properties on Lake Shore Drive and directly on Lake St. Clair, architectural standouts by Mies van der Rohe and Albert Kahn.",
     },
     schoolDistrict: "Grosse Pointe Public School System",
     commuteToDetroit: "15 min",
     about:
-      "The Grosse Pointes are five distinct lakefront municipalities — Grosse Pointe City, Grosse Pointe Park, Grosse Pointe Farms, Grosse Pointe Woods, and Grosse Pointe Shores — each with its own city government but a shared identity as Southeast Michigan's most prestigious historic address. The communities are defined by their architectural heritage: Tudor revivals, Colonials, and lake estates designed by Michigan's most significant early 20th-century architects.\n\nThe Grosse Pointes border Detroit to the east and Lake St. Clair to the north — a position that offers both city proximity and waterfront access. The communities have maintained their character through deliberate preservation of architectural standards and active community engagement.",
+      "The Grosse Pointes are five distinct lakefront municipalities - Grosse Pointe City, Grosse Pointe Park, Grosse Pointe Farms, Grosse Pointe Woods, and Grosse Pointe Shores - each with its own city government but a shared identity as Southeast Michigan's most prestigious historic address. The communities are defined by their architectural heritage: Tudor revivals, Colonials, and lake estates designed by Michigan's most significant early 20th-century architects.\n\nThe Grosse Pointes border Detroit to the east and Lake St. Clair to the north - a position that offers both city proximity and waterfront access. The communities have maintained their character through deliberate preservation of architectural standards and active community engagement.",
     realEstateOverview:
-      "The Grosse Pointe market is defined by architectural quality, historical character, and strong institutional demand. Buyers here are often relocation buyers, Detroit corridor professionals, and buyers who specifically seek the historic character that can't be found in Oakland or Macomb suburban communities.\n\nThe market operates differently than typical suburban markets — condition matters less than address, lot size, and architectural integrity. A Tudor on a premier block will absorb necessary updates and still command top dollar.",
+      "The Grosse Pointe market is defined by architectural quality, historical character, and strong institutional demand. Buyers here are often relocation buyers, Detroit corridor professionals, and buyers who specifically seek the historic character that can't be found in Oakland or Macomb suburban communities.\n\nThe market operates differently than typical suburban markets - condition matters less than address, lot size, and architectural integrity. A Tudor on a premier block will absorb necessary updates and still command top dollar.",
     locationAccess: [
       "Located on the eastern border of Detroit, with direct Lake St. Clair waterfront access",
       "Jefferson Avenue (Lake Shore Drive) provides the primary north-south arterial",
@@ -1103,7 +1103,7 @@ export const cities: City[] = [
     schoolInfo:
       "The Grosse Pointe Public School System serves all five Grosse Pointe communities. Grosse Pointe South and Grosse Pointe North are the two high schools, with geographic attendance boundaries determining assignment. Verify which school a specific property feeds into directly with the district.",
     bradQuote:
-      "If you're looking for a place with a little more 'old-world' soul, Grosse Pointe is it. It's all about those beautiful tree-lined streets, unique architecture, and a real sense of tradition. Since it's right on the water, life here revolves around the lake — whether you're at one of the private resident parks or just catching the breeze off Lake St. Clair. It feels like a quiet, upscale escape with a tight-knit community vibe, yet you're only about 15 minutes away from the energy of downtown Detroit. It's classic, scenic, and very laid-back.",
+      "If you're looking for a place with a little more 'old-world' soul, Grosse Pointe is it. It's all about those beautiful tree-lined streets, unique architecture, and a real sense of tradition. Since it's right on the water, life here revolves around the lake - whether you're at one of the private resident parks or just catching the breeze off Lake St. Clair. It feels like a quiet, upscale escape with a tight-knit community vibe, yet you're only about 15 minutes away from the energy of downtown Detroit. It's classic, scenic, and very laid-back.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["st-clair-shores-mi", "detroit-mi", "clinton-township-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Grosse Pointe MI")}`,
@@ -1137,14 +1137,14 @@ export const cities: City[] = [
       pricePerSqft: 218,
     },
     priceRange: {
-      low: "$380K–$520K gets you a well-maintained colonial or townhome in a Northville Township planned community — often newer construction with good amenities.",
+      low: "$380K–$520K gets you a well-maintained colonial or townhome in a Northville Township planned community - often newer construction with good amenities.",
       high: "$520K–$750K brings homes in the city proper, larger lots, and well-updated executive homes in premier Northville Township communities.",
-      luxury: "Above $750K is custom-built territory — large estate homes in Northville Township's most exclusive enclaves or renovated architecturals near the historic village.",
+      luxury: "Above $750K is custom-built territory - large estate homes in Northville Township's most exclusive enclaves or renovated architecturals near the historic village.",
     },
     schoolDistrict: "Northville Public Schools",
     commuteToDetroit: "30 min",
     about:
-      "Northville straddles the Wayne-Oakland county line — the City of Northville sits within both counties, while Northville Township lies primarily in Wayne County. The community is anchored by one of Southeast Michigan's most charming historic downtowns: a walkable village with independent restaurants, boutiques, and a town square that hosts year-round events. The downtown rivals Birmingham in charm if not in scale.\n\nNorthville is consistently cited among the best places to live in Michigan and attracts buyers from both the Wayne and Oakland sides who prioritize the village character, outstanding schools, and community engagement. The housing market reflects that sustained demand with consistently competitive days-on-market figures.",
+      "Northville straddles the Wayne-Oakland county line - the City of Northville sits within both counties, while Northville Township lies primarily in Wayne County. The community is anchored by one of Southeast Michigan's most charming historic downtowns: a walkable village with independent restaurants, boutiques, and a town square that hosts year-round events. The downtown rivals Birmingham in charm if not in scale.\n\nNorthville is consistently cited among the best places to live in Michigan and attracts buyers from both the Wayne and Oakland sides who prioritize the village character, outstanding schools, and community engagement. The housing market reflects that sustained demand with consistently competitive days-on-market figures.",
     realEstateOverview:
       "Northville offers a mix of city-core historic homes, established Township subdivisions, and newer planned communities with modern amenities. The price range is broad, from townhomes in the $350s to custom estate homes above $1M. Northville Township's planned communities are some of the most well-maintained in Wayne County.\n\nThe market is consistently competitive, particularly for homes in the city core walking distance to downtown. Buyers targeting Northville need to be prepared to move quickly on well-priced inventory.",
     locationAccess: [
@@ -1156,14 +1156,14 @@ export const cities: City[] = [
     schoolInfo:
       "Northville Public Schools serves the City and Township of Northville, with Northville High School as the sole secondary school. Verify address-specific assignments with the district before purchasing.",
     bradQuote:
-      "Northville has one of the strongest community identities of any city I work in. The downtown — Cady Street, the clock tower, the farmers market — creates a genuine quality-of-life pull that translates directly into sustained real estate demand. In 26 years, I have never seen a correctly priced and well-presented Northville listing sit on the market for long.",
+      "Northville has one of the strongest community identities of any city I work in. The downtown - Cady Street, the clock tower, the farmers market - creates a genuine quality-of-life pull that translates directly into sustained real estate demand. In 26 years, I have never seen a correctly priced and well-presented Northville listing sit on the market for long.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["plymouth-mi", "novi-mi", "livonia-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Northville MI")}`,
     faqs: [
       {
         q: "Is Northville in Wayne County or Oakland County?",
-        a: "Both. The City of Northville straddles the county line, with portions in Wayne County and portions in Oakland County. Northville Township is primarily in Wayne County. The school district — Northville Public Schools — serves the entire city and township regardless of county. Tax rates and some services may differ based on the specific parcel's county.",
+        a: "Both. The City of Northville straddles the county line, with portions in Wayne County and portions in Oakland County. Northville Township is primarily in Wayne County. The school district - Northville Public Schools - serves the entire city and township regardless of county. Tax rates and some services may differ based on the specific parcel's county.",
       },
       {
         q: "How does Northville's downtown compare to Plymouth's?",
@@ -1175,7 +1175,7 @@ export const cities: City[] = [
       },
       {
         q: "Are there townhomes or condos in Northville?",
-        a: "Yes — Northville Township has several well-established planned communities with condominium and townhome units ranging from the $300s to the low $500s. These are popular with empty nesters and buyers who want Northville access without single-family maintenance.",
+        a: "Yes - Northville Township has several well-established planned communities with condominium and townhome units ranging from the $300s to the low $500s. These are popular with empty nesters and buyers who want Northville access without single-family maintenance.",
       },
     ],
     ctaVariant: "buyer",
@@ -1194,14 +1194,14 @@ export const cities: City[] = [
       pricePerSqft: 192,
     },
     priceRange: {
-      low: "$320K–$430K gets you a solid bungalow or colonial in Plymouth Township or at the city's edges — often with good lot size relative to Oakland County comparables.",
+      low: "$320K–$430K gets you a solid bungalow or colonial in Plymouth Township or at the city's edges - often with good lot size relative to Oakland County comparables.",
       high: "$430K–$620K brings city-core homes within walking distance of Kellogg Park, well-updated colonials, and newer construction in Plymouth Township.",
-      luxury: "Above $620K is the premium segment — large custom homes in the township, significant renovations in the city core, or new construction communities.",
+      luxury: "Above $620K is the premium segment - large custom homes in the township, significant renovations in the city core, or new construction communities.",
     },
     schoolDistrict: "Plymouth-Canton Community Schools",
     commuteToDetroit: "25 min",
     about:
-      "Plymouth is a historic downtown village city — smaller than Northville but with an equally strong community identity anchored by Kellogg Park, a central square that hosts events year-round including the Plymouth Ice Festival, Art in the Park, and weekly farmers markets. The city has an authentic small-town character that's become increasingly rare in Southeast Michigan.\n\nPlymouth Township surrounds the city and offers more housing variety and slightly more accessible price points. The Plymouth-Canton Community Schools district serves both city and township.",
+      "Plymouth is a historic downtown village city - smaller than Northville but with an equally strong community identity anchored by Kellogg Park, a central square that hosts events year-round including the Plymouth Ice Festival, Art in the Park, and weekly farmers markets. The city has an authentic small-town character that's become increasingly rare in Southeast Michigan.\n\nPlymouth Township surrounds the city and offers more housing variety and slightly more accessible price points. The Plymouth-Canton Community Schools district serves both city and township.",
     realEstateOverview:
       "Plymouth's market is driven by strong demand from buyers who specifically want the walkable downtown village character. City-core homes command a premium, while Plymouth Township offers more land and newer construction at lower prices. The overall market is competitive and consistent, with strong long-term appreciation backed by lifestyle amenities and community character.\n\nThe mix of bungalows, colonials, and newer construction creates broad price points that accommodate multiple buyer profiles within the same community.",
     locationAccess: [
@@ -1224,7 +1224,7 @@ export const cities: City[] = [
       },
       {
         q: "Is Plymouth City the same as Plymouth Township?",
-        a: "No — they're separate municipalities with different tax rates and government structures. Plymouth City is the small historic core with the downtown and Kellogg Park. Plymouth Township is much larger in area with more suburban housing. Both feed into Plymouth-Canton Community Schools.",
+        a: "No - they're separate municipalities with different tax rates and government structures. Plymouth City is the small historic core with the downtown and Kellogg Park. Plymouth Township is much larger in area with more suburban housing. Both feed into Plymouth-Canton Community Schools.",
       },
       {
         q: "How does Plymouth compare to Northville for price and character?",
@@ -1232,7 +1232,7 @@ export const cities: City[] = [
       },
       {
         q: "Are there walkable neighborhoods in Plymouth?",
-        a: "Yes — the City of Plymouth's historic core is highly walkable, with Kellogg Park at the center and restaurants, shops, and services within walking distance. Plymouth Township, which surrounds the city, is more auto-dependent. Buyers who specifically want walkability should focus on the city core.",
+        a: "Yes - the City of Plymouth's historic core is highly walkable, with Kellogg Park at the center and restaurants, shops, and services within walking distance. Plymouth Township, which surrounds the city, is more auto-dependent. Buyers who specifically want walkability should focus on the city core.",
       },
     ],
     ctaVariant: "buyer",
@@ -1251,16 +1251,16 @@ export const cities: City[] = [
       pricePerSqft: 148,
     },
     priceRange: {
-      low: "$220K–$290K gets you a well-maintained brick ranch — these are Livonia's bread and butter, solid 1,000–1,600 sq ft homes on 60-foot lots with newer mechanicals.",
+      low: "$220K–$290K gets you a well-maintained brick ranch - these are Livonia's bread and butter, solid 1,000–1,600 sq ft homes on 60-foot lots with newer mechanicals.",
       high: "$290K–$400K brings larger colonials, tri-levels, and well-updated ranches in the city's premier subdivisions.",
-      luxury: "Above $400K is the top of the Livonia market — executive homes, recent custom builds, and the city's best-maintained properties.",
+      luxury: "Above $400K is the top of the Livonia market - executive homes, recent custom builds, and the city's best-maintained properties.",
     },
     schoolDistrict: "Livonia Public Schools",
     commuteToDetroit: "20 min",
     about:
-      "Livonia is one of Michigan's most consistently stable suburban communities — a large city of nearly 100,000 residents with a housing stock defined by thousands of well-built brick ranches and colonials from the 1950s through 1970s. The city doesn't have a walkable downtown, but it compensates with excellent civic infrastructure: exceptional parks, the Livonia Recreation Center, and one of the most active community event calendars in Wayne County.\n\nLivonia's reputation for clean, well-maintained streets and strong civic engagement is well-earned. The community has a long tradition of resident pride that keeps housing stock maintained at levels above typical Wayne County comparables.",
+      "Livonia is one of Michigan's most consistently stable suburban communities - a large city of nearly 100,000 residents with a housing stock defined by thousands of well-built brick ranches and colonials from the 1950s through 1970s. The city doesn't have a walkable downtown, but it compensates with excellent civic infrastructure: exceptional parks, the Livonia Recreation Center, and one of the most active community event calendars in Wayne County.\n\nLivonia's reputation for clean, well-maintained streets and strong civic engagement is well-earned. The community has a long tradition of resident pride that keeps housing stock maintained at levels above typical Wayne County comparables.",
     realEstateOverview:
-      "Livonia's market is defined by honest value and reliability. The brick ranch inventory is the strongest in Wayne County for price-per-value metrics — buyers consistently get more durable construction at lower prices than they'd find in Oakland County at comparable quality levels.\n\nDemand in Livonia is driven by Livonia Public Schools (a well-regarded district), proximity to major employer corridors, and an active senior market. The city's aging demographics mean solid, well-maintained estate sales are a consistent part of the inventory.",
+      "Livonia's market is defined by honest value and reliability. The brick ranch inventory is the strongest in Wayne County for price-per-value metrics - buyers consistently get more durable construction at lower prices than they'd find in Oakland County at comparable quality levels.\n\nDemand in Livonia is driven by Livonia Public Schools (a well-regarded district), proximity to major employer corridors, and an active senior market. The city's aging demographics mean solid, well-maintained estate sales are a consistent part of the inventory.",
     locationAccess: [
       "Located between Plymouth (west), Northville (northwest), Farmington Hills (north), Redford (east), and Dearborn (south)",
       "Excellent access to I-96, I-275, and M-14",
@@ -1268,7 +1268,7 @@ export const cities: City[] = [
       "Major retail corridor along Middlebelt Road and Plymouth Road",
     ],
     schoolInfo:
-      "Livonia Public Schools serves the city, with Stevenson, Churchill, and Franklin High Schools. School assignment depends on which area of the city the property is in — verify the specific address with the district before purchasing.",
+      "Livonia Public Schools serves the city, with Stevenson, Churchill, and Franklin High Schools. School assignment depends on which area of the city the property is in - verify the specific address with the district before purchasing.",
     bradQuote:
       "If you're looking for a place that's as practical as it is comfortable, Livonia is the quintessential 'easy living' suburb. It's famous for having the lowest city tax rate in Wayne County and one of the largest park systems in the state, including the massive Jack E. Kirksey Recreation Center, which is currently undergoing a multi-million dollar modernization. While it has a quiet, established feel, the city is in the middle of a 'City Center' transformation to add more walkable dining and retail. With its central location right on the I-96 and I-275 corridor, you're perfectly positioned halfway between the energy of downtown Detroit and the charm of Ann Arbor.",
     quoteAuthor: "Brad",
@@ -1277,7 +1277,7 @@ export const cities: City[] = [
     faqs: [
       {
         q: "What is Livonia known for besides the brick ranches?",
-        a: "Livonia has a strong parks system — the Livonia Recreation Center, Rotary Park, and multiple community pools and sports facilities. The city hosts Plymouth Road festival events and has an active senior center. It's a genuinely livable community despite not having a downtown commercial core.",
+        a: "Livonia has a strong parks system - the Livonia Recreation Center, Rotary Park, and multiple community pools and sports facilities. The city hosts Plymouth Road festival events and has an active senior center. It's a genuinely livable community despite not having a downtown commercial core.",
       },
       {
         q: "What are the three high schools in Livonia and how do I know which one my address feeds?",
@@ -1285,7 +1285,7 @@ export const cities: City[] = [
       },
       {
         q: "Is Livonia a good city for investors?",
-        a: "Yes — the brick ranch inventory offers good rental yield relative to acquisition cost, and the stable population and employment proximity keep vacancy low. Livonia is one of the more consistently performing rental markets in Wayne County.",
+        a: "Yes - the brick ranch inventory offers good rental yield relative to acquisition cost, and the stable population and employment proximity keep vacancy low. Livonia is one of the more consistently performing rental markets in Wayne County.",
       },
       {
         q: "How does Livonia compare to Westland or Redford for home prices?",
@@ -1308,16 +1308,16 @@ export const cities: City[] = [
       pricePerSqft: 82,
     },
     priceRange: {
-      low: "$80K–$150K covers a range of single-family homes in established but varied Detroit neighborhoods — condition and street-by-street character vary significantly at this price point.",
+      low: "$80K–$150K covers a range of single-family homes in established but varied Detroit neighborhoods - condition and street-by-street character vary significantly at this price point.",
       high: "$150K–$280K brings renovated homes, newer construction infill, and properties in the city's most actively appreciating neighborhoods like Midtown, Corktown, and East English Village.",
-      luxury: "Above $280K is the investment-grade renovation or premier neighborhood tier — historic Sherwood Forest, Palmer Woods, Indian Village, and the city's landmark architectural properties.",
+      luxury: "Above $280K is the investment-grade renovation or premier neighborhood tier - historic Sherwood Forest, Palmer Woods, Indian Village, and the city's landmark architectural properties.",
     },
     schoolDistrict: "Detroit Public Schools Community District",
     commuteToDetroit: "0 min",
     about:
-      "Detroit is Michigan's largest city and one of the most significant architectural, cultural, and economic cities in the United States — a 139-square-mile canvas of over 100 distinct neighborhoods with a storied history, ongoing revitalization, and some of the most varied real estate in the country. The city's residential market has transformed substantially over the past decade, with strong appreciation in the city's most established neighborhoods driving buyer interest from across the region and the country.\n\nNeighborhoods like Corktown, Midtown, New Center, East English Village, and Sherwood Forest have seen sustained investment and population growth. The city's architectural heritage — from Albert Kahn's industrial designs to the colonial estates of Sherwood Forest and Palmer Woods — offers buyers properties unavailable anywhere else in Southeast Michigan.",
+      "Detroit is Michigan's largest city and one of the most significant architectural, cultural, and economic cities in the United States - a 139-square-mile canvas of over 100 distinct neighborhoods with a storied history, ongoing revitalization, and some of the most varied real estate in the country. The city's residential market has transformed substantially over the past decade, with strong appreciation in the city's most established neighborhoods driving buyer interest from across the region and the country.\n\nNeighborhoods like Corktown, Midtown, New Center, East English Village, and Sherwood Forest have seen sustained investment and population growth. The city's architectural heritage - from Albert Kahn's industrial designs to the colonial estates of Sherwood Forest and Palmer Woods - offers buyers properties unavailable anywhere else in Southeast Michigan.",
     realEstateOverview:
-      "Detroit's real estate market operates at a different scale and with different dynamics than the suburban markets. Neighborhood selection is the most critical variable — the difference between streets in Detroit can mean a difference of $50K–$100K in value for comparable construction. Buyers need localized knowledge.\n\nThe appreciation rates in Detroit's strongest neighborhoods have exceeded Oakland County in recent years. That said, buyer due diligence — including inspection, title review, and neighborhood-specific market analysis — is more important here than in any other market we serve.",
+      "Detroit's real estate market operates at a different scale and with different dynamics than the suburban markets. Neighborhood selection is the most critical variable - the difference between streets in Detroit can mean a difference of $50K–$100K in value for comparable construction. Buyers need localized knowledge.\n\nThe appreciation rates in Detroit's strongest neighborhoods have exceeded Oakland County in recent years. That said, buyer due diligence - including inspection, title review, and neighborhood-specific market analysis - is more important here than in any other market we serve.",
     locationAccess: [
       "Michigan's largest city and the center of the metro area's highway network",
       "I-75, I-94, I-96, M-10 (Lodge Freeway), and I-375 all converge in the city",
@@ -1327,7 +1327,7 @@ export const cities: City[] = [
     schoolInfo:
       "The Detroit Public Schools Community District serves the city's public school students. Many Detroit buyers with children utilize Detroit's school of choice options, charter school landscape, or private school alternatives. We recommend buyers research the specific school options available for their neighborhood of interest.",
     bradQuote:
-      "If you're looking for a place with unmatched energy and a true 'soul,' Detroit is in a league of its own. It's a city where you can feel the history in the architecture of neighborhoods like Indian Village or Corktown, but also see the future in the massive revitalization projects happening right now — like the new Hudson's Detroit development and the expanding Riverwalk. It's surprisingly laid-back once you settle in, with a tight-knit community of creators and locals who are genuinely proud of their city. Whether you're grabbing a drink in the Belt, biking the Dequindre Cut, or spending a Sunday at Belle Isle, there's a grit and a beauty here that you just won't find in the suburbs.",
+      "If you're looking for a place with unmatched energy and a true 'soul,' Detroit is in a league of its own. It's a city where you can feel the history in the architecture of neighborhoods like Indian Village or Corktown, but also see the future in the massive revitalization projects happening right now - like the new Hudson's Detroit development and the expanding Riverwalk. It's surprisingly laid-back once you settle in, with a tight-knit community of creators and locals who are genuinely proud of their city. Whether you're grabbing a drink in the Belt, biking the Dequindre Cut, or spending a Sunday at Belle Isle, there's a grit and a beauty here that you just won't find in the suburbs.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["grosse-pointe-mi", "livonia-mi", "romulus-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Detroit MI")}`,
@@ -1342,7 +1342,7 @@ export const cities: City[] = [
       },
       {
         q: "Are property taxes high in Detroit?",
-        a: "Detroit has some of the highest effective property tax rates in Michigan, though Proposal A taxable value caps limit increases for current owners. New buyers should calculate taxes based on State Equalized Value (SEV) and the applicable millage rates — the first year taxes after purchase can be substantially higher than the seller's current bills.",
+        a: "Detroit has some of the highest effective property tax rates in Michigan, though Proposal A taxable value caps limit increases for current owners. New buyers should calculate taxes based on State Equalized Value (SEV) and the applicable millage rates - the first year taxes after purchase can be substantially higher than the seller's current bills.",
       },
       {
         q: "What are the best resources for researching Detroit neighborhoods before buying?",
@@ -1365,18 +1365,18 @@ export const cities: City[] = [
       pricePerSqft: 120,
     },
     priceRange: {
-      low: "$130K–$190K gets you a ranch or colonial in established Romulus neighborhoods — modest lot sizes, brick or frame construction, move-in ready condition.",
-      high: "$190K–$250K brings the best of Romulus inventory — updated homes, larger lots, and properties with newer systems.",
-      luxury: "Above $250K is the top tier for Romulus — well-renovated or newer construction properties that represent the market ceiling.",
+      low: "$130K–$190K gets you a ranch or colonial in established Romulus neighborhoods - modest lot sizes, brick or frame construction, move-in ready condition.",
+      high: "$190K–$250K brings the best of Romulus inventory - updated homes, larger lots, and properties with newer systems.",
+      luxury: "Above $250K is the top tier for Romulus - well-renovated or newer construction properties that represent the market ceiling.",
     },
     schoolDistrict: "Romulus Community Schools",
     commuteToDetroit: "25 min",
     about:
-      "Romulus is southern Wayne County's most strategically positioned community — the city surrounds Detroit Metropolitan Wayne County Airport (DTW), one of the nation's busiest and most significant airports. The city's identity is closely tied to aviation and logistics employment, with major cargo and distribution facilities, hotels, and airport services creating a substantial local employment base.\n\nFor residential buyers, Romulus offers some of Wayne County's most accessible price points with reasonably maintained housing stock and straightforward community character. It's not a lifestyle destination, but it serves buyers who need proximity to the airport corridor and maximum affordability.",
+      "Romulus is southern Wayne County's most strategically positioned community - the city surrounds Detroit Metropolitan Wayne County Airport (DTW), one of the nation's busiest and most significant airports. The city's identity is closely tied to aviation and logistics employment, with major cargo and distribution facilities, hotels, and airport services creating a substantial local employment base.\n\nFor residential buyers, Romulus offers some of Wayne County's most accessible price points with reasonably maintained housing stock and straightforward community character. It's not a lifestyle destination, but it serves buyers who need proximity to the airport corridor and maximum affordability.",
     realEstateOverview:
       "Romulus's residential market is relatively modest in size and focused on affordability. The housing stock is primarily ranches and colonials built in the 1960s–1980s, with condition varying across the market. Buyers at this price point should plan for inspection-identified repairs and factor those into their purchase equation.\n\nThe market sees consistent if modest buyer activity, driven primarily by employment proximity and affordability. Investors are active in the market alongside primary residence buyers.",
     locationAccess: [
-      "Surrounds Detroit Metropolitan Wayne County Airport (DTW) — one of the nation's busiest airports",
+      "Surrounds Detroit Metropolitan Wayne County Airport (DTW) - one of the nation's busiest airports",
       "Access via I-94, I-275, and Merriman Road",
       "Approximately 20 miles southwest of downtown Detroit",
       "Major logistics and distribution employers within the city",
@@ -1384,7 +1384,7 @@ export const cities: City[] = [
     schoolInfo:
       "Romulus Community Schools serves the city and is a smaller district with a single high school. Buyers with school-age children should research current district programming and performance metrics. Some residents access Wayne-Westland Community Schools depending on specific address.",
     bradQuote:
-      "If you're looking for a place where your dollar goes further and convenience is king, Romulus is the ultimate 'connected' suburb. Known as the Aerotropolis of Michigan, it's a hub of activity that manages to keep a cozy, small-town feel. It's perfect for people who want a quick commute to major employers like Amazon or Delta, or those who love being minutes away from Detroit Metro Airport for travel. With a cost of living below the national average and a massive investment in new infrastructure — like the Restore I-94 project and upgraded community facilities — it's an area on the rise that still feels grounded and welcoming.",
+      "If you're looking for a place where your dollar goes further and convenience is king, Romulus is the ultimate 'connected' suburb. Known as the Aerotropolis of Michigan, it's a hub of activity that manages to keep a cozy, small-town feel. It's perfect for people who want a quick commute to major employers like Amazon or Delta, or those who love being minutes away from Detroit Metro Airport for travel. With a cost of living below the national average and a massive investment in new infrastructure - like the Restore I-94 project and upgraded community facilities - it's an area on the rise that still feels grounded and welcoming.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["livonia-mi", "plymouth-mi", "detroit-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Romulus MI")}`,
@@ -1395,7 +1395,7 @@ export const cities: City[] = [
       },
       {
         q: "Is Romulus a good investment market?",
-        a: "For buyers focused on yield, the numbers can work — acquisition costs are low and rental demand from airport workers and logistics employees is consistent. That said, appreciation is modest compared to northern Wayne County communities, so the investment case is primarily yield-driven rather than appreciation-driven.",
+        a: "For buyers focused on yield, the numbers can work - acquisition costs are low and rental demand from airport workers and logistics employees is consistent. That said, appreciation is modest compared to northern Wayne County communities, so the investment case is primarily yield-driven rather than appreciation-driven.",
       },
       {
         q: "How far is Romulus from Plymouth or Livonia?",
