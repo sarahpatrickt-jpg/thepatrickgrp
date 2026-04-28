@@ -1,7 +1,22 @@
 @import "tailwindcss";
 
-/* ─── Brand Tokens ─── */
+/* ─── CSS Custom Properties (usable via var(--ink) etc.) ─── */
+:root {
+  --ink:        #1A1410;
+  --ink-2:      #4A3F35;
+  --ink-3:      #8A7E6F;
+  --paper:      #FDFBF7;
+  --paper-2:    #F5F1E8;
+  --paper-3:    #EDE7D9;
+  --red:        #C70000;
+  --red-deep:   #8B0000;
+  --line:       rgba(26,20,16,0.12);
+  --line-2:     rgba(26,20,16,0.06);
+}
+
+/* ─── Brand Tokens (Tailwind utilities via @theme inline) ─── */
 @theme inline {
+  /* Legacy brand colors — keep for existing pages */
   --color-brand-red:    #c70000;
   --color-brand-black:  #000000;
   --color-brand-white:  #ffffff;
@@ -10,11 +25,26 @@
   --color-brand-mid:    #6b7280;
   --color-brand-dark:   #1a1a1a;
 
-  --font-serif:  var(--font-playfair);
-  --font-sans:   var(--font-inter);
+  /* New design tokens → Tailwind utilities: text-ink, bg-paper, etc. */
+  --color-ink:       #1A1410;
+  --color-ink-2:     #4A3F35;
+  --color-ink-3:     #8A7E6F;
+  --color-paper:     #FDFBF7;
+  --color-paper-2:   #F5F1E8;
+  --color-paper-3:   #EDE7D9;
+  --color-red:       #C70000;
+  --color-red-deep:  #8B0000;
 
-  --background:  #ffffff;
-  --foreground:  #1a1a1a;
+  /* Fonts — updated to new display stack */
+  --font-serif:      var(--font-dm-serif);
+  --font-sans:       var(--font-inter);
+  --font-display:    var(--font-dm-serif);
+  --font-editorial:  var(--font-cormorant);
+  --font-script:     var(--font-caveat);
+  --font-mono:       var(--font-jm);
+
+  --background:  #FDFBF7;
+  --foreground:  #1A1410;
 }
 
 /* ─── Base ─── */

@@ -1417,3 +1417,35 @@ export function getCityBySlug(slug: string): City | undefined {
 export function getAllSlugs(): string[] {
   return cities.map((c) => c.slug);
 }
+
+/**
+ * New city slugs for Washtenaw, Livingston, Genesee, and Monroe counties.
+ * These pages render a "Coming Soon" template until full city content is added.
+ * When content is ready, move the slug into `cities` above.
+ */
+export const COMING_SOON_SLUGS: ReadonlyArray<string> = [
+  // Washtenaw
+  "ann-arbor-mi",
+  "ypsilanti-mi",
+  "saline-mi",
+  "dexter-mi",
+  "chelsea-mi",
+  "milan-mi",
+  // Livingston
+  "brighton-mi",
+  "howell-mi",
+  "hartland-mi",
+  "whitmore-lake-mi",
+  // Genesee
+  "grand-blanc-mi",
+  "fenton-mi",
+  "linden-mi",
+  "goodrich-mi",
+  // Monroe
+  "monroe-mi",
+  "dundee-mi",
+] as const;
+
+export function isComingSoonSlug(slug: string): boolean {
+  return (COMING_SOON_SLUGS as ReadonlyArray<string>).includes(slug);
+}

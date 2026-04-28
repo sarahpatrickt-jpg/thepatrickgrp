@@ -4,25 +4,38 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { trackPhoneClick } from "@/lib/analytics";
 
-const navLinks = [
+// Left-side nav links (desktop)
+const leftLinks = [
+  { href: "/buying",               label: "Buy" },
+  { href: "/selling",              label: "Sell" },
+  { href: "/neighborhoods",        label: "Neighborhoods" },
+  { href: "/new-construction",     label: "New Homes" },
+  { href: "/market-updates",       label: "Market Reports" },
+];
+
+// All links for mobile drawer
+const allLinks = [
   { href: "/buying",               label: "Buy" },
   { href: "/selling",              label: "Sell" },
   { href: "/cash-offer",           label: "Cash Offer" },
   { href: "/neighborhoods",        label: "Neighborhoods" },
-  { href: "/new-construction",      label: "New Homes" },
-  { href: "/divorce-real-estate",  label: "Divorce" },
-  { href: "/relocation",           label: "Relocating" },
+  { href: "/new-construction",     label: "New Homes" },
+  { href: "/divorce-real-estate",  label: "Divorce Real Estate" },
+  { href: "/relocation",           label: "Relocating to Michigan" },
   { href: "/market-updates",       label: "Market Reports" },
-  { href: "/insights",             label: "Insights" },
+  { href: "/insights",             label: "Journal" },
   { href: "/about",                label: "Our Team" },
+  { href: "/reviews",              label: "Reviews" },
+  { href: "/contact",              label: "Contact" },
 ];
 
 export default function Nav() {
-  const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname();
-  const isHome = pathname === "/";
+  const [scrolled, setScrolled]   = useState(false);
+  const [menuOpen, setMenuOpen]   = useState(false);
+  const pathname                  = usePathname();
+  const isHome                    = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -30,133 +43,194 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Home page: transparent until scrolled. All other pages: always white.
+  // On the homepage, nav is transparent until the user scrolls
   const transparent = isHome && !scrolled && !menuOpen;
+
+  const navBg    = transparent ? "transparent" : "var(--paper)";
+  const linkColor = transparent ? "#FDFBF7" : "var(--ink-2)";
+  const shadow   = transparent ? "none" : "0 1px 0 var(--line)";
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        transparent ? "bg-transparent" : "bg-white shadow-sm"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+      style={{ backgroundColor: navBg, boxShadow: shadow }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-24">
+        <div className="relative flex items-center justify-between h-20">
 
-          {/* ── Real Logo ── */}
-          <Link href="/" className="flex items-center shrink-0">
-            {/*
-              logo-full-color.png — full combined logo (Oak & Stone + The Patrick Group + Leading You Home)
-              500×500 RGBA transparent background
-              Dark/transparent state: brightness(0) invert(1) renders it all-white
-              Scrolled/white state: full color, no filter
-            */}
+          {/* ── Left: desktop nav links ── */}
+          <nav className="hidden lg:flex items-center gap-5 flex-1">
+            {leftLinks.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="text-[13px] font-medium transition-colors whitespace-nowrap"
+                style={{
+                  color: pathname === l.href ? "var(--red)" : linkColor,
+                  fontFamily: "var(--font-sans)",
+                  letterSpacing: "0.01em",
+                }}
+              >
+                {l.label}
+              </Link>
+            ))}
+          </nav>
+
+          {/* ── Center: wordmark (absolutely centered on desktop) ── */}
+          <Link
+            href="/"
+            className="absolute left-1/2 -translate-x-1/2 hidden lg:block"
+            aria-label="The Patrick Group — Home"
+          >
             <Image
               src="/logo-full-color.png"
               alt="Oak & Stone Real Estate — The Patrick Group — Leading You Home"
               width={500}
               height={500}
               priority
-              className="h-20 w-auto object-contain transition-all duration-300"
+              className="h-14 w-auto object-contain transition-all duration-300"
               style={{ filter: transparent ? "brightness(0) invert(1)" : "none" }}
             />
           </Link>
 
-          {/* ── Desktop nav ── */}
-          <nav className="hidden lg:flex items-center gap-6">
-            {navLinks.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className={`text-sm font-medium transition-colors hover:text-[#c70000] ${
-                  pathname === l.href
-                    ? "text-[#c70000]"
-                    : transparent
-                    ? "text-white"
-                    : "text-[#1a1a1a]"
-                }`}
-              >
-                {l.label}
-              </Link>
-            ))}
+          {/* ── Mobile: logo left ── */}
+          <Link href="/" className="lg:hidden flex items-center">
+            <Image
+              src="/logo-full-color.png"
+              alt="Oak & Stone Real Estate — The Patrick Group"
+              width={500}
+              height={500}
+              priority
+              className="h-12 w-auto object-contain transition-all duration-300"
+              style={{ filter: transparent ? "brightness(0) invert(1)" : "none" }}
+            />
+          </Link>
+
+          {/* ── Right: phone + CTA ── */}
+          <div className="hidden lg:flex items-center gap-5 flex-1 justify-end">
+            <a
+              href="tel:2487553545"
+              onClick={() => trackPhoneClick("nav")}
+              className="text-[13px] font-medium transition-colors whitespace-nowrap"
+              style={{
+                color: linkColor,
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.04em",
+              }}
+            >
+              248.755.3545
+            </a>
             <Link
               href="/home-valuation"
-              className="ml-2 bg-[#c70000] text-white text-sm font-semibold px-5 py-2.5 rounded-sm hover:bg-[#a30000] transition-colors"
+              className="text-[12px] font-medium px-5 py-2.5 uppercase tracking-wider transition-colors whitespace-nowrap"
+              style={{
+                backgroundColor: "var(--red)",
+                color: "#FDFBF7",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.12em",
+              }}
             >
               Get My Home Value
             </Link>
-          </nav>
+          </div>
 
           {/* ── Mobile burger ── */}
           <button
-            className="lg:hidden p-2"
-            aria-label="Toggle menu"
+            className="lg:hidden p-2 ml-2"
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
             onClick={() => setMenuOpen((o) => !o)}
           >
-            <span
-              className={`block w-6 h-0.5 mb-1.5 transition-all ${
-                transparent && !menuOpen ? "bg-white" : "bg-[#1a1a1a]"
-              } ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
-            />
-            <span
-              className={`block w-6 h-0.5 mb-1.5 transition-all ${
-                transparent && !menuOpen ? "bg-white" : "bg-[#1a1a1a]"
-              } ${menuOpen ? "opacity-0" : ""}`}
-            />
-            <span
-              className={`block w-6 h-0.5 transition-all ${
-                transparent && !menuOpen ? "bg-white" : "bg-[#1a1a1a]"
-              } ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
-            />
+            {[0, 1, 2].map((i) => (
+              <span
+                key={i}
+                className="block w-6 h-0.5 transition-all duration-200"
+                style={{
+                  backgroundColor: transparent && !menuOpen ? "#FDFBF7" : "var(--ink)",
+                  marginBottom: i < 2 ? "5px" : 0,
+                  transform:
+                    menuOpen && i === 0 ? "translateY(7px) rotate(45deg)" :
+                    menuOpen && i === 1 ? "scaleX(0) opacity-0" :
+                    menuOpen && i === 2 ? "translateY(-7px) rotate(-45deg)" :
+                    "none",
+                  opacity: menuOpen && i === 1 ? 0 : 1,
+                }}
+              />
+            ))}
           </button>
         </div>
       </div>
 
       {/* ── Mobile drawer ── */}
       {menuOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-100 px-4 py-6 space-y-4">
-          {/* Logo inside drawer */}
-          <div className="pb-3 border-b border-gray-100">
+        <div
+          className="lg:hidden px-4 py-6 space-y-1"
+          style={{ backgroundColor: "var(--paper)", boxShadow: "0 4px 24px var(--line)" }}
+        >
+          {/* Logo */}
+          <div className="pb-4 mb-2" style={{ borderBottom: "1px solid var(--line)" }}>
             <Image
-              src="/logo-dark.svg"
-              alt="Oak & Stone Real Estate — The Patrick Group"
-              width={160}
-              height={96}
+              src="/logo-full-color.png"
+              alt="The Patrick Group"
+              width={500}
+              height={500}
               className="h-10 w-auto object-contain"
             />
           </div>
 
-          {navLinks.map((l) => (
+          {allLinks.map((l) => (
             <Link
               key={l.href}
               href={l.href}
               onClick={() => setMenuOpen(false)}
-              className={`block text-base font-medium py-1 transition-colors hover:text-[#c70000] ${
-                pathname === l.href ? "text-[#c70000]" : "text-[#1a1a1a]"
-              }`}
+              className="block py-2.5 text-base font-medium transition-colors"
+              style={{
+                color: pathname === l.href ? "var(--red)" : "var(--ink)",
+                fontFamily: "var(--font-sans)",
+              }}
             >
               {l.label}
             </Link>
           ))}
-          <Link
-            href="/home-valuation"
-            onClick={() => setMenuOpen(false)}
-            className="mt-4 block text-center bg-[#c70000] text-white font-semibold px-5 py-3 rounded-sm"
-          >
-            Get My Home Value
-          </Link>
-          <Link
-            href="/vip-buyers"
-            onClick={() => setMenuOpen(false)}
-            className="block text-center border border-[#c70000] text-[#c70000] font-semibold px-5 py-3 rounded-sm hover:bg-[#c70000]/5 transition-colors text-sm"
-          >
-            🔑 VIP Coming Soon List
-          </Link>
-          <p className="text-sm text-[#6b7280] pt-2">
-            Call or text Brad Patrick:{" "}
-            <a href="tel:2487553545" className="text-[#c70000] font-medium">
-              248.755.3545
-            </a>
-          </p>
+
+          <div className="pt-4 space-y-3" style={{ borderTop: "1px solid var(--line)", marginTop: "8px" }}>
+            <Link
+              href="/home-valuation"
+              onClick={() => setMenuOpen(false)}
+              className="block text-center py-3 text-sm font-medium uppercase tracking-wider"
+              style={{
+                backgroundColor: "var(--red)",
+                color: "#FDFBF7",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.12em",
+              }}
+            >
+              Get My Home Value
+            </Link>
+            <Link
+              href="/vip-buyers"
+              onClick={() => setMenuOpen(false)}
+              className="block text-center py-3 text-sm font-medium uppercase tracking-wider"
+              style={{
+                border: "1px solid var(--ink)",
+                color: "var(--ink)",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.12em",
+              }}
+            >
+              VIP Coming Soon List
+            </Link>
+            <p className="text-sm text-center pt-1" style={{ color: "var(--ink-3)" }}>
+              Call or text Brad:{" "}
+              <a
+                href="tel:2487553545"
+                onClick={() => trackPhoneClick("nav-mobile")}
+                className="font-medium"
+                style={{ color: "var(--red)" }}
+              >
+                248.755.3545
+              </a>
+            </p>
+          </div>
         </div>
       )}
     </header>

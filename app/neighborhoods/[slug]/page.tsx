@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { cities, getCityBySlug, getAllSlugs } from "@/data/cities";
+import { cities, getCityBySlug, getAllSlugs, isComingSoonSlug } from "@/data/cities";
 import CityFaqAccordion from "@/components/CityFaqAccordion";
 
 type Props = {
@@ -47,6 +47,86 @@ function slugToDisplayName(slug: string): string {
 export default async function CityPage({ params }: Props) {
   const { slug } = await params;
   const city = getCityBySlug(slug);
+
+  // Coming-soon template for new counties (Washtenaw, Livingston, Genesee, Monroe)
+  if (!city && isComingSoonSlug(slug)) {
+    const displayName = slug
+      .replace(/-mi$/, "")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (c) => c.toUpperCase());
+
+    return (
+      <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6" style={{ backgroundColor: "var(--paper)", color: "var(--ink)" }}>
+        <div className="max-w-2xl mx-auto text-center">
+          <p
+            className="uppercase tracking-[0.22em] text-[11px] font-medium mb-5"
+            style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+          >
+            Neighborhood Guide
+          </p>
+          <h1
+            className="font-display"
+            style={{ fontSize: "clamp(40px, 6vw, 72px)", lineHeight: "1", letterSpacing: "-0.02em" }}
+          >
+            {displayName}
+            <em style={{ color: "var(--red)", fontStyle: "italic" }}>, MI</em>
+          </h1>
+          <div
+            className="mt-10 p-8 text-left"
+            style={{ border: "1px solid var(--line)", backgroundColor: "var(--paper-2)" }}
+          >
+            <p
+              className="font-editorial italic"
+              style={{ fontSize: "20px", color: "var(--ink-2)", lineHeight: "1.5" }}
+            >
+              &ldquo;We&apos;re expanding our coverage here — a full neighborhood guide for{" "}
+              {displayName} is coming soon.&rdquo;
+            </p>
+            <p className="mt-5 text-sm leading-relaxed" style={{ color: "var(--ink-3)" }}>
+              In the meantime, our team is actively working with buyers and sellers in{" "}
+              {displayName} and the surrounding area. Reach out directly — we&apos;d love
+              to help.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+              <a
+                href="tel:2487553545"
+                className="inline-flex items-center justify-center px-7 py-3 text-sm font-medium uppercase tracking-wider transition-colors"
+                style={{
+                  backgroundColor: "var(--red)",
+                  color: "#FDFBF7",
+                  fontFamily: "var(--font-mono, monospace)",
+                  letterSpacing: "0.12em",
+                }}
+              >
+                Call 248.755.3545
+              </a>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center px-7 py-3 text-sm font-medium uppercase tracking-wider transition-colors"
+                style={{
+                  border: "1px solid var(--ink)",
+                  color: "var(--ink)",
+                  fontFamily: "var(--font-mono, monospace)",
+                  letterSpacing: "0.12em",
+                }}
+              >
+                Send a Message →
+              </Link>
+            </div>
+          </div>
+          <Link
+            href="/neighborhoods"
+            className="mt-10 inline-block text-sm hover:underline"
+            style={{ color: "var(--ink-3)", textUnderlineOffset: "3px" }}
+          >
+            ← All Neighborhoods
+          </Link>
+        </div>
+      </main>
+    );
+  }
+
+  // Unknown slug — true 404
   if (!city) notFound();
 
   const nearbyCities = city.nearbySlugsSee

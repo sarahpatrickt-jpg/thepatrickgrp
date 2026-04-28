@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { posts } from "@/data/posts";
 
 const base = "https://thepatrickgrp.com";
 
@@ -73,6 +74,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "yearly" as const,
       priority: 0.6,
+    })),
+
+    // Insights blog
+    { url: `${base}/insights`,            lastModified: new Date(), changeFrequency: "weekly",  priority: 0.8 },
+    ...posts.map((post) => ({
+      url: `${base}/insights/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: "yearly" as const,
+      priority: 0.7,
     })),
   ];
 }
