@@ -110,6 +110,41 @@ const faqs = [
   },
 ];
 
+const decisionChecklist = [
+  {
+    title: "Do you need to close within 30 days?",
+    desc: "Cash sales typically close in 7-21 days. If your timeline is flexible and you can wait 60-90 days, a traditional listing will almost always net more money.",
+  },
+  {
+    title: "Does your home need significant repairs?",
+    desc: "Cash investors buy as-is. If your home needs a new roof, foundation work, or major system updates you can't afford to fix, a cash offer removes that obstacle.",
+  },
+  {
+    title: "Are you comfortable leaving money on the table?",
+    desc: "Cash offers are typically below full market value. You're trading maximum price for speed, certainty, and convenience. Make sure you understand the gap before deciding.",
+  },
+  {
+    title: "Is your situation time-sensitive?",
+    desc: "Relocation, divorce, foreclosure risk, estate settlement — these situations often make speed and certainty more valuable than an extra 10-15% on the sale price.",
+  },
+  {
+    title: "Have you seen a comparative market analysis?",
+    desc: "Before accepting any cash offer, you should know what your home would sell for on the open market. We provide this analysis at no cost so you can make an informed decision.",
+  },
+  {
+    title: "Do you want to avoid showings entirely?",
+    desc: "Cash sales mean zero open houses, zero strangers walking through your home, and zero weekend disruptions. For some sellers, this alone makes it worthwhile.",
+  },
+  {
+    title: "Is the property vacant or tenant-occupied?",
+    desc: "Vacant homes cost money every month they sit. Tenant-occupied properties can be harder to show to traditional buyers. Cash investors handle both situations routinely.",
+  },
+  {
+    title: "Are there title or legal complications?",
+    desc: "Liens, back taxes, estate probate, or ownership disputes can complicate traditional sales. Experienced cash investors navigate these issues regularly.",
+  },
+];
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -129,6 +164,24 @@ export default function CashOfferPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            name: "Is a Cash Offer Right for You? A Seller's Checklist",
+            description:
+              "A cash sale isn't the right move for everyone. Walk through these questions to determine whether it makes sense for your situation.",
+            step: decisionChecklist.map((s, i) => ({
+              "@type": "HowToStep",
+              position: i + 1,
+              name: s.title,
+              text: s.desc,
+            })),
+          }),
+        }}
       />
 
       {/* HERO */}
@@ -378,40 +431,7 @@ export default function CashOfferPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              {
-                title: "Do you need to close within 30 days?",
-                desc: "Cash sales typically close in 7-21 days. If your timeline is flexible and you can wait 60-90 days, a traditional listing will almost always net more money.",
-              },
-              {
-                title: "Does your home need significant repairs?",
-                desc: "Cash investors buy as-is. If your home needs a new roof, foundation work, or major system updates you can't afford to fix, a cash offer removes that obstacle.",
-              },
-              {
-                title: "Are you comfortable leaving money on the table?",
-                desc: "Cash offers are typically below full market value. You're trading maximum price for speed, certainty, and convenience. Make sure you understand the gap before deciding.",
-              },
-              {
-                title: "Is your situation time-sensitive?",
-                desc: "Relocation, divorce, foreclosure risk, estate settlement — these situations often make speed and certainty more valuable than an extra 10-15% on the sale price.",
-              },
-              {
-                title: "Have you seen a comparative market analysis?",
-                desc: "Before accepting any cash offer, you should know what your home would sell for on the open market. We provide this analysis at no cost so you can make an informed decision.",
-              },
-              {
-                title: "Do you want to avoid showings entirely?",
-                desc: "Cash sales mean zero open houses, zero strangers walking through your home, and zero weekend disruptions. For some sellers, this alone makes it worthwhile.",
-              },
-              {
-                title: "Is the property vacant or tenant-occupied?",
-                desc: "Vacant homes cost money every month they sit. Tenant-occupied properties can be harder to show to traditional buyers. Cash investors handle both situations routinely.",
-              },
-              {
-                title: "Are there title or legal complications?",
-                desc: "Liens, back taxes, estate probate, or ownership disputes can complicate traditional sales. Experienced cash investors navigate these issues regularly.",
-              },
-            ].map((item, i) => (
+            {decisionChecklist.map((item, i) => (
               <div key={i} className="bg-white border border-gray-100 rounded-sm p-5">
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full border-2 border-[#c70000] flex items-center justify-center shrink-0 mt-0.5">
@@ -440,8 +460,31 @@ export default function CashOfferPage() {
         </div>
       </section>
 
+      {/* RELATED SERVICES */}
+      <section className="py-12 px-4 sm:px-6 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+            Related specialty services
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/divorce-real-estate" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Divorce Real Estate</p>
+              <p className="text-xs text-gray-500 mt-1">Selling during a divorce? We provide neutral, court-compliant representation for both parties.</p>
+            </Link>
+            <Link href="/estate-sales" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Estate &amp; Probate Sales</p>
+              <p className="text-xs text-gray-500 mt-1">Inherited a property? We coordinate with executors and attorneys to handle the sale.</p>
+            </Link>
+            <Link href="/insights/cash-offer-vs-listing-michigan" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Cash Offer vs. Traditional Listing</p>
+              <p className="text-xs text-gray-500 mt-1">Read our honest breakdown of when a cash sale makes sense and when it doesn&apos;t.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
@@ -498,11 +541,19 @@ export default function CashOfferPage() {
               <p className="text-white/30 text-xs mt-8">
                 Need a traditional listing instead?{" "}
                 <Link href="/selling" className="underline hover:text-white/60 transition-colors">
-                  See our full seller marketing program →
+                  Seller marketing program →
                 </Link>
                 {" · "}
                 <Link href="/divorce-real-estate" className="underline hover:text-white/60 transition-colors">
-                  Selling during a divorce →
+                  Divorce real estate →
+                </Link>
+                {" · "}
+                <Link href="/estate-sales" className="underline hover:text-white/60 transition-colors">
+                  Estate sales →
+                </Link>
+                {" · "}
+                <Link href="/downsizing" className="underline hover:text-white/60 transition-colors">
+                  Downsizing →
                 </Link>
               </p>
             </div>

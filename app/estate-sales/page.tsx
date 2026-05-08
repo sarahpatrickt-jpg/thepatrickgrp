@@ -83,6 +83,49 @@ const faqs = [
   },
 ];
 
+const executorChecklist = [
+  {
+    title: "Obtain Letters of Authority",
+    desc: "Filed through the Michigan probate court in the county where the deceased resided. Required before you can legally execute a purchase agreement on behalf of the estate.",
+  },
+  {
+    title: "Secure the Property",
+    desc: "Change locks, verify insurance coverage is active, and ensure utilities remain on. A vacant, uninsured home can create significant liability for the estate.",
+  },
+  {
+    title: "Notify the Mortgage Company",
+    desc: "If a mortgage exists, contact the lender to inform them of the death and understand the remaining balance, escrow status, and any payment obligations during the sale.",
+  },
+  {
+    title: "Get a Professional Market Valuation",
+    desc: "Request a comparative market analysis from a licensed agent who understands estate property condition adjustments. This establishes fair value for the estate and all heirs.",
+  },
+  {
+    title: "Coordinate with the Estate Attorney",
+    desc: "Confirm the probate timeline, any restrictions on the sale, and whether court approval is needed before accepting an offer. Keep your attorney informed at every stage.",
+  },
+  {
+    title: "Address Personal Property",
+    desc: "Decide what will be distributed to heirs, donated, or sold through an estate sale company. This should happen before or during the listing preparation — not after an offer is accepted.",
+  },
+  {
+    title: "Assess Repairs vs. Sell As-Is",
+    desc: "Get honest guidance on which improvements will increase the sale price enough to justify the cost and delay. Some estate homes sell better as-is to investors or renovation buyers.",
+  },
+  {
+    title: "Communicate with All Heirs",
+    desc: "Even if you have sole authority as executor, keeping heirs informed reduces conflict. Document all major decisions and share the market analysis with everyone involved.",
+  },
+  {
+    title: "List with Full Market Exposure",
+    desc: "Estate homes deserve the same marketing as any listing: professional photography, MLS syndication, and agent outreach. A discount listing strategy costs the estate money.",
+  },
+  {
+    title: "Manage Closing and Proceeds Distribution",
+    desc: "Work with the title company and estate attorney to ensure proceeds are distributed correctly according to the will or probate court order. Document everything for the estate accounting.",
+  },
+];
+
 export default function EstateSalesPage() {
   return (
     <>
@@ -253,48 +296,7 @@ export default function EstateSalesPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              {
-                title: "Obtain Letters of Authority",
-                desc: "Filed through the Michigan probate court in the county where the deceased resided. Required before you can legally execute a purchase agreement on behalf of the estate.",
-              },
-              {
-                title: "Secure the Property",
-                desc: "Change locks, verify insurance coverage is active, and ensure utilities remain on. A vacant, uninsured home can create significant liability for the estate.",
-              },
-              {
-                title: "Notify the Mortgage Company",
-                desc: "If a mortgage exists, contact the lender to inform them of the death and understand the remaining balance, escrow status, and any payment obligations during the sale.",
-              },
-              {
-                title: "Get a Professional Market Valuation",
-                desc: "Request a comparative market analysis from a licensed agent who understands estate property condition adjustments. This establishes fair value for the estate and all heirs.",
-              },
-              {
-                title: "Coordinate with the Estate Attorney",
-                desc: "Confirm the probate timeline, any restrictions on the sale, and whether court approval is needed before accepting an offer. Keep your attorney informed at every stage.",
-              },
-              {
-                title: "Address Personal Property",
-                desc: "Decide what will be distributed to heirs, donated, or sold through an estate sale company. This should happen before or during the listing preparation — not after an offer is accepted.",
-              },
-              {
-                title: "Assess Repairs vs. Sell As-Is",
-                desc: "Get honest guidance on which improvements will increase the sale price enough to justify the cost and delay. Some estate homes sell better as-is to investors or renovation buyers.",
-              },
-              {
-                title: "Communicate with All Heirs",
-                desc: "Even if you have sole authority as executor, keeping heirs informed reduces conflict. Document all major decisions and share the market analysis with everyone involved.",
-              },
-              {
-                title: "List with Full Market Exposure",
-                desc: "Estate homes deserve the same marketing as any listing: professional photography, MLS syndication, and agent outreach. A discount listing strategy costs the estate money.",
-              },
-              {
-                title: "Manage Closing and Proceeds Distribution",
-                desc: "Work with the title company and estate attorney to ensure proceeds are distributed correctly according to the will or probate court order. Document everything for the estate accounting.",
-              },
-            ].map((item, i) => (
+            {executorChecklist.map((item, i) => (
               <div key={i} className="bg-white border border-gray-100 rounded-sm p-5 flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-[#c70000] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                   {i + 1}
@@ -347,6 +349,29 @@ export default function EstateSalesPage() {
         </div>
       </section>
 
+      {/* RELATED SERVICES */}
+      <section className="py-12 px-4 sm:px-6 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+            Related specialty services
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/cash-offer" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Cash Offer Program</p>
+              <p className="text-xs text-gray-500 mt-1">Sell an estate property as-is with no repairs, no showings, and a close in as few as 14 days.</p>
+            </Link>
+            <Link href="/divorce-real-estate" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Divorce Real Estate</p>
+              <p className="text-xs text-gray-500 mt-1">Court-ordered sales, buyout valuations, and neutral representation for divorcing couples.</p>
+            </Link>
+            <Link href="/insights/selling-parents-home-michigan" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Selling a Parent&apos;s Home</p>
+              <p className="text-xs text-gray-500 mt-1">Our guide to navigating the emotional and logistical challenges of selling a family home.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
         <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
@@ -379,7 +404,7 @@ export default function EstateSalesPage() {
         </p>
       </section>
 
-      {/* FAQ Schema */}
+      {/* Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -393,6 +418,24 @@ export default function EstateSalesPage() {
                 "@type": "Answer",
                 text: faq.a,
               },
+            })),
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            name: "Michigan Estate Home Sale Checklist",
+            description:
+              "If you've been named executor or personal representative of an estate that includes real property in Michigan, these are the key steps to address.",
+            step: executorChecklist.map((s, i) => ({
+              "@type": "HowToStep",
+              position: i + 1,
+              name: s.title,
+              text: s.desc,
             })),
           }),
         }}
