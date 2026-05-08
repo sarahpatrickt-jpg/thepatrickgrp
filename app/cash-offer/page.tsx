@@ -5,7 +5,7 @@ import CashOfferForm from "@/components/CashOfferForm";
 export const metadata: Metadata = {
   title: "Sell Your Home for Cash in Southeast Michigan",
   description:
-    "Unlike M1 Home Buyers, Simply Sold RE, or We Buy Houses — The Patrick Group represents you, the seller. We connect Southeast Michigan homeowners with vetted cash investors, negotiate on your behalf, and show you what your home is worth before you accept any offer. No repairs. Close in as few as 14 days.",
+    "Get a cash offer on your Southeast Michigan home. The Patrick Group represents you — not the investor. No repairs, close in as few as 14 days.",
   keywords:
     "sell house fast Southeast Michigan, cash offer Michigan, sell home to investor Michigan, sell house as-is Oakland County, fast home sale Michigan, cash buyer Southeast Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/cash-offer" },

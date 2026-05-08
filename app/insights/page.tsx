@@ -5,7 +5,7 @@ import { posts } from "@/data/posts";
 export const metadata: Metadata = {
   title: "Insights — Southeast Michigan Real Estate",
   description:
-    "Market updates, buyer and seller tips, and local real estate insights from The Patrick Group — serving Southeast Michigan across Oakland, Macomb, Washtenaw, and Livingston counties.",
+    "Market updates, buyer and seller tips, and local real estate insights from The Patrick Group in Southeast Michigan.",
   alternates: { canonical: "https://thepatrickgrp.com/insights" },
   openGraph: {
     type: "website",

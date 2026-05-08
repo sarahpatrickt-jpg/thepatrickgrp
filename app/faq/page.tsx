@@ -4,7 +4,7 @@ import FaqPageClient from "@/components/FaqPageClient";
 export const metadata: Metadata = {
   title: "FAQ — Southeast Michigan Real Estate | Rochester, MI",
   description:
-    "Answers to the most common real estate questions from The Patrick Group — Sarah Patrick (Principal Broker) and Brad Patrick (Realtor, 15+ years). Serving Southeast Michigan across Oakland, Macomb, Washtenaw, and Livingston counties.",
+    "Common real estate questions answered by The Patrick Group — Sarah Patrick (Principal Broker) and Brad Patrick (Realtor®). Southeast Michigan.",
   alternates: { canonical: "https://thepatrickgrp.com/faq" },
   robots: {
     index: true,

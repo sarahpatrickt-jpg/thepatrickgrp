@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Divorce Real Estate Agent Southeast Michigan",
   description:
-    "The Patrick Group handles numerous divorce real estate transactions annually in Southeast Michigan. We coordinate directly with local family law attorneys, manage court-ordered sales, and provide defensible valuations — led by Principal Broker Sarah Patrick.",
+    "Divorce real estate specialist in Southeast Michigan. Court-ordered sales, attorney coordination, and defensible valuations from The Patrick Group.",
   keywords:
     "divorce real estate agent Southeast Michigan, selling house during divorce Michigan, court ordered home sale Michigan, divorce real estate specialist Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/divorce-real-estate" },

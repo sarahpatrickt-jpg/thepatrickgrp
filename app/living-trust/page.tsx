@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Selling a Home in a Living Trust — Southeast Michigan",
   description:
-    "Selling real estate held in a living trust in Southeast Michigan? The Patrick Group understands trustee authority, title requirements, and fiduciary obligations — so the sale goes smoothly.",
+    "Selling a home in a living trust in Southeast Michigan? The Patrick Group handles trustee authority, title, and fiduciary requirements.",
   keywords:
     "sell home in living trust Michigan, living trust real estate Southeast Michigan, trustee selling property Michigan, successor trustee home sale Oakland County, trust property sale Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/living-trust" },

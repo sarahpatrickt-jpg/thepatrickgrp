@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
   description:
-    "Meet Sarah Patrick, Brad Patrick, Christian Brown, Christian Wodtke, and the rest of The Patrick Group — Southeast Michigan's boutique real estate team. Multiple awards, results-driven service.",
+    "Meet Sarah Patrick, Brad Patrick, and The Patrick Group — Southeast Michigan's boutique real estate team. Results-driven service.",
   alternates: { canonical: "https://thepatrickgrp.com/about" },
 };
 

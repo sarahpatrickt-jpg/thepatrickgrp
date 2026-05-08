@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Investment Property Southeast Michigan — Buyer's Agent for Investors",
   description:
-    "Buying rental property or fix-and-flip homes in Southeast Michigan? The Patrick Group works with buy-and-hold investors, BRRRR buyers, and 1031 exchange clients across Oakland and Macomb counties.",
+    "Investment property in Southeast Michigan — buy-and-hold, BRRRR, fix-and-flip, and 1031 exchanges. The Patrick Group is your buyer's agent.",
   keywords:
     "investment property Southeast Michigan, rental property Oakland County, buy and hold real estate Michigan, fix and flip Southeast Michigan, 1031 exchange Michigan, real estate investor agent Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/real-estate-investors" },

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Downsizing Your Home in Southeast Michigan",
   description:
-    "Ready to downsize in Southeast Michigan? The Patrick Group helps you navigate the emotional and logistical challenges of moving to a smaller home — protecting your equity and working on your timeline.",
+    "Downsizing your home in Southeast Michigan? The Patrick Group protects your equity and works on your timeline. Free consultation.",
   keywords:
     "downsizing real estate Southeast Michigan, sell large home Michigan, downsize home Rochester Hills, right-size home Michigan, downsizing realtor Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/downsizing" },

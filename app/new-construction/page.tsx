@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "New Construction Homes Southeast Michigan",
   description:
-    "Buying new construction in Southeast Michigan? You need your own agent — the builder's rep works for the builder. The Patrick Group guides buyers through every step at no extra cost.",
+    "Buying new construction in Southeast Michigan? The builder's rep works for the builder — you need your own agent. We help at no extra cost.",
   keywords:
     "new construction homes Southeast Michigan, new builds Oakland County, new construction buyer agent Michigan, new homes Macomb Township, new construction Plymouth Northville Novi Canton",
   alternates: { canonical: "https://thepatrickgrp.com/new-construction" },

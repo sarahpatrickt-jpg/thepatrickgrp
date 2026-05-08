@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Client Reviews",
   description:
-    "See what clients say about working with The Patrick Group — Brad and Sarah Patrick of Oak & Stone Real Estate. First-time buyers, sellers, relocators, and more across Southeast Michigan.",
+    "Client reviews of The Patrick Group — Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
   alternates: { canonical: "https://thepatrickgrp.com/reviews" },
 };
 

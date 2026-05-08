@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Estate & Probate Home Sales in Southeast Michigan",
   description:
-    "Handling the sale of a loved one's home in Southeast Michigan? The Patrick Group provides experienced, compassionate guidance through estate and probate real estate — from the first walkthrough to closing.",
+    "Estate and probate home sales in Southeast Michigan. The Patrick Group guides executors from first walkthrough to closing.",
   keywords:
     "estate sale real estate Southeast Michigan, probate home sale Michigan, sell inherited home Michigan, estate property Michigan, probate real estate agent Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/estate-sales" },
