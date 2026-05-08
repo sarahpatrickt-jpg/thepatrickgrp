@@ -391,6 +391,59 @@ export default async function CityPage({ params }: Props) {
             <CityFaqAccordion faqs={city.faqs} cityName={city.name} />
           </div>
 
+          {/* Specialty Services */}
+          <div>
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+              Specialty Services in {city.name}
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Link
+                href="/divorce-real-estate"
+                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              >
+                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                  Divorce Real Estate
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  Court-compliant home sales with dual-party coordination for {city.name} families navigating divorce.
+                </p>
+              </Link>
+              <Link
+                href="/estate-sales"
+                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              >
+                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                  Estate &amp; Probate Sales
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  Executor guidance, probate timelines, and estate property sales in {city.county} County.
+                </p>
+              </Link>
+              <Link
+                href="/downsizing"
+                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              >
+                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                  Downsizing
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  Right-sizing your home in Southeast Michigan — sell your {city.name} property and find your next chapter.
+                </p>
+              </Link>
+              <Link
+                href="/cash-offer"
+                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              >
+                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                  Cash Offer Program
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  Get a no-obligation cash offer on your {city.name} home in 48 hours — no showings, no repairs.
+                </p>
+              </Link>
+            </div>
+          </div>
+
           {/* CTA Block */}
           {city.ctaVariant === "buyer" && (
             <div className="bg-[#1a1a1a] text-white p-8 rounded-sm">
