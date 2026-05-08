@@ -236,6 +236,93 @@ export default function EstateSalesPage() {
         </div>
       </section>
 
+      {/* EXECUTOR CHECKLIST */}
+      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Executor&apos;s guide
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+              Michigan Estate Home Sale Checklist
+            </h2>
+            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+              If you&apos;ve been named executor or personal representative of an estate that includes
+              real property in Michigan, these are the key steps to address.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {[
+              {
+                title: "Obtain Letters of Authority",
+                desc: "Filed through the Michigan probate court in the county where the deceased resided. Required before you can legally execute a purchase agreement on behalf of the estate.",
+              },
+              {
+                title: "Secure the Property",
+                desc: "Change locks, verify insurance coverage is active, and ensure utilities remain on. A vacant, uninsured home can create significant liability for the estate.",
+              },
+              {
+                title: "Notify the Mortgage Company",
+                desc: "If a mortgage exists, contact the lender to inform them of the death and understand the remaining balance, escrow status, and any payment obligations during the sale.",
+              },
+              {
+                title: "Get a Professional Market Valuation",
+                desc: "Request a comparative market analysis from a licensed agent who understands estate property condition adjustments. This establishes fair value for the estate and all heirs.",
+              },
+              {
+                title: "Coordinate with the Estate Attorney",
+                desc: "Confirm the probate timeline, any restrictions on the sale, and whether court approval is needed before accepting an offer. Keep your attorney informed at every stage.",
+              },
+              {
+                title: "Address Personal Property",
+                desc: "Decide what will be distributed to heirs, donated, or sold through an estate sale company. This should happen before or during the listing preparation — not after an offer is accepted.",
+              },
+              {
+                title: "Assess Repairs vs. Sell As-Is",
+                desc: "Get honest guidance on which improvements will increase the sale price enough to justify the cost and delay. Some estate homes sell better as-is to investors or renovation buyers.",
+              },
+              {
+                title: "Communicate with All Heirs",
+                desc: "Even if you have sole authority as executor, keeping heirs informed reduces conflict. Document all major decisions and share the market analysis with everyone involved.",
+              },
+              {
+                title: "List with Full Market Exposure",
+                desc: "Estate homes deserve the same marketing as any listing: professional photography, MLS syndication, and agent outreach. A discount listing strategy costs the estate money.",
+              },
+              {
+                title: "Manage Closing and Proceeds Distribution",
+                desc: "Work with the title company and estate attorney to ensure proceeds are distributed correctly according to the will or probate court order. Document everything for the estate accounting.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-white border border-gray-100 rounded-sm p-5 flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-[#c70000] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
+                  {i + 1}
+                </div>
+                <div>
+                  <h3 className="font-semibold text-[#1a1a1a] text-sm mb-1">{item.title}</h3>
+                  <p className="text-xs text-gray-500 leading-relaxed">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 bg-[#1a1a1a] text-white rounded-sm p-6">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              Not sure where to start?
+            </p>
+            <p className="text-white/70 text-sm leading-relaxed">
+              Most executors don&apos;t have experience selling real estate as part of an estate.
+              Call Sarah Patrick at{" "}
+              <a href="tel:2487553545" className="text-[#c70000] font-semibold hover:underline">
+                248.755.3545
+              </a>{" "}
+              — we&apos;ll walk you through where you are in the process and what needs to happen next.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
         <div className="max-w-3xl mx-auto">

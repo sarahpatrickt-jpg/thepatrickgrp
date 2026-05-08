@@ -237,6 +237,106 @@ export default function DownsizingPage() {
         </div>
       </section>
 
+      {/* DOWNSIZING CHECKLIST */}
+      <section className="py-20 px-4 sm:px-6 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Your planning guide
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+              Southeast Michigan Downsizing Checklist
+            </h2>
+            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+              Downsizing is a major life transition. This checklist covers the decisions most
+              Southeast Michigan homeowners need to make — in roughly the order they come up.
+            </p>
+          </div>
+
+          <div className="space-y-0">
+            {[
+              {
+                n: "1",
+                title: "Know Your Current Home's Value",
+                desc: "Before making any decisions, get a documented comparative market analysis. Your equity position determines your budget, your options, and whether downsizing makes financial sense at all.",
+              },
+              {
+                n: "2",
+                title: "Define What You Actually Need",
+                desc: "List your non-negotiables: single-story living, garage, proximity to family, walkability, low maintenance. Separate what you use daily from what you're holding onto out of habit.",
+              },
+              {
+                n: "3",
+                title: "Choose Your Property Type",
+                desc: "Condo, ranch, townhome, or 55+ community — each has different costs, maintenance obligations, and lifestyle tradeoffs. HOA fees, special assessments, and resale restrictions all factor in.",
+              },
+              {
+                n: "4",
+                title: "Research Target Neighborhoods",
+                desc: "Southeast Michigan offers very different downsizing options depending on where you look. Birmingham condos, Rochester Hills ranches, and Shelby Township active adult communities are all different price points and lifestyles.",
+              },
+              {
+                n: "5",
+                title: "Understand the Buy-Sell Timing",
+                desc: "Will you sell first, buy first, or try to close simultaneously? Each approach has risks. Your agent should model out the scenarios and help you choose the one that fits your financial position.",
+              },
+              {
+                n: "6",
+                title: "Review Your Financial Picture",
+                desc: "Talk to a lender about your options — even if you plan to buy with cash from your sale proceeds. Bridge loans, HELOCs, and contingency strategies exist if you need to buy before selling.",
+              },
+              {
+                n: "7",
+                title: "Start Decluttering Early",
+                desc: "This is consistently the most time-consuming part. Start 3-6 months before you plan to list. Donate, sell, or distribute items to family. The less you move, the easier and cheaper the transition.",
+              },
+              {
+                n: "8",
+                title: "Prepare Your Current Home for Sale",
+                desc: "Invest in the improvements that matter: cleaning, painting, and staging. Your agent should tell you what buyers in your price range expect — and what's not worth doing.",
+              },
+              {
+                n: "9",
+                title: "List and Show Your Home",
+                desc: "Professional photography, MLS syndication, and strategic pricing. Your agent coordinates showings around your schedule and keeps you informed without overwhelming you.",
+              },
+              {
+                n: "10",
+                title: "Close Both Transactions",
+                desc: "Your agent and lender coordinate the timing so you move once, cleanly. The goal is no gap between homes and no period carrying two mortgages.",
+              },
+            ].map((step, i) => (
+              <div key={i} className="flex gap-6 pb-8">
+                <div className="flex flex-col items-center">
+                  <div className="w-10 h-10 rounded-full bg-[#c70000] text-white text-sm font-bold flex items-center justify-center shrink-0">
+                    {step.n}
+                  </div>
+                  {i < 9 && <div className="w-px flex-1 bg-gray-200 mt-2" />}
+                </div>
+                <div className="pb-2">
+                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{step.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 bg-[#faf9f7] border border-gray-100 rounded-sm p-6">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              Where are you in the process?
+            </p>
+            <p className="text-gray-600 text-sm leading-relaxed">
+              Whether you&apos;re just thinking about downsizing or ready to list next month, start with
+              a{" "}
+              <Link href="/home-valuation" className="text-[#c70000] font-semibold hover:underline">
+                free home valuation
+              </Link>{" "}
+              — it takes 15 minutes and gives you the real numbers to plan around.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
         <div className="max-w-3xl mx-auto">

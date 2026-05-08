@@ -361,6 +361,85 @@ export default function CashOfferPage() {
         </div>
       </section>
 
+      {/* DECISION CHECKLIST */}
+      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Decision guide
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+              Is a Cash Offer Right for You? A Seller&apos;s Checklist
+            </h2>
+            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+              A cash sale isn&apos;t the right move for everyone. Walk through these
+              questions to determine whether it makes sense for your situation.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {[
+              {
+                title: "Do you need to close within 30 days?",
+                desc: "Cash sales typically close in 7-21 days. If your timeline is flexible and you can wait 60-90 days, a traditional listing will almost always net more money.",
+              },
+              {
+                title: "Does your home need significant repairs?",
+                desc: "Cash investors buy as-is. If your home needs a new roof, foundation work, or major system updates you can't afford to fix, a cash offer removes that obstacle.",
+              },
+              {
+                title: "Are you comfortable leaving money on the table?",
+                desc: "Cash offers are typically below full market value. You're trading maximum price for speed, certainty, and convenience. Make sure you understand the gap before deciding.",
+              },
+              {
+                title: "Is your situation time-sensitive?",
+                desc: "Relocation, divorce, foreclosure risk, estate settlement — these situations often make speed and certainty more valuable than an extra 10-15% on the sale price.",
+              },
+              {
+                title: "Have you seen a comparative market analysis?",
+                desc: "Before accepting any cash offer, you should know what your home would sell for on the open market. We provide this analysis at no cost so you can make an informed decision.",
+              },
+              {
+                title: "Do you want to avoid showings entirely?",
+                desc: "Cash sales mean zero open houses, zero strangers walking through your home, and zero weekend disruptions. For some sellers, this alone makes it worthwhile.",
+              },
+              {
+                title: "Is the property vacant or tenant-occupied?",
+                desc: "Vacant homes cost money every month they sit. Tenant-occupied properties can be harder to show to traditional buyers. Cash investors handle both situations routinely.",
+              },
+              {
+                title: "Are there title or legal complications?",
+                desc: "Liens, back taxes, estate probate, or ownership disputes can complicate traditional sales. Experienced cash investors navigate these issues regularly.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-white border border-gray-100 rounded-sm p-5">
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full border-2 border-[#c70000] flex items-center justify-center shrink-0 mt-0.5">
+                    <span className="text-[#c70000] text-xs font-bold">{i + 1}</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-[#1a1a1a] text-sm mb-1">{item.title}</h3>
+                    <p className="text-xs text-gray-500 leading-relaxed">{item.desc}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 bg-[#1a1a1a] text-white rounded-sm p-6 text-center">
+            <p className="font-semibold mb-2">Still not sure?</p>
+            <p className="text-white/70 text-sm leading-relaxed max-w-lg mx-auto">
+              Call Brad Patrick at{" "}
+              <a href="tel:2487553545" className="text-[#c70000] font-semibold hover:underline">
+                248.755.3545
+              </a>{" "}
+              — he&apos;ll give you an honest comparison of your cash offer options vs. a traditional
+              listing so you can decide with real numbers, not guesswork.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">

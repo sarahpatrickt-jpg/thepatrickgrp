@@ -199,6 +199,105 @@ export default function DivorceRealEstatePage() {
         </div>
       </section>
 
+      {/* CHECKLIST */}
+      <section className="py-20 px-4 sm:px-6 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Step-by-step guide
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+              Your Michigan Divorce Home Sale Checklist
+            </h2>
+            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+              Every divorce home sale is different, but these are the steps most Michigan families
+              need to address. Use this as a starting point — we can walk you through each one.
+            </p>
+          </div>
+
+          <div className="space-y-0">
+            {[
+              {
+                n: "1",
+                title: "Determine Legal Authority to Sell",
+                desc: "Before anything else, confirm who has the legal right to list the property. In Michigan, both parties typically must agree — unless a court order authorizes the sale. Your attorney can confirm your authority.",
+              },
+              {
+                n: "2",
+                title: "Get a Documented Market Valuation",
+                desc: "Request a comparative market analysis (CMA) from a licensed agent — not a Zestimate. This establishes a defensible value for negotiations, buyout calculations, or court proceedings.",
+              },
+              {
+                n: "3",
+                title: "Decide: Sell, Buyout, or Retain",
+                desc: "Three paths exist for the marital home: sell and split proceeds, one spouse buys out the other, or one retains the home through the settlement. Each has different financial and tax implications.",
+              },
+              {
+                n: "4",
+                title: "Align on Timeline with Your Attorney",
+                desc: "Michigan divorce proceedings move on legal calendars. Coordinate with your family law attorney to determine when the home can be listed and what deadlines apply to accepting offers.",
+              },
+              {
+                n: "5",
+                title: "Choose an Agent with Divorce Experience",
+                desc: "You need an agent who can maintain neutrality, communicate through attorneys when necessary, and produce documentation suitable for legal proceedings. Not every agent has this experience.",
+              },
+              {
+                n: "6",
+                title: "Address Occupancy and Access",
+                desc: "Determine who is living in the home during the sale, how showings will be scheduled, and how both parties will be notified. Clear ground rules prevent conflict during the listing period.",
+              },
+              {
+                n: "7",
+                title: "Prepare the Home for Market",
+                desc: "Even in a divorce sale, presentation matters. Agree on a reasonable preparation plan — cleaning, minor repairs, and staging if appropriate — to protect the equity both parties share.",
+              },
+              {
+                n: "8",
+                title: "Review and Accept an Offer Together",
+                desc: "Both parties (or the court-authorized party) must agree to accept an offer. Your agent should present offers to both sides simultaneously with clear documentation of all terms.",
+              },
+              {
+                n: "9",
+                title: "Coordinate Proceeds Distribution at Closing",
+                desc: "Proceeds are distributed through the title company according to the separation agreement or court order. Confirm the split with your attorney before closing day.",
+              },
+              {
+                n: "10",
+                title: "File Appropriate Tax Documentation",
+                desc: "A home sale during divorce may have capital gains implications. Consult with a tax professional about Section 121 exclusions and how the timing of your divorce affects your filing status.",
+              },
+            ].map((step, i) => (
+              <div key={i} className="flex gap-6 pb-8">
+                <div className="flex flex-col items-center">
+                  <div className="w-10 h-10 rounded-full bg-[#c70000] text-white text-sm font-bold flex items-center justify-center shrink-0">
+                    {step.n}
+                  </div>
+                  {i < 9 && <div className="w-px flex-1 bg-gray-200 mt-2" />}
+                </div>
+                <div className="pb-2">
+                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{step.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 bg-[#faf9f7] border border-gray-100 rounded-sm p-6">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              Need help with any of these steps?
+            </p>
+            <p className="text-gray-600 text-sm leading-relaxed">
+              Every divorce situation is unique. Call Sarah Patrick directly at{" "}
+              <a href="tel:2487553545" className="text-[#c70000] font-semibold hover:underline">
+                248.755.3545
+              </a>{" "}
+              for a confidential conversation about where you are in the process and what comes next.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ — AI SEO optimized with FAQ schema */}
       <section className="py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
