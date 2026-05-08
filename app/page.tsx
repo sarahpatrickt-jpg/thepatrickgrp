@@ -222,8 +222,77 @@ const eyebrow =
 // ─── Page ───────────────────────────────────────────────────────────────────
 
 export default function HomePage() {
+  const businessSchema = {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    name: "The Patrick Group | Oak & Stone Real Estate",
+    url: "https://thepatrickgrp.com",
+    logo: "https://thepatrickgrp.com/logo.png",
+    image: "https://thepatrickgrp.com/team/sarah-patrick.jpg",
+    telephone: "+1-248-755-3545",
+    email: "sarah@sarahpatrickhomes.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "408 East Street",
+      addressLocality: "Rochester",
+      addressRegion: "MI",
+      postalCode: "48307",
+      addressCountry: "US",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 42.6806,
+      longitude: -83.1338,
+    },
+    areaServed: [
+      "Oakland County, MI",
+      "Macomb County, MI",
+      "Wayne County, MI",
+      "Washtenaw County, MI",
+      "Livingston County, MI",
+      "Genesee County, MI",
+      "Monroe County, MI",
+    ],
+    knowsAbout: [
+      "Residential real estate",
+      "Divorce real estate",
+      "Estate and probate sales",
+      "Downsizing",
+      "Cash offers",
+      "Relocation",
+      "New construction",
+      "Investment property",
+    ],
+    employee: [
+      {
+        "@type": "Person",
+        name: "Sarah Patrick",
+        jobTitle: "Principal Broker",
+      },
+      {
+        "@type": "Person",
+        name: "Brad Patrick",
+        jobTitle: "Realtor",
+      },
+    ],
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "08:00",
+      closes: "20:00",
+    },
+    priceRange: "$$",
+    sameAs: [
+      "https://www.google.com/maps/place/The+Patrick+Group",
+    ],
+  };
+
   return (
     <div style={{ backgroundColor: "var(--paper)", color: "var(--ink)" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
+      />
 
       {/* ══════════════════════════════════════════════════════
           §1  HERO
