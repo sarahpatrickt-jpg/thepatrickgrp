@@ -20,13 +20,14 @@ const leftLinksAfter = [
 
 // Specialties dropdown — mirrors the footer "Specialties" section
 const specialtyLinks = [
-  { href: "/cash-offer",          label: "Cash Offer Program" },
-  { href: "/new-construction",    label: "New Construction" },
-  { href: "/divorce-real-estate", label: "Divorce Real Estate" },
-  { href: "/living-trust",        label: "Living Trust Sales" },
-  { href: "/relocation",          label: "Relocating to Michigan" },
-  { href: "/downsizing",          label: "Downsizing" },
-  { href: "/estate-sales",        label: "Estate & Probate Sales" },
+  { href: "/cash-offer",               label: "Cash Offer Program" },
+  { href: "/new-construction",         label: "New Construction" },
+  { href: "/divorce-real-estate",      label: "Divorce Real Estate" },
+  { href: "/real-estate-investors",    label: "Investor Services" },
+  { href: "/living-trust",             label: "Living Trust Sales" },
+  { href: "/relocation",               label: "Relocating to Michigan" },
+  { href: "/downsizing",               label: "Downsizing" },
+  { href: "/estate-sales",             label: "Estate & Probate Sales" },
 ];
 
 const specialtyHrefs = new Set(specialtyLinks.map((l) => l.href));
@@ -37,9 +38,10 @@ const allLinks = [
   { href: "/selling",              label: "Sell" },
   { href: "/cash-offer",           label: "Cash Offer Program" },
   { href: "/new-construction",     label: "New Construction" },
-  { href: "/divorce-real-estate",  label: "Divorce Real Estate" },
-  { href: "/living-trust",         label: "Living Trust Sales" },
-  { href: "/relocation",           label: "Relocating to Michigan" },
+  { href: "/divorce-real-estate",   label: "Divorce Real Estate" },
+  { href: "/real-estate-investors", label: "Investor Services" },
+  { href: "/living-trust",          label: "Living Trust Sales" },
+  { href: "/relocation",            label: "Relocating to Michigan" },
   { href: "/downsizing",           label: "Downsizing" },
   { href: "/estate-sales",         label: "Estate & Probate Sales" },
   { href: "/neighborhoods",        label: "Neighborhoods" },
