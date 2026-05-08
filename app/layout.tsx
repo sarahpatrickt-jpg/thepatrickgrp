@@ -84,7 +84,7 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
-  name: "The Patrick Group | Oak and Stone Real Estate",
+  name: "The Patrick Group | Oak & Stone Real Estate",
   url: "https://thepatrickgrp.com",
   telephone: "+12487553545",
   email: "sarah@sarahpatrickhomes.com",
@@ -124,10 +124,9 @@ const localBusinessSchema = {
     { "@type": "City", name: "Romulus", containedInPlace: "Michigan" },
   ],
   description:
-    "Boutique real estate team serving Southeast Michigan. Sarah Patrick, Principal Broker.",
+    "Boutique real estate team serving Southeast Michigan — Oakland, Macomb, Washtenaw, and Livingston counties. Led by Principal Broker Sarah Patrick and Realtor® Brad Patrick. Specialists in buyer representation, home sales, cash offers, divorce real estate, estate and probate sales, living trust property, downsizing, new construction, investor properties, and relocation.",
   sameAs: [
     "https://www.oakandstonerealestate.com",
-    "https://www.facebook.com/search/top?q=your%20agent%20brad",
     "https://www.instagram.com/youragentbrad/",
     "https://www.linkedin.com/in/sarahkpatrick/",
     "https://www.youtube.com/@itsmondayyall",
@@ -140,8 +139,8 @@ const localBusinessSchema = {
       url: "https://thepatrickgrp.com/about",
       email: "sarah@sarahpatrickhomes.com",
       sameAs: "https://www.linkedin.com/in/sarahkpatrick/",
-      worksFor: { "@type": "Organization", name: "The Patrick Group | Oak and Stone Real Estate" },
-      description: "Sarah Patrick is a licensed Principal Broker in Michigan and the owner of Oak and Stone Real Estate, serving Southeast Michigan buyers and sellers.",
+      worksFor: { "@type": "Organization", name: "The Patrick Group | Oak & Stone Real Estate" },
+      description: "Sarah Patrick is a licensed Principal Broker in Michigan and the owner of Oak & Stone Real Estate, serving Southeast Michigan buyers and sellers.",
     },
     {
       "@type": "Person",
@@ -155,7 +154,7 @@ const localBusinessSchema = {
         "https://www.facebook.com/search/top?q=your%20agent%20brad",
         "https://www.youtube.com/@itsmondayyall",
       ],
-      worksFor: { "@type": "Organization", name: "The Patrick Group | Oak and Stone Real Estate" },
+      worksFor: { "@type": "Organization", name: "The Patrick Group | Oak & Stone Real Estate" },
       description: "Brad Patrick brings 15+ years of real estate experience and a prior career in mortgage lending to The Patrick Group. Featured on the cover of Real Producers Magazine, April 2026.",
     },
   ],
