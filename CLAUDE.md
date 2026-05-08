@@ -116,15 +116,17 @@ GA4 conversion events configured:
 - `newsletter_signup`
 - `phone_call_click`
 
-Still needs to be done manually in GA4 Admin: mark those events as conversions at analytics.google.com.
+All 5 events marked as Key Events in GA4 Admin — confirmed May 2026.
 
 ---
 
 ## PENDING / NEXT UP
 
-- GA4: Mark conversion events in GA4 Admin (manual — Sarah to do)
-- GBP: Upload team headshots, office exterior, Real Producers April 2026 cover
-- GBP Post: Publish March 2026 market report
-- April 2026 market report page (when Realcomp data is available)
+- GA4: ✓ All 5 events marked as Key Events (May 2026)
+- GBP photos: team headshots ✓ done. Office exterior + Real Producers April 2026 cover still needed
+- GBP Post: Publish March 2026 market report (copy ready)
+- April 2026 market report page (when Realcomp data available)
+- AI citation re-test: divorce + cash offer pages — test with Gemini/ChatGPT (overdue from March)
 - City vs City comparison pages (next programmatic SEO priority)
 - Brad + Sarah to review/approve all 24 city quotes
+- Paid ads launch (Google/Meta) — run `paid-ads` skill when ready
