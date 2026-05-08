@@ -49,20 +49,12 @@ const allLinks = [
 ];
 
 export default function Nav() {
-  const [scrolled, setScrolled]               = useState(false);
   const [menuOpen, setMenuOpen]               = useState(false);
   const [specialtiesOpen, setSpecialtiesOpen] = useState(false);
   const pathname                              = usePathname();
-  const isHome                                = pathname === "/";
   const specialtiesRef                        = useRef<HTMLDivElement>(null);
   const closeTimer                            = useRef<ReturnType<typeof setTimeout> | null>(null);
   const specialtiesActive                     = specialtyHrefs.has(pathname);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   // Close on Escape, click outside
   useEffect(() => {
@@ -93,12 +85,9 @@ export default function Nav() {
     closeTimer.current = setTimeout(() => setSpecialtiesOpen(false), 120);
   };
 
-  // On the homepage, nav is transparent until the user scrolls
-  const transparent = isHome && !scrolled && !menuOpen;
-
-  const navBg     = transparent ? "transparent" : "var(--paper)";
-  const linkColor = transparent ? "#FDFBF7" : "var(--ink-2)";
-  const shadow    = transparent ? "none" : "0 1px 0 var(--line)";
+  const navBg     = "var(--paper)";
+  const linkColor = "var(--ink-2)";
+  const shadow    = "0 1px 0 var(--line)";
 
   const linkClass = "text-[13px] font-medium transition-colors whitespace-nowrap";
   const linkStyle = (href: string) => ({
@@ -216,7 +205,7 @@ export default function Nav() {
               height={500}
               priority
               className="h-14 w-auto object-contain transition-all duration-300"
-              style={{ filter: transparent ? "brightness(0) invert(1)" : "none" }}
+              style={{ filter: "none" }}
             />
           </Link>
 
@@ -229,7 +218,7 @@ export default function Nav() {
               height={500}
               priority
               className="h-12 w-auto object-contain transition-all duration-300"
-              style={{ filter: transparent ? "brightness(0) invert(1)" : "none" }}
+              style={{ filter: "none" }}
             />
           </Link>
 
@@ -272,7 +261,7 @@ export default function Nav() {
                 key={i}
                 className="block w-6 h-0.5 transition-all duration-200"
                 style={{
-                  backgroundColor: transparent && !menuOpen ? "#FDFBF7" : "var(--ink)",
+                  backgroundColor: "var(--ink)",
                   marginBottom: i < 2 ? "5px" : 0,
                   transform:
                     menuOpen && i === 0 ? "translateY(7px) rotate(45deg)" :
