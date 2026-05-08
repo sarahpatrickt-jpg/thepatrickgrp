@@ -162,9 +162,9 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48301", "48302", "48304", "48322"],
     marketStats: {
-      medianPrice: 595000,
-      medianPriceChange: 4.5,
-      daysOnMarket: 14,
+      medianPrice: 555667,
+      medianPriceChange: 5.2,
+      daysOnMarket: 28,
       pricePerSqft: 214,
     },
     priceRange: {
@@ -390,9 +390,9 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48322", "48323", "48324"],
     marketStats: {
-      medianPrice: 480000,
-      medianPriceChange: 4.2,
-      daysOnMarket: 15,
+      medianPrice: 382500,
+      medianPriceChange: 2.9,
+      daysOnMarket: 32,
       pricePerSqft: 198,
     },
     priceRange: {
@@ -504,8 +504,8 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48346", "48347", "48348"],
     marketStats: {
-      medianPrice: 430000,
-      medianPriceChange: 4.0,
+      medianPrice: 370833,
+      medianPriceChange: 3.9,
       daysOnMarket: 17,
       pricePerSqft: 188,
     },
@@ -734,9 +734,9 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48315", "48316", "48317"],
     marketStats: {
-      medianPrice: 340000,
-      medianPriceChange: 4.7,
-      daysOnMarket: 16,
+      medianPrice: 340500,
+      medianPriceChange: 3.5,
+      daysOnMarket: 19,
       pricePerSqft: 168,
     },
     priceRange: {
@@ -848,9 +848,9 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48035", "48036", "48038"],
     marketStats: {
-      medianPrice: 255000,
-      medianPriceChange: 4.7,
-      daysOnMarket: 17,
+      medianPrice: 246167,
+      medianPriceChange: 3.8,
+      daysOnMarket: 21,
       pricePerSqft: 155,
     },
     priceRange: {
@@ -905,9 +905,9 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48042", "48044"],
     marketStats: {
-      medianPrice: 380000,
-      medianPriceChange: 4.7,
-      daysOnMarket: 16,
+      medianPrice: 390817,
+      medianPriceChange: 4.0,
+      daysOnMarket: 26,
       pricePerSqft: 172,
     },
     priceRange: {
