@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { posts } from "@/data/posts";
+import { getAllComparisonSlugs } from "@/data/comparisons";
 
 const base = "https://thepatrickgrp.com";
 
@@ -56,12 +57,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/relocation`,          lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/downsizing`,          lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/estate-sales`,        lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/living-trust`,         lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/real-estate-investors`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/vip-buyers`,          lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
 
     // Neighborhoods
     { url: `${base}/neighborhoods`,       lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     ...neighborhoods.map((slug) => ({
       url: `${base}/neighborhoods/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+
+    // Comparisons
+    ...getAllComparisonSlugs().map((slug) => ({
+      url: `${base}/compare/${slug}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,

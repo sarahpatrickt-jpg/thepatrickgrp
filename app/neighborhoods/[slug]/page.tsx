@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cities, getCityBySlug, getAllSlugs, isComingSoonSlug } from "@/data/cities";
+import { getComparisonsForCity } from "@/data/comparisons";
 import CityFaqAccordion from "@/components/CityFaqAccordion";
 
 type Props = {
@@ -132,6 +133,8 @@ export default async function CityPage({ params }: Props) {
   const nearbyCities = city.nearbySlugsSee
     .map((s) => cities.find((c) => c.slug === s))
     .filter(Boolean) as typeof cities;
+
+  const cityComparisons = getComparisonsForCity(city.slug);
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
@@ -471,6 +474,43 @@ export default async function CityPage({ params }: Props) {
                 >
                   Browse {city.name} Listings →
                 </a>
+              </div>
+            </div>
+          )}
+
+          {/* Compare With */}
+          {cityComparisons.length > 0 && (
+            <div>
+              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+                Compare {city.name} With
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {cityComparisons.map((comp) => {
+                  const otherSlug =
+                    comp.cityASlug === city.slug
+                      ? comp.cityBSlug
+                      : comp.cityASlug;
+                  const other = getCityBySlug(otherSlug);
+                  if (!other) return null;
+                  return (
+                    <Link
+                      key={comp.slug}
+                      href={`/compare/${comp.slug}`}
+                      className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-[#c70000]/30 hover:shadow-md transition-all"
+                    >
+                      <p className="font-serif font-bold text-[#1a1a1a] group-hover:text-[#c70000] transition-colors">
+                        {city.name} vs. {other.name}
+                      </p>
+                      <p className="text-gray-500 text-xs mt-1">
+                        {formatPrice(city.marketStats.medianPrice)} vs{" "}
+                        {formatPrice(other.marketStats.medianPrice)} median
+                      </p>
+                      <span className="mt-3 inline-block text-[#c70000] text-xs font-semibold group-hover:underline">
+                        Full comparison →
+                      </span>
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           )}

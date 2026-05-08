@@ -352,6 +352,43 @@ export default function NeighborhoodsPage() {
             </div>
           </div>
 
+          {/* Comparison Guides */}
+          <div className="bg-white p-8 rounded-sm border border-gray-100">
+            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-2">
+              City vs. City Comparisons
+            </h2>
+            <p className="text-gray-500 text-sm mb-6">
+              Side-by-side market data, lifestyle differences, and school districts — for buyers deciding between two communities.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {[
+                { href: "/compare/rochester-hills-vs-troy", label: "Rochester Hills vs. Troy" },
+                { href: "/compare/birmingham-vs-royal-oak", label: "Birmingham vs. Royal Oak" },
+                { href: "/compare/birmingham-vs-bloomfield-hills", label: "Birmingham vs. Bloomfield Hills" },
+                { href: "/compare/novi-vs-west-bloomfield", label: "Novi vs. West Bloomfield" },
+                { href: "/compare/northville-vs-plymouth", label: "Northville vs. Plymouth" },
+                { href: "/compare/bloomfield-hills-vs-bloomfield-township", label: "Bloomfield Hills vs. Township" },
+                { href: "/compare/shelby-township-vs-sterling-heights", label: "Shelby Twp vs. Sterling Heights" },
+                { href: "/compare/troy-vs-sterling-heights", label: "Troy vs. Sterling Heights" },
+                { href: "/compare/grosse-pointe-vs-st-clair-shores", label: "Grosse Pointe vs. St. Clair Shores" },
+                { href: "/compare/clinton-township-vs-macomb-township", label: "Clinton Twp vs. Macomb Twp" },
+                { href: "/compare/rochester-vs-rochester-hills", label: "Rochester vs. Rochester Hills" },
+                { href: "/compare/lake-orion-vs-clarkston", label: "Lake Orion vs. Clarkston" },
+                { href: "/compare/warren-vs-sterling-heights", label: "Warren vs. Sterling Heights" },
+                { href: "/compare/plymouth-vs-livonia", label: "Plymouth vs. Livonia" },
+                { href: "/compare/northville-vs-novi", label: "Northville vs. Novi" },
+              ].map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-[#1a1a1a] hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] border border-gray-100 rounded-sm hover:border-[#c70000]/30"
+                >
+                  {link.label} →
+                </Link>
+              ))}
+            </div>
+          </div>
+
           {/* CTA */}
           <div className="bg-[#1a1a1a] text-white p-8 rounded-sm text-center">
             <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
