@@ -1,29 +1,46 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { trackPhoneClick } from "@/lib/analytics";
 
-// Left-side nav links (desktop)
-const leftLinks = [
-  { href: "/buying",               label: "Buy" },
-  { href: "/selling",              label: "Sell" },
-  { href: "/neighborhoods",        label: "Neighborhoods" },
-  { href: "/new-construction",     label: "New Homes" },
-  { href: "/market-updates",       label: "Market Reports" },
+// Left-side nav links (desktop) — split around the Specialties dropdown
+const leftLinksBefore = [
+  { href: "/buying",  label: "Buy" },
+  { href: "/selling", label: "Sell" },
 ];
+
+const leftLinksAfter = [
+  { href: "/neighborhoods",    label: "Neighborhoods" },
+  { href: "/new-construction", label: "New Homes" },
+  { href: "/market-updates",   label: "Market Reports" },
+];
+
+// Specialties dropdown — mirrors the footer "Specialties" section
+const specialtyLinks = [
+  { href: "/cash-offer",          label: "Cash Offer Program" },
+  { href: "/new-construction",    label: "New Construction" },
+  { href: "/divorce-real-estate", label: "Divorce Real Estate" },
+  { href: "/relocation",          label: "Relocating to Michigan" },
+  { href: "/downsizing",          label: "Downsizing" },
+  { href: "/estate-sales",        label: "Estate & Probate Sales" },
+];
+
+const specialtyHrefs = new Set(specialtyLinks.map((l) => l.href));
 
 // All links for mobile drawer
 const allLinks = [
   { href: "/buying",               label: "Buy" },
   { href: "/selling",              label: "Sell" },
-  { href: "/cash-offer",           label: "Cash Offer" },
-  { href: "/neighborhoods",        label: "Neighborhoods" },
-  { href: "/new-construction",     label: "New Homes" },
+  { href: "/cash-offer",           label: "Cash Offer Program" },
+  { href: "/new-construction",     label: "New Construction" },
   { href: "/divorce-real-estate",  label: "Divorce Real Estate" },
   { href: "/relocation",           label: "Relocating to Michigan" },
+  { href: "/downsizing",           label: "Downsizing" },
+  { href: "/estate-sales",         label: "Estate & Probate Sales" },
+  { href: "/neighborhoods",        label: "Neighborhoods" },
   { href: "/market-updates",       label: "Market Reports" },
   { href: "/insights",             label: "Journal" },
   { href: "/about",                label: "Our Team" },
@@ -32,10 +49,14 @@ const allLinks = [
 ];
 
 export default function Nav() {
-  const [scrolled, setScrolled]   = useState(false);
-  const [menuOpen, setMenuOpen]   = useState(false);
-  const pathname                  = usePathname();
-  const isHome                    = pathname === "/";
+  const [scrolled, setScrolled]               = useState(false);
+  const [menuOpen, setMenuOpen]               = useState(false);
+  const [specialtiesOpen, setSpecialtiesOpen] = useState(false);
+  const pathname                              = usePathname();
+  const isHome                                = pathname === "/";
+  const specialtiesRef                        = useRef<HTMLDivElement>(null);
+  const closeTimer                            = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const specialtiesActive                     = specialtyHrefs.has(pathname);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -43,12 +64,48 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // Close on Escape, click outside
+  useEffect(() => {
+    if (!specialtiesOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSpecialtiesOpen(false);
+    };
+    const onClick = (e: MouseEvent) => {
+      if (specialtiesRef.current && !specialtiesRef.current.contains(e.target as Node)) {
+        setSpecialtiesOpen(false);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    window.addEventListener("mousedown", onClick);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("mousedown", onClick);
+    };
+  }, [specialtiesOpen]);
+
+  // Hover-open with small close delay so cursor can travel to panel
+  const openSpecialties = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setSpecialtiesOpen(true);
+  };
+  const scheduleClose = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => setSpecialtiesOpen(false), 120);
+  };
+
   // On the homepage, nav is transparent until the user scrolls
   const transparent = isHome && !scrolled && !menuOpen;
 
-  const navBg    = transparent ? "transparent" : "var(--paper)";
+  const navBg     = transparent ? "transparent" : "var(--paper)";
   const linkColor = transparent ? "#FDFBF7" : "var(--ink-2)";
-  const shadow   = transparent ? "none" : "0 1px 0 var(--line)";
+  const shadow    = transparent ? "none" : "0 1px 0 var(--line)";
+
+  const linkClass = "text-[13px] font-medium transition-colors whitespace-nowrap";
+  const linkStyle = (href: string) => ({
+    color: pathname === href ? "var(--red)" : linkColor,
+    fontFamily: "var(--font-sans)",
+    letterSpacing: "0.01em",
+  });
 
   return (
     <header
@@ -60,17 +117,87 @@ export default function Nav() {
 
           {/* ── Left: desktop nav links ── */}
           <nav className="hidden lg:flex items-center gap-5 flex-1">
-            {leftLinks.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className="text-[13px] font-medium transition-colors whitespace-nowrap"
+            {leftLinksBefore.map((l) => (
+              <Link key={l.href} href={l.href} className={linkClass} style={linkStyle(l.href)}>
+                {l.label}
+              </Link>
+            ))}
+
+            {/* Specialties dropdown */}
+            <div
+              ref={specialtiesRef}
+              className="relative"
+              onMouseEnter={openSpecialties}
+              onMouseLeave={scheduleClose}
+            >
+              <button
+                type="button"
+                aria-haspopup="menu"
+                aria-expanded={specialtiesOpen}
+                onClick={() => setSpecialtiesOpen((o) => !o)}
+                className={`${linkClass} inline-flex items-center gap-1`}
                 style={{
-                  color: pathname === l.href ? "var(--red)" : linkColor,
+                  color: specialtiesActive ? "var(--red)" : linkColor,
                   fontFamily: "var(--font-sans)",
                   letterSpacing: "0.01em",
+                  background: "transparent",
+                  border: 0,
+                  padding: 0,
+                  cursor: "pointer",
                 }}
               >
+                Specialties
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  aria-hidden="true"
+                  style={{
+                    transition: "transform 200ms",
+                    transform: specialtiesOpen ? "rotate(180deg)" : "rotate(0deg)",
+                  }}
+                >
+                  <path d="M2 3.5 L5 6.5 L8 3.5" fill="none" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </button>
+
+              {specialtiesOpen && (
+                <div
+                  role="menu"
+                  className="absolute left-0 top-full pt-3"
+                  style={{ minWidth: 240 }}
+                >
+                  <div
+                    className="py-2"
+                    style={{
+                      backgroundColor: "var(--paper)",
+                      boxShadow: "0 8px 24px rgba(0,0,0,0.08), 0 1px 0 var(--line)",
+                      border: "1px solid var(--line)",
+                    }}
+                  >
+                    {specialtyLinks.map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        role="menuitem"
+                        onClick={() => setSpecialtiesOpen(false)}
+                        className="block px-5 py-2.5 text-[13px] font-medium transition-colors"
+                        style={{
+                          color: pathname === s.href ? "var(--red)" : "var(--ink-2)",
+                          fontFamily: "var(--font-sans)",
+                          letterSpacing: "0.01em",
+                        }}
+                      >
+                        {s.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {leftLinksAfter.map((l) => (
+              <Link key={l.href} href={l.href} className={linkClass} style={linkStyle(l.href)}>
                 {l.label}
               </Link>
             ))}
