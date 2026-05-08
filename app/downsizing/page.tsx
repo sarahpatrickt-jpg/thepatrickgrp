@@ -340,7 +340,7 @@ export default function DownsizingPage() {
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Downsizing Guide</p>
               <p className="text-xs text-gray-500 mt-1">Read our in-depth article on when, where, and how to downsize in Southeast Michigan.</p>
             </Link>
-            <Link href="/insights/cost-to-sell-home-michigan" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+            <Link href="/insights/cost-to-sell-a-house-michigan" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">What Does It Cost to Sell?</p>
               <p className="text-xs text-gray-500 mt-1">Understand the full picture of seller closing costs before you commit to a move.</p>
             </Link>

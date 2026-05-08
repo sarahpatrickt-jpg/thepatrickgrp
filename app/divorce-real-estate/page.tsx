@@ -305,7 +305,7 @@ export default function DivorceRealEstatePage() {
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Estate &amp; Probate Sales</p>
               <p className="text-xs text-gray-500 mt-1">Handling a property as part of an estate? We coordinate with attorneys and executors.</p>
             </Link>
-            <Link href="/insights/selling-during-divorce-michigan" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+            <Link href="/insights/selling-a-house-during-divorce-michigan" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Selling During a Divorce</p>
               <p className="text-xs text-gray-500 mt-1">Read our in-depth guide to navigating a home sale during Michigan divorce proceedings.</p>
             </Link>

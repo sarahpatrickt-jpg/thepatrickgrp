@@ -475,9 +475,9 @@ export default function CashOfferPage() {
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Estate &amp; Probate Sales</p>
               <p className="text-xs text-gray-500 mt-1">Inherited a property? We coordinate with executors and attorneys to handle the sale.</p>
             </Link>
-            <Link href="/insights/cash-offer-vs-listing-michigan" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Cash Offer vs. Traditional Listing</p>
-              <p className="text-xs text-gray-500 mt-1">Read our honest breakdown of when a cash sale makes sense and when it doesn&apos;t.</p>
+            <Link href="/insights/cash-offer-home-michigan-is-it-right-for-you" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Is a Cash Offer Right for You?</p>
+              <p className="text-xs text-gray-500 mt-1">Our in-depth guide to deciding whether a cash sale or traditional listing is the better move.</p>
             </Link>
           </div>
         </div>

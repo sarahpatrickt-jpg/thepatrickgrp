@@ -364,7 +364,7 @@ export default function EstateSalesPage() {
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Divorce Real Estate</p>
               <p className="text-xs text-gray-500 mt-1">Court-ordered sales, buyout valuations, and neutral representation for divorcing couples.</p>
             </Link>
-            <Link href="/insights/selling-parents-home-michigan" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+            <Link href="/insights/selling-a-parents-home-michigan" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Selling a Parent&apos;s Home</p>
               <p className="text-xs text-gray-500 mt-1">Our guide to navigating the emotional and logistical challenges of selling a family home.</p>
             </Link>
