@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPostBySlug, getAllPostSlugs, type ContentBlock } from "@/data/posts";
+import { getPostBySlug, getAllPostSlugs, posts, type ContentBlock } from "@/data/posts";
+import { getCityBySlug } from "@/data/cities";
+import { getComparisonsForCity } from "@/data/comparisons";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -231,6 +233,80 @@ export default async function InsightPost({ params }: Props) {
               </p>
             </div>
           </div>
+
+          {/* Related articles */}
+          {post.relatedSlugs.length > 0 && (() => {
+            const related = post.relatedSlugs
+              .map((s) => posts.find((p) => p.slug === s))
+              .filter(Boolean) as typeof posts;
+            return related.length > 0 ? (
+              <div className="mt-14 border-t border-gray-100 pt-10">
+                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+                  Keep Reading
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {related.map((r) => (
+                    <Link
+                      key={r.slug}
+                      href={`/insights/${r.slug}`}
+                      className="group border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+                    >
+                      <span
+                        className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${categoryColors[r.category] ?? "bg-gray-100 text-gray-600"}`}
+                      >
+                        {r.category}
+                      </span>
+                      <p className="font-semibold text-[#1a1a1a] text-sm mt-3 leading-snug group-hover:text-[#c70000] transition-colors">
+                        {r.title}
+                      </p>
+                      <p className="text-xs text-gray-400 mt-2">{r.readTime}</p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : null;
+          })()}
+
+          {/* Related city pages */}
+          {post.relatedCitySlugs.length > 0 && (() => {
+            const cityItems = post.relatedCitySlugs
+              .map((s) => {
+                const city = getCityBySlug(s);
+                return city ? { slug: s, name: city.name } : null;
+              })
+              .filter(Boolean) as { slug: string; name: string }[];
+            const compLinks = post.relatedCitySlugs
+              .flatMap((s) => getComparisonsForCity(s))
+              .filter((v, i, a) => a.findIndex((c) => c.slug === v.slug) === i)
+              .slice(0, 3);
+            return cityItems.length > 0 ? (
+              <div className="mt-10 border-t border-gray-100 pt-8">
+                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+                  Explore These Areas
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {cityItems.map((c) => (
+                    <Link
+                      key={c.slug}
+                      href={`/neighborhoods/${c.slug}`}
+                      className="text-sm border border-gray-200 rounded-full px-4 py-1.5 text-gray-700 hover:border-[#c70000] hover:text-[#c70000] transition-colors"
+                    >
+                      {c.name}
+                    </Link>
+                  ))}
+                  {compLinks.map((comp) => (
+                    <Link
+                      key={comp.slug}
+                      href={`/compare/${comp.slug}`}
+                      className="text-sm border border-gray-200 rounded-full px-4 py-1.5 text-gray-700 hover:border-[#c70000] hover:text-[#c70000] transition-colors"
+                    >
+                      {comp.headline}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : null;
+          })()}
 
           {/* CTA */}
           <div className="mt-12 bg-[#c70000] text-white rounded-sm p-10 text-center">

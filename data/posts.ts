@@ -15,6 +15,8 @@ export type Post = {
   author: "Sarah" | "Brad";
   category: "Market Update" | "Buyer Tips" | "Seller Tips" | "Neighborhood" | "Team News";
   readTime: string;
+  relatedSlugs: string[];
+  relatedCitySlugs: string[];
   content: ContentBlock[];
 };
 
@@ -28,6 +30,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Market Update",
     readTime: "6 min read",
+    relatedSlugs: ["best-time-to-sell-a-house-southeast-michigan", "how-to-win-a-bidding-war-metro-detroit", "cost-to-sell-a-house-michigan"],
+    relatedCitySlugs: ["birmingham-mi", "troy-mi", "rochester-hills-mi", "sterling-heights-mi", "warren-mi"],
     content: [
       {
         type: "paragraph",
@@ -171,6 +175,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Neighborhood",
     readTime: "5 min read",
+    relatedSlugs: ["spring-2026-southeast-michigan-market-update", "rochester-hills-vs-troy-michigan", "moving-to-southeast-michigan-from-chicago"],
+    relatedCitySlugs: ["birmingham-mi", "bloomfield-hills-mi", "royal-oak-mi"],
     content: [
       {
         type: "paragraph",
@@ -266,6 +272,8 @@ export const posts: Post[] = [
     author: "Brad",
     category: "Buyer Tips",
     readTime: "7 min read",
+    relatedSlugs: ["how-to-win-a-bidding-war-metro-detroit", "what-a-home-inspection-covers-michigan", "new-construction-vs-resale-michigan"],
+    relatedCitySlugs: ["grosse-pointe-mi", "st-clair-shores-mi", "detroit-mi"],
     content: [
       {
         type: "paragraph",
@@ -371,6 +379,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Seller Tips",
     readTime: "6 min read",
+    relatedSlugs: ["best-time-to-sell-a-house-southeast-michigan", "selling-a-house-during-divorce-michigan", "selling-a-parents-home-michigan"],
+    relatedCitySlugs: [],
     content: [
       {
         type: "paragraph",
@@ -497,6 +507,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Seller Tips",
     readTime: "5 min read",
+    relatedSlugs: ["cost-to-sell-a-house-michigan", "spring-2026-southeast-michigan-market-update", "downsizing-southeast-michigan"],
+    relatedCitySlugs: [],
     content: [
       {
         type: "paragraph",
@@ -593,6 +605,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Seller Tips",
     readTime: "7 min read",
+    relatedSlugs: ["cost-to-sell-a-house-michigan", "cash-offer-home-michigan-is-it-right-for-you", "selling-a-parents-home-michigan"],
+    relatedCitySlugs: [],
     content: [
       {
         type: "paragraph",
@@ -693,6 +707,8 @@ export const posts: Post[] = [
     author: "Brad",
     category: "Buyer Tips",
     readTime: "7 min read",
+    relatedSlugs: ["how-to-win-a-bidding-war-metro-detroit", "rochester-hills-vs-troy-michigan", "what-a-home-inspection-covers-michigan"],
+    relatedCitySlugs: ["troy-mi", "rochester-hills-mi", "northville-mi", "shelby-township-mi"],
     content: [
       {
         type: "paragraph",
@@ -795,6 +811,8 @@ export const posts: Post[] = [
     author: "Brad",
     category: "Buyer Tips",
     readTime: "6 min read",
+    relatedSlugs: ["new-construction-vs-resale-michigan", "what-a-home-inspection-covers-michigan", "spring-2026-southeast-michigan-market-update"],
+    relatedCitySlugs: ["troy-mi", "rochester-hills-mi", "birmingham-mi"],
     content: [
       {
         type: "paragraph",
@@ -891,6 +909,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Seller Tips",
     readTime: "7 min read",
+    relatedSlugs: ["selling-a-house-during-divorce-michigan", "cost-to-sell-a-house-michigan", "cash-offer-home-michigan-is-it-right-for-you"],
+    relatedCitySlugs: [],
     content: [
       {
         type: "paragraph",
@@ -993,6 +1013,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Buyer Tips",
     readTime: "6 min read",
+    relatedSlugs: ["why-birmingham-keeps-appreciating", "rochester-hills-vs-troy-michigan", "new-construction-vs-resale-michigan"],
+    relatedCitySlugs: ["birmingham-mi", "bloomfield-hills-mi", "rochester-hills-mi", "clarkston-mi", "northville-mi"],
     content: [
       {
         type: "paragraph",
@@ -1092,6 +1114,8 @@ export const posts: Post[] = [
     author: "Brad",
     category: "Neighborhood",
     readTime: "6 min read",
+    relatedSlugs: ["spring-2026-southeast-michigan-market-update", "new-construction-vs-resale-michigan", "why-birmingham-keeps-appreciating"],
+    relatedCitySlugs: ["rochester-hills-mi", "troy-mi", "shelby-township-mi"],
     content: [
       {
         type: "paragraph",
@@ -1189,6 +1213,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Seller Tips",
     readTime: "5 min read",
+    relatedSlugs: ["cost-to-sell-a-house-michigan", "selling-a-parents-home-michigan", "brrrr-strategy-southeast-michigan"],
+    relatedCitySlugs: [],
     content: [
       {
         type: "paragraph",
@@ -1257,6 +1283,8 @@ export const posts: Post[] = [
     author: "Brad",
     category: "Buyer Tips",
     readTime: "7 min read",
+    relatedSlugs: ["cash-offer-home-michigan-is-it-right-for-you", "how-to-win-a-bidding-war-metro-detroit", "spring-2026-southeast-michigan-market-update"],
+    relatedCitySlugs: ["sterling-heights-mi", "warren-mi", "shelby-township-mi", "rochester-hills-mi", "troy-mi"],
     content: [
       {
         type: "paragraph",
@@ -1357,6 +1385,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Seller Tips",
     readTime: "6 min read",
+    relatedSlugs: ["cost-to-sell-a-house-michigan", "best-time-to-sell-a-house-southeast-michigan", "selling-a-parents-home-michigan"],
+    relatedCitySlugs: ["birmingham-mi", "bloomfield-hills-mi", "troy-mi"],
     content: [
       {
         type: "paragraph",
@@ -1441,6 +1471,8 @@ export const posts: Post[] = [
     author: "Brad",
     category: "Buyer Tips",
     readTime: "6 min read",
+    relatedSlugs: ["how-to-win-a-bidding-war-metro-detroit", "new-construction-vs-resale-michigan", "buyers-map-to-grosse-pointe"],
+    relatedCitySlugs: [],
     content: [
       {
         type: "paragraph",
