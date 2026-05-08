@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   description:
     "Search all homes for sale in Southeast Michigan. Full MLS/IDX search powered by Oak and Stone Real Estate.",
   alternates: { canonical: "https://thepatrickgrp.com/search-homes" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/search-homes",
+    title: "Search Homes for Sale — Southeast Michigan",
+    description:
+      "Search all homes for sale in Southeast Michigan. Full MLS/IDX search powered by Oak and Stone Real Estate.",
+    siteName: "The Patrick Group",
+  },
 };
 
 export default function SearchHomesPage() {

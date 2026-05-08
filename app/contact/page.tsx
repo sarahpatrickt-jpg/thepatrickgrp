@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   description:
     "Reach The Patrick Group — Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
   alternates: { canonical: "https://thepatrickgrp.com/contact" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/contact",
+    title: "Contact Us",
+    description:
+      "Reach The Patrick Group — Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const contactSchema = {
@@ -17,6 +25,8 @@ const contactSchema = {
   mainEntity: {
     "@type": "RealEstateAgent",
     name: "The Patrick Group | Oak and Stone Real Estate",
+    url: "https://thepatrickgrp.com",
+    logo: "https://thepatrickgrp.com/logo.png",
     telephone: "+12487553545",
     email: "sarah@sarahpatrickhomes.com",
     address: {
@@ -27,6 +37,53 @@ const contactSchema = {
       postalCode: "48307",
       addressCountry: "US",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 42.6806,
+      longitude: -83.1338,
+    },
+    areaServed: [
+      "Oakland County, MI",
+      "Macomb County, MI",
+      "Wayne County, MI",
+      "Washtenaw County, MI",
+      "Livingston County, MI",
+    ],
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      opens: "08:00",
+      closes: "20:00",
+    },
+    employee: [
+      {
+        "@type": "Person",
+        name: "Sarah Patrick",
+        jobTitle: "Principal Broker",
+        email: "sarah@sarahpatrickhomes.com",
+        telephone: "+12487553545",
+      },
+      {
+        "@type": "Person",
+        name: "Brad Patrick",
+        jobTitle: "Realtor",
+        email: "brad@youragentbrad.net",
+        telephone: "+12487553545",
+      },
+    ],
+    sameAs: [
+      "https://www.instagram.com/youragentbrad/",
+      "https://www.linkedin.com/in/sarahkpatrick/",
+      "https://www.facebook.com/search/top?q=your%20agent%20brad",
+    ],
   },
 };
 

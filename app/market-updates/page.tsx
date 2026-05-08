@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   description:
     "Monthly Southeast Michigan market reports — median price, price per sq ft, and days on market for Oakland, Macomb, and Wayne counties.",
   alternates: { canonical: "https://thepatrickgrp.com/market-updates" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/market-updates",
+    title: "Southeast Michigan Market Reports",
+    description:
+      "Monthly Southeast Michigan market reports — median price, price per sq ft, and days on market for Oakland, Macomb, and Wayne counties.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const reports = [

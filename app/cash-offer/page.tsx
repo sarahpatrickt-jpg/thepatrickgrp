@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   keywords:
     "sell house fast Southeast Michigan, cash offer Michigan, sell home to investor Michigan, sell house as-is Oakland County, fast home sale Michigan, cash buyer Southeast Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/cash-offer" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/cash-offer",
+    title: "Sell Your Home for Cash in Southeast Michigan",
+    description:
+      "Get a cash offer on your Southeast Michigan home. The Patrick Group represents you — not the investor. No repairs, close in as few as 14 days.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const whoItsFor = [

@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   description:
     "Find your next home in Southeast Michigan with The Patrick Group. Expert buyer representation, mortgage coordination, and local knowledge you won't find on Zillow.",
   alternates: { canonical: "https://thepatrickgrp.com/buying" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/buying",
+    title: "Buy a Home in Southeast Michigan",
+    description:
+      "Find your next home in Southeast Michigan with The Patrick Group. Expert buyer representation, mortgage coordination, and local knowledge you won't find on Zillow.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const buyingFaqs = [

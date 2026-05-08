@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   description:
     "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
   alternates: { canonical: "https://thepatrickgrp.com" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com",
+    title: "Southeast Michigan Real Estate",
+    description:
+      "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
+    siteName: "The Patrick Group",
+  },
 };
 
 // ─── Data ──────────────────────────────────────────────────────────────────

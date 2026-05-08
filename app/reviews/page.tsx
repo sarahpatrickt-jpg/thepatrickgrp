@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   description:
     "Client reviews of The Patrick Group — Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
   alternates: { canonical: "https://thepatrickgrp.com/reviews" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/reviews",
+    title: "Client Reviews",
+    description:
+      "Client reviews of The Patrick Group — Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const reviews = [

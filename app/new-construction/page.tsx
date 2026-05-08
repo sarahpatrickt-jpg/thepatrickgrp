@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   keywords:
     "new construction homes Southeast Michigan, new builds Oakland County, new construction buyer agent Michigan, new homes Macomb Township, new construction Plymouth Northville Novi Canton",
   alternates: { canonical: "https://thepatrickgrp.com/new-construction" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/new-construction",
+    title: "New Construction Homes Southeast Michigan",
+    description:
+      "Buying new construction in Southeast Michigan? The builder's rep works for the builder — you need your own agent. We help at no extra cost.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const markets = [

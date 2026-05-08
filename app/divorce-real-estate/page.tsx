@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   keywords:
     "divorce real estate agent Southeast Michigan, selling house during divorce Michigan, court ordered home sale Michigan, divorce real estate specialist Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/divorce-real-estate" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/divorce-real-estate",
+    title: "Divorce Real Estate Agent Southeast Michigan",
+    description:
+      "Divorce real estate specialist in Southeast Michigan. Court-ordered sales, attorney coordination, and defensible valuations from The Patrick Group.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const whatWeHandle = [

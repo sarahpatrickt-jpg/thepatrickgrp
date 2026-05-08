@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   description:
     "Sign up for The Patrick Group Local Intel — monthly Southeast Michigan real estate updates, community news, and market insights from your local experts.",
   alternates: { canonical: "https://thepatrickgrp.com/newsletter" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/newsletter",
+    title: "Local Intel Newsletter",
+    description:
+      "Sign up for The Patrick Group Local Intel — monthly Southeast Michigan real estate updates, community news, and market insights from your local experts.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const contentPillars = [

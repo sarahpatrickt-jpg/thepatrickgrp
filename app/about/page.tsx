@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   description:
     "Meet Sarah Patrick, Brad Patrick, and The Patrick Group — Southeast Michigan's boutique real estate team. Results-driven service.",
   alternates: { canonical: "https://thepatrickgrp.com/about" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/about",
+    title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
+    description:
+      "Meet Sarah Patrick, Brad Patrick, and The Patrick Group — Southeast Michigan's boutique real estate team. Results-driven service.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const team = [

@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   keywords:
     "relocating to Southeast Michigan, moving to Rochester MI, relocation real estate agent Michigan, moving to Metro Detroit suburbs, relocating from Chicago to Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/relocation" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/relocation",
+    title: "Relocating to Southeast Michigan",
+    description:
+      "Moving to Southeast Michigan from out of state? The Patrick Group is your trusted local guide. We help relocators from Chicago, the East Coast, and beyond find the right home.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const areaGuide = [
@@ -225,6 +233,52 @@ export default function RelocationPage() {
                 <p className="text-sm text-gray-600 leading-relaxed">{faq.a}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* AREAS WE SERVE */}
+      <section className="py-16 px-4 sm:px-6 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Where we work
+            </p>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+              Relocation Services Across Southeast Michigan
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {[
+              { name: "Birmingham", slug: "birmingham-mi" },
+              { name: "Bloomfield Hills", slug: "bloomfield-hills-mi" },
+              { name: "Rochester", slug: "rochester-mi" },
+              { name: "Rochester Hills", slug: "rochester-hills-mi" },
+              { name: "Troy", slug: "troy-mi" },
+              { name: "Novi", slug: "novi-mi" },
+              { name: "Northville", slug: "northville-mi" },
+              { name: "Plymouth", slug: "plymouth-mi" },
+              { name: "Royal Oak", slug: "royal-oak-mi" },
+              { name: "Grosse Pointe", slug: "grosse-pointe-mi" },
+              { name: "Shelby Township", slug: "shelby-township-mi" },
+              { name: "Macomb Township", slug: "macomb-township-mi" },
+            ].map((city) => (
+              <Link
+                key={city.slug}
+                href={`/neighborhoods/${city.slug}`}
+                className="text-sm text-gray-600 hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] rounded-sm text-center"
+              >
+                {city.name}
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 justify-center">
+            <Link href="/new-construction" className="text-sm font-semibold text-[#c70000] hover:underline">
+              New Construction →
+            </Link>
+            <Link href="/neighborhoods" className="text-sm font-semibold text-[#c70000] hover:underline">
+              All Neighborhoods →
+            </Link>
           </div>
         </div>
       </section>

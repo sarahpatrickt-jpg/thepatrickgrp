@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   keywords:
     "investment property Southeast Michigan, rental property Oakland County, buy and hold real estate Michigan, fix and flip Southeast Michigan, 1031 exchange Michigan, real estate investor agent Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/real-estate-investors" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/real-estate-investors",
+    title: "Investment Property Southeast Michigan",
+    description:
+      "Investment property in Southeast Michigan — buy-and-hold, BRRRR, fix-and-flip, and 1031 exchanges. The Patrick Group is your buyer's agent.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const investorTypes = [

@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   keywords:
     "sell home in living trust Michigan, living trust real estate Southeast Michigan, trustee selling property Michigan, successor trustee home sale Oakland County, trust property sale Michigan",
   alternates: { canonical: "https://thepatrickgrp.com/living-trust" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/living-trust",
+    title: "Selling a Home in a Living Trust — Southeast Michigan",
+    description:
+      "Selling a home in a living trust in Southeast Michigan? The Patrick Group handles trustee authority, title, and fiduciary requirements.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const whyDifferent = [

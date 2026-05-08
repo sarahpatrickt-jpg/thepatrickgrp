@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   description:
     "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — deep local expertise, real data.",
   alternates: { canonical: "https://thepatrickgrp.com/home-valuation" },
+  openGraph: {
+    type: "website",
+    url: "https://thepatrickgrp.com/home-valuation",
+    title: "Free Home Valuation — Southeast Michigan",
+    description:
+      "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — deep local expertise, real data.",
+    siteName: "The Patrick Group",
+  },
 };
 
 const process = [
