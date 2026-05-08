@@ -360,6 +360,430 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  // ─── "How Much Does It Cost to Sell a House in Michigan?" ──────────────────
+  {
+    slug: "cost-to-sell-a-house-michigan",
+    title: "How Much Does It Cost to Sell a House in Michigan?",
+    excerpt:
+      "Transfer taxes, title fees, commissions, and concessions — here's what Southeast Michigan sellers actually pay at closing, with a worked example on a $400K sale.",
+    date: "2026-05-05",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "6 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most sellers focus on what their home will sell for. Fewer have a clear picture of what they'll actually walk away with. The gap between sale price and net proceeds is larger than most people expect — and understanding it in advance puts you in a much stronger position when it's time to make decisions.",
+      },
+      {
+        type: "paragraph",
+        text: "Here's a realistic breakdown of what it costs to sell a home in Southeast Michigan, with a worked example on a $400,000 sale.",
+      },
+      {
+        type: "h2",
+        text: "Agent Commission",
+      },
+      {
+        type: "paragraph",
+        text: "Commission is typically the largest line item. Under rules that took effect in 2024, the buyer's agent compensation is now negotiated separately from the listing commission — it's no longer automatically bundled. In practice, here's how it plays out: listing agents in Southeast Michigan generally charge 2.5–3% of the sale price. Sellers may also choose to offer a buyer agent concession — typically 2–2.5% — as a strategic tool to attract financed buyers. If you offer nothing toward the buyer's agent, some buyers will factor that into their offer or pass entirely.",
+      },
+      {
+        type: "callout",
+        label: "The practical reality",
+        text: "On a $400,000 sale, a 3% listing fee plus a 2.5% buyer agent concession = $22,000. That's the commission side of the ledger. Some sellers in strong markets offer less on the buyer side; some offer more. It depends on demand and strategy.",
+      },
+      {
+        type: "h2",
+        text: "Michigan Transfer Taxes",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan has both a state and county real estate transfer tax, and both are paid by the seller. The state transfer tax is $3.75 per $500 of sale price. The county transfer tax is $1.10 per $1,000 in most Lower Peninsula counties. Together they run approximately 0.86% of the sale price.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "State Transfer Tax", value: "$3,000", note: "on a $400K sale" },
+          { label: "County Transfer Tax", value: "$440",   note: "on a $400K sale" },
+          { label: "Total Transfer Tax",  value: "$3,440", note: "~0.86% of sale price" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Note: Michigan principal residence exemption (PRE) holders may qualify for an exemption from the state transfer tax if the property is their primary residence. Ask your title company to verify eligibility early — this can save a meaningful amount.",
+      },
+      {
+        type: "h2",
+        text: "Title Insurance and Closing Fees",
+      },
+      {
+        type: "paragraph",
+        text: "In Michigan, it's customary for the seller to pay for the owner's title insurance policy. This protects the buyer against any future title claims and is required by most lenders. On a $400,000 sale, the owner's title policy typically runs $800–$1,200 depending on the title company. Add a closing/settlement fee of $300–$500, and title-related costs total roughly $1,100–$1,700.",
+      },
+      {
+        type: "h2",
+        text: "Repairs, Staging, and Pre-Market Prep",
+      },
+      {
+        type: "paragraph",
+        text: "This line item is entirely within your control — and it's where sellers make their biggest mistakes in both directions. Some over-invest in renovations that won't be recovered in the sale price. Others under-invest and leave money on the table.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "Worth doing",
+          text: "Fixing anything a buyer's inspector will flag. Fresh paint in neutral tones. Deep cleaning and decluttering. Professional photography. Minor landscaping.",
+        },
+        right: {
+          label: "Rarely worth it",
+          text: "Full kitchen or bathroom renovations in hopes of a higher sale price. New flooring throughout. Roof replacement unless it's in genuinely poor condition.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "A realistic pre-market budget for a well-maintained home in Southeast Michigan is $1,500–$5,000. Homes that need significant catch-up work can run $10,000–$20,000+, but those investments should be evaluated carefully against the expected return.",
+      },
+      {
+        type: "h2",
+        text: "Seller Concessions",
+      },
+      {
+        type: "paragraph",
+        text: "In today's market, buyers frequently ask sellers to contribute toward closing costs — typically 1–3% of the purchase price. In a competitive multiple-offer situation, concessions may be zero. In a slower market or on a home that's been sitting, concessions are often part of the negotiation. Plan for the possibility even if you don't end up paying them.",
+      },
+      {
+        type: "h2",
+        text: "The Full Picture: A $400,000 Sale",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Listing commission (3%)",      value: "$12,000", note: "" },
+          { label: "Buyer agent concession (2.5%)", value: "$10,000", note: "if offered" },
+          { label: "Transfer taxes",                value: "$3,440",  note: "state + county" },
+          { label: "Title and closing fees",        value: "$1,400",  note: "estimate" },
+          { label: "Pre-market prep",               value: "$3,000",  note: "estimate" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Total estimated selling costs: approximately $29,840 — or roughly 7.5% of the sale price before any seller concessions. That leaves a seller with a $400,000 sale walking away with approximately $370,000 before paying off their mortgage.",
+      },
+      {
+        type: "h2",
+        text: "How to Protect Your Net",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Get a net sheet before you list. Any agent should be able to produce one with your specific numbers.",
+          "Understand the transfer tax exemption if this is your primary residence.",
+          "Be surgical about pre-market repairs — fix what will come up in inspection, not what will make the home look renovated.",
+          "Price accurately from the start. Overpriced homes sit, and price reductions cost more than the initial discount would have.",
+          "In a competitive offer situation, push back on excessive concession requests before accepting.",
+        ],
+      },
+    ],
+  },
+
+  // ─── "Best Time of Year to Sell a House in SE Michigan" ────────────────────
+  {
+    slug: "best-time-to-sell-a-house-southeast-michigan",
+    title: "Best Time of Year to Sell a House in Southeast Michigan",
+    excerpt:
+      "Spring gets the most attention, but the real answer is more nuanced — and timing matters less than most sellers think.",
+    date: "2026-04-18",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "5 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Every seller asks some version of this question. The conventional answer is spring — and the conventional answer isn't wrong. But it's incomplete. Here's how I actually think about timing with clients, and what the data from Southeast Michigan says.",
+      },
+      {
+        type: "h2",
+        text: "Spring Is the Peak — With a Catch",
+      },
+      {
+        type: "paragraph",
+        text: "March through June is historically the strongest window for home sales in Michigan. More buyers are active, homes show better in natural light, curb appeal is at its best, and families buying before the school year create real deadline pressure. The demand side is simply larger in spring than any other season.",
+      },
+      {
+        type: "paragraph",
+        text: "The catch: every other seller knows this too. Spring is peak listing season, which means peak competition. A well-priced, well-prepared home in April will likely see strong activity. A mediocre listing in April may get lost in the noise it wouldn't face in October.",
+      },
+      {
+        type: "callout",
+        label: "What the data shows",
+        text: "In Oakland and Macomb counties, median sale prices and sale-to-list ratios are consistently highest in April, May, and June. Days on market are shortest. But the advantage disappears quickly for sellers who overprice or under-prepare.",
+      },
+      {
+        type: "h2",
+        text: "Summer: Good Demand, Attention Competes With Vacations",
+      },
+      {
+        type: "paragraph",
+        text: "July and August still see active buyers — particularly buyers on corporate relocation timelines, which are year-round. The volume is lower than spring, but motivated buyers are real. The problem is seller attention: families are traveling, contractors are busy, and the logistics of a summer showing schedule can be frustrating. If your home is turnkey and priced right, summer works fine. If it needs any prep work, summer timelines get squeezed.",
+      },
+      {
+        type: "h2",
+        text: "Fall: The Underrated Window",
+      },
+      {
+        type: "paragraph",
+        text: "September and October are consistently undervalued by sellers who assume spring is the only strong season. Here's what fall has going for it: fewer competing listings, serious buyers (people who've been looking since spring and still haven't found something), and homes that show beautifully in fall light with leaf color.",
+      },
+      {
+        type: "paragraph",
+        text: "The buyers who are actively searching in October in Southeast Michigan are not casual browsers. They have real motivation. Fall listings that are priced correctly often move faster than sellers expect — without the multiple-offer chaos that spring can produce.",
+      },
+      {
+        type: "h2",
+        text: "Winter: The Counterintuitive Case",
+      },
+      {
+        type: "paragraph",
+        text: "November through February is the slowest period — but slow doesn't mean dead. Buyer volume is lowest, but so is seller competition. The buyers who are looking in January in Michigan are serious. They are not driving around in the snow looking at houses for fun.",
+      },
+      {
+        type: "paragraph",
+        text: "For certain home types — condos, ranch homes, properties that show as well in winter as in summer — the winter window can produce a faster, less complicated sale than spring. The pool of buyers is smaller, but the pool of sellers is smaller too.",
+      },
+      {
+        type: "h2",
+        text: "What Matters More Than Season",
+      },
+      {
+        type: "paragraph",
+        text: "I've watched sellers obsess over timing and underinvest in the things that actually drive sale price and speed.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Pricing accuracy: a correctly priced home sells in any season. An overpriced one doesn't sell in any season.",
+          "Preparation: professional photography, decluttering, and addressing deferred maintenance matter more than the calendar.",
+          "Days on market: the longer a home sits, the more buyers assume something is wrong. A clean launch beats a perfect-season launch.",
+          "Your own timeline: if you're ready in November and your competition is in spring, the spring market might not be worth waiting for.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "The Real Answer",
+      },
+      {
+        type: "paragraph",
+        text: "The best time to list is when your home is genuinely ready and you're prepared to execute — not when the calendar says so. If that happens to be March, great. If it's October, that can work in your favor. What doesn't work is waiting for the \"right\" season while holding off on the preparation that actually moves homes.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're thinking about selling in the next six months, the conversation to have now isn't about timing — it's about what the home needs to look its best, what comparable homes have sold for, and what your net proceeds will look like. That conversation is free and takes about 30 minutes.",
+      },
+    ],
+  },
+
+  // ─── "Selling a House During a Divorce in Michigan" ─────────────────────
+  {
+    slug: "selling-a-house-during-divorce-michigan",
+    title: "Selling a House During a Divorce in Michigan",
+    excerpt:
+      "Timing, authority, equity splits, and keeping the process from derailing — what Michigan sellers navigating a divorce actually need to know.",
+    date: "2026-04-05",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "7 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Selling a home during a divorce is one of the most common situations we handle — and one of the most emotionally and logistically complex. The real estate part is straightforward. The human part is not. Here's what you need to understand before the listing agreement is signed.",
+      },
+      {
+        type: "paragraph",
+        text: "Note: this is real estate guidance, not legal advice. Every divorce involves specific facts that affect how property must be handled. Your family law attorney should be your primary advisor on anything involving your divorce proceedings.",
+      },
+      {
+        type: "h2",
+        text: "Both Spouses Must Sign — Unless There's a Court Order",
+      },
+      {
+        type: "paragraph",
+        text: "In Michigan, when a home is jointly owned — as most marital homes are — both spouses must sign the listing agreement, the purchase agreement, and the closing documents. There is no workaround for this. If one spouse refuses to cooperate, the home cannot be listed or sold without a court order directing the sale.",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan courts can and do order the sale of a marital home when spouses cannot agree. If that's your situation, your attorney can file a motion with the court. The process takes time, but it is available. In the meantime, the home sits — which affects everyone's financial position.",
+      },
+      {
+        type: "h2",
+        text: "Timing: Before, During, or After the Divorce Is Final",
+      },
+      {
+        type: "paragraph",
+        text: "There is no universally right answer on timing — it depends on your financial situation, your attorney's guidance, and your ability to cooperate on the sale process. Here are the options:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Sell before the divorce is final: proceeds can be held in escrow or distributed as part of the settlement. Avoids the uncertainty of what happens to the home in the judgment. Requires cooperation from both parties throughout the process.",
+          "Sell as part of the divorce settlement: the sale is ordered or agreed upon in the divorce decree. Timing is tied to the legal process, which can be unpredictable. Often the cleanest outcome if both parties agree.",
+          "One spouse buys out the other: one spouse refinances into their own name and pays the other their equity share. Requires that spouse to qualify for the mortgage independently. Avoids the sale entirely but requires lender approval.",
+          "Sell after the divorce is final: can simplify the transaction since ownership may already be transferred to one party. But the home has been sitting through the divorce process, which can mean deferred maintenance and a stale listing.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "What Happens When Spouses Disagree on Price",
+      },
+      {
+        type: "paragraph",
+        text: "This is the most common friction point. One spouse wants to list at $450,000; the other wants $420,000. The home sits while they argue, accumulating carrying costs and losing the spring market window. Meanwhile, buyers who've been watching the listing assume something is wrong.",
+      },
+      {
+        type: "paragraph",
+        text: "A neutral comparative market analysis from an experienced agent — someone neither party has a prior relationship with — is often the cleanest way to resolve this disagreement. The data should drive the pricing decision, not whoever is more emotionally attached to a number.",
+      },
+      {
+        type: "callout",
+        label: "From experience",
+        text: "The couples who sell quickly and cleanly are the ones who treat this as a business transaction from the first conversation. That doesn't mean it isn't painful — it is. It means they've agreed to make decisions based on data and their attorneys' guidance rather than the emotions of the moment.",
+      },
+      {
+        type: "h2",
+        text: "How Sale Proceeds Are Divided",
+      },
+      {
+        type: "paragraph",
+        text: "Sale proceeds are marital property in Michigan and are subject to equitable distribution — which means fair, but not necessarily 50/50. The divorce decree will specify how proceeds are divided. In most cases where both spouses contributed to the home, the split is close to equal after the mortgage is paid off, but your attorney will advise on your specific situation.",
+      },
+      {
+        type: "paragraph",
+        text: "One important note: if one spouse has been solely responsible for mortgage payments during the separation, that may affect how equity is ultimately divided. Document everything and let your attorney advise.",
+      },
+      {
+        type: "h2",
+        text: "Capital Gains Tax Considerations",
+      },
+      {
+        type: "paragraph",
+        text: "If you and your spouse have lived in the home as your primary residence for at least two of the last five years, you may qualify for the federal capital gains exclusion — up to $500,000 for married couples filing jointly. If the home is sold after the divorce is final and ownership transfers to one party, that individual's exclusion drops to $250,000. Timing the sale relative to the divorce finalization can have real tax consequences. Talk to a CPA before making this decision.",
+      },
+      {
+        type: "h2",
+        text: "Choosing the Right Agent for This Situation",
+      },
+      {
+        type: "paragraph",
+        text: "The agent you choose for a divorce sale needs to be able to communicate effectively with both parties without taking sides, stay emotionally neutral when conversations get difficult, and keep the transaction moving forward when either party is tempted to use the sale as leverage in the broader dispute.",
+      },
+      {
+        type: "paragraph",
+        text: "We've handled these transactions before. We work with both parties professionally, communicate transparently with each, and focus on getting the home sold at the best possible price — which ultimately serves everyone. If you're in this situation and want a confidential conversation about where to start, call us.",
+      },
+    ],
+  },
+
+  // ─── "New Construction vs. Resale in SE Michigan" ────────────────────────
+  {
+    slug: "new-construction-vs-resale-michigan",
+    title: "New Construction vs. Resale in Southeast Michigan: What Buyers Need to Know",
+    excerpt:
+      "The base price looks attractive until you see what the builder charges for everything else. Here's how to think through the decision honestly.",
+    date: "2026-03-28",
+    author: "Brad",
+    category: "Buyer Tips",
+    readTime: "7 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "The new construction vs. resale question comes up constantly with buyers in Southeast Michigan — and the answer is rarely obvious. Both have real advantages. Both have real traps. Here's how I walk clients through the decision.",
+      },
+      {
+        type: "h2",
+        text: "The Upgrade Trap: What the Base Price Actually Means",
+      },
+      {
+        type: "paragraph",
+        text: "This is the single most important thing to understand about new construction: the price on the sign is not the price you'll pay. Builder base prices reflect a stripped-down configuration that often doesn't match what you saw in the model home. The model home was built to sell — loaded with structural options, design center upgrades, and lot premiums that don't appear in the advertised starting price.",
+      },
+      {
+        type: "paragraph",
+        text: "In my experience, the gap between base price and what buyers actually spend runs 15–35% in Southeast Michigan. That means a community advertising homes from $380,000 may produce a realistic purchase price of $450,000–$515,000 once you add the options you actually want.",
+      },
+      {
+        type: "callout",
+        label: "Before you visit a model home",
+        text: "Register with your buyer's agent before your first visit to the sales office. The moment you enter unrepresented, you may lose your right to have your own agent. The builder's on-site rep works for the builder — not for you.",
+      },
+      {
+        type: "h2",
+        text: "Timeline: What You're Committing To",
+      },
+      {
+        type: "paragraph",
+        text: "Production new construction in Southeast Michigan typically takes 6–12 months from contract signing to closing, depending on the builder and construction stage at the time you sign. Semi-custom and custom builds take longer. Builder contracts give the builder significant flexibility on delivery dates — read carefully what your remedies are if the timeline extends.",
+      },
+      {
+        type: "paragraph",
+        text: "Resale closes on a timeline you control — typically 30–45 days from accepted offer. If you have a lease ending, a job starting, or a home to sell, that flexibility matters.",
+      },
+      {
+        type: "h2",
+        text: "The Warranty Advantage in New Construction",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan requires builders to provide statutory warranty coverage: one year on workmanship and materials, two years on mechanical systems (plumbing, electrical, HVAC), and 10 years on structural defects. That warranty is a genuine advantage over resale, where you're buying the home as-is relative to its history.",
+      },
+      {
+        type: "paragraph",
+        text: "The caveat: new construction is not immune to defects. I strongly recommend independent inspections at framing, rough-in, and final walkthrough — before the walls are closed and before the closing date. The warranty protects you after close; inspections protect you from inheriting defects that are much harder to fix once the home is finished.",
+      },
+      {
+        type: "h2",
+        text: "Negotiation: Very Different Games",
+      },
+      {
+        type: "paragraph",
+        text: "With resale, everything is negotiable — price, closing date, repairs, appliances. With a builder, price negotiation is limited. Builders in Southeast Michigan rarely move on base price, especially in active communities. Where there is room to negotiate: lot premiums, design center allowances, included upgrades, and closing cost contributions — particularly if the builder is closing out a community or has standing inventory.",
+      },
+      {
+        type: "paragraph",
+        text: "An experienced buyer's agent knows which builders have historically had flexibility and where. Without that context, you're negotiating blind.",
+      },
+      {
+        type: "h2",
+        text: "Established Neighborhood vs. New Development",
+      },
+      {
+        type: "paragraph",
+        text: "New construction communities are often in developing areas where the surrounding infrastructure is still catching up — retail, restaurants, and road capacity may take years to mature. Resale homes in established neighborhoods in Birmingham, Troy, Rochester Hills, or Northville come with the amenities already in place.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "New construction tends to win when...",
+          text: "You want specific floor plan customization. You're comfortable with a 6–12 month timeline. You want a builder warranty on all systems. You're buying in a community where new construction represents a strong value relative to nearby resale.",
+        },
+        right: {
+          label: "Resale tends to win when...",
+          text: "You need to close in 45 days. You want an established neighborhood with mature trees and walkable character. You're buying in a community where resale is significantly better value than new. You want negotiating leverage on price and terms.",
+        },
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "Neither option is universally better. The right answer depends on your timeline, your priorities, and the specific community and price point you're targeting. What matters most is that you understand what you're buying in both cases — not the version the builder's sales agent or a listing MLS photo projects.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're weighing a specific new construction community against resale options in the same area, I can pull the numbers and walk through a comparison. That conversation takes 20 minutes and will tell you more than a dozen model home tours.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
