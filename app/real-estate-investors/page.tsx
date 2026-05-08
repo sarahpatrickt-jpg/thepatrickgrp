@@ -275,6 +275,52 @@ export default function RealEstateInvestorsPage() {
         </div>
       </section>
 
+      {/* AREAS WE SERVE */}
+      <section className="py-16 px-4 sm:px-6 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Where we work
+            </p>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+              Investment Property Across Southeast Michigan
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {[
+              { name: "Sterling Heights", slug: "sterling-heights-mi" },
+              { name: "Warren", slug: "warren-mi" },
+              { name: "Clinton Township", slug: "clinton-township-mi" },
+              { name: "Macomb Township", slug: "macomb-township-mi" },
+              { name: "Shelby Township", slug: "shelby-township-mi" },
+              { name: "Royal Oak", slug: "royal-oak-mi" },
+              { name: "Troy", slug: "troy-mi" },
+              { name: "Rochester Hills", slug: "rochester-hills-mi" },
+              { name: "Livonia", slug: "livonia-mi" },
+              { name: "St. Clair Shores", slug: "st-clair-shores-mi" },
+              { name: "Detroit", slug: "detroit-mi" },
+              { name: "Romulus", slug: "romulus-mi" },
+            ].map((city) => (
+              <Link
+                key={city.slug}
+                href={`/neighborhoods/${city.slug}`}
+                className="text-sm text-gray-600 hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] rounded-sm text-center"
+              >
+                {city.name}
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 justify-center">
+            <Link href="/new-construction" className="text-sm font-semibold text-[#c70000] hover:underline">
+              New Construction →
+            </Link>
+            <Link href="/cash-offer" className="text-sm font-semibold text-[#c70000] hover:underline">
+              Cash Offer Program →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
         <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">

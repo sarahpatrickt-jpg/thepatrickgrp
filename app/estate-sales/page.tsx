@@ -372,6 +372,59 @@ export default function EstateSalesPage() {
         </div>
       </section>
 
+      {/* AREAS WE SERVE */}
+      <section className="py-16 px-4 sm:px-6 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Where we work
+            </p>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+              Estate &amp; Probate Sales Across Southeast Michigan
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {[
+              { name: "Birmingham", slug: "birmingham-mi" },
+              { name: "Bloomfield Hills", slug: "bloomfield-hills-mi" },
+              { name: "Bloomfield Township", slug: "bloomfield-township-mi" },
+              { name: "Rochester", slug: "rochester-mi" },
+              { name: "Rochester Hills", slug: "rochester-hills-mi" },
+              { name: "Troy", slug: "troy-mi" },
+              { name: "West Bloomfield", slug: "west-bloomfield-mi" },
+              { name: "Royal Oak", slug: "royal-oak-mi" },
+              { name: "Clarkston", slug: "clarkston-mi" },
+              { name: "Lake Orion", slug: "lake-orion-mi" },
+              { name: "Oxford", slug: "oxford-mi" },
+              { name: "Grosse Pointe", slug: "grosse-pointe-mi" },
+              { name: "Northville", slug: "northville-mi" },
+              { name: "Plymouth", slug: "plymouth-mi" },
+              { name: "Livonia", slug: "livonia-mi" },
+              { name: "Clinton Township", slug: "clinton-township-mi" },
+            ].map((city) => (
+              <Link
+                key={city.slug}
+                href={`/neighborhoods/${city.slug}`}
+                className="text-sm text-gray-600 hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] rounded-sm text-center"
+              >
+                {city.name}
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 justify-center">
+            <Link href="/living-trust" className="text-sm font-semibold text-[#c70000] hover:underline">
+              Living Trust Sales →
+            </Link>
+            <Link href="/divorce-real-estate" className="text-sm font-semibold text-[#c70000] hover:underline">
+              Divorce Real Estate →
+            </Link>
+            <Link href="/downsizing" className="text-sm font-semibold text-[#c70000] hover:underline">
+              Downsizing →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
         <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
