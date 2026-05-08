@@ -784,6 +784,756 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  // ─── "How to Win a Bidding War in Metro Detroit" ─────────────────────────
+  {
+    slug: "how-to-win-a-bidding-war-metro-detroit",
+    title: "How to Win a Bidding War in Metro Detroit",
+    excerpt:
+      "Escalation clauses and waiving inspections aren't the whole story. Here's how Brad actually advises buyers to compete — and win — in Southeast Michigan.",
+    date: "2026-05-01",
+    author: "Brad",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Multiple offers are a reality in Southeast Michigan — especially in the under-$450K range in Oakland and Macomb counties. I've helped buyers compete in some brutal situations and walked away from others. Here's how I actually approach it.",
+      },
+      {
+        type: "h2",
+        text: "Start Before You Find the House",
+      },
+      {
+        type: "paragraph",
+        text: "The biggest mistake buyers make in competitive markets is treating pre-approval as a formality. By the time you find the home you want, it's too late to upgrade your financial position. Here's what I push clients to do before they start seriously looking:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Get fully underwritten, not just pre-approved. A fully underwritten pre-approval means the lender has verified your income, assets, and credit — and your file is conditionally approved pending the property appraisal. Sellers and listing agents recognize the difference.",
+          "Know your ceiling before you tour. In a multiple-offer situation, you may have 24 hours to submit. That's not when you want to have a conversation with your lender about how high you can go.",
+          "Have your earnest money liquid. In competitive offers, $5,000–$10,000 in earnest money is a baseline. Thinly liquid buyers who need time to pull funds together lose to buyers who don't.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Escalation Clauses: Useful, Not Magic",
+      },
+      {
+        type: "paragraph",
+        text: "An escalation clause says: 'I'll pay $X, but if another offer comes in higher, I'll beat it by $Y up to a maximum of $Z.' Used correctly, they can get you the home without overpaying by a fixed amount. But there are things to know:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "The escalation cap is the number that matters. Set it at your true maximum — not a comfortable number. You can always walk away from a deal; you can't walk back into one after it's sold to someone else.",
+          "Not all sellers or listing agents like them. Some sellers find them confusing or manipulative and prefer a clean highest-and-best. Your agent should know the listing agent's preferences before you escalate.",
+          "Escalation clauses don't cover terms. If two offers escalate to the same price, the seller decides based on other terms — inspection contingency, closing date, financing type. Don't let the escalation make you lazy on the rest of the offer.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "The Inspection Question",
+      },
+      {
+        type: "paragraph",
+        text: "Waiving the inspection entirely is a risk I rarely recommend. A home with a foundation issue, a failing HVAC system, or hidden water damage can cost $20,000–$60,000+ to address. That's a lot of money to save a few days of negotiation.",
+      },
+      {
+        type: "paragraph",
+        text: "What I do recommend, when the market is competitive: offer to do an inspection for informational purposes only, or offer to accept the home with repairs only above a specific dollar threshold (say, $5,000). This tells the seller you're not going to use the inspection as a renegotiation tool for minor items — while preserving your right to walk away from something genuinely serious.",
+      },
+      {
+        type: "h2",
+        text: "What Sellers Actually Want",
+      },
+      {
+        type: "paragraph",
+        text: "Price matters. But it's not always the only thing that matters. Here's what moves sellers in Southeast Michigan:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Closing date flexibility. If the sellers need 60 days before they have to be out, a buyer who gives them that is worth real money.",
+          "Rent-back options. Sellers who haven't found their next home sometimes need to stay after closing. Offering a short rent-back period can break a tie.",
+          "Fewer contingencies. A financing contingency is usually necessary. A home sale contingency — 'I'll buy your house after mine sells' — is a deal-killer in a competitive situation.",
+          "Certainty of close. Cash offers win in part because they remove financing risk. If you're not paying cash, a strong underwriting approval closes the gap.",
+        ],
+      },
+      {
+        type: "callout",
+        label: "On offer letters",
+        text: "Many buyers want to write a personal letter to the seller. I advise against this. Seller letters introduce fair housing risk when they mention personal characteristics — and in Michigan, sellers and their agents are advised to avoid accepting decisions influenced by personal information unrelated to the transaction. A clean, strong offer tells the seller everything they need to know.",
+      },
+      {
+        type: "h2",
+        text: "The Real Advantage: Speed and Preparation",
+      },
+      {
+        type: "paragraph",
+        text: "The buyers who consistently win in competitive markets aren't the ones who overbid. They're the ones who are ready. Pre-approved with a real number. Comfortable with their maximum before they walk in the door. Working with an agent who can reach the listing agent, understand the seller's timeline, and put together a clean offer the same day.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're serious about buying in Southeast Michigan this year, the conversation to have now is about preparation — not waiting until you find the right house to figure out how to compete for it.",
+      },
+    ],
+  },
+
+  // ─── "What to Know When Selling a Parent's Home in Michigan" ─────────────
+  {
+    slug: "selling-a-parents-home-michigan",
+    title: "What to Know When Selling a Parent's Home in Michigan",
+    excerpt:
+      "Whether your parent is downsizing, moving to memory care, or has passed away — selling their home involves legal authority, tax questions, and emotional weight that a standard sale doesn't.",
+    date: "2026-04-22",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "7 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "This is one of the most common calls we get — and one of the most varied. Selling a parent's home looks very different depending on whether your parent is still living, has recently passed, or is moving into care. The common threads are legal authority, family coordination, and a property that may need work before it goes on the market.",
+      },
+      {
+        type: "paragraph",
+        text: "This is real estate guidance, not legal or tax advice. The specifics of your situation should be reviewed with a Michigan attorney and CPA.",
+      },
+      {
+        type: "h2",
+        text: "Scenario 1: Your Parent Is Living but No Longer Managing the Sale Themselves",
+      },
+      {
+        type: "paragraph",
+        text: "If your parent is in memory care, has cognitive decline, or simply can't manage the sale process, someone needs to have legal authority to act on their behalf. That typically means a durable power of attorney (POA) naming you or another family member as agent. Without a valid POA, children have no legal authority to list or sell a parent's home — even with the best intentions.",
+      },
+      {
+        type: "paragraph",
+        text: "If a POA is not in place and your parent lacks capacity to sign one, guardianship or conservatorship through the Michigan probate court may be required. This takes time. If you're in this situation, talk to a Michigan elder law attorney immediately.",
+      },
+      {
+        type: "h2",
+        text: "Scenario 2: Your Parent Has Recently Passed",
+      },
+      {
+        type: "paragraph",
+        text: "When a parent passes away, the path to selling their home depends on how the property was held. If the home was in a living trust, the successor trustee can typically proceed with the sale without court involvement. If the home was held outright in the parent's name, the estate must go through Michigan's probate process — which requires Letters of Authority from the probate court before a purchase agreement can be signed.",
+      },
+      {
+        type: "paragraph",
+        text: "The probate process in Michigan takes a minimum of five months from the date of death, though the practical timeline is often longer. Planning around this timeline — and making sure the home is maintained and secured during probate — is something we help families navigate.",
+      },
+      {
+        type: "h2",
+        text: "The Step-Up in Basis: A Tax Benefit Most Families Don't Know About",
+      },
+      {
+        type: "paragraph",
+        text: "When a parent passes and leaves real property to heirs, the heirs receive what's called a stepped-up cost basis — the property's fair market value at the date of death becomes the new basis, not the original purchase price.",
+      },
+      {
+        type: "callout",
+        label: "Why this matters",
+        text: "If your parents bought their home for $90,000 in 1985, and it's worth $420,000 today when your parent passes, your basis as the heir is $420,000 — not $90,000. If you sell for $420,000, there's no capital gains tax owed. This is a significant benefit that many families don't realize until their CPA tells them. Timing the sale relative to the date of death matters.",
+      },
+      {
+        type: "paragraph",
+        text: "This does not apply if you inherit through a living trust or as a joint tenant — the rules differ. Consult a CPA before you sell, not after.",
+      },
+      {
+        type: "h2",
+        text: "What the Property Looks Like",
+      },
+      {
+        type: "paragraph",
+        text: "Parent homes have usually been lived in for decades. That means deferred maintenance, dated finishes, and systems (furnace, water heater, roof, windows) that may be at or past their useful life. The question isn't whether to address these things — it's which ones move the needle on sale price and which ones don't.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "Typically worth addressing",
+          text: "Systems that will fail inspection (furnace, roof, electrical panel). Anything that creates a safety concern. Deep cleaning and clearing the home. Fresh paint in dated colors.",
+        },
+        right: {
+          label: "Often not worth it",
+          text: "Full kitchen or bath renovations. New flooring throughout. Landscaping overhauls. Cosmetic updates that won't change what the home sells for in its market segment.",
+        },
+      },
+      {
+        type: "h2",
+        text: "Managing Multiple Family Members",
+      },
+      {
+        type: "paragraph",
+        text: "If there are multiple adult children involved, expect some disagreement. About price. About what to fix. About timing. About what the home is worth emotionally versus financially. These conversations are hard, and they happen in the middle of grief.",
+      },
+      {
+        type: "paragraph",
+        text: "We stay neutral. We provide data. We communicate with the person who has legal authority to act — and we keep the process moving without fanning family conflict. This is something we've done before, and we know how to handle it.",
+      },
+      {
+        type: "h2",
+        text: "Where to Start",
+      },
+      {
+        type: "paragraph",
+        text: "The first step is almost always the same: figure out who has legal authority to sell. Once that's clear, the rest of the process is straightforward. Call us for a confidential conversation — we can walk through your specific situation and tell you exactly what the path forward looks like.",
+      },
+    ],
+  },
+
+  // ─── "Moving to SE Michigan from Chicago" ───────────────────────────────
+  {
+    slug: "moving-to-southeast-michigan-from-chicago",
+    title: "Moving to Southeast Michigan from Chicago: What to Expect",
+    excerpt:
+      "Chicago buyers are consistently surprised by what their budget buys here — and by a few things they didn't expect. Here's an honest guide.",
+    date: "2026-04-12",
+    author: "Sarah",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "We work with relocators from across the country, and Chicago buyers come up consistently. There's a reason: Metro Detroit's suburbs offer a lifestyle and a price point that's genuinely hard to find in the Chicago suburbs at comparable proximity to a major city. But there are also things that surprise Chicago buyers — in both directions. Here's what I tell them.",
+      },
+      {
+        type: "h2",
+        text: "What Your Budget Buys",
+      },
+      {
+        type: "paragraph",
+        text: "This is usually where the conversation starts. The same $600,000 that gets you a 1,600 sq ft townhouse in Naperville or a modest single-family in Western Springs buys a substantially different home in Southeast Michigan. In Rochester Hills, Clarkston, or Shelby Township at that price, you're looking at 3,000+ sq ft, a larger lot, newer construction, and likely a 3-car garage.",
+      },
+      {
+        type: "paragraph",
+        text: "In Birmingham — the closest thing Southeast Michigan has to a walkable, dining-and-retail-centric suburb like Hinsdale or Western Springs — $600K still buys a detached single-family on a real lot. That's not a comparison that holds in most major metro areas.",
+      },
+      {
+        type: "h2",
+        text: "Property Taxes: A Meaningful Difference",
+      },
+      {
+        type: "paragraph",
+        text: "Illinois property taxes are among the highest in the country. Effective rates in the Chicago suburbs typically run 2–3% of assessed value annually. Michigan's effective property tax rates are generally lower — typically 1.2–1.8% depending on the municipality. On a $500,000 home, that difference can be $5,000–$9,000 per year.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Illinois (typical suburb)", value: "2–3%",     note: "effective property tax rate" },
+          { label: "Michigan (Oakland County)", value: "1.2–1.8%", note: "effective property tax rate" },
+          { label: "Annual difference ($500K)", value: "$4K–$9K",  note: "estimated savings" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Michigan also has a principal residence exemption (PRE) that reduces the taxable value of your primary residence. This takes effect in the tax year following your purchase — make sure your title company files the paperwork at closing.",
+      },
+      {
+        type: "h2",
+        text: "Neighborhoods Chicago Buyers Tend to Love",
+      },
+      {
+        type: "paragraph",
+        text: "Different Chicago buyers land in very different places in Southeast Michigan. Here's how I usually frame it:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "If you're coming from the North Shore (Winnetka, Kenilworth, Wilmette): look at Birmingham and Bloomfield Hills. The architecture, the scale of homes, and the premium real estate culture are comparable.",
+          "If you're coming from the western suburbs (Naperville, Wheaton, Glen Ellyn): Rochester Hills, Clarkston, and Northville tend to feel most familiar — strong community identity, good infrastructure, varied housing.",
+          "If you want acreage and privacy and don't mind being further out: Washington Township, Independence Township near Clarkston, and the northern Oakland County corridor.",
+          "If walkability matters and you want the densest, most urban suburb: Birmingham is the answer.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Things That Surprise Chicago Buyers",
+      },
+      {
+        type: "paragraph",
+        text: "Three things come up consistently after buyers move:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Traffic is manageable. Southeast Michigan doesn't have anything close to Chicago-level congestion. Drive times feel dramatically shorter even though the geography is similar.",
+          "The lake is everywhere. Lake St. Clair and the inland lake system in Oakland and Livingston counties mean water access is far more available than Chicago buyers expect at non-waterfront prices.",
+          "Winters are similar, not worse. The Great Lakes climate in Southeast Michigan is cold and snowy — like Chicago, sometimes more. This doesn't surprise most Chicago buyers, but the occasional buyer from the South gets a reminder.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "How the Remote Buying Process Works",
+      },
+      {
+        type: "paragraph",
+        text: "Most Chicago buyers we work with start the process without visiting. We do a video call to understand your priorities, identify 3–4 specific neighborhoods worth your time, and give you an honest read on the market before you book a trip. When you're ready, we plan a focused 2-day showing trip that lets you see enough to make a real decision.",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan allows remote closings, so you can technically complete the purchase without being here for every step — though we recommend being present for the final walkthrough. The entire process, from first conversation to keys, typically takes 60–120 days depending on your timeline and the market.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're thinking about Southeast Michigan as a destination, the 15-minute call is the right first step. We can give you a specific picture of what your budget buys in each area and what the moving timeline looks like.",
+      },
+    ],
+  },
+
+  // ─── "Rochester Hills vs. Troy" ─────────────────────────────────────────
+  {
+    slug: "rochester-hills-vs-troy-michigan",
+    title: "Rochester Hills vs. Troy: Choosing the Right Oakland County Suburb",
+    excerpt:
+      "Two of Oakland County's top markets — different character, different commute patterns, different price floors. Here's how to decide.",
+    date: "2026-03-22",
+    author: "Brad",
+    category: "Neighborhood",
+    readTime: "6 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Rochester Hills and Troy are the two most active markets in Oakland County for buyers in the $350K–$700K range. I show homes in both constantly, and the question of which to choose comes down to a handful of things: lifestyle, commute, what kind of neighborhood feel you want, and budget.",
+      },
+      {
+        type: "h2",
+        text: "The Character Difference",
+      },
+      {
+        type: "paragraph",
+        text: "Rochester Hills is anchored by the village of Rochester — a walkable downtown with independently owned restaurants, a farmers market, coffee shops, and Paint Creek Trail running through it. The community has a small-town identity even though it's a city of 80,000. Buyers who want a place with a neighborhood feel, trail access, and a functional town center tend to land here.",
+      },
+      {
+        type: "paragraph",
+        text: "Troy reads differently. It's a corporate hub — home to significant employer bases along the I-75 and Big Beaver corridors, the Somerset Collection, and some of the best road infrastructure in Oakland County. The residential neighborhoods are strong, but Troy doesn't have a downtown the way Rochester does. The payoff is proximity to employment, easy freeway access, and a housing market with strong resale history.",
+      },
+      {
+        type: "h2",
+        text: "Price Points",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Rochester Hills median",  value: "~$410K", note: "single-family, 2026" },
+          { label: "Troy median",             value: "~$380K", note: "single-family, 2026" },
+          { label: "Both markets DOM",        value: "14–18",  note: "days on market, 2026" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Rochester Hills typically carries a slight price premium over comparable homes in Troy — reflecting the trail access, the village downtown, and the demand for that community feel. The gap narrows in the upper price ranges. Both markets move quickly; well-priced homes in either city rarely sit more than a couple of weeks.",
+      },
+      {
+        type: "h2",
+        text: "School Districts",
+      },
+      {
+        type: "paragraph",
+        text: "Most of Rochester Hills falls within Rochester Community Schools — one of the largest districts in Oakland County, serving Rochester Hills, the City of Rochester, and parts of Oakland Township. Troy is served by Troy School District.",
+      },
+      {
+        type: "paragraph",
+        text: "Note: small portions of Rochester Hills fall within the Avondale or Lake Orion school districts depending on the specific address. If school district boundaries matter to your search, verify the specific parcel — don't assume based on city alone. We always confirm this for buyers before they make an offer.",
+      },
+      {
+        type: "h2",
+        text: "Commute and Access",
+      },
+      {
+        type: "paragraph",
+        text: "Troy wins on commute access, full stop. The intersection of I-75, M-59, and Crooks/Big Beaver puts a huge portion of Oakland County and northern Wayne County within 25 minutes. For buyers who need to get to downtown Detroit, the airport, or major employment centers, Troy's location is hard to beat.",
+      },
+      {
+        type: "paragraph",
+        text: "Rochester Hills accesses M-59 and M-24 easily and connects north to Clarkston, south to Troy, and east to Macomb County. Commute times to downtown Detroit are longer than Troy — typically 35–50 minutes depending on route and time of day. For buyers whose employers are in the northern Oakland County corridor or Macomb, Rochester Hills can actually be more convenient.",
+      },
+      {
+        type: "h2",
+        text: "New Construction",
+      },
+      {
+        type: "paragraph",
+        text: "Rochester Hills has limited new construction — it's a largely built-out community, so new inventory is mostly infill or teardown-rebuild. Troy is similar. Buyers specifically seeking new construction communities are usually better served looking at Shelby Township, Macomb Township, Washington Township, or Northville/Plymouth.",
+      },
+      {
+        type: "h2",
+        text: "Who Each Is Right For",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "Rochester Hills tends to fit buyers who...",
+          text: "Want trail access and an active outdoor lifestyle. Value a walkable town center for daily errands and dining. Are comfortable with slightly longer freeway commutes. Want the community-feel of a smaller town in a larger city.",
+        },
+        right: {
+          label: "Troy tends to fit buyers who...",
+          text: "Commute to major employment centers and value access above all. Want proximity to Somerset Collection and the Big Beaver corridor. Are buying primarily on resale value and market fundamentals. Are comfortable in a more car-dependent, suburban layout.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "For most buyers, the right answer comes out of a single conversation about what matters most. If you've narrowed it to these two and want to see both in a single day, I can set that up — usually 3–4 homes in each market gives you a clear sense of the difference.",
+      },
+    ],
+  },
+
+  // ─── "Is a Cash Offer Right for Your Situation?" ────────────────────────
+  {
+    slug: "cash-offer-home-michigan-is-it-right-for-you",
+    title: "Is a Cash Offer Right for Your Situation? What Michigan Sellers Should Know",
+    excerpt:
+      "Cash offers are faster and simpler — but you'll typically net less. Here's when the trade-off makes sense, and when it doesn't.",
+    date: "2026-03-14",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "5 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "The pitch for cash offers is simple: skip the showings, skip the uncertainty, close in two weeks. That pitch works for some sellers. For others, it means leaving $30,000 to $60,000 on the table. The question isn't whether cash offers are good or bad — it's whether the trade-off makes sense for your specific situation.",
+      },
+      {
+        type: "h2",
+        text: "What You Give Up for Speed",
+      },
+      {
+        type: "paragraph",
+        text: "Cash buyers — whether institutional buyers, local investors, or iBuyers — price in margin. They're not paying full market value. They're paying a price that allows for repairs, carrying costs, and profit. In Southeast Michigan, cash offer programs typically come in 10–20% below what the property would fetch on the open market with professional marketing and proper preparation.",
+      },
+      {
+        type: "paragraph",
+        text: "On a home worth $380,000, that discount is $38,000–$76,000. Whether that's worth it depends entirely on your situation.",
+      },
+      {
+        type: "h2",
+        text: "When a Cash Offer Makes Genuine Sense",
+      },
+      {
+        type: "bullets",
+        items: [
+          "The property needs significant work you don't want to manage. A home that needs a new roof, foundation work, major updates, or a complete renovation is difficult to sell at full market value without investing first. If you don't have the capital or appetite for that work, a cash sale avoids it entirely.",
+          "You need to close fast and the timeline is non-negotiable. Job relocation in three weeks, a care facility deposit that's due, an estate that needs to settle quickly — these are real situations where the certainty of a cash close has genuine value.",
+          "The home has a title or legal issue that makes financing difficult. Certain properties — those with unpermitted additions, estate complications, or title defects — are hard to finance. Cash buyers take on that complexity.",
+          "You're a tired landlord and want out with minimal friction. Managing a vacant or tenant-occupied property while going through a traditional sale is stressful. A cash sale ends the obligation.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "When a Traditional Sale Is Almost Always Better",
+      },
+      {
+        type: "paragraph",
+        text: "If your home is in reasonable condition, you have 30–60 days of flexibility, and you're not in financial distress — a traditional listing with professional marketing will almost always net you more money. The difference isn't marginal. In a market like Southeast Michigan, where buyer demand is real and properly priced homes move quickly, the premium for going to market is significant.",
+      },
+      {
+        type: "callout",
+        label: "The comparison we offer",
+        text: "We run a cash offer program. When sellers call us asking about cash offers, we give them both numbers: what a cash offer looks like and what a traditional listing would likely produce. Some sellers choose the cash offer. Most choose to list. But having the comparison in front of you is how you make the right decision for your situation.",
+      },
+      {
+        type: "h2",
+        text: "The 'List First, Cash as Backup' Strategy",
+      },
+      {
+        type: "paragraph",
+        text: "One approach that works well for sellers who are uncertain: list the home on the market for 2–3 weeks with a firm cash offer in hand as a fallback. If the market responds — and in Southeast Michigan, properly priced homes usually do — you capture the premium. If it doesn't, you have the certainty of the cash sale to fall back on.",
+      },
+      {
+        type: "paragraph",
+        text: "This requires working with an agent who can offer both options. We can. If you're trying to figure out which path makes sense for your home, the conversation takes about 20 minutes.",
+      },
+    ],
+  },
+
+  // ─── "BRRRR Strategy in Southeast Michigan" ─────────────────────────────
+  {
+    slug: "brrrr-strategy-southeast-michigan",
+    title: "BRRRR Strategy in Oakland and Macomb Counties: What Investors Need to Know",
+    excerpt:
+      "Buy distressed, rehab, rent, refinance, repeat. Here's how the strategy actually works in Southeast Michigan — and where it breaks down.",
+    date: "2026-03-05",
+    author: "Brad",
+    category: "Buyer Tips",
+    readTime: "7 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "The BRRRR strategy — Buy, Rehab, Rent, Refinance, Repeat — is one of the most discussed approaches in real estate investing. The theory is clean: buy a distressed property below market, force appreciation through rehab, rent it out, then pull your capital back out through a cash-out refinance based on the new after-repair value. Use that capital for the next deal.",
+      },
+      {
+        type: "paragraph",
+        text: "The theory is sound. The execution requires discipline at every step. Here's how it plays out in Southeast Michigan, and where investors get into trouble.",
+      },
+      {
+        type: "h2",
+        text: "Finding the Right Property",
+      },
+      {
+        type: "paragraph",
+        text: "The BRRRR only works if you buy right. In Oakland and Macomb counties, the inventory of genuinely distressed, off-market properties is limited — and the competition for it is real. There are local wholesalers, out-of-state investors, and iBuyer-adjacent platforms all fishing in the same pond.",
+      },
+      {
+        type: "paragraph",
+        text: "The best access points I've found: our cash offer program (which generates motivated seller leads before they hit MLS), the probate and estate pipeline (older homes in disrepair that families need to move quickly), and well-networked agents who know about properties before they list. The MLS is late to this conversation.",
+      },
+      {
+        type: "h2",
+        text: "The Rehab: Where Most BRRRR Deals Die",
+      },
+      {
+        type: "paragraph",
+        text: "Underestimating the rehab is the most common failure mode. Investors looking at a distressed home in Warren or Sterling Heights see a $130,000 purchase price and a $230,000 ARV and think the numbers work. They don't account for the true scope.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Always get contractor bids before you close, not after. The surprise costs come from deferred structural issues, outdated electrical panels, galvanized plumbing, and roofs that looked okay until someone was actually on them.",
+          "Budget a 15–20% contingency on every rehab. Something unexpected always comes up.",
+          "Know the difference between cosmetic and structural rehab timelines. Cosmetic rehabs (paint, flooring, fixtures, kitchen refresh) can finish in 4–8 weeks. Structural work doubles or triples that.",
+          "Carrying costs accumulate during rehab — mortgage, insurance, property taxes, utilities. A 3-month rehab that becomes 6 months eats margin.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Rental Rates in Oakland and Macomb Counties",
+      },
+      {
+        type: "paragraph",
+        text: "Rental demand in Southeast Michigan is real and consistent. Single-family homes in the $1,400–$2,200/month range have strong tenant pools in Oakland and Macomb counties, particularly in suburban communities with good access to employment.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Sterling Heights / Warren", value: "$1,400–$1,700", note: "3BR single-family est." },
+          { label: "Shelby / Macomb Township",  value: "$1,600–$2,000", note: "3BR single-family est." },
+          { label: "Rochester Hills / Troy",    value: "$1,900–$2,400", note: "3BR single-family est." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These are estimates for 3-bedroom single-family homes in good condition. Actual rents depend heavily on the specific property, condition, and micro-location. Pull active rental comps before you underwrite a deal, not the Zestimate.",
+      },
+      {
+        type: "h2",
+        text: "The Refinance: The Critical Math",
+      },
+      {
+        type: "paragraph",
+        text: "The refinance step is what separates BRRRR from a standard buy-and-hold. To pull capital out, you need the after-repair appraisal to support the numbers. Lenders typically allow 70–75% loan-to-value on investment property cash-out refinances.",
+      },
+      {
+        type: "paragraph",
+        text: "Here's the math on a simplified example: purchase $130K + rehab $40K = $170K all-in. ARV $240K. At 75% LTV, the refi loan is $180K. That covers your all-in cost and pulls $10K back out — not a full capital recycle, but you've deployed less than $10K of permanent capital into a cash-flowing rental. The deal works. If the ARV comes in at $210K instead of $240K, the math breaks down.",
+      },
+      {
+        type: "callout",
+        label: "The discipline required",
+        text: "BRRRR math is sensitive to the ARV. Deals that look good at a $240K ARV often don't work at $210K. Underwrite conservatively — use comparable sales that are actually comparable, not the best-case examples. And get the property under contract with inspection rights before you commit to a number.",
+      },
+      {
+        type: "h2",
+        text: "Is Southeast Michigan a Good BRRRR Market?",
+      },
+      {
+        type: "paragraph",
+        text: "Selectively, yes. The entry prices in parts of Macomb County and northern Wayne County are low enough to make the math work in ways that coastal markets can't. Rental demand is steady. The rehab contractor ecosystem in Metro Detroit is mature — there are experienced crews who know what they're doing.",
+      },
+      {
+        type: "paragraph",
+        text: "The limiting factor is deal flow. If you're committed to the strategy, you need consistent access to off-market inventory. That's something we can help with. If you want to talk through a specific deal you're looking at, bring the numbers and we'll work through it.",
+      },
+    ],
+  },
+
+  // ─── "Downsizing in Southeast Michigan" ──────────────────────────────────
+  {
+    slug: "downsizing-southeast-michigan",
+    title: "Downsizing in Southeast Michigan: How to Handle the Transition",
+    excerpt:
+      "The logistics of downsizing are more complex than most people expect — selling, buying, timing, and letting go of a home you've lived in for decades.",
+    date: "2026-02-28",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "6 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Downsizing is one of the most common and most emotionally layered moves we help clients make. The practical challenge is coordinating two transactions — selling a larger home and buying a smaller one — in a market where both sides of that equation have their own timing pressures. The emotional challenge is letting go of a home that holds decades of memory.",
+      },
+      {
+        type: "paragraph",
+        text: "Here's how I walk clients through it.",
+      },
+      {
+        type: "h2",
+        text: "Start with the Numbers, Not the Floor Plan",
+      },
+      {
+        type: "paragraph",
+        text: "Before you look at a single condo or ranch home, understand what your current home is worth and what you'll net after the sale. That number determines what you can realistically spend on the next home — and whether the downsize actually frees up the liquidity you're expecting.",
+      },
+      {
+        type: "paragraph",
+        text: "Many clients are surprised by how much equity they've accumulated. A home bought for $230,000 in 2002 might sell for $520,000 today. After selling costs and paying off a small remaining mortgage, the net proceeds can be substantial. Getting that number before you start looking changes how you approach the search.",
+      },
+      {
+        type: "h2",
+        text: "The Timing Problem: Selling and Buying at Once",
+      },
+      {
+        type: "paragraph",
+        text: "The central challenge of downsizing is sequencing. Sell before you buy, and you may be homeless for a period. Buy before you sell, and you're carrying two properties. In Southeast Michigan's current market, here are the options that work:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Sell with a rent-back agreement. You sell your current home and negotiate the right to stay as a tenant for 30–60 days after closing while you close on the new home. This is common and generally accepted by buyers who have flexibility on move-in.",
+          "Make an offer with a home sale contingency. You make an offer on the smaller home contingent on your current home selling first. This works in slower markets; in competitive markets, sellers often won't accept it.",
+          "Bridge financing. Some lenders offer short-term bridge loans that let you buy before you sell. The interest cost is real, but for the right situation, the certainty is worth it.",
+          "List and look simultaneously. Price and prepare your current home, and begin seriously touring smaller homes at the same time. With clear communication and good timing, you can get offers aligned.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "What Downsizers Are Actually Looking For in SE Michigan",
+      },
+      {
+        type: "paragraph",
+        text: "The most common request: a ranch or first-floor primary bedroom. Steps become a real concern for clients in their 60s and 70s, and the supply of ranch homes in Southeast Michigan is limited relative to demand. When a well-maintained ranch hits the market in Oakland or Macomb County at the right price, it doesn't sit.",
+      },
+      {
+        type: "paragraph",
+        text: "Condominiums are a strong option for downsizers who want to eliminate exterior maintenance — lawn, snow, exterior upkeep. Oakland County has a range of condo communities from entry-level maintenance-fee product up through luxury attached and detached condos in Birmingham, Bloomfield Hills, and Troy.",
+      },
+      {
+        type: "h2",
+        text: "The Emotional Side",
+      },
+      {
+        type: "paragraph",
+        text: "I'm going to say something that most agents don't: the emotional component of this move is real and it affects decision-making in ways that sometimes work against the seller's financial interest. Sellers price higher than the market supports because they're attached to a number tied to what the home means to them, not what buyers will pay. Or they delay the decision for years waiting until they 'feel ready.'",
+      },
+      {
+        type: "callout",
+        label: "What I've observed",
+        text: "The clients who navigate this best are the ones who've decided the move is right for them — and then let the data drive the real estate decisions. The attachment to the home is real and valid. Separating it from the pricing and timing decisions is what keeps the transaction on track.",
+      },
+      {
+        type: "h2",
+        text: "The Practical Starting Point",
+      },
+      {
+        type: "paragraph",
+        text: "A walkthrough of your current home and a conversation about what you're looking for on the other side — that's where this starts. We'll give you a current market value assessment, walk through your net proceeds at different price points, and help you understand what the timing looks like in today's market. That conversation typically takes an hour and answers most of the questions that have been sitting unresolved.",
+      },
+    ],
+  },
+
+  // ─── "What a Home Inspection Covers in Michigan" ─────────────────────────
+  {
+    slug: "what-a-home-inspection-covers-michigan",
+    title: "What a Home Inspection Actually Covers in Michigan",
+    excerpt:
+      "Most buyers think a home inspection is a pass/fail test. It isn't — and misunderstanding what inspectors find (and don't find) leads to expensive surprises.",
+    date: "2026-02-18",
+    author: "Brad",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    content: [
+      {
+        type: "paragraph",
+        text: "Home inspections are one of the most misunderstood parts of the buying process. Buyers treat them like a seal of approval. They're not. A home inspection is a visual assessment of accessible systems and components by a licensed professional — not a guarantee that the home is defect-free, and not a structural engineering report. Here's what it actually covers and what to do with the results.",
+      },
+      {
+        type: "h2",
+        text: "What Michigan Home Inspectors Actually Look At",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan home inspectors are licensed by the state and follow standards that define what's included in a standard inspection. A thorough home inspection covers:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Roof: visible condition, flashing, gutters, and drainage — from the ground or with a ladder, not always walked",
+          "Foundation and structure: visible foundation walls, basement or crawlspace, framing elements that are accessible",
+          "Electrical: panel condition, visible wiring, outlets, GFCI protection, grounding",
+          "Plumbing: supply and drain lines, water heater, fixtures, visible pipe condition",
+          "HVAC: furnace, air conditioning, ductwork, filters — operational test at the time of inspection",
+          "Insulation and ventilation: attic and crawlspace where accessible",
+          "Windows and doors: operation, seals, visible damage",
+          "Exterior: siding, grading, visible drainage, porches and decks",
+        ],
+      },
+      {
+        type: "h2",
+        text: "What Home Inspections Don't Cover",
+      },
+      {
+        type: "paragraph",
+        text: "This is where buyers get into trouble. Standard home inspections do not include:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Behind walls, under flooring, or inside inaccessible spaces",
+          "Sewer line condition (requires a separate sewer scope — highly recommended on homes over 20 years old)",
+          "Radon levels (separate test, ~$150, worth doing in Michigan where radon is common)",
+          "Mold assessment beyond visual observation of moisture staining",
+          "Chimney interior condition (separate chimney inspection if the home has a fireplace)",
+          "Pest/termite inspection (common in other states, less standard in Michigan but available)",
+          "Septic systems, wells, or private water quality",
+        ],
+      },
+      {
+        type: "callout",
+        label: "My recommendation for most Michigan homes",
+        text: "Standard inspection plus a sewer scope plus radon test. The sewer scope runs $150–$250 and can find $5,000–$20,000+ in problems in the line between the house and the street. Radon is common enough in Michigan that testing is worth the cost every time. Total added cost: $300–$400 for peace of mind that a lot of buyers skip.",
+      },
+      {
+        type: "h2",
+        text: "How to Read the Inspection Report",
+      },
+      {
+        type: "paragraph",
+        text: "A typical inspection report for a 30-year-old Michigan home will have 30–60 items flagged. Most of them are not deal-killers. Inspectors are trained to document everything — deferred caulk, minor grading issues, an outlet that needs a cover. Don't panic at the number of items.",
+      },
+      {
+        type: "paragraph",
+        text: "What actually matters is the category of defect: safety issues (exposed wiring, CO detector placement, gas leaks), major system failures (furnace at end of life, active water intrusion, significant structural cracks), and expensive deferred maintenance (roof within 2–3 years, aging water heater). Those items deserve attention and negotiation. The rest are context, not crises.",
+      },
+      {
+        type: "h2",
+        text: "What Happens After the Inspection in Michigan",
+      },
+      {
+        type: "paragraph",
+        text: "In Michigan, the standard purchase agreement gives buyers an inspection contingency period — typically 10 days from acceptance. Within that window, you can request repairs, ask for a price reduction, or walk away. Here's how I advise buyers to handle it:",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "Request repairs for...",
+          text: "Safety hazards. Major system failures. Active water intrusion. Anything the inspector flagged as needing immediate attention. These are legitimate negotiating points.",
+        },
+        right: {
+          label: "Don't request repairs for...",
+          text: "Cosmetic items. Minor maintenance. Things you knew about before making the offer. Items under $500 in a transaction that's already been negotiated. Nickel-and-diming on inspection kills deals and goodwill.",
+        },
+      },
+      {
+        type: "h2",
+        text: "One More Thing",
+      },
+      {
+        type: "paragraph",
+        text: "Attend your inspection in person. Walk through the home with the inspector for the full 2–3 hours. The written report tells you what was found; the inspection itself tells you why it matters, how serious it is, and what to watch for after you move in. Buyers who skip the walkthrough and just read the report lose the most valuable part of the process.",
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
