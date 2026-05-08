@@ -254,7 +254,7 @@ export default function NeighborhoodsPage() {
               Explore Our Service Area
             </h2>
             <p className="text-gray-500 text-sm mt-2">
-              Click any city to view its neighborhood guide.
+              We serve all of Southeast Michigan. Pins mark cities with published neighborhood guides.
             </p>
           </div>
           <div className="flex justify-center">
