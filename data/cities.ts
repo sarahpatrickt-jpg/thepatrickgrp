@@ -48,10 +48,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48009"],
     marketStats: {
-      medianPrice: 720000,
-      medianPriceChange: 4.2,
-      daysOnMarket: 11,
-      pricePerSqft: 298,
+      medianPrice: 874583,
+      medianPriceChange: 30,
+      daysOnMarket: 35,
+      pricePerSqft: 355,
     },
     priceRange: {
       low: "Mid-$400s to $650K gets you a well-maintained colonial or Tudor on a small to mid-sized lot within the city core.",
@@ -105,10 +105,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48301", "48302", "48304"],
     marketStats: {
-      medianPrice: 980000,
-      medianPriceChange: 3.8,
-      daysOnMarket: 19,
-      pricePerSqft: 268,
+      medianPrice: 1531667,
+      medianPriceChange: 30,
+      daysOnMarket: 66,
+      pricePerSqft: 233,
     },
     priceRange: {
       low: "$700K–$1M gets you an established home on a wooded lot - expect to budget for updates on older properties in this range.",
@@ -219,10 +219,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48306", "48307"],
     marketStats: {
-      medianPrice: 490000,
-      medianPriceChange: 4.8,
-      daysOnMarket: 13,
-      pricePerSqft: 206,
+      medianPrice: 582833,
+      medianPriceChange: 18.4,
+      daysOnMarket: 33,
+      pricePerSqft: 218,
     },
     priceRange: {
       low: "$350K–$500K gets you a well-maintained colonial or ranch in an established Rochester neighborhood, often within walking distance of the Paint Creek Trail.",
@@ -276,10 +276,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48306", "48307", "48309"],
     marketStats: {
-      medianPrice: 385000,
-      medianPriceChange: 4.2,
-      daysOnMarket: 15,
-      pricePerSqft: 185,
+      medianPrice: 422983,
+      medianPriceChange: -17.4,
+      daysOnMarket: 28,
+      pricePerSqft: 194,
     },
     priceRange: {
       low: "$300K–$420K gets you a solid ranch or colonial in an established subdivision - often updated kitchens or baths, good lot sizes.",
@@ -333,10 +333,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48083", "48084", "48085", "48098"],
     marketStats: {
-      medianPrice: 420000,
-      medianPriceChange: 4.2,
-      daysOnMarket: 14,
-      pricePerSqft: 195,
+      medianPrice: 402167,
+      medianPriceChange: -17.2,
+      daysOnMarket: 31,
+      pricePerSqft: 216,
     },
     priceRange: {
       low: "$350K–$480K gets you a solid colonial or ranch in one of Troy's many established subdivisions, often well-maintained and move-in ready.",
@@ -447,10 +447,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48067", "48073"],
     marketStats: {
-      medianPrice: 345000,
-      medianPriceChange: 4.2,
-      daysOnMarket: 10,
-      pricePerSqft: 210,
+      medianPrice: 340500,
+      medianPriceChange: -1.4,
+      daysOnMarket: 44,
+      pricePerSqft: 250,
     },
     priceRange: {
       low: "$280K–$380K gets you a bungalow or cape cod in one of Royal Oak's established neighborhoods - often these are the renovator's opportunity in a desirable location.",
@@ -561,10 +561,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48360", "48361", "48362"],
     marketStats: {
-      medianPrice: 340000,
-      medianPriceChange: 4.2,
-      daysOnMarket: 16,
-      pricePerSqft: 178,
+      medianPrice: 312500,
+      medianPriceChange: 0,
+      daysOnMarket: 45,
+      pricePerSqft: 187,
     },
     priceRange: {
       low: "$250K–$350K gets you a non-waterfront home in Orion Township - often ranch or colonial with reasonable lot sizes.",
@@ -618,10 +618,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48370", "48371"],
     marketStats: {
-      medianPrice: 310000,
-      medianPriceChange: 3.8,
-      daysOnMarket: 18,
-      pricePerSqft: 170,
+      medianPrice: 285800,
+      medianPriceChange: -1.9,
+      daysOnMarket: 88,
+      pricePerSqft: 171,
     },
     priceRange: {
       low: "$220K–$320K gets you a solid ranch or colonial in Oxford Township - often on a generous lot with more space than comparable prices anywhere in southern Oakland County.",
@@ -675,10 +675,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48374", "48375", "48377"],
     marketStats: {
-      medianPrice: 430000,
-      medianPriceChange: 4.2,
-      daysOnMarket: 14,
-      pricePerSqft: 192,
+      medianPrice: 383833,
+      medianPriceChange: 6.2,
+      daysOnMarket: 32,
+      pricePerSqft: 204,
     },
     priceRange: {
       low: "$330K–$450K gets you a solid suburban home in an established Novi subdivision or a newer condo in a well-maintained community.",
@@ -791,10 +791,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48310", "48311", "48312", "48313", "48314"],
     marketStats: {
-      medianPrice: 295000,
-      medianPriceChange: 4.7,
-      daysOnMarket: 15,
-      pricePerSqft: 168,
+      medianPrice: 309333,
+      medianPriceChange: 4.5,
+      daysOnMarket: 33,
+      pricePerSqft: 183,
     },
     priceRange: {
       low: "$220K–$295K gets you a well-maintained brick ranch in an established Sterling Heights neighborhood - solid bones, reasonable lot, often updated kitchen or bath.",
@@ -962,10 +962,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48080", "48081", "48082"],
     marketStats: {
-      medianPrice: 250000,
-      medianPriceChange: 4.7,
-      daysOnMarket: 15,
-      pricePerSqft: 170,
+      medianPrice: 235500,
+      medianPriceChange: 9.9,
+      daysOnMarket: 32,
+      pricePerSqft: 173,
     },
     priceRange: {
       low: "$180K–$270K gets you a ranch or bungalow in SCS's inland sections - solid brick construction, well-established neighborhoods.",
@@ -1019,10 +1019,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48088", "48089", "48091", "48092", "48093"],
     marketStats: {
-      medianPrice: 215000,
-      medianPriceChange: 4.7,
-      daysOnMarket: 18,
-      pricePerSqft: 141,
+      medianPrice: 190800,
+      medianPriceChange: 6.1,
+      daysOnMarket: 32,
+      pricePerSqft: 140,
     },
     priceRange: {
       low: "$150K–$220K gets you a brick ranch with good bones - these are honest, straightforward homes that have often been well-maintained by long-term owners.",
@@ -1078,10 +1078,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48230", "48236"],
     marketStats: {
-      medianPrice: 610000,
-      medianPriceChange: 5.2,
-      daysOnMarket: 13,
-      pricePerSqft: 228,
+      medianPrice: 445333,
+      medianPriceChange: 30,
+      daysOnMarket: 60,
+      pricePerSqft: 212,
     },
     priceRange: {
       low: "$450K–$650K gets you an entry-level home in the Grosse Pointes - often smaller square footage or requiring updates, but in one of Southeast Michigan's most architecturally distinctive communities.",
@@ -1131,10 +1131,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48167", "48168"],
     marketStats: {
-      medianPrice: 520000,
-      medianPriceChange: 4.5,
-      daysOnMarket: 12,
-      pricePerSqft: 218,
+      medianPrice: 457000,
+      medianPriceChange: 5.9,
+      daysOnMarket: 23,
+      pricePerSqft: 232,
     },
     priceRange: {
       low: "$380K–$520K gets you a well-maintained colonial or townhome in a Northville Township planned community - often newer construction with good amenities.",
@@ -1188,10 +1188,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48170"],
     marketStats: {
-      medianPrice: 430000,
-      medianPriceChange: 4.8,
-      daysOnMarket: 12,
-      pricePerSqft: 192,
+      medianPrice: 564515,
+      medianPriceChange: 30,
+      daysOnMarket: 13,
+      pricePerSqft: 336,
     },
     priceRange: {
       low: "$320K–$430K gets you a solid bungalow or colonial in Plymouth Township or at the city's edges - often with good lot size relative to Oakland County comparables.",
@@ -1245,10 +1245,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48150", "48152", "48154"],
     marketStats: {
-      medianPrice: 280000,
-      medianPriceChange: 6.2,
-      daysOnMarket: 14,
-      pricePerSqft: 148,
+      medianPrice: 309583,
+      medianPriceChange: 10,
+      daysOnMarket: 27,
+      pricePerSqft: 184,
     },
     priceRange: {
       low: "$220K–$290K gets you a well-maintained brick ranch - these are Livonia's bread and butter, solid 1,000–1,600 sq ft homes on 60-foot lots with newer mechanicals.",
@@ -1302,10 +1302,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48201", "48202", "48203", "48204", "48205", "48206", "48207", "48208", "48209", "48210", "48211", "48212", "48213", "48214", "48215", "48216", "48217", "48218", "48219", "48220", "48221", "48222", "48223", "48224", "48225", "48226", "48227", "48228", "48229", "48230", "48231", "48232", "48233", "48234", "48235", "48236", "48237", "48238", "48239", "48240"],
     marketStats: {
-      medianPrice: 145000,
-      medianPriceChange: 6.2,
-      daysOnMarket: 20,
-      pricePerSqft: 82,
+      medianPrice: 91917,
+      medianPriceChange: 16.7,
+      daysOnMarket: 67,
+      pricePerSqft: 70,
     },
     priceRange: {
       low: "$80K–$150K covers a range of single-family homes in established but varied Detroit neighborhoods - condition and street-by-street character vary significantly at this price point.",
@@ -1359,10 +1359,10 @@ export const cities: City[] = [
     state: "MI",
     zipCodes: ["48174"],
     marketStats: {
-      medianPrice: 185000,
-      medianPriceChange: 6.2,
-      daysOnMarket: 19,
-      pricePerSqft: 120,
+      medianPrice: 190000,
+      medianPriceChange: -1.2,
+      daysOnMarket: 42,
+      pricePerSqft: 142,
     },
     priceRange: {
       low: "$130K–$190K gets you a ranch or colonial in established Romulus neighborhoods - modest lot sizes, brick or frame construction, move-in ready condition.",
