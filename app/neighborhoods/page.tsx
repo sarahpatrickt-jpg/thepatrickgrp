@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import MapMI from "@/components/MapMI";
 
 export const metadata: Metadata = {
   title: "Southeast Michigan Neighborhoods",
@@ -239,6 +240,26 @@ export default function NeighborhoodsPage() {
             and Macomb counties — home price ranges, property types, school
             districts, and what makes each area distinct.
           </p>
+        </div>
+      </section>
+
+      {/* Interactive Map */}
+      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7]">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-8">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Interactive Map
+            </p>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+              Explore Our Service Area
+            </h2>
+            <p className="text-gray-500 text-sm mt-2">
+              Click any city to view its neighborhood guide.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <MapMI />
+          </div>
         </div>
       </section>
 

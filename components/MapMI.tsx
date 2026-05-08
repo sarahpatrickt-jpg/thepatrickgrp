@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { getCityBySlug } from "@/data/cities";
 
 interface CityPin {
   name: string;
@@ -159,90 +160,100 @@ export default function MapMI() {
         {/* ── City pins ── */}
         {CITY_PINS.map((city) => {
           const isHovered = hovered === city.slug;
-          return (
-            <Link
-              key={city.slug}
-              href={`/neighborhoods/${city.slug}`}
-              aria-label={`${city.name} real estate`}
+          const hasPage = !!getCityBySlug(city.slug);
+
+          const pin = (
+            <g
+              onMouseEnter={() => setHovered(city.slug)}
+              onMouseLeave={() => setHovered(null)}
+              style={{ cursor: hasPage ? "pointer" : "default" }}
             >
-              <g
-                onMouseEnter={() => setHovered(city.slug)}
-                onMouseLeave={() => setHovered(null)}
-                style={{ cursor: "pointer" }}
-              >
-                {city.big ? (
-                  <>
-                    {/* Double-ring halo */}
-                    <circle
-                      cx={city.cx}
-                      cy={city.cy}
-                      r={isHovered ? 11 : 9}
-                      fill="none"
-                      stroke="var(--red)"
-                      strokeWidth="0.75"
-                      opacity="0.25"
-                      style={{ transition: "r 0.15s ease" }}
-                    />
-                    <circle
-                      cx={city.cx}
-                      cy={city.cy}
-                      r={isHovered ? 7 : 5.5}
-                      fill="none"
-                      stroke="var(--red)"
-                      strokeWidth="1"
-                      opacity="0.5"
-                      style={{ transition: "r 0.15s ease" }}
-                    />
-                    {/* Core dot */}
-                    <circle
-                      cx={city.cx}
-                      cy={city.cy}
-                      r={isHovered ? 4 : 3}
-                      fill="var(--red)"
-                      style={{ transition: "r 0.15s ease" }}
-                    />
-                  </>
-                ) : (
+              {city.big && hasPage ? (
+                <>
+                  {/* Double-ring halo */}
                   <circle
                     cx={city.cx}
                     cy={city.cy}
-                    r={isHovered ? 3.5 : 2.5}
-                    fill={isHovered ? "var(--red)" : "var(--ink-2)"}
-                    style={{ transition: "all 0.15s ease" }}
+                    r={isHovered ? 11 : 9}
+                    fill="none"
+                    stroke="var(--red)"
+                    strokeWidth="0.75"
+                    opacity="0.25"
+                    style={{ transition: "r 0.15s ease" }}
                   />
-                )}
+                  <circle
+                    cx={city.cx}
+                    cy={city.cy}
+                    r={isHovered ? 7 : 5.5}
+                    fill="none"
+                    stroke="var(--red)"
+                    strokeWidth="1"
+                    opacity="0.5"
+                    style={{ transition: "r 0.15s ease" }}
+                  />
+                  {/* Core dot */}
+                  <circle
+                    cx={city.cx}
+                    cy={city.cy}
+                    r={isHovered ? 4 : 3}
+                    fill="var(--red)"
+                    style={{ transition: "r 0.15s ease" }}
+                  />
+                </>
+              ) : (
+                <circle
+                  cx={city.cx}
+                  cy={city.cy}
+                  r={isHovered && hasPage ? 3.5 : 2.5}
+                  fill={isHovered && hasPage ? "var(--red)" : hasPage ? "var(--ink-2)" : "var(--ink-3)"}
+                  opacity={hasPage ? 1 : 0.4}
+                  style={{ transition: "all 0.15s ease" }}
+                />
+              )}
 
-                {/* Hover tooltip */}
-                {isHovered && (
-                  <g>
-                    <rect
-                      x={city.cx - 40}
-                      y={city.cy - 26}
-                      width={80}
-                      height={16}
-                      rx="2"
-                      fill="var(--ink)"
-                      opacity="0.92"
-                    />
-                    <text
-                      x={city.cx}
-                      y={city.cy - 14}
-                      textAnchor="middle"
-                      style={{
-                        fontFamily: "var(--font-inter, 'Inter', sans-serif)",
-                        fontSize: "8px",
-                        fill: "#FDFBF7",
-                        letterSpacing: "0.04em",
-                        pointerEvents: "none",
-                      }}
-                    >
-                      {city.name}
-                    </text>
-                  </g>
-                )}
-              </g>
-            </Link>
+              {/* Hover tooltip */}
+              {isHovered && (
+                <g>
+                  <rect
+                    x={city.cx - 40}
+                    y={city.cy - 26}
+                    width={80}
+                    height={16}
+                    rx="2"
+                    fill="var(--ink)"
+                    opacity="0.92"
+                  />
+                  <text
+                    x={city.cx}
+                    y={city.cy - 14}
+                    textAnchor="middle"
+                    style={{
+                      fontFamily: "var(--font-inter, 'Inter', sans-serif)",
+                      fontSize: "8px",
+                      fill: "#FDFBF7",
+                      letterSpacing: "0.04em",
+                      pointerEvents: "none",
+                    }}
+                  >
+                    {city.name}
+                  </text>
+                </g>
+              )}
+            </g>
           );
+
+          if (hasPage) {
+            return (
+              <Link
+                key={city.slug}
+                href={`/neighborhoods/${city.slug}`}
+                aria-label={`${city.name} real estate`}
+              >
+                {pin}
+              </Link>
+            );
+          }
+          return <g key={city.slug}>{pin}</g>;
         })}
 
         {/* ── Compass rose ── */}
