@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Relocating to Southeast Michigan | The Patrick Group",
+  title: "Relocating to Southeast Michigan",
   description:
     "Moving to Southeast Michigan from out of state? The Patrick Group is your trusted local guide. We help relocators from Chicago, the East Coast, and beyond find the right home.",
   keywords:

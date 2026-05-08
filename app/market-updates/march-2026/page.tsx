@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Southeast Michigan Real Estate Market Report — March 2026 | The Patrick Group",
+  title: "Southeast Michigan Real Estate Market Report — March 2026",
   description:
     "March 2026 real estate market report for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties — median sale price, price per square foot, and average days on market.",
   alternates: { canonical: "https://thepatrickgrp.com/market-updates/march-2026" },

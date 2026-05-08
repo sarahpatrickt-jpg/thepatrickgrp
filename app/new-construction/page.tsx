@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "New Construction Homes Southeast Michigan | The Patrick Group",
+  title: "New Construction Homes Southeast Michigan",
   description:
     "Buying new construction in Southeast Michigan? You need your own agent — the builder's rep works for the builder. The Patrick Group guides buyers through every step at no extra cost.",
   keywords:

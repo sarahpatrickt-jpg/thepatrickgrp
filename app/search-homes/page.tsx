@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Search Homes for Sale — Southeast Michigan | The Patrick Group",
+  title: "Search Homes for Sale — Southeast Michigan",
   description:
     "Search all homes for sale in Southeast Michigan. Full MLS/IDX search powered by Oak and Stone Real Estate.",
   alternates: { canonical: "https://thepatrickgrp.com/search-homes" },

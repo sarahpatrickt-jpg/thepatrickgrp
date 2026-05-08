@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Buy a Home in Southeast Michigan | The Patrick Group",
+  title: "Buy a Home in Southeast Michigan",
   description:
     "Find your next home in Southeast Michigan with The Patrick Group. Expert buyer representation, mortgage coordination, and local knowledge you won't find on Zillow.",
   alternates: { canonical: "https://thepatrickgrp.com/buying" },

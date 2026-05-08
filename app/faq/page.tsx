@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FaqPageClient from "@/components/FaqPageClient";
 
 export const metadata: Metadata = {
-  title: "FAQ | The Patrick Group | Southeast Michigan Real Estate | Rochester, MI",
+  title: "FAQ — Southeast Michigan Real Estate | Rochester, MI",
   description:
     "Answers to the most common real estate questions from The Patrick Group — Sarah Patrick (Principal Broker) and Brad Patrick (Realtor, 15+ years). Serving Southeast Michigan across Oakland, Macomb, Washtenaw, and Livingston counties.",
   alternates: { canonical: "https://thepatrickgrp.com/faq" },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://thepatrickgrp.com/faq",
-    title: "FAQ | The Patrick Group | Southeast Michigan Real Estate",
+    title: "FAQ — Southeast Michigan Real Estate",
     description:
       "Common questions about buying, selling, and working with The Patrick Group — Southeast Michigan's boutique real estate team led by Sarah Patrick and Brad Patrick.",
     siteName: "The Patrick Group",

@@ -3,7 +3,7 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | The Patrick Group",
+  title: "Contact Us",
   description:
     "Reach The Patrick Group — Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
   alternates: { canonical: "https://thepatrickgrp.com/contact" },

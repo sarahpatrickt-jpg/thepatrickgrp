@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import NewsletterForm from "@/components/NewsletterForm";
 
 export const metadata: Metadata = {
-  title: "Local Intel Newsletter | The Patrick Group",
+  title: "Local Intel Newsletter",
   description:
     "Sign up for The Patrick Group Local Intel — monthly Southeast Michigan real estate updates, community news, and market insights from your local experts.",
   alternates: { canonical: "https://thepatrickgrp.com/newsletter" },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Southeast Michigan Market Reports | The Patrick Group",
+  title: "Southeast Michigan Market Reports",
   description:
     "Monthly real estate market reports for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties — median sales price, price per square foot, and days on market from The Patrick Group.",
   alternates: { canonical: "https://thepatrickgrp.com/market-updates" },

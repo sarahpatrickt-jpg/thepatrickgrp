@@ -4,7 +4,7 @@ import Image from "next/image";
 import MapMI from "@/components/MapMI";
 
 export const metadata: Metadata = {
-  title: "Southeast Michigan Real Estate | The Patrick Group",
+  title: "Southeast Michigan Real Estate",
   description:
     "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
   alternates: { canonical: "https://thepatrickgrp.com" },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Divorce Real Estate Agent Southeast Michigan | The Patrick Group",
+  title: "Divorce Real Estate Agent Southeast Michigan",
   description:
     "The Patrick Group handles numerous divorce real estate transactions annually in Southeast Michigan. We coordinate directly with local family law attorneys, manage court-ordered sales, and provide defensible valuations — led by Principal Broker Sarah Patrick.",
   keywords:

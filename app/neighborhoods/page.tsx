@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Southeast Michigan Neighborhoods | The Patrick Group",
+  title: "Southeast Michigan Neighborhoods",
   description:
     "Explore Oakland County and Macomb County communities. Home price ranges, property types, school districts, and local insights — to help you find the right fit.",
   alternates: { canonical: "https://thepatrickgrp.com/neighborhoods" },

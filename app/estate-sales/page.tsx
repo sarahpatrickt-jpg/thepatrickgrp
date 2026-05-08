@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Estate & Probate Home Sales in Southeast Michigan | The Patrick Group",
+  title: "Estate & Probate Home Sales in Southeast Michigan",
   description:
     "Handling the sale of a loved one's home in Southeast Michigan? The Patrick Group provides experienced, compassionate guidance through estate and probate real estate — from the first walkthrough to closing.",
   keywords:
