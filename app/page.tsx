@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MapMI from "@/components/MapMI";
 
+
 export const metadata: Metadata = {
   title: "Southeast Michigan Real Estate",
   description:
@@ -426,125 +427,40 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          §3  CURRENTLY SHOWING  (3 featured listings)
-          TODO: Wire to Sierra/MLS IDX feed — replace placeholder cards
+          §3  ACTIVE LISTINGS CTA
       ══════════════════════════════════════════════════════ */}
       <section className="py-20" style={{ backgroundColor: "var(--paper)" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
-            <div>
-              <p
-                className={eyebrow}
-                style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
-              >
-                Currently Showing
-              </p>
-              <h2
-                className="font-display mt-3"
-                style={{ fontSize: "clamp(36px, 4vw, 56px)", lineHeight: "1", letterSpacing: "-0.01em" }}
-              >
-                Featured{" "}
-                <em style={{ color: "var(--red)", fontStyle: "italic" }}>Listings</em>
-              </h2>
-            </div>
-            <a
-              href="https://bradpatrick.oakandstonerealestate.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium hover:underline shrink-0"
-              style={{ color: "var(--red)", textUnderlineOffset: "3px" }}
-            >
-              View all active listings →
-            </a>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                area: "Birmingham",
-                bed: 4, bath: 3,
-                price: "$875,000",
-                tag: "Just Listed",
-                img: null,
-              },
-              {
-                area: "Troy",
-                bed: 3, bath: 2,
-                price: "$549,000",
-                tag: "Open Sunday",
-                img: null,
-              },
-              {
-                area: "West Bloomfield",
-                bed: 5, bath: 4,
-                price: "$1,125,000",
-                tag: "New Price",
-                img: null,
-              },
-            ].map((listing, i) => (
-              <a
-                key={i}
-                href="https://bradpatrick.oakandstonerealestate.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block"
-                style={{ border: "1px solid var(--line)", backgroundColor: "var(--paper-2)" }}
-              >
-                {/* Image placeholder */}
-                <div
-                  className="relative overflow-hidden"
-                  style={{ paddingBottom: "66%", backgroundColor: "var(--paper-3)" }}
-                >
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" strokeWidth="1">
-                      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                      <polyline points="9 22 9 12 15 12 15 22"/>
-                    </svg>
-                  </div>
-                  {/* Tag */}
-                  <div
-                    className="absolute top-3 left-3 px-3 py-1"
-                    style={{
-                      backgroundColor: "var(--ink)",
-                      color: "var(--paper)",
-                      fontFamily: "var(--font-mono, monospace)",
-                      fontSize: "9px",
-                      letterSpacing: "0.15em",
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    {listing.tag}
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p
-                    className={eyebrow}
-                    style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)", fontSize: "9px" }}
-                  >
-                    {listing.area}, MI
-                  </p>
-                  <p
-                    className="font-display mt-2"
-                    style={{ fontSize: "22px", color: "var(--ink)" }}
-                  >
-                    {listing.price}
-                  </p>
-                  <p
-                    className="mt-1 text-sm"
-                    style={{ color: "var(--ink-3)" }}
-                  >
-                    {listing.bed} bd · {listing.bath} ba
-                  </p>
-                  <p
-                    className="mt-4 text-sm font-medium group-hover:underline"
-                    style={{ color: "var(--red)", textUnderlineOffset: "3px" }}
-                  >
-                    View listing →
-                  </p>
-                </div>
-              </a>
-            ))}
-          </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p
+            className={eyebrow}
+            style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+          >
+            Currently Showing
+          </p>
+          <h2
+            className="font-display mt-3"
+            style={{ fontSize: "clamp(36px, 4vw, 56px)", lineHeight: "1", letterSpacing: "-0.01em" }}
+          >
+            Browse Our{" "}
+            <em style={{ color: "var(--red)", fontStyle: "italic" }}>Active Listings</em>
+          </h2>
+          <p className="mt-4 max-w-xl mx-auto" style={{ color: "var(--ink-2)", fontSize: "17px", lineHeight: "1.7" }}>
+            Search every home for sale in Southeast Michigan — updated in real time from the MLS.
+          </p>
+          <a
+            href="https://bradpatrick.oakandstonerealestate.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-8 px-8 py-4 text-sm font-medium tracking-wide uppercase"
+            style={{
+              backgroundColor: "var(--red)",
+              color: "#fff",
+              fontFamily: "var(--font-mono, monospace)",
+              letterSpacing: "0.1em",
+            }}
+          >
+            View All Active Listings
+          </a>
         </div>
       </section>
 

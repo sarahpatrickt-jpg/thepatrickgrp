@@ -100,7 +100,7 @@ const pressFeatures = [
     outlet: "Real Producers Magazine",
     feature: "Real Producers April 2026",
     agent: "Brad Patrick",
-    link: null,
+    link: "https://file.realproducersmagazine.com/issue/2026_Apr_Real_Producers_Oakland_County.pdf",
     year: "April 2026",
   },
   {
