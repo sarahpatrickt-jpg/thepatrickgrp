@@ -8,7 +8,10 @@ interface CityPin {
   slug: string;
   cx: number;
   cy: number;
-  big: boolean;
+  /** Label offset from dot center: [dx, dy]. Defaults to [0, -10] (above). */
+  label?: [number, number];
+  /** Text anchor override: "start" | "middle" | "end". Defaults to "middle". */
+  anchor?: "start" | "middle" | "end";
 }
 
 interface CountyShape {
@@ -55,35 +58,35 @@ const COUNTY_SHAPES: CountyShape[] = [
   },
 ];
 
-// Only cities with published neighborhood guides
+// All 24 cities with published neighborhood guides
 const CITY_PINS: CityPin[] = [
   // ── Oakland County ──────────────────────────────────────
-  { name: "Birmingham",       slug: "birmingham-mi",         cx: 487, cy: 250, big: true  },
-  { name: "Bloomfield Hills", slug: "bloomfield-hills-mi",   cx: 475, cy: 238, big: true  },
-  { name: "Bloomfield Twp",   slug: "bloomfield-township-mi",cx: 466, cy: 246, big: false },
-  { name: "Rochester",        slug: "rochester-mi",          cx: 514, cy: 210, big: true  },
-  { name: "Rochester Hills",  slug: "rochester-hills-mi",    cx: 507, cy: 221, big: false },
-  { name: "Troy",             slug: "troy-mi",               cx: 509, cy: 238, big: true  },
-  { name: "West Bloomfield",  slug: "west-bloomfield-mi",    cx: 427, cy: 251, big: true  },
-  { name: "Royal Oak",        slug: "royal-oak-mi",          cx: 509, cy: 268, big: true  },
-  { name: "Clarkston",        slug: "clarkston-mi",          cx: 413, cy: 196, big: false },
-  { name: "Lake Orion",       slug: "lake-orion-mi",         cx: 477, cy: 180, big: false },
-  { name: "Oxford",           slug: "oxford-mi",             cx: 466, cy: 165, big: false },
-  { name: "Novi",             slug: "novi-mi",               cx: 389, cy: 272, big: true  },
+  { name: "Birmingham",       slug: "birmingham-mi",         cx: 487, cy: 250, label: [0, 11],  anchor: "middle" },
+  { name: "Bloomfield Hills", slug: "bloomfield-hills-mi",   cx: 460, cy: 230, label: [-8, -8], anchor: "end"    },
+  { name: "Bloomfield Twp",   slug: "bloomfield-township-mi",cx: 445, cy: 244, label: [-8, 0],  anchor: "end"    },
+  { name: "Rochester",        slug: "rochester-mi",          cx: 514, cy: 200, label: [0, -8],  anchor: "middle" },
+  { name: "Rochester Hills",  slug: "rochester-hills-mi",    cx: 507, cy: 215, label: [-8, 0],  anchor: "end"    },
+  { name: "Troy",             slug: "troy-mi",               cx: 509, cy: 238, label: [8, 0],   anchor: "start"  },
+  { name: "West Bloomfield",  slug: "west-bloomfield-mi",    cx: 410, cy: 256, label: [-8, 0],  anchor: "end"    },
+  { name: "Royal Oak",        slug: "royal-oak-mi",          cx: 509, cy: 268, label: [8, 0],   anchor: "start"  },
+  { name: "Clarkston",        slug: "clarkston-mi",          cx: 413, cy: 190, label: [-8, 0],  anchor: "end"    },
+  { name: "Lake Orion",       slug: "lake-orion-mi",         cx: 477, cy: 175, label: [8, 0],   anchor: "start"  },
+  { name: "Oxford",           slug: "oxford-mi",             cx: 466, cy: 158, label: [-8, 0],  anchor: "end"    },
+  { name: "Novi",             slug: "novi-mi",               cx: 380, cy: 274, label: [-8, 0],  anchor: "end"    },
   // ── Macomb County ───────────────────────────────────────
-  { name: "Sterling Heights", slug: "sterling-heights-mi",   cx: 552, cy: 242, big: false },
-  { name: "Warren",           slug: "warren-mi",             cx: 552, cy: 268, big: false },
-  { name: "Clinton Twp",      slug: "clinton-township-mi",   cx: 581, cy: 241, big: false },
-  { name: "Macomb Twp",       slug: "macomb-township-mi",    cx: 574, cy: 218, big: true  },
-  { name: "Shelby Twp",       slug: "shelby-township-mi",    cx: 552, cy: 215, big: true  },
-  { name: "St. Clair Shores", slug: "st-clair-shores-mi",    cx: 596, cy: 267, big: true  },
+  { name: "Sterling Heights", slug: "sterling-heights-mi",   cx: 558, cy: 244, label: [8, 0],   anchor: "start"  },
+  { name: "Warren",           slug: "warren-mi",             cx: 552, cy: 268, label: [8, 0],   anchor: "start"  },
+  { name: "Clinton Twp",      slug: "clinton-township-mi",   cx: 588, cy: 236, label: [8, 0],   anchor: "start"  },
+  { name: "Macomb Twp",       slug: "macomb-township-mi",    cx: 580, cy: 210, label: [8, 0],   anchor: "start"  },
+  { name: "Shelby Twp",       slug: "shelby-township-mi",    cx: 555, cy: 208, label: [-8, 0],  anchor: "end"    },
+  { name: "St. Clair Shores", slug: "st-clair-shores-mi",    cx: 604, cy: 268, label: [8, 0],   anchor: "start"  },
   // ── Wayne County ────────────────────────────────────────
-  { name: "Grosse Pointe",    slug: "grosse-pointe-mi",      cx: 594, cy: 299, big: true  },
-  { name: "Northville",       slug: "northville-mi",         cx: 390, cy: 287, big: true  },
-  { name: "Plymouth",         slug: "plymouth-mi",           cx: 394, cy: 303, big: true  },
-  { name: "Livonia",          slug: "livonia-mi",            cx: 436, cy: 304, big: false },
-  { name: "Detroit",          slug: "detroit-mi",            cx: 546, cy: 315, big: false },
-  { name: "Romulus",          slug: "romulus-mi",            cx: 421, cy: 348, big: false },
+  { name: "Grosse Pointe",    slug: "grosse-pointe-mi",      cx: 594, cy: 299, label: [8, 0],   anchor: "start"  },
+  { name: "Northville",       slug: "northville-mi",         cx: 393, cy: 296, label: [-8, 0],  anchor: "end"    },
+  { name: "Plymouth",         slug: "plymouth-mi",           cx: 400, cy: 312, label: [-8, 0],  anchor: "end"    },
+  { name: "Livonia",          slug: "livonia-mi",            cx: 436, cy: 308, label: [0, 11],  anchor: "middle" },
+  { name: "Detroit",          slug: "detroit-mi",            cx: 540, cy: 320, label: [0, 11],  anchor: "middle" },
+  { name: "Romulus",          slug: "romulus-mi",            cx: 430, cy: 355, label: [0, 11],  anchor: "middle" },
 ];
 
 export default function MapMI() {
@@ -135,9 +138,11 @@ export default function MapMI() {
           </g>
         ))}
 
-        {/* ── City pins (featured neighborhood guides) ── */}
+        {/* ── City pins — all 24 neighborhood guides ── */}
         {CITY_PINS.map((city) => {
           const isHovered = hovered === city.slug;
+          const [dx, dy] = city.label ?? [0, -10];
+          const anchor = city.anchor ?? "middle";
           return (
             <Link
               key={city.slug}
@@ -149,73 +154,43 @@ export default function MapMI() {
                 onMouseLeave={() => setHovered(null)}
                 style={{ cursor: "pointer" }}
               >
-                {city.big ? (
-                  <>
-                    <circle
-                      cx={city.cx}
-                      cy={city.cy}
-                      r={isHovered ? 11 : 9}
-                      fill="none"
-                      stroke="var(--red)"
-                      strokeWidth="0.75"
-                      opacity="0.25"
-                      style={{ transition: "r 0.15s ease" }}
-                    />
-                    <circle
-                      cx={city.cx}
-                      cy={city.cy}
-                      r={isHovered ? 7 : 5.5}
-                      fill="none"
-                      stroke="var(--red)"
-                      strokeWidth="1"
-                      opacity="0.5"
-                      style={{ transition: "r 0.15s ease" }}
-                    />
-                    <circle
-                      cx={city.cx}
-                      cy={city.cy}
-                      r={isHovered ? 4 : 3}
-                      fill="var(--red)"
-                      style={{ transition: "r 0.15s ease" }}
-                    />
-                  </>
-                ) : (
-                  <circle
-                    cx={city.cx}
-                    cy={city.cy}
-                    r={isHovered ? 3.5 : 2.5}
-                    fill={isHovered ? "var(--red)" : "var(--ink-2)"}
-                    style={{ transition: "all 0.15s ease" }}
-                  />
-                )}
-
-                {isHovered && (
-                  <g>
-                    <rect
-                      x={city.cx - 40}
-                      y={city.cy - 26}
-                      width={80}
-                      height={16}
-                      rx="2"
-                      fill="var(--ink)"
-                      opacity="0.92"
-                    />
-                    <text
-                      x={city.cx}
-                      y={city.cy - 14}
-                      textAnchor="middle"
-                      style={{
-                        fontFamily: "var(--font-inter, 'Inter', sans-serif)",
-                        fontSize: "8px",
-                        fill: "#FDFBF7",
-                        letterSpacing: "0.04em",
-                        pointerEvents: "none",
-                      }}
-                    >
-                      {city.name}
-                    </text>
-                  </g>
-                )}
+                {/* Hover ring */}
+                <circle
+                  cx={city.cx}
+                  cy={city.cy}
+                  r={isHovered ? 8 : 0}
+                  fill="none"
+                  stroke="var(--red)"
+                  strokeWidth="0.75"
+                  opacity={isHovered ? 0.3 : 0}
+                  style={{ transition: "all 0.15s ease" }}
+                />
+                {/* Solid red dot */}
+                <circle
+                  cx={city.cx}
+                  cy={city.cy}
+                  r={isHovered ? 4 : 3}
+                  fill="var(--red)"
+                  style={{ transition: "r 0.15s ease" }}
+                />
+                {/* City name label — always visible */}
+                <text
+                  x={city.cx + dx}
+                  y={city.cy + dy}
+                  textAnchor={anchor}
+                  dominantBaseline="central"
+                  style={{
+                    fontFamily: "var(--font-inter, 'Inter', sans-serif)",
+                    fontSize: isHovered ? "8px" : "7px",
+                    fill: isHovered ? "var(--red)" : "var(--ink-2)",
+                    letterSpacing: "0.02em",
+                    pointerEvents: "none",
+                    fontWeight: isHovered ? 600 : 400,
+                    transition: "all 0.15s ease",
+                  }}
+                >
+                  {city.name}
+                </text>
               </g>
             </Link>
           );
