@@ -17,6 +17,7 @@ function getLeadType(interest: string): number {
 
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [formLoadedAt] = useState(() => Date.now());
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -52,6 +53,7 @@ export default function ContactForm() {
           note,
           tags: ["contact-form", interest].filter(Boolean),
           honeypot,
+          _t: formLoadedAt,
         }),
       });
 

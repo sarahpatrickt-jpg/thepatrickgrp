@@ -9,6 +9,7 @@ const labelClass = "block text-xs uppercase tracking-widest text-white/60 font-s
 
 export default function CashOfferForm() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [formLoadedAt] = useState(() => Date.now());
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -46,6 +47,7 @@ export default function CashOfferForm() {
           note,
           tags: ["cash-offer-lead", "seller-lead"],
           honeypot,
+          _t: formLoadedAt,
         }),
       });
 

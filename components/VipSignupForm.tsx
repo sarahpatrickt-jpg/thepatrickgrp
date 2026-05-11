@@ -12,6 +12,7 @@ const labelClass = "block text-sm font-medium text-[#1a1a1a] mb-1";
 
 export default function VipSignupForm() {
   const [status, setStatus] = useState<Status>("idle");
+  const [formLoadedAt] = useState(() => Date.now());
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -50,6 +51,7 @@ export default function VipSignupForm() {
           note,
           tags: ["vip-buyer", "coming-soon-list"],
           honeypot,
+          _t: formLoadedAt,
         }),
       });
       if (res.ok) {

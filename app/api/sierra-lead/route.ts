@@ -2,6 +2,48 @@ import { NextRequest, NextResponse } from "next/server";
 
 const SIERRA_API_URL = "https://api.sierrainteractivedev.com/leads";
 
+/* ── Bot-detection helpers ── */
+
+/** Returns true if a name looks like bot gibberish (e.g. "VHsxXnargkKsDuREO") */
+function isGibberishName(name: string): boolean {
+  if (!name || name.length < 2) return false;
+  const cleaned = name.trim();
+  // Real names rarely exceed 30 chars without a space
+  if (cleaned.length > 30 && !cleaned.includes(" ")) return true;
+  // Check for vowel presence — real names (in any language romanized) have vowels
+  const vowelRatio = (cleaned.match(/[aeiouAEIOU]/g) || []).length / cleaned.length;
+  if (cleaned.length > 4 && vowelRatio < 0.1) return true;
+  // Random case switching mid-word (e.g. "VHsxXnargkK") — 4+ case flips in one word
+  const words = cleaned.split(/\s+/);
+  for (const word of words) {
+    if (word.length < 5) continue;
+    let caseFlips = 0;
+    for (let i = 1; i < word.length; i++) {
+      const prev = word[i - 1];
+      const curr = word[i];
+      if (/[a-zA-Z]/.test(prev) && /[a-zA-Z]/.test(curr)) {
+        if ((prev === prev.toUpperCase()) !== (curr === curr.toUpperCase())) {
+          caseFlips++;
+        }
+      }
+    }
+    if (caseFlips >= 4) return true;
+  }
+  return false;
+}
+
+/** Returns true if the email domain looks like a disposable/throwaway pattern */
+function isSuspiciousEmail(email: string): boolean {
+  if (!email) return false;
+  // Local part is 15+ random-looking chars
+  const local = email.split("@")[0] || "";
+  if (local.length > 15) {
+    const vowelRatio = (local.replace(/[^a-zA-Z]/g, "").match(/[aeiou]/gi) || []).length / local.length;
+    if (vowelRatio < 0.15) return true;
+  }
+  return false;
+}
+
 export async function POST(req: NextRequest) {
   try {
     const {
@@ -14,11 +56,30 @@ export async function POST(req: NextRequest) {
       note,
       tags = [],
       honeypot,
+      _t, // timestamp when form was rendered (bot-speed check)
     } = await req.json();
 
     // Honeypot check — bots fill hidden fields, humans don't
     if (honeypot) {
-      // Return 200 so bots think they succeeded
+      return NextResponse.json({ success: true }, { status: 200 });
+    }
+
+    // Time-based check — bots submit forms in < 3 seconds
+    if (_t) {
+      const elapsed = Date.now() - Number(_t);
+      if (elapsed < 3000) {
+        // Too fast to be human — fake success
+        return NextResponse.json({ success: true }, { status: 200 });
+      }
+    }
+
+    // Gibberish name check — catches "VHsxXnargkKsDuREO" style bot names
+    if (isGibberishName(firstName) || isGibberishName(lastName)) {
+      return NextResponse.json({ success: true }, { status: 200 });
+    }
+
+    // Suspicious email check
+    if (isSuspiciousEmail(email)) {
       return NextResponse.json({ success: true }, { status: 200 });
     }
 
