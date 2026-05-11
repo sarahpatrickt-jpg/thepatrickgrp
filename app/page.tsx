@@ -785,7 +785,7 @@ export default function HomePage() {
                 {
                   src: "/team/christian-brown.jpg",
                   name: "Christian Brown",
-                  title: "Team Member",
+                  title: "Realtor®",
                   awards: "",
                 },
                 {

@@ -2,7 +2,7 @@
 
 # The Patrick Group — thepatrickgrp.com
 
-Boutique real estate team in Southeast Michigan. Principal Broker: **Sarah Patrick** (licensed since 2000). Team also includes **Brad Patrick** (Realtor®), Christian Brown, and Christian Wodtke.
+Boutique real estate team in Southeast Michigan. Principal Broker: **Sarah Patrick** (licensed since 2000). Team also includes **Brad Patrick** (Realtor®), **Christian Brown** (Realtor®), and Christian Wodtke.
 
 **Stack:** Next.js App Router, TypeScript, Tailwind CSS. Auto-deploys to Vercel on every push to `main` (GitHub: sarahpatrickt-jpg/thepatrickgrp).
 
@@ -14,7 +14,7 @@ Boutique real estate team in Southeast Michigan. Principal Broker: **Sarah Patri
 |---|---|---|
 | Sarah Patrick | Principal Broker / Owner | 26 years experience. Her title is always "Principal Broker" — never "agent" |
 | Brad Patrick | Realtor® | Title is exactly "Realtor®" — NOT "Lead Buyer's Agent" or any other variation |
-| Christian Brown | Team Member | |
+| Christian Brown | Realtor® | |
 | Christian Wodtke | Team Member | |
 
 ---
