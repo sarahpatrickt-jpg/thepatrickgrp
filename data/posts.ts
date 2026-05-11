@@ -1566,6 +1566,139 @@ export const posts: Post[] = [
     ],
   },
 
+  // ─── "Mid-May 2026 Market Pulse" ────────────────────────────────────────
+  {
+    slug: "may-2026-southeast-michigan-market-pulse",
+    title: "May 2026 Market Pulse: Midwest Markets Are Getting National Attention",
+    excerpt:
+      "Southeast Michigan just landed on multiple national hottest-markets lists. Here's what that means locally — and whether the hype matches reality on the ground.",
+    date: "2026-05-11",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "5 min read",
+    relatedSlugs: ["spring-2026-southeast-michigan-market-update", "how-to-win-a-bidding-war-metro-detroit", "best-time-to-sell-a-house-southeast-michigan"],
+    relatedCitySlugs: ["troy-mi", "birmingham-mi", "shelby-township-mi", "rochester-hills-mi", "livonia-mi", "clinton-township-mi"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Something shifted in the national conversation this month. Fortune and Redfin both published their 2026 hottest-neighborhood rankings — and Michigan showed up twice in the top 10. Locally, the Detroit News ran its own analysis putting Livonia and Troy at the top of the state. Southeast Michigan is getting attention it hasn't had in years.",
+      },
+      {
+        type: "paragraph",
+        text: "That's the headline. Here's what it actually means if you're trying to buy or sell in Oakland or Macomb County right now.",
+      },
+      {
+        type: "h2",
+        text: "The National Rankings",
+      },
+      {
+        type: "paragraph",
+        text: "Redfin's 2026 hottest-neighborhoods list put two Michigan communities in the top 10 nationally. The rankings are based on year-over-year price growth, sale-to-list ratios, share of homes selling above asking, and days on market. Separately, the Detroit News analyzed Southeast Michigan cities using Redfin data and found that Livonia and Troy had the most competitive housing markets in the region.",
+      },
+      {
+        type: "paragraph",
+        text: "The common thread: Midwest affordability is pulling in buyers from higher-cost markets. A median home price under $400,000 in communities with strong infrastructure, employment access, and short commute times is compelling to buyers who've been priced out of coastal metros.",
+      },
+      {
+        type: "h2",
+        text: "Where Rates Stand This Week",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "30-Year Fixed", value: "6.25–6.45%", note: "as of May 11" },
+          { label: "Oakland County Median", value: "~$355,000", note: "+2–3% YoY" },
+          { label: "MI Inventory", value: "~2.5 mo.", note: "balanced = 5–6 months" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Mortgage rates have been stubbornly range-bound since late winter — hovering between 6.25% and 6.45% on a 30-year fixed depending on the lender and borrower profile. The rate relief that some buyers were hoping for by spring hasn't materialized. That's keeping transaction volume lower than it would be otherwise, but it's not stopping motivated buyers from acting.",
+      },
+      {
+        type: "h2",
+        text: "Inventory: Up, but Not for the Reason You'd Hope",
+      },
+      {
+        type: "paragraph",
+        text: "Active listings across Metro Detroit are up roughly 13–17% year-over-year depending on the submarket. That sounds like good news for buyers — more to choose from. But the increase isn't driven by a wave of new listings hitting the market. It's driven by homes sitting longer. The listings that are priced right and well-prepared are still moving in under three weeks. The ones that aren't are accumulating.",
+      },
+      {
+        type: "callout",
+        label: "The split market",
+        text: "This is the defining feature of spring 2026 in Southeast Michigan. There is no single market. There is a fast market for well-priced, well-prepared homes — and a slow market for everything else. The gap between the two is wider than it was a year ago.",
+      },
+      {
+        type: "h2",
+        text: "What I'm Watching This Month",
+      },
+      {
+        type: "h3",
+        text: "Oakland County: Still Competitive Under $450K",
+      },
+      {
+        type: "paragraph",
+        text: "The sub-$450K single-family market in Oakland County remains the most competitive segment in Southeast Michigan. Troy, Livonia, and Rochester Hills are seeing homes go under contract within two weeks when priced accurately. Above $600K, buyers have leverage they didn't have last year — especially in Bloomfield and parts of West Bloomfield where luxury inventory has been building.",
+      },
+      {
+        type: "h3",
+        text: "Macomb County: The Value Play Continues",
+      },
+      {
+        type: "paragraph",
+        text: "Shelby Township and Clinton Township continue to attract buyers who've been priced out of Oakland County. Macomb County's price appreciation has been quietly strong — up nearly 5% year-over-year in some pockets — and the demand from move-up buyers and first-time buyers is real. New construction activity in Washington Township and northern Macomb is adding inventory, but it's getting absorbed.",
+      },
+      {
+        type: "h3",
+        text: "The Rate Lock Question",
+      },
+      {
+        type: "paragraph",
+        text: "Multiple buyers have asked me this month whether they should wait for rates to drop before buying. My answer hasn't changed: if you find the right home at the right price, act. You can refinance a rate. You can't retroactively buy a home that sold to someone else. The buyers who are winning right now are the ones who've stopped trying to time rates and started focusing on finding the right property.",
+      },
+      {
+        type: "h2",
+        text: "For Sellers: The Window Is Open — Use It Well",
+      },
+      {
+        type: "paragraph",
+        text: "May through mid-June is historically the strongest stretch for sellers in Southeast Michigan. Buyer activity is at its seasonal peak, and homes that hit the market in the next four weeks get maximum exposure. But the market is less forgiving than it was in 2022 or 2023.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Price with current data. The homes sitting longest this spring are the ones priced based on what the neighbor got six months ago rather than what comparable homes are closing at now.",
+          "Invest in presentation. Professional photography, decluttering, and handling deferred maintenance before listing — not after the first price reduction.",
+          "Expect negotiation above $500K. Buyers at the upper end of the market have options and are using them. The days of multiple offers on every luxury listing are over for now.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "For Buyers: You Have More Room Than You Think",
+      },
+      {
+        type: "paragraph",
+        text: "The national rankings validate what we've been telling relocators and local buyers: Southeast Michigan is fundamentally undervalued relative to comparable Midwest and coastal metros. The value here is real. But so is the competition in the most desirable price ranges.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Get fully underwritten before you start. In a multiple-offer situation at $350K in Troy, a pre-approval letter isn't enough — a fully underwritten approval signals certainty.",
+          "Don't sleep on Macomb County. The value-to-quality ratio in Shelby Township, Macomb Township, and even Sterling Heights is hard to beat.",
+          "Move on the right house. Inventory is up, but the good inventory still goes fast. The increase in active listings is not an invitation to wait.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "Southeast Michigan getting national attention isn't hype — the fundamentals support it. Prices are appreciating at a healthy pace. Inventory is tight but workable. Employment is stable. And the cost of entry is still dramatically lower than comparable markets nationally. Whether you're buying, selling, or thinking about it for later this year, the May picture is clear: the market rewards preparation and punishes delay.",
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
