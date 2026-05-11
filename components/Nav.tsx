@@ -93,7 +93,7 @@ export default function Nav() {
   const linkColor = "var(--ink-2)";
   const shadow    = "0 1px 0 var(--line)";
 
-  const linkClass = "text-[13px] font-medium transition-colors whitespace-nowrap";
+  const linkClass = "text-[13px] font-medium transition-colors whitespace-nowrap leading-none";
   const linkStyle = (href: string) => ({
     color: pathname === href ? "var(--red)" : linkColor,
     fontFamily: "var(--font-sans)",
@@ -109,7 +109,7 @@ export default function Nav() {
         <div className="relative flex items-center justify-between h-20">
 
           {/* ── Left: desktop nav links ── */}
-          <nav className="hidden lg:flex items-center gap-5 flex-1">
+          <nav className="hidden lg:flex items-baseline gap-5 flex-1">
             {leftLinksBefore.map((l) => (
               <Link key={l.href} href={l.href} className={linkClass} style={linkStyle(l.href)}>
                 {l.label}
@@ -128,7 +128,7 @@ export default function Nav() {
                 aria-haspopup="menu"
                 aria-expanded={specialtiesOpen}
                 onClick={() => setSpecialtiesOpen((o) => !o)}
-                className={`${linkClass} inline-flex items-center gap-1`}
+                className={`${linkClass} inline-flex items-baseline gap-1`}
                 style={{
                   color: specialtiesActive ? "var(--red)" : linkColor,
                   fontFamily: "var(--font-sans)",
@@ -148,6 +148,9 @@ export default function Nav() {
                   style={{
                     transition: "transform 200ms",
                     transform: specialtiesOpen ? "rotate(180deg)" : "rotate(0deg)",
+                    alignSelf: "center",
+                    position: "relative",
+                    top: "-1px",
                   }}
                 >
                   <path d="M2 3.5 L5 6.5 L8 3.5" fill="none" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
