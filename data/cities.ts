@@ -1431,6 +1431,8 @@ export const COMING_SOON_SLUGS: ReadonlyArray<string> = [
   "dexter-mi",
   "chelsea-mi",
   "milan-mi",
+  // Oakland (border)
+  "south-lyon-mi",
   // Livingston
   "brighton-mi",
   "howell-mi",

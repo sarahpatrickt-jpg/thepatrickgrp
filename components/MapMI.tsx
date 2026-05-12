@@ -58,7 +58,7 @@ const COUNTY_SHAPES: CountyShape[] = [
   },
 ];
 
-// All 24 cities with published neighborhood guides
+// All cities with pins on the map (24 published + coming-soon)
 const CITY_PINS: CityPin[] = [
   // ── Oakland County ──────────────────────────────────────
   { name: "Birmingham",       slug: "birmingham-mi",         cx: 487, cy: 250, label: [0, 11],  anchor: "middle" },
@@ -73,6 +73,7 @@ const CITY_PINS: CityPin[] = [
   { name: "Lake Orion",       slug: "lake-orion-mi",         cx: 477, cy: 175, label: [8, 0],   anchor: "start"  },
   { name: "Oxford",           slug: "oxford-mi",             cx: 466, cy: 158, label: [-8, 0],  anchor: "end"    },
   { name: "Novi",             slug: "novi-mi",               cx: 380, cy: 274, label: [-8, 0],  anchor: "end"    },
+  { name: "South Lyon",       slug: "south-lyon-mi",         cx: 335, cy: 264, label: [-8, 0],  anchor: "end"    },
   // ── Macomb County ───────────────────────────────────────
   { name: "Sterling Heights", slug: "sterling-heights-mi",   cx: 558, cy: 244, label: [8, 0],   anchor: "start"  },
   { name: "Warren",           slug: "warren-mi",             cx: 552, cy: 268, label: [8, 0],   anchor: "start"  },
@@ -87,6 +88,24 @@ const CITY_PINS: CityPin[] = [
   { name: "Livonia",          slug: "livonia-mi",            cx: 436, cy: 308, label: [0, 11],  anchor: "middle" },
   { name: "Detroit",          slug: "detroit-mi",            cx: 540, cy: 320, label: [0, 11],  anchor: "middle" },
   { name: "Romulus",          slug: "romulus-mi",            cx: 430, cy: 355, label: [0, 11],  anchor: "middle" },
+  // ── Genesee County (coming soon) ────────────────────────
+  { name: "Grand Blanc",      slug: "grand-blanc-mi",        cx: 350, cy: 155, label: [8, 0],   anchor: "start"  },
+  { name: "Fenton",           slug: "fenton-mi",             cx: 265, cy: 170, label: [-8, 0],  anchor: "end"    },
+  { name: "Linden",           slug: "linden-mi",             cx: 240, cy: 155, label: [-8, 0],  anchor: "end"    },
+  { name: "Goodrich",         slug: "goodrich-mi",           cx: 395, cy: 130, label: [8, 0],   anchor: "start"  },
+  // ── Livingston County (coming soon) ─────────────────────
+  { name: "Brighton",         slug: "brighton-mi",           cx: 225, cy: 230, label: [-8, 0],  anchor: "end"    },
+  { name: "Howell",           slug: "howell-mi",             cx: 185, cy: 218, label: [-8, 0],  anchor: "end"    },
+  { name: "Hartland",         slug: "hartland-mi",           cx: 248, cy: 200, label: [8, 0],   anchor: "start"  },
+  // ── Washtenaw County (coming soon) ──────────────────────
+  { name: "Ann Arbor",        slug: "ann-arbor-mi",          cx: 180, cy: 358, label: [-8, 0],  anchor: "end"    },
+  { name: "Ypsilanti",        slug: "ypsilanti-mi",          cx: 260, cy: 352, label: [8, 0],   anchor: "start"  },
+  { name: "Saline",           slug: "saline-mi",             cx: 200, cy: 392, label: [8, 0],   anchor: "start"  },
+  { name: "Dexter",           slug: "dexter-mi",             cx: 120, cy: 345, label: [-8, 0],  anchor: "end"    },
+  { name: "Chelsea",          slug: "chelsea-mi",            cx: 80,  cy: 338, label: [-8, 0],  anchor: "end"    },
+  // ── Monroe County (coming soon) ─────────────────────────
+  { name: "Monroe",           slug: "monroe-mi",             cx: 380, cy: 470, label: [8, 0],   anchor: "start"  },
+  { name: "Dundee",           slug: "dundee-mi",             cx: 310, cy: 458, label: [-8, 0],  anchor: "end"    },
 ];
 
 export default function MapMI() {
