@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cities, getCityBySlug, getAllSlugs, isComingSoonSlug } from "@/data/cities";
@@ -28,6 +29,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${city.name} MI Real Estate | The Patrick Group`,
       description: `Home prices, market stats, school info, and Brad Patrick's take on ${city.name}, Michigan. ${city.county} County real estate specialists.`,
       url: `https://thepatrickgrp.com/neighborhoods/${city.slug}`,
+      images: [
+        {
+          url: `/images/cities/${city.slug}.png`,
+          width: 1792,
+          height: 1024,
+          alt: `${city.name}, Michigan neighborhood`,
+        },
+      ],
     },
   };
 }
@@ -179,13 +188,24 @@ export default async function CityPage({ params }: Props) {
       />
 
       {/* ── Hero ─────────────────────────────────────────────────────────────── */}
-      <section
-        className="pt-32 pb-16 px-4 sm:px-6"
-        style={{
-          background: "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
-        }}
-      >
-        <div className="max-w-3xl mx-auto">
+      <section className="relative pt-32 pb-20 px-4 sm:px-6 overflow-hidden">
+        {/* City hero image */}
+        <Image
+          src={`/images/cities/${city.slug}.png`}
+          alt={`${city.name}, Michigan neighborhood`}
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        {/* Dark overlay for text readability */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: "linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.65) 100%)",
+          }}
+        />
+        <div className="relative z-10 max-w-3xl mx-auto">
           <Link
             href="/neighborhoods"
             className="text-[#c70000] text-xs uppercase tracking-widest font-semibold hover:underline"
