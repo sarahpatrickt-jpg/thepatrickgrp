@@ -1408,6 +1408,839 @@ export const cities: City[] = [
     ],
     ctaVariant: "buyer",
   },
+
+  // ─── GENESEE COUNTY ────────────────────────────────────────────────────────
+
+  {
+    slug: "grand-blanc-mi",
+    name: "Grand Blanc",
+    county: "Genesee",
+    state: "MI",
+    zipCodes: ["48439", "48480"],
+    marketStats: {
+      medianPrice: 265000,
+      medianPriceChange: 5.2,
+      daysOnMarket: 28,
+      pricePerSqft: 145,
+    },
+    priceRange: {
+      low: "Under $200K gets you a well-maintained ranch or starter home in established subdivisions with mature landscaping.",
+      high: "$200K–$350K opens up updated colonials, newer builds, and homes with finished basements in popular neighborhoods near Grand Blanc schools.",
+      luxury: "Above $350K you're looking at newer construction, larger lots, and custom homes in developments like Woodfield and surrounding areas.",
+    },
+    schoolDistrict: "Grand Blanc Community Schools",
+    commuteToDetroit: "60 min",
+    about:
+      "Grand Blanc sits at the southern edge of Genesee County, roughly 60 miles northwest of Detroit. It functions as the primary residential suburb for families and professionals who work in the Flint metro area but prefer a quieter, more suburban setting. The city and surrounding Grand Blanc Township together offer a mix of established neighborhoods, newer developments, and commercial corridors along Saginaw Road and Holly Road.\n\nThe community has a small but functional downtown area and benefits from proximity to Genesys Regional Medical Center, one of the region's largest employers. Grand Blanc has consistently attracted families looking for affordable housing paired with a well-regarded school district.",
+    realEstateOverview:
+      "Grand Blanc's housing stock is heavily weighted toward single-family homes built from the 1970s through the 2010s. You'll find everything from modest ranches in older subdivisions to newer colonial and contemporary homes in planned developments. The market here moves at a moderate pace — well-priced homes sell within a month, but you're unlikely to see the same bidding-war intensity as Oakland County.\n\nLot sizes tend to be generous by metro Detroit standards, and many properties include features like finished basements and attached garages that would cost significantly more in communities closer to Detroit.",
+    locationAccess: [
+      "Located along I-75, approximately 60 miles northwest of Detroit",
+      "15 minutes south of downtown Flint",
+      "Easy access to US-23 for connections to Ann Arbor and Toledo",
+      "Bishop International Airport (FNT) is approximately 20 minutes north",
+    ],
+    schoolInfo:
+      "Grand Blanc is served by Grand Blanc Community Schools, one of the larger districts in Genesee County. The district operates multiple elementary schools, a middle school complex, and Grand Blanc High School. Verify specific school assignments with the district for any property you're considering.",
+    bradQuote:
+      "Grand Blanc is where your dollar stretches the furthest without sacrificing school quality or neighborhood feel. Buyers coming from Oakland County are consistently surprised by what $250K buys here — and the commute to Flint-area employers is measured in minutes, not hours.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["fenton-mi", "goodrich-mi", "linden-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Grand Blanc MI")}`,
+    faqs: [
+      {
+        q: "Is Grand Blanc a good place to buy a first home?",
+        a: "Yes. Entry-level homes under $200K are available in well-maintained subdivisions with good access to schools and shopping. The combination of affordability and school district quality makes Grand Blanc one of the strongest first-time buyer markets in Genesee County.",
+      },
+      {
+        q: "How far is Grand Blanc from Oakland County?",
+        a: "Grand Blanc is approximately 30–40 minutes north of northern Oakland County cities like Clarkston and Oxford via I-75. Some buyers commute south to Oakland County employers, though it's a longer drive than most Metro Detroit suburbs.",
+      },
+      {
+        q: "What's the job market like near Grand Blanc?",
+        a: "The largest employers in the area include Genesys Regional Medical Center, the Grand Blanc school district, and various General Motors facilities in the broader Flint area. Many residents also commute to employers along the I-75 corridor.",
+      },
+      {
+        q: "How does Grand Blanc compare to Fenton?",
+        a: "Both are affordable Genesee County options, but they have different characters. Grand Blanc is more suburban and subdivision-oriented. Fenton has a charming downtown and lakeside identity. Grand Blanc tends to have slightly lower price points and larger school enrollment.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  {
+    slug: "fenton-mi",
+    name: "Fenton",
+    county: "Genesee",
+    state: "MI",
+    zipCodes: ["48430"],
+    marketStats: {
+      medianPrice: 295000,
+      medianPriceChange: 6.8,
+      daysOnMarket: 25,
+      pricePerSqft: 160,
+    },
+    priceRange: {
+      low: "Under $225K gets you a solid ranch or bungalow in town, often within walking distance of downtown Fenton.",
+      high: "$225K–$400K brings updated homes on larger lots, newer subdivisions, and properties with lake access or proximity.",
+      luxury: "Above $400K you're into lakefront homes on Lake Fenton, Silver Lake, or Marl Lake — direct waterfront with private docks.",
+    },
+    schoolDistrict: "Fenton Area Public Schools",
+    commuteToDetroit: "55 min",
+    about:
+      "Fenton is a small city in southwestern Genesee County with a genuine downtown, a thriving restaurant scene, and access to several inland lakes that define the area's identity. The city sits at the intersection of US-23 and Silver Lake Road, making it a natural crossroads between Flint, Ann Arbor, and the northern Oakland County communities.\n\nThe downtown along LeRoy Street has seen significant reinvestment over the past decade — local restaurants, coffee shops, breweries, and boutiques have filled storefronts and created a walkable core that draws visitors from surrounding communities. Fenton's lakeside lifestyle is the primary draw for buyers who want waterfront living without lakefront pricing found in northern Michigan.",
+    realEstateOverview:
+      "Fenton's real estate market splits into two distinct tiers: in-town homes and lakefront properties. In-town inventory includes bungalows, ranches, and colonials from the mid-20th century through recent construction. Lakefront homes on Lake Fenton, Silver Lake, and Marl Lake command premium pricing and move quickly when priced correctly.\n\nThe area has also seen newer subdivision development east and south of town, attracting families who want the Fenton school district and lifestyle without necessarily being on the water. Inventory turns over at a healthy pace — this isn't a market where homes sit for months.",
+    locationAccess: [
+      "Direct access to US-23 for quick connections north to Flint or south to Ann Arbor",
+      "Approximately 55 minutes northwest of Detroit via US-23 and I-96",
+      "25 minutes south of downtown Flint",
+      "Surrounded by Lake Fenton, Silver Lake, and Marl Lake",
+    ],
+    schoolInfo:
+      "Fenton is served by Fenton Area Public Schools, which includes multiple elementary schools, a middle school, and Fenton High School. The district serves the city of Fenton and portions of the surrounding township. Confirm specific school assignments with the district for any address.",
+    bradQuote:
+      "Fenton is what happens when a small town gets it right. The downtown has real energy, the lakes give it a resort feel, and the pricing is still accessible compared to anything in Oakland County. I'm seeing more buyers from the south side of Metro Detroit discover this market every year.",
+    quoteAuthor: "Brad",
+    nearbySlugsSee: ["grand-blanc-mi", "linden-mi", "hartland-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Fenton MI")}`,
+    faqs: [
+      {
+        q: "What lakes are near Fenton?",
+        a: "Fenton is surrounded by several desirable inland lakes including Lake Fenton (the largest), Silver Lake, and Marl Lake. Lakefront homes are available on all three, with pricing that varies based on lot size, lake size, and home condition. Lake Fenton properties tend to command the highest premiums.",
+      },
+      {
+        q: "Is Fenton's downtown walkable?",
+        a: "Yes. Downtown Fenton along LeRoy Street is one of the most walkable small-town centers in the region. Restaurants, coffee shops, a brewery, and independent retail are concentrated within a few blocks. The Fenton community hosts regular downtown events throughout the year.",
+      },
+      {
+        q: "How does Fenton compare to Brighton?",
+        a: "Both are desirable small cities with lake access and active downtowns. Brighton is in Livingston County and tends to run $30K–$60K higher on comparable homes. Fenton has a slightly more small-town feel and is closer to Flint, while Brighton is positioned more toward the Ann Arbor–Detroit corridor.",
+      },
+      {
+        q: "Are there new construction options in Fenton?",
+        a: "Yes. Several newer subdivisions have been developed in Fenton Township east and south of the city center. These offer contemporary floor plans and modern finishes at prices that are competitive compared to new construction in Oakland or Livingston counties.",
+      },
+    ],
+    ctaVariant: "both",
+  },
+
+  {
+    slug: "linden-mi",
+    name: "Linden",
+    county: "Genesee",
+    state: "MI",
+    zipCodes: ["48451"],
+    marketStats: {
+      medianPrice: 275000,
+      medianPriceChange: 4.5,
+      daysOnMarket: 30,
+      pricePerSqft: 150,
+    },
+    priceRange: {
+      low: "Under $200K gets you a ranch or older home in town, often on a quiet residential street within walking distance of the mill pond area.",
+      high: "$200K–$350K brings updated colonials, newer builds in surrounding Argentine Township, and homes with acreage.",
+      luxury: "Above $350K you're looking at lakefront properties on Byram Lake or larger parcels with custom-built homes in the surrounding countryside.",
+    },
+    schoolDistrict: "Linden Community Schools",
+    commuteToDetroit: "60 min",
+    about:
+      "Linden is a small, quiet community just west of Fenton in southwestern Genesee County. The city centers around a historic mill pond and a compact downtown with a handful of shops and restaurants. It's the kind of place where neighbors know each other and the pace is deliberately slower than the metro sprawl to the south.\n\nThe surrounding Argentine Township offers a more rural setting with larger lots and agricultural land, while still providing easy access to US-23 for commuters. Linden's appeal is straightforward: small-town living with reasonable home prices and a solid school district.",
+    realEstateOverview:
+      "Linden's housing stock is modest in scale — primarily ranches, bungalows, and colonials built from the 1950s through the 1990s in the city proper, with newer construction scattered through the township. The market is quiet but steady, with homes turning over at a moderate pace.\n\nBuyers looking for rural-adjacent living with a community anchor will find what they're looking for here. Lakefront properties on Byram Lake and other nearby bodies of water add a premium tier to an otherwise affordable market.",
+    locationAccess: [
+      "Located just west of Fenton along Silver Lake Road",
+      "US-23 access is approximately 5 minutes east via Fenton",
+      "30 minutes south of downtown Flint",
+      "Approximately 60 minutes northwest of Detroit",
+    ],
+    schoolInfo:
+      "Linden is served by Linden Community Schools, which includes an elementary school, a middle school, and Linden High School. The district serves the city and portions of surrounding Argentine and Fenton townships.",
+    bradQuote:
+      "Linden is the sleeper pick in southwestern Genesee County. You get the small-town charm, a solid school district, and pricing that lets you buy more house than you'd ever get closer to Detroit. If quiet and affordable is what you're after, Linden delivers.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["fenton-mi", "grand-blanc-mi", "hartland-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Linden MI")}`,
+    faqs: [
+      {
+        q: "How does Linden compare to Fenton?",
+        a: "Linden is smaller, quieter, and more affordable than Fenton. Fenton has a more developed downtown and lake scene. Linden appeals to buyers who want genuine small-town living without paying for Fenton's premium. The two communities are only a few minutes apart.",
+      },
+      {
+        q: "Is Linden rural?",
+        a: "The city of Linden itself has a compact residential core around the mill pond. The surrounding Argentine Township is more rural with larger lots and agricultural land. You can find both settings within the Linden school district.",
+      },
+      {
+        q: "What's the commute like from Linden to Metro Detroit?",
+        a: "Expect approximately 60 minutes to reach central Oakland County or Detroit via US-23 to I-96 or I-75. The commute is manageable but not short — Linden works best for people who work locally, remotely, or are willing to trade drive time for affordability.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  {
+    slug: "goodrich-mi",
+    name: "Goodrich",
+    county: "Genesee",
+    state: "MI",
+    zipCodes: ["48438"],
+    marketStats: {
+      medianPrice: 310000,
+      medianPriceChange: 5.8,
+      daysOnMarket: 32,
+      pricePerSqft: 155,
+    },
+    priceRange: {
+      low: "Under $225K gets you an older ranch or small home in the village or on a modest lot in surrounding Atlas Township.",
+      high: "$225K–$400K brings newer colonials, homes on several acres, and properties in subdivisions near the Goodrich school complex.",
+      luxury: "Above $400K opens up larger parcels with 5+ acres, horse-ready properties, and custom homes built in the rolling Genesee County countryside.",
+    },
+    schoolDistrict: "Goodrich Area Schools",
+    commuteToDetroit: "55 min",
+    about:
+      "Goodrich is a small village in Atlas Township, positioned in the eastern part of Genesee County between Flint and the northern Oakland County communities. It has a distinctly rural character — rolling hills, horse farms, and open land — while still offering convenient access to I-75 and the Davison Freeway for commuters.\n\nThe village itself is small, with a few local shops and restaurants around the main intersection. Goodrich's primary draw is the combination of a well-regarded school district, affordable acreage, and a rural lifestyle that's still within reasonable driving distance of employment centers in both Genesee and Oakland counties.",
+    realEstateOverview:
+      "Goodrich's real estate market leans toward larger lots and rural properties. While there are some subdivision-style neighborhoods, many homes sit on one to ten or more acres. The housing stock includes everything from modest ranches to large custom-built homes on multi-acre parcels.\n\nThis is not a high-turnover market — properties tend to be owner-occupied for long periods, and inventory is limited at any given time. When homes do come to market, those in the Goodrich school district tend to attract strong interest, particularly from families relocating from more expensive Oakland County communities.",
+    locationAccess: [
+      "Located along M-15, approximately 15 miles north of Clarkston",
+      "I-75 access is approximately 10 minutes west via Grange Hall Road",
+      "20 minutes southeast of downtown Flint",
+      "Northern Oakland County communities are approximately 20–30 minutes south",
+    ],
+    schoolInfo:
+      "Goodrich is served by Goodrich Area Schools, a smaller district that includes an elementary school, a middle school, and Goodrich High School. The district covers the village and surrounding portions of Atlas Township.",
+    bradQuote:
+      "Goodrich is where buyers go when they want land, privacy, and a strong school district without paying Oakland County prices. It's rural Michigan at its best — rolling terrain, room to breathe, and a tight-knit community that takes care of its own.",
+    quoteAuthor: "Brad",
+    nearbySlugsSee: ["grand-blanc-mi", "clarkston-mi", "oxford-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Goodrich MI")}`,
+    faqs: [
+      {
+        q: "Is Goodrich considered rural?",
+        a: "Yes. Goodrich and the surrounding Atlas Township are distinctly rural. Expect larger lots, agricultural properties, and a country lifestyle. The village has basic services, but for significant shopping or dining, residents typically drive to Grand Blanc or the Clarkston/Ortonville area.",
+      },
+      {
+        q: "Can I find horse property in Goodrich?",
+        a: "Absolutely. Goodrich and Atlas Township are popular with equestrian buyers. Multi-acre properties with existing barns or room to build equestrian facilities are regularly available. Zoning in the township is generally accommodating for agricultural and equestrian use.",
+      },
+      {
+        q: "How does Goodrich compare to Clarkston?",
+        a: "Clarkston offers more of a village-meets-suburb feel with a walkable downtown and closer proximity to Oakland County employers. Goodrich is more rural, more affordable, and quieter. You get significantly more land for your money in Goodrich, but you're further from the metro employment centers.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  // ─── LIVINGSTON COUNTY ─────────────────────────────────────────────────────
+
+  {
+    slug: "brighton-mi",
+    name: "Brighton",
+    county: "Livingston",
+    state: "MI",
+    zipCodes: ["48114", "48116"],
+    marketStats: {
+      medianPrice: 385000,
+      medianPriceChange: 6.2,
+      daysOnMarket: 22,
+      pricePerSqft: 185,
+    },
+    priceRange: {
+      low: "Under $275K gets you a well-maintained ranch or smaller home in older neighborhoods near the downtown core.",
+      high: "$275K–$500K brings updated colonials, newer subdivision homes, and properties with lake access or proximity in Brighton Township.",
+      luxury: "Above $500K you're into lakefront homes on Island Lake, Woodland Lake, or custom builds on acreage in the surrounding countryside.",
+    },
+    schoolDistrict: "Brighton Area Schools",
+    commuteToDetroit: "50 min",
+    about:
+      "Brighton sits at the crossroads of I-96 and US-23 in Livingston County, making it one of the most accessible small cities in the region. The downtown along Grand River Avenue has a genuine Main Street character — independent restaurants, coffee shops, boutiques, and a year-round event calendar that includes the well-known Brighton Art Fair and holiday celebrations.\n\nThe surrounding Brighton Township and Green Oak Township add a layer of lakeside and semi-rural living that's harder to find closer to Detroit. Multiple inland lakes, state recreation areas, and the Huron River corridor give Brighton a recreational identity that distinguishes it from purely suburban communities.",
+    realEstateOverview:
+      "Brighton's housing market is among the strongest in Livingston County. The city proper offers a walkable residential core with homes from the early to mid-1900s, while surrounding townships feature newer subdivisions, lake communities, and rural parcels. Homes here move quickly — well-priced listings in the Brighton school district regularly attract multiple offers.\n\nThe lakefront segment is particularly competitive. Properties on Island Lake, Woodland Lake, and other area bodies of water carry significant premiums and often sell within days of listing. New construction is active in subdivisions along the I-96 corridor.",
+    locationAccess: [
+      "Located at the interchange of I-96 and US-23 — direct highway access in all directions",
+      "Approximately 50 minutes northwest of Detroit via I-96",
+      "35 minutes north of Ann Arbor via US-23",
+      "Surrounded by Island Lake State Recreation Area and Huron Meadows Metropark",
+    ],
+    schoolInfo:
+      "Brighton is served by Brighton Area Schools, a well-enrolled district that includes multiple elementary buildings, Scranton Middle School, and Brighton High School. The district covers the city and portions of Brighton, Green Oak, Genoa, and Hamburg townships.",
+    bradQuote:
+      "Brighton is where highway access meets small-town living — and the market reflects it. You're equidistant between Detroit and Ann Arbor, you've got lake life on your doorstep, and downtown Brighton actually has a pulse. That combination keeps demand high and inventory tight.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["howell-mi", "hartland-mi", "south-lyon-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Brighton MI")}`,
+    faqs: [
+      {
+        q: "How does Brighton compare to Howell?",
+        a: "Brighton and Howell are the two primary communities in Livingston County. Brighton generally runs $30K–$60K higher on comparable homes and has better highway access. Howell has a slightly more established historic downtown and is the county seat. Both have strong school districts and active real estate markets.",
+      },
+      {
+        q: "Are there lakefront homes available in Brighton?",
+        a: "Yes. Brighton is surrounded by multiple inland lakes including Island Lake, Woodland Lake, Ore Lake, and others. Lakefront homes typically start in the mid-$400s and can exceed $800K for premium waterfront positions. These properties are highly sought after and move quickly.",
+      },
+      {
+        q: "What's the commute from Brighton to Detroit or Ann Arbor?",
+        a: "Brighton's position at I-96 and US-23 makes both commutes straightforward. Expect approximately 50 minutes to downtown Detroit via I-96 and 35 minutes to Ann Arbor via US-23. Rush hour can add 15–20 minutes to either route.",
+      },
+      {
+        q: "Is there new construction available in Brighton?",
+        a: "Yes. Several active subdivisions in Brighton Township and Green Oak Township offer new construction in the Brighton school district. Pricing for new builds typically starts in the mid-$400s and ranges upward depending on lot size and finishes.",
+      },
+    ],
+    ctaVariant: "both",
+  },
+
+  {
+    slug: "howell-mi",
+    name: "Howell",
+    county: "Livingston",
+    state: "MI",
+    zipCodes: ["48843", "48855"],
+    marketStats: {
+      medianPrice: 345000,
+      medianPriceChange: 5.5,
+      daysOnMarket: 26,
+      pricePerSqft: 175,
+    },
+    priceRange: {
+      low: "Under $250K gets you a ranch or older home in the city, often within walking distance of the historic downtown courthouse square.",
+      high: "$250K–$425K brings updated colonials, newer subdivision homes, and properties on larger lots in surrounding Howell Township.",
+      luxury: "Above $425K you're into lakefront properties on Thompson Lake or custom homes on multi-acre parcels in the surrounding countryside.",
+    },
+    schoolDistrict: "Howell Public Schools",
+    commuteToDetroit: "55 min",
+    about:
+      "Howell is the county seat of Livingston County and the commercial center of the area. The historic downtown, anchored by the county courthouse, features a walkable grid of shops, restaurants, and local businesses that host community events year-round — including the popular Howell Melon Festival and Fantasy of Lights holiday celebration.\n\nThe city sits along the I-96 corridor west of Brighton, with Howell Township extending into rolling farmland and lake communities to the north and south. Howell has historically been more affordable than Brighton while offering a similar small-city lifestyle and strong public schools.",
+    realEstateOverview:
+      "Howell's real estate market offers genuine value relative to communities further east along the I-96 corridor. The city proper has a mix of historic homes near downtown, mid-century ranches and colonials in established neighborhoods, and newer construction in subdivisions along the city's edges.\n\nHowell Township adds lakefront properties on Thompson Lake and other nearby bodies of water, along with rural parcels that appeal to buyers seeking space and privacy. The market moves at a healthy pace — not as frenzied as Brighton, but well-priced homes don't linger.",
+    locationAccess: [
+      "Located along I-96, approximately 55 minutes northwest of Detroit",
+      "40 minutes north of Ann Arbor via M-59 and US-23",
+      "Historic downtown centered around the Livingston County Courthouse",
+      "Adjacent to Howell Township with access to Thompson Lake and surrounding recreation areas",
+    ],
+    schoolInfo:
+      "Howell is served by Howell Public Schools, which operates multiple elementary schools, two middle schools (Parker and Highlander Way), and Howell High School. The district covers the city and surrounding township areas.",
+    bradQuote:
+      "Howell is the value play in Livingston County. You get a real downtown, a strong school district, and homes that are $30K–$60K less than comparable properties in Brighton. For buyers who don't need to be right on the highway interchange, Howell is the smarter buy.",
+    quoteAuthor: "Brad",
+    nearbySlugsSee: ["brighton-mi", "hartland-mi", "fenton-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Howell MI")}`,
+    faqs: [
+      {
+        q: "Is Howell more affordable than Brighton?",
+        a: "Generally, yes. Comparable homes in Howell tend to run $30K–$60K less than similar properties in Brighton. The tradeoff is slightly longer commute times to Detroit-area employers, as Howell sits further west along I-96.",
+      },
+      {
+        q: "What's Howell's downtown like?",
+        a: "Howell has one of the more charming historic downtowns in the region. The courthouse square anchors a grid of local shops, restaurants, and service businesses. The city hosts regular events including farmers markets, festivals, and holiday celebrations that draw visitors from across the county.",
+      },
+      {
+        q: "Are there lake homes in Howell?",
+        a: "Yes. Thompson Lake in Howell Township is the primary lakefront market. Other smaller lakes and ponds also have residential properties. Lakefront homes in the Howell area are generally more affordable than comparable waterfront in Brighton or Fenton.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  {
+    slug: "hartland-mi",
+    name: "Hartland",
+    county: "Livingston",
+    state: "MI",
+    zipCodes: ["48353"],
+    marketStats: {
+      medianPrice: 365000,
+      medianPriceChange: 5.8,
+      daysOnMarket: 24,
+      pricePerSqft: 175,
+    },
+    priceRange: {
+      low: "Under $275K gets you a solid ranch or older colonial on a standard suburban lot in Hartland Township subdivisions.",
+      high: "$275K–$450K brings updated homes on larger lots, newer construction, and properties near Hartland's lake communities.",
+      luxury: "Above $450K opens up lakefront homes, custom builds on acreage, and newer luxury subdivisions with premium finishes.",
+    },
+    schoolDistrict: "Hartland Consolidated Schools",
+    commuteToDetroit: "50 min",
+    about:
+      "Hartland Township sits in northeastern Livingston County at the intersection of US-23 and M-59, giving it some of the best highway access in the county. There's no traditional city center — Hartland is a township community centered around its school district and the commercial corridors along M-59.\n\nThe area is defined by a mix of suburban subdivisions, semi-rural properties, and inland lake communities. Multiple lakes including Handy Lake, Round Lake, and Long Lake provide recreational opportunities and drive waterfront demand. Hartland's position between Flint and the northern Oakland County communities makes it a natural choice for commuters who want space without excessive drive times.",
+    realEstateOverview:
+      "Hartland's real estate market is driven by the school district and highway access. Subdivision homes from the 1980s through the 2010s make up the bulk of available inventory, with newer construction active along the M-59 corridor. Lakefront properties on area lakes represent the premium segment.\n\nThe market here is competitive — Hartland's combination of relatively affordable pricing, strong schools, and excellent highway access keeps demand high. Inventory tends to be tight, especially in the spring and summer selling seasons.",
+    locationAccess: [
+      "Located at the intersection of US-23 and M-59 — dual highway access",
+      "Approximately 50 minutes northwest of Detroit",
+      "20 minutes north of Brighton, 20 minutes south of Fenton",
+      "Multiple inland lakes within the township boundaries",
+    ],
+    schoolInfo:
+      "Hartland is served by Hartland Consolidated Schools, which operates multiple elementary buildings, Hartland Middle School, and Hartland High School. The district is a primary driver of real estate demand in the area.",
+    bradQuote:
+      "Hartland is one of the best-positioned communities in Livingston County. You've got US-23 and M-59 right there, the school district pulls families in, and the lake access adds a lifestyle dimension that keeps property values strong. It's a market I always recommend buyers explore.",
+    quoteAuthor: "Brad",
+    nearbySlugsSee: ["brighton-mi", "fenton-mi", "howell-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Hartland MI")}`,
+    faqs: [
+      {
+        q: "Does Hartland have a downtown?",
+        a: "Not in the traditional sense. Hartland is a township, not a city, so there's no walkable downtown core. Commercial activity is concentrated along M-59 and at the US-23 interchange. For a downtown experience, residents typically visit Fenton or Brighton, both about 20 minutes away.",
+      },
+      {
+        q: "What lakes are in Hartland?",
+        a: "Hartland Township includes several inland lakes including Handy Lake, Round Lake, Long Lake, and Dunham Lake. Lakefront properties on these bodies of water are popular and tend to sell quickly when available.",
+      },
+      {
+        q: "How does Hartland compare to Brighton?",
+        a: "Brighton has a more developed downtown and slightly higher price points. Hartland offers better highway access (dual highways vs. Brighton's single interchange) and comparable school quality. Both are strong Livingston County markets — the choice often comes down to lifestyle preference.",
+      },
+    ],
+    ctaVariant: "both",
+  },
+
+  // ─── OAKLAND COUNTY (BORDER) ───────────────────────────────────────────────
+
+  {
+    slug: "south-lyon-mi",
+    name: "South Lyon",
+    county: "Oakland",
+    state: "MI",
+    zipCodes: ["48178"],
+    marketStats: {
+      medianPrice: 395000,
+      medianPriceChange: 6.5,
+      daysOnMarket: 20,
+      pricePerSqft: 190,
+    },
+    priceRange: {
+      low: "Under $300K gets you a well-maintained ranch or small colonial in the city proper or older subdivisions near downtown.",
+      high: "$300K–$500K brings newer subdivision homes, updated colonials with finished basements, and properties in planned communities like Colonial Acres and Brookstone.",
+      luxury: "Above $500K opens up newer luxury subdivisions, custom homes on larger lots, and premium properties in communities bordering Lyon Township's open spaces.",
+    },
+    schoolDistrict: "South Lyon Community Schools",
+    commuteToDetroit: "45 min",
+    about:
+      "South Lyon is a small city on the western edge of Oakland County, straddling the boundary with Livingston County. It has a genuine downtown along Lake Street and Pontiac Trail, with local restaurants, shops, and a community vibe that distinguishes it from the more corporate-feeling suburbs to the east.\n\nThe city and surrounding Lyon Township have experienced significant growth over the past two decades, with multiple new subdivisions and commercial developments filling in what was previously agricultural land. South Lyon's appeal is its position — close enough to Oakland County employment centers for a reasonable commute, but far enough west to feel less congested and more community-oriented.",
+    realEstateOverview:
+      "South Lyon's market is split between the charming city core with older, character-rich homes and the newer subdivision developments in surrounding Lyon and Green Oak townships. The school district is the common thread that ties demand together across both segments.\n\nNewer subdivisions have pushed average pricing upward, but the city proper still offers entry points below $300K. The market is competitive — South Lyon's combination of small-town identity, strong schools, and proximity to the I-96 and M-5 corridors keeps buyer demand consistently high.",
+    locationAccess: [
+      "Located on the western edge of Oakland County along Pontiac Trail",
+      "Quick access to I-96 via Grand River Avenue and M-5 (Haggerty connector)",
+      "Approximately 45 minutes northwest of Detroit",
+      "Adjacent to Milford, Novi, and the Livingston County communities",
+    ],
+    schoolInfo:
+      "South Lyon is served by South Lyon Community Schools, a well-regarded district that includes multiple elementary schools, Millennium Middle School, Centennial Middle School, and South Lyon High School (East and regular campus). The district covers the city and portions of Lyon, Green Oak, Salem, and Northfield townships.",
+    bradQuote:
+      "South Lyon is one of those markets where you get Oakland County schools and a real small-town feel at a price point that still makes sense. The downtown is authentic, the community is tight, and the growth has been managed well. It's where I'd tell buyers to look when Northville or Novi pricing feels out of reach.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["novi-mi", "northville-mi", "brighton-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("South Lyon MI")}`,
+    faqs: [
+      {
+        q: "How does South Lyon compare to Northville?",
+        a: "Northville is more established, more expensive, and has a larger historic downtown. South Lyon is more affordable, growing faster, and has a slightly more relaxed small-town character. Both have strong school districts. Buyers who love the Northville concept but need a lower price point should explore South Lyon.",
+      },
+      {
+        q: "Is South Lyon growing?",
+        a: "Yes, significantly. New subdivisions in Lyon and Green Oak townships have expanded the community's footprint. Commercial development along Pontiac Trail has followed. South Lyon is one of the faster-growing communities in western Oakland County.",
+      },
+      {
+        q: "What's the commute from South Lyon to Novi or Farmington Hills?",
+        a: "Expect 20–30 minutes to reach Novi or Farmington Hills employment centers. The M-5 connector and Pontiac Trail provide the primary routes. Rush hour can add 10–15 minutes, but the commute is manageable for most.",
+      },
+      {
+        q: "Does South Lyon have a walkable downtown?",
+        a: "Yes. The downtown along Lake Street and Pontiac Trail is compact but walkable, with local restaurants, a coffee shop, small retailers, and community gathering spaces. It's not as extensive as Northville's downtown, but it has genuine small-town character.",
+      },
+    ],
+    ctaVariant: "both",
+  },
+
+  // ─── WASHTENAW COUNTY ──────────────────────────────────────────────────────
+
+  {
+    slug: "ann-arbor-mi",
+    name: "Ann Arbor",
+    county: "Washtenaw",
+    state: "MI",
+    zipCodes: ["48103", "48104", "48105", "48108"],
+    marketStats: {
+      medianPrice: 485000,
+      medianPriceChange: 4.8,
+      daysOnMarket: 18,
+      pricePerSqft: 260,
+    },
+    priceRange: {
+      low: "Under $350K gets you a condo, townhouse, or small bungalow in neighborhoods further from downtown — typically east or south side.",
+      high: "$350K–$700K brings single-family homes in established neighborhoods like Burns Park, Kerrytown-area, or the Old West Side. Updated homes with character.",
+      luxury: "Above $700K you're looking at premium locations near downtown, homes in the Barton Hills area, larger properties in Ann Arbor Hills, or newer luxury construction.",
+    },
+    schoolDistrict: "Ann Arbor Public Schools",
+    commuteToDetroit: "45 min",
+    about:
+      "Ann Arbor is the cultural and economic anchor of Washtenaw County, home to the University of Michigan and a thriving ecosystem of technology, healthcare, and research employers. The city of approximately 125,000 residents offers an urban density and walkability that's rare for Michigan — multiple distinct commercial districts, an extensive restaurant scene, and a cultural calendar driven by the university and independent arts community.\n\nReal estate in Ann Arbor is the most competitive in Washtenaw County by a significant margin. The combination of university employment, a highly educated workforce, and limited land for new development keeps pricing elevated and inventory tight. Buyers should be prepared to move quickly and compete.",
+    realEstateOverview:
+      "Ann Arbor's housing stock ranges from historic homes in neighborhoods like Burns Park, the Old West Side, and Water Hill to mid-century ranches and colonials in the city's residential rings, to newer condominiums and townhouses near downtown and along the Huron River corridor.\n\nThe market is intensely competitive. Well-priced homes in desirable neighborhoods regularly receive multiple offers within days of listing. The condo and townhouse market provides more accessible entry points but is also fast-moving. New construction within city limits is limited by available land, which contributes to persistent upward pressure on pricing.",
+    locationAccess: [
+      "Located along US-23, approximately 45 minutes west of Detroit via I-94",
+      "Home to the University of Michigan, Michigan Medicine, and a major tech corridor",
+      "Downtown is walkable with extensive bus transit (TheRide/AAATA)",
+      "Detroit Metropolitan Airport is approximately 25 minutes east via I-94",
+    ],
+    schoolInfo:
+      "Ann Arbor is served by Ann Arbor Public Schools, one of the larger districts in the state. The district operates numerous elementary schools, multiple middle schools, and several high schools including Pioneer, Huron, and Skyline. School boundaries vary — verify specific assignments with the district for any address.",
+    bradQuote:
+      "Ann Arbor is a market unto itself. University of Michigan creates a floor under demand that doesn't exist in most Michigan markets — between faculty, hospital system employees, and the tech corridor, there's always a deep pool of qualified buyers. If you're buying here, come prepared to compete from day one.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["ypsilanti-mi", "saline-mi", "dexter-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Ann Arbor MI")}`,
+    faqs: [
+      {
+        q: "How competitive is the Ann Arbor real estate market?",
+        a: "Very. Ann Arbor is consistently one of the most competitive markets in Michigan. Well-priced homes in desirable neighborhoods often receive multiple offers within the first week. Having financing fully approved before you begin looking is essential, not optional.",
+      },
+      {
+        q: "Is Ann Arbor affordable for first-time buyers?",
+        a: "Single-family homes under $300K are rare within Ann Arbor city limits. First-time buyers typically look at condos or townhouses in Ann Arbor, or explore nearby communities like Ypsilanti, Saline, or Dexter where single-family homes are more accessible.",
+      },
+      {
+        q: "What drives Ann Arbor's pricing?",
+        a: "The University of Michigan is the primary driver. The university and Michigan Medicine together employ tens of thousands of well-compensated professionals. Add in the tech corridor, limited buildable land, and a culture that attracts national relocations, and you get persistent demand against constrained supply.",
+      },
+      {
+        q: "How does Ann Arbor compare to Birmingham?",
+        a: "Both are premium walkable communities with strong demand. Birmingham is oriented toward the corporate Oakland County employer base. Ann Arbor is anchored by the university and tech sectors. Pricing is comparable in many segments, though Ann Arbor offers more diversity in housing types including condos and urban options.",
+      },
+    ],
+    ctaVariant: "both",
+  },
+
+  {
+    slug: "ypsilanti-mi",
+    name: "Ypsilanti",
+    county: "Washtenaw",
+    state: "MI",
+    zipCodes: ["48197", "48198"],
+    marketStats: {
+      medianPrice: 245000,
+      medianPriceChange: 8.2,
+      daysOnMarket: 20,
+      pricePerSqft: 165,
+    },
+    priceRange: {
+      low: "Under $175K gets you a bungalow or ranch in Ypsilanti Township or the city's east side — solid starter home territory.",
+      high: "$175K–$325K brings updated homes in the Depot Town area, Normal Park, or College Heights neighborhoods — walkable to downtown with character.",
+      luxury: "Above $325K you're looking at fully renovated historic homes, larger properties near the river, or newer construction in Ypsilanti Township subdivisions.",
+    },
+    schoolDistrict: "Ypsilanti Community Schools / Lincoln Consolidated Schools",
+    commuteToDetroit: "40 min",
+    about:
+      "Ypsilanti sits just east of Ann Arbor and has emerged as one of Washtenaw County's most dynamic communities. The city has two distinct commercial centers — downtown Ypsilanti along Michigan Avenue and the Depot Town district along the Huron River — both featuring independent restaurants, breweries, galleries, and music venues that have earned the city a reputation for authenticity and cultural energy.\n\nEastern Michigan University anchors the city's north side, while Ypsilanti Township to the south and east offers more traditional suburban development. Ypsilanti has seen significant reinvestment in recent years as buyers priced out of Ann Arbor have discovered the city's walkable neighborhoods, historic housing stock, and substantially lower price points.",
+    realEstateOverview:
+      "Ypsilanti offers one of the strongest value propositions in Washtenaw County. Historic neighborhoods like Normal Park, College Heights, and the Depot Town area feature craftsman bungalows, foursquares, and colonials at price points that are 40–50% below comparable Ann Arbor properties.\n\nThe market has been appreciating faster than the county average as Ann Arbor spillover drives demand. Ypsilanti Township adds a suburban dimension with newer subdivisions and larger lot properties. Inventory moves quickly in the city's most desirable walkable neighborhoods — buyers should be prepared to act decisively.",
+    locationAccess: [
+      "Located along I-94, approximately 40 minutes west of Detroit",
+      "Immediately east of Ann Arbor — 10 minutes to downtown Ann Arbor via Washtenaw Avenue",
+      "Depot Town and downtown Ypsilanti are walkable commercial districts",
+      "Detroit Metropolitan Airport is approximately 15 minutes east via I-94",
+    ],
+    schoolInfo:
+      "Ypsilanti is served by Ypsilanti Community Schools in the city proper and Lincoln Consolidated Schools in portions of the township. School district boundaries are complex in this area — always verify which district a specific property falls within before making assumptions.",
+    bradQuote:
+      "Ypsilanti is where smart buyers go when Ann Arbor's pricing doesn't work. You get walkable neighborhoods, genuinely interesting restaurants and culture, and homes that are $150K–$200K less than comparable properties ten minutes west. The appreciation numbers tell the story — this market is being discovered.",
+    quoteAuthor: "Brad",
+    nearbySlugsSee: ["ann-arbor-mi", "saline-mi", "romulus-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Ypsilanti MI")}`,
+    faqs: [
+      {
+        q: "How does Ypsilanti compare to Ann Arbor?",
+        a: "Ypsilanti is significantly more affordable — comparable homes run 40–50% less than Ann Arbor. The tradeoff is a less established commercial base and different school districts. But for buyers who want walkability, character, and proximity to Ann Arbor employers, Ypsilanti is the clear value play in Washtenaw County.",
+      },
+      {
+        q: "Is Ypsilanti a good investment?",
+        a: "Recent appreciation data says yes. Ypsilanti has been appreciating faster than the county average as demand spills over from Ann Arbor. The combination of low entry prices and strong appreciation potential makes it attractive for both owner-occupants and investors.",
+      },
+      {
+        q: "What's Depot Town?",
+        a: "Depot Town is a historic commercial district along the Huron River on Ypsilanti's east side. It's home to some of the area's best restaurants, the Sidetrack Bar & Grill, the Ypsilanti Farmers Market, and a growing collection of small businesses. It's one of the main draws for buyers choosing Ypsilanti.",
+      },
+      {
+        q: "What about the school districts in Ypsilanti?",
+        a: "This is an important detail. The city of Ypsilanti is served by Ypsilanti Community Schools, while portions of Ypsilanti Township fall under Lincoln Consolidated Schools. The districts have different characteristics — verify which district applies to any specific property you're considering.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  {
+    slug: "saline-mi",
+    name: "Saline",
+    county: "Washtenaw",
+    state: "MI",
+    zipCodes: ["48176"],
+    marketStats: {
+      medianPrice: 425000,
+      medianPriceChange: 5.5,
+      daysOnMarket: 19,
+      pricePerSqft: 210,
+    },
+    priceRange: {
+      low: "Under $325K gets you an older ranch or smaller home in the city proper, within walking distance of downtown Saline.",
+      high: "$325K–$550K brings updated colonials, newer subdivision homes, and properties in Saline's popular planned communities.",
+      luxury: "Above $550K opens up newer luxury builds, homes on acreage south of town, and premium properties in the Saline school district's most desirable subdivisions.",
+    },
+    schoolDistrict: "Saline Area Schools",
+    commuteToDetroit: "45 min",
+    about:
+      "Saline is a small city approximately 10 miles south of Ann Arbor that has grown from a quiet agricultural community into one of Washtenaw County's most desirable residential markets. The downtown along Michigan Avenue retains a genuine small-town character with local restaurants, shops, and the iconic Saline River running through town.\n\nThe school district is the primary demand driver — Saline Area Schools has built a strong reputation that consistently attracts families from across the region. The city and surrounding Saline Township offer a mix of walkable in-town living and newer subdivision development that appeals to a wide range of buyers.",
+    realEstateOverview:
+      "Saline's real estate market is anchored by its school district reputation. The city offers a range from older homes near the downtown core to newer subdivisions on the city's expanding edges. Pricing sits between Ann Arbor (higher) and Ypsilanti or Milan (lower), making it a middle-market sweet spot for families.\n\nInventory tends to be tight, particularly for homes in the $350K–$500K range that represent the core family market. Well-priced listings attract quick interest, and the spring selling season is especially competitive.",
+    locationAccess: [
+      "Located approximately 10 miles south of Ann Arbor along US-12 and M-17",
+      "Quick access to US-23 for northbound connections to I-96 and I-94",
+      "Approximately 45 minutes west of Detroit via US-23 and I-94",
+      "Downtown Saline is a compact, walkable commercial district along Michigan Avenue",
+    ],
+    schoolInfo:
+      "Saline is served by Saline Area Schools, which includes multiple elementary buildings, Saline Middle School, and Saline High School. The district's reputation is a primary driver of housing demand in the area.",
+    bradQuote:
+      "Saline is the family market in Washtenaw County — full stop. The school district drives everything here. Buyers relocating to the Ann Arbor area who want strong schools, a real community, and pricing below Ann Arbor proper consistently land in Saline. The market reflects that demand.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["ann-arbor-mi", "ypsilanti-mi", "dexter-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Saline MI")}`,
+    faqs: [
+      {
+        q: "How does Saline compare to Ann Arbor?",
+        a: "Saline is more affordable than Ann Arbor — comparable homes run $50K–$100K less. The tradeoff is less urban amenity and nightlife. But for families, Saline's school district, small-town feel, and lower pricing make it the preferred alternative to Ann Arbor proper.",
+      },
+      {
+        q: "Is Saline growing?",
+        a: "Yes. New subdivision development on the city's edges has expanded Saline's footprint, and commercial development along Michigan Avenue has followed. Growth has been measured — the city hasn't lost its character — but it's clearly trending upward in both population and property values.",
+      },
+      {
+        q: "What's downtown Saline like?",
+        a: "Downtown Saline along Michigan Avenue is a compact, walkable district with local restaurants, a coffee shop, independent retail, and the Saline River running through. It's smaller than Ann Arbor's or Brighton's downtown, but it has authentic small-town character.",
+      },
+    ],
+    ctaVariant: "both",
+  },
+
+  {
+    slug: "dexter-mi",
+    name: "Dexter",
+    county: "Washtenaw",
+    state: "MI",
+    zipCodes: ["48130"],
+    marketStats: {
+      medianPrice: 435000,
+      medianPriceChange: 5.0,
+      daysOnMarket: 21,
+      pricePerSqft: 205,
+    },
+    priceRange: {
+      low: "Under $325K gets you an older home in the village, a condo, or a smaller property in surrounding townships.",
+      high: "$325K–$550K brings updated village homes, newer subdivision properties, and homes with river or nature access in Dexter Township.",
+      luxury: "Above $550K you're into custom homes on acreage, waterfront properties on area lakes, and premium positions along the Huron River corridor.",
+    },
+    schoolDistrict: "Dexter Community Schools",
+    commuteToDetroit: "55 min",
+    about:
+      "Dexter is a small village approximately 10 miles northwest of Ann Arbor, situated along the Huron River in a landscape of rolling hills, farmland, and nature preserves. The village has a compact, walkable downtown with local restaurants, coffee shops, and a growing collection of small businesses.\n\nThe community appeals to buyers who want proximity to Ann Arbor's employment base without living in the city. Dexter's school district, natural setting, and village character create a distinctly different lifestyle than what's available in Ann Arbor or the more suburban communities to the south and east.",
+    realEstateOverview:
+      "Dexter's real estate market is driven by two factors: the school district and the natural setting. The village core offers historic and character homes within walking distance of downtown. Surrounding Dexter, Webster, and Scio townships add subdivision homes, rural parcels, and properties along the Huron River corridor.\n\nInventory is limited — Dexter is a small community, and turnover is moderate. When well-priced homes hit the market in the school district, they attract interest quickly. The rural parcels and custom-home segment adds a tier that appeals to buyers seeking privacy and space.",
+    locationAccess: [
+      "Located along Huron River Drive, approximately 10 miles northwest of Ann Arbor",
+      "I-94 access is approximately 10 minutes south via Baker Road",
+      "Approximately 55 minutes west of Detroit",
+      "Surrounded by Huron River, Hudson Mills Metropark, and Pinckney State Recreation Area",
+    ],
+    schoolInfo:
+      "Dexter is served by Dexter Community Schools, a well-regarded smaller district that includes elementary schools, Creekside Intermediate School, Mill Creek Middle School, and Dexter High School.",
+    bradQuote:
+      "Dexter is Ann Arbor's escape hatch for families who want nature, space, and a village feel without giving up access to everything Ann Arbor offers. The Huron River, the parks, and the rolling terrain make it feel like you're much further from the city than you actually are. Ten minutes and you're in downtown Ann Arbor.",
+    quoteAuthor: "Brad",
+    nearbySlugsSee: ["ann-arbor-mi", "chelsea-mi", "brighton-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Dexter MI")}`,
+    faqs: [
+      {
+        q: "How far is Dexter from Ann Arbor?",
+        a: "About 10 miles or 15–20 minutes driving. Many Dexter residents commute to Ann Arbor for work — the drive along Huron River Drive or via I-94 is scenic and manageable. Dexter functions effectively as a satellite community for Ann Arbor employers.",
+      },
+      {
+        q: "Is Dexter walkable?",
+        a: "The village core is compact and walkable — you can walk to restaurants, the coffee shop, and local businesses from most village addresses. Beyond the village, the community is car-dependent. The natural setting makes it great for hiking and biking, but not for walking to services.",
+      },
+      {
+        q: "What outdoor recreation is near Dexter?",
+        a: "Dexter has exceptional outdoor access. Hudson Mills Metropark, the Huron River (paddling and fishing), Pinckney State Recreation Area, and the Border-to-Border Trail are all within minutes. This is one of the primary draws for buyers choosing Dexter over more suburban alternatives.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  {
+    slug: "chelsea-mi",
+    name: "Chelsea",
+    county: "Washtenaw",
+    state: "MI",
+    zipCodes: ["48118"],
+    marketStats: {
+      medianPrice: 375000,
+      medianPriceChange: 4.5,
+      daysOnMarket: 28,
+      pricePerSqft: 190,
+    },
+    priceRange: {
+      low: "Under $275K gets you a ranch or older home in the village or a manufactured home in the surrounding township areas.",
+      high: "$275K–$475K brings updated village homes, newer subdivision properties, and homes on several acres in surrounding Sylvan and Lima townships.",
+      luxury: "Above $475K opens up larger rural parcels, lakefront properties, and custom homes in the rolling western Washtenaw County countryside.",
+    },
+    schoolDistrict: "Chelsea School District",
+    commuteToDetroit: "65 min",
+    about:
+      "Chelsea is a small city in western Washtenaw County known for its charming downtown, the Purple Rose Theatre (founded by Jeff Daniels), and a surrounding landscape of farmland, lakes, and rolling terrain. The community sits along I-94 between Ann Arbor and Jackson, offering a distinctly small-town lifestyle that's further removed from the metro area than most Washtenaw communities.\n\nThe downtown along Main Street has restaurants, shops, a bookstore, and the kind of sidewalk-strolling atmosphere that attracts both residents and day-trippers. Chelsea's identity is rooted in arts, agriculture, and community — it doesn't try to be suburban, and that's precisely the appeal.",
+    realEstateOverview:
+      "Chelsea's real estate market serves buyers looking for genuine small-town and rural living within reach of Ann Arbor and I-94 corridor employment. The village core offers historic homes with character, while surrounding townships provide rural parcels, lake properties, and newer subdivision homes.\n\nPricing is generally below Ann Arbor and comparable to or slightly below Dexter and Saline. The market moves at a moderate pace — Chelsea attracts a specific buyer profile that values community, nature, and quiet over proximity and convenience.",
+    locationAccess: [
+      "Located along I-94, approximately 15 miles west of Ann Arbor",
+      "65 minutes west of Detroit via I-94",
+      "Surrounded by Waterloo State Recreation Area and Gerald E. Eddy Discovery Center",
+      "Downtown Chelsea is a walkable Main Street district with shops, restaurants, and the Purple Rose Theatre",
+    ],
+    schoolInfo:
+      "Chelsea is served by the Chelsea School District, which operates Beach Elementary, Beach Middle School, and Chelsea High School. The district covers the city and surrounding portions of Sylvan, Lima, Lyndon, and Dexter townships.",
+    bradQuote:
+      "Chelsea is for buyers who want to live in a real place — not a subdivision, not a mall corridor, but a community with a downtown, a theater, and farmers who still work the surrounding land. It's further out, but that distance is the point. You trade commute time for a quality of life that's hard to find closer to the city.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["dexter-mi", "ann-arbor-mi", "saline-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Chelsea MI")}`,
+    faqs: [
+      {
+        q: "How far is Chelsea from Ann Arbor?",
+        a: "Approximately 15 miles west, or about 20–25 minutes via I-94. The commute is straightforward but places Chelsea further from the metro core than Dexter or Saline. Many Chelsea residents work in Ann Arbor or remotely.",
+      },
+      {
+        q: "What's the Purple Rose Theatre?",
+        a: "The Purple Rose Theatre Company was founded by actor Jeff Daniels (a Chelsea native) in 1991. It's a professional regional theater that produces original and contemporary works year-round. It's a significant cultural asset and a source of community pride.",
+      },
+      {
+        q: "Is Chelsea rural?",
+        a: "The village itself is compact and walkable. Surrounding Sylvan, Lima, and Lyndon townships are distinctly rural — farmland, rolling hills, and state recreation areas. You can find both settings within the Chelsea school district, which is part of the appeal.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  // ─── MONROE COUNTY ─────────────────────────────────────────────────────────
+
+  {
+    slug: "monroe-mi",
+    name: "Monroe",
+    county: "Monroe",
+    state: "MI",
+    zipCodes: ["48161", "48162"],
+    marketStats: {
+      medianPrice: 215000,
+      medianPriceChange: 6.0,
+      daysOnMarket: 30,
+      pricePerSqft: 130,
+    },
+    priceRange: {
+      low: "Under $150K gets you a functional ranch, bungalow, or starter home in the city — one of the most affordable entry points in Southeast Michigan.",
+      high: "$150K–$300K brings updated homes in the city's better neighborhoods, properties in Monroe Township subdivisions, and homes near Sterling State Park.",
+      luxury: "Above $300K opens up waterfront properties along Lake Erie, larger homes on acreage in the township, and newer construction south of the city.",
+    },
+    schoolDistrict: "Monroe Public Schools",
+    commuteToDetroit: "45 min",
+    about:
+      "Monroe is the county seat of Monroe County and the largest city in Michigan's southernmost county. Situated along the River Raisin and near the shores of Lake Erie, Monroe has a historic identity that predates Michigan statehood — it was the site of the Battle of the River Raisin in the War of 1812.\n\nThe city offers a mix of historic neighborhoods, commercial corridors, and proximity to Lake Erie's recreational opportunities including Sterling State Park, Michigan's only state park on Lake Erie. Monroe's position along I-75 between Detroit and Toledo makes it accessible to employment centers in both metro areas.",
+    realEstateOverview:
+      "Monroe offers some of the most affordable housing in Southeast Michigan. The city and surrounding townships have a wide range of inventory from older historic homes near downtown to mid-century neighborhoods to newer suburban development in the township.\n\nThe market has been appreciating at a healthy clip as buyers discover the value proposition — homes here cost a fraction of what comparable properties command in Wayne or Oakland counties. Lake Erie access adds a lifestyle dimension that's unique to Monroe County. The market moves at a moderate pace, giving buyers more time to evaluate than in faster-moving markets to the north.",
+    locationAccess: [
+      "Located along I-75, approximately 45 minutes south of Detroit",
+      "40 minutes north of Toledo, Ohio via I-75",
+      "Sterling State Park and Lake Erie shoreline access",
+      "River Raisin runs through the city center, connecting to Lake Erie",
+    ],
+    schoolInfo:
+      "Monroe is served by Monroe Public Schools, which operates multiple elementary buildings, middle schools, and Monroe High School. Other districts including Jefferson Schools and Airport Community Schools serve portions of Monroe Township and surrounding areas.",
+    bradQuote:
+      "Monroe is the most undervalued market in Southeast Michigan. You're 45 minutes from Detroit, you have Lake Erie access, and the median price is under $220K. Buyers who can handle the I-75 commute are getting two to three times the house they'd get in Wayne County. The appreciation numbers are starting to reflect what we've been telling people for years.",
+    quoteAuthor: "Sarah",
+    nearbySlugsSee: ["dundee-mi", "romulus-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Monroe MI")}`,
+    faqs: [
+      {
+        q: "How affordable is Monroe compared to Metro Detroit?",
+        a: "Significantly more affordable. Monroe's median home price is roughly half of what you'd pay in most Wayne County suburbs and a third of Oakland County pricing. For buyers willing to commute, the value proposition is compelling.",
+      },
+      {
+        q: "Does Monroe have Lake Erie access?",
+        a: "Yes. Sterling State Park on Monroe's eastern edge is Michigan's only state park on Lake Erie, offering beaches, fishing, and boating access. The Lake Erie shoreline and River Raisin also provide recreational opportunities throughout the area.",
+      },
+      {
+        q: "What's the commute from Monroe to Detroit?",
+        a: "Approximately 45 minutes via I-75 under normal conditions. Rush hour can extend this to 60–75 minutes depending on your specific destination. Some Monroe residents also commute south to Toledo, Ohio, which is about 40 minutes.",
+      },
+      {
+        q: "Is Monroe growing?",
+        a: "Monroe Township and the areas along I-75 are seeing gradual residential development. The city itself is stable with modest reinvestment in the downtown and riverfront areas. Growth is measured rather than rapid, but property values have been trending upward.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
+
+  {
+    slug: "dundee-mi",
+    name: "Dundee",
+    county: "Monroe",
+    state: "MI",
+    zipCodes: ["48131"],
+    marketStats: {
+      medianPrice: 225000,
+      medianPriceChange: 7.0,
+      daysOnMarket: 32,
+      pricePerSqft: 135,
+    },
+    priceRange: {
+      low: "Under $165K gets you a ranch, bungalow, or older home in the village or surrounding Dundee Township.",
+      high: "$165K–$300K brings updated homes on larger lots, newer construction, and properties with acreage in the surrounding agricultural area.",
+      luxury: "Above $300K opens up custom homes on multi-acre parcels, waterfront properties on area lakes, and newer builds with significant land.",
+    },
+    schoolDistrict: "Dundee Community Schools",
+    commuteToDetroit: "50 min",
+    about:
+      "Dundee is a small village in northwestern Monroe County along the River Raisin, offering a genuine rural small-town experience with modern accessibility. The village sits near the intersection of US-23 and M-50, providing reasonable highway access to both the Detroit metro area and Toledo.\n\nDundee's identity is rooted in its agricultural surroundings and small-town character. The Cabela's retail destination along US-23 has put Dundee on the map for visitors, but for residents, the appeal is simpler — affordable homes, open space, and a community where people know their neighbors.",
+    realEstateOverview:
+      "Dundee's real estate market is among the most affordable in the region. The village offers a small core of residential properties, while surrounding Dundee Township provides larger lots, agricultural parcels, and scattered newer development.\n\nThis is not a high-volume market — inventory is limited, and turnover is moderate. But for buyers seeking maximum value and willing to embrace a rural-adjacent lifestyle, Dundee offers price points that are difficult to match anywhere else in Southeast Michigan.",
+    locationAccess: [
+      "Located near the intersection of US-23 and M-50 in northwestern Monroe County",
+      "Approximately 50 minutes south of Detroit via US-23",
+      "30 minutes north of Toledo, Ohio",
+      "River Raisin runs through the village",
+    ],
+    schoolInfo:
+      "Dundee is served by Dundee Community Schools, a smaller district that includes an elementary school, a middle school, and Dundee High School. The district covers the village and surrounding portions of Dundee Township.",
+    bradQuote:
+      "Dundee is where your dollar goes the furthest in the entire Southeast Michigan market. If you work along the US-23 corridor or can handle a longer commute, the amount of house and land you get here is genuinely surprising. It's not for everyone, but for the right buyer, Dundee is a home run.",
+    quoteAuthor: "Brad",
+    nearbySlugsSee: ["monroe-mi", "saline-mi"],
+    sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Dundee MI")}`,
+    faqs: [
+      {
+        q: "How affordable is Dundee?",
+        a: "Dundee is one of the most affordable markets in Southeast Michigan. Entry-level homes under $165K are available, and even updated properties rarely exceed $300K. For buyers on a budget, Dundee represents exceptional value.",
+      },
+      {
+        q: "Is Dundee rural?",
+        a: "Yes. The village has a small residential core, but the surrounding area is predominantly agricultural. This is a rural community — expect open farmland, larger lots, and a lifestyle oriented around small-town and country living.",
+      },
+      {
+        q: "What's the commute from Dundee to Detroit?",
+        a: "Approximately 50 minutes via US-23 to I-94 or I-75. The commute is manageable but not short. Dundee works best for people who work locally, remotely, or along the US-23 corridor.",
+      },
+    ],
+    ctaVariant: "buyer",
+  },
 ];
 
 export function getCityBySlug(slug: string): City | undefined {
@@ -1424,28 +2257,8 @@ export function getAllSlugs(): string[] {
  * When content is ready, move the slug into `cities` above.
  */
 export const COMING_SOON_SLUGS: ReadonlyArray<string> = [
-  // Washtenaw
-  "ann-arbor-mi",
-  "ypsilanti-mi",
-  "saline-mi",
-  "dexter-mi",
-  "chelsea-mi",
   "milan-mi",
-  // Oakland (border)
-  "south-lyon-mi",
-  // Livingston
-  "brighton-mi",
-  "howell-mi",
-  "hartland-mi",
   "whitmore-lake-mi",
-  // Genesee
-  "grand-blanc-mi",
-  "fenton-mi",
-  "linden-mi",
-  "goodrich-mi",
-  // Monroe
-  "monroe-mi",
-  "dundee-mi",
 ] as const;
 
 export function isComingSoonSlug(slug: string): boolean {
