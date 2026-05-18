@@ -197,7 +197,7 @@ export default function BuyingPage() {
       <section className="py-8 px-4 sm:px-6 bg-[#1a1a1a]">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <p className="text-emerald-400 text-xs uppercase tracking-widest font-semibold mb-1">
+            <p className="text-[#00d4aa] text-xs uppercase tracking-widest font-semibold mb-1">
               Down Payment Assistance
             </p>
             <h2 className="font-serif text-xl sm:text-2xl font-bold text-white mb-1">
@@ -210,7 +210,7 @@ export default function BuyingPage() {
           </div>
           <Link
             href="/grants"
-            className="bg-emerald-600 text-white font-bold px-6 py-3 rounded-sm hover:bg-emerald-700 transition-colors text-center text-sm whitespace-nowrap shrink-0"
+            className="bg-[#00d4aa] text-[#1a1a1a] font-bold px-6 py-3 rounded-sm hover:bg-[#00e8bb] transition-colors text-center text-sm whitespace-nowrap shrink-0"
           >
             Check My Eligibility →
           </Link>
