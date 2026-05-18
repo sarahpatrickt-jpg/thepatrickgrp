@@ -63,3 +63,11 @@ export const trackNeighborhoodView = (neighborhood: string) =>
 /** Fired when a market report page is viewed */
 export const trackMarketReportView = (period: string) =>
   trackEvent("market_report_viewed", { period });
+
+/** Fired when grant qualification form submits */
+export const trackGrantQualificationSubmitted = (county: string) =>
+  trackEvent("grant_qualification_submitted", { county });
+
+/** Fired when grant lead (connect with lender) submits */
+export const trackGrantLeadSubmitted = (county: string) =>
+  trackEvent("grant_lead_submitted", { county });

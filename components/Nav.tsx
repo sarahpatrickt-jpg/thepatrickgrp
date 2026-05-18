@@ -28,6 +28,7 @@ const specialtyLinks = [
   { href: "/relocation",               label: "Relocating to Michigan" },
   { href: "/downsizing",               label: "Downsizing" },
   { href: "/estate-sales",             label: "Estate & Probate Sales" },
+  { href: "/grants",                   label: "Homebuyer Grants" },
 ];
 
 const specialtyHrefs = new Set(specialtyLinks.map((l) => l.href));
@@ -44,6 +45,7 @@ const allLinks = [
   { href: "/relocation",            label: "Relocating to Michigan" },
   { href: "/downsizing",           label: "Downsizing" },
   { href: "/estate-sales",         label: "Estate & Probate Sales" },
+  { href: "/grants",               label: "Homebuyer Grants" },
   { href: "/neighborhoods",        label: "Neighborhoods" },
   { href: "/market-updates",       label: "Market Reports" },
   { href: "/insights",             label: "Journal" },
