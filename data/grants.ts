@@ -115,6 +115,17 @@ const MSHDA_TARGET_PURCHASE_LIMIT = 280_000; // target areas
 const OAKLAND_PURCHASE_LIMIT = 294_600;
 const DETROIT_PURCHASE_LIMIT = 265_000;
 
+// 80% AMI by county (2025-2026 HUD) — used for HomeReady/Home Possible
+const AMI_80_BY_COUNTY: Record<County, Record<number, number>> = {
+  Oakland: { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
+  Macomb:  { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
+  Wayne:   { 1: 55_300, 2: 63_200, 3: 71_100, 4: 79_000, 5: 85_350, 6: 91_650, 7: 98_000, 8: 104_300 },
+  Washtenaw: { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
+  Livingston: { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
+  Genesee: { 1: 47_600, 2: 54_400, 3: 61_200, 4: 68_000, 5: 73_450, 6: 78_900, 7: 84_350, 8: 89_750 },
+  Monroe:  { 1: 47_600, 2: 54_400, 3: 61_200, 4: 68_000, 5: 73_450, 6: 78_900, 7: 84_350, 8: 89_750 },
+};
+
 // ── Helper ──────────────────────────────────────────────────────────────────
 
 function creditAtLeast(score: CreditScoreRange, min: number): boolean {
@@ -126,8 +137,13 @@ function creditAtLeast(score: CreditScoreRange, min: number): boolean {
     "720-plus": 720,
     "not-sure": 0,
   };
-  if (score === "not-sure") return true; // give benefit of the doubt
+  // "not-sure" is NOT a pass — it's unknown. We mark it as a soft flag.
+  if (score === "not-sure") return false;
   return map[score] >= min;
+}
+
+function creditUnknown(score: CreditScoreRange): boolean {
+  return score === "not-sure";
 }
 
 function getIncomeLimit(
@@ -166,8 +182,10 @@ export const programs: GrantProgram[] = [
       const missing: string[] = [];
       if (p.annualIncome > MSHDA_INCOME_LIMIT)
         missing.push("Household income must be under $168,400");
-      if (!creditAtLeast(p.creditScore, 640))
+      if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score of 640+ required — verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
         missing.push("Purchase price must be under $280,000");
       return { eligible: missing.length === 0, missing };
@@ -198,15 +216,14 @@ export const programs: GrantProgram[] = [
       const missing: string[] = [];
       if (p.annualIncome > MSHDA_10K_INCOME_LIMIT)
         missing.push("Household income must be under $113,300");
-      if (!creditAtLeast(p.creditScore, 640))
+      if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score of 640+ required — verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
         missing.push("Purchase price must be under $280,000");
-      // We can't check zip code, so note it
-      missing.push(
-        "Property must be in an MSHDA-targeted zip code (verify with lender)"
-      );
-      return { eligible: missing.length <= 1, missing };
+      // Can't verify zip code — this is a hard requirement that must be checked
+      return { eligible: false, missing: [...missing, "Property must be in an MSHDA-targeted zip code — ask your lender to verify"] };
     },
   },
   {
@@ -237,7 +254,7 @@ export const programs: GrantProgram[] = [
       const limit = getIncomeLimit(OAKLAND_COUNTY_INCOME, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
-          `Household income must be under $${limit.toLocaleString()} for ${p.householdSize}-person household`
+          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
       if (p.purchasePrice > OAKLAND_PURCHASE_LIMIT)
         missing.push("Purchase price must be under $294,600");
@@ -268,10 +285,12 @@ export const programs: GrantProgram[] = [
       const missing: string[] = [];
       if (!p.livesInDetroit)
         missing.push("Property must be within Detroit city limits");
+      if (!p.isFirstTimeBuyer)
+        missing.push("Must be a first-time homebuyer");
       const limit = getIncomeLimit(DETROIT_DPA_INCOME, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
-          `Household income must be under $${limit.toLocaleString()} for ${p.householdSize}-person household`
+          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
       if (p.purchasePrice > DETROIT_PURCHASE_LIMIT)
         missing.push("Purchase price must be under $265,000");
@@ -301,11 +320,15 @@ export const programs: GrantProgram[] = [
       const missing: string[] = [];
       if (p.county !== "Wayne")
         missing.push("Property must be in Wayne County");
+      if (!p.isFirstTimeBuyer)
+        missing.push("Must be a first-time homebuyer");
       const limit = getIncomeLimit(WAYNE_COUNTY_INCOME, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
-          `Household income must be under $${limit.toLocaleString()} for ${p.householdSize}-person household`
+          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
+      if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
+        missing.push("Purchase price must be under $280,000");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -459,11 +482,13 @@ export const programs: GrantProgram[] = [
       const ruralCounties: County[] = ["Monroe", "Livingston", "Genesee"];
       if (!ruralCounties.includes(p.county))
         missing.push(
-          "Property is more likely to qualify in Monroe, Livingston, or Genesee County (verify specific address at USDA eligibility map)"
+          "Property must be in a USDA-eligible rural area (most likely in Monroe, Livingston, or Genesee County)"
         );
-      if (!creditAtLeast(p.creditScore, 640))
+      if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ recommended");
-      return { eligible: missing.length <= 1, missing };
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score of 640+ recommended — verify yours before applying");
+      return { eligible: missing.length === 0, missing };
     },
   },
   {
@@ -517,10 +542,16 @@ export const programs: GrantProgram[] = [
     url: "https://singlefamily.fanniemae.com/originating-underwriting/mortgage-products/homeready-mortgage",
     qualify: (p) => {
       const missing: string[] = [];
-      if (!creditAtLeast(p.creditScore, 620))
+      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ required");
-      if (p.annualIncome > MSHDA_INCOME_LIMIT)
-        missing.push("Must be at or below 80% of area median income");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ required — verify yours before applying");
+      const amiTable = AMI_80_BY_COUNTY[p.county];
+      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
+      if (p.annualIncome > amiLimit)
+        missing.push(
+          `Household income must be under $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
+        );
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -546,10 +577,10 @@ export function qualifyBuyer(profile: BuyerProfile): {
 
   const qualified = results.filter((r) => r.eligible);
   const nearMiss = results.filter(
-    (r) => !r.eligible && r.missing.length <= 2
+    (r) => !r.eligible && r.missing.length === 1
   );
   const notEligible = results.filter(
-    (r) => !r.eligible && r.missing.length > 2
+    (r) => !r.eligible && r.missing.length > 1
   );
 
   return { qualified, nearMiss, notEligible };
