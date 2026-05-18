@@ -193,6 +193,30 @@ export default function BuyingPage() {
         </div>
       </section>
 
+      {/* GRANTS CALLOUT */}
+      <section className="py-8 px-4 sm:px-6 bg-[#1a1a1a]">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <p className="text-emerald-400 text-xs uppercase tracking-widest font-semibold mb-1">
+              Down Payment Assistance
+            </p>
+            <h2 className="font-serif text-xl sm:text-2xl font-bold text-white mb-1">
+              Michigan Offers Thousands in Homebuyer Grants.
+            </h2>
+            <p className="text-white/60 text-sm max-w-xl">
+              MSHDA, county programs, VA, USDA — our free tool checks 12+ programs and shows you
+              what you qualify for. Takes 2 minutes.
+            </p>
+          </div>
+          <Link
+            href="/grants"
+            className="bg-emerald-600 text-white font-bold px-6 py-3 rounded-sm hover:bg-emerald-700 transition-colors text-center text-sm whitespace-nowrap shrink-0"
+          >
+            Check My Eligibility →
+          </Link>
+        </div>
+      </section>
+
       {/* BUYER BENEFITS */}
       <section className="py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-5xl mx-auto">
@@ -416,9 +440,12 @@ export default function BuyingPage() {
           </a>
         </div>
         <p className="text-white/40 text-xs mt-4">
-          Relocating from out of state?{" "}
+          <Link href="/grants" className="underline hover:text-white/70">
+            Check grant eligibility →
+          </Link>
+          {" · "}
           <Link href="/relocation" className="underline hover:text-white/70">
-            See our relocation services →
+            Relocating from out of state? →
           </Link>
           {" · "}
           <Link href="/new-construction" className="underline hover:text-white/70">

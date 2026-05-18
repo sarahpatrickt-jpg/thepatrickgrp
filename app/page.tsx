@@ -158,6 +158,12 @@ const SPECIALTIES = [
     title: "Estate & Probate",
     desc: "Managing the sale of a loved one's home requires patience, legal awareness, and local expertise. We've guided families through this — with care and no added pressure.",
   },
+  {
+    href: "/grants",
+    num: "VI",
+    title: "Homebuyer Grants",
+    desc: "Michigan offers thousands in down payment assistance. Our free tool checks 12+ programs and shows you what you qualify for — instantly.",
+  },
 ];
 
 const TESTIMONIALS = [

@@ -91,6 +91,7 @@ export default function Footer() {
                 { href: "/vip-buyers",     label: "VIP Coming Soon List" },
                 { href: "/selling",        label: "Sell Your Home" },
                 { href: "/home-valuation", label: "Free Home Valuation" },
+                { href: "/grants",         label: "Homebuyer Grants" },
                 { href: "/search-homes",   label: "Search Homes" },
               ].map((l) => (
                 <li key={l.href}>
@@ -118,6 +119,7 @@ export default function Footer() {
                 { href: "/relocation",          label: "Relocating to Michigan" },
                 { href: "/downsizing",          label: "Downsizing" },
                 { href: "/estate-sales",        label: "Estate & Probate Sales" },
+                { href: "/grants",              label: "Homebuyer Grants" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link

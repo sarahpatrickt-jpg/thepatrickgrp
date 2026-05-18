@@ -461,6 +461,17 @@ export default async function CityPage({ params }: Props) {
                   Get a no-obligation cash offer on your {city.name} home in 48 hours — no showings, no repairs.
                 </p>
               </Link>
+              <Link
+                href="/grants"
+                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              >
+                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                  Homebuyer Grants &amp; DPA
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  Check which Michigan down payment assistance programs you qualify for — free, instant results.
+                </p>
+              </Link>
             </div>
           </div>
 
