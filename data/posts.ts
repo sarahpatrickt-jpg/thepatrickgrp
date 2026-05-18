@@ -15,6 +15,8 @@ export type Post = {
   author: "Sarah" | "Brad";
   category: "Market Update" | "Buyer Tips" | "Seller Tips" | "Neighborhood" | "Team News";
   readTime: string;
+  image?: string; // URL for hero/card image
+  imageAlt?: string;
   relatedSlugs: string[];
   relatedCitySlugs: string[];
   content: ContentBlock[];
@@ -30,6 +32,8 @@ export const posts: Post[] = [
     author: "Sarah",
     category: "Market Update",
     readTime: "6 min read",
+    image: "/images/insights/spring-2026-market-update.jpg",
+    imageAlt: "Suburban homes in spring with green lawns and flowering trees",
     relatedSlugs: ["best-time-to-sell-a-house-southeast-michigan", "how-to-win-a-bidding-war-metro-detroit", "cost-to-sell-a-house-michigan"],
     relatedCitySlugs: ["birmingham-mi", "troy-mi", "rochester-hills-mi", "sterling-heights-mi", "warren-mi"],
     content: [
@@ -169,6 +173,8 @@ export const posts: Post[] = [
   {
     slug: "why-birmingham-keeps-appreciating",
     title: "Why Birmingham Keeps Appreciating",
+    image: "/images/insights/why-birmingham-keeps-appreciating.jpg",
+    imageAlt: "Upscale residential neighborhood with mature trees and brick homes",
     excerpt:
       "A walkable downtown isn't just a lifestyle feature - it's a durable value driver that has held through every market cycle we've seen.",
     date: "2026-03-15",
@@ -266,6 +272,8 @@ export const posts: Post[] = [
   {
     slug: "buyers-map-to-grosse-pointe",
     title: "A Buyer's Map to Grosse Pointe",
+    image: "/images/insights/buyers-map-grosse-pointe.jpg",
+    imageAlt: "Elegant home exterior with landscaped front yard",
     excerpt:
       "Five distinct communities, each with a different feel and price point. Here's how to navigate them before you tour a single home.",
     date: "2026-02-10",
@@ -373,6 +381,8 @@ export const posts: Post[] = [
   {
     slug: "cost-to-sell-a-house-michigan",
     title: "How Much Does It Cost to Sell a House in Michigan?",
+    image: "/images/insights/cost-to-sell-michigan.jpg",
+    imageAlt: "Calculator and documents on a desk representing home selling costs",
     excerpt:
       "Transfer taxes, title fees, commissions, and concessions — here's what Southeast Michigan sellers actually pay at closing, with a worked example on a $400K sale.",
     date: "2026-05-05",
@@ -501,6 +511,8 @@ export const posts: Post[] = [
   {
     slug: "best-time-to-sell-a-house-southeast-michigan",
     title: "Best Time of Year to Sell a House in Southeast Michigan",
+    image: "/images/insights/best-time-to-sell.jpg",
+    imageAlt: "For sale sign in front of a well-maintained suburban home",
     excerpt:
       "Spring gets the most attention, but the real answer is more nuanced — and timing matters less than most sellers think.",
     date: "2026-04-18",
@@ -599,6 +611,8 @@ export const posts: Post[] = [
   {
     slug: "selling-a-house-during-divorce-michigan",
     title: "Selling a House During a Divorce in Michigan",
+    image: "/images/insights/selling-during-divorce.jpg",
+    imageAlt: "House keys and legal documents on a table",
     excerpt:
       "Timing, authority, equity splits, and keeping the process from derailing — what Michigan sellers navigating a divorce actually need to know.",
     date: "2026-04-05",
@@ -701,6 +715,8 @@ export const posts: Post[] = [
   {
     slug: "new-construction-vs-resale-michigan",
     title: "New Construction vs. Resale in Southeast Michigan: What Buyers Need to Know",
+    image: "/images/insights/new-construction-vs-resale.jpg",
+    imageAlt: "Modern new construction home with clean lines and landscaping",
     excerpt:
       "The base price looks attractive until you see what the builder charges for everything else. Here's how to think through the decision honestly.",
     date: "2026-03-28",
@@ -805,6 +821,8 @@ export const posts: Post[] = [
   {
     slug: "how-to-win-a-bidding-war-metro-detroit",
     title: "How to Win a Bidding War in Metro Detroit",
+    image: "/images/insights/how-to-win-bidding-war.jpg",
+    imageAlt: "Couple reviewing an offer with their real estate agent",
     excerpt:
       "Escalation clauses and waiving inspections aren't the whole story. Here's how Brad actually advises buyers to compete — and win — in Southeast Michigan.",
     date: "2026-05-01",
@@ -903,6 +921,8 @@ export const posts: Post[] = [
   {
     slug: "selling-a-parents-home-michigan",
     title: "What to Know When Selling a Parent's Home in Michigan",
+    image: "/images/insights/selling-parents-home.jpg",
+    imageAlt: "Classic family home with mature landscaping",
     excerpt:
       "Whether your parent is downsizing, moving to memory care, or has passed away — selling their home involves legal authority, tax questions, and emotional weight that a standard sale doesn't.",
     date: "2026-04-22",
@@ -1007,6 +1027,8 @@ export const posts: Post[] = [
   {
     slug: "moving-to-southeast-michigan-from-chicago",
     title: "Moving to Southeast Michigan from Chicago: What to Expect",
+    image: "/images/insights/moving-from-chicago.jpg",
+    imageAlt: "Tree-lined residential street in a Michigan suburb",
     excerpt:
       "Chicago buyers are consistently surprised by what their budget buys here — and by a few things they didn't expect. Here's an honest guide.",
     date: "2026-04-12",
@@ -1108,6 +1130,8 @@ export const posts: Post[] = [
   {
     slug: "rochester-hills-vs-troy-michigan",
     title: "Rochester Hills vs. Troy: Choosing the Right Oakland County Suburb",
+    image: "/images/insights/rochester-hills-vs-troy.jpg",
+    imageAlt: "Split view of two different suburban neighborhoods",
     excerpt:
       "Two of Oakland County's top markets — different character, different commute patterns, different price floors. Here's how to decide.",
     date: "2026-03-22",
@@ -1207,6 +1231,8 @@ export const posts: Post[] = [
   {
     slug: "cash-offer-home-michigan-is-it-right-for-you",
     title: "Is a Cash Offer Right for Your Situation? What Michigan Sellers Should Know",
+    image: "/images/insights/cash-offer-right-for-you.jpg",
+    imageAlt: "Person reviewing a cash offer letter at a kitchen table",
     excerpt:
       "Cash offers are faster and simpler — but you'll typically net less. Here's when the trade-off makes sense, and when it doesn't.",
     date: "2026-03-14",
@@ -1277,6 +1303,8 @@ export const posts: Post[] = [
   {
     slug: "brrrr-strategy-southeast-michigan",
     title: "BRRRR Strategy in Oakland and Macomb Counties: What Investors Need to Know",
+    image: "/images/insights/brrrr-strategy.jpg",
+    imageAlt: "Investment property being renovated with tools and materials",
     excerpt:
       "Buy distressed, rehab, rent, refinance, repeat. Here's how the strategy actually works in Southeast Michigan — and where it breaks down.",
     date: "2026-03-05",
@@ -1379,6 +1407,8 @@ export const posts: Post[] = [
   {
     slug: "downsizing-southeast-michigan",
     title: "Downsizing in Southeast Michigan: How to Handle the Transition",
+    image: "/images/insights/downsizing.jpg",
+    imageAlt: "Cozy smaller home with welcoming front porch",
     excerpt:
       "The logistics of downsizing are more complex than most people expect — selling, buying, timing, and letting go of a home you've lived in for decades.",
     date: "2026-02-28",
@@ -1465,6 +1495,8 @@ export const posts: Post[] = [
   {
     slug: "what-a-home-inspection-covers-michigan",
     title: "What a Home Inspection Actually Covers in Michigan",
+    image: "/images/insights/home-inspection-michigan.jpg",
+    imageAlt: "Home inspector examining a property exterior",
     excerpt:
       "Most buyers think a home inspection is a pass/fail test. It isn't — and misunderstanding what inspectors find (and don't find) leads to expensive surprises.",
     date: "2026-02-18",
@@ -1570,6 +1602,8 @@ export const posts: Post[] = [
   {
     slug: "may-2026-southeast-michigan-market-pulse",
     title: "May 2026 Market Pulse: Midwest Markets Are Getting National Attention",
+    image: "/images/insights/may-2026-market-pulse.jpg",
+    imageAlt: "Aerial view of a residential neighborhood with tree-lined streets",
     excerpt:
       "Southeast Michigan just landed on multiple national hottest-markets lists. Here's what that means locally — and whether the hype matches reality on the ground.",
     date: "2026-05-11",
@@ -1695,6 +1729,124 @@ export const posts: Post[] = [
       {
         type: "paragraph",
         text: "Southeast Michigan getting national attention isn't hype — the fundamentals support it. Prices are appreciating at a healthy pace. Inventory is tight but workable. Employment is stable. And the cost of entry is still dramatically lower than comparable markets nationally. Whether you're buying, selling, or thinking about it for later this year, the May picture is clear: the market rewards preparation and punishes delay.",
+      },
+    ],
+  },
+
+  {
+    slug: "sorting-by-preparation-may-2026",
+    title: "Sorting by Preparation: Why the Corridor's DOM Is Diverging",
+    image: "/images/insights/sorting-by-preparation.jpg",
+    imageAlt: "Professionally staged home interior ready for market",
+    excerpt:
+      "Countywide days-on-market in Oakland have stretched to 32. A specific bracket of the market is still clearing in the high-20s. The spread between those two numbers is the entire story of late spring 2026.",
+    date: "2026-05-18",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "5 min read",
+    relatedSlugs: ["may-2026-southeast-michigan-market-pulse", "spring-2026-southeast-michigan-market-update", "best-time-to-sell-a-house-southeast-michigan"],
+    relatedCitySlugs: ["rochester-hills-mi", "shelby-township-mi", "troy-mi", "bloomfield-hills-mi"],
+    content: [
+      {
+        type: "h2",
+        text: "A late-spring read on the corridor",
+      },
+      {
+        type: "paragraph",
+        text: "The mortgage rate is not the most interesting number this month. Freddie Mac's 30-year fixed averaged 6.36% for the week ending May 14, with the 15-year at 5.71%, both down a single basis point from the prior week and roughly 45 basis points below where they sat at the same point in 2025. The Federal Reserve held the federal funds target at 3.50% to 3.75% at its April 29 meeting, and the four-member dissent recorded at that vote was the most divided FOMC reading since 1992. The next move on the calendar is the June 16 and 17 meeting, when the Committee refreshes its rate projections.",
+      },
+      {
+        type: "paragraph",
+        text: "What is more interesting is what those rates are now doing to seller behavior across the Woodward to M-59 corridor, and what they are no longer doing to the equity-rich move-up buyer.",
+      },
+      {
+        type: "h2",
+        text: "The leverage frame",
+      },
+      {
+        type: "paragraph",
+        text: "For the move-up buyer selling a $400K colonial in Royal Oak or Troy and moving into an $850K estate in Rochester Hills or Shelby Twp, the rate conversation has become a leverage conversation. Two hundred thousand dollars of cash equity migrating from the sale into the next purchase means the financed portion is modest. The monthly payment delta between a 6.0% and a 6.5% mortgage is real, but it rarely changes the buy-or-wait decision for a household with this kind of balance sheet behind them. We continue to advise clients to underwrite to the home and finance the rate.",
+      },
+      {
+        type: "h2",
+        text: "The divergence story",
+      },
+      {
+        type: "paragraph",
+        text: "The number worth watching this month is days-on-market, and specifically the spread between two readings of it.",
+      },
+      {
+        type: "paragraph",
+        text: "Countywide, Oakland County is now sitting on the market for about 32 days. A year ago at this point in the spring, the same figure was 23. That is a meaningful stretch.",
+      },
+      {
+        type: "paragraph",
+        text: "The $700K to $950K bracket of the corridor is telling a different story. Well-presented inventory in that range is still clearing in the high-20s. The bracket has not slowed in any structural sense.",
+      },
+      {
+        type: "callout",
+        label: "The split",
+        text: "The gap between 32 and 27 days is not noise. It is the market sorting itself by preparation. Homes drifting into the 40-and-50-day window are almost universally un-updated 1990s product, or sellers priced against a Sunday headline rather than against the comps actually closing. Homes still moving in 27 days are turn-key, accurately priced, and presented by someone who understands what the bracket rewards.",
+      },
+      {
+        type: "h2",
+        text: "What's moving on the ground",
+      },
+      {
+        type: "paragraph",
+        text: "Three observations from this week's tours and conversations.",
+      },
+      {
+        type: "h3",
+        text: "Rochester Hills (48306 and 48307)",
+      },
+      {
+        type: "paragraph",
+        text: "Modernized colonials are pulling a turn-key premium of roughly 7 to 10% per square foot over their un-updated neighbors on the same blocks. The white-oak-and-quartz package is no longer a \"nice to have\" in this zip code; it is a pricing threshold.",
+      },
+      {
+        type: "h3",
+        text: "Shelby Twp (48316)",
+      },
+      {
+        type: "paragraph",
+        text: "Two off-market trades cleared in 48316 in the past week, both before the listings reached broker preview. The buyer pool here is patient, capitalized, and waiting for prepared product. Sellers who list ready are getting rewarded; sellers who wait for \"summer\" are not.",
+      },
+      {
+        type: "h3",
+        text: "Commerce Twp (48382)",
+      },
+      {
+        type: "paragraph",
+        text: "Deeded lake-access supply between $600K and $850K remains tight going into Memorial Day. The Work-From-Lake archetype, a renovated build with a dedicated office and a water view, continues to lead the bracket on a price-per-square-foot basis.",
+      },
+      {
+        type: "h2",
+        text: "The window",
+      },
+      {
+        type: "paragraph",
+        text: "The eight-week stretch between Memorial Day and Independence Day is historically the tightest selling window of the year in this corridor. It is also, in 2026, the window most ruthlessly sorting prepared listings from underprepared ones.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are six weeks from listing and the kitchen still carries builder-grade granite or the photography is still scheduled for \"sometime next week,\" the question to answer this week is whether you finish those changes before the window closes or reset the timeline to a fall launch. Both are defensible. Neither is the answer most sellers default to without help.",
+      },
+      {
+        type: "h2",
+        text: "Where to start",
+      },
+      {
+        type: "paragraph",
+        text: "If you are weighing a move this season, the most useful first step is rarely a showing. It is a conversation about whether the timing serves you and what the comps in your zip code are actually rewarding right now.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "A current valuation at thepatrickgrp.com/home-valuation",
+          "A 20-minute strategy call before you commit to a listing date at thepatrickgrp.com/contact",
+          "Early access to inventory previews before MLS at thepatrickgrp.com/vip-buyers",
+        ],
       },
     ],
   },

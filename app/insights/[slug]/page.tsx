@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.excerpt,
       siteName: "The Patrick Group",
       publishedTime: post.date,
+      ...(post.image ? { images: [{ url: post.image, width: 1200, height: 630, alt: post.imageAlt ?? post.title }] } : {}),
     },
   };
 }
@@ -198,6 +199,19 @@ export default async function InsightPost({ params }: Props) {
           </p>
         </div>
       </section>
+
+      {/* Hero image */}
+      {post.image && (
+        <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 -mt-6">
+          <div className="aspect-[2.2/1] overflow-hidden rounded-sm shadow-lg">
+            <img
+              src={post.image}
+              alt={post.imageAlt ?? post.title}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      )}
 
       {/* Article body */}
       <section className="py-14 px-4 sm:px-6 bg-white">

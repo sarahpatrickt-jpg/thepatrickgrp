@@ -72,6 +72,15 @@ export default function InsightsPage() {
               href={`/insights/${featured.slug}`}
               className="group block mb-14 border border-gray-100 rounded-sm overflow-hidden hover:border-[#c70000] transition-colors"
             >
+              {featured.image && (
+                <div className="aspect-[2.2/1] overflow-hidden">
+                  <img
+                    src={featured.image}
+                    alt={featured.imageAlt ?? featured.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              )}
               <div className="bg-[#faf9f7] px-8 py-10 sm:p-10">
                 <div className="flex items-center gap-3 mb-4">
                   <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${categoryColors[featured.category] ?? "bg-gray-100 text-gray-600"}`}>
@@ -110,23 +119,34 @@ export default function InsightsPage() {
                 <Link
                   key={post.slug}
                   href={`/insights/${post.slug}`}
-                  className="group block border border-gray-100 rounded-sm p-6 hover:border-[#c70000] transition-colors"
+                  className="group block border border-gray-100 rounded-sm overflow-hidden hover:border-[#c70000] transition-colors"
                 >
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${categoryColors[post.category] ?? "bg-gray-100 text-gray-600"}`}>
-                      {post.category}
-                    </span>
-                    <span className="text-gray-400 text-xs">{post.readTime}</span>
+                  {post.image && (
+                    <div className="aspect-[16/9] overflow-hidden">
+                      <img
+                        src={post.image}
+                        alt={post.imageAlt ?? post.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  )}
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${categoryColors[post.category] ?? "bg-gray-100 text-gray-600"}`}>
+                        {post.category}
+                      </span>
+                      <span className="text-gray-400 text-xs">{post.readTime}</span>
+                    </div>
+                    <h2 className="font-serif text-lg font-bold text-[#1a1a1a] mb-2 group-hover:text-[#c70000] transition-colors leading-snug">
+                      {post.title}
+                    </h2>
+                    <p className="text-gray-500 text-sm leading-relaxed mb-4 line-clamp-3">
+                      {post.excerpt}
+                    </p>
+                    <p className="text-xs text-gray-400">
+                      {formatDate(post.date)}
+                    </p>
                   </div>
-                  <h2 className="font-serif text-lg font-bold text-[#1a1a1a] mb-2 group-hover:text-[#c70000] transition-colors leading-snug">
-                    {post.title}
-                  </h2>
-                  <p className="text-gray-500 text-sm leading-relaxed mb-4 line-clamp-3">
-                    {post.excerpt}
-                  </p>
-                  <p className="text-xs text-gray-400">
-                    {formatDate(post.date)}
-                  </p>
                 </Link>
               ))}
             </div>
