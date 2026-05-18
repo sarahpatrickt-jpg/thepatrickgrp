@@ -5,12 +5,10 @@ import ProgramCard from "./ProgramCard";
 export default function StepResults({
   profile,
   onBack,
-  onSubmitLead,
   leadStatus,
 }: {
   profile: BuyerProfile;
   onBack: () => void;
-  onSubmitLead: () => void;
   leadStatus: "idle" | "loading" | "success" | "error";
 }) {
   const { qualified, nearMiss } = qualifyBuyer(profile);
@@ -94,41 +92,28 @@ export default function StepResults({
         </p>
 
         {leadStatus === "success" ? (
-          <div className="bg-white/10 rounded-sm p-4">
+          <div className="bg-white/10 rounded-sm p-4 mb-4">
             <p className="font-semibold">We have your information!</p>
             <p className="text-white/70 text-sm mt-1">
               Someone from our team will reach out within one business day.
             </p>
           </div>
-        ) : (
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <button
-              onClick={onSubmitLead}
-              disabled={leadStatus === "loading"}
-              className="bg-white text-[#c70000] font-semibold px-6 py-3 text-sm hover:bg-gray-100 transition-colors disabled:opacity-60"
-            >
-              {leadStatus === "loading"
-                ? "Sending..."
-                : "Yes, Connect Me With a Lender"}
-            </button>
-            <a
-              href="tel:2487553545"
-              className="border-2 border-white/60 text-white font-semibold px-6 py-3 text-sm hover:border-white transition-colors"
-            >
-              Call (248) 755-3545
-            </a>
-          </div>
-        )}
+        ) : null}
 
-        {leadStatus === "error" && (
-          <p className="text-sm text-white/70 mt-3">
-            Something went wrong. Please call us at{" "}
-            <a href="tel:2487553545" className="underline">
-              248.755.3545
-            </a>
-            .
-          </p>
-        )}
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <a
+            href="tel:2487553545"
+            className="bg-white text-[#c70000] font-semibold px-6 py-3 text-sm hover:bg-gray-100 transition-colors"
+          >
+            Call Brad: (248) 755-3545
+          </a>
+          <a
+            href="/contact"
+            className="border-2 border-white/60 text-white font-semibold px-6 py-3 text-sm hover:border-white transition-colors"
+          >
+            Send a Message →
+          </a>
+        </div>
       </div>
 
       {/* Back button */}

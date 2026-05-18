@@ -13,7 +13,7 @@ export default function GrantWizard() {
   >("idle");
   const [formLoadedAt] = useState(() => Date.now());
 
-  function handleIntakeSubmit(p: BuyerProfile) {
+  async function handleIntakeSubmit(p: BuyerProfile) {
     setProfile(p);
     setStep("results");
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -26,22 +26,18 @@ export default function GrantWizard() {
         is_veteran: p.isVeteran,
       });
     }
-  }
 
-  async function handleSubmitLead() {
-    if (!profile) return;
-    setLeadStatus("loading");
-
+    // Send lead to Sierra immediately on form submit
     const note = [
-      `County: ${profile.county}`,
-      profile.city ? `City: ${profile.city}` : "",
-      `Household: ${profile.householdSize}`,
-      `Income: $${profile.annualIncome.toLocaleString()}`,
-      `Purchase Price: $${profile.purchasePrice.toLocaleString()}`,
-      `First-time buyer: ${profile.isFirstTimeBuyer ? "Yes" : "No"}`,
-      `Veteran: ${profile.isVeteran ? "Yes" : "No"}`,
-      `Occupation: ${profile.occupation}`,
-      `Credit: ${profile.creditScore}`,
+      `County: ${p.county}`,
+      p.city ? `City: ${p.city}` : "",
+      `Household: ${p.householdSize}`,
+      `Income: $${p.annualIncome.toLocaleString()}`,
+      `Purchase Price: $${p.purchasePrice.toLocaleString()}`,
+      `First-time buyer: ${p.isFirstTimeBuyer ? "Yes" : "No"}`,
+      `Veteran: ${p.isVeteran ? "Yes" : "No"}`,
+      `Occupation: ${p.occupation}`,
+      `Credit: ${p.creditScore}`,
     ]
       .filter(Boolean)
       .join(" | ");
@@ -51,10 +47,10 @@ export default function GrantWizard() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          firstName: profile.firstName,
-          lastName: profile.lastName,
-          email: profile.email,
-          phone: profile.phone,
+          firstName: p.firstName,
+          lastName: p.lastName,
+          email: p.email,
+          phone: p.phone,
           leadType: 1, // Buyer
           source: "thepatrickgrp.com - Grant Qualifier",
           note,
@@ -67,14 +63,12 @@ export default function GrantWizard() {
         setLeadStatus("success");
         if (typeof window !== "undefined" && typeof window.gtag === "function") {
           window.gtag("event", "grant_lead_submitted", {
-            county: profile.county,
+            county: p.county,
           });
         }
-      } else {
-        setLeadStatus("error");
       }
     } catch {
-      setLeadStatus("error");
+      // Silent fail — don't block the user from seeing results
     }
   }
 
@@ -83,7 +77,6 @@ export default function GrantWizard() {
       <StepResults
         profile={profile}
         onBack={() => setStep("intake")}
-        onSubmitLead={handleSubmitLead}
         leadStatus={leadStatus}
       />
     );
