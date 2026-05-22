@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import TikTokEmbed from "@/components/TikTokEmbed";
 
 export const metadata: Metadata = {
   title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
@@ -261,6 +262,23 @@ export default function AboutPage() {
             </div>
           ))}
 
+        </div>
+      </section>
+
+      {/* BEHIND THE SCENES */}
+      <section className="py-16 px-4 sm:px-6 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              Behind the scenes
+            </p>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+              The Team in Action
+            </h2>
+          </div>
+          <div className="flex justify-center">
+            <TikTokEmbed videoId="7569008654024740110" username=".christianbrown" />
+          </div>
         </div>
       </section>
 
