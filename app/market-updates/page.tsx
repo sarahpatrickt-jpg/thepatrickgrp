@@ -18,9 +18,15 @@ export const metadata: Metadata = {
 
 const reports = [
   {
+    href: "/market-updates/april-2026",
+    month: "April 2026",
+    label: "Latest Report",
+    summary: "Prices up across all five counties — Wayne leads at +7.7% YoY. Livingston overtakes Washtenaw on median price. Oakland is the fastest market at 10 days. Macomb and Wayne slowing significantly.",
+  },
+  {
     href: "/market-updates/march-2026",
     month: "March 2026",
-    label: "Latest Report",
+    label: "Past Report",
     summary: "Median prices up across all five counties. Days on market rising year-over-year — buyers have slightly more time, but well-priced homes continue to move.",
   },
 ];
