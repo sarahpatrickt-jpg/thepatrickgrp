@@ -3,7 +3,7 @@
  *
  * All qualification logic runs client-side. No API needed.
  * Data sourced from MSHDA, county housing authorities, and federal programs.
- * Last updated: May 2026
+ * Last updated: May 22, 2026
  */
 
 // ── Types ────────────────────────────────────────────────────────────────────
@@ -244,7 +244,7 @@ export const programs: GrantProgram[] = [
       "Income limits apply (based on household size)",
       "Homebuyer education course required",
     ],
-    url: "https://www.oakgov.com/community/housing",
+    url: "https://www.oakgov.com/government/oakland-county-treasurer-s-office/financial-empowerment-center/homebuyer-assistance-program",
     qualify: (p) => {
       const missing: string[] = [];
       if (p.county !== "Oakland")
@@ -335,12 +335,13 @@ export const programs: GrantProgram[] = [
   {
     id: "national-faith-wayne",
     name: "National Faith Homebuyers (Wayne County)",
-    amount: "Up to $13,999",
+    amount: "Up to $14,999",
     type: "forgivable-loan",
     description:
-      "National Faith Homebuyers provides up to $13,999 in down payment and closing cost assistance for buyers purchasing in Wayne County. A nonprofit-administered program with forgivable loan structure.",
+      "National Faith Homebuyers provides up to $14,999 in down payment and closing cost assistance for buyers purchasing in Wayne County. 0% interest, forgivable after 5 years of occupancy.",
     highlights: [
-      "Up to $13,999 in assistance",
+      "Up to $14,999 in assistance",
+      "0% interest, forgivable after 5 years",
       "Forgivable loan structure",
       "Nonprofit administered",
       "Wayne County purchases",
@@ -428,6 +429,33 @@ export const programs: GrantProgram[] = [
           `Household income must be under $${limit.toLocaleString()} for ${p.householdSize}-person household`
         );
       return { eligible: missing.length === 0, missing };
+    },
+  },
+  {
+    id: "mshda-first-gen",
+    name: "MSHDA First-Generation DPA",
+    amount: "Up to $25,000",
+    type: "forgivable-loan",
+    description:
+      "MSHDA's First-Generation Down Payment Assistance pilot offered up to $25,000 for first-generation homebuyers (those whose parents never owned a home). Funding is currently exhausted — but this program may be renewed. Worth monitoring.",
+    highlights: [
+      "Up to $25,000 in assistance",
+      "Designed for first-generation homebuyers",
+      "Statewide availability when funded",
+    ],
+    requirements: [
+      "First-generation homebuyer (parents never owned a home)",
+      "Must use an MSHDA-approved lender",
+      "Homebuyer education required",
+      "Program funding currently exhausted",
+    ],
+    url: "https://www.michigan.gov/mshda/pathway-to-housing/firstgendpa",
+    qualify: () => {
+      // Funding exhausted — always near-miss so users know it exists
+      return {
+        eligible: false,
+        missing: ["Funding currently exhausted — check back for potential renewal in 2026"],
+      };
     },
   },
   {
