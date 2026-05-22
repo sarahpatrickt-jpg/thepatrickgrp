@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: "Contact Us",
   description:
     "Reach The Patrick Group — Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
-  alternates: { canonical: "https://thepatrickgrp.com/contact" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/contact" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/contact",
+    url: "https://www.thepatrickgrp.com/contact",
     title: "Contact Us",
     description:
       "Reach The Patrick Group — Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
@@ -21,12 +21,12 @@ const contactSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact The Patrick Group",
-  url: "https://thepatrickgrp.com/contact",
+  url: "https://www.thepatrickgrp.com/contact",
   mainEntity: {
     "@type": "RealEstateAgent",
     name: "The Patrick Group | Oak and Stone Real Estate",
-    url: "https://thepatrickgrp.com",
-    logo: "https://thepatrickgrp.com/logo.png",
+    url: "https://www.thepatrickgrp.com",
+    logo: "https://www.thepatrickgrp.com/logo.png",
     telephone: "+12487553545",
     email: "sarah@sarahpatrickhomes.com",
     address: {

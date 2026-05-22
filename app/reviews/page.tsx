@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "Client Reviews",
   description:
     "Client reviews of The Patrick Group — Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
-  alternates: { canonical: "https://thepatrickgrp.com/reviews" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/reviews" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/reviews",
+    url: "https://www.thepatrickgrp.com/reviews",
     title: "Client Reviews",
     description:
       "Client reviews of The Patrick Group — Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
@@ -73,7 +73,7 @@ const aggregateSchema = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
   name: "The Patrick Group | Oak and Stone Real Estate",
-  url: "https://thepatrickgrp.com",
+  url: "https://www.thepatrickgrp.com",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5.0",

@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   title: "Southeast Michigan Real Estate",
   description:
     "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
-  alternates: { canonical: "https://thepatrickgrp.com" },
+  alternates: { canonical: "https://www.thepatrickgrp.com" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com",
+    url: "https://www.thepatrickgrp.com",
     title: "Southeast Michigan Real Estate",
     description:
       "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
@@ -246,9 +246,9 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     name: "The Patrick Group | Oak & Stone Real Estate",
-    url: "https://thepatrickgrp.com",
-    logo: "https://thepatrickgrp.com/logo.png",
-    image: "https://thepatrickgrp.com/team/sarah-patrick.jpg",
+    url: "https://www.thepatrickgrp.com",
+    logo: "https://www.thepatrickgrp.com/logo.png",
+    image: "https://www.thepatrickgrp.com/team/sarah-patrick.jpg",
     telephone: "+1-248-755-3545",
     email: "sarah@sarahpatrickhomes.com",
     address: {

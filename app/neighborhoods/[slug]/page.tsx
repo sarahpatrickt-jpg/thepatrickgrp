@@ -23,12 +23,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${city.name}, MI Real Estate Guide | The Patrick Group`,
     description: `${city.name}, Michigan real estate — median prices, market stats, school district, and local insights from The Patrick Group. ${city.county} County specialists.`,
     alternates: {
-      canonical: `https://thepatrickgrp.com/neighborhoods/${city.slug}`,
+      canonical: `https://www.thepatrickgrp.com/neighborhoods/${city.slug}`,
     },
     openGraph: {
       title: `${city.name} MI Real Estate | The Patrick Group`,
       description: `Home prices, market stats, school info, and Brad Patrick's take on ${city.name}, Michigan. ${city.county} County real estate specialists.`,
-      url: `https://thepatrickgrp.com/neighborhoods/${city.slug}`,
+      url: `https://www.thepatrickgrp.com/neighborhoods/${city.slug}`,
       images: [
         {
           url: `/images/cities/${city.slug}.png`,
@@ -149,7 +149,7 @@ export default async function CityPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": ["RealEstateAgent", "LocalBusiness"],
     name: "The Patrick Group | Oak & Stone Real Estate",
-    url: "https://thepatrickgrp.com",
+    url: "https://www.thepatrickgrp.com",
     telephone: "+12487553545",
     areaServed: {
       "@type": "City",

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
     "Downsizing your home in Southeast Michigan? The Patrick Group protects your equity and works on your timeline. Free consultation.",
   keywords:
     "downsizing real estate Southeast Michigan, sell large home Michigan, downsize home Rochester Hills, right-size home Michigan, downsizing realtor Michigan",
-  alternates: { canonical: "https://thepatrickgrp.com/downsizing" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/downsizing" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/downsizing",
+    url: "https://www.thepatrickgrp.com/downsizing",
     title: "Downsizing Your Home in Southeast Michigan",
     description:
       "Downsizing your home in Southeast Michigan? The Patrick Group protects your equity and works on your timeline. Free consultation.",

@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: "Southeast Michigan Neighborhoods",
   description:
     "Explore Oakland County and Macomb County communities. Home price ranges, property types, school districts, and local insights — to help you find the right fit.",
-  alternates: { canonical: "https://thepatrickgrp.com/neighborhoods" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/neighborhoods" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/neighborhoods",
+    url: "https://www.thepatrickgrp.com/neighborhoods",
     title: "Southeast Michigan Neighborhoods",
     description:
       "Explore Oakland County and Macomb County communities. Home price ranges, property types, school districts, and local insights — to help you find the right fit.",

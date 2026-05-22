@@ -55,14 +55,14 @@ export const metadata: Metadata = {
   },
   description:
     "The Patrick Group — Southeast Michigan real estate specialists. Boutique service, deep local knowledge. Led by Sarah Patrick, Principal Broker.",
-  metadataBase: new URL("https://thepatrickgrp.com"),
+  metadataBase: new URL("https://www.thepatrickgrp.com"),
   verification: {
     google: "DMvVDBTW9H-kSbHatJUzmNyGPErhzEAs0cBcePYjZrc",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://thepatrickgrp.com",
+    url: "https://www.thepatrickgrp.com",
     siteName: "The Patrick Group",
     title: "The Patrick Group | Southeast Michigan Real Estate Experts",
     description:
@@ -85,7 +85,7 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
   name: "The Patrick Group | Oak & Stone Real Estate",
-  url: "https://thepatrickgrp.com",
+  url: "https://www.thepatrickgrp.com",
   telephone: "+12487553545",
   email: "sarah@sarahpatrickhomes.com",
   address: {
@@ -136,7 +136,7 @@ const localBusinessSchema = {
       "@type": "Person",
       name: "Sarah Patrick",
       jobTitle: "Principal Broker / Owner",
-      url: "https://thepatrickgrp.com/about",
+      url: "https://www.thepatrickgrp.com/about",
       email: "sarah@sarahpatrickhomes.com",
       sameAs: "https://www.linkedin.com/in/sarahkpatrick/",
       worksFor: { "@type": "Organization", name: "The Patrick Group | Oak & Stone Real Estate" },
@@ -146,7 +146,7 @@ const localBusinessSchema = {
       "@type": "Person",
       name: "Brad Patrick",
       jobTitle: "Realtor®",
-      url: "https://thepatrickgrp.com/about",
+      url: "https://www.thepatrickgrp.com/about",
       email: "brad@youragentbrad.net",
       telephone: "+12487553545",
       sameAs: [

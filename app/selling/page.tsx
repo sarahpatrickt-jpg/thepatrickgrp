@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "Sell Your Home in Southeast Michigan",
   description:
     "Sell your Southeast Michigan home with The Patrick Group. Award-winning marketing, Unconditional Release Guarantee. Free consultation.",
-  alternates: { canonical: "https://thepatrickgrp.com/selling" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/selling" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/selling",
+    url: "https://www.thepatrickgrp.com/selling",
     title: "Sell Your Home in Southeast Michigan",
     description:
       "Sell your Southeast Michigan home with The Patrick Group. Award-winning marketing, Unconditional Release Guarantee. Free consultation.",

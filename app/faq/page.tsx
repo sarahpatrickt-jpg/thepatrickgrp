@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "FAQ — Southeast Michigan Real Estate | Rochester, MI",
   description:
     "Common real estate questions answered by The Patrick Group — Sarah Patrick (Principal Broker) and Brad Patrick (Realtor®). Southeast Michigan.",
-  alternates: { canonical: "https://thepatrickgrp.com/faq" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/faq" },
   robots: {
     index: true,
     follow: true,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/faq",
+    url: "https://www.thepatrickgrp.com/faq",
     title: "FAQ — Southeast Michigan Real Estate",
     description:
       "Common questions about buying, selling, and working with The Patrick Group — Southeast Michigan's boutique real estate team led by Sarah Patrick and Brad Patrick.",
@@ -32,12 +32,12 @@ const faqSchema = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://thepatrickgrp.com/#organization",
+      "@id": "https://www.thepatrickgrp.com/#organization",
       name: "The Patrick Group",
       alternateName: "The Patrick Group at Oak and Stone Real Estate",
       description:
         "The Patrick Group is a boutique real estate team serving Southeast Michigan, led by Sarah Patrick (Principal Broker) and Brad Patrick (Realtor, 15+ years of experience). Operating under Oak and Stone Real Estate, the team specializes in personalized buyer and seller representation, divorce real estate, relocation, estate sales, and downsizing. Tagline: Leading You Home.",
-      url: "https://thepatrickgrp.com",
+      url: "https://www.thepatrickgrp.com",
       telephone: "+12487553545",
       email: "sarah@sarahpatrickhomes.com",
       address: {
@@ -74,8 +74,8 @@ const faqSchema = {
         url: "https://www.oakandstonerealestate.com",
       },
       member: [
-        { "@id": "https://thepatrickgrp.com/#sarah-patrick" },
-        { "@id": "https://thepatrickgrp.com/#brad-patrick" },
+        { "@id": "https://www.thepatrickgrp.com/#sarah-patrick" },
+        { "@id": "https://www.thepatrickgrp.com/#brad-patrick" },
       ],
       sameAs: [
         "https://www.instagram.com/youragentbrad/",
@@ -86,12 +86,12 @@ const faqSchema = {
     },
     {
       "@type": "Person",
-      "@id": "https://thepatrickgrp.com/#sarah-patrick",
+      "@id": "https://www.thepatrickgrp.com/#sarah-patrick",
       name: "Sarah Patrick",
       jobTitle: "Principal Broker & Owner",
       description:
         "Sarah Patrick is the Principal Broker and Owner of The Patrick Group, a boutique real estate team based in Rochester, Michigan. She leads client strategy, operations, and team direction for Southeast Michigan buyers and sellers under Oak and Stone Real Estate.",
-      worksFor: { "@id": "https://thepatrickgrp.com/#organization" },
+      worksFor: { "@id": "https://www.thepatrickgrp.com/#organization" },
       email: "sarah@sarahpatrickhomes.com",
       telephone: "+12487553545",
       address: {
@@ -105,12 +105,12 @@ const faqSchema = {
     },
     {
       "@type": "Person",
-      "@id": "https://thepatrickgrp.com/#brad-patrick",
+      "@id": "https://www.thepatrickgrp.com/#brad-patrick",
       name: "Brad Patrick",
       jobTitle: "Realtor",
       description:
         "Brad Patrick is a Realtor and co-founder of The Patrick Group with over 15 years of real estate experience in Southeast Michigan. He was featured on the cover of Real Producers Magazine in April 2026 and is recognized in the Real Producers Top 300 for 2026.",
-      worksFor: { "@id": "https://thepatrickgrp.com/#organization" },
+      worksFor: { "@id": "https://www.thepatrickgrp.com/#organization" },
       email: "brad@youragentbrad.net",
       award: "Real Producers Magazine Cover Feature, April 2026",
       sameAs: [
@@ -120,7 +120,7 @@ const faqSchema = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://thepatrickgrp.com/faq",
+      "@id": "https://www.thepatrickgrp.com/faq",
       speakable: {
         "@type": "SpeakableSpecification",
         cssSelector: [".faq-answer"],

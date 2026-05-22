@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: "Search Homes for Sale — Southeast Michigan",
   description:
     "Search all homes for sale in Southeast Michigan. Full MLS/IDX search powered by Oak and Stone Real Estate.",
-  alternates: { canonical: "https://thepatrickgrp.com/search-homes" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/search-homes" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/search-homes",
+    url: "https://www.thepatrickgrp.com/search-homes",
     title: "Search Homes for Sale — Southeast Michigan",
     description:
       "Search all homes for sale in Southeast Michigan. Full MLS/IDX search powered by Oak and Stone Real Estate.",

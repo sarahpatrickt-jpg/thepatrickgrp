@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     "Find out which Michigan grants and down payment assistance programs you qualify for. Check MSHDA, county DPA, VA, USDA, and more — free, instant results.",
   keywords:
     "Michigan homebuyer grants, down payment assistance Michigan, MSHDA DPA, first time homebuyer Michigan, Oakland County down payment assistance, Detroit down payment assistance, Michigan first time buyer programs, homebuyer grants Southeast Michigan",
-  alternates: { canonical: "https://thepatrickgrp.com/grants" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/grants" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/grants",
+    url: "https://www.thepatrickgrp.com/grants",
     title:
       "Michigan Homebuyer Grants & Down Payment Assistance — Free Qualification Tool",
     description:

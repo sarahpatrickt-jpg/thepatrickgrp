@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { posts } from "@/data/posts";
 import { getAllComparisonSlugs } from "@/data/comparisons";
 
-const base = "https://thepatrickgrp.com";
+const base = "https://www.thepatrickgrp.com";
 
 const neighborhoods = [
   // Oakland County

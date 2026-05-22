@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: "VIP Buyer List — Coming Soon Listings",
   description:
     "Get first access to Coming Soon listings in Southeast Michigan before they hit Zillow. Join The Patrick Group VIP Buyer List — free, no obligation.",
-  alternates: { canonical: "https://thepatrickgrp.com/vip-buyers" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/vip-buyers" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/vip-buyers",
+    url: "https://www.thepatrickgrp.com/vip-buyers",
     title: "VIP Buyer List — Coming Soon Listings",
     description:
       "Get first access to Coming Soon listings in Southeast Michigan before they hit Zillow. Join The Patrick Group VIP Buyer List — free, no obligation.",

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
     "Estate and probate home sales in Southeast Michigan. The Patrick Group guides executors from first walkthrough to closing.",
   keywords:
     "estate sale real estate Southeast Michigan, probate home sale Michigan, sell inherited home Michigan, estate property Michigan, probate real estate agent Michigan",
-  alternates: { canonical: "https://thepatrickgrp.com/estate-sales" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/estate-sales" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/estate-sales",
+    url: "https://www.thepatrickgrp.com/estate-sales",
     title: "Estate & Probate Home Sales in Southeast Michigan",
     description:
       "Estate and probate home sales in Southeast Michigan. The Patrick Group guides executors from first walkthrough to closing.",

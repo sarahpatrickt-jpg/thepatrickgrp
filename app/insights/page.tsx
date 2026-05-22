@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: "Insights — Southeast Michigan Real Estate",
   description:
     "Market updates, buyer and seller tips, and local real estate insights from The Patrick Group in Southeast Michigan.",
-  alternates: { canonical: "https://thepatrickgrp.com/insights" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/insights" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/insights",
+    url: "https://www.thepatrickgrp.com/insights",
     title: "Insights",
     description:
       "Market updates and real estate guidance from Sarah Patrick and Brad Patrick — Southeast Michigan's boutique real estate team.",

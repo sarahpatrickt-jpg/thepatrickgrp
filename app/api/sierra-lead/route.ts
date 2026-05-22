@@ -5,7 +5,7 @@ const SIERRA_API_URL = "https://api.sierrainteractivedev.com/leads";
 /* ── CORS — allow landing page domains to submit leads ── */
 
 const ALLOWED_ORIGINS = [
-  "https://thepatrickgrp.com",
+  "https://www.thepatrickgrp.com",
   "https://www.thepatrickgrp.com",
   "https://michiganhomegrants.com",
   "https://www.michiganhomegrants.com",

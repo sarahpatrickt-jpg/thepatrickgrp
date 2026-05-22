@@ -31,4 +31,4 @@ Allow: /
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://thepatrickgrp.com/sitemap.xml
+Sitemap: https://www.thepatrickgrp.com/sitemap.xml

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
     "Moving to Southeast Michigan from out of state? The Patrick Group is your trusted local guide. We help relocators from Chicago, the East Coast, and beyond find the right home.",
   keywords:
     "relocating to Southeast Michigan, moving to Rochester MI, relocation real estate agent Michigan, moving to Metro Detroit suburbs, relocating from Chicago to Michigan",
-  alternates: { canonical: "https://thepatrickgrp.com/relocation" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/relocation" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/relocation",
+    url: "https://www.thepatrickgrp.com/relocation",
     title: "Relocating to Southeast Michigan",
     description:
       "Moving to Southeast Michigan from out of state? The Patrick Group is your trusted local guide. We help relocators from Chicago, the East Coast, and beyond find the right home.",

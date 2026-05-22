@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: "Free Home Valuation — Southeast Michigan",
   description:
     "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — deep local expertise, real data.",
-  alternates: { canonical: "https://thepatrickgrp.com/home-valuation" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/home-valuation" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/home-valuation",
+    url: "https://www.thepatrickgrp.com/home-valuation",
     title: "Free Home Valuation — Southeast Michigan",
     description:
       "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — deep local expertise, real data.",

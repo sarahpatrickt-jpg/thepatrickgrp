@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
   description:
     "Meet Sarah Patrick, Brad Patrick, and The Patrick Group — Southeast Michigan's boutique real estate team. Results-driven service.",
-  alternates: { canonical: "https://thepatrickgrp.com/about" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/about" },
   openGraph: {
     type: "website",
-    url: "https://thepatrickgrp.com/about",
+    url: "https://www.thepatrickgrp.com/about",
     title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
     description:
       "Meet Sarah Patrick, Brad Patrick, and The Patrick Group — Southeast Michigan's boutique real estate team. Results-driven service.",
@@ -396,7 +396,7 @@ export default function AboutPage() {
             "@context": "https://schema.org",
             "@type": "RealEstateAgent",
             name: "The Patrick Group / Oak and Stone Real Estate",
-            url: "https://thepatrickgrp.com",
+            url: "https://www.thepatrickgrp.com",
             telephone: "+12487553545",
             email: "sarah@sarahpatrickhomes.com",
             address: {
@@ -414,7 +414,7 @@ export default function AboutPage() {
               jobTitle: t.title,
               telephone: t.phone,
               email: t.email,
-              ...(t.photo ? { image: `https://thepatrickgrp.com${t.photo}` } : {}),
+              ...(t.photo ? { image: `https://www.thepatrickgrp.com${t.photo}` } : {}),
             })),
           }),
         }}

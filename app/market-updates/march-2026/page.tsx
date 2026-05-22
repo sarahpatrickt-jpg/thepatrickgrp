@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Southeast Michigan Real Estate Market Report — March 2026",
   description:
     "March 2026 Southeast Michigan market report — median sale price, price per sq ft, and days on market across five counties.",
-  alternates: { canonical: "https://thepatrickgrp.com/market-updates/march-2026" },
+  alternates: { canonical: "https://www.thepatrickgrp.com/market-updates/march-2026" },
 };
 
 const counties = [
@@ -66,17 +66,17 @@ const articleSchema = {
     worksFor: {
       "@type": "Organization",
       name: "The Patrick Group | Oak and Stone Real Estate",
-      url: "https://thepatrickgrp.com",
+      url: "https://www.thepatrickgrp.com",
     },
   },
   publisher: {
     "@type": "Organization",
     name: "The Patrick Group | Oak and Stone Real Estate",
-    url: "https://thepatrickgrp.com",
+    url: "https://www.thepatrickgrp.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://thepatrickgrp.com/market-updates/march-2026",
+    "@id": "https://www.thepatrickgrp.com/market-updates/march-2026",
   },
   about: [
     { "@type": "Place", name: "Oakland County", containedInPlace: "Michigan" },

@@ -20,10 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${post.title} | The Patrick Group`,
     description: post.excerpt,
-    alternates: { canonical: `https://thepatrickgrp.com/insights/${post.slug}` },
+    alternates: { canonical: `https://www.thepatrickgrp.com/insights/${post.slug}` },
     openGraph: {
       type: "article",
-      url: `https://thepatrickgrp.com/insights/${post.slug}`,
+      url: `https://www.thepatrickgrp.com/insights/${post.slug}`,
       title: post.title,
       description: post.excerpt,
       siteName: "The Patrick Group",
@@ -142,17 +142,17 @@ export default async function InsightPost({ params }: Props) {
       worksFor: {
         "@type": "Organization",
         name: "The Patrick Group | Oak and Stone Real Estate",
-        url: "https://thepatrickgrp.com",
+        url: "https://www.thepatrickgrp.com",
       },
     },
     publisher: {
       "@type": "Organization",
       name: "The Patrick Group | Oak and Stone Real Estate",
-      url: "https://thepatrickgrp.com",
+      url: "https://www.thepatrickgrp.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://thepatrickgrp.com/insights/${post.slug}`,
+      "@id": `https://www.thepatrickgrp.com/insights/${post.slug}`,
     },
   };
 
