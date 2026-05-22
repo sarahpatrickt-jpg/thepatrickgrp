@@ -279,6 +279,7 @@ export default function AboutPage() {
           <div className="flex flex-wrap justify-center gap-6">
             <TikTokEmbed videoId="7569008654024740110" username=".christianbrown" />
             <TikTokEmbed videoId="7613910134464597262" username=".christianbrown" />
+            <TikTokEmbed videoId="7544117008367996173" username=".christianbrown" />
           </div>
         </div>
       </section>
