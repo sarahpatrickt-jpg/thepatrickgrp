@@ -1851,6 +1851,142 @@ export const posts: Post[] = [
     ],
   },
 
+  {
+    slug: "michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know",
+    title: "Michigan's SB 971 Could Cap Out-of-State Investors at 10 Homes — What It Means for You",
+    image: "/images/insights/sb-971-investor-cap.jpg",
+    imageAlt: "Residential street in Southeast Michigan with for sale sign",
+    excerpt:
+      "A new Michigan bill would prohibit out-of-state investment groups from owning more than 10 single-family homes in the state. Here's what it actually says, how it connects to the federal push, and what it means if you're buying or selling in Southeast Michigan.",
+    date: "2026-05-22",
+    author: "Brad",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    relatedSlugs: ["spring-2026-southeast-michigan-market-update", "how-to-win-a-bidding-war-metro-detroit", "sorting-by-preparation-may-2026"],
+    relatedCitySlugs: ["sterling-heights-mi", "warren-mi", "detroit-mi", "clinton-township-mi", "shelby-township-mi"],
+    content: [
+      {
+        type: "paragraph",
+        text: "If you've been on TikTok or Instagram this month, you've probably seen it: creators and local housing advocates are buzzing about a Michigan bill that would cap how many single-family homes out-of-state investment groups can own in the state. The bill is Senate Bill 971, introduced by Senator Veronica Klinefelt (D-Eastpointe), and the core idea is simple — if you're an out-of-state investment entity, you cannot own more than 10 single-family homes in Michigan.",
+      },
+      {
+        type: "paragraph",
+        text: "The social media energy around this is real. But so is the nuance. Here's what SB 971 actually proposes, how it fits into a much bigger national conversation, and what it means if you're actively buying or selling in Southeast Michigan right now.",
+      },
+      {
+        type: "h2",
+        text: "What Senate Bill 971 Actually Says",
+      },
+      {
+        type: "paragraph",
+        text: "SB 971 was introduced on May 14, 2026, as part of a broader package of housing affordability legislation from Michigan Senate Democrats. The bill targets out-of-state investment groups specifically — not individual investors, not local landlords, not Michigan-based companies. The proposed cap is 10 single-family homes per entity.",
+      },
+      {
+        type: "paragraph",
+        text: "The goal, according to Senator Klinefelt, is to level the playing field for Michigan families who are competing against deep-pocketed institutional buyers that can make all-cash offers, waive inspections, and close in days. If you've ever lost a home to a cash buyer who never planned to live there, you understand the frustration this bill is trying to address.",
+      },
+      {
+        type: "callout",
+        label: "Key Detail",
+        text: "SB 971 targets out-of-state investment groups, not individual investors or Michigan-based landlords. The 10-home cap applies per entity. The bill is currently in committee and has not yet been voted on.",
+      },
+      {
+        type: "h2",
+        text: "The Federal Picture: It's Bigger Than Michigan",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan isn't acting in a vacuum. In January 2026, the White House issued an executive order titled 'Stopping Wall Street from Competing with Main Street Homebuyers.' Then in March, the U.S. Senate passed the 21st Century ROAD to Housing Act by a vote of 89-10, which includes a provision banning any investor that owns 350 or more homes from purchasing additional single-family properties.",
+      },
+      {
+        type: "paragraph",
+        text: "The House passed its own version in May 2026, though it takes a softer approach — dropping the outright ban in favor of other mechanisms. The two chambers will need to reconcile the differences before anything reaches the president's desk.",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan's SB 971 is a state-level complement to that federal momentum. The 10-home threshold is significantly more aggressive than the federal 350-home cap, which tells you something about how seriously Michigan legislators are taking the issue locally.",
+      },
+      {
+        type: "h2",
+        text: "How Big Is the Problem in Southeast Michigan?",
+      },
+      {
+        type: "paragraph",
+        text: "Nationally, institutional investors (entities owning 100+ homes) account for a relatively small share of total home purchases — roughly 1-2% of transactions. But the impact is not evenly distributed. Sun Belt markets like Atlanta and Jacksonville have seen institutional ownership reach 18-25% of single-family rentals. The Midwest has been less affected overall, but Metro Detroit's affordability has made it increasingly attractive to out-of-state capital.",
+      },
+      {
+        type: "paragraph",
+        text: "Here's what we see on the ground: in Wayne and Macomb counties specifically, cash offers from entities with no local presence have become more common in the sub-$300,000 price range over the past two years. These aren't always massive institutional players — some are mid-sized out-of-state firms running portfolios of 50-200 homes across multiple states. But the effect on a first-time buyer trying to purchase a starter home in Warren or Clinton Township is the same: they lose.",
+      },
+      {
+        type: "h2",
+        text: "What This Means for Buyers",
+      },
+      {
+        type: "paragraph",
+        text: "If SB 971 passes, it would reduce one category of competition in the market — particularly at the entry-level price points where institutional interest is highest. That's meaningful. But it's not a silver bullet.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "The bill targets out-of-state groups only. Michigan-based investors and individual landlords are unaffected.",
+          "It does not address the core supply problem. Southeast Michigan still needs more housing built, period.",
+          "It will not lower home prices on its own. Prices are driven by supply, demand, rates, and local employment — not just investor activity.",
+          "It could reduce the frequency of all-cash, no-inspection offers in certain price brackets, which would give financed buyers a better shot.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The practical advice hasn't changed: get pre-approved, work with an agent who understands competitive offer strategy, and be ready to move when the right home appears. But if this bill passes, the playing field in certain neighborhoods gets a little more level.",
+      },
+      {
+        type: "h2",
+        text: "What This Means for Sellers",
+      },
+      {
+        type: "paragraph",
+        text: "If you're selling, the concern is obvious: does limiting investor buyers reduce your pool of potential offers? The honest answer is yes, marginally — but that's not the whole story.",
+      },
+      {
+        type: "paragraph",
+        text: "Investor offers are attractive because they're often cash and close fast. But they also tend to come in below market value, because the buyer is running a yield calculation, not an emotional one. A family that plans to live in the home for 10 years will almost always pay more than an entity calculating cap rate. For most sellers in Southeast Michigan, a deeper pool of qualified owner-occupant buyers is ultimately better for your bottom line.",
+      },
+      {
+        type: "callout",
+        label: "For Sellers",
+        text: "A well-marketed home priced correctly will attract strong offers regardless of this legislation. The fundamentals of selling well — preparation, pricing, and professional marketing — matter far more than who is in your buyer pool.",
+      },
+      {
+        type: "h2",
+        text: "Will It Pass?",
+      },
+      {
+        type: "paragraph",
+        text: "SB 971 is currently in committee. Michigan has a Democratic trifecta (governor, state house, state senate), and the bill has strong party support. But 'introduced' and 'signed into law' are very different things. The real estate industry, property rights advocates, and investment groups will all weigh in. Even supportive legislators may push to modify the 10-home threshold or the definition of 'out-of-state investment group.'",
+      },
+      {
+        type: "paragraph",
+        text: "We'll be watching this closely and will update this article as the bill progresses. For now, the takeaway is that the political momentum — at both the state and federal level — is clearly moving toward restricting institutional ownership of single-family homes. Whether that becomes law in Michigan this session or next, the direction is set.",
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "SB 971 is a real bill with real momentum, not just a TikTok talking point. It won't fix housing affordability on its own, but it addresses a genuine frustration that Michigan buyers — especially first-time buyers in the $200K-$300K range — feel every week. Whether you're buying or selling, the fundamentals haven't changed: work with someone who knows the local market, understands the competitive landscape, and can help you navigate whatever rules are in play.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Buying? Get ahead of the competition with our VIP Coming Soon list at thepatrickgrp.com/vip-buyers",
+          "Selling? Find out what your home is worth today at thepatrickgrp.com/home-valuation",
+          "Questions about how this affects your situation? Call us at 248.755.3545",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
