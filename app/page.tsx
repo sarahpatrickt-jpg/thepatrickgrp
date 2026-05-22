@@ -194,22 +194,35 @@ const TESTIMONIALS = [
 
 const JOURNAL = [
   {
+    slug: "michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know",
+    label: "Buyer Tips",
+    num: "01",
+    title: "Michigan's SB 971 Could Cap Out-of-State Investors at 10 Homes",
+    excerpt:
+      "A new Michigan bill would prohibit out-of-state investment groups from owning more than 10 single-family homes. Here's what it means for buyers and sellers in Southeast Michigan.",
+    date: "May 2026",
+    readTime: "6 min",
+    large: true,
+    image: "/images/insights/sb-971-investor-cap.jpg",
+    imageAlt: "Residential street in Southeast Michigan with for sale sign",
+  },
+  {
     slug: "spring-2026-southeast-michigan-market-update",
     label: "Market Update",
-    num: "01",
+    num: "02",
     title: "The 2026 Southeast Michigan Market Report",
     excerpt:
       "Oakland, Macomb & Wayne counties: where prices are, what's moving, and how the spring selling season is playing out.",
     date: "Apr 2026",
     readTime: "8 min",
-    large: true,
+    large: false,
     image: "/images/insights/spring-2026-market-update.jpg",
     imageAlt: "Suburban homes in spring with green lawns and flowering trees",
   },
   {
     slug: "why-birmingham-keeps-appreciating",
     label: "Neighborhood",
-    num: "02",
+    num: "03",
     title: "Why Birmingham Keeps Appreciating",
     excerpt:
       "A walkable downtown isn't just a lifestyle feature — it's a durable value driver that's held through every cycle we've seen.",
@@ -218,19 +231,6 @@ const JOURNAL = [
     large: false,
     image: "/images/insights/why-birmingham-keeps-appreciating.jpg",
     imageAlt: "Downtown Birmingham Michigan streetscape",
-  },
-  {
-    slug: "buyers-map-to-grosse-pointe",
-    label: "Buyer Tips",
-    num: "03",
-    title: "A Buyer's Map to Grosse Pointe",
-    excerpt:
-      "Five distinct communities, each with a different feel and price point. Here's how to navigate them before you tour a single home.",
-    date: "Feb 2026",
-    readTime: "7 min",
-    large: false,
-    image: "/images/insights/buyers-map-grosse-pointe.jpg",
-    imageAlt: "Grosse Pointe neighborhood with tree-lined streets",
   },
 ];
 
