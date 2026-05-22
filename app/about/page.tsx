@@ -276,8 +276,9 @@ export default function AboutPage() {
               The Team in Action
             </h2>
           </div>
-          <div className="flex justify-center">
+          <div className="flex flex-wrap justify-center gap-6">
             <TikTokEmbed videoId="7569008654024740110" username=".christianbrown" />
+            <TikTokEmbed videoId="7613910134464597262" username=".christianbrown" />
           </div>
         </div>
       </section>
