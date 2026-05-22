@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TikTokEmbed from "@/components/TikTokEmbed";
 
 export const metadata: Metadata = {
   title: "Buy a Home in Southeast Michigan",
@@ -241,6 +242,21 @@ export default function BuyingPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* TIKTOK */}
+      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a]">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            Follow along
+          </p>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-8">
+            Real Estate Tips From Our Team
+          </h2>
+          <div className="flex justify-center">
+            <TikTokEmbed videoId="7529880336684092727" username=".christianbrown" />
           </div>
         </div>
       </section>
