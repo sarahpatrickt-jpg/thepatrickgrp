@@ -180,6 +180,36 @@ export default function SellingPage() {
         </div>
       </section>
 
+      {/* VIDEO — SEE OUR MARKETING */}
+      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              See the difference
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+              Our Marketing in Action
+            </h2>
+            <p className="mt-4 text-gray-500 max-w-xl mx-auto">
+              Every Patrick Group listing gets a full video walkthrough — not a
+              slideshow with music. Here&apos;s a recent example.
+            </p>
+          </div>
+          <div className="relative w-full overflow-hidden rounded-sm shadow-lg" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/cgcc_wQIbGw"
+              title="Patrick Group Listing Video — 1021 Clear Creek Dr"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <p className="text-center text-xs text-gray-400 mt-4">
+            1021 Clear Creek Dr — Full property tour produced by The Patrick Group
+          </p>
+        </div>
+      </section>
+
       {/* VS. AVERAGE AGENT COMPARISON */}
       <section className="py-20 px-4 sm:px-6 bg-[#1a1a1a] text-white">
         <div className="max-w-4xl mx-auto">
