@@ -112,7 +112,7 @@ export default function GrantWizard() {
           Checking Your Eligibility...
         </h2>
         <p className="text-gray-500 text-sm">
-          We&apos;re reviewing 12+ Michigan grant and assistance programs based on
+          We&apos;re reviewing 20+ Michigan grant and assistance programs based on
           your profile. This takes just a moment.
         </p>
       </div>

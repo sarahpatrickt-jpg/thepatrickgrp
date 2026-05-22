@@ -583,6 +583,232 @@ export const programs: GrantProgram[] = [
       return { eligible: missing.length === 0, missing };
     },
   },
+
+  // ── Bank & Credit Union Programs ──────────────────────────────────────────
+
+  {
+    id: "chase-homebuyer-grant",
+    name: "Chase Homebuyer Grant",
+    amount: "Up to $7,500",
+    type: "grant",
+    description:
+      "Chase offers up to $7,500 in grant funds toward down payment and closing costs for homebuyers purchasing in eligible areas. This is a true grant that does not need to be repaid. Available through Chase mortgage origination.",
+    highlights: [
+      "True grant — no repayment required",
+      "Up to $7,500 toward down payment or closing costs",
+      "Available in eligible census tracts",
+      "Must originate mortgage through Chase",
+    ],
+    requirements: [
+      "Property must be in a Chase-eligible area",
+      "Must use Chase for your mortgage",
+      "Primary residence only",
+      "Minimum credit score requirements apply",
+    ],
+    url: "https://www.chase.com/personal/mortgage/mortgage-assistance",
+    qualify: (p) => {
+      const missing: string[] = [];
+      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ typically required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score requirements apply — verify yours before applying");
+      missing.push("Property must be in a Chase-eligible census tract — ask a Chase loan officer to verify");
+      return { eligible: false, missing };
+    },
+  },
+  {
+    id: "wells-fargo-homebuyer-access",
+    name: "Wells Fargo Homebuyer Access",
+    amount: "Up to $10,000",
+    type: "grant",
+    description:
+      "Wells Fargo's Homebuyer Access grant provides up to $10,000 toward down payment for buyers in eligible areas. No repayment required. Must originate your mortgage through Wells Fargo.",
+    highlights: [
+      "Up to $10,000 down payment grant",
+      "No repayment required",
+      "Available in eligible communities",
+      "Can be combined with other assistance",
+    ],
+    requirements: [
+      "Property must be in a Wells Fargo-eligible area",
+      "Must use Wells Fargo for your mortgage",
+      "Income limits may apply",
+      "Primary residence only",
+    ],
+    url: "https://www.wellsfargo.com/mortgage/homebuyer-access-grant/",
+    qualify: (p) => {
+      const missing: string[] = [];
+      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ typically required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score requirements apply — verify yours before applying");
+      missing.push("Property must be in a Wells Fargo-eligible area — ask a Wells Fargo loan officer to verify");
+      return { eligible: false, missing };
+    },
+  },
+  {
+    id: "wells-fargo-closing-cost",
+    name: "Wells Fargo Closing Cost Credit",
+    amount: "Up to $5,000",
+    type: "grant",
+    description:
+      "Wells Fargo offers up to $5,000 in closing cost credits for income-qualified buyers at or below 80% of area median income. Can be combined with the Homebuyer Access grant for additional savings.",
+    highlights: [
+      "Up to $5,000 toward closing costs",
+      "For buyers at or below 80% AMI",
+      "Can combine with Homebuyer Access grant",
+      "No repayment required",
+    ],
+    requirements: [
+      "Household income at or below 80% AMI",
+      "Must use Wells Fargo for your mortgage",
+      "Primary residence only",
+    ],
+    url: "https://www.wellsfargo.com/mortgage/homebuyer-access-grant/",
+    qualify: (p) => {
+      const missing: string[] = [];
+      const amiTable = AMI_80_BY_COUNTY[p.county];
+      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
+      if (p.annualIncome > amiLimit)
+        missing.push(
+          `Household income must be at or below $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
+        );
+      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ typically required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score requirements apply — verify yours before applying");
+      return { eligible: missing.length === 0, missing };
+    },
+  },
+  {
+    id: "rocket-one-plus",
+    name: "Rocket Mortgage ONE+",
+    amount: "1% down (Rocket covers 2%)",
+    type: "grant",
+    description:
+      "Rocket Mortgage's ONE+ program lets qualified buyers purchase with just 1% down. Rocket provides an additional 2% grant (up to $7,000) to bring your total equity to 3%. Designed for income-qualified buyers.",
+    highlights: [
+      "Only 1% down payment from you",
+      "Rocket contributes 2% grant (up to $7,000)",
+      "Start with 3% equity on day one",
+      "No PMI with 3% equity structure",
+    ],
+    requirements: [
+      "Household income at or below 80% AMI",
+      "Must originate through Rocket Mortgage",
+      "Credit score 620+",
+      "Primary residence, single-family home",
+    ],
+    url: "https://www.rocketmortgage.com/learn/one-plus",
+    qualify: (p) => {
+      const missing: string[] = [];
+      const amiTable = AMI_80_BY_COUNTY[p.county];
+      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
+      if (p.annualIncome > amiLimit)
+        missing.push(
+          `Household income must be at or below $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
+        );
+      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ required — verify yours before applying");
+      return { eligible: missing.length === 0, missing };
+    },
+  },
+  {
+    id: "honor-cu-launch",
+    name: "Honor Credit Union Launch DPA",
+    amount: "Up to $20,000",
+    type: "forgivable-loan",
+    description:
+      "Honor Credit Union's Launch program offers up to $20,000 in down payment assistance for first-time, income-qualified homebuyers. Designed for buyers at or below 80% AMI. Must originate your mortgage through Honor CU.",
+    highlights: [
+      "Up to $20,000 in assistance",
+      "For first-time homebuyers",
+      "Income-qualified (80% AMI)",
+      "Must use Honor Credit Union",
+    ],
+    requirements: [
+      "First-time homebuyer",
+      "Household income at or below 80% AMI",
+      "Must originate mortgage through Honor CU",
+      "Property in Honor CU service area",
+    ],
+    url: "https://www.honorcu.com",
+    qualify: (p) => {
+      const missing: string[] = [];
+      if (!p.isFirstTimeBuyer)
+        missing.push("Must be a first-time homebuyer");
+      const amiTable = AMI_80_BY_COUNTY[p.county];
+      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
+      if (p.annualIncome > amiLimit)
+        missing.push(
+          `Household income must be at or below $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
+        );
+      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ typically required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score requirements apply — verify yours before applying");
+      return { eligible: missing.length === 0, missing };
+    },
+  },
+  {
+    id: "fhlb-homeboost",
+    name: "FHLB HomeBoost",
+    amount: "Up to $25,000",
+    type: "grant",
+    description:
+      "The Federal Home Loan Bank HomeBoost program provides up to $25,000 in down payment and closing cost assistance. Targeted toward minority and first-generation homebuyers. Available through participating FHLB member lenders.",
+    highlights: [
+      "Up to $25,000 in assistance",
+      "Targeted toward minority and first-gen buyers",
+      "Available through participating lenders",
+      "Grant — no repayment required",
+    ],
+    requirements: [
+      "Minority or first-generation homebuyer",
+      "Must use a participating FHLB member lender",
+      "Income limits may apply",
+      "Primary residence only",
+    ],
+    url: "https://www.fhlbi.com",
+    qualify: (p) => {
+      const missing: string[] = [];
+      // Cannot determine minority/first-gen status from current profile
+      missing.push("Must be a minority or first-generation homebuyer — ask your lender about FHLB HomeBoost eligibility");
+      return { eligible: false, missing };
+    },
+  },
+  {
+    id: "flagstar-destination-home",
+    name: "Flagstar Destination Home",
+    amount: "No PMI",
+    type: "rate-reduction",
+    description:
+      "Flagstar Bank's Destination Home program offers mortgage financing with no private mortgage insurance (PMI) requirement in designated community lending areas. Competitive rates with reduced upfront costs.",
+    highlights: [
+      "No PMI required",
+      "Community lending program",
+      "Competitive interest rates",
+      "Reduced overall monthly payment",
+    ],
+    requirements: [
+      "Property must be in a Flagstar community lending area",
+      "Must originate mortgage through Flagstar",
+      "Income and credit requirements apply",
+      "Primary residence only",
+    ],
+    url: "https://www.flagstar.com",
+    qualify: (p) => {
+      const missing: string[] = [];
+      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
+        missing.push("Credit score of 620+ typically required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score requirements apply — verify yours before applying");
+      missing.push("Property must be in a Flagstar community lending area — ask a Flagstar loan officer to verify");
+      return { eligible: false, missing };
+    },
+  },
 ];
 
 // ── Qualification Engine ────────────────────────────────────────────────────
