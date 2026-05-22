@@ -281,6 +281,7 @@ export default function AboutPage() {
             <TikTokEmbed videoId="7613910134464597262" username=".christianbrown" />
             <TikTokEmbed videoId="7544117008367996173" username=".christianbrown" />
             <TikTokEmbed videoId="7571260418878917901" username=".christianbrown" />
+            <TikTokEmbed videoId="7534852005362273549" username=".christianbrown" />
           </div>
         </div>
       </section>
