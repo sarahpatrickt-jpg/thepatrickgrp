@@ -194,22 +194,35 @@ const TESTIMONIALS = [
 
 const JOURNAL = [
   {
-    slug: "michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know",
+    slug: "michigan-homebuyer-grants-rates-how-to-afford-a-home-2026",
     label: "Buyer Tips",
     num: "01",
+    title: "Grants, Rates, and Real Math: How Michigan Buyers Are Affording Homes in 2026",
+    excerpt:
+      "Mortgage rates are in the mid-6s. Insurance is up 20%. And Michigan has thousands in grant money most buyers don't know about. Here's how to stack every advantage.",
+    date: "May 2026",
+    readTime: "7 min",
+    large: true,
+    image: "/images/insights/grants-rates-real-math.jpg",
+    imageAlt: "Young couple reviewing paperwork at a kitchen table",
+  },
+  {
+    slug: "michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know",
+    label: "Buyer Tips",
+    num: "02",
     title: "Michigan's SB 971 Could Cap Out-of-State Investors at 10 Homes",
     excerpt:
-      "A new Michigan bill would prohibit out-of-state investment groups from owning more than 10 single-family homes. Here's what it means for buyers and sellers in Southeast Michigan.",
+      "A new Michigan bill would prohibit out-of-state investment groups from owning more than 10 single-family homes. Here's what it means locally.",
     date: "May 2026",
     readTime: "6 min",
-    large: true,
+    large: false,
     image: "/images/insights/sb-971-investor-cap.jpg",
     imageAlt: "Residential street in Southeast Michigan with for sale sign",
   },
   {
     slug: "spring-2026-southeast-michigan-market-update",
     label: "Market Update",
-    num: "02",
+    num: "03",
     title: "The 2026 Southeast Michigan Market Report",
     excerpt:
       "Oakland, Macomb & Wayne counties: where prices are, what's moving, and how the spring selling season is playing out.",
@@ -218,19 +231,6 @@ const JOURNAL = [
     large: false,
     image: "/images/insights/spring-2026-market-update.jpg",
     imageAlt: "Suburban homes in spring with green lawns and flowering trees",
-  },
-  {
-    slug: "why-birmingham-keeps-appreciating",
-    label: "Neighborhood",
-    num: "03",
-    title: "Why Birmingham Keeps Appreciating",
-    excerpt:
-      "A walkable downtown isn't just a lifestyle feature — it's a durable value driver that's held through every cycle we've seen.",
-    date: "Mar 2026",
-    readTime: "5 min",
-    large: false,
-    image: "/images/insights/why-birmingham-keeps-appreciating.jpg",
-    imageAlt: "Downtown Birmingham Michigan streetscape",
   },
 ];
 
