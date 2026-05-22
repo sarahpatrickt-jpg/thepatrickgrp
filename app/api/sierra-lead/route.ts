@@ -2,6 +2,35 @@ import { NextRequest, NextResponse } from "next/server";
 
 const SIERRA_API_URL = "https://api.sierrainteractivedev.com/leads";
 
+/* ── CORS — allow landing page domains to submit leads ── */
+
+const ALLOWED_ORIGINS = [
+  "https://thepatrickgrp.com",
+  "https://www.thepatrickgrp.com",
+  "https://michiganhomegrants.com",
+  "https://www.michiganhomegrants.com",
+  "https://michiganfirsttimehomebuyergrants.com",
+  "https://www.michiganfirsttimehomebuyergrants.com",
+  "https://mihomebuyergrants.com",
+  "https://www.mihomebuyergrants.com",
+  "https://buynomoneydownapp.com",
+  "https://www.buynomoneydownapp.com",
+];
+
+function corsHeaders(origin: string | null) {
+  const allowed = origin && ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
+  return {
+    "Access-Control-Allow-Origin": allowed,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+  };
+}
+
+export async function OPTIONS(req: NextRequest) {
+  const origin = req.headers.get("origin");
+  return new NextResponse(null, { status: 204, headers: corsHeaders(origin) });
+}
+
 /* ── Bot-detection helpers ── */
 
 /** Returns true if a name looks like bot gibberish (e.g. "VHsxXnargkKsDuREO") */
@@ -45,6 +74,9 @@ function isSuspiciousEmail(email: string): boolean {
 }
 
 export async function POST(req: NextRequest) {
+  const origin = req.headers.get("origin");
+  const cors = corsHeaders(origin);
+
   try {
     const {
       firstName,
@@ -61,30 +93,29 @@ export async function POST(req: NextRequest) {
 
     // Honeypot check — bots fill hidden fields, humans don't
     if (honeypot) {
-      return NextResponse.json({ success: true }, { status: 200 });
+      return NextResponse.json({ success: true }, { status: 200, headers: cors });
     }
 
     // Time-based check — bots submit forms in < 3 seconds
     if (_t) {
       const elapsed = Date.now() - Number(_t);
       if (elapsed < 3000) {
-        // Too fast to be human — fake success
-        return NextResponse.json({ success: true }, { status: 200 });
+        return NextResponse.json({ success: true }, { status: 200, headers: cors });
       }
     }
 
     // Gibberish name check — catches "VHsxXnargkKsDuREO" style bot names
     if (isGibberishName(firstName) || isGibberishName(lastName)) {
-      return NextResponse.json({ success: true }, { status: 200 });
+      return NextResponse.json({ success: true }, { status: 200, headers: cors });
     }
 
     // Suspicious email check
     if (isSuspiciousEmail(email)) {
-      return NextResponse.json({ success: true }, { status: 200 });
+      return NextResponse.json({ success: true }, { status: 200, headers: cors });
     }
 
     if (!email) {
-      return NextResponse.json({ error: "Email is required." }, { status: 400 });
+      return NextResponse.json({ error: "Email is required." }, { status: 400, headers: cors });
     }
 
     // Sierra requires a password field (max 30 chars) — we generate a non-guessable one
@@ -118,20 +149,19 @@ export async function POST(req: NextRequest) {
     if (!res.ok) {
       const err = await res.text();
       console.error("Sierra API error:", err);
-      // Treat duplicate email as success — lead already exists in CRM
       if (err.includes("already exists")) {
-        return NextResponse.json({ success: true, duplicate: true }, { status: 200 });
+        return NextResponse.json({ success: true, duplicate: true }, { status: 200, headers: cors });
       }
       return NextResponse.json(
         { error: "Lead submission failed. Please try again." },
-        { status: 500 }
+        { status: 500, headers: cors }
       );
     }
 
     const data = await res.json();
-    return NextResponse.json({ success: true, leadId: data?.data?.leadId }, { status: 200 });
+    return NextResponse.json({ success: true, leadId: data?.data?.leadId }, { status: 200, headers: cors });
   } catch (err) {
     console.error("Sierra lead error:", err);
-    return NextResponse.json({ error: "Something went wrong." }, { status: 500 });
+    return NextResponse.json({ error: "Something went wrong." }, { status: 500, headers: cors });
   }
 }
