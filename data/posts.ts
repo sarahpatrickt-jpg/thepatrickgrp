@@ -1987,6 +1987,188 @@ export const posts: Post[] = [
     ],
   },
 
+  {
+    slug: "michigan-homebuyer-grants-rates-how-to-afford-a-home-2026",
+    title: "Grants, Rates, and Real Math: How Michigan Buyers Are Actually Affording Homes in 2026",
+    image: "/images/insights/grants-rates-real-math.jpg",
+    imageAlt: "Young couple reviewing paperwork at a kitchen table",
+    excerpt:
+      "Mortgage rates are in the mid-6s. Insurance is up 20%. And Michigan has thousands in grant money most buyers don't know about. Here's how to stack every advantage and actually close on a house this year.",
+    date: "2026-05-22",
+    author: "Brad",
+    category: "Buyer Tips",
+    readTime: "7 min read",
+    relatedSlugs: ["michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know", "how-to-win-a-bidding-war-metro-detroit", "spring-2026-southeast-michigan-market-update"],
+    relatedCitySlugs: ["sterling-heights-mi", "warren-mi", "clinton-township-mi", "macomb-township-mi", "romulus-mi", "detroit-mi"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Let's be honest about what first-time buyers are facing in 2026. The 30-year fixed mortgage rate is sitting around 6.5%. Michigan home insurance premiums jumped over 21% last year. Median home prices are up in every county we track. And if you're scrolling TikTok or Instagram, you're seeing a lot of people telling you the dream is dead.",
+      },
+      {
+        type: "paragraph",
+        text: "It's not dead. But it does require a different strategy than it did in 2019 when rates were in the 3s and nobody was talking about insurance costs. The buyers who are actually closing in Southeast Michigan right now aren't lucky — they're informed. They know what programs exist, they know how to stack them, and they have someone in their corner who's done it before.",
+      },
+      {
+        type: "paragraph",
+        text: "This article breaks down every financial lever available to Michigan homebuyers right now — grants, loan programs, rate strategies, and insurance realities. No fluff. Just the math.",
+      },
+      {
+        type: "h2",
+        text: "The Rate Reality: 6.5% Is Not the End of the World",
+      },
+      {
+        type: "paragraph",
+        text: "The average 30-year fixed rate as of late May 2026 is approximately 6.5%, with 15-year fixed rates around 5.7%. That's down from the 7%+ peaks of 2023-2024, but still well above the historically unusual sub-4% rates that shaped buyer expectations for a decade.",
+      },
+      {
+        type: "paragraph",
+        text: "Here's what I tell every buyer who walks into my office worried about rates: your grandparents bought their house at 8-12%. The average 30-year rate over the last 50 years is about 7.7%. We're below the historical average. What changed isn't the rate — it's the price of the house relative to wages, and that's exactly where grants and assistance programs become your leverage.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "30-Year Fixed", value: "~6.5%", note: "May 2026 avg" },
+          { label: "15-Year Fixed", value: "~5.7%", note: "May 2026 avg" },
+          { label: "50-Year Avg", value: "7.7%", note: "Historical norm" },
+        ],
+      },
+      {
+        type: "callout",
+        label: "Rate Strategy",
+        text: "Ask your lender about a 2-1 temporary rate buydown. On a $270,000 Macomb County home, a seller-paid 2-1 buydown drops your first-year rate to ~4.5% and your second-year rate to ~5.5%. That can mean $400/month in savings during the years you need it most. We regularly negotiate seller-paid buydowns into our offers.",
+      },
+      {
+        type: "h2",
+        text: "Michigan Grants Most Buyers Don't Know About",
+      },
+      {
+        type: "paragraph",
+        text: "This is where the real advantage is. Michigan has some of the most generous down payment assistance programs in the Midwest, and the vast majority of first-time buyers I talk to don't know they exist. We built a free grant qualification tool on our site that checks 12+ programs in about two minutes. But here's the breakdown of the biggest ones:",
+      },
+      {
+        type: "h3",
+        text: "MSHDA MI Home Loan + DPA ($7,500–$10,000)",
+      },
+      {
+        type: "paragraph",
+        text: "The Michigan State Housing Development Authority offers up to $7,500 in down payment assistance statewide, and up to $10,000 in targeted zip codes. This is a zero-interest, zero-monthly-payment loan that you only pay back when you sell, refinance, or pay off your mortgage. It stacks on top of FHA, conventional, VA, or USDA loans. You need a 640+ credit score and your household income must be under the county limit — roughly $95,000 to $121,000 depending on where you're buying.",
+      },
+      {
+        type: "h3",
+        text: "Detroit DPA (Up to $25,000)",
+      },
+      {
+        type: "paragraph",
+        text: "Buying in Detroit proper? The Detroit Down Payment Assistance Program offers up to $25,000 for down payments, closing costs, and related expenses. This is one of the most generous city-level programs in the entire country. Combined with MSHDA, a Detroit buyer could potentially access $35,000 in assistance before touching their own savings.",
+      },
+      {
+        type: "h3",
+        text: "USDA Rural Development (Zero Down Payment)",
+      },
+      {
+        type: "paragraph",
+        text: "Here's one that surprises people: 97% of Michigan is USDA-eligible. That means zero down payment required. You don't have to be buying a farm — plenty of suburban and small-town communities in Livingston County, northern Macomb County, and western Oakland County qualify. Income limits are generous too: $119,850 for a family of 1-4 in 2026. If you're buying outside the major metro cores, this should be your first conversation with a lender.",
+      },
+      {
+        type: "h3",
+        text: "VA Loans (Zero Down, No PMI)",
+      },
+      {
+        type: "paragraph",
+        text: "If you're a veteran or active-duty military, the VA loan remains the single best mortgage product available anywhere. Zero down payment, no private mortgage insurance, and competitive rates that are typically 0.25-0.5% below conventional. You can combine VA financing with MSHDA assistance in many cases.",
+      },
+      {
+        type: "h3",
+        text: "HomeReady and Home Possible (3% Down, Income-Based)",
+      },
+      {
+        type: "paragraph",
+        text: "Fannie Mae's HomeReady and Freddie Mac's Home Possible programs allow as little as 3% down with reduced mortgage insurance for borrowers at or below 80% of area median income. In Oakland County, that's a household income up to approximately $83,000. In Wayne County, it's lower. These programs are specifically designed for the buyer who has good credit but not a lot of cash saved.",
+      },
+      {
+        type: "callout",
+        label: "Check Your Eligibility",
+        text: "We built a free tool that checks your eligibility for 12+ Michigan grant and assistance programs in about 2 minutes. No obligation, instant results. Try it at thepatrickgrp.com/grants",
+      },
+      {
+        type: "h2",
+        text: "The Insurance Problem Nobody's Talking About",
+      },
+      {
+        type: "paragraph",
+        text: "Here's the number that's quietly changing the affordability math: Michigan home insurance premiums increased 21.6% between 2024 and 2025, and projections show another 3-8% increase in 2026. The average Michigan homeowner is now paying roughly $2,200 per year — about $183/month — just for insurance.",
+      },
+      {
+        type: "paragraph",
+        text: "Most first-time buyers budget for principal, interest, and taxes. They forget insurance until the lender pulls it into the escrow estimate, and suddenly their comfortable monthly payment is $150-200 higher than expected. Don't let this happen to you.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Get insurance quotes before you make an offer — not after. Your agent should help you factor this into your budget from day one.",
+          "Bundle your auto and home insurance. In Michigan, bundling typically saves 15-25%.",
+          "Ask about wind/hail deductible options. A higher deductible on weather-related claims can meaningfully reduce your premium.",
+          "Newer homes and updated roofs get significantly better rates. Factor this into which homes you're targeting.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Stacking the Advantages: A Real Example",
+      },
+      {
+        type: "paragraph",
+        text: "Let's run real numbers on a $270,000 home in Macomb County — right at the county median — for a first-time buyer with a 680 credit score and $65,000 household income.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Purchase Price", value: "$270,000", note: "Macomb County median" },
+          { label: "MSHDA DPA", value: "$10,000", note: "Targeted zip" },
+          { label: "Out of Pocket", value: "~$2,700", note: "1% minimum contribution" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "With MSHDA's DPA covering most of the down payment, this buyer needs roughly $2,700 of their own money plus closing costs — which can often be negotiated as seller concessions in the current market. Add a seller-paid 2-1 rate buydown and the first-year monthly payment drops by $300-400 compared to the sticker rate. That's the difference between 'I can't afford it' and 'I'm moving in next month.'",
+      },
+      {
+        type: "h2",
+        text: "The Competitive Edge: Why This Matters in a Bidding Situation",
+      },
+      {
+        type: "paragraph",
+        text: "Here's something the TikTok finance creators don't always mention: knowing these programs isn't just about affording the home. It's about winning the offer. When I write an offer for a buyer using MSHDA or a similar program, I make sure the offer is structured so the seller sees strength, not complexity. Pre-approval with DPA already confirmed. Clean terms. Fast close timeline. The seller doesn't care where your down payment comes from — they care that you can close.",
+      },
+      {
+        type: "paragraph",
+        text: "I've personally closed deals in Macomb and Wayne counties where my buyer was using full DPA and beat out a conventional offer because we presented it better. The program doesn't make you a weaker buyer — bad preparation makes you a weaker buyer.",
+      },
+      {
+        type: "h2",
+        text: "What to Do This Week",
+      },
+      {
+        type: "paragraph",
+        text: "If you're a first-time buyer in Southeast Michigan and you've been sitting on the sideline because the numbers feel impossible, here's your action list:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Check your grant eligibility in 2 minutes — free, instant results at thepatrickgrp.com/grants",
+          "Get pre-approved with an MSHDA-approved lender. We have a list of trusted local lenders we work with regularly.",
+          "Get insurance quotes early. Know your real monthly cost before you start touring homes.",
+          "Join our VIP Coming Soon list to see homes before they hit Zillow — thepatrickgrp.com/vip-buyers",
+          "Call us at 248.755.3545 — a 15-minute conversation about your situation costs nothing and could save you thousands.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The buyers who are closing in 2026 aren't the ones with the most money. They're the ones with the most information. Now you have it.",
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
