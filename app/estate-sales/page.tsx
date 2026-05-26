@@ -364,17 +364,17 @@ export default function EstateSalesPage() {
             Related specialty services
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/inherited-property" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Inherited Property Navigator</p>
+              <p className="text-xs text-gray-500 mt-1">Free tool: answer 8 questions and get a personalized action plan for your inherited property.</p>
+            </Link>
             <Link href="/cash-offer" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
               <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Cash Offer Program</p>
               <p className="text-xs text-gray-500 mt-1">Sell an estate property as-is with no repairs, no showings, and a close in as few as 14 days.</p>
             </Link>
-            <Link href="/divorce-real-estate" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Divorce Real Estate</p>
-              <p className="text-xs text-gray-500 mt-1">Court-ordered sales, buyout valuations, and neutral representation for divorcing couples.</p>
-            </Link>
-            <Link href="/insights/selling-a-parents-home-michigan" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Selling a Parent&apos;s Home</p>
-              <p className="text-xs text-gray-500 mt-1">Our guide to navigating the emotional and logistical challenges of selling a family home.</p>
+            <Link href="/living-trust" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Living Trust Sales</p>
+              <p className="text-xs text-gray-500 mt-1">Selling trust-held property with proper trustee documentation and title transfer.</p>
             </Link>
           </div>
         </div>

@@ -61,6 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/real-estate-investors`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/vip-buyers`,          lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/grants`,              lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/inherited-property`,  lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
 
     // Neighborhoods
     { url: `${base}/neighborhoods`,       lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
