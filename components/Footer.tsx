@@ -119,6 +119,7 @@ export default function Footer() {
                 { href: "/relocation",          label: "Relocating to Michigan" },
                 { href: "/downsizing",          label: "Downsizing" },
                 { href: "/estate-sales",        label: "Estate & Probate Sales" },
+                { href: "/inherited-property",  label: "Inherited Property Navigator" },
                 { href: "/grants",              label: "Homebuyer Grants" },
               ].map((l) => (
                 <li key={l.href}>

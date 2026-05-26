@@ -28,6 +28,7 @@ const specialtyLinks = [
   { href: "/relocation",               label: "Relocating to Michigan" },
   { href: "/downsizing",               label: "Downsizing" },
   { href: "/estate-sales",             label: "Estate & Probate Sales" },
+  { href: "/inherited-property",       label: "Inherited Property Navigator" },
   { href: "/grants",                   label: "Homebuyer Grants" },
 ];
 
@@ -45,6 +46,7 @@ const allLinks = [
   { href: "/relocation",            label: "Relocating to Michigan" },
   { href: "/downsizing",           label: "Downsizing" },
   { href: "/estate-sales",         label: "Estate & Probate Sales" },
+  { href: "/inherited-property",   label: "Inherited Property Navigator" },
   { href: "/grants",               label: "Homebuyer Grants" },
   { href: "/neighborhoods",        label: "Neighborhoods" },
   { href: "/market-updates",       label: "Market Reports" },
