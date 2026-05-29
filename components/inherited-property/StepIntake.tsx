@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type {
   InheritedPropertyProfile,
   TransferMethod,
@@ -12,6 +12,7 @@ import type {
   Intention,
 } from "@/data/inherited-property";
 import { michiganCities } from "@/data/inherited-property";
+import { trackWizardStart, trackWizardStep } from "@/lib/analytics";
 
 const inputClass =
   "w-full border border-gray-200 bg-white px-4 py-3 text-sm text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:border-[#c70000] rounded-sm";
@@ -121,11 +122,18 @@ export default function StepIntake({
     return errs.length === 0;
   }
 
+  // Fire wizard_started once on mount
+  useEffect(() => {
+    trackWizardStart("inherited-property");
+  }, []);
+
   function handleNext() {
     if (wizardStep === 1 && validateStep1()) {
+      trackWizardStep("inherited-property", 2, "property_details");
       setWizardStep(2);
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else if (wizardStep === 2 && validateStep2()) {
+      trackWizardStep("inherited-property", 3, "contact_info");
       setWizardStep(3);
       window.scrollTo({ top: 0, behavior: "smooth" });
     }

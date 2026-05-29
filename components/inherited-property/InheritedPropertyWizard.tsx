@@ -2,6 +2,11 @@
 
 import { useState } from "react";
 import type { InheritedPropertyProfile } from "@/data/inherited-property";
+import {
+  trackInheritedPropertySubmitted,
+  trackInheritedPropertyLeadSubmitted,
+  trackWizardStep,
+} from "@/lib/analytics";
 import StepIntake from "./StepIntake";
 import StepResults from "./StepResults";
 
@@ -19,14 +24,9 @@ export default function InheritedPropertyWizard() {
     setStep("sending");
     window.scrollTo({ top: 0, behavior: "smooth" });
 
-    // Fire GA4 event
-    if (typeof window !== "undefined" && typeof window.gtag === "function") {
-      window.gtag("event", "inherited_property_submitted", {
-        transfer_method: p.transferMethod,
-        intention: p.intention,
-        heir_count: p.heirCount,
-      });
-    }
+    // Fire GA4 events
+    trackWizardStep("inherited-property", 4, "submitted");
+    trackInheritedPropertySubmitted(p.transferMethod, p.intention, p.heirCount);
 
     // Build note with all profile data
     const note = [
@@ -68,12 +68,7 @@ export default function InheritedPropertyWizard() {
 
       if (res.ok) {
         setLeadStatus("success");
-        if (typeof window !== "undefined" && typeof window.gtag === "function") {
-          window.gtag("event", "inherited_property_lead_submitted", {
-            transfer_method: p.transferMethod,
-            intention: p.intention,
-          });
-        }
+        trackInheritedPropertyLeadSubmitted(p.transferMethod, p.intention);
         setStep("results");
       } else {
         setLeadStatus("error");

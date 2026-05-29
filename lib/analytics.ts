@@ -71,3 +71,43 @@ export const trackGrantQualificationSubmitted = (county: string) =>
 /** Fired when grant lead (connect with lender) submits */
 export const trackGrantLeadSubmitted = (county: string) =>
   trackEvent("grant_lead_submitted", { county });
+
+/** Fired when inherited property wizard is submitted */
+export const trackInheritedPropertySubmitted = (
+  transferMethod: string,
+  intention: string,
+  heirCount: string
+) =>
+  trackEvent("inherited_property_submitted", {
+    transfer_method: transferMethod,
+    intention,
+    heir_count: heirCount,
+  });
+
+/** Fired when inherited property lead is confirmed in Sierra */
+export const trackInheritedPropertyLeadSubmitted = (
+  transferMethod: string,
+  intention: string
+) =>
+  trackEvent("inherited_property_lead_submitted", {
+    transfer_method: transferMethod,
+    intention,
+  });
+
+// ─── Wizard Funnel Events ─────────────────────────────────────────────────────
+
+/** Fired when a user advances a step in any wizard (grants, inherited property, etc.) */
+export const trackWizardStep = (
+  wizard: string,
+  stepNumber: number,
+  stepName: string
+) =>
+  trackEvent("wizard_step_completed", {
+    wizard,
+    step_number: stepNumber,
+    step_name: stepName,
+  });
+
+/** Fired when a user starts a wizard (views step 1) */
+export const trackWizardStart = (wizard: string) =>
+  trackEvent("wizard_started", { wizard });
