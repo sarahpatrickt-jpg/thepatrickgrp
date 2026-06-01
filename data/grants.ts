@@ -3,7 +3,7 @@
  *
  * All qualification logic runs client-side. No API needed.
  * Data sourced from MSHDA, county housing authorities, and federal programs.
- * Last updated: May 22, 2026
+ * Last updated: June 1, 2026
  */
 
 // ── Types ────────────────────────────────────────────────────────────────────
@@ -80,14 +80,15 @@ const OAKLAND_COUNTY_INCOME: Record<number, number> = {
   8: 119_450,
 };
 const DETROIT_DPA_INCOME: Record<number, number> = {
-  1: 72_950,
-  2: 83_400,
-  3: 93_800,
-  4: 104_200,
-  5: 112_550,
-  6: 120_900,
-  7: 129_250,
-  8: 137_600,
+  // 80% AMI for the Detroit-Warren-Dearborn area, per City of Detroit DPA program page
+  1: 56_600,
+  2: 64_650,
+  3: 72_750,
+  4: 80_800,
+  5: 87_300,
+  6: 93_750,
+  7: 100_200,
+  8: 106_700,
 };
 const WAYNE_COUNTY_INCOME: Record<number, number> = {
   1: 55_300,
@@ -110,8 +111,8 @@ const GENESEE_INCOME: Record<number, number> = {
   8: 89_750,
 };
 
-const MSHDA_PURCHASE_LIMIT = 224_500; // non-target area
-const MSHDA_TARGET_PURCHASE_LIMIT = 280_000; // target areas
+const MSHDA_PURCHASE_LIMIT = 544_233; // statewide single sales price limit (raised from $224,500 via HB 5032, eff. May 2025)
+const MSHDA_TARGET_PURCHASE_LIMIT = 544_233; // MSHDA now applies one statewide sales price limit across all 83 counties
 const OAKLAND_PURCHASE_LIMIT = 294_600;
 const DETROIT_PURCHASE_LIMIT = 265_000;
 
@@ -187,7 +188,7 @@ export const programs: GrantProgram[] = [
       if (creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required — verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $280,000");
+        missing.push("Purchase price must be under $544,233");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -197,15 +198,15 @@ export const programs: GrantProgram[] = [
     amount: "Up to $10,000",
     type: "forgivable-loan",
     description:
-      "Enhanced DPA for buyers in targeted zip codes. Provides up to $10,000 as a 0% interest second mortgage. Designed for moderate-income buyers in areas the state has prioritized for homeownership investment.",
+      "MSHDA's MI 10K DPA provides up to $10,000 as a 0% interest second mortgage, forgiven over time. As of 2026 it is available statewide across all 83 Michigan counties (previously limited to ~236 targeted zip codes). Designed for low-to-moderate-income buyers.",
     highlights: [
       "$10,000 in down payment assistance",
       "0% interest, forgiven over time",
-      "Available in targeted zip codes",
+      "Now available statewide (expanded in 2026)",
       "Pairs with MSHDA first mortgage",
     ],
     requirements: [
-      "Property must be in an MSHDA-targeted zip code",
+      "Available statewide as of 2026",
       "Household income under $113,300",
       "Credit score 640+",
       "Must use an MSHDA-approved lender",
@@ -221,9 +222,9 @@ export const programs: GrantProgram[] = [
       if (creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required — verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $280,000");
-      // Can't verify zip code — this is a hard requirement that must be checked
-      return { eligible: false, missing: [...missing, "Property must be in an MSHDA-targeted zip code — ask your lender to verify"] };
+        missing.push("Purchase price must be under $544,233");
+      // As of 2026 the MI 10K DPA is available statewide — the targeted-zip restriction no longer applies
+      return { eligible: missing.length === 0, missing };
     },
   },
   {
@@ -328,7 +329,7 @@ export const programs: GrantProgram[] = [
           `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $280,000");
+        missing.push("Purchase price must be under $544,233");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -454,7 +455,7 @@ export const programs: GrantProgram[] = [
       // Funding exhausted — always near-miss so users know it exists
       return {
         eligible: false,
-        missing: ["Funding currently exhausted — check back for potential renewal in 2026"],
+        missing: ["Funding currently exhausted (depleted May 2025) — no renewal announced as of mid-2026; check back"],
       };
     },
   },
