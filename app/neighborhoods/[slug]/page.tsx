@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { cities, getCityBySlug, getAllSlugs, isComingSoonSlug } from "@/data/cities";
 import { getComparisonsForCity } from "@/data/comparisons";
 import CityFaqAccordion from "@/components/CityFaqAccordion";
+import { getMarketAnalysis } from "@/data/market-analysis";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -52,6 +53,88 @@ function slugToDisplayName(slug: string): string {
     .replace(/-mi$/, "")
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+/**
+ * MarketAnalysisCard Component
+ *
+ * Displays live listing data (inventory count, median price, median DOM)
+ * pulled from /data/market-analysis (synced nightly from Spark API).
+ *
+ * Shows inventory from Spark API + historical Redfin context.
+ * Compliance: aggregates only, no individual-listing exposure.
+ */
+async function MarketAnalysisCard({
+  citySlug,
+  cityName,
+}: {
+  citySlug: string;
+  cityName: string;
+}) {
+  const analysis = getMarketAnalysis(citySlug);
+
+  if (!analysis || analysis.activeCount === 0) {
+    return null; // No data available for this city
+  }
+
+  function formatPrice(price: number): string {
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+      minimumFractionDigits: 0,
+    }).format(price);
+  }
+
+  const lastSyncDate = new Date(analysis.lastUpdated);
+  const formattedDate = lastSyncDate.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+
+  return (
+    <section className="bg-blue-50 border-y border-blue-100 py-8 px-4 sm:px-6">
+      <div className="max-w-5xl mx-auto">
+        <div className="mb-4 flex items-center justify-between">
+          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold">
+            Live Market Insights · {cityName}, MI
+          </p>
+          <p className="text-xs text-gray-500">
+            Updated {formattedDate}
+          </p>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <div className="bg-white border border-blue-100 rounded-sm p-4">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+              Active Listings
+            </p>
+            <p className="font-bold text-[#1a1a1a] text-2xl">
+              {analysis.activeCount}
+            </p>
+          </div>
+          <div className="bg-white border border-blue-100 rounded-sm p-4">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+              Median Price
+            </p>
+            <p className="font-bold text-[#1a1a1a] text-2xl">
+              {formatPrice(analysis.medianPrice)}
+            </p>
+          </div>
+          <div className="bg-white border border-blue-100 rounded-sm p-4">
+            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+              Days on Market
+            </p>
+            <p className="font-bold text-[#1a1a1a] text-2xl">
+              {analysis.medianDOM}
+            </p>
+          </div>
+        </div>
+        <p className="text-xs text-gray-600 mt-4">
+          Real-time MLS data from Spark API. Compiled from active and pending listings in {cityName}.
+        </p>
+      </div>
+    </section>
+  );
 }
 
 export default async function CityPage({ params }: Props) {
@@ -263,6 +346,9 @@ export default async function CityPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* ── Live Listing Market Analysis ──────────────────────────────────────── */}
+      <MarketAnalysisCard citySlug={city.slug} cityName={city.name} />
 
       {/* ── Main Content ─────────────────────────────────────────────────────── */}
       <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">

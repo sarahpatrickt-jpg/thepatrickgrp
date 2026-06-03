@@ -8,8 +8,9 @@ import { trackPhoneClick } from "@/lib/analytics";
 
 // Left-side nav links (desktop) — split around the Specialties dropdown
 const leftLinksBefore = [
-  { href: "/buying",  label: "Buy" },
-  { href: "/selling", label: "Sell" },
+  { href: "/buying",        label: "Buy" },
+  { href: "/selling",       label: "Sell" },
+  { href: "/search-homes",  label: "Search Homes" },
 ];
 
 const leftLinksAfter = [
@@ -38,6 +39,7 @@ const specialtyHrefs = new Set(specialtyLinks.map((l) => l.href));
 const allLinks = [
   { href: "/buying",               label: "Buy" },
   { href: "/selling",              label: "Sell" },
+  { href: "/search-homes",         label: "Search Homes" },
   { href: "/cash-offer",           label: "Cash Offer Program" },
   { href: "/new-construction",     label: "New Construction" },
   { href: "/divorce-real-estate",   label: "Divorce Real Estate" },

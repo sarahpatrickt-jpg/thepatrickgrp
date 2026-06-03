@@ -111,3 +111,53 @@ export const trackWizardStep = (
 /** Fired when a user starts a wizard (views step 1) */
 export const trackWizardStart = (wizard: string) =>
   trackEvent("wizard_started", { wizard });
+
+// ─── Listing Search & Detail Events ──────────────────────────────────────────
+
+/** Fired when listing search is submitted */
+export const trackListingSearchSubmitted = (
+  city: string,
+  filtersApplied: number,
+  resultsFound: number
+) =>
+  trackEvent("listing_search_submitted", {
+    city: city || "all",
+    filters_applied: filtersApplied,
+    results_found: resultsFound,
+  });
+
+/** Fired when a listing detail page is viewed */
+export const trackListingViewed = (
+  listingId: string,
+  address: string,
+  city: string
+) =>
+  trackEvent("listing_viewed", {
+    listing_id: listingId,
+    address,
+    city,
+  });
+
+/** Fired when "Schedule a Showing" or other listing CTA is clicked */
+export const trackListingCTAClicked = (
+  listingId: string,
+  address: string,
+  ctaText: string
+) =>
+  trackEvent("listing_cta_clicked", {
+    listing_id: listingId,
+    address,
+    cta_text: ctaText,
+  });
+
+/** Fired when a listing card in search results is clicked */
+export const trackListingCardClicked = (
+  listingId: string,
+  address: string,
+  isFeatured: boolean
+) =>
+  trackEvent("listing_card_clicked", {
+    listing_id: listingId,
+    address,
+    is_featured: isFeatured,
+  });

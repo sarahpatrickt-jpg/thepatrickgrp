@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "update-market-data": "npx tsx scripts/update-market-data.ts"
+    "update-market-data": "npx tsx scripts/update-market-data.ts",
+    "sync-listings": "npx tsx scripts/update-listings-nightly.ts"
   },
   "dependencies": {
     "next": "16.2.0",

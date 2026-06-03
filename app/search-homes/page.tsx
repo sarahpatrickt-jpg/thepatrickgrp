@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ListingSearch from "@/components/ListingSearch";
 
 export const metadata: Metadata = {
   title: "Search Homes for Sale — Southeast Michigan",
@@ -27,22 +28,16 @@ export default function SearchHomesPage() {
           <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
             Search Every Home for Sale in Southeast Michigan
           </h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed mb-8">
-            Browse the full MLS on Oak and Stone Real Estate — real-time listings,
-            saved searches, and direct agent access. No gimmicks.
-          </p>
-          <a
-            href="https://www.oakandstonerealestate.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#c70000] text-white font-bold text-lg px-10 py-5 rounded-sm hover:bg-[#a30000] transition-colors"
-          >
-            Search All Available Homes →
-          </a>
-          <p className="text-white/40 text-sm mt-4">
-            Opens on OakAndStoneRealEstate.com — our full IDX search platform
+          <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed">
+            Find listings by city, price, beds, baths, and more. Powered by real-time MLS data
+            from Oak and Stone Real Estate.
           </p>
         </div>
+      </section>
+
+      {/* Embedded Listing Search */}
+      <section className="bg-white py-12 px-4 sm:px-6">
+        <ListingSearch />
       </section>
 
       <section className="py-16 px-4 sm:px-6 bg-white">

@@ -377,10 +377,8 @@ export default function HomePage() {
 
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 mt-10">
-                <a
-                  href="https://bradpatrick.oakandstonerealestate.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/search-homes"
                   className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wider uppercase transition-colors"
                   style={{
                     backgroundColor: "var(--red)",
@@ -390,7 +388,7 @@ export default function HomePage() {
                   }}
                 >
                   Search Homes
-                </a>
+                </Link>
                 <Link
                   href="/home-valuation"
                   className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wider uppercase transition-colors hover:bg-ink hover:text-paper"
@@ -534,22 +532,36 @@ export default function HomePage() {
             <em style={{ color: "var(--red)", fontStyle: "italic" }}>Active Listings</em>
           </h2>
           <p className="mt-4 max-w-xl mx-auto" style={{ color: "var(--ink-2)", fontSize: "17px", lineHeight: "1.7" }}>
-            Search every home for sale in Southeast Michigan — updated in real time from the MLS.
+            Search every home for sale in Southeast Michigan — filter by city, price, beds, and status.
           </p>
-          <a
-            href="https://bradpatrick.oakandstonerealestate.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-8 px-8 py-4 text-sm font-medium tracking-wide uppercase"
-            style={{
-              backgroundColor: "var(--red)",
-              color: "#fff",
-              fontFamily: "var(--font-mono, monospace)",
-              letterSpacing: "0.1em",
-            }}
-          >
-            View All Active Listings
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <Link
+              href="/search-homes"
+              className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wide uppercase"
+              style={{
+                backgroundColor: "var(--red)",
+                color: "#fff",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.1em",
+              }}
+            >
+              Search All Listings
+            </Link>
+            <a
+              href="https://bradpatrick.oakandstonerealestate.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wide uppercase transition-colors hover:bg-ink hover:text-paper"
+              style={{
+                border: "1px solid var(--ink)",
+                color: "var(--ink)",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.1em",
+              }}
+            >
+              Full MLS on Oak &amp; Stone →
+            </a>
+          </div>
         </div>
       </section>
 
