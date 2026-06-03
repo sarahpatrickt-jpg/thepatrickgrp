@@ -100,7 +100,7 @@ interface SearchResponse {
 interface ListingSearchProps {
   defaultCity?: string;
   defaultFilters?: Partial<SearchFilters>;
-  onResults?: (count: number) => void;
+  onResults?: (count: number, city?: string) => void;
 }
 
 /**
@@ -152,17 +152,17 @@ export default function ListingSearch({
   }, []);
 
   // Fetch listings
-  const handleSearch = useCallback(async (page = 1) => {
+  const handleSearch = useCallback(async (page = 1, searchFilters = filters) => {
     setLoading(true);
     try {
       const params = new URLSearchParams();
-      if (filters.city) params.append("city", filters.city);
-      if (filters.minPrice) params.append("minPrice", filters.minPrice.toString());
-      if (filters.maxPrice) params.append("maxPrice", filters.maxPrice.toString());
-      if (filters.beds) params.append("beds", filters.beds.toString());
-      if (filters.baths) params.append("baths", filters.baths.toString());
-      if (filters.status) params.append("status", filters.status);
-      params.append("sort", filters.sort);
+      if (searchFilters.city) params.append("city", searchFilters.city);
+      if (searchFilters.minPrice) params.append("minPrice", searchFilters.minPrice.toString());
+      if (searchFilters.maxPrice) params.append("maxPrice", searchFilters.maxPrice.toString());
+      if (searchFilters.beds) params.append("beds", searchFilters.beds.toString());
+      if (searchFilters.baths) params.append("baths", searchFilters.baths.toString());
+      if (searchFilters.status) params.append("status", searchFilters.status);
+      params.append("sort", searchFilters.sort);
       params.append("page", page.toString());
       params.append("limit", "20");
 
@@ -173,13 +173,16 @@ export default function ListingSearch({
       setCurrentPage(page);
 
       if (onResults && data.success) {
-        onResults(data.pagination.total);
+        const cityName = searchFilters.city
+          ? SE_MICHIGAN_CITIES.find((c) => c.slug === searchFilters.city)?.name
+          : undefined;
+        onResults(data.pagination.total, cityName);
       }
 
       // Fire GA4 event
       if (data.success) {
-        const filtersApplied = Object.values(filters).filter((v) => v).length;
-        trackListingSearchSubmitted(filters.city, filtersApplied, data.pagination.total);
+        const filtersApplied = Object.values(searchFilters).filter((v) => v).length;
+        trackListingSearchSubmitted(searchFilters.city, filtersApplied, data.pagination.total);
       }
     } catch (error) {
       console.error("Search failed:", error);
@@ -188,12 +191,22 @@ export default function ListingSearch({
     }
   }, [filters, onResults]);
 
-  // Auto-search on mount if city is provided
+  // Auto-search on mount
   useEffect(() => {
-    if (filters.city || defaultCity) {
-      handleSearch(1);
-    }
-  }, []); // Only on mount
+    handleSearch(1);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Auto-search when filters change (debounced 400ms)
+  const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => {
+    if (debounceTimer.current) clearTimeout(debounceTimer.current);
+    debounceTimer.current = setTimeout(() => {
+      handleSearch(1, filters);
+    }, 400);
+    return () => {
+      if (debounceTimer.current) clearTimeout(debounceTimer.current);
+    };
+  }, [filters]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-8">
@@ -418,14 +431,27 @@ export default function ListingSearch({
           )}
         </div>
 
-        {/* Search Button */}
-        <div className="mt-4">
+        {/* Status row — auto-search indicator + manual refresh */}
+        <div className="mt-4 flex items-center gap-4">
+          {loading && (
+            <span className="text-xs text-gray-500 flex items-center gap-1.5">
+              <span className="inline-block w-3 h-3 border-2 border-[#C70000] border-t-transparent rounded-full animate-spin" />
+              Searching…
+            </span>
+          )}
+          {!loading && results && (
+            <span className="text-xs text-gray-500">
+              {results.pagination.total > 0
+                ? `${results.pagination.total.toLocaleString()} listing${results.pagination.total !== 1 ? "s" : ""} found`
+                : "No listings match — try broadening your search"}
+            </span>
+          )}
           <button
             onClick={() => handleSearch(1)}
             disabled={loading}
-            className="px-6 py-2.5 bg-[#C70000] text-white font-medium uppercase tracking-wider hover:bg-[#a90000] disabled:opacity-50 transition-colors"
+            className="ml-auto text-xs font-medium uppercase tracking-wider px-4 py-2 border border-gray-300 hover:border-[#C70000] hover:text-[#C70000] disabled:opacity-40 transition-colors"
           >
-            {loading ? "Searching..." : "Search Listings"}
+            Refresh
           </button>
         </div>
       </div>
@@ -502,27 +528,52 @@ export default function ListingSearch({
               )}
             </>
           ) : (
-            <div className="text-center py-12">
-              <p className="text-gray-600">No listings found matching your criteria.</p>
-              <p className="text-sm text-gray-500 mt-2">Try adjusting your filters and searching again.</p>
+            <div className="text-center py-16 px-4">
+              <p
+                className="font-display mb-2"
+                style={{ fontSize: "24px", color: "var(--ink)" } as React.CSSProperties}
+              >
+                No listings match right now.
+              </p>
+              <p className="text-sm text-gray-500 mb-8 max-w-sm mx-auto">
+                MLS data syncs nightly. Try broadening your price range or selecting a different city — or let Brad find something before it hits the market.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <a
+                  href="/vip-buyers"
+                  className="inline-block px-6 py-3 text-sm font-medium uppercase tracking-wider"
+                  style={{ backgroundColor: "#C70000", color: "#fff", letterSpacing: "0.1em" } as React.CSSProperties}
+                >
+                  Join VIP Buyer List
+                </a>
+                <a
+                  href="https://www.oakandstonerealestate.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-3 text-sm font-medium uppercase tracking-wider border border-gray-300 hover:border-gray-500 transition-colors"
+                  style={{ letterSpacing: "0.1em" } as React.CSSProperties}
+                >
+                  Full MLS Search →
+                </a>
+              </div>
             </div>
           )}
         </div>
       )}
 
-      {/* CTA Footer */}
-      <div className="mt-12 pt-8 border-t border-gray-200 text-center">
-        <p className="text-gray-700 mb-4">
-          Want to see all listings with additional search options?
+      {/* Subtle compliance footer */}
+      <div className="mt-10 pt-6 border-t border-gray-100 text-center">
+        <p className="text-xs text-gray-400">
+          Need advanced filters?{" "}
+          <a
+            href="https://www.oakandstonerealestate.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-600 transition-colors"
+          >
+            Full MLS search on Oak &amp; Stone Real Estate
+          </a>
         </p>
-        <a
-          href="https://www.oakandstonerealestate.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-8 py-3 bg-[#C70000] text-white font-medium uppercase tracking-wider hover:bg-[#a90000] transition-colors"
-        >
-          Explore All on Oak & Stone Real Estate
-        </a>
       </div>
     </div>
   );
