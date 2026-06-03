@@ -29,6 +29,17 @@ import { execSync } from "child_process";
 const SPARK_API_BASE = "https://replication.sparkapi.com/v1";
 const SPARK_API_KEY = process.env.SPARK_API_KEY;
 
+// MLS IDs from MichRIC IDX sharing agreement (MichRIC + RealComp + MiRealSource).
+// These are the _filter values Evelyn Wheaton / MichRIC provided.
+// Override via SPARK_MLS_IDS env var (comma-separated) if they change.
+const SPARK_MLS_IDS: string[] = process.env.SPARK_MLS_IDS
+  ? process.env.SPARK_MLS_IDS.split(",").map((s) => s.trim())
+  : [
+      "20220915205347338491000000", // MichRIC
+      "20221017200016026686000000", // RealComp
+      "20140402194227539417000000", // MiRealSource
+    ];
+
 // All 24 SE Michigan cities (from data/cities.ts)
 const SE_MICHIGAN_CITIES = [
   "birmingham-mi",
@@ -151,24 +162,23 @@ async function getSparkToken(): Promise<string> {
 }
 
 async function fetchSparkListings(
-  zipCodes: string[],
   status: "active" | "pending" | "sold",
 ): Promise<SparkListing[]> {
   /**
-   * Fetch from Spark API with pagination.
-   * Rate limit: 1,500 requests per 5 minutes.
-   * We batch 100 listings per request to stay well under the limit.
+   * Fetch from Spark API using MlsId filter (per MichRIC IDX agreement).
+   * This pulls MichRIC + RealComp + MiRealSource in a single query set.
+   * Rate limit: 1,500 requests per 5 minutes. Pages of 100.
    */
 
   const token = await getSparkToken();
   const allListings: SparkListing[] = [];
 
-  // Status filter: "Active", "Pending", "Sold"
+  // Status filter
   const statusFilter =
     status === "active" ? "Active" : status === "pending" ? "Pending" : "Sold";
 
-  // Zip code filter (Spark API uses OR logic)
-  const zipFilter = zipCodes.map((z) => `PostalCode Eq '${z}'`).join(" OR ");
+  // MlsId filter — covers all three data sources per MichRIC sharing agreement
+  const mlsFilter = SPARK_MLS_IDS.map((id) => `MlsId Eq '${id}'`).join(" Or ");
 
   // Date filter for sold listings (past 90 days)
   let dateFilter = "";
@@ -179,7 +189,8 @@ async function fetchSparkListings(
     dateFilter = ` AND ListingLastModified GE '${dateStr}'`;
   }
 
-  const filter = `ListingStatus Eq '${statusFilter}' AND (${zipFilter})${dateFilter}`;
+  // Filter to SE Michigan by state + status + MLS source
+  const filter = `StateOrProvince Eq 'MI' AND ListingStatus Eq '${statusFilter}' AND (${mlsFilter})${dateFilter}`;
 
   let page = 1;
   const pageSize = 100;
@@ -492,38 +503,53 @@ async function main() {
   console.log("║  MichRIC® | RealComp | MiRealSource                 ║");
   console.log("╚═══════════════════════════════════════════════════════╝\n");
 
+  // ── Single bulk fetch (MlsId filter covers MichRIC + RealComp + MiRealSource) ──
+  // Per MichRIC IDX agreement: filter by MlsId, not by zip/city.
+  // We then distribute results into city buckets by PostalCode.
+
+  console.log("Fetching active listings from all MLS sources...");
+  const rawActive  = await fetchSparkListings("active");
+  console.log(`  → ${rawActive.length} active`);
+
+  console.log("Fetching pending listings...");
+  const rawPending = await fetchSparkListings("pending");
+  console.log(`  → ${rawPending.length} pending`);
+
+  console.log("Fetching sold listings (past 90 days)...");
+  const rawSold    = await fetchSparkListings("sold");
+  console.log(`  → ${rawSold.length} sold`);
+
+  // Build a zip → city-slug lookup from CITY_ZIP_MAP
+  const zipToCitySlug: Record<string, string> = {};
+  for (const [slug, zips] of Object.entries(CITY_ZIP_MAP)) {
+    for (const zip of zips) {
+      zipToCitySlug[zip] = slug;
+    }
+  }
+
+  // Distribute raw listings into city buckets
   const listingsByCity: Record<string, Listing[]> = {};
-
-  // Fetch all statuses for all cities
   for (const citySlug of SE_MICHIGAN_CITIES) {
-    const zipCodes = CITY_ZIP_MAP[citySlug] || [];
-    if (zipCodes.length === 0) {
-      console.warn(`⚠ No zip codes found for ${citySlug}, skipping`);
-      continue;
+    listingsByCity[citySlug] = [];
+  }
+
+  for (const raw of [...rawActive, ...rawPending, ...rawSold]) {
+    const citySlug = zipToCitySlug[raw.PostalCode];
+    if (!citySlug) continue; // Outside our service area — skip
+    const status: "active" | "pending" | "sold" =
+      rawActive.includes(raw) ? "active" :
+      rawPending.includes(raw) ? "pending" : "sold";
+    const normalized = normalizeListings([raw], citySlug);
+    if (normalized.length > 0) {
+      listingsByCity[citySlug].push(...normalized);
     }
+  }
 
-    console.log(`\nFetching listings for ${citySlug}...`);
-
-    try {
-      const active = await fetchSparkListings(zipCodes, "active");
-      const pending = await fetchSparkListings(zipCodes, "pending");
-      const sold = await fetchSparkListings(zipCodes, "sold");
-
-      // Normalize to internal format
-      const activeNorm = normalizeListings(active, citySlug);
-      const pendingNorm = normalizeListings(pending, citySlug);
-      const soldNorm = normalizeListings(sold, citySlug);
-
-      const allForCity = [...activeNorm, ...pendingNorm, ...soldNorm];
-      listingsByCity[citySlug] = allForCity;
-
-      console.log(
-        `  ✓ ${activeNorm.length} active, ${pendingNorm.length} pending, ${soldNorm.length} sold`,
-      );
-    } catch (error) {
-      console.error(`  ✗ Failed for ${citySlug}:`, error);
-      listingsByCity[citySlug] = []; // Use empty array as fallback
-    }
+  // Log city breakdown
+  console.log("\nCity breakdown:");
+  for (const slug of SE_MICHIGAN_CITIES) {
+    const count = listingsByCity[slug]?.length ?? 0;
+    if (count > 0) console.log(`  ${slug}: ${count}`);
   }
 
   // Mark featured listings
