@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Red background -->
+  <rect width="100" height="100" fill="#C70000"/>
+  <!-- White serif "P" — clean, readable at any size -->
+  <text
+    x="50"
+    y="73"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="72"
+    font-weight="400"
+    fill="#FDFBF7"
+    text-anchor="middle"
+  >P</text>
+</svg>

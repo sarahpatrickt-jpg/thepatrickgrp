@@ -74,6 +74,13 @@ export const metadata: Metadata = {
     description:
       "Boutique real estate service from Southeast Michigan's most trusted team.",
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   robots: {
     index: true,
     follow: true,
