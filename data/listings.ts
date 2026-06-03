@@ -122,6 +122,15 @@ export function getAllListings(): Listing[] {
 }
 
 /**
+ * Helper to get a single listing by its ID
+ * @param id Listing ID
+ * @returns Listing if found, undefined otherwise
+ */
+export function getListingById(id: string): Listing | undefined {
+  return getAllListings().find((listing) => listing.id === id);
+}
+
+/**
  * Helper to get listings by city slug
  * @param slug City slug (e.g., "birmingham-mi")
  * @returns Array of listings for that city, or empty if not found
