@@ -8,9 +8,8 @@ import { trackPhoneClick } from "@/lib/analytics";
 
 // Left-side nav links (desktop) — split around the Specialties dropdown
 const leftLinksBefore = [
-  { href: "/buying",        label: "Buy" },
-  { href: "/selling",       label: "Sell" },
-  { href: "/search-homes",  label: "Search Homes" },
+  { href: "/buying",  label: "Buy" },
+  { href: "/selling", label: "Sell" },
 ];
 
 const leftLinksAfter = [
@@ -235,12 +234,12 @@ export default function Nav() {
             />
           </Link>
 
-          {/* ── Right: phone + CTA ── */}
-          <div className="hidden lg:flex items-center gap-5 flex-1 justify-end">
+          {/* ── Right: phone + CTAs ── */}
+          <div className="hidden lg:flex items-center gap-3 flex-1 justify-end">
             <a
               href="tel:2487553545"
               onClick={() => trackPhoneClick("nav")}
-              className="text-[13px] font-medium transition-colors whitespace-nowrap"
+              className="text-[13px] font-medium transition-colors whitespace-nowrap mr-2"
               style={{
                 color: linkColor,
                 fontFamily: "var(--font-mono, monospace)",
@@ -250,16 +249,28 @@ export default function Nav() {
               248.755.3545
             </a>
             <Link
+              href="/search-homes"
+              className="text-[12px] font-medium px-4 py-2.5 uppercase tracking-wider transition-colors whitespace-nowrap"
+              style={{
+                border: "1px solid var(--ink)",
+                color: "var(--ink)",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.1em",
+              }}
+            >
+              Search Homes
+            </Link>
+            <Link
               href="/home-valuation"
-              className="text-[12px] font-medium px-5 py-2.5 uppercase tracking-wider transition-colors whitespace-nowrap"
+              className="text-[12px] font-medium px-4 py-2.5 uppercase tracking-wider transition-colors whitespace-nowrap"
               style={{
                 backgroundColor: "var(--red)",
                 color: "#FDFBF7",
                 fontFamily: "var(--font-mono, monospace)",
-                letterSpacing: "0.12em",
+                letterSpacing: "0.1em",
               }}
             >
-              Get My Home Value
+              Home Value
             </Link>
           </div>
 
