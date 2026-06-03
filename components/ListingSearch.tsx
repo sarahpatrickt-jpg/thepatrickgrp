@@ -20,62 +20,57 @@
  * Styling: Oak & Stone brand tokens (DM Serif, Cormorant, red accent)
  */
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
 import ListingCard from "./ListingCard";
 import { trackListingSearchSubmitted, trackListingCardClicked } from "@/lib/analytics";
 import type { Listing } from "@/data/listings";
 
-// All 24 SE Michigan cities
-const SE_MICHIGAN_CITIES = [
-  "Birmingham",
-  "Bloomfield Hills",
-  "Bloomfield Township",
-  "Clarkston",
-  "Lake Orion",
-  "Orchard Lake",
-  "Royal Oak",
-  "Troy",
-  "West Bloomfield",
-  "Brighton",
-  "Howell",
-  "Northville",
-  "Plymouth",
-  "Macomb Township",
-  "St. Clair Shores",
-  "Warren",
-  "Ann Arbor",
-  "Saline",
-  "Detroit",
-  "Grosse Pointe",
-  "Grosse Pointe Woods",
-  "Flint",
+// All SE Michigan cities — sorted alphabetically
+const SE_MICHIGAN_CITIES: { name: string; slug: string }[] = [
+  { name: "Ann Arbor",          slug: "ann-arbor-mi" },
+  { name: "Birmingham",         slug: "birmingham-mi" },
+  { name: "Bloomfield Hills",   slug: "bloomfield-hills-mi" },
+  { name: "Bloomfield Township",slug: "bloomfield-township-mi" },
+  { name: "Brighton",           slug: "brighton-mi" },
+  { name: "Chelsea",            slug: "chelsea-mi" },
+  { name: "Clarkston",          slug: "clarkston-mi" },
+  { name: "Clinton Township",   slug: "clinton-township-mi" },
+  { name: "Detroit",            slug: "detroit-mi" },
+  { name: "Dexter",             slug: "dexter-mi" },
+  { name: "Dundee",             slug: "dundee-mi" },
+  { name: "Fenton",             slug: "fenton-mi" },
+  { name: "Grand Blanc",        slug: "grand-blanc-mi" },
+  { name: "Goodrich",           slug: "goodrich-mi" },
+  { name: "Grosse Pointe",      slug: "grosse-pointe-mi" },
+  { name: "Hartland",           slug: "hartland-mi" },
+  { name: "Howell",             slug: "howell-mi" },
+  { name: "Lake Orion",         slug: "lake-orion-mi" },
+  { name: "Linden",             slug: "linden-mi" },
+  { name: "Livonia",            slug: "livonia-mi" },
+  { name: "Macomb Township",    slug: "macomb-township-mi" },
+  { name: "Milan",              slug: "milan-mi" },
+  { name: "Monroe",             slug: "monroe-mi" },
+  { name: "Northville",         slug: "northville-mi" },
+  { name: "Novi",               slug: "novi-mi" },
+  { name: "Orchard Lake",       slug: "orchard-lake-mi" },
+  { name: "Oxford",             slug: "oxford-mi" },
+  { name: "Plymouth",           slug: "plymouth-mi" },
+  { name: "Rochester",          slug: "rochester-mi" },
+  { name: "Rochester Hills",    slug: "rochester-hills-mi" },
+  { name: "Romulus",            slug: "romulus-mi" },
+  { name: "Royal Oak",          slug: "royal-oak-mi" },
+  { name: "Saline",             slug: "saline-mi" },
+  { name: "Shelby Township",    slug: "shelby-township-mi" },
+  { name: "South Lyon",         slug: "south-lyon-mi" },
+  { name: "St. Clair Shores",   slug: "st-clair-shores-mi" },
+  { name: "Sterling Heights",   slug: "sterling-heights-mi" },
+  { name: "Troy",               slug: "troy-mi" },
+  { name: "Warren",             slug: "warren-mi" },
+  { name: "West Bloomfield",    slug: "west-bloomfield-mi" },
+  { name: "Whitmore Lake",      slug: "whitmore-lake-mi" },
+  { name: "Ypsilanti",          slug: "ypsilanti-mi" },
 ];
-
-const CITY_SLUG_MAP: Record<string, string> = {
-  "Birmingham": "birmingham-mi",
-  "Bloomfield Hills": "bloomfield-hills-mi",
-  "Bloomfield Township": "bloomfield-township-mi",
-  "Clarkston": "clarkston-mi",
-  "Lake Orion": "lake-orion-mi",
-  "Orchard Lake": "orchard-lake-mi",
-  "Royal Oak": "royal-oak-mi",
-  "Troy": "troy-mi",
-  "West Bloomfield": "west-bloomfield-mi",
-  "Brighton": "brighton-mi",
-  "Howell": "howell-mi",
-  "Northville": "northville-mi",
-  "Plymouth": "plymouth-mi",
-  "Macomb Township": "macomb-township-mi",
-  "St. Clair Shores": "st-clair-shores-mi",
-  "Warren": "warren-mi",
-  "Ann Arbor": "ann-arbor-mi",
-  "Saline": "saline-mi",
-  "Detroit": "detroit-mi",
-  "Grosse Pointe": "grosse-pointe-mi",
-  "Grosse Pointe Woods": "grosse-pointe-woods-mi",
-  "Flint": "flint-mi",
-};
 
 interface SearchFilters {
   city: string;
@@ -132,6 +127,30 @@ export default function ListingSearch({
   const [currentPage, setCurrentPage] = useState(1);
   const [expandedFilters, setExpandedFilters] = useState(false);
 
+  // City combobox state
+  const [cityInput, setCityInput] = useState(
+    SE_MICHIGAN_CITIES.find((c) => c.slug === defaultCity)?.name ?? ""
+  );
+  const [cityOpen, setCityOpen] = useState(false);
+  const cityRef = useRef<HTMLDivElement>(null);
+
+  const filteredCities = cityInput.trim()
+    ? SE_MICHIGAN_CITIES.filter((c) =>
+        c.name.toLowerCase().includes(cityInput.toLowerCase())
+      )
+    : SE_MICHIGAN_CITIES;
+
+  // Close city dropdown on outside click
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (cityRef.current && !cityRef.current.contains(e.target as Node)) {
+        setCityOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, []);
+
   // Fetch listings
   const handleSearch = useCallback(async (page = 1) => {
     setLoading(true);
@@ -181,26 +200,80 @@ export default function ListingSearch({
       {/* Search Form */}
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
-          {/* City */}
-          <div>
+          {/* City combobox */}
+          <div ref={cityRef} className="relative">
             <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
               City
             </label>
-            <select
-              value={filters.city}
+            <input
+              type="text"
+              value={cityInput}
+              placeholder="All cities — or type to filter"
+              autoComplete="off"
+              onFocus={() => setCityOpen(true)}
               onChange={(e) => {
-                setFilters({ ...filters, city: e.target.value });
-                setCurrentPage(1);
+                setCityInput(e.target.value);
+                setCityOpen(true);
+                // If user clears the input, clear the filter
+                if (!e.target.value) {
+                  setFilters({ ...filters, city: "" });
+                }
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Escape") setCityOpen(false);
+                if (e.key === "Enter" && filteredCities.length === 1) {
+                  const c = filteredCities[0];
+                  setCityInput(c.name);
+                  setFilters({ ...filters, city: c.slug });
+                  setCityOpen(false);
+                }
               }}
               className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
-            >
-              <option value="">All Cities</option>
-              {SE_MICHIGAN_CITIES.map((city) => (
-                <option key={city} value={CITY_SLUG_MAP[city]}>
-                  {city}
-                </option>
-              ))}
-            </select>
+            />
+            {cityOpen && (
+              <ul
+                className="absolute z-20 left-0 right-0 top-full mt-1 bg-white border border-gray-200 rounded shadow-lg max-h-60 overflow-y-auto"
+              >
+                <li>
+                  <button
+                    type="button"
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      setCityInput("");
+                      setFilters({ ...filters, city: "" });
+                      setCityOpen(false);
+                    }}
+                    className="w-full text-left px-3 py-2 text-sm text-gray-500 hover:bg-gray-50"
+                  >
+                    All cities
+                  </button>
+                </li>
+                {filteredCities.map((c) => (
+                  <li key={c.slug}>
+                    <button
+                      type="button"
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                        setCityInput(c.name);
+                        setFilters({ ...filters, city: c.slug });
+                        setCurrentPage(1);
+                        setCityOpen(false);
+                      }}
+                      className="w-full text-left px-3 py-2 text-sm hover:bg-gray-50"
+                      style={{
+                        color: filters.city === c.slug ? "#C70000" : undefined,
+                        fontWeight: filters.city === c.slug ? 600 : undefined,
+                      }}
+                    >
+                      {c.name}
+                    </button>
+                  </li>
+                ))}
+                {filteredCities.length === 0 && (
+                  <li className="px-3 py-2 text-sm text-gray-400">No cities match</li>
+                )}
+              </ul>
+            )}
           </div>
 
           {/* Min Price */}
