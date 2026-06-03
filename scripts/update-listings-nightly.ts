@@ -35,9 +35,9 @@ const SPARK_API_KEY = process.env.SPARK_API_KEY;
 const SPARK_MLS_IDS: string[] = process.env.SPARK_MLS_IDS
   ? process.env.SPARK_MLS_IDS.split(",").map((s) => s.trim())
   : [
-      "20220915205347338491000000", // MichRIC
+      "20220915205358725707000000", // MichRIC
       "20221017200016026686000000", // RealComp
-      "20140402194227539417000000", // MiRealSource
+      "20140402194227539412000000", // MiRealSource
     ];
 
 // All 24 SE Michigan cities (from data/cities.ts)
