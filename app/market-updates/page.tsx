@@ -18,23 +18,28 @@ export const metadata: Metadata = {
 
 // ── Latest data snapshot (April 2026) ────────────────────────────────────────
 const LATEST = {
-  label: "April 2026",
-  href: "/market-updates/april-2026",
-  headline: "Prices up across all five counties. Wayne leads YoY at +7.7%. Oakland fastest market at 10 days.",
+  label: "May 2026",
+  href: "/market-updates/may-2026",
+  headline: "Prices up across all five counties. Wayne leads YoY at +6.2%. Livingston is the only county where DOM dropped.",
   counties: [
-    { name: "Oakland",    medianPrice: 369000, priceYoY: 4.0,  dom: 10, domYoY: 11.1  },
-    { name: "Macomb",     medianPrice: 270000, priceYoY: 3.8,  dom: 15, domYoY: 50.0  },
-    { name: "Wayne",      medianPrice: 210000, priceYoY: 7.7,  dom: 15, domYoY: 25.0  },
-    { name: "Washtenaw",  medianPrice: 425000, priceYoY: 3.6,  dom: 27, domYoY: 3.8   },
-    { name: "Livingston", medianPrice: 458478, priceYoY: 2.0,  dom: 9,  domYoY: -10.0 },
+    { name: "Oakland",    medianPrice: 368000, priceYoY: 3.7, dom: 13, domYoY:  18.2 },
+    { name: "Macomb",     medianPrice: 270000, priceYoY: 3.8, dom: 16, domYoY:  23.1 },
+    { name: "Wayne",      medianPrice: 206000, priceYoY: 6.2, dom: 35, domYoY:   6.1 },
+    { name: "Washtenaw",  medianPrice: 420000, priceYoY: 2.7, dom: 33, domYoY:   6.5 },
+    { name: "Livingston", medianPrice: 400000, priceYoY: 1.4, dom: 36, domYoY:  -2.7 },
   ],
 };
 
 const PAST_REPORTS = [
   {
+    href: "/market-updates/april-2026",
+    month: "April 2026",
+    summary: "Prices up across all five counties. Wayne led at +7.7% YoY. Oakland fastest at 10 days. Macomb DOM surged +50%.",
+  },
+  {
     href: "/market-updates/march-2026",
     month: "March 2026",
-    summary: "Median prices up county-wide. DOM rising YoY — buyers have more time, but well-priced homes still move.",
+    summary: "Median prices up county-wide. DOM rising YoY — buyers had more time, but well-priced homes still moved.",
   },
 ];
 
@@ -226,8 +231,7 @@ export default function MarketUpdatesPage() {
             className="font-editorial italic mt-4"
             style={{ fontSize: "clamp(20px, 2.5vw, 26px)", lineHeight: "1.5", color: "var(--ink)" }}
           >
-            &ldquo;Prices are up, but the story county-to-county is very different. Macomb DOM is up 50% YoY — that market is shifting.
-            Sellers pricing to 2024 comps are sitting. Oakland is still tight. Know your county.&rdquo;
+            &ldquo;Livingston moving faster while everything else slows is worth watching. Oakland at 13 days is still a seller&apos;s market. Wayne buyers are finally getting room — but prices haven&apos;t followed DOM down. They rarely do.&rdquo;
           </blockquote>
           <div className="flex items-center gap-3 mt-5">
             <div style={{ width: 1, height: 32, backgroundColor: "var(--red)" }} />
