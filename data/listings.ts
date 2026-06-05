@@ -72,45 +72,51 @@ export interface Listing {
 export type ListingsByCity = Record<string, Listing[]>;
 
 export const listingsByCity: ListingsByCity = {
-  // ─── OAKLAND COUNTY ───────────────────────────────────────────────────────
-
-  "birmingham-mi": [],
-  "bloomfield-hills-mi": [],
-  "bloomfield-township-mi": [],
-  "clarkston-mi": [],
-  "lake-orion-mi": [],
-  "orchard-lake-mi": [],
-  "royal-oak-mi": [],
-  "troy-mi": [],
-  "west-bloomfield-mi": [],
-
-  // ─── LIVINGSTON COUNTY ────────────────────────────────────────────────────
-
-  "brighton-mi": [],
-  "howell-mi": [],
-  "northville-mi": [],
-  "plymouth-mi": [],
-
-  // ─── MACOMB COUNTY ────────────────────────────────────────────────────────
-
-  "macomb-township-mi": [],
-  "st-clair-shores-mi": [],
-  "warren-mi": [],
-
-  // ─── WASHTENAW COUNTY ────────────────────────────────────────────────────
 
   "ann-arbor-mi": [],
-  "saline-mi": [],
 
-  // ─── WAYNE COUNTY ────────────────────────────────────────────────────────
+  "birmingham-mi": [],
+
+  "bloomfield-hills-mi": [],
+
+  "bloomfield-township-mi": [],
+
+  "brighton-mi": [],
+
+  "clarkston-mi": [],
 
   "detroit-mi": [],
-  "grosse-pointe-mi": [],
-  "grosse-pointe-woods-mi": [],
-
-  // ─── GENESEE COUNTY ──────────────────────────────────────────────────────
 
   "flint-mi": [],
+
+  "grosse-pointe-mi": [],
+
+  "grosse-pointe-woods-mi": [],
+
+  "howell-mi": [],
+
+  "lake-orion-mi": [],
+
+  "macomb-township-mi": [],
+
+  "northville-mi": [],
+
+  "orchard-lake-mi": [],
+
+  "plymouth-mi": [],
+
+  "royal-oak-mi": [],
+
+  "saline-mi": [],
+
+  "st-clair-shores-mi": [],
+
+  "troy-mi": [],
+
+  "warren-mi": [],
+
+  "west-bloomfield-mi": [],
+
 };
 
 /**
