@@ -19,76 +19,76 @@ export interface MarketAnalysis {
 
 export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
   "ann-arbor-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 500,
+    "medianPrice": 529800,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 299,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "birmingham-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 21,
+    "medianPrice": 425900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 369,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "bloomfield-hills-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 6,
+    "medianPrice": 349999,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 148,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "bloomfield-township-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 8,
+    "medianPrice": 478000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 207,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "brighton-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 11,
+    "medianPrice": 359900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 221,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "clarkston-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 2,
+    "medianPrice": 564900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 133,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "detroit-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 500,
+    "medianPrice": 115000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 88,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "flint-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 16,
+    "medianPrice": 2000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 11,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "grosse-pointe-mi": {
     "activeCount": 0,
@@ -97,25 +97,25 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": 0,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "grosse-pointe-woods-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 2,
+    "medianPrice": 619900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 117,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "howell-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 9,
+    "medianPrice": 449900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 213,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "lake-orion-mi": {
     "activeCount": 0,
@@ -124,97 +124,97 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": 0,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "macomb-township-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 5,
+    "medianPrice": 539900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 195,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "northville-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 32,
+    "medianPrice": 579900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 255,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "orchard-lake-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 5,
+    "medianPrice": 459900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 316,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "plymouth-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 23,
+    "medianPrice": 489000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 203,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "royal-oak-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 7,
+    "medianPrice": 415000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 213,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "saline-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 71,
+    "medianPrice": 479900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 197,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "st-clair-shores-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 3,
+    "medianPrice": 232000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 189,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "troy-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 5,
+    "medianPrice": 675000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 205,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "warren-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 28,
+    "medianPrice": 120000,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 98,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   },
   "west-bloomfield-mi": {
-    "activeCount": 0,
-    "medianPrice": 0,
+    "activeCount": 9,
+    "medianPrice": 354900,
     "medianDOM": 0,
-    "avgPricePerSqft": 0,
+    "avgPricePerSqft": 220,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:01:39.362Z"
+    "lastUpdated": "2026-06-05T17:46:49.377Z"
   }
 };
 
