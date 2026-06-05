@@ -91,7 +91,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501135106448922000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527170940967244000000",
@@ -110,7 +110,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527170940967244000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260515173233033235000000",
@@ -129,7 +129,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173233033235000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260416192941092355000000",
@@ -148,7 +148,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260416192941092355000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603152202356726000000",
@@ -167,7 +167,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603152202356726000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603164617603737000000",
@@ -186,7 +186,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603164617603737000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526141322261775000000",
@@ -205,7 +205,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526141322261775000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20251204160456952145000000",
@@ -224,7 +224,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251204160456952145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260424222059984877000000",
@@ -243,7 +243,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424222059984877000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260513173659886553000000",
@@ -262,7 +262,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513173659886553000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260604195847956979000000",
@@ -272,16 +272,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 150000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604195847956979000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162357082662000000",
@@ -300,7 +300,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162357082662000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162039067054000000",
@@ -319,7 +319,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162039067054000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260605025903712814000000",
@@ -338,7 +338,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605025903712814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603191051441236000000",
@@ -357,7 +357,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603191051441236000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602194108505158000000",
@@ -376,7 +376,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602194108505158000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601134004213409000000",
@@ -395,7 +395,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601134004213409000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530134042723821000000",
@@ -414,7 +414,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530134042723821000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260401173308610801000000",
@@ -433,7 +433,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401173308610801000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603003404022360000000",
@@ -452,7 +452,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603003404022360000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260521162511548110000000",
@@ -462,16 +462,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 450000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521162511548110000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260507030502309745000000",
@@ -483,14 +483,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2150,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507030502309745000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528162530059399000000",
@@ -509,7 +509,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528162530059399000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528150352269107000000",
@@ -528,7 +528,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528150352269107000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512143421620166000000",
@@ -547,7 +547,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512143421620166000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518194322187490000000",
@@ -566,7 +566,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518194322187490000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260511201559661263000000",
@@ -585,7 +585,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511201559661263000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602100747033322000000",
@@ -604,7 +604,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602100747033322000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528004111030736000000",
@@ -623,7 +623,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528004111030736000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501155355931924000000",
@@ -642,7 +642,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155355931924000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601162025165903000000",
@@ -661,7 +661,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601162025165903000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260415182517732769000000",
@@ -680,7 +680,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415182517732769000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260116221829020786000000",
@@ -699,7 +699,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116221829020786000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603112433894541000000",
@@ -718,7 +718,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603112433894541000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530214519143692000000",
@@ -737,7 +737,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530214519143692000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602204105628251000000",
@@ -747,16 +747,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 590000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602204105628251000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501235259120147000000",
@@ -768,14 +768,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1725,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501235259120147000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250804211351671741000000",
@@ -785,16 +785,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250804211351671741000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250815222657213814000000",
@@ -813,7 +813,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250815222657213814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531115623786807000000",
@@ -832,7 +832,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531115623786807000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417195225827480000000",
@@ -851,7 +851,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417195225827480000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602210229438808000000",
@@ -870,7 +870,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602210229438808000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260331095353621416000000",
@@ -889,7 +889,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331095353621416000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260421161341913182000000",
@@ -908,7 +908,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421161341913182000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260403195548247580000000",
@@ -927,7 +927,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403195548247580000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260510030703055326000000",
@@ -946,7 +946,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510030703055326000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260519112055942504000000",
@@ -965,7 +965,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519112055942504000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518031735244916000000",
@@ -984,7 +984,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518031735244916000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260523181831110192000000",
@@ -996,14 +996,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3300,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260523181831110192000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260506124938125353000000",
@@ -1022,7 +1022,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506124938125353000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603014846308036000000",
@@ -1041,7 +1041,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603014846308036000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528153139727518000000",
@@ -1060,7 +1060,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528153139727518000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305151141946707000000",
@@ -1079,7 +1079,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305151141946707000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260524200605722568000000",
@@ -1098,7 +1098,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524200605722568000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260504145714934377000000",
@@ -1117,7 +1117,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504145714934377000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417161908828074000000",
@@ -1136,7 +1136,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417161908828074000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526133939394101000000",
@@ -1155,7 +1155,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526133939394101000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601203120783126000000",
@@ -1167,14 +1167,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203120783126000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428235637034200000000",
@@ -1193,26 +1193,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428235637034200000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
-  },
-  {
-    "id": "20260602200411471894000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2655 Kimberley Road",
-    "city": "Ann Arbor",
-    "slug": "ann-arbor-mi",
-    "zip": "48104",
-    "listPrice": 190000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Condo",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602200411471894000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602165004485897000000",
@@ -1224,14 +1205,33 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2550,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602165004485897000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
+  },
+  {
+    "id": "20260602200411471894000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2655 Kimberley Road",
+    "city": "Ann Arbor",
+    "slug": "ann-arbor-mi",
+    "zip": "48104",
+    "listPrice": 190000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602200411471894000000",
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260326004311562973000000",
@@ -1250,7 +1250,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260326004311562973000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601153058127229000000",
@@ -1269,7 +1269,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601153058127229000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260321012001617906000000",
@@ -1288,7 +1288,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260321012001617906000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260529134236259335000000",
@@ -1300,14 +1300,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 4,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529134236259335000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428182447315430000000",
@@ -1326,7 +1326,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428182447315430000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531005242083772000000",
@@ -1338,14 +1338,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531005242083772000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527163756282385000000",
@@ -1357,14 +1357,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527163756282385000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527135035292723000000",
@@ -1383,7 +1383,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527135035292723000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260529154309049037000000",
@@ -1402,7 +1402,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529154309049037000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260429144721549137000000",
@@ -1421,7 +1421,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429144721549137000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260319005806349875000000",
@@ -1440,7 +1440,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319005806349875000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601204634391094000000",
@@ -1450,16 +1450,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 849000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601204634391094000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260430135708252434000000",
@@ -1471,14 +1471,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2100,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430135708252434000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260515023246322513000000",
@@ -1497,7 +1497,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515023246322513000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260227180351997323000000",
@@ -1516,7 +1516,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227180351997323000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20230913184126896053000000",
@@ -1535,7 +1535,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230913184126896053000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260303205027464296000000",
@@ -1554,7 +1554,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260303205027464296000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260310155932810206000000",
@@ -1573,7 +1573,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310155932810206000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526200221681477000000",
@@ -1592,7 +1592,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526200221681477000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528212124952980000000",
@@ -1604,14 +1604,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528212124952980000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512160343297135000000",
@@ -1630,7 +1630,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512160343297135000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501130811881547000000",
@@ -1649,7 +1649,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501130811881547000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260507110935267460000000",
@@ -1668,7 +1668,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507110935267460000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260409150900778523000000",
@@ -1687,7 +1687,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409150900778523000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260506184412003647000000",
@@ -1706,7 +1706,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506184412003647000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260403132821100912000000",
@@ -1718,14 +1718,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2600,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403132821100912000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305144602834868000000",
@@ -1744,7 +1744,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305144602834868000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305145751545015000000",
@@ -1763,7 +1763,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305145751545015000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417000501706567000000",
@@ -1773,16 +1773,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 699000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417000501706567000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260505180350455631000000",
@@ -1794,14 +1794,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3950,
     "beds": 5,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505180350455631000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260520130722115530000000",
@@ -1820,7 +1820,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520130722115530000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20251215155003792582000000",
@@ -1839,7 +1839,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251215155003792582000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601215651244148000000",
@@ -1851,14 +1851,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601215651244148000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260216175310675145000000",
@@ -1877,7 +1877,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260216175310675145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260505165333375392000000",
@@ -1896,7 +1896,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505165333375392000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512142542500764000000",
@@ -1906,16 +1906,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 899900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512142542500764000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260521170619500919000000",
@@ -1934,7 +1934,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521170619500919000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527141445841585000000",
@@ -1953,7 +1953,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527141445841585000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601154845242575000000",
@@ -1965,14 +1965,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3700,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154845242575000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501135106448922000000",
@@ -1991,7 +1991,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501135106448922000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527170940967244000000",
@@ -2010,7 +2010,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527170940967244000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260515173233033235000000",
@@ -2029,7 +2029,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173233033235000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260416192941092355000000",
@@ -2048,7 +2048,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260416192941092355000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603152202356726000000",
@@ -2067,7 +2067,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603152202356726000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603164617603737000000",
@@ -2086,7 +2086,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603164617603737000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526141322261775000000",
@@ -2105,7 +2105,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526141322261775000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20251204160456952145000000",
@@ -2124,7 +2124,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251204160456952145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260424222059984877000000",
@@ -2143,7 +2143,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424222059984877000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260513173659886553000000",
@@ -2162,7 +2162,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513173659886553000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260604195847956979000000",
@@ -2172,16 +2172,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 150000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604195847956979000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162357082662000000",
@@ -2200,7 +2200,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162357082662000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162039067054000000",
@@ -2219,7 +2219,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162039067054000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260605025903712814000000",
@@ -2238,7 +2238,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605025903712814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603191051441236000000",
@@ -2257,7 +2257,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603191051441236000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602194108505158000000",
@@ -2276,7 +2276,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602194108505158000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601134004213409000000",
@@ -2295,7 +2295,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601134004213409000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530134042723821000000",
@@ -2314,7 +2314,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530134042723821000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260401173308610801000000",
@@ -2333,7 +2333,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401173308610801000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603003404022360000000",
@@ -2352,7 +2352,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603003404022360000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260521162511548110000000",
@@ -2362,16 +2362,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 450000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521162511548110000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260507030502309745000000",
@@ -2383,14 +2383,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2150,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507030502309745000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528162530059399000000",
@@ -2409,7 +2409,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528162530059399000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528150352269107000000",
@@ -2428,7 +2428,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528150352269107000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512143421620166000000",
@@ -2447,7 +2447,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512143421620166000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518194322187490000000",
@@ -2466,7 +2466,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518194322187490000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260511201559661263000000",
@@ -2485,7 +2485,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511201559661263000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602100747033322000000",
@@ -2504,7 +2504,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602100747033322000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528004111030736000000",
@@ -2523,7 +2523,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528004111030736000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501155355931924000000",
@@ -2542,7 +2542,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155355931924000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601162025165903000000",
@@ -2561,7 +2561,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601162025165903000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260415182517732769000000",
@@ -2580,7 +2580,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415182517732769000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260116221829020786000000",
@@ -2599,7 +2599,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116221829020786000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603112433894541000000",
@@ -2618,7 +2618,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603112433894541000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530214519143692000000",
@@ -2637,7 +2637,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530214519143692000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602204105628251000000",
@@ -2647,16 +2647,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 590000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602204105628251000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501235259120147000000",
@@ -2668,14 +2668,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1725,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501235259120147000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250804211351671741000000",
@@ -2685,16 +2685,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250804211351671741000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250815222657213814000000",
@@ -2713,7 +2713,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250815222657213814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531115623786807000000",
@@ -2732,7 +2732,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531115623786807000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417195225827480000000",
@@ -2751,7 +2751,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417195225827480000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602210229438808000000",
@@ -2770,7 +2770,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602210229438808000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260331095353621416000000",
@@ -2789,7 +2789,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331095353621416000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260421161341913182000000",
@@ -2808,7 +2808,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421161341913182000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260403195548247580000000",
@@ -2827,7 +2827,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403195548247580000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260510030703055326000000",
@@ -2846,7 +2846,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510030703055326000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260519112055942504000000",
@@ -2865,7 +2865,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519112055942504000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518031735244916000000",
@@ -2884,7 +2884,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518031735244916000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260523181831110192000000",
@@ -2896,14 +2896,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3300,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260523181831110192000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260506124938125353000000",
@@ -2922,7 +2922,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506124938125353000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603014846308036000000",
@@ -2941,7 +2941,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603014846308036000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528153139727518000000",
@@ -2960,7 +2960,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528153139727518000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305151141946707000000",
@@ -2979,7 +2979,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305151141946707000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260524200605722568000000",
@@ -2998,7 +2998,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524200605722568000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260504145714934377000000",
@@ -3017,7 +3017,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504145714934377000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417161908828074000000",
@@ -3036,7 +3036,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417161908828074000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526133939394101000000",
@@ -3055,7 +3055,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526133939394101000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601203120783126000000",
@@ -3067,14 +3067,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203120783126000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428235637034200000000",
@@ -3093,26 +3093,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428235637034200000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
-  },
-  {
-    "id": "20260602200411471894000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2655 Kimberley Road",
-    "city": "Ann Arbor",
-    "slug": "ann-arbor-mi",
-    "zip": "48104",
-    "listPrice": 190000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Condo",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602200411471894000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602165004485897000000",
@@ -3124,14 +3105,33 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2550,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602165004485897000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
+  },
+  {
+    "id": "20260602200411471894000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2655 Kimberley Road",
+    "city": "Ann Arbor",
+    "slug": "ann-arbor-mi",
+    "zip": "48104",
+    "listPrice": 190000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602200411471894000000",
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260326004311562973000000",
@@ -3150,7 +3150,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260326004311562973000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601153058127229000000",
@@ -3169,7 +3169,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601153058127229000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260321012001617906000000",
@@ -3188,7 +3188,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260321012001617906000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260529134236259335000000",
@@ -3200,14 +3200,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 4,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529134236259335000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428182447315430000000",
@@ -3226,7 +3226,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428182447315430000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531005242083772000000",
@@ -3238,14 +3238,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531005242083772000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527163756282385000000",
@@ -3257,14 +3257,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527163756282385000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527135035292723000000",
@@ -3283,7 +3283,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527135035292723000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260529154309049037000000",
@@ -3302,7 +3302,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529154309049037000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260429144721549137000000",
@@ -3321,7 +3321,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429144721549137000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260319005806349875000000",
@@ -3340,7 +3340,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319005806349875000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601204634391094000000",
@@ -3350,16 +3350,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 849000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601204634391094000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260430135708252434000000",
@@ -3371,14 +3371,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2100,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430135708252434000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260515023246322513000000",
@@ -3397,7 +3397,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515023246322513000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260227180351997323000000",
@@ -3416,7 +3416,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227180351997323000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20230913184126896053000000",
@@ -3435,7 +3435,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230913184126896053000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260303205027464296000000",
@@ -3454,7 +3454,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260303205027464296000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260310155932810206000000",
@@ -3473,7 +3473,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310155932810206000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526200221681477000000",
@@ -3492,7 +3492,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526200221681477000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528212124952980000000",
@@ -3504,14 +3504,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528212124952980000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512160343297135000000",
@@ -3530,7 +3530,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512160343297135000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501130811881547000000",
@@ -3549,7 +3549,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501130811881547000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260507110935267460000000",
@@ -3568,7 +3568,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507110935267460000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260409150900778523000000",
@@ -3587,7 +3587,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409150900778523000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260506184412003647000000",
@@ -3606,7 +3606,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506184412003647000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260403132821100912000000",
@@ -3618,14 +3618,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2600,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403132821100912000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305144602834868000000",
@@ -3644,7 +3644,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305144602834868000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305145751545015000000",
@@ -3663,7 +3663,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305145751545015000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417000501706567000000",
@@ -3673,16 +3673,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 699000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417000501706567000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260505180350455631000000",
@@ -3694,14 +3694,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3950,
     "beds": 5,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505180350455631000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260520130722115530000000",
@@ -3720,7 +3720,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520130722115530000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20251215155003792582000000",
@@ -3739,7 +3739,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251215155003792582000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601215651244148000000",
@@ -3751,14 +3751,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601215651244148000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260216175310675145000000",
@@ -3777,7 +3777,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260216175310675145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260505165333375392000000",
@@ -3796,7 +3796,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505165333375392000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512142542500764000000",
@@ -3806,16 +3806,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 899900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512142542500764000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260521170619500919000000",
@@ -3834,7 +3834,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521170619500919000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527141445841585000000",
@@ -3853,7 +3853,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527141445841585000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601154845242575000000",
@@ -3865,14 +3865,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3700,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154845242575000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501135106448922000000",
@@ -3891,7 +3891,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501135106448922000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527170940967244000000",
@@ -3910,7 +3910,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527170940967244000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260515173233033235000000",
@@ -3929,7 +3929,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173233033235000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260416192941092355000000",
@@ -3948,7 +3948,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260416192941092355000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603152202356726000000",
@@ -3967,7 +3967,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603152202356726000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603164617603737000000",
@@ -3986,7 +3986,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603164617603737000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526141322261775000000",
@@ -4005,7 +4005,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526141322261775000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20251204160456952145000000",
@@ -4024,7 +4024,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251204160456952145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260424222059984877000000",
@@ -4043,7 +4043,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424222059984877000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260513173659886553000000",
@@ -4062,7 +4062,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513173659886553000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260604195847956979000000",
@@ -4072,16 +4072,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 150000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604195847956979000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162357082662000000",
@@ -4100,7 +4100,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162357082662000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162039067054000000",
@@ -4119,7 +4119,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162039067054000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260605025903712814000000",
@@ -4138,7 +4138,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605025903712814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603191051441236000000",
@@ -4157,7 +4157,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603191051441236000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602194108505158000000",
@@ -4176,7 +4176,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602194108505158000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601134004213409000000",
@@ -4195,7 +4195,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601134004213409000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530134042723821000000",
@@ -4214,7 +4214,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530134042723821000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260401173308610801000000",
@@ -4233,7 +4233,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401173308610801000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603003404022360000000",
@@ -4252,7 +4252,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603003404022360000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260521162511548110000000",
@@ -4262,16 +4262,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 450000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521162511548110000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260507030502309745000000",
@@ -4283,14 +4283,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2150,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507030502309745000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528162530059399000000",
@@ -4309,7 +4309,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528162530059399000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528150352269107000000",
@@ -4328,7 +4328,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528150352269107000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512143421620166000000",
@@ -4347,7 +4347,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512143421620166000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518194322187490000000",
@@ -4366,7 +4366,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518194322187490000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260511201559661263000000",
@@ -4385,7 +4385,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511201559661263000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602100747033322000000",
@@ -4404,7 +4404,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602100747033322000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528004111030736000000",
@@ -4423,7 +4423,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528004111030736000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501155355931924000000",
@@ -4442,7 +4442,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155355931924000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601162025165903000000",
@@ -4461,7 +4461,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601162025165903000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260415182517732769000000",
@@ -4480,7 +4480,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415182517732769000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260116221829020786000000",
@@ -4499,7 +4499,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116221829020786000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603112433894541000000",
@@ -4518,7 +4518,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603112433894541000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530214519143692000000",
@@ -4537,7 +4537,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530214519143692000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602204105628251000000",
@@ -4547,16 +4547,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 590000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602204105628251000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501235259120147000000",
@@ -4568,14 +4568,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1725,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501235259120147000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250804211351671741000000",
@@ -4585,16 +4585,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250804211351671741000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250815222657213814000000",
@@ -4613,7 +4613,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250815222657213814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531115623786807000000",
@@ -4632,7 +4632,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531115623786807000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417195225827480000000",
@@ -4651,7 +4651,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417195225827480000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602210229438808000000",
@@ -4670,7 +4670,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602210229438808000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260331095353621416000000",
@@ -4689,7 +4689,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331095353621416000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260421161341913182000000",
@@ -4708,7 +4708,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421161341913182000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260403195548247580000000",
@@ -4727,7 +4727,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403195548247580000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260510030703055326000000",
@@ -4746,7 +4746,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510030703055326000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260519112055942504000000",
@@ -4765,7 +4765,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519112055942504000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518031735244916000000",
@@ -4784,7 +4784,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518031735244916000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260523181831110192000000",
@@ -4796,14 +4796,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3300,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260523181831110192000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260506124938125353000000",
@@ -4822,7 +4822,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506124938125353000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603014846308036000000",
@@ -4841,7 +4841,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603014846308036000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528153139727518000000",
@@ -4860,7 +4860,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528153139727518000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305151141946707000000",
@@ -4879,7 +4879,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305151141946707000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260524200605722568000000",
@@ -4898,7 +4898,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524200605722568000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260504145714934377000000",
@@ -4917,7 +4917,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504145714934377000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417161908828074000000",
@@ -4936,7 +4936,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417161908828074000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526133939394101000000",
@@ -4955,7 +4955,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526133939394101000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601203120783126000000",
@@ -4967,14 +4967,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203120783126000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428235637034200000000",
@@ -4993,26 +4993,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428235637034200000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
-  },
-  {
-    "id": "20260602200411471894000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2655 Kimberley Road",
-    "city": "Ann Arbor",
-    "slug": "ann-arbor-mi",
-    "zip": "48104",
-    "listPrice": 190000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Condo",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602200411471894000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602165004485897000000",
@@ -5024,14 +5005,33 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2550,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602165004485897000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
+  },
+  {
+    "id": "20260602200411471894000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2655 Kimberley Road",
+    "city": "Ann Arbor",
+    "slug": "ann-arbor-mi",
+    "zip": "48104",
+    "listPrice": 190000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602200411471894000000",
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260326004311562973000000",
@@ -5050,7 +5050,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260326004311562973000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601153058127229000000",
@@ -5069,7 +5069,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601153058127229000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260321012001617906000000",
@@ -5088,7 +5088,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260321012001617906000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260529134236259335000000",
@@ -5100,14 +5100,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 4,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529134236259335000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428182447315430000000",
@@ -5126,7 +5126,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428182447315430000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531005242083772000000",
@@ -5138,14 +5138,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531005242083772000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527163756282385000000",
@@ -5157,14 +5157,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527163756282385000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527135035292723000000",
@@ -5183,7 +5183,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527135035292723000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260529154309049037000000",
@@ -5202,7 +5202,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529154309049037000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260429144721549137000000",
@@ -5221,7 +5221,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429144721549137000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260319005806349875000000",
@@ -5240,7 +5240,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319005806349875000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601204634391094000000",
@@ -5250,16 +5250,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 849000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601204634391094000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260430135708252434000000",
@@ -5271,14 +5271,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2100,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430135708252434000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260515023246322513000000",
@@ -5297,7 +5297,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515023246322513000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260227180351997323000000",
@@ -5316,7 +5316,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227180351997323000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20230913184126896053000000",
@@ -5335,7 +5335,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230913184126896053000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260303205027464296000000",
@@ -5354,7 +5354,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260303205027464296000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260310155932810206000000",
@@ -5373,7 +5373,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310155932810206000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526200221681477000000",
@@ -5392,7 +5392,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526200221681477000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528212124952980000000",
@@ -5404,14 +5404,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528212124952980000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512160343297135000000",
@@ -5430,7 +5430,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512160343297135000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501130811881547000000",
@@ -5449,7 +5449,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501130811881547000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260507110935267460000000",
@@ -5468,7 +5468,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507110935267460000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260409150900778523000000",
@@ -5487,7 +5487,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409150900778523000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260506184412003647000000",
@@ -5506,7 +5506,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506184412003647000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260403132821100912000000",
@@ -5518,14 +5518,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2600,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403132821100912000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305144602834868000000",
@@ -5544,7 +5544,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305144602834868000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305145751545015000000",
@@ -5563,7 +5563,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305145751545015000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417000501706567000000",
@@ -5573,16 +5573,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 699000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417000501706567000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260505180350455631000000",
@@ -5594,14 +5594,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3950,
     "beds": 5,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505180350455631000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260520130722115530000000",
@@ -5620,7 +5620,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520130722115530000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20251215155003792582000000",
@@ -5639,7 +5639,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251215155003792582000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601215651244148000000",
@@ -5651,14 +5651,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601215651244148000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260216175310675145000000",
@@ -5677,7 +5677,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260216175310675145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260505165333375392000000",
@@ -5696,7 +5696,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505165333375392000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512142542500764000000",
@@ -5706,16 +5706,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 899900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512142542500764000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260521170619500919000000",
@@ -5734,7 +5734,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521170619500919000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527141445841585000000",
@@ -5753,7 +5753,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527141445841585000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601154845242575000000",
@@ -5765,14 +5765,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3700,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154845242575000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501135106448922000000",
@@ -5791,7 +5791,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501135106448922000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527170940967244000000",
@@ -5810,7 +5810,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527170940967244000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260515173233033235000000",
@@ -5829,7 +5829,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173233033235000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260416192941092355000000",
@@ -5848,7 +5848,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260416192941092355000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603152202356726000000",
@@ -5867,7 +5867,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603152202356726000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603164617603737000000",
@@ -5886,7 +5886,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603164617603737000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526141322261775000000",
@@ -5905,7 +5905,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526141322261775000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20251204160456952145000000",
@@ -5924,7 +5924,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251204160456952145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260424222059984877000000",
@@ -5943,7 +5943,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424222059984877000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260513173659886553000000",
@@ -5962,7 +5962,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513173659886553000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260604195847956979000000",
@@ -5972,16 +5972,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 150000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604195847956979000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162357082662000000",
@@ -6000,7 +6000,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162357082662000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603162039067054000000",
@@ -6019,7 +6019,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162039067054000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260605025903712814000000",
@@ -6038,7 +6038,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605025903712814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603191051441236000000",
@@ -6057,7 +6057,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603191051441236000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602194108505158000000",
@@ -6076,7 +6076,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602194108505158000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601134004213409000000",
@@ -6095,7 +6095,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601134004213409000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530134042723821000000",
@@ -6114,7 +6114,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530134042723821000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260401173308610801000000",
@@ -6133,7 +6133,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401173308610801000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603003404022360000000",
@@ -6152,7 +6152,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603003404022360000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260521162511548110000000",
@@ -6162,16 +6162,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 450000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521162511548110000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260507030502309745000000",
@@ -6183,14 +6183,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2150,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507030502309745000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528162530059399000000",
@@ -6209,7 +6209,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528162530059399000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528150352269107000000",
@@ -6228,7 +6228,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528150352269107000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260512143421620166000000",
@@ -6247,7 +6247,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512143421620166000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518194322187490000000",
@@ -6266,7 +6266,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518194322187490000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260511201559661263000000",
@@ -6285,7 +6285,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511201559661263000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602100747033322000000",
@@ -6304,7 +6304,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602100747033322000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528004111030736000000",
@@ -6323,7 +6323,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528004111030736000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501155355931924000000",
@@ -6342,7 +6342,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155355931924000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601162025165903000000",
@@ -6361,7 +6361,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601162025165903000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260415182517732769000000",
@@ -6380,7 +6380,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415182517732769000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260116221829020786000000",
@@ -6399,7 +6399,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116221829020786000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603112433894541000000",
@@ -6418,7 +6418,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603112433894541000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260530214519143692000000",
@@ -6437,7 +6437,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530214519143692000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602204105628251000000",
@@ -6447,16 +6447,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 590000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602204105628251000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260501235259120147000000",
@@ -6468,14 +6468,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1725,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501235259120147000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250804211351671741000000",
@@ -6485,16 +6485,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250804211351671741000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20250815222657213814000000",
@@ -6513,7 +6513,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250815222657213814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531115623786807000000",
@@ -6532,7 +6532,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531115623786807000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417195225827480000000",
@@ -6551,7 +6551,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417195225827480000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602210229438808000000",
@@ -6570,7 +6570,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602210229438808000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260331095353621416000000",
@@ -6589,7 +6589,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331095353621416000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260421161341913182000000",
@@ -6608,7 +6608,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421161341913182000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260403195548247580000000",
@@ -6627,7 +6627,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403195548247580000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260510030703055326000000",
@@ -6646,7 +6646,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510030703055326000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260519112055942504000000",
@@ -6665,7 +6665,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519112055942504000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260518031735244916000000",
@@ -6684,7 +6684,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518031735244916000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260523181831110192000000",
@@ -6696,14 +6696,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3300,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260523181831110192000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260506124938125353000000",
@@ -6722,7 +6722,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506124938125353000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260603014846308036000000",
@@ -6741,7 +6741,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603014846308036000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260528153139727518000000",
@@ -6760,7 +6760,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528153139727518000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260305151141946707000000",
@@ -6779,7 +6779,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305151141946707000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260524200605722568000000",
@@ -6798,7 +6798,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524200605722568000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260504145714934377000000",
@@ -6817,7 +6817,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504145714934377000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260417161908828074000000",
@@ -6836,7 +6836,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417161908828074000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260526133939394101000000",
@@ -6855,7 +6855,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526133939394101000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601203120783126000000",
@@ -6867,14 +6867,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203120783126000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428235637034200000000",
@@ -6893,26 +6893,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428235637034200000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
-  },
-  {
-    "id": "20260602200411471894000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2655 Kimberley Road",
-    "city": "Ann Arbor",
-    "slug": "ann-arbor-mi",
-    "zip": "48104",
-    "listPrice": 190000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Condo",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602200411471894000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260602165004485897000000",
@@ -6924,14 +6905,33 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2550,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602165004485897000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
+  },
+  {
+    "id": "20260602200411471894000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2655 Kimberley Road",
+    "city": "Ann Arbor",
+    "slug": "ann-arbor-mi",
+    "zip": "48104",
+    "listPrice": 190000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602200411471894000000",
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260326004311562973000000",
@@ -6950,7 +6950,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260326004311562973000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260601153058127229000000",
@@ -6969,7 +6969,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601153058127229000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260321012001617906000000",
@@ -6988,7 +6988,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260321012001617906000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260529134236259335000000",
@@ -7000,14 +7000,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 4,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529134236259335000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260428182447315430000000",
@@ -7026,7 +7026,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428182447315430000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260531005242083772000000",
@@ -7038,14 +7038,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531005242083772000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527163756282385000000",
@@ -7057,14 +7057,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527163756282385000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.195Z"
   },
   {
     "id": "20260527135035292723000000",
@@ -7083,7 +7083,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527135035292723000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260529154309049037000000",
@@ -7102,7 +7102,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529154309049037000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260429144721549137000000",
@@ -7121,7 +7121,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429144721549137000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260319005806349875000000",
@@ -7140,7 +7140,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319005806349875000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601204634391094000000",
@@ -7150,16 +7150,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 849000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601204634391094000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260430135708252434000000",
@@ -7171,14 +7171,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2100,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430135708252434000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260515023246322513000000",
@@ -7197,7 +7197,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515023246322513000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260227180351997323000000",
@@ -7216,7 +7216,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227180351997323000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20230913184126896053000000",
@@ -7235,7 +7235,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230913184126896053000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260303205027464296000000",
@@ -7254,7 +7254,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260303205027464296000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260310155932810206000000",
@@ -7273,7 +7273,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310155932810206000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260526200221681477000000",
@@ -7292,7 +7292,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526200221681477000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260528212124952980000000",
@@ -7304,14 +7304,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528212124952980000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260512160343297135000000",
@@ -7330,7 +7330,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512160343297135000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260501130811881547000000",
@@ -7349,7 +7349,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501130811881547000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260507110935267460000000",
@@ -7368,7 +7368,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507110935267460000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260409150900778523000000",
@@ -7387,7 +7387,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409150900778523000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260506184412003647000000",
@@ -7406,7 +7406,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506184412003647000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260403132821100912000000",
@@ -7418,14 +7418,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2600,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403132821100912000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260305144602834868000000",
@@ -7444,7 +7444,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305144602834868000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260305145751545015000000",
@@ -7463,7 +7463,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305145751545015000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260417000501706567000000",
@@ -7473,16 +7473,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 699000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417000501706567000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260505180350455631000000",
@@ -7494,14 +7494,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3950,
     "beds": 5,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505180350455631000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260520130722115530000000",
@@ -7520,7 +7520,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520130722115530000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251215155003792582000000",
@@ -7539,7 +7539,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251215155003792582000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601215651244148000000",
@@ -7551,14 +7551,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601215651244148000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260216175310675145000000",
@@ -7577,7 +7577,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260216175310675145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260505165333375392000000",
@@ -7596,7 +7596,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505165333375392000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260512142542500764000000",
@@ -7606,16 +7606,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 899900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512142542500764000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260521170619500919000000",
@@ -7634,7 +7634,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521170619500919000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260527141445841585000000",
@@ -7653,7 +7653,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527141445841585000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601154845242575000000",
@@ -7665,14 +7665,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3700,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154845242575000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260501135106448922000000",
@@ -7691,7 +7691,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501135106448922000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260527170940967244000000",
@@ -7710,7 +7710,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527170940967244000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260515173233033235000000",
@@ -7729,7 +7729,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173233033235000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260416192941092355000000",
@@ -7748,7 +7748,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260416192941092355000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603152202356726000000",
@@ -7767,7 +7767,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603152202356726000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603164617603737000000",
@@ -7786,7 +7786,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603164617603737000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260526141322261775000000",
@@ -7805,7 +7805,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526141322261775000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251204160456952145000000",
@@ -7824,7 +7824,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251204160456952145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260424222059984877000000",
@@ -7843,7 +7843,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424222059984877000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260513173659886553000000",
@@ -7862,7 +7862,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513173659886553000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260604195847956979000000",
@@ -7872,16 +7872,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 150000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604195847956979000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603162357082662000000",
@@ -7900,7 +7900,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162357082662000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603162039067054000000",
@@ -7919,7 +7919,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603162039067054000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260605025903712814000000",
@@ -7938,7 +7938,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605025903712814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603191051441236000000",
@@ -7957,7 +7957,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603191051441236000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260602194108505158000000",
@@ -7976,7 +7976,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602194108505158000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601134004213409000000",
@@ -7995,7 +7995,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601134004213409000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260530134042723821000000",
@@ -8014,7 +8014,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530134042723821000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260401173308610801000000",
@@ -8033,7 +8033,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401173308610801000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603003404022360000000",
@@ -8052,7 +8052,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603003404022360000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260521162511548110000000",
@@ -8062,16 +8062,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 450000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521162511548110000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260507030502309745000000",
@@ -8083,14 +8083,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2150,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507030502309745000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260528162530059399000000",
@@ -8109,7 +8109,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528162530059399000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260528150352269107000000",
@@ -8128,7 +8128,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528150352269107000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260512143421620166000000",
@@ -8147,7 +8147,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512143421620166000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260518194322187490000000",
@@ -8166,7 +8166,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518194322187490000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260511201559661263000000",
@@ -8185,7 +8185,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511201559661263000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260602100747033322000000",
@@ -8204,7 +8204,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602100747033322000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260528004111030736000000",
@@ -8223,7 +8223,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528004111030736000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260501155355931924000000",
@@ -8242,7 +8242,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155355931924000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601162025165903000000",
@@ -8261,7 +8261,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601162025165903000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260415182517732769000000",
@@ -8280,7 +8280,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415182517732769000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260116221829020786000000",
@@ -8299,7 +8299,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116221829020786000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603112433894541000000",
@@ -8318,7 +8318,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603112433894541000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260530214519143692000000",
@@ -8337,7 +8337,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530214519143692000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260602204105628251000000",
@@ -8347,16 +8347,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 590000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602204105628251000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260501235259120147000000",
@@ -8368,14 +8368,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1725,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501235259120147000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20250804211351671741000000",
@@ -8385,16 +8385,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250804211351671741000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20250815222657213814000000",
@@ -8413,7 +8413,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250815222657213814000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260531115623786807000000",
@@ -8432,7 +8432,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531115623786807000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260417195225827480000000",
@@ -8451,7 +8451,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417195225827480000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260602210229438808000000",
@@ -8470,7 +8470,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602210229438808000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260331095353621416000000",
@@ -8489,7 +8489,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331095353621416000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260421161341913182000000",
@@ -8508,7 +8508,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421161341913182000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260403195548247580000000",
@@ -8527,7 +8527,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403195548247580000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260510030703055326000000",
@@ -8546,7 +8546,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510030703055326000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260519112055942504000000",
@@ -8565,7 +8565,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519112055942504000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260518031735244916000000",
@@ -8584,7 +8584,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518031735244916000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260523181831110192000000",
@@ -8596,14 +8596,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3300,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260523181831110192000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260506124938125353000000",
@@ -8622,7 +8622,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506124938125353000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260603014846308036000000",
@@ -8641,7 +8641,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603014846308036000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260528153139727518000000",
@@ -8660,7 +8660,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528153139727518000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260305151141946707000000",
@@ -8679,7 +8679,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305151141946707000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260524200605722568000000",
@@ -8698,7 +8698,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524200605722568000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260504145714934377000000",
@@ -8717,7 +8717,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504145714934377000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260417161908828074000000",
@@ -8736,7 +8736,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417161908828074000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260526133939394101000000",
@@ -8755,7 +8755,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526133939394101000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601203120783126000000",
@@ -8767,14 +8767,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203120783126000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260428235637034200000000",
@@ -8793,26 +8793,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428235637034200000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
-  },
-  {
-    "id": "20260602200411471894000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2655 Kimberley Road",
-    "city": "Ann Arbor",
-    "slug": "ann-arbor-mi",
-    "zip": "48104",
-    "listPrice": 190000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Condo",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602200411471894000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260602165004485897000000",
@@ -8824,14 +8805,33 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2550,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602165004485897000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
+  },
+  {
+    "id": "20260602200411471894000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2655 Kimberley Road",
+    "city": "Ann Arbor",
+    "slug": "ann-arbor-mi",
+    "zip": "48104",
+    "listPrice": 190000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602200411471894000000",
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260326004311562973000000",
@@ -8850,7 +8850,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260326004311562973000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601153058127229000000",
@@ -8869,7 +8869,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601153058127229000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260321012001617906000000",
@@ -8888,7 +8888,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260321012001617906000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260529134236259335000000",
@@ -8900,14 +8900,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 4,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529134236259335000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260428182447315430000000",
@@ -8926,7 +8926,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428182447315430000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260531005242083772000000",
@@ -8938,14 +8938,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531005242083772000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260527163756282385000000",
@@ -8957,14 +8957,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527163756282385000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260527135035292723000000",
@@ -8983,7 +8983,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527135035292723000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260529154309049037000000",
@@ -9002,7 +9002,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529154309049037000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260429144721549137000000",
@@ -9021,7 +9021,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429144721549137000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260319005806349875000000",
@@ -9040,7 +9040,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319005806349875000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601204634391094000000",
@@ -9050,16 +9050,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 849000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601204634391094000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260430135708252434000000",
@@ -9071,14 +9071,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2100,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430135708252434000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260515023246322513000000",
@@ -9097,7 +9097,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515023246322513000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260227180351997323000000",
@@ -9116,7 +9116,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227180351997323000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20230913184126896053000000",
@@ -9135,7 +9135,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230913184126896053000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260303205027464296000000",
@@ -9154,7 +9154,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260303205027464296000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260310155932810206000000",
@@ -9173,7 +9173,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310155932810206000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260526200221681477000000",
@@ -9192,7 +9192,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526200221681477000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260528212124952980000000",
@@ -9204,14 +9204,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528212124952980000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260512160343297135000000",
@@ -9230,7 +9230,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512160343297135000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260501130811881547000000",
@@ -9249,7 +9249,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501130811881547000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260507110935267460000000",
@@ -9268,7 +9268,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507110935267460000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260409150900778523000000",
@@ -9287,7 +9287,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409150900778523000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260506184412003647000000",
@@ -9306,7 +9306,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506184412003647000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260403132821100912000000",
@@ -9318,14 +9318,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2600,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403132821100912000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260305144602834868000000",
@@ -9344,7 +9344,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305144602834868000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260305145751545015000000",
@@ -9363,7 +9363,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305145751545015000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260417000501706567000000",
@@ -9373,16 +9373,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 699000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417000501706567000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260505180350455631000000",
@@ -9394,14 +9394,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3950,
     "beds": 5,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505180350455631000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260520130722115530000000",
@@ -9420,7 +9420,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520130722115530000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251215155003792582000000",
@@ -9439,7 +9439,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251215155003792582000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601215651244148000000",
@@ -9451,14 +9451,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601215651244148000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260216175310675145000000",
@@ -9477,7 +9477,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260216175310675145000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260505165333375392000000",
@@ -9496,7 +9496,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505165333375392000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260512142542500764000000",
@@ -9506,16 +9506,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 899900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512142542500764000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260521170619500919000000",
@@ -9534,7 +9534,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521170619500919000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260527141445841585000000",
@@ -9553,7 +9553,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527141445841585000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260601154845242575000000",
@@ -9565,14 +9565,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3700,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154845242575000000",
-    "lastUpdated": "2026-06-05T17:46:39.150Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260415173202596241000000",
@@ -9584,14 +9584,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2450,
     "beds": 2,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415173202596241000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260421183543025952000000",
@@ -9603,14 +9603,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2800,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421183543025952000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260404004106405760000000",
@@ -9629,7 +9629,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260404004106405760000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260527202414002550000000",
@@ -9641,14 +9641,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2950,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527202414002550000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260511205819322899000000",
@@ -9667,7 +9667,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511205819322899000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20250731131203838329000000",
@@ -9686,7 +9686,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250731131203838329000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260520124458499046000000",
@@ -9705,7 +9705,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520124458499046000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260526173442980000000000",
@@ -9724,7 +9724,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526173442980000000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260430171649443261000000",
@@ -9736,14 +9736,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2250,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430171649443261000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260504163343690153000000",
@@ -9755,14 +9755,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2700,
     "beds": 4,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504163343690153000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260527172453045844000000",
@@ -9781,7 +9781,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527172453045844000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260412175550247257000000",
@@ -9800,7 +9800,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260412175550247257000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260421161751907145000000",
@@ -9819,7 +9819,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421161751907145000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260504151907164851000000",
@@ -9831,14 +9831,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2800,
     "beds": 2,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504151907164851000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260521121914299885000000",
@@ -9857,7 +9857,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521121914299885000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260521130616777529000000",
@@ -9876,7 +9876,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521130616777529000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260429215359622201000000",
@@ -9888,14 +9888,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3400,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429215359622201000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260114012622102885000000",
@@ -9914,7 +9914,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114012622102885000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260116155356852948000000",
@@ -9926,14 +9926,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3100,
     "beds": 3,
     "baths": 4,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116155356852948000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260519154823384697000000",
@@ -9945,14 +9945,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519154823384697000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260513225538822947000000",
@@ -9971,7 +9971,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513225538822947000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260518155038229820000000",
@@ -9990,7 +9990,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518155038229820000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260206141447298641000000",
@@ -10002,14 +10002,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260206141447298641000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260511152220196773000000",
@@ -10021,14 +10021,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2400,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511152220196773000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20250804001713282151000000",
@@ -10047,7 +10047,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250804001713282151000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260505204209159212000000",
@@ -10066,7 +10066,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505204209159212000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260311162710833093000000",
@@ -10085,7 +10085,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260311162710833093000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260512183951181139000000",
@@ -10097,14 +10097,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2100,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512183951181139000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260508201235075295000000",
@@ -10123,7 +10123,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508201235075295000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260510014239720916000000",
@@ -10133,16 +10133,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48104",
     "listPrice": 685000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510014239720916000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260306194530413185000000",
@@ -10161,7 +10161,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260306194530413185000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260204025714890984000000",
@@ -10180,7 +10180,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260204025714890984000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260422173049605360000000",
@@ -10192,14 +10192,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2350,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422173049605360000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260325172726460222000000",
@@ -10218,7 +10218,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325172726460222000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260314202804404455000000",
@@ -10237,7 +10237,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260314202804404455000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260422181412733375000000",
@@ -10249,14 +10249,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3800,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422181412733375000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260107004552851880000000",
@@ -10275,7 +10275,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260107004552851880000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260519154213310190000000",
@@ -10294,7 +10294,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519154213310190000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260506103209046659000000",
@@ -10313,7 +10313,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506103209046659000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260418171737902962000000",
@@ -10325,14 +10325,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260418171737902962000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260407162318976007000000",
@@ -10342,7 +10342,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48108",
     "listPrice": 300000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 2256,
     "daysOnMarket": 0,
@@ -10351,7 +10351,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407162318976007000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260501142816976182000000",
@@ -10370,7 +10370,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501142816976182000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251231150319425810000000",
@@ -10389,7 +10389,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251231150319425810000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260506111642868143000000",
@@ -10401,14 +10401,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1900,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506111642868143000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260226205141602321000000",
@@ -10420,14 +10420,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2600,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260226205141602321000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260331212654147584000000",
@@ -10446,7 +10446,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331212654147584000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260507113901433485000000",
@@ -10458,14 +10458,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1750,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507113901433485000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260509161536733270000000",
@@ -10477,14 +10477,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2700,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260509161536733270000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260426220905162997000000",
@@ -10503,7 +10503,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260426220905162997000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260330235305002059000000",
@@ -10515,14 +10515,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330235305002059000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260425215115171574000000",
@@ -10541,7 +10541,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260425215115171574000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260301145134582333000000",
@@ -10560,7 +10560,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301145134582333000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260422153750871755000000",
@@ -10579,7 +10579,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422153750871755000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260406211113700531000000",
@@ -10598,7 +10598,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406211113700531000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260416161401729761000000",
@@ -10610,14 +10610,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4800,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260416161401729761000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260326175125576441000000",
@@ -10636,7 +10636,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260326175125576441000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260417165826270851000000",
@@ -10655,7 +10655,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417165826270851000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260407002427426850000000",
@@ -10667,14 +10667,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1500,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407002427426850000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20250106192911660675000000",
@@ -10693,7 +10693,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250106192911660675000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260315205151726549000000",
@@ -10705,14 +10705,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1850,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260315205151726549000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251013155050898802000000",
@@ -10722,16 +10722,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "ann-arbor-mi",
     "zip": "48103",
     "listPrice": 499900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251013155050898802000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251013125327348239000000",
@@ -10750,7 +10750,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251013125327348239000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260107010608672017000000",
@@ -10769,7 +10769,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260107010608672017000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260203205332980721000000",
@@ -10781,14 +10781,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260203205332980721000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260328214305313281000000",
@@ -10800,14 +10800,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328214305313281000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260102180421419952000000",
@@ -10826,7 +10826,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260102180421419952000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251023161613614923000000",
@@ -10845,7 +10845,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251023161613614923000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260306191004189713000000",
@@ -10857,14 +10857,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260306191004189713000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251103165458652997000000",
@@ -10876,14 +10876,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1600,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251103165458652997000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20260107005736219758000000",
@@ -10902,7 +10902,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260107005736219758000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20251027192844516348000000",
@@ -10914,14 +10914,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1690,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251027192844516348000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20250701164310634574000000",
@@ -10933,14 +10933,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1900,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250701164310634574000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20240321162242896047000000",
@@ -10959,7 +10959,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20240321162242896047000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20240103164041236905000000",
@@ -10971,14 +10971,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2000,
     "beds": 3,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20240103164041236905000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114195201903902000000",
@@ -10997,7 +10997,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114195201903902000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114192227090719000000",
@@ -11016,7 +11016,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114192227090719000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114203655367830000000",
@@ -11035,7 +11035,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114203655367830000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114205925501130000000",
@@ -11054,7 +11054,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114205925501130000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114210302490448000000",
@@ -11073,7 +11073,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114210302490448000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114204659245867000000",
@@ -11092,7 +11092,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114204659245867000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114204654352299000000",
@@ -11111,7 +11111,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114204654352299000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20231114204203517915000000",
@@ -11130,7 +11130,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231114204203517915000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20240423145232365258000000",
@@ -11142,14 +11142,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3000,
     "beds": 3,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20240423145232365258000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   },
   {
     "id": "20240417135424838759000000",
@@ -11161,14 +11161,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2500,
     "beds": 2,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20240417135424838759000000",
-    "lastUpdated": "2026-06-05T17:46:39.151Z"
+    "lastUpdated": "2026-06-05T17:57:44.196Z"
   }
 ],
 
@@ -11190,7 +11190,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519181901784676000000",
-    "lastUpdated": "2026-06-05T17:46:30.273Z"
+    "lastUpdated": "2026-06-05T17:57:30.667Z"
   },
   {
     "id": "20260415191233438473000000",
@@ -11209,7 +11209,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415191233438473000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260518011705535296000000",
@@ -11221,14 +11221,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1500,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518011705535296000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260427145726008309000000",
@@ -11247,7 +11247,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427145726008309000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260522152137337802000000",
@@ -11266,7 +11266,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522152137337802000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260522161413128515000000",
@@ -11285,7 +11285,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522161413128515000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260522184239899570000000",
@@ -11304,7 +11304,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522184239899570000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260527160014625652000000",
@@ -11316,14 +11316,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6412,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527160014625652000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20250705154313993770000000",
@@ -11335,14 +11335,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3060,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250705154313993770000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260308233749754595000000",
@@ -11361,7 +11361,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260308233749754595000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260312181543155038000000",
@@ -11373,14 +11373,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4161,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312181543155038000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20251204165342915179000000",
@@ -11392,14 +11392,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3020,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251204165342915179000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260302194013692387000000",
@@ -11411,14 +11411,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260302194013692387000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260126135709392208000000",
@@ -11437,7 +11437,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260126135709392208000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260312205438753385000000",
@@ -11456,7 +11456,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312205438753385000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260503160612683995000000",
@@ -11468,14 +11468,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3966,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260503160612683995000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260503153420950840000000",
@@ -11487,14 +11487,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2713,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260503153420950840000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260420173720207010000000",
@@ -11513,7 +11513,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420173720207010000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260115164833661610000000",
@@ -11532,7 +11532,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260115164833661610000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260120040430392071000000",
@@ -11551,7 +11551,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120040430392071000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260120034906387030000000",
@@ -11570,7 +11570,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120034906387030000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260424223353512150000000",
@@ -11582,14 +11582,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 8000,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424223353512150000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   },
   {
     "id": "20260406151806597313000000",
@@ -11608,7 +11608,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406151806597313000000",
-    "lastUpdated": "2026-06-05T17:46:30.274Z"
+    "lastUpdated": "2026-06-05T17:57:30.668Z"
   }
 ],
 
@@ -11630,7 +11630,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529183728711769000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260520205049803122000000",
@@ -11649,7 +11649,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520205049803122000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260528225414018543000000",
@@ -11668,7 +11668,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528225414018543000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260501175839174691000000",
@@ -11680,14 +11680,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1598,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501175839174691000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260328020536322798000000",
@@ -11699,14 +11699,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1550,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328020536322798000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260427140639792148000000",
@@ -11725,7 +11725,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427140639792148000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260514135050049901000000",
@@ -11744,7 +11744,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514135050049901000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260417190011628597000000",
@@ -11763,7 +11763,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417190011628597000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   },
   {
     "id": "20260512173425242140000000",
@@ -11782,7 +11782,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512173425242140000000",
-    "lastUpdated": "2026-06-05T17:46:30.640Z"
+    "lastUpdated": "2026-06-05T17:57:31.138Z"
   }
 ],
 
@@ -11804,7 +11804,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604152114643097000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260529183728711769000000",
@@ -11823,7 +11823,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529183728711769000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260520205049803122000000",
@@ -11842,7 +11842,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520205049803122000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260528225414018543000000",
@@ -11861,7 +11861,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528225414018543000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260126125625764219000000",
@@ -11880,7 +11880,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260126125625764219000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260501175839174691000000",
@@ -11892,14 +11892,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1598,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501175839174691000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260328020536322798000000",
@@ -11911,14 +11911,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1550,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328020536322798000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260427140639792148000000",
@@ -11937,7 +11937,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427140639792148000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260514135050049901000000",
@@ -11956,7 +11956,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514135050049901000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260417190011628597000000",
@@ -11975,7 +11975,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417190011628597000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260512173425242140000000",
@@ -11994,7 +11994,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512173425242140000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   },
   {
     "id": "20260420235246893035000000",
@@ -12013,7 +12013,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420235246893035000000",
-    "lastUpdated": "2026-06-05T17:46:30.961Z"
+    "lastUpdated": "2026-06-05T17:57:31.532Z"
   }
 ],
 
@@ -12035,7 +12035,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305180435799384000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260603195201965822000000",
@@ -12045,16 +12045,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "brighton-mi",
     "zip": "48116",
     "listPrice": 350000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603195201965822000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260601175658531056000000",
@@ -12073,7 +12073,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601175658531056000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260528210528666559000000",
@@ -12092,7 +12092,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528210528666559000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260530104631780159000000",
@@ -12111,7 +12111,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530104631780159000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260528214515571536000000",
@@ -12130,7 +12130,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528214515571536000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260508203145152350000000",
@@ -12149,7 +12149,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508203145152350000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260421143435866004000000",
@@ -12168,7 +12168,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421143435866004000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260306115923453413000000",
@@ -12187,7 +12187,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260306115923453413000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260331131758578237000000",
@@ -12206,7 +12206,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331131758578237000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20231013044840158723000000",
@@ -12216,16 +12216,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "brighton-mi",
     "zip": "48116",
     "listPrice": 29900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231013044840158723000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260515153807742569000000",
@@ -12244,7 +12244,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515153807742569000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260330170807162851000000",
@@ -12263,7 +12263,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330170807162851000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260513174103165928000000",
@@ -12282,7 +12282,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513174103165928000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   },
   {
     "id": "20260506201221344415000000",
@@ -12301,7 +12301,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506201221344415000000",
-    "lastUpdated": "2026-06-05T17:46:33.438Z"
+    "lastUpdated": "2026-06-05T17:57:36.216Z"
   }
 ],
 
@@ -12323,7 +12323,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604005657518148000000",
-    "lastUpdated": "2026-06-05T17:46:31.180Z"
+    "lastUpdated": "2026-06-05T17:57:33.065Z"
   },
   {
     "id": "20260106212150491933000000",
@@ -12333,8 +12333,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "clarkston-mi",
     "zip": "48346",
     "listPrice": 20,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 12119,
     "daysOnMarket": 0,
     "status": "active",
@@ -12342,1910 +12342,317 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260106212150491933000000",
-    "lastUpdated": "2026-06-05T17:46:31.180Z"
+    "lastUpdated": "2026-06-05T17:57:33.065Z"
+  }
+],
+
+  "clinton-township-mi": [
+  {
+    "id": "20260604151005945752000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15300 Eton Pointe Drive",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 415000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1726,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604151005945752000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260220201810472152000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "22211 Grandy Street",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 165000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1415,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260220201810472152000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260501051750194854000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "38457 James Drive",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48036",
+    "listPrice": 375000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2598,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260501051750194854000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260522144712279580000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37944 Santa Anna Street",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48036",
+    "listPrice": 369999,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 1946,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522144712279580000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260507010227331367000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "20764 Vermander Avenue",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 199999,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 840,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260507010227331367000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260428171216574822000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15834 N Franklin Drive",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48038",
+    "listPrice": 1395,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260428171216574822000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260325172531113328000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "21720 15 MILE RD Road",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 255000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 1668,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Multi-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260325172531113328000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260325193855774995000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "23880 Shook Road",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 250000,
+    "beds": 3,
+    "baths": 4,
+    "sqft": 2531,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260325193855774995000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260425175018659017000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "33845 Stevenson Street",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 367850,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1500,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260425175018659017000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20251203135253304750000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "Harper Avenue",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 300000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251203135253304750000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260519153948420028000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "41520 Janet Circle 60",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48038",
+    "listPrice": 225000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1183,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260519153948420028000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260526212423699535000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "21114 Danbury Street",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 234900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1206,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526212423699535000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260514130508011057000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "35068 Ellen Street",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 139000,
+    "beds": 5,
+    "baths": 2,
+    "sqft": 1862,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260514130508011057000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20260416152955062746000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "34573 Chope Place",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 259000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1025,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260416152955062746000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
+  },
+  {
+    "id": "20251030135746577058000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "21671 Sunnyview Street",
+    "city": "Clinton Twp",
+    "slug": "clinton-township-mi",
+    "zip": "48035",
+    "listPrice": 224900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1560,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251030135746577058000000",
+    "lastUpdated": "2026-06-05T17:57:38.876Z"
   }
 ],
 
   "detroit-mi": [
   {
-    "id": "20260514182145839972000000",
+    "id": "20260525021731761095000000",
     "mlsNumber": "20140402194227539412000000",
-    "address": "371 Piper Boulevard",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48215",
-    "listPrice": 205000,
-    "beds": 3,
-    "baths": 3,
-    "sqft": 1560,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260514182145839972000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260529143939165542000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "7387 Minock Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48228",
-    "listPrice": 99900,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 829,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260529143939165542000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260515175031105992000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2201 S Fort Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48217",
-    "listPrice": 16500,
-    "beds": 0,
-    "baths": 1,
-    "sqft": 660,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260515175031105992000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602173617161310000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2801 Inman Street",
-    "city": "Ferndale",
-    "slug": "detroit-mi",
-    "zip": "48220",
-    "listPrice": 315000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 866,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602173617161310000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260605131105618230000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "9076 Dawes Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 219000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1649,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260605131105618230000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20251201235728117073000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "1665 Atkinson Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48206",
-    "listPrice": 345000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20251201235728117073000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20251030010646132592000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2114 Hyde Park Drive",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48207",
-    "listPrice": 179900,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1200,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20251030010646132592000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260601154625967971000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "11577 Somerset Avenue",
+    "address": "10903 Roxbury Street",
     "city": "Detroit",
     "slug": "detroit-mi",
     "zip": "48224",
-    "listPrice": 1450,
-    "beds": 3,
-    "baths": 1,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260601154625967971000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260401190551937255000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "11801 Elmdale Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48213",
-    "listPrice": 40000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 915,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260401190551937255000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260605120441007972000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "15241 Pearson Street",
-    "city": "Oak Park",
-    "slug": "detroit-mi",
-    "zip": "48237",
-    "listPrice": 359900,
-    "beds": 4,
-    "baths": 2,
-    "sqft": 1407,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260605120441007972000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260407133340836564000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "5510 Allendale Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260407133340836564000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260305001151234324000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14439 Kent Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48213",
-    "listPrice": 115000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260305001151234324000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260407135323307017000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "11391 Belleterre Avenue",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 275000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260407135323307017000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260417173607193666000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "15794 Ohio Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 145000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260417173607193666000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260407141156736493000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "13572 Saint Marys Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48227",
-    "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260407141156736493000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260411005645127877000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "18915 Steel Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48235",
-    "listPrice": 204990,
-    "beds": 3,
-    "baths": 3,
-    "sqft": 1347,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260411005645127877000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260515221327779767000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "10042 Grayton Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48224",
-    "listPrice": 1450,
-    "beds": 3,
-    "baths": 1,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260515221327779767000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260520153041775746000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "4486 Seyburn Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48214",
-    "listPrice": 279900,
     "beds": 3,
     "baths": 2,
-    "sqft": 1500,
+    "sqft": 1302,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Single-Family",
     "imageUrl": "",
     "isFeatured": false,
-    "sparkListingId": "20260520153041775746000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260525235907088872000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "13691 Park Grove Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48205",
-    "listPrice": 90000,
-    "beds": 4,
-    "baths": 2,
-    "sqft": 1376,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260525235907088872000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603165333416605000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19000 Chandler Park Drive",
-    "city": "Grosse Pointe",
-    "slug": "detroit-mi",
-    "zip": "48236",
-    "listPrice": 2300,
-    "beds": 2,
-    "baths": 0,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603165333416605000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260601164541865078000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "17916 Arlington Street",
-    "city": "Hamtramck",
-    "slug": "detroit-mi",
-    "zip": "48212",
-    "listPrice": 145000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 984,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260601164541865078000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260605015608477541000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "16207 Lesure Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48235",
-    "listPrice": 135900,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 950,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260605015608477541000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260314193424683953000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "8222 Roselawn Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 92900,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 1040,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260314193424683953000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260604234356187511000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2435 Cortland Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48206",
-    "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260604234356187511000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260604214536774644000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "4211 Elmhurst Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 39000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 937,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260604214536774644000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20250910212450517594000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "15828 Belden Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 49900,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 687,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20250910212450517594000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260522172054976690000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "4499 5th Street",
-    "city": "Ecorse",
-    "slug": "detroit-mi",
-    "zip": "48229",
-    "listPrice": 150000,
-    "beds": 4,
-    "baths": 2,
-    "sqft": 1155,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260522172054976690000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260526155927283027000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "20001 Whitcomb",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48235",
-    "listPrice": 225000,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 2176,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260526155927283027000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20250910222620182888000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "3345 Doris Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 72500,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 1358,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20250910222620182888000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602145530455157000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "11336 Nardin Park",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 79000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602145530455157000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260526162347528533000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "15476 Parkside Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 139500,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 879,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260526162347528533000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260316135503858717000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "17303 Runyon Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48234",
-    "listPrice": 104500,
-    "beds": 5,
-    "baths": 2,
-    "sqft": 2073,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260316135503858717000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260517190146922508000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "7839 Clayburn Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48228",
-    "listPrice": 54500,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 920,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260517190146922508000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260526150141424217000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "18514 Roselawn Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 325000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 2180,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260526150141424217000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602125413315710000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "23830 Scotia Road",
-    "city": "Oak Park",
-    "slug": "detroit-mi",
-    "zip": "48237",
-    "listPrice": 225000,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 938,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602125413315710000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603223417803385000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "20090 Lahser Road",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48219",
-    "listPrice": 74900,
-    "beds": 3,
-    "baths": 0,
-    "sqft": 932,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603223417803385000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260601185350177145000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "16608 Beaverland Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48219",
-    "listPrice": 59000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 952,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260601185350177145000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260224235116826728000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "18759 Huntington Avenue",
-    "city": "Harper Woods",
-    "slug": "detroit-mi",
-    "zip": "48225",
-    "listPrice": 219900,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1575,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260224235116826728000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260604014210612094000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "287 E Palmer Street 10",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48202",
-    "listPrice": 169000,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 1228,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260604014210612094000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260604001319598959000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "4901 Cortland Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 129990,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 1535,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260604001319598959000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20251210131310496672000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "1450 Townsend Street Unit 7",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48214",
-    "listPrice": 199900,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 573,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20251210131310496672000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602135055451534000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14914 Pinehurst Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 65000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 1485,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602135055451534000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602010343331609000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "6816 Evergreen Road",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48228",
-    "listPrice": 144999,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 768,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602010343331609000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260105012929559820000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "12609 Santa Rosa Drive",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 120000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260105012929559820000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602002705077203000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14920 Longview Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48213",
-    "listPrice": 125000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 1085,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602002705077203000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260526191408681670000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "298 Josephine Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48202",
-    "listPrice": 340000,
-    "beds": 4,
-    "baths": 2,
-    "sqft": 2233,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260526191408681670000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260329221616862660000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "3291 Minerva Street",
-    "city": "Ferndale",
-    "slug": "detroit-mi",
-    "zip": "48220",
-    "listPrice": 299000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 986,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260329221616862660000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603145811278590000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "24711 Church Street",
-    "city": "Oak Park",
-    "slug": "detroit-mi",
-    "zip": "48237",
-    "listPrice": 199000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1434,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603145811278590000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603221352696839000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "11704 Greenview Avenue",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48228",
-    "listPrice": 84900,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 1046,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603221352696839000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260522224507721805000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "9074 Patton Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48228",
-    "listPrice": 149900,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1156,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260522224507721805000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603184118109612000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2493 Fischer Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48214",
-    "listPrice": 310000,
-    "beds": 4,
-    "baths": 2,
-    "sqft": 1675,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603184118109612000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603174231481632000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "15364 S Freeland Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48227",
-    "listPrice": 99000,
-    "beds": 1,
-    "baths": 2,
-    "sqft": 1250,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603174231481632000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260301043042048764000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "20201 Ilene Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 70000,
-    "beds": 3,
-    "baths": 0,
-    "sqft": 884,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260301043042048764000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260403120011165606000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "22140 Dante #209",
-    "city": "Oak Park",
-    "slug": "detroit-mi",
-    "zip": "48237",
-    "listPrice": 900,
-    "beds": 2,
-    "baths": 2,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260403120011165606000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260427191911626189000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "22140 Dante Street 209",
-    "city": "Oak Park",
-    "slug": "detroit-mi",
-    "zip": "48237",
-    "listPrice": 79900,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 916,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260427191911626189000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260501155910957125000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "13067 Wade Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48213",
-    "listPrice": 950,
-    "beds": 2,
-    "baths": 1,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260501155910957125000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603150501964104000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19348 Washtenaw Street",
-    "city": "Harper Woods",
-    "slug": "detroit-mi",
-    "zip": "48225",
-    "listPrice": 99789,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 800,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603150501964104000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260531155505952493000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14140 Seymour Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48205",
-    "listPrice": 74900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260531155505952493000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260105211847317351000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "1300 E Lafayette Street 209",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48207",
-    "listPrice": 64000,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 739,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260105211847317351000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260516130005036407000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "57 Richton Street",
-    "city": "Highland Park",
-    "slug": "detroit-mi",
-    "zip": "48203",
-    "listPrice": 199499,
-    "beds": 4,
-    "baths": 1,
-    "sqft": 1474,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260516130005036407000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260401141222978436000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "600 Woodward Avenue 2B",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48226",
-    "listPrice": 6360,
-    "beds": 2,
-    "baths": 2.5,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260401141222978436000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260511164630050674000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "600 Woodward Avenue 8B",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48226",
-    "listPrice": 6074,
-    "beds": 2,
-    "baths": 2.5,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260511164630050674000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260317173203743073000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "525 W Lafayette Boulevard 21E",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48226",
-    "listPrice": 4250,
-    "beds": 2,
-    "baths": 2,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260317173203743073000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260413124647749685000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "********",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48227",
-    "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260413124647749685000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260316125440635190000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "********",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260316125440635190000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260316134429497132000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14845 Indiana Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260316134429497132000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260316134730279100000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "12798 Wilshire Drive",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48213",
-    "listPrice": 87499,
-    "beds": 4,
-    "baths": 2,
-    "sqft": 2335,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260316134730279100000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260526171241907508000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "9768 Manistique Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48224",
-    "listPrice": 35000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 986,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260526171241907508000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260531144651572362000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "20112 Manor",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 105000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 821,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260531144651572362000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603034312741671000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19450 Woodingham Drive",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 105000,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 791,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603034312741671000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602152128166668000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "20821 N Pierson Court",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48228",
-    "listPrice": 114900,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 782,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602152128166668000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603013635121312000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "6109 Farmbrook Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48224",
-    "listPrice": 1350,
-    "beds": 3,
-    "baths": 1,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603013635121312000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260602143825170189000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19601 Hamburg Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48205",
-    "listPrice": 135000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 962,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260602143825170189000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260520170802618531000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "1991 Lawrence Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48206",
-    "listPrice": 140000,
-    "beds": 6,
-    "baths": 2,
-    "sqft": 1914,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260520170802618531000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260514140142242692000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "5791 Somerset Avenue",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48224",
-    "listPrice": 1400,
-    "beds": 3,
-    "baths": 2,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260514140142242692000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260526012236150933000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19925 19927 Greenfield Road",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48235",
-    "listPrice": 210000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260526012236150933000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260524203952915343000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19925 Greenfield Road",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48235",
-    "listPrice": 1300,
-    "beds": 2,
-    "baths": 1,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260524203952915343000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260526135909695407000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "66 Winder Street 339",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48201",
-    "listPrice": 289900,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 639,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260526135909695407000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20251112010325341615000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "8900 E Jefferson Avenue 1012 - 1013",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48214",
-    "listPrice": 250000,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 1575,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20251112010325341615000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260529185652829816000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "12708 12710 Northlawn Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48238",
-    "listPrice": 79900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260529185652829816000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260524191305866205000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "5545 Pacific Avenue",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 85000,
-    "beds": 3,
-    "baths": 1,
-    "sqft": 1354,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260524191305866205000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260328222444415868000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "13892 Fordham Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48205",
-    "listPrice": 110000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260328222444415868000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260518163322181268000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "28 E Henry Street",
-    "city": "River Rouge",
-    "slug": "detroit-mi",
-    "zip": "48218",
-    "listPrice": 130000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1026,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260518163322181268000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260217010759647128000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "16505 Stansbury Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48235",
-    "listPrice": 1250,
-    "beds": 3,
-    "baths": 1,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260217010759647128000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260316225750899874000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "12944 Rosemont",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48223",
-    "listPrice": 1050,
-    "beds": 2,
-    "baths": 1,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260316225750899874000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260520193853365483000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "1991 Orleans Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48207",
-    "listPrice": 2300,
-    "beds": 4,
-    "baths": 2,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260520193853365483000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260529132121025233000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "2744 Lawrence Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48206",
-    "listPrice": 239900,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1406,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260529132121025233000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260522191618972239000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19610 Hoyt Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48205",
-    "listPrice": 6500,
-    "beds": 6,
-    "baths": 2,
-    "sqft": 1251,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260522191618972239000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260320191823406604000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "10827 Bonita Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48224",
-    "listPrice": 69900,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 913,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260320191823406604000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260505012403749386000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "16610 Collingham Drive",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48205",
-    "listPrice": 144900,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1131,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260505012403749386000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260421133844243814000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "6217 Avery Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48208",
-    "listPrice": 259000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1357,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260421133844243814000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260529122348300820000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19249 Marx Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48203",
-    "listPrice": 49900,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 824,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260529122348300820000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260601182204568184000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14427 Bringard Drive",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48205",
-    "listPrice": 145000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 957,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260601182204568184000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20251124010500570922000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "1038 Parker Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48214",
-    "listPrice": 475000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20251124010500570922000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260601184024371030000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "1976 Clairmount Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48206",
-    "listPrice": 160000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260601184024371030000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260528211531138060000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14000 Wales Street",
-    "city": "Oak Park",
-    "slug": "detroit-mi",
-    "zip": "48237",
-    "listPrice": 270000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1342,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260528211531138060000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260601193158628024000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "18050 Wisconsin Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 285000,
-    "beds": 3,
-    "baths": 3,
-    "sqft": 2153,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260601193158628024000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260301210222011080000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "360 Burke Street",
-    "city": "River Rouge",
-    "slug": "detroit-mi",
-    "zip": "48218",
-    "listPrice": 79900,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 1050,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260301210222011080000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260531191516476469000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "14813 Grandville Avenue",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48223",
-    "listPrice": 155000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1285,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260531191516476469000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260529215958390975000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "17216 Birwood Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 249000,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 1851,
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Single-Family",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260529215958390975000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "sparkListingId": "20260525021731761095000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514182145839972000000",
@@ -14264,7 +12671,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514182145839972000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529143939165542000000",
@@ -14283,7 +12690,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529143939165542000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515175031105992000000",
@@ -14302,7 +12709,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515175031105992000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602173617161310000000",
@@ -14321,7 +12728,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602173617161310000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605131105618230000000",
@@ -14340,7 +12747,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605131105618230000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251201235728117073000000",
@@ -14350,16 +12757,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 345000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251201235728117073000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251030010646132592000000",
@@ -14378,7 +12785,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251030010646132592000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601154625967971000000",
@@ -14390,14 +12797,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154625967971000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401190551937255000000",
@@ -14416,7 +12823,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401190551937255000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605120441007972000000",
@@ -14435,26 +12842,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605120441007972000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260407133340836564000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "5510 Allendale Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260407133340836564000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260305001151234324000000",
@@ -14464,16 +12852,35 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48213",
     "listPrice": 115000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305001151234324000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260407133340836564000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5510 Allendale Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 140000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407133340836564000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407135323307017000000",
@@ -14483,16 +12890,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 275000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407135323307017000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260417173607193666000000",
@@ -14502,16 +12909,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 145000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417173607193666000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407141156736493000000",
@@ -14521,16 +12928,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407141156736493000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260411005645127877000000",
@@ -14549,7 +12956,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411005645127877000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515221327779767000000",
@@ -14561,14 +12968,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515221327779767000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520153041775746000000",
@@ -14587,7 +12994,26 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520153041775746000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260603165333416605000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19000 Chandler Park Drive",
+    "city": "Grosse Pointe",
+    "slug": "detroit-mi",
+    "zip": "48236",
+    "listPrice": 2300,
+    "beds": 2,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603165333416605000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260525235907088872000000",
@@ -14606,26 +13032,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260525235907088872000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260603165333416605000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19000 Chandler Park Drive",
-    "city": "Grosse Pointe",
-    "slug": "detroit-mi",
-    "zip": "48236",
-    "listPrice": 2300,
-    "beds": 2,
-    "baths": 0,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603165333416605000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601164541865078000000",
@@ -14644,7 +13051,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601164541865078000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605015608477541000000",
@@ -14663,7 +13070,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605015608477541000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260314193424683953000000",
@@ -14682,7 +13089,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260314193424683953000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604234356187511000000",
@@ -14692,16 +13099,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604234356187511000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604214536774644000000",
@@ -14720,7 +13127,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604214536774644000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910212450517594000000",
@@ -14739,7 +13146,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910212450517594000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522172054976690000000",
@@ -14758,7 +13165,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522172054976690000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526155927283027000000",
@@ -14777,7 +13184,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526155927283027000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910222620182888000000",
@@ -14796,7 +13203,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910222620182888000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602145530455157000000",
@@ -14806,16 +13213,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 79000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602145530455157000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526162347528533000000",
@@ -14834,7 +13241,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526162347528533000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316135503858717000000",
@@ -14853,7 +13260,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316135503858717000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260517190146922508000000",
@@ -14872,7 +13279,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260517190146922508000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526150141424217000000",
@@ -14891,7 +13298,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526150141424217000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602125413315710000000",
@@ -14910,7 +13317,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602125413315710000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603223417803385000000",
@@ -14929,7 +13336,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603223417803385000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601185350177145000000",
@@ -14948,7 +13355,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601185350177145000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260224235116826728000000",
@@ -14967,7 +13374,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260224235116826728000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604014210612094000000",
@@ -14986,7 +13393,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604014210612094000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604001319598959000000",
@@ -15005,7 +13412,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604001319598959000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251210131310496672000000",
@@ -15024,7 +13431,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251210131310496672000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602135055451534000000",
@@ -15043,7 +13450,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602135055451534000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602010343331609000000",
@@ -15062,7 +13469,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602010343331609000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105012929559820000000",
@@ -15072,16 +13479,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 120000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105012929559820000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602002705077203000000",
@@ -15100,7 +13507,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602002705077203000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526191408681670000000",
@@ -15119,7 +13526,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526191408681670000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260329221616862660000000",
@@ -15138,7 +13545,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260329221616862660000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603145811278590000000",
@@ -15157,7 +13564,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603145811278590000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603221352696839000000",
@@ -15176,7 +13583,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603221352696839000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522224507721805000000",
@@ -15195,7 +13602,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522224507721805000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603184118109612000000",
@@ -15214,7 +13621,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603184118109612000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603174231481632000000",
@@ -15233,7 +13640,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603174231481632000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301043042048764000000",
@@ -15252,7 +13659,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301043042048764000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260403120011165606000000",
@@ -15264,14 +13671,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 900,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403120011165606000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260427191911626189000000",
@@ -15290,7 +13697,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427191911626189000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260501155910957125000000",
@@ -15302,14 +13709,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155910957125000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603150501964104000000",
@@ -15328,7 +13735,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603150501964104000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531155505952493000000",
@@ -15338,16 +13745,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 74900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531155505952493000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105211847317351000000",
@@ -15366,7 +13773,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105211847317351000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260516130005036407000000",
@@ -15385,7 +13792,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260516130005036407000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401141222978436000000",
@@ -15397,14 +13804,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6360,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401141222978436000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260511164630050674000000",
@@ -15416,14 +13823,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6074,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511164630050674000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260317173203743073000000",
@@ -15435,14 +13842,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4250,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260317173203743073000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260413124647749685000000",
@@ -15452,16 +13859,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260413124647749685000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316125440635190000000",
@@ -15471,16 +13878,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316125440635190000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134429497132000000",
@@ -15490,16 +13897,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134429497132000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134730279100000000",
@@ -15518,7 +13925,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134730279100000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526171241907508000000",
@@ -15537,7 +13944,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526171241907508000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531144651572362000000",
@@ -15556,7 +13963,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531144651572362000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603034312741671000000",
@@ -15575,7 +13982,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603034312741671000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602152128166668000000",
@@ -15594,7 +14001,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602152128166668000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603013635121312000000",
@@ -15606,14 +14013,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603013635121312000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602143825170189000000",
@@ -15632,7 +14039,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602143825170189000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520170802618531000000",
@@ -15651,7 +14058,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520170802618531000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514140142242692000000",
@@ -15663,14 +14070,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514140142242692000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526012236150933000000",
@@ -15680,16 +14087,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48235",
     "listPrice": 210000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526012236150933000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524203952915343000000",
@@ -15701,14 +14108,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524203952915343000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526135909695407000000",
@@ -15727,7 +14134,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526135909695407000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251112010325341615000000",
@@ -15746,7 +14153,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112010325341615000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529185652829816000000",
@@ -15756,16 +14163,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 79900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529185652829816000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524191305866205000000",
@@ -15784,7 +14191,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524191305866205000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260328222444415868000000",
@@ -15794,16 +14201,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 110000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328222444415868000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260518163322181268000000",
@@ -15822,7 +14229,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518163322181268000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260217010759647128000000",
@@ -15834,14 +14241,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260217010759647128000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316225750899874000000",
@@ -15853,14 +14260,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1050,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316225750899874000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520193853365483000000",
@@ -15872,14 +14279,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2300,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520193853365483000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529132121025233000000",
@@ -15898,7 +14305,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529132121025233000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522191618972239000000",
@@ -15917,7 +14324,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522191618972239000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260320191823406604000000",
@@ -15936,7 +14343,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320191823406604000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260505012403749386000000",
@@ -15955,7 +14362,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505012403749386000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260421133844243814000000",
@@ -15974,7 +14381,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421133844243814000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529122348300820000000",
@@ -15993,7 +14400,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529122348300820000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601182204568184000000",
@@ -16012,7 +14419,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601182204568184000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251124010500570922000000",
@@ -16022,16 +14429,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48214",
     "listPrice": 475000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251124010500570922000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601184024371030000000",
@@ -16041,16 +14448,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 160000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601184024371030000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260528211531138060000000",
@@ -16069,7 +14476,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528211531138060000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601193158628024000000",
@@ -16088,7 +14495,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601193158628024000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301210222011080000000",
@@ -16107,7 +14514,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301210222011080000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531191516476469000000",
@@ -16126,26 +14533,26 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531191516476469000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
-    "id": "20260529215958390975000000",
+    "id": "20260525021731761095000000",
     "mlsNumber": "20140402194227539412000000",
-    "address": "17216 Birwood Street",
+    "address": "10903 Roxbury Street",
     "city": "Detroit",
     "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 249000,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 1851,
+    "zip": "48224",
+    "listPrice": 140000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1302,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Single-Family",
     "imageUrl": "",
     "isFeatured": false,
-    "sparkListingId": "20260529215958390975000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "sparkListingId": "20260525021731761095000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514182145839972000000",
@@ -16164,7 +14571,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514182145839972000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529143939165542000000",
@@ -16183,7 +14590,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529143939165542000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515175031105992000000",
@@ -16202,7 +14609,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515175031105992000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602173617161310000000",
@@ -16221,7 +14628,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602173617161310000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605131105618230000000",
@@ -16240,7 +14647,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605131105618230000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251201235728117073000000",
@@ -16250,16 +14657,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 345000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251201235728117073000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251030010646132592000000",
@@ -16278,7 +14685,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251030010646132592000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601154625967971000000",
@@ -16290,14 +14697,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154625967971000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401190551937255000000",
@@ -16316,7 +14723,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401190551937255000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605120441007972000000",
@@ -16335,26 +14742,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605120441007972000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
-  },
-  {
-    "id": "20260407133340836564000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "5510 Allendale Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260407133340836564000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260305001151234324000000",
@@ -16364,16 +14752,35 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48213",
     "listPrice": 115000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305001151234324000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260407133340836564000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5510 Allendale Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 140000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407133340836564000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407135323307017000000",
@@ -16383,16 +14790,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 275000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407135323307017000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260417173607193666000000",
@@ -16402,16 +14809,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 145000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417173607193666000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407141156736493000000",
@@ -16421,16 +14828,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407141156736493000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260411005645127877000000",
@@ -16449,7 +14856,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411005645127877000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515221327779767000000",
@@ -16461,14 +14868,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515221327779767000000",
-    "lastUpdated": "2026-06-05T17:46:48.394Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520153041775746000000",
@@ -16487,7 +14894,26 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520153041775746000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260603165333416605000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19000 Chandler Park Drive",
+    "city": "Grosse Pointe",
+    "slug": "detroit-mi",
+    "zip": "48236",
+    "listPrice": 2300,
+    "beds": 2,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603165333416605000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260525235907088872000000",
@@ -16506,26 +14932,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260525235907088872000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
-  },
-  {
-    "id": "20260603165333416605000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19000 Chandler Park Drive",
-    "city": "Grosse Pointe",
-    "slug": "detroit-mi",
-    "zip": "48236",
-    "listPrice": 2300,
-    "beds": 2,
-    "baths": 0,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603165333416605000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601164541865078000000",
@@ -16544,7 +14951,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601164541865078000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605015608477541000000",
@@ -16563,7 +14970,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605015608477541000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260314193424683953000000",
@@ -16582,7 +14989,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260314193424683953000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604234356187511000000",
@@ -16592,16 +14999,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604234356187511000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604214536774644000000",
@@ -16620,7 +15027,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604214536774644000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910212450517594000000",
@@ -16639,7 +15046,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910212450517594000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522172054976690000000",
@@ -16658,7 +15065,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522172054976690000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526155927283027000000",
@@ -16677,7 +15084,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526155927283027000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910222620182888000000",
@@ -16696,7 +15103,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910222620182888000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602145530455157000000",
@@ -16706,16 +15113,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 79000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602145530455157000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526162347528533000000",
@@ -16734,7 +15141,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526162347528533000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316135503858717000000",
@@ -16753,7 +15160,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316135503858717000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260517190146922508000000",
@@ -16772,7 +15179,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260517190146922508000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526150141424217000000",
@@ -16791,7 +15198,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526150141424217000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602125413315710000000",
@@ -16810,7 +15217,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602125413315710000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603223417803385000000",
@@ -16829,7 +15236,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603223417803385000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601185350177145000000",
@@ -16848,7 +15255,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601185350177145000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260224235116826728000000",
@@ -16867,7 +15274,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260224235116826728000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604014210612094000000",
@@ -16886,7 +15293,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604014210612094000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604001319598959000000",
@@ -16905,7 +15312,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604001319598959000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251210131310496672000000",
@@ -16924,7 +15331,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251210131310496672000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602135055451534000000",
@@ -16943,7 +15350,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602135055451534000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602010343331609000000",
@@ -16962,7 +15369,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602010343331609000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105012929559820000000",
@@ -16972,16 +15379,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 120000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105012929559820000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602002705077203000000",
@@ -17000,7 +15407,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602002705077203000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526191408681670000000",
@@ -17019,7 +15426,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526191408681670000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260329221616862660000000",
@@ -17038,7 +15445,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260329221616862660000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603145811278590000000",
@@ -17057,7 +15464,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603145811278590000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603221352696839000000",
@@ -17076,7 +15483,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603221352696839000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522224507721805000000",
@@ -17095,7 +15502,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522224507721805000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603184118109612000000",
@@ -17114,7 +15521,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603184118109612000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603174231481632000000",
@@ -17133,7 +15540,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603174231481632000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301043042048764000000",
@@ -17152,7 +15559,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301043042048764000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260403120011165606000000",
@@ -17164,14 +15571,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 900,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403120011165606000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260427191911626189000000",
@@ -17190,7 +15597,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427191911626189000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260501155910957125000000",
@@ -17202,14 +15609,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155910957125000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603150501964104000000",
@@ -17228,7 +15635,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603150501964104000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531155505952493000000",
@@ -17238,16 +15645,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 74900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531155505952493000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105211847317351000000",
@@ -17266,7 +15673,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105211847317351000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260516130005036407000000",
@@ -17285,7 +15692,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260516130005036407000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401141222978436000000",
@@ -17297,14 +15704,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6360,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401141222978436000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260511164630050674000000",
@@ -17316,14 +15723,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6074,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511164630050674000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260317173203743073000000",
@@ -17335,14 +15742,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4250,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260317173203743073000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260413124647749685000000",
@@ -17352,16 +15759,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260413124647749685000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316125440635190000000",
@@ -17371,16 +15778,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316125440635190000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134429497132000000",
@@ -17390,16 +15797,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134429497132000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134730279100000000",
@@ -17418,7 +15825,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134730279100000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526171241907508000000",
@@ -17437,7 +15844,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526171241907508000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531144651572362000000",
@@ -17456,7 +15863,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531144651572362000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603034312741671000000",
@@ -17475,7 +15882,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603034312741671000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602152128166668000000",
@@ -17494,7 +15901,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602152128166668000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603013635121312000000",
@@ -17506,14 +15913,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603013635121312000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602143825170189000000",
@@ -17532,7 +15939,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602143825170189000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520170802618531000000",
@@ -17551,7 +15958,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520170802618531000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514140142242692000000",
@@ -17563,14 +15970,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514140142242692000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526012236150933000000",
@@ -17580,16 +15987,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48235",
     "listPrice": 210000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526012236150933000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524203952915343000000",
@@ -17601,14 +16008,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524203952915343000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526135909695407000000",
@@ -17627,7 +16034,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526135909695407000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251112010325341615000000",
@@ -17646,7 +16053,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112010325341615000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529185652829816000000",
@@ -17656,16 +16063,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 79900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529185652829816000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524191305866205000000",
@@ -17684,7 +16091,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524191305866205000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260328222444415868000000",
@@ -17694,16 +16101,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 110000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328222444415868000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260518163322181268000000",
@@ -17722,7 +16129,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518163322181268000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260217010759647128000000",
@@ -17734,14 +16141,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260217010759647128000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316225750899874000000",
@@ -17753,14 +16160,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1050,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316225750899874000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520193853365483000000",
@@ -17772,14 +16179,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2300,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520193853365483000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529132121025233000000",
@@ -17798,7 +16205,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529132121025233000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522191618972239000000",
@@ -17817,7 +16224,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522191618972239000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260320191823406604000000",
@@ -17836,7 +16243,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320191823406604000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260505012403749386000000",
@@ -17855,7 +16262,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505012403749386000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260421133844243814000000",
@@ -17874,7 +16281,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421133844243814000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529122348300820000000",
@@ -17893,7 +16300,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529122348300820000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601182204568184000000",
@@ -17912,7 +16319,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601182204568184000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251124010500570922000000",
@@ -17922,16 +16329,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48214",
     "listPrice": 475000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251124010500570922000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601184024371030000000",
@@ -17941,16 +16348,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 160000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601184024371030000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260528211531138060000000",
@@ -17969,7 +16376,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528211531138060000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601193158628024000000",
@@ -17988,7 +16395,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601193158628024000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301210222011080000000",
@@ -18007,7 +16414,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301210222011080000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531191516476469000000",
@@ -18026,26 +16433,26 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531191516476469000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
-    "id": "20260529215958390975000000",
+    "id": "20260525021731761095000000",
     "mlsNumber": "20140402194227539412000000",
-    "address": "17216 Birwood Street",
+    "address": "10903 Roxbury Street",
     "city": "Detroit",
     "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 249000,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 1851,
+    "zip": "48224",
+    "listPrice": 140000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1302,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Single-Family",
     "imageUrl": "",
     "isFeatured": false,
-    "sparkListingId": "20260529215958390975000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "sparkListingId": "20260525021731761095000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514182145839972000000",
@@ -18064,7 +16471,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514182145839972000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529143939165542000000",
@@ -18083,7 +16490,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529143939165542000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515175031105992000000",
@@ -18102,7 +16509,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515175031105992000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602173617161310000000",
@@ -18121,7 +16528,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602173617161310000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605131105618230000000",
@@ -18140,7 +16547,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605131105618230000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251201235728117073000000",
@@ -18150,16 +16557,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 345000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251201235728117073000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251030010646132592000000",
@@ -18178,7 +16585,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251030010646132592000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601154625967971000000",
@@ -18190,14 +16597,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154625967971000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401190551937255000000",
@@ -18216,7 +16623,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401190551937255000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605120441007972000000",
@@ -18235,26 +16642,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605120441007972000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
-  },
-  {
-    "id": "20260407133340836564000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "5510 Allendale Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260407133340836564000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260305001151234324000000",
@@ -18264,16 +16652,35 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48213",
     "listPrice": 115000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305001151234324000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260407133340836564000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5510 Allendale Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 140000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407133340836564000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407135323307017000000",
@@ -18283,16 +16690,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 275000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407135323307017000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260417173607193666000000",
@@ -18302,16 +16709,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 145000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417173607193666000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407141156736493000000",
@@ -18321,16 +16728,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407141156736493000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260411005645127877000000",
@@ -18349,7 +16756,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411005645127877000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515221327779767000000",
@@ -18361,14 +16768,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515221327779767000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520153041775746000000",
@@ -18387,7 +16794,26 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520153041775746000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260603165333416605000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19000 Chandler Park Drive",
+    "city": "Grosse Pointe",
+    "slug": "detroit-mi",
+    "zip": "48236",
+    "listPrice": 2300,
+    "beds": 2,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603165333416605000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260525235907088872000000",
@@ -18406,26 +16832,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260525235907088872000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
-  },
-  {
-    "id": "20260603165333416605000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19000 Chandler Park Drive",
-    "city": "Grosse Pointe",
-    "slug": "detroit-mi",
-    "zip": "48236",
-    "listPrice": 2300,
-    "beds": 2,
-    "baths": 0,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603165333416605000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601164541865078000000",
@@ -18444,7 +16851,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601164541865078000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605015608477541000000",
@@ -18463,7 +16870,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605015608477541000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260314193424683953000000",
@@ -18482,7 +16889,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260314193424683953000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604234356187511000000",
@@ -18492,16 +16899,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604234356187511000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604214536774644000000",
@@ -18520,7 +16927,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604214536774644000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910212450517594000000",
@@ -18539,7 +16946,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910212450517594000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522172054976690000000",
@@ -18558,7 +16965,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522172054976690000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526155927283027000000",
@@ -18577,7 +16984,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526155927283027000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910222620182888000000",
@@ -18596,7 +17003,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910222620182888000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602145530455157000000",
@@ -18606,16 +17013,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 79000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602145530455157000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526162347528533000000",
@@ -18634,7 +17041,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526162347528533000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316135503858717000000",
@@ -18653,7 +17060,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316135503858717000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260517190146922508000000",
@@ -18672,7 +17079,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260517190146922508000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526150141424217000000",
@@ -18691,7 +17098,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526150141424217000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602125413315710000000",
@@ -18710,7 +17117,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602125413315710000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603223417803385000000",
@@ -18729,7 +17136,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603223417803385000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601185350177145000000",
@@ -18748,7 +17155,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601185350177145000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260224235116826728000000",
@@ -18767,7 +17174,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260224235116826728000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604014210612094000000",
@@ -18786,7 +17193,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604014210612094000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604001319598959000000",
@@ -18805,7 +17212,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604001319598959000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251210131310496672000000",
@@ -18824,7 +17231,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251210131310496672000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602135055451534000000",
@@ -18843,7 +17250,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602135055451534000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602010343331609000000",
@@ -18862,7 +17269,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602010343331609000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105012929559820000000",
@@ -18872,16 +17279,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 120000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105012929559820000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602002705077203000000",
@@ -18900,7 +17307,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602002705077203000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526191408681670000000",
@@ -18919,7 +17326,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526191408681670000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260329221616862660000000",
@@ -18938,7 +17345,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260329221616862660000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603145811278590000000",
@@ -18957,7 +17364,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603145811278590000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603221352696839000000",
@@ -18976,7 +17383,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603221352696839000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522224507721805000000",
@@ -18995,7 +17402,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522224507721805000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603184118109612000000",
@@ -19014,7 +17421,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603184118109612000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603174231481632000000",
@@ -19033,7 +17440,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603174231481632000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301043042048764000000",
@@ -19052,7 +17459,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301043042048764000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260403120011165606000000",
@@ -19064,14 +17471,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 900,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403120011165606000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260427191911626189000000",
@@ -19090,7 +17497,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427191911626189000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260501155910957125000000",
@@ -19102,14 +17509,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155910957125000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603150501964104000000",
@@ -19128,7 +17535,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603150501964104000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531155505952493000000",
@@ -19138,16 +17545,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 74900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531155505952493000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105211847317351000000",
@@ -19166,7 +17573,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105211847317351000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260516130005036407000000",
@@ -19185,7 +17592,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260516130005036407000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401141222978436000000",
@@ -19197,14 +17604,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6360,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401141222978436000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260511164630050674000000",
@@ -19216,14 +17623,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6074,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511164630050674000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260317173203743073000000",
@@ -19235,14 +17642,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4250,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260317173203743073000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260413124647749685000000",
@@ -19252,16 +17659,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260413124647749685000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316125440635190000000",
@@ -19271,16 +17678,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316125440635190000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134429497132000000",
@@ -19290,16 +17697,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134429497132000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134730279100000000",
@@ -19318,7 +17725,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134730279100000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526171241907508000000",
@@ -19337,7 +17744,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526171241907508000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531144651572362000000",
@@ -19356,7 +17763,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531144651572362000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603034312741671000000",
@@ -19375,7 +17782,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603034312741671000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602152128166668000000",
@@ -19394,7 +17801,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602152128166668000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603013635121312000000",
@@ -19406,14 +17813,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603013635121312000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602143825170189000000",
@@ -19432,7 +17839,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602143825170189000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520170802618531000000",
@@ -19451,7 +17858,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520170802618531000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514140142242692000000",
@@ -19463,14 +17870,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514140142242692000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526012236150933000000",
@@ -19480,16 +17887,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48235",
     "listPrice": 210000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526012236150933000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524203952915343000000",
@@ -19501,14 +17908,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524203952915343000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526135909695407000000",
@@ -19527,7 +17934,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526135909695407000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251112010325341615000000",
@@ -19546,7 +17953,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112010325341615000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529185652829816000000",
@@ -19556,16 +17963,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 79900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529185652829816000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524191305866205000000",
@@ -19584,7 +17991,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524191305866205000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260328222444415868000000",
@@ -19594,16 +18001,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 110000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328222444415868000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260518163322181268000000",
@@ -19622,7 +18029,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518163322181268000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260217010759647128000000",
@@ -19634,14 +18041,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260217010759647128000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316225750899874000000",
@@ -19653,14 +18060,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1050,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316225750899874000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520193853365483000000",
@@ -19672,14 +18079,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2300,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520193853365483000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529132121025233000000",
@@ -19698,7 +18105,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529132121025233000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522191618972239000000",
@@ -19717,7 +18124,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522191618972239000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260320191823406604000000",
@@ -19736,7 +18143,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320191823406604000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260505012403749386000000",
@@ -19755,7 +18162,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505012403749386000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260421133844243814000000",
@@ -19774,7 +18181,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421133844243814000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529122348300820000000",
@@ -19793,7 +18200,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529122348300820000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601182204568184000000",
@@ -19812,7 +18219,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601182204568184000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251124010500570922000000",
@@ -19822,16 +18229,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48214",
     "listPrice": 475000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251124010500570922000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601184024371030000000",
@@ -19841,16 +18248,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 160000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601184024371030000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260528211531138060000000",
@@ -19869,7 +18276,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528211531138060000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601193158628024000000",
@@ -19888,7 +18295,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601193158628024000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301210222011080000000",
@@ -19907,7 +18314,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301210222011080000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531191516476469000000",
@@ -19926,26 +18333,26 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531191516476469000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
-    "id": "20260529215958390975000000",
+    "id": "20260525021731761095000000",
     "mlsNumber": "20140402194227539412000000",
-    "address": "17216 Birwood Street",
+    "address": "10903 Roxbury Street",
     "city": "Detroit",
     "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 249000,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 1851,
+    "zip": "48224",
+    "listPrice": 140000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1302,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Single-Family",
     "imageUrl": "",
     "isFeatured": false,
-    "sparkListingId": "20260529215958390975000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "sparkListingId": "20260525021731761095000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514182145839972000000",
@@ -19964,7 +18371,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514182145839972000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529143939165542000000",
@@ -19983,7 +18390,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529143939165542000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515175031105992000000",
@@ -20002,7 +18409,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515175031105992000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602173617161310000000",
@@ -20021,7 +18428,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602173617161310000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605131105618230000000",
@@ -20040,7 +18447,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605131105618230000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251201235728117073000000",
@@ -20050,16 +18457,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 345000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251201235728117073000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251030010646132592000000",
@@ -20078,7 +18485,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251030010646132592000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601154625967971000000",
@@ -20090,14 +18497,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601154625967971000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401190551937255000000",
@@ -20116,7 +18523,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401190551937255000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605120441007972000000",
@@ -20135,26 +18542,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605120441007972000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
-  },
-  {
-    "id": "20260407133340836564000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "5510 Allendale Street",
-    "city": "Detroit",
-    "slug": "detroit-mi",
-    "zip": "48204",
-    "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Commercial",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260407133340836564000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260305001151234324000000",
@@ -20164,16 +18552,35 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48213",
     "listPrice": 115000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305001151234324000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260407133340836564000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5510 Allendale Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 140000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407133340836564000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407135323307017000000",
@@ -20183,16 +18590,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 275000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407135323307017000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260417173607193666000000",
@@ -20202,16 +18609,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 145000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417173607193666000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260407141156736493000000",
@@ -20221,16 +18628,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407141156736493000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260411005645127877000000",
@@ -20249,7 +18656,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411005645127877000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260515221327779767000000",
@@ -20261,14 +18668,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515221327779767000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520153041775746000000",
@@ -20287,7 +18694,26 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520153041775746000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260603165333416605000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19000 Chandler Park Drive",
+    "city": "Grosse Pointe",
+    "slug": "detroit-mi",
+    "zip": "48236",
+    "listPrice": 2300,
+    "beds": 2,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603165333416605000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260525235907088872000000",
@@ -20306,26 +18732,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260525235907088872000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
-  },
-  {
-    "id": "20260603165333416605000000",
-    "mlsNumber": "20140402194227539412000000",
-    "address": "19000 Chandler Park Drive",
-    "city": "Grosse Pointe",
-    "slug": "detroit-mi",
-    "zip": "48236",
-    "listPrice": 2300,
-    "beds": 2,
-    "baths": 0,
-    "sqft": "********",
-    "daysOnMarket": 0,
-    "status": "active",
-    "propertyType": "Rental",
-    "imageUrl": "",
-    "isFeatured": false,
-    "sparkListingId": "20260603165333416605000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601164541865078000000",
@@ -20344,7 +18751,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601164541865078000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260605015608477541000000",
@@ -20363,7 +18770,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605015608477541000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260314193424683953000000",
@@ -20382,7 +18789,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260314193424683953000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604234356187511000000",
@@ -20392,16 +18799,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604234356187511000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604214536774644000000",
@@ -20420,7 +18827,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604214536774644000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910212450517594000000",
@@ -20439,7 +18846,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910212450517594000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522172054976690000000",
@@ -20458,7 +18865,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522172054976690000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526155927283027000000",
@@ -20477,7 +18884,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526155927283027000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20250910222620182888000000",
@@ -20496,7 +18903,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910222620182888000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602145530455157000000",
@@ -20506,16 +18913,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48204",
     "listPrice": 79000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602145530455157000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526162347528533000000",
@@ -20534,7 +18941,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526162347528533000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316135503858717000000",
@@ -20553,7 +18960,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316135503858717000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260517190146922508000000",
@@ -20572,7 +18979,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260517190146922508000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526150141424217000000",
@@ -20591,7 +18998,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526150141424217000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602125413315710000000",
@@ -20610,7 +19017,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602125413315710000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603223417803385000000",
@@ -20629,7 +19036,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603223417803385000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601185350177145000000",
@@ -20648,7 +19055,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601185350177145000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260224235116826728000000",
@@ -20667,7 +19074,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260224235116826728000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604014210612094000000",
@@ -20686,7 +19093,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604014210612094000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260604001319598959000000",
@@ -20705,7 +19112,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604001319598959000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251210131310496672000000",
@@ -20724,7 +19131,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251210131310496672000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602135055451534000000",
@@ -20743,7 +19150,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602135055451534000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602010343331609000000",
@@ -20762,7 +19169,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602010343331609000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105012929559820000000",
@@ -20772,16 +19179,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 120000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105012929559820000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602002705077203000000",
@@ -20800,7 +19207,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602002705077203000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526191408681670000000",
@@ -20819,7 +19226,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526191408681670000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260329221616862660000000",
@@ -20838,7 +19245,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260329221616862660000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603145811278590000000",
@@ -20857,7 +19264,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603145811278590000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603221352696839000000",
@@ -20876,7 +19283,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603221352696839000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522224507721805000000",
@@ -20895,7 +19302,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522224507721805000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603184118109612000000",
@@ -20914,7 +19321,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603184118109612000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603174231481632000000",
@@ -20933,7 +19340,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603174231481632000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301043042048764000000",
@@ -20952,7 +19359,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301043042048764000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260403120011165606000000",
@@ -20964,14 +19371,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 900,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403120011165606000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260427191911626189000000",
@@ -20990,7 +19397,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427191911626189000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260501155910957125000000",
@@ -21002,14 +19409,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501155910957125000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603150501964104000000",
@@ -21028,7 +19435,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603150501964104000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531155505952493000000",
@@ -21038,16 +19445,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 74900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531155505952493000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260105211847317351000000",
@@ -21066,7 +19473,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260105211847317351000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260516130005036407000000",
@@ -21085,7 +19492,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260516130005036407000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260401141222978436000000",
@@ -21097,14 +19504,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6360,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401141222978436000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260511164630050674000000",
@@ -21116,14 +19523,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 6074,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511164630050674000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260317173203743073000000",
@@ -21135,14 +19542,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4250,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260317173203743073000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260413124647749685000000",
@@ -21152,16 +19559,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48227",
     "listPrice": 140000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260413124647749685000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316125440635190000000",
@@ -21171,16 +19578,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316125440635190000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134429497132000000",
@@ -21190,16 +19597,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134429497132000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316134730279100000000",
@@ -21218,7 +19625,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134730279100000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526171241907508000000",
@@ -21237,7 +19644,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526171241907508000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531144651572362000000",
@@ -21256,7 +19663,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531144651572362000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603034312741671000000",
@@ -21275,7 +19682,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603034312741671000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602152128166668000000",
@@ -21294,7 +19701,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602152128166668000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260603013635121312000000",
@@ -21306,14 +19713,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603013635121312000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260602143825170189000000",
@@ -21332,7 +19739,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602143825170189000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520170802618531000000",
@@ -21351,7 +19758,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520170802618531000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260514140142242692000000",
@@ -21363,14 +19770,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514140142242692000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526012236150933000000",
@@ -21380,16 +19787,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48235",
     "listPrice": 210000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526012236150933000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524203952915343000000",
@@ -21401,14 +19808,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524203952915343000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260526135909695407000000",
@@ -21427,7 +19834,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526135909695407000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251112010325341615000000",
@@ -21446,7 +19853,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112010325341615000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529185652829816000000",
@@ -21456,16 +19863,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 79900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529185652829816000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260524191305866205000000",
@@ -21484,7 +19891,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524191305866205000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260328222444415868000000",
@@ -21494,16 +19901,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48205",
     "listPrice": 110000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328222444415868000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260518163322181268000000",
@@ -21522,7 +19929,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518163322181268000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260217010759647128000000",
@@ -21534,14 +19941,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260217010759647128000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260316225750899874000000",
@@ -21553,14 +19960,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1050,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316225750899874000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260520193853365483000000",
@@ -21572,14 +19979,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2300,
     "beds": 4,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520193853365483000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529132121025233000000",
@@ -21598,7 +20005,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529132121025233000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260522191618972239000000",
@@ -21617,7 +20024,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522191618972239000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260320191823406604000000",
@@ -21636,7 +20043,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320191823406604000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260505012403749386000000",
@@ -21655,7 +20062,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505012403749386000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260421133844243814000000",
@@ -21674,7 +20081,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421133844243814000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260529122348300820000000",
@@ -21693,7 +20100,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529122348300820000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601182204568184000000",
@@ -21712,7 +20119,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601182204568184000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20251124010500570922000000",
@@ -21722,16 +20129,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48214",
     "listPrice": 475000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251124010500570922000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601184024371030000000",
@@ -21741,16 +20148,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 160000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601184024371030000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260528211531138060000000",
@@ -21769,7 +20176,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528211531138060000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260601193158628024000000",
@@ -21788,7 +20195,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601193158628024000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260301210222011080000000",
@@ -21807,7 +20214,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301210222011080000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
     "id": "20260531191516476469000000",
@@ -21826,26 +20233,1907 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531191516476469000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
   },
   {
-    "id": "20260529215958390975000000",
+    "id": "20260525021731761095000000",
     "mlsNumber": "20140402194227539412000000",
-    "address": "17216 Birwood Street",
+    "address": "10903 Roxbury Street",
     "city": "Detroit",
     "slug": "detroit-mi",
-    "zip": "48221",
-    "listPrice": 249000,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 1851,
+    "zip": "48224",
+    "listPrice": 140000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1302,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Single-Family",
     "imageUrl": "",
     "isFeatured": false,
-    "sparkListingId": "20260529215958390975000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "sparkListingId": "20260525021731761095000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260514182145839972000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "371 Piper Boulevard",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48215",
+    "listPrice": 205000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1560,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260514182145839972000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260529143939165542000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "7387 Minock Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48228",
+    "listPrice": 99900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 829,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260529143939165542000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260515175031105992000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2201 S Fort Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48217",
+    "listPrice": 16500,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 660,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260515175031105992000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260602173617161310000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2801 Inman Street",
+    "city": "Ferndale",
+    "slug": "detroit-mi",
+    "zip": "48220",
+    "listPrice": 315000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 866,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602173617161310000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260605131105618230000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "9076 Dawes Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 219000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1649,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260605131105618230000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20251201235728117073000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1665 Atkinson Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48206",
+    "listPrice": 345000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251201235728117073000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20251030010646132592000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2114 Hyde Park Drive",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48207",
+    "listPrice": 179900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1200,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251030010646132592000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260601154625967971000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "11577 Somerset Avenue",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48224",
+    "listPrice": 1450,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601154625967971000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260401190551937255000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "11801 Elmdale Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48213",
+    "listPrice": 40000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 915,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260401190551937255000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260605120441007972000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15241 Pearson Street",
+    "city": "Oak Park",
+    "slug": "detroit-mi",
+    "zip": "48237",
+    "listPrice": 359900,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1407,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260605120441007972000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260305001151234324000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14439 Kent Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48213",
+    "listPrice": 115000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260305001151234324000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260407133340836564000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5510 Allendale Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 140000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407133340836564000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260407135323307017000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "11391 Belleterre Avenue",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 275000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407135323307017000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260417173607193666000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15794 Ohio Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 145000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260417173607193666000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260407141156736493000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "13572 Saint Marys Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48227",
+    "listPrice": 140000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407141156736493000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260411005645127877000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "18915 Steel Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48235",
+    "listPrice": 204990,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1347,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260411005645127877000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260515221327779767000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "10042 Grayton Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48224",
+    "listPrice": 1450,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260515221327779767000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260520153041775746000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "4486 Seyburn Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48214",
+    "listPrice": 279900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1500,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260520153041775746000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260603165333416605000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19000 Chandler Park Drive",
+    "city": "Grosse Pointe",
+    "slug": "detroit-mi",
+    "zip": "48236",
+    "listPrice": 2300,
+    "beds": 2,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603165333416605000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260525235907088872000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "13691 Park Grove Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48205",
+    "listPrice": 90000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1376,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260525235907088872000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260601164541865078000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "17916 Arlington Street",
+    "city": "Hamtramck",
+    "slug": "detroit-mi",
+    "zip": "48212",
+    "listPrice": 145000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 984,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601164541865078000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260605015608477541000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "16207 Lesure Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48235",
+    "listPrice": 135900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 950,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260605015608477541000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260314193424683953000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "8222 Roselawn Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 92900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1040,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260314193424683953000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260604234356187511000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2435 Cortland Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48206",
+    "listPrice": 100000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604234356187511000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260604214536774644000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "4211 Elmhurst Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 39000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 937,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604214536774644000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20250910212450517594000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15828 Belden Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 49900,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 687,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20250910212450517594000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260522172054976690000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "4499 5th Street",
+    "city": "Ecorse",
+    "slug": "detroit-mi",
+    "zip": "48229",
+    "listPrice": 150000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1155,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522172054976690000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260526155927283027000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "20001 Whitcomb",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48235",
+    "listPrice": 225000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2176,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526155927283027000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20250910222620182888000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3345 Doris Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 72500,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1358,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20250910222620182888000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260602145530455157000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "11336 Nardin Park",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 79000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602145530455157000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260526162347528533000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15476 Parkside Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 139500,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 879,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526162347528533000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260316135503858717000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "17303 Runyon Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48234",
+    "listPrice": 104500,
+    "beds": 5,
+    "baths": 2,
+    "sqft": 2073,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260316135503858717000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260517190146922508000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "7839 Clayburn Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48228",
+    "listPrice": 54500,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 920,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260517190146922508000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260526150141424217000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "18514 Roselawn Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48221",
+    "listPrice": 325000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 2180,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526150141424217000000",
+    "lastUpdated": "2026-06-05T17:57:51.778Z"
+  },
+  {
+    "id": "20260602125413315710000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "23830 Scotia Road",
+    "city": "Oak Park",
+    "slug": "detroit-mi",
+    "zip": "48237",
+    "listPrice": 225000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 938,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602125413315710000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603223417803385000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "20090 Lahser Road",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48219",
+    "listPrice": 74900,
+    "beds": 3,
+    "baths": 0,
+    "sqft": 932,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603223417803385000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260601185350177145000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "16608 Beaverland Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48219",
+    "listPrice": 59000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 952,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601185350177145000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260224235116826728000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "18759 Huntington Avenue",
+    "city": "Harper Woods",
+    "slug": "detroit-mi",
+    "zip": "48225",
+    "listPrice": 219900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1575,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260224235116826728000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260604014210612094000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "287 E Palmer Street 10",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48202",
+    "listPrice": 169000,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 1228,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604014210612094000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260604001319598959000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "4901 Cortland Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 129990,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1535,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604001319598959000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20251210131310496672000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1450 Townsend Street Unit 7",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48214",
+    "listPrice": 199900,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 573,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251210131310496672000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260602135055451534000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14914 Pinehurst Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 65000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1485,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602135055451534000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260602010343331609000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "6816 Evergreen Road",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48228",
+    "listPrice": 144999,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 768,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602010343331609000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260105012929559820000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "12609 Santa Rosa Drive",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 120000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260105012929559820000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260602002705077203000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14920 Longview Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48213",
+    "listPrice": 125000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1085,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602002705077203000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260526191408681670000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "298 Josephine Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48202",
+    "listPrice": 340000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 2233,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526191408681670000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260329221616862660000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3291 Minerva Street",
+    "city": "Ferndale",
+    "slug": "detroit-mi",
+    "zip": "48220",
+    "listPrice": 299000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 986,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260329221616862660000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603145811278590000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "24711 Church Street",
+    "city": "Oak Park",
+    "slug": "detroit-mi",
+    "zip": "48237",
+    "listPrice": 199000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1434,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603145811278590000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603221352696839000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "11704 Greenview Avenue",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48228",
+    "listPrice": 84900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1046,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603221352696839000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260522224507721805000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "9074 Patton Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48228",
+    "listPrice": 149900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1156,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522224507721805000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603184118109612000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2493 Fischer Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48214",
+    "listPrice": 310000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1675,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603184118109612000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603174231481632000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15364 S Freeland Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48227",
+    "listPrice": 99000,
+    "beds": 1,
+    "baths": 2,
+    "sqft": 1250,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603174231481632000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260301043042048764000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "20201 Ilene Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48221",
+    "listPrice": 70000,
+    "beds": 3,
+    "baths": 0,
+    "sqft": 884,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260301043042048764000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260403120011165606000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "22140 Dante #209",
+    "city": "Oak Park",
+    "slug": "detroit-mi",
+    "zip": "48237",
+    "listPrice": 900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260403120011165606000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260427191911626189000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "22140 Dante Street 209",
+    "city": "Oak Park",
+    "slug": "detroit-mi",
+    "zip": "48237",
+    "listPrice": 79900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 916,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260427191911626189000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260501155910957125000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "13067 Wade Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48213",
+    "listPrice": 950,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260501155910957125000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603150501964104000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19348 Washtenaw Street",
+    "city": "Harper Woods",
+    "slug": "detroit-mi",
+    "zip": "48225",
+    "listPrice": 99789,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 800,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603150501964104000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260531155505952493000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14140 Seymour Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48205",
+    "listPrice": 74900,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260531155505952493000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260105211847317351000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1300 E Lafayette Street 209",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48207",
+    "listPrice": 64000,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 739,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260105211847317351000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260516130005036407000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "57 Richton Street",
+    "city": "Highland Park",
+    "slug": "detroit-mi",
+    "zip": "48203",
+    "listPrice": 199499,
+    "beds": 4,
+    "baths": 1,
+    "sqft": 1474,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260516130005036407000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260401141222978436000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "600 Woodward Avenue 2B",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48226",
+    "listPrice": 6360,
+    "beds": 2,
+    "baths": 2.5,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260401141222978436000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260511164630050674000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "600 Woodward Avenue 8B",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48226",
+    "listPrice": 6074,
+    "beds": 2,
+    "baths": 2.5,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260511164630050674000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260317173203743073000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "525 W Lafayette Boulevard 21E",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48226",
+    "listPrice": 4250,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260317173203743073000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260413124647749685000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "********",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48227",
+    "listPrice": 140000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260413124647749685000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260316125440635190000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "********",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 100000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260316125440635190000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260316134429497132000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14845 Indiana Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 100000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260316134429497132000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260316134730279100000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "12798 Wilshire Drive",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48213",
+    "listPrice": 87499,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 2335,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260316134730279100000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260526171241907508000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "9768 Manistique Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48224",
+    "listPrice": 35000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 986,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526171241907508000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260531144651572362000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "20112 Manor",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48221",
+    "listPrice": 105000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 821,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260531144651572362000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603034312741671000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19450 Woodingham Drive",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48221",
+    "listPrice": 105000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 791,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603034312741671000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260602152128166668000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "20821 N Pierson Court",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48228",
+    "listPrice": 114900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 782,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602152128166668000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260603013635121312000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "6109 Farmbrook Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48224",
+    "listPrice": 1350,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603013635121312000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260602143825170189000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19601 Hamburg Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48205",
+    "listPrice": 135000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 962,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602143825170189000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260520170802618531000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1991 Lawrence Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48206",
+    "listPrice": 140000,
+    "beds": 6,
+    "baths": 2,
+    "sqft": 1914,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260520170802618531000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260514140142242692000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5791 Somerset Avenue",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48224",
+    "listPrice": 1400,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260514140142242692000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260526012236150933000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19925 19927 Greenfield Road",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48235",
+    "listPrice": 210000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526012236150933000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260524203952915343000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19925 Greenfield Road",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48235",
+    "listPrice": 1300,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260524203952915343000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260526135909695407000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "66 Winder Street 339",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48201",
+    "listPrice": 289900,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 639,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526135909695407000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20251112010325341615000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "8900 E Jefferson Avenue 1012 - 1013",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48214",
+    "listPrice": 250000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1575,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251112010325341615000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260529185652829816000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "12708 12710 Northlawn Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48238",
+    "listPrice": 79900,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260529185652829816000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260524191305866205000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5545 Pacific Avenue",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48204",
+    "listPrice": 85000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1354,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260524191305866205000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260328222444415868000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "13892 Fordham Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48205",
+    "listPrice": 110000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260328222444415868000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260518163322181268000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "28 E Henry Street",
+    "city": "River Rouge",
+    "slug": "detroit-mi",
+    "zip": "48218",
+    "listPrice": 130000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1026,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260518163322181268000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260217010759647128000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "16505 Stansbury Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48235",
+    "listPrice": 1250,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260217010759647128000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260316225750899874000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "12944 Rosemont",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48223",
+    "listPrice": 1050,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260316225750899874000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260520193853365483000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1991 Orleans Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48207",
+    "listPrice": 2300,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260520193853365483000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260529132121025233000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2744 Lawrence Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48206",
+    "listPrice": 239900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1406,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260529132121025233000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260522191618972239000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19610 Hoyt Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48205",
+    "listPrice": 6500,
+    "beds": 6,
+    "baths": 2,
+    "sqft": 1251,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522191618972239000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260320191823406604000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "10827 Bonita Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48224",
+    "listPrice": 69900,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 913,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260320191823406604000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260505012403749386000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "16610 Collingham Drive",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48205",
+    "listPrice": 144900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1131,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260505012403749386000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260421133844243814000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "6217 Avery Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48208",
+    "listPrice": 259000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1357,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260421133844243814000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260529122348300820000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19249 Marx Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48203",
+    "listPrice": 49900,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 824,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260529122348300820000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260601182204568184000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14427 Bringard Drive",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48205",
+    "listPrice": 145000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 957,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601182204568184000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20251124010500570922000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1038 Parker Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48214",
+    "listPrice": 475000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251124010500570922000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260601184024371030000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1976 Clairmount Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48206",
+    "listPrice": 160000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601184024371030000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260528211531138060000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14000 Wales Street",
+    "city": "Oak Park",
+    "slug": "detroit-mi",
+    "zip": "48237",
+    "listPrice": 270000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1342,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260528211531138060000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260601193158628024000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "18050 Wisconsin Street",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48221",
+    "listPrice": 285000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2153,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601193158628024000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260301210222011080000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "360 Burke Street",
+    "city": "River Rouge",
+    "slug": "detroit-mi",
+    "zip": "48218",
+    "listPrice": 79900,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1050,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260301210222011080000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
+  },
+  {
+    "id": "20260531191516476469000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14813 Grandville Avenue",
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "zip": "48223",
+    "listPrice": 155000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1285,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260531191516476469000000",
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260605151214002218000000",
@@ -21864,7 +22152,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605151214002218000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120194914593008000000",
@@ -21883,7 +22171,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120194914593008000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511215038920747000000",
@@ -21902,7 +22190,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511215038920747000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260502031044152951000000",
@@ -21921,7 +22209,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260502031044152951000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260514195239544152000000",
@@ -21940,7 +22228,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514195239544152000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260528195106166739000000",
@@ -21959,7 +22247,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528195106166739000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319202427099542000000",
@@ -21971,14 +22259,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1150,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319202427099542000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406225045857903000000",
@@ -21997,7 +22285,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406225045857903000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420212539934599000000",
@@ -22016,7 +22304,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420212539934599000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313153840680367000000",
@@ -22035,7 +22323,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313153840680367000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310185221373824000000",
@@ -22054,7 +22342,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310185221373824000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406015511212913000000",
@@ -22073,7 +22361,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406015511212913000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325185445908358000000",
@@ -22092,7 +22380,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325185445908358000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260521201745867251000000",
@@ -22111,7 +22399,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521201745867251000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260601203634992634000000",
@@ -22130,7 +22418,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203634992634000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260530113345340019000000",
@@ -22149,7 +22437,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530113345340019000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219150942138840000000",
@@ -22168,7 +22456,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219150942138840000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250320114433294074000000",
@@ -22187,7 +22475,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250320114433294074000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313001228998870000000",
@@ -22199,14 +22487,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1245,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313001228998870000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511172511491142000000",
@@ -22218,14 +22506,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511172511491142000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318142605294778000000",
@@ -22244,7 +22532,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318142605294778000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410112843871228000000",
@@ -22263,7 +22551,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410112843871228000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260228163723470493000000",
@@ -22282,7 +22570,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260228163723470493000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260512161149739592000000",
@@ -22301,7 +22589,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512161149739592000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428205412279727000000",
@@ -22320,7 +22608,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428205412279727000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260425174045461388000000",
@@ -22339,7 +22627,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260425174045461388000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260508205621881682000000",
@@ -22349,16 +22637,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 119900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508205621881682000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260522151809274145000000",
@@ -22377,7 +22665,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522151809274145000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251212203737393799000000",
@@ -22389,14 +22677,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 999,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251212203737393799000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511173316629418000000",
@@ -22408,14 +22696,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511173316629418000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325170357024172000000",
@@ -22434,7 +22722,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325170357024172000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260520190612875069000000",
@@ -22453,7 +22741,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520190612875069000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309191301359384000000",
@@ -22472,7 +22760,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309191301359384000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251112195956119796000000",
@@ -22491,7 +22779,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112195956119796000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402164432595240000000",
@@ -22503,14 +22791,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402164432595240000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114215914536794000000",
@@ -22529,7 +22817,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114215914536794000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422134747184638000000",
@@ -22548,7 +22836,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422134747184638000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515004743694901000000",
@@ -22567,7 +22855,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515004743694901000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260202174819274977000000",
@@ -22586,7 +22874,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260202174819274977000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260524143012732643000000",
@@ -22598,14 +22886,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524143012732643000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260204134114507022000000",
@@ -22617,14 +22905,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1279,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260204134114507022000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515173334488156000000",
@@ -22643,7 +22931,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173334488156000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219154330460607000000",
@@ -22662,7 +22950,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219154330460607000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511150506328220000000",
@@ -22681,7 +22969,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511150506328220000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318174501136282000000",
@@ -22700,7 +22988,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318174501136282000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410195030582062000000",
@@ -22719,7 +23007,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410195030582062000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504180446142757000000",
@@ -22738,7 +23026,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504180446142757000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411003947856451000000",
@@ -22750,14 +23038,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411003947856451000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260304162954615007000000",
@@ -22776,7 +23064,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304162954615007000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424134905181567000000",
@@ -22795,7 +23083,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424134905181567000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260427001235285822000000",
@@ -22814,7 +23102,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427001235285822000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319115156304905000000",
@@ -22833,7 +23121,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319115156304905000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260116144804378964000000",
@@ -22852,7 +23140,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116144804378964000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260320211413283071000000",
@@ -22871,7 +23159,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320211413283071000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409184219972777000000",
@@ -22881,16 +23169,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48228",
     "listPrice": 109999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409184219972777000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260509172217027190000000",
@@ -22909,7 +23197,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260509172217027190000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260506052936103138000000",
@@ -22928,7 +23216,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506052936103138000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260429011652315033000000",
@@ -22947,7 +23235,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429011652315033000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260510032223676835000000",
@@ -22957,16 +23245,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 159900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510032223676835000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260323224136249008000000",
@@ -22976,16 +23264,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 159000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260323224136249008000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260407204053998894000000",
@@ -23004,7 +23292,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407204053998894000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316202014551959000000",
@@ -23023,7 +23311,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316202014551959000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260426000303430573000000",
@@ -23042,7 +23330,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260426000303430573000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114174053823202000000",
@@ -23061,7 +23349,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114174053823202000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120045103054315000000",
@@ -23080,7 +23368,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120045103054315000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504154357226109000000",
@@ -23090,16 +23378,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48223",
     "listPrice": 155000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504154357226109000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420182137923988000000",
@@ -23118,7 +23406,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420182137923988000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260418181927608140000000",
@@ -23130,14 +23418,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260418181927608140000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316144826996017000000",
@@ -23156,7 +23444,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316144826996017000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260505125008218727000000",
@@ -23175,7 +23463,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505125008218727000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417181945180127000000",
@@ -23194,7 +23482,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417181945180127000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251119032621703223000000",
@@ -23213,7 +23501,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251119032621703223000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428181437552920000000",
@@ -23232,7 +23520,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428181437552920000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414180447535171000000",
@@ -23251,7 +23539,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414180447535171000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414173039553640000000",
@@ -23270,7 +23558,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414173039553640000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260213133339810627000000",
@@ -23289,7 +23577,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260213133339810627000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424174021043552000000",
@@ -23308,7 +23596,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424174021043552000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417131115365632000000",
@@ -23327,7 +23615,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417131115365632000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422145250107778000000",
@@ -23346,7 +23634,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422145250107778000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410115551135733000000",
@@ -23365,7 +23653,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410115551135733000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312180858094371000000",
@@ -23384,7 +23672,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312180858094371000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312173717558335000000",
@@ -23403,7 +23691,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312173717558335000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260301035949048554000000",
@@ -23422,7 +23710,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301035949048554000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325193332632140000000",
@@ -23441,7 +23729,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325193332632140000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411135045589971000000",
@@ -23460,7 +23748,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411135045589971000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260408182701362867000000",
@@ -23479,7 +23767,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260408182701362867000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260331153851011710000000",
@@ -23498,7 +23786,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331153851011710000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260415165913231502000000",
@@ -23508,16 +23796,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 124900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415165913231502000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260130013954789748000000",
@@ -23529,14 +23817,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260130013954789748000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260330143032541700000000",
@@ -23555,7 +23843,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330143032541700000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402201201417589000000",
@@ -23567,14 +23855,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 530,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402201201417589000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260208164713066943000000",
@@ -23593,7 +23881,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260208164713066943000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260227155414780573000000",
@@ -23612,7 +23900,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227155414780573000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409024340744155000000",
@@ -23631,7 +23919,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409024340744155000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309184824315402000000",
@@ -23643,14 +23931,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309184824315402000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250619151746735080000000",
@@ -23660,7 +23948,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 150000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 2459,
     "daysOnMarket": 0,
@@ -23669,7 +23957,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250619151746735080000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310164712263305000000",
@@ -23688,7 +23976,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310164712263305000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260205110632395500000000",
@@ -23700,14 +23988,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 975,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260205110632395500000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251202015032401546000000",
@@ -23717,16 +24005,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48225",
     "listPrice": 154999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251202015032401546000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251126200133506901000000",
@@ -23745,7 +24033,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251126200133506901000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260605151214002218000000",
@@ -23764,7 +24052,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605151214002218000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120194914593008000000",
@@ -23783,7 +24071,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120194914593008000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511215038920747000000",
@@ -23802,7 +24090,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511215038920747000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260502031044152951000000",
@@ -23821,7 +24109,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260502031044152951000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260514195239544152000000",
@@ -23840,7 +24128,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514195239544152000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260528195106166739000000",
@@ -23859,7 +24147,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528195106166739000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319202427099542000000",
@@ -23871,14 +24159,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1150,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319202427099542000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406225045857903000000",
@@ -23897,7 +24185,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406225045857903000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420212539934599000000",
@@ -23916,7 +24204,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420212539934599000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313153840680367000000",
@@ -23935,7 +24223,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313153840680367000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310185221373824000000",
@@ -23954,7 +24242,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310185221373824000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406015511212913000000",
@@ -23973,7 +24261,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406015511212913000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325185445908358000000",
@@ -23992,7 +24280,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325185445908358000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260521201745867251000000",
@@ -24011,7 +24299,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521201745867251000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260601203634992634000000",
@@ -24030,7 +24318,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203634992634000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260530113345340019000000",
@@ -24049,7 +24337,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530113345340019000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219150942138840000000",
@@ -24068,7 +24356,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219150942138840000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250320114433294074000000",
@@ -24087,7 +24375,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250320114433294074000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313001228998870000000",
@@ -24099,14 +24387,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1245,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313001228998870000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511172511491142000000",
@@ -24118,14 +24406,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511172511491142000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318142605294778000000",
@@ -24144,7 +24432,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318142605294778000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410112843871228000000",
@@ -24163,7 +24451,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410112843871228000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260228163723470493000000",
@@ -24182,7 +24470,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260228163723470493000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260512161149739592000000",
@@ -24201,7 +24489,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512161149739592000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428205412279727000000",
@@ -24220,7 +24508,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428205412279727000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260425174045461388000000",
@@ -24239,7 +24527,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260425174045461388000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260508205621881682000000",
@@ -24249,16 +24537,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 119900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508205621881682000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260522151809274145000000",
@@ -24277,7 +24565,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522151809274145000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251212203737393799000000",
@@ -24289,14 +24577,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 999,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251212203737393799000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511173316629418000000",
@@ -24308,14 +24596,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511173316629418000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325170357024172000000",
@@ -24334,7 +24622,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325170357024172000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260520190612875069000000",
@@ -24353,7 +24641,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520190612875069000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309191301359384000000",
@@ -24372,7 +24660,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309191301359384000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251112195956119796000000",
@@ -24391,7 +24679,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112195956119796000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402164432595240000000",
@@ -24403,14 +24691,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402164432595240000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114215914536794000000",
@@ -24429,7 +24717,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114215914536794000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422134747184638000000",
@@ -24448,7 +24736,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422134747184638000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515004743694901000000",
@@ -24467,7 +24755,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515004743694901000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260202174819274977000000",
@@ -24486,7 +24774,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260202174819274977000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260524143012732643000000",
@@ -24498,14 +24786,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524143012732643000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260204134114507022000000",
@@ -24517,14 +24805,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1279,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260204134114507022000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515173334488156000000",
@@ -24543,7 +24831,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173334488156000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219154330460607000000",
@@ -24562,7 +24850,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219154330460607000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511150506328220000000",
@@ -24581,7 +24869,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511150506328220000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318174501136282000000",
@@ -24600,7 +24888,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318174501136282000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410195030582062000000",
@@ -24619,7 +24907,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410195030582062000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504180446142757000000",
@@ -24638,7 +24926,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504180446142757000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411003947856451000000",
@@ -24650,14 +24938,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411003947856451000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260304162954615007000000",
@@ -24676,7 +24964,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304162954615007000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424134905181567000000",
@@ -24695,7 +24983,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424134905181567000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260427001235285822000000",
@@ -24714,7 +25002,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427001235285822000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319115156304905000000",
@@ -24733,7 +25021,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319115156304905000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260116144804378964000000",
@@ -24752,7 +25040,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116144804378964000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260320211413283071000000",
@@ -24771,7 +25059,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320211413283071000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409184219972777000000",
@@ -24781,16 +25069,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48228",
     "listPrice": 109999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409184219972777000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260509172217027190000000",
@@ -24809,7 +25097,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260509172217027190000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260506052936103138000000",
@@ -24828,7 +25116,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506052936103138000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260429011652315033000000",
@@ -24847,7 +25135,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429011652315033000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260510032223676835000000",
@@ -24857,16 +25145,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 159900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510032223676835000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260323224136249008000000",
@@ -24876,16 +25164,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 159000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260323224136249008000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260407204053998894000000",
@@ -24904,7 +25192,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407204053998894000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316202014551959000000",
@@ -24923,7 +25211,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316202014551959000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260426000303430573000000",
@@ -24942,7 +25230,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260426000303430573000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114174053823202000000",
@@ -24961,7 +25249,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114174053823202000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120045103054315000000",
@@ -24980,7 +25268,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120045103054315000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504154357226109000000",
@@ -24990,16 +25278,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48223",
     "listPrice": 155000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504154357226109000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420182137923988000000",
@@ -25018,7 +25306,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420182137923988000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260418181927608140000000",
@@ -25030,14 +25318,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260418181927608140000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316144826996017000000",
@@ -25056,7 +25344,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316144826996017000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260505125008218727000000",
@@ -25075,7 +25363,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505125008218727000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417181945180127000000",
@@ -25094,7 +25382,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417181945180127000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251119032621703223000000",
@@ -25113,7 +25401,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251119032621703223000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428181437552920000000",
@@ -25132,7 +25420,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428181437552920000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414180447535171000000",
@@ -25151,7 +25439,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414180447535171000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414173039553640000000",
@@ -25170,7 +25458,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414173039553640000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260213133339810627000000",
@@ -25189,7 +25477,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260213133339810627000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424174021043552000000",
@@ -25208,7 +25496,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424174021043552000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417131115365632000000",
@@ -25227,7 +25515,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417131115365632000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422145250107778000000",
@@ -25246,7 +25534,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422145250107778000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410115551135733000000",
@@ -25265,7 +25553,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410115551135733000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312180858094371000000",
@@ -25284,7 +25572,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312180858094371000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312173717558335000000",
@@ -25303,7 +25591,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312173717558335000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260301035949048554000000",
@@ -25322,7 +25610,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301035949048554000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325193332632140000000",
@@ -25341,7 +25629,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325193332632140000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411135045589971000000",
@@ -25360,7 +25648,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411135045589971000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260408182701362867000000",
@@ -25379,7 +25667,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260408182701362867000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260331153851011710000000",
@@ -25398,7 +25686,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331153851011710000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260415165913231502000000",
@@ -25408,16 +25696,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 124900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415165913231502000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260130013954789748000000",
@@ -25429,14 +25717,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260130013954789748000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260330143032541700000000",
@@ -25455,7 +25743,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330143032541700000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402201201417589000000",
@@ -25467,14 +25755,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 530,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402201201417589000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260208164713066943000000",
@@ -25493,7 +25781,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260208164713066943000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260227155414780573000000",
@@ -25512,7 +25800,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227155414780573000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409024340744155000000",
@@ -25531,7 +25819,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409024340744155000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309184824315402000000",
@@ -25543,14 +25831,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309184824315402000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250619151746735080000000",
@@ -25560,7 +25848,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 150000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 2459,
     "daysOnMarket": 0,
@@ -25569,7 +25857,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250619151746735080000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310164712263305000000",
@@ -25588,7 +25876,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310164712263305000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260205110632395500000000",
@@ -25600,14 +25888,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 975,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260205110632395500000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251202015032401546000000",
@@ -25617,16 +25905,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48225",
     "listPrice": 154999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251202015032401546000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251126200133506901000000",
@@ -25645,7 +25933,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251126200133506901000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260605151214002218000000",
@@ -25664,7 +25952,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605151214002218000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120194914593008000000",
@@ -25683,7 +25971,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120194914593008000000",
-    "lastUpdated": "2026-06-05T17:46:48.395Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511215038920747000000",
@@ -25702,7 +25990,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511215038920747000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260502031044152951000000",
@@ -25721,7 +26009,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260502031044152951000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260514195239544152000000",
@@ -25740,7 +26028,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514195239544152000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260528195106166739000000",
@@ -25759,7 +26047,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528195106166739000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319202427099542000000",
@@ -25771,14 +26059,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1150,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319202427099542000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406225045857903000000",
@@ -25797,7 +26085,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406225045857903000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420212539934599000000",
@@ -25816,7 +26104,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420212539934599000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313153840680367000000",
@@ -25835,7 +26123,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313153840680367000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310185221373824000000",
@@ -25854,7 +26142,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310185221373824000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406015511212913000000",
@@ -25873,7 +26161,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406015511212913000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325185445908358000000",
@@ -25892,7 +26180,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325185445908358000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260521201745867251000000",
@@ -25911,7 +26199,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521201745867251000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260601203634992634000000",
@@ -25930,7 +26218,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203634992634000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260530113345340019000000",
@@ -25949,7 +26237,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530113345340019000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219150942138840000000",
@@ -25968,7 +26256,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219150942138840000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250320114433294074000000",
@@ -25987,7 +26275,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250320114433294074000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313001228998870000000",
@@ -25999,14 +26287,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1245,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313001228998870000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511172511491142000000",
@@ -26018,14 +26306,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511172511491142000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318142605294778000000",
@@ -26044,7 +26332,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318142605294778000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410112843871228000000",
@@ -26063,7 +26351,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410112843871228000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260228163723470493000000",
@@ -26082,7 +26370,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260228163723470493000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260512161149739592000000",
@@ -26101,7 +26389,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512161149739592000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428205412279727000000",
@@ -26120,7 +26408,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428205412279727000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260425174045461388000000",
@@ -26139,7 +26427,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260425174045461388000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260508205621881682000000",
@@ -26149,16 +26437,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 119900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508205621881682000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260522151809274145000000",
@@ -26177,7 +26465,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522151809274145000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251212203737393799000000",
@@ -26189,14 +26477,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 999,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251212203737393799000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511173316629418000000",
@@ -26208,14 +26496,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511173316629418000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325170357024172000000",
@@ -26234,7 +26522,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325170357024172000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260520190612875069000000",
@@ -26253,7 +26541,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520190612875069000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309191301359384000000",
@@ -26272,7 +26560,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309191301359384000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251112195956119796000000",
@@ -26291,7 +26579,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112195956119796000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402164432595240000000",
@@ -26303,14 +26591,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402164432595240000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114215914536794000000",
@@ -26329,7 +26617,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114215914536794000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422134747184638000000",
@@ -26348,7 +26636,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422134747184638000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515004743694901000000",
@@ -26367,7 +26655,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515004743694901000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260202174819274977000000",
@@ -26386,7 +26674,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260202174819274977000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260524143012732643000000",
@@ -26398,14 +26686,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524143012732643000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260204134114507022000000",
@@ -26417,14 +26705,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1279,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260204134114507022000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515173334488156000000",
@@ -26443,7 +26731,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173334488156000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219154330460607000000",
@@ -26462,7 +26750,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219154330460607000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511150506328220000000",
@@ -26481,7 +26769,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511150506328220000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318174501136282000000",
@@ -26500,7 +26788,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318174501136282000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410195030582062000000",
@@ -26519,7 +26807,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410195030582062000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504180446142757000000",
@@ -26538,7 +26826,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504180446142757000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411003947856451000000",
@@ -26550,14 +26838,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411003947856451000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260304162954615007000000",
@@ -26576,7 +26864,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304162954615007000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424134905181567000000",
@@ -26595,7 +26883,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424134905181567000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260427001235285822000000",
@@ -26614,7 +26902,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427001235285822000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319115156304905000000",
@@ -26633,7 +26921,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319115156304905000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260116144804378964000000",
@@ -26652,7 +26940,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116144804378964000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260320211413283071000000",
@@ -26671,7 +26959,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320211413283071000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409184219972777000000",
@@ -26681,16 +26969,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48228",
     "listPrice": 109999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409184219972777000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260509172217027190000000",
@@ -26709,7 +26997,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260509172217027190000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260506052936103138000000",
@@ -26728,7 +27016,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506052936103138000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260429011652315033000000",
@@ -26747,7 +27035,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429011652315033000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260510032223676835000000",
@@ -26757,16 +27045,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 159900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510032223676835000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260323224136249008000000",
@@ -26776,16 +27064,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 159000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260323224136249008000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260407204053998894000000",
@@ -26804,7 +27092,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407204053998894000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316202014551959000000",
@@ -26823,7 +27111,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316202014551959000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260426000303430573000000",
@@ -26842,7 +27130,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260426000303430573000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114174053823202000000",
@@ -26861,7 +27149,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114174053823202000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120045103054315000000",
@@ -26880,7 +27168,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120045103054315000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504154357226109000000",
@@ -26890,16 +27178,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48223",
     "listPrice": 155000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504154357226109000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420182137923988000000",
@@ -26918,7 +27206,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420182137923988000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260418181927608140000000",
@@ -26930,14 +27218,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260418181927608140000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316144826996017000000",
@@ -26956,7 +27244,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316144826996017000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260505125008218727000000",
@@ -26975,7 +27263,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505125008218727000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417181945180127000000",
@@ -26994,7 +27282,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417181945180127000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251119032621703223000000",
@@ -27013,7 +27301,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251119032621703223000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428181437552920000000",
@@ -27032,7 +27320,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428181437552920000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414180447535171000000",
@@ -27051,7 +27339,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414180447535171000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414173039553640000000",
@@ -27070,7 +27358,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414173039553640000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260213133339810627000000",
@@ -27089,7 +27377,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260213133339810627000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424174021043552000000",
@@ -27108,7 +27396,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424174021043552000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417131115365632000000",
@@ -27127,7 +27415,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417131115365632000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422145250107778000000",
@@ -27146,7 +27434,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422145250107778000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410115551135733000000",
@@ -27165,7 +27453,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410115551135733000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312180858094371000000",
@@ -27184,7 +27472,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312180858094371000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312173717558335000000",
@@ -27203,7 +27491,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312173717558335000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260301035949048554000000",
@@ -27222,7 +27510,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301035949048554000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325193332632140000000",
@@ -27241,7 +27529,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325193332632140000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411135045589971000000",
@@ -27260,7 +27548,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411135045589971000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260408182701362867000000",
@@ -27279,7 +27567,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260408182701362867000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260331153851011710000000",
@@ -27298,7 +27586,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331153851011710000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260415165913231502000000",
@@ -27308,16 +27596,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 124900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415165913231502000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260130013954789748000000",
@@ -27329,14 +27617,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260130013954789748000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260330143032541700000000",
@@ -27355,7 +27643,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330143032541700000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402201201417589000000",
@@ -27367,14 +27655,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 530,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402201201417589000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260208164713066943000000",
@@ -27393,7 +27681,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260208164713066943000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260227155414780573000000",
@@ -27412,7 +27700,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227155414780573000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409024340744155000000",
@@ -27431,7 +27719,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409024340744155000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309184824315402000000",
@@ -27443,14 +27731,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309184824315402000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250619151746735080000000",
@@ -27460,7 +27748,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 150000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 2459,
     "daysOnMarket": 0,
@@ -27469,7 +27757,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250619151746735080000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310164712263305000000",
@@ -27488,7 +27776,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310164712263305000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260205110632395500000000",
@@ -27500,14 +27788,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 975,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260205110632395500000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251202015032401546000000",
@@ -27517,16 +27805,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48225",
     "listPrice": 154999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251202015032401546000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251126200133506901000000",
@@ -27545,7 +27833,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251126200133506901000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260605151214002218000000",
@@ -27564,7 +27852,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605151214002218000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120194914593008000000",
@@ -27583,7 +27871,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120194914593008000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511215038920747000000",
@@ -27602,7 +27890,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511215038920747000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260502031044152951000000",
@@ -27621,7 +27909,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260502031044152951000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260514195239544152000000",
@@ -27640,7 +27928,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514195239544152000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260528195106166739000000",
@@ -27659,7 +27947,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528195106166739000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319202427099542000000",
@@ -27671,14 +27959,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1150,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319202427099542000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406225045857903000000",
@@ -27697,7 +27985,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406225045857903000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420212539934599000000",
@@ -27716,7 +28004,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420212539934599000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313153840680367000000",
@@ -27735,7 +28023,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313153840680367000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310185221373824000000",
@@ -27754,7 +28042,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310185221373824000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406015511212913000000",
@@ -27773,7 +28061,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406015511212913000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325185445908358000000",
@@ -27792,7 +28080,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325185445908358000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260521201745867251000000",
@@ -27811,7 +28099,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521201745867251000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260601203634992634000000",
@@ -27830,7 +28118,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203634992634000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260530113345340019000000",
@@ -27849,7 +28137,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530113345340019000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219150942138840000000",
@@ -27868,7 +28156,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219150942138840000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250320114433294074000000",
@@ -27887,7 +28175,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250320114433294074000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313001228998870000000",
@@ -27899,14 +28187,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1245,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313001228998870000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511172511491142000000",
@@ -27918,14 +28206,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511172511491142000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318142605294778000000",
@@ -27944,7 +28232,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318142605294778000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410112843871228000000",
@@ -27963,7 +28251,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410112843871228000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260228163723470493000000",
@@ -27982,7 +28270,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260228163723470493000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260512161149739592000000",
@@ -28001,7 +28289,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512161149739592000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428205412279727000000",
@@ -28020,7 +28308,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428205412279727000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260425174045461388000000",
@@ -28039,7 +28327,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260425174045461388000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260508205621881682000000",
@@ -28049,16 +28337,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 119900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508205621881682000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260522151809274145000000",
@@ -28077,7 +28365,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522151809274145000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251212203737393799000000",
@@ -28089,14 +28377,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 999,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251212203737393799000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511173316629418000000",
@@ -28108,14 +28396,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511173316629418000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325170357024172000000",
@@ -28134,7 +28422,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325170357024172000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260520190612875069000000",
@@ -28153,7 +28441,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520190612875069000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309191301359384000000",
@@ -28172,7 +28460,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309191301359384000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251112195956119796000000",
@@ -28191,7 +28479,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112195956119796000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402164432595240000000",
@@ -28203,14 +28491,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402164432595240000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114215914536794000000",
@@ -28229,7 +28517,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114215914536794000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422134747184638000000",
@@ -28248,7 +28536,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422134747184638000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515004743694901000000",
@@ -28267,7 +28555,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515004743694901000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260202174819274977000000",
@@ -28286,7 +28574,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260202174819274977000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260524143012732643000000",
@@ -28298,14 +28586,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524143012732643000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260204134114507022000000",
@@ -28317,14 +28605,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1279,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260204134114507022000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515173334488156000000",
@@ -28343,7 +28631,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173334488156000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219154330460607000000",
@@ -28362,7 +28650,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219154330460607000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511150506328220000000",
@@ -28381,7 +28669,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511150506328220000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318174501136282000000",
@@ -28400,7 +28688,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318174501136282000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410195030582062000000",
@@ -28419,7 +28707,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410195030582062000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504180446142757000000",
@@ -28438,7 +28726,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504180446142757000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411003947856451000000",
@@ -28450,14 +28738,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411003947856451000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260304162954615007000000",
@@ -28476,7 +28764,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304162954615007000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424134905181567000000",
@@ -28495,7 +28783,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424134905181567000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260427001235285822000000",
@@ -28514,7 +28802,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427001235285822000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319115156304905000000",
@@ -28533,7 +28821,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319115156304905000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260116144804378964000000",
@@ -28552,7 +28840,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116144804378964000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260320211413283071000000",
@@ -28571,7 +28859,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320211413283071000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409184219972777000000",
@@ -28581,16 +28869,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48228",
     "listPrice": 109999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409184219972777000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260509172217027190000000",
@@ -28609,7 +28897,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260509172217027190000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260506052936103138000000",
@@ -28628,7 +28916,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506052936103138000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260429011652315033000000",
@@ -28647,7 +28935,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429011652315033000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260510032223676835000000",
@@ -28657,16 +28945,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 159900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510032223676835000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260323224136249008000000",
@@ -28676,16 +28964,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 159000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260323224136249008000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260407204053998894000000",
@@ -28704,7 +28992,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407204053998894000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316202014551959000000",
@@ -28723,7 +29011,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316202014551959000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260426000303430573000000",
@@ -28742,7 +29030,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260426000303430573000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114174053823202000000",
@@ -28761,7 +29049,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114174053823202000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120045103054315000000",
@@ -28780,7 +29068,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120045103054315000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504154357226109000000",
@@ -28790,16 +29078,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48223",
     "listPrice": 155000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504154357226109000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420182137923988000000",
@@ -28818,7 +29106,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420182137923988000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260418181927608140000000",
@@ -28830,14 +29118,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260418181927608140000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316144826996017000000",
@@ -28856,7 +29144,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316144826996017000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260505125008218727000000",
@@ -28875,7 +29163,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505125008218727000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417181945180127000000",
@@ -28894,7 +29182,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417181945180127000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251119032621703223000000",
@@ -28913,7 +29201,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251119032621703223000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428181437552920000000",
@@ -28932,7 +29220,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428181437552920000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414180447535171000000",
@@ -28951,7 +29239,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414180447535171000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414173039553640000000",
@@ -28970,7 +29258,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414173039553640000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260213133339810627000000",
@@ -28989,7 +29277,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260213133339810627000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424174021043552000000",
@@ -29008,7 +29296,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424174021043552000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417131115365632000000",
@@ -29027,7 +29315,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417131115365632000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422145250107778000000",
@@ -29046,7 +29334,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422145250107778000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410115551135733000000",
@@ -29065,7 +29353,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410115551135733000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312180858094371000000",
@@ -29084,7 +29372,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312180858094371000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312173717558335000000",
@@ -29103,7 +29391,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312173717558335000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260301035949048554000000",
@@ -29122,7 +29410,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301035949048554000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325193332632140000000",
@@ -29141,7 +29429,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325193332632140000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411135045589971000000",
@@ -29160,7 +29448,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411135045589971000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260408182701362867000000",
@@ -29179,7 +29467,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260408182701362867000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260331153851011710000000",
@@ -29198,7 +29486,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331153851011710000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260415165913231502000000",
@@ -29208,16 +29496,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 124900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415165913231502000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260130013954789748000000",
@@ -29229,14 +29517,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260130013954789748000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260330143032541700000000",
@@ -29255,7 +29543,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330143032541700000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402201201417589000000",
@@ -29267,14 +29555,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 530,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402201201417589000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260208164713066943000000",
@@ -29293,7 +29581,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260208164713066943000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260227155414780573000000",
@@ -29312,7 +29600,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227155414780573000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409024340744155000000",
@@ -29331,7 +29619,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409024340744155000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309184824315402000000",
@@ -29343,14 +29631,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309184824315402000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250619151746735080000000",
@@ -29360,7 +29648,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 150000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 2459,
     "daysOnMarket": 0,
@@ -29369,7 +29657,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250619151746735080000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310164712263305000000",
@@ -29388,7 +29676,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310164712263305000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260205110632395500000000",
@@ -29400,14 +29688,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 975,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260205110632395500000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251202015032401546000000",
@@ -29417,16 +29705,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48225",
     "listPrice": 154999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251202015032401546000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251126200133506901000000",
@@ -29445,7 +29733,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251126200133506901000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260605151214002218000000",
@@ -29464,7 +29752,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605151214002218000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120194914593008000000",
@@ -29483,7 +29771,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120194914593008000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511215038920747000000",
@@ -29502,7 +29790,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511215038920747000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260502031044152951000000",
@@ -29521,7 +29809,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260502031044152951000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260514195239544152000000",
@@ -29540,7 +29828,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514195239544152000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260528195106166739000000",
@@ -29559,7 +29847,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528195106166739000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319202427099542000000",
@@ -29571,14 +29859,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1150,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319202427099542000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406225045857903000000",
@@ -29597,7 +29885,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406225045857903000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420212539934599000000",
@@ -29616,7 +29904,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420212539934599000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313153840680367000000",
@@ -29635,7 +29923,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313153840680367000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310185221373824000000",
@@ -29654,7 +29942,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310185221373824000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260406015511212913000000",
@@ -29673,7 +29961,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260406015511212913000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325185445908358000000",
@@ -29692,7 +29980,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325185445908358000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260521201745867251000000",
@@ -29711,7 +29999,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521201745867251000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260601203634992634000000",
@@ -29730,7 +30018,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601203634992634000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260530113345340019000000",
@@ -29749,7 +30037,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530113345340019000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219150942138840000000",
@@ -29768,7 +30056,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219150942138840000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250320114433294074000000",
@@ -29787,7 +30075,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250320114433294074000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260313001228998870000000",
@@ -29799,14 +30087,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1245,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313001228998870000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511172511491142000000",
@@ -29818,14 +30106,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511172511491142000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318142605294778000000",
@@ -29844,7 +30132,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318142605294778000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410112843871228000000",
@@ -29863,7 +30151,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410112843871228000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260228163723470493000000",
@@ -29882,7 +30170,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260228163723470493000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260512161149739592000000",
@@ -29901,7 +30189,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512161149739592000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428205412279727000000",
@@ -29920,7 +30208,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428205412279727000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260425174045461388000000",
@@ -29939,7 +30227,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260425174045461388000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260508205621881682000000",
@@ -29949,16 +30237,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 119900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508205621881682000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260522151809274145000000",
@@ -29977,7 +30265,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522151809274145000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251212203737393799000000",
@@ -29989,14 +30277,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 999,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251212203737393799000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511173316629418000000",
@@ -30008,14 +30296,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2200,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511173316629418000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325170357024172000000",
@@ -30034,7 +30322,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325170357024172000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260520190612875069000000",
@@ -30053,7 +30341,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520190612875069000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309191301359384000000",
@@ -30072,7 +30360,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309191301359384000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251112195956119796000000",
@@ -30091,7 +30379,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251112195956119796000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402164432595240000000",
@@ -30103,14 +30391,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402164432595240000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114215914536794000000",
@@ -30129,7 +30417,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114215914536794000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422134747184638000000",
@@ -30148,7 +30436,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422134747184638000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515004743694901000000",
@@ -30167,7 +30455,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515004743694901000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260202174819274977000000",
@@ -30186,7 +30474,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260202174819274977000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260524143012732643000000",
@@ -30198,14 +30486,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524143012732643000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260204134114507022000000",
@@ -30217,14 +30505,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1279,
     "beds": 3,
     "baths": 1.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260204134114507022000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260515173334488156000000",
@@ -30243,7 +30531,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515173334488156000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260219154330460607000000",
@@ -30262,7 +30550,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260219154330460607000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260511150506328220000000",
@@ -30281,7 +30569,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511150506328220000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260318174501136282000000",
@@ -30300,7 +30588,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318174501136282000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410195030582062000000",
@@ -30319,7 +30607,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410195030582062000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504180446142757000000",
@@ -30338,7 +30626,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504180446142757000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411003947856451000000",
@@ -30350,14 +30638,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411003947856451000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260304162954615007000000",
@@ -30376,7 +30664,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304162954615007000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424134905181567000000",
@@ -30395,7 +30683,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424134905181567000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260427001235285822000000",
@@ -30414,7 +30702,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427001235285822000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260319115156304905000000",
@@ -30433,7 +30721,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260319115156304905000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260116144804378964000000",
@@ -30452,7 +30740,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116144804378964000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260320211413283071000000",
@@ -30471,7 +30759,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320211413283071000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409184219972777000000",
@@ -30481,16 +30769,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48228",
     "listPrice": 109999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409184219972777000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260509172217027190000000",
@@ -30509,7 +30797,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260509172217027190000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260506052936103138000000",
@@ -30528,7 +30816,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506052936103138000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260429011652315033000000",
@@ -30547,7 +30835,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429011652315033000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260510032223676835000000",
@@ -30557,16 +30845,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 159900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510032223676835000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260323224136249008000000",
@@ -30576,16 +30864,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 159000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260323224136249008000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260407204053998894000000",
@@ -30604,7 +30892,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407204053998894000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316202014551959000000",
@@ -30623,7 +30911,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316202014551959000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260426000303430573000000",
@@ -30642,7 +30930,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260426000303430573000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260114174053823202000000",
@@ -30661,7 +30949,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114174053823202000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260120045103054315000000",
@@ -30680,7 +30968,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120045103054315000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260504154357226109000000",
@@ -30690,16 +30978,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48223",
     "listPrice": 155000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504154357226109000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260420182137923988000000",
@@ -30718,7 +31006,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420182137923988000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260418181927608140000000",
@@ -30730,14 +31018,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1250,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260418181927608140000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260316144826996017000000",
@@ -30756,7 +31044,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316144826996017000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260505125008218727000000",
@@ -30775,7 +31063,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505125008218727000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417181945180127000000",
@@ -30794,7 +31082,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417181945180127000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251119032621703223000000",
@@ -30813,7 +31101,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251119032621703223000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260428181437552920000000",
@@ -30832,7 +31120,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428181437552920000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414180447535171000000",
@@ -30851,7 +31139,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414180447535171000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260414173039553640000000",
@@ -30870,7 +31158,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414173039553640000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260213133339810627000000",
@@ -30889,7 +31177,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260213133339810627000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260424174021043552000000",
@@ -30908,7 +31196,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424174021043552000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260417131115365632000000",
@@ -30927,7 +31215,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417131115365632000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260422145250107778000000",
@@ -30946,7 +31234,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422145250107778000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260410115551135733000000",
@@ -30965,7 +31253,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260410115551135733000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312180858094371000000",
@@ -30984,7 +31272,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312180858094371000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260312173717558335000000",
@@ -31003,7 +31291,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312173717558335000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260301035949048554000000",
@@ -31022,7 +31310,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260301035949048554000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260325193332632140000000",
@@ -31041,7 +31329,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325193332632140000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260411135045589971000000",
@@ -31060,7 +31348,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260411135045589971000000",
-    "lastUpdated": "2026-06-05T17:46:48.396Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260408182701362867000000",
@@ -31079,7 +31367,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260408182701362867000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260331153851011710000000",
@@ -31098,7 +31386,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331153851011710000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260415165913231502000000",
@@ -31108,16 +31396,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48238",
     "listPrice": 124900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260415165913231502000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260130013954789748000000",
@@ -31129,14 +31417,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260130013954789748000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260330143032541700000000",
@@ -31155,7 +31443,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330143032541700000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260402201201417589000000",
@@ -31167,14 +31455,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 530,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260402201201417589000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260208164713066943000000",
@@ -31193,7 +31481,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260208164713066943000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260227155414780573000000",
@@ -31212,7 +31500,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227155414780573000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260409024340744155000000",
@@ -31231,7 +31519,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260409024340744155000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260309184824315402000000",
@@ -31243,14 +31531,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260309184824315402000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20250619151746735080000000",
@@ -31260,7 +31548,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48206",
     "listPrice": 150000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 2459,
     "daysOnMarket": 0,
@@ -31269,7 +31557,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250619151746735080000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260310164712263305000000",
@@ -31288,7 +31576,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310164712263305000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20260205110632395500000000",
@@ -31300,14 +31588,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 975,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260205110632395500000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251202015032401546000000",
@@ -31317,16 +31605,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "detroit-mi",
     "zip": "48225",
     "listPrice": 154999,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251202015032401546000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   },
   {
     "id": "20251126200133506901000000",
@@ -31345,7 +31633,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251126200133506901000000",
-    "lastUpdated": "2026-06-05T17:46:48.399Z"
+    "lastUpdated": "2026-06-05T17:57:51.779Z"
   }
 ],
 
@@ -31358,16 +31646,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 72000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605010350861189000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260605002438179032000000",
@@ -31377,16 +31665,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 100000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260605002438179032000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260604161951913483000000",
@@ -31405,7 +31693,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604161951913483000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260528155211963333000000",
@@ -31424,7 +31712,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528155211963333000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260527013735865107000000",
@@ -31434,16 +31722,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48506",
     "listPrice": 20000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527013735865107000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260413150320095952000000",
@@ -31462,7 +31750,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260413150320095952000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260501214219652641000000",
@@ -31474,14 +31762,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 950,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501214219652641000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260501213424365796000000",
@@ -31493,14 +31781,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1150,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501213424365796000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260111200524366519000000",
@@ -31510,8 +31798,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48502",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 2662,
     "daysOnMarket": 0,
     "status": "active",
@@ -31519,7 +31807,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260111200524366519000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251214205208999500000000",
@@ -31529,16 +31817,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251214205208999500000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251214210648954862000000",
@@ -31548,16 +31836,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251214210648954862000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251214211622473053000000",
@@ -31567,16 +31855,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251214211622473053000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251214211209309502000000",
@@ -31586,16 +31874,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251214211209309502000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251214212105019546000000",
@@ -31605,16 +31893,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251214212105019546000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251214205813870970000000",
@@ -31624,16 +31912,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251214205813870970000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251214210249259444000000",
@@ -31643,16 +31931,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "flint-mi",
     "zip": "48505",
     "listPrice": 2000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251214210249259444000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260424233615060222000000",
@@ -31671,7 +31959,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260424233615060222000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20260203143826847952000000",
@@ -31690,7 +31978,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260203143826847952000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.045Z"
   },
   {
     "id": "20251027165334770287000000",
@@ -31709,7 +31997,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251027165334770287000000",
-    "lastUpdated": "2026-06-05T17:46:49.368Z"
+    "lastUpdated": "2026-06-05T17:57:54.046Z"
   }
 ],
 
@@ -31731,7 +32019,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260114174053823202000000",
-    "lastUpdated": "2026-06-05T17:46:48.715Z"
+    "lastUpdated": "2026-06-05T17:57:52.210Z"
   }
 ],
 
@@ -31746,14 +32034,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2300,
     "beds": 2,
     "baths": 0,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603165333416605000000",
-    "lastUpdated": "2026-06-05T17:46:49.040Z"
+    "lastUpdated": "2026-06-05T17:57:52.722Z"
   },
   {
     "id": "20260515154908102374000000",
@@ -31772,7 +32060,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515154908102374000000",
-    "lastUpdated": "2026-06-05T17:46:49.040Z"
+    "lastUpdated": "2026-06-05T17:57:52.722Z"
   },
   {
     "id": "20260420212539934599000000",
@@ -31791,7 +32079,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420212539934599000000",
-    "lastUpdated": "2026-06-05T17:46:49.040Z"
+    "lastUpdated": "2026-06-05T17:57:52.722Z"
   },
   {
     "id": "20260506052936103138000000",
@@ -31810,7 +32098,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506052936103138000000",
-    "lastUpdated": "2026-06-05T17:46:49.040Z"
+    "lastUpdated": "2026-06-05T17:57:52.722Z"
   },
   {
     "id": "20260429011652315033000000",
@@ -31829,7 +32117,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429011652315033000000",
-    "lastUpdated": "2026-06-05T17:46:49.040Z"
+    "lastUpdated": "2026-06-05T17:57:52.722Z"
   },
   {
     "id": "20260316144826996017000000",
@@ -31848,7 +32136,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316144826996017000000",
-    "lastUpdated": "2026-06-05T17:46:49.040Z"
+    "lastUpdated": "2026-06-05T17:57:52.722Z"
   }
 ],
 
@@ -31870,7 +32158,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522184038277249000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260310191758730658000000",
@@ -31889,7 +32177,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260310191758730658000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260529134121306228000000",
@@ -31908,7 +32196,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529134121306228000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260526022253242019000000",
@@ -31927,7 +32215,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526022253242019000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260430142546710826000000",
@@ -31946,7 +32234,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430142546710826000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260511162420528606000000",
@@ -31965,7 +32253,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511162420528606000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260502010546057857000000",
@@ -31984,7 +32272,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260502010546057857000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20250908160558104601000000",
@@ -32003,7 +32291,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250908160558104601000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20250714182943651076000000",
@@ -32013,16 +32301,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "howell-mi",
     "zip": "48843",
     "listPrice": 4590000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": true,
     "sparkListingId": "20250714182943651076000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260304142945155479000000",
@@ -32041,7 +32329,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304142945155479000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260420173103080699000000",
@@ -32060,7 +32348,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420173103080699000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260508135837028043000000",
@@ -32070,16 +32358,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "howell-mi",
     "zip": "48843",
     "listPrice": 135000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508135837028043000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260427181243248990000000",
@@ -32098,7 +32386,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427181243248990000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   },
   {
     "id": "20260316072507937793000000",
@@ -32110,18 +32398,667 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1450,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316072507937793000000",
-    "lastUpdated": "2026-06-05T17:46:33.794Z"
+    "lastUpdated": "2026-06-05T17:57:36.575Z"
   }
 ],
 
   "lake-orion-mi": [],
+
+  "livonia-mi": [
+  {
+    "id": "20260604213723307300000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "34180 Parkdale Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 369000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1860,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604213723307300000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260513184844506562000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "35968 Jamison Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 339900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1528,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260513184844506562000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260408190134945314000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14521 Merriman Road",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 230000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1374,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260408190134945314000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260601112714975275000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "16874 Farmington Road",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 284900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1735,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601112714975275000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260528185106624853000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "9425 Lamont Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 369900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1934,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260528185106624853000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260511160553919957000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "19152 Weyher Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 224900,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 858,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260511160553919957000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260527142421372139000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "38560 Mason Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 350000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1094,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260527142421372139000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260218141423611085000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "32619 Greenland Court",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 599900,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2263,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260218141423611085000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260504231002662042000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "16992 Farmington Road",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 287500,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1735,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260504231002662042000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260425162623164253000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "15698 Oakhill Court",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 459900,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2089,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260425162623164253000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260517022905109295000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14165 Alexander",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 347000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1120,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260517022905109295000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260221171050829181000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "18547 Hillcrest Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 1900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260221171050829181000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260415144942492004000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "33377 Norfolk Street 3",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 419000,
+    "beds": 3,
+    "baths": 4,
+    "sqft": 1836,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260415144942492004000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260505183844154135000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "32633 6 Mile Road",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 294900,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1546,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260505183844154135000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20251016151209322724000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "27725 Norfolk Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 160000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1188,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251016151209322724000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20251104232134405080000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "18570 Pershing Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 65000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251104232134405080000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20251114211222961894000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "18590 Pershing Avenue",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 65000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251114211222961894000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260422190719519271000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37234 Joy Road",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 439900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1592,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260422190719519271000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260418034410610574000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37276 Six Mile Road 103",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 136,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 115,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Land",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260418034410610574000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20251031182203532388000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "10982 Middlebelt Road",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 12,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 9710,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Land",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251031182203532388000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260528225349581244000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "11835 Arcola Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 249900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1073,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260528225349581244000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260421191847631376000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "33725 Cindy Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 265000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1166,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260421191847631376000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260515144115982290000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37183 Vargo",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 2950,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260515144115982290000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260522132504610099000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37951 Grantland Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 250000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1520,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522132504610099000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260508161440540980000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "28429 Cleveland",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 269900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 988,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260508161440540980000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260501152319375105000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "20435 Louise Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 214900,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1104,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260501152319375105000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260513191104999700000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37658 Ladywood",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 519900,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 2101,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260513191104999700000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260429175659578495000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "36716 Rayburn",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 375000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 2040,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260429175659578495000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260416181014490413000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "29502 Bobrich Street 23",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 129900,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 717,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260416181014490413000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260328233254761904000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "8915 Deering Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 250000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1443,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260328233254761904000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260304182810643740000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "29138 Minton",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 244900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1026,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260304182810643740000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260430164745958015000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37830 Margareta Drive",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48152",
+    "listPrice": 349900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1379,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260430164745958015000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260407152457439964000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "30280 Joy Road",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48150",
+    "listPrice": 234900,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1535,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260407152457439964000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  },
+  {
+    "id": "20260319010138065941000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14142 Arden Street",
+    "city": "Livonia",
+    "slug": "livonia-mi",
+    "zip": "48154",
+    "listPrice": 340000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1134,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260319010138065941000000",
+    "lastUpdated": "2026-06-05T17:57:53.631Z"
+  }
+],
 
   "macomb-township-mi": [
   {
@@ -32141,7 +33078,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420150746092924000000",
-    "lastUpdated": "2026-06-05T17:46:35.229Z"
+    "lastUpdated": "2026-06-05T17:57:39.159Z"
   },
   {
     "id": "20260526200355890193000000",
@@ -32160,7 +33097,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526200355890193000000",
-    "lastUpdated": "2026-06-05T17:46:35.229Z"
+    "lastUpdated": "2026-06-05T17:57:39.159Z"
   },
   {
     "id": "20260520185324929312000000",
@@ -32179,7 +33116,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520185324929312000000",
-    "lastUpdated": "2026-06-05T17:46:35.229Z"
+    "lastUpdated": "2026-06-05T17:57:39.159Z"
   },
   {
     "id": "20260526141900887041000000",
@@ -32198,7 +33135,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526141900887041000000",
-    "lastUpdated": "2026-06-05T17:46:35.229Z"
+    "lastUpdated": "2026-06-05T17:57:39.159Z"
   },
   {
     "id": "20251217181726886002000000",
@@ -32217,7 +33154,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251217181726886002000000",
-    "lastUpdated": "2026-06-05T17:46:35.229Z"
+    "lastUpdated": "2026-06-05T17:57:39.159Z"
   },
   {
     "id": "20260505110356309139000000",
@@ -32229,14 +33166,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 3,
     "baths": 3.1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505110356309139000000",
-    "lastUpdated": "2026-06-05T17:46:35.229Z"
+    "lastUpdated": "2026-06-05T17:57:39.159Z"
   }
 ],
 
@@ -32258,7 +33195,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603130351854714000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260603024140415963000000",
@@ -32277,7 +33214,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603024140415963000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260421174156771962000000",
@@ -32296,7 +33233,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421174156771962000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260519192905720218000000",
@@ -32315,7 +33252,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519192905720218000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260430220330783366000000",
@@ -32334,7 +33271,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430220330783366000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260531194353982209000000",
@@ -32353,7 +33290,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260531194353982209000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260527215309821386000000",
@@ -32372,7 +33309,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527215309821386000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20251015152053570140000000",
@@ -32391,7 +33328,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251015152053570140000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260113233744499180000000",
@@ -32401,16 +33338,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 374500,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260113233744499180000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260513191318742292000000",
@@ -32422,14 +33359,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4000,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513191318742292000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260113221533194364000000",
@@ -32441,14 +33378,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2180,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260113221533194364000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260222192031145155000000",
@@ -32467,7 +33404,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260222192031145155000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260117194658538818000000",
@@ -32486,7 +33423,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260117194658538818000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260117182644397264000000",
@@ -32505,7 +33442,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260117182644397264000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260214174121453649000000",
@@ -32524,7 +33461,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260214174121453649000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260220000452374203000000",
@@ -32543,7 +33480,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": true,
     "sparkListingId": "20260220000452374203000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260128230954416635000000",
@@ -32562,7 +33499,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260128230954416635000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260202232135098961000000",
@@ -32574,14 +33511,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1800,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260202232135098961000000",
-    "lastUpdated": "2026-06-05T17:46:34.243Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20250712202351856755000000",
@@ -32591,16 +33528,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 442500,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250712202351856755000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20250715232434712860000000",
@@ -32610,16 +33547,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 442500,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250715232434712860000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20250715233528884215000000",
@@ -32629,16 +33566,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 895000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250715233528884215000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20250716182637511368000000",
@@ -32648,16 +33585,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 475000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250716182637511368000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260118114945094077000000",
@@ -32676,7 +33613,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260118114945094077000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260207144459017259000000",
@@ -32695,7 +33632,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260207144459017259000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260118114924115339000000",
@@ -32714,7 +33651,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260118114924115339000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260118115452298000000000",
@@ -32726,14 +33663,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260118115452298000000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260118114835691986000000",
@@ -32743,16 +33680,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 498900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260118114835691986000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260118114808231083000000",
@@ -32762,16 +33699,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 388900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260118114808231083000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20251023112306384993000000",
@@ -32790,7 +33727,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251023112306384993000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20251023124317334214000000",
@@ -32809,7 +33746,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251023124317334214000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20251023101223767961000000",
@@ -32828,7 +33765,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251023101223767961000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20251003012508482680000000",
@@ -32838,8 +33775,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 3500,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 700,
     "daysOnMarket": 0,
     "status": "active",
@@ -32847,7 +33784,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251003012508482680000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260330194744865790000000",
@@ -32866,7 +33803,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330194744865790000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260428174323648782000000",
@@ -32885,7 +33822,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428174323648782000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20260403035852820376000000",
@@ -32904,7 +33841,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403035852820376000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20251012200128297815000000",
@@ -32914,16 +33851,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "northville-mi",
     "zip": "48167",
     "listPrice": 1000000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251012200128297815000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20251022135352147554000000",
@@ -32942,7 +33879,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251022135352147554000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
   },
   {
     "id": "20250514181916875273000000",
@@ -32961,7 +33898,257 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250514181916875273000000",
-    "lastUpdated": "2026-06-05T17:46:34.244Z"
+    "lastUpdated": "2026-06-05T17:57:37.012Z"
+  }
+],
+
+  "novi-mi": [
+  {
+    "id": "20260601153924634901000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "45432 White Pines Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48374",
+    "listPrice": 674900,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 2509,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601153924634901000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260602133835608922000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "27902 Hopkins Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48377",
+    "listPrice": 2350,
+    "beds": 2,
+    "baths": 3,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602133835608922000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260603024738364102000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "26375 Glenwood Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48374",
+    "listPrice": 998000,
+    "beds": 4,
+    "baths": 5,
+    "sqft": 3769,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260603024738364102000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260504165659966094000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "44510 Ellery Lane",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48377",
+    "listPrice": 2450,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260504165659966094000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260526132338695432000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "21934 Shadybrook Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48375",
+    "listPrice": 465000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1817,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260526132338695432000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260508225154686789000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "24264 Bashian Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48375",
+    "listPrice": 252500,
+    "beds": 2,
+    "baths": 3,
+    "sqft": 1276,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260508225154686789000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20250102211043055763000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "26900 Napier Road",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48374",
+    "listPrice": 950000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2461,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20250102211043055763000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260220205344533994000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "9 Mile Road",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48375",
+    "listPrice": 2200000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260220205344533994000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20250102211026551248000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "26800 Napier Road",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48374",
+    "listPrice": 295000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20250102211026551248000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260527200100261625000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "46571 Galway Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48374",
+    "listPrice": 945000,
+    "beds": 5,
+    "baths": 5,
+    "sqft": 3455,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260527200100261625000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260527225624619404000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "23260 Ennishore Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48375",
+    "listPrice": 499000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2578,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260527225624619404000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260507195021028896000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "27898 Hopkins Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48377",
+    "listPrice": 2250,
+    "beds": 2,
+    "baths": 3,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260507195021028896000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
+  },
+  {
+    "id": "20260120133706153648000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "28235 Carlton Way Drive",
+    "city": "Novi",
+    "slug": "novi-mi",
+    "zip": "48377",
+    "listPrice": 2300,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260120133706153648000000",
+    "lastUpdated": "2026-06-05T17:57:35.431Z"
   }
 ],
 
@@ -32983,7 +34170,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427152252782669000000",
-    "lastUpdated": "2026-06-05T17:46:31.781Z"
+    "lastUpdated": "2026-06-05T17:57:33.748Z"
   },
   {
     "id": "20251116235311425739000000",
@@ -33002,7 +34189,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251116235311425739000000",
-    "lastUpdated": "2026-06-05T17:46:31.781Z"
+    "lastUpdated": "2026-06-05T17:57:33.748Z"
   },
   {
     "id": "20260421215201457005000000",
@@ -33021,7 +34208,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421215201457005000000",
-    "lastUpdated": "2026-06-05T17:46:31.781Z"
+    "lastUpdated": "2026-06-05T17:57:33.748Z"
   },
   {
     "id": "20260419180304383622000000",
@@ -33040,7 +34227,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260419180304383622000000",
-    "lastUpdated": "2026-06-05T17:46:31.781Z"
+    "lastUpdated": "2026-06-05T17:57:33.748Z"
   },
   {
     "id": "20260331201723641756000000",
@@ -33059,7 +34246,29 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331201723641756000000",
-    "lastUpdated": "2026-06-05T17:46:31.781Z"
+    "lastUpdated": "2026-06-05T17:57:33.748Z"
+  }
+],
+
+  "oxford-mi": [
+  {
+    "id": "20260408121757273202000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3371 Noble Road",
+    "city": "Oxford",
+    "slug": "oxford-mi",
+    "zip": "48370",
+    "listPrice": 3499999,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2400,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260408121757273202000000",
+    "lastUpdated": "2026-06-05T17:57:35.686Z"
   }
 ],
 
@@ -33072,8 +34281,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "plymouth-mi",
     "zip": "48170",
     "listPrice": 50,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 368,
     "daysOnMarket": 0,
     "status": "active",
@@ -33081,7 +34290,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528145702626129000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260421013135496026000000",
@@ -33100,7 +34309,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421013135496026000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260512135544141178000000",
@@ -33119,7 +34328,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512135544141178000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260521132310640839000000",
@@ -33138,7 +34347,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521132310640839000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260602180949264564000000",
@@ -33157,7 +34366,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602180949264564000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260604191228325897000000",
@@ -33167,8 +34376,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "plymouth-mi",
     "zip": "48170",
     "listPrice": 21.43,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 1400,
     "daysOnMarket": 0,
     "status": "active",
@@ -33176,7 +34385,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604191228325897000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260604183115356495000000",
@@ -33188,14 +34397,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1300,
     "beds": 1,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260604183115356495000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260224153625811462000000",
@@ -33214,7 +34423,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260224153625811462000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260519125232760958000000",
@@ -33233,7 +34442,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519125232760958000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260527043720351065000000",
@@ -33252,7 +34461,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527043720351065000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260423124951123030000000",
@@ -33271,7 +34480,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260423124951123030000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260521214105874961000000",
@@ -33290,7 +34499,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521214105874961000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260316134642806931000000",
@@ -33302,14 +34511,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3500,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316134642806931000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260225181850469096000000",
@@ -33321,14 +34530,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3400,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260225181850469096000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260505181603467693000000",
@@ -33347,7 +34556,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260505181603467693000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260217210457766339000000",
@@ -33366,7 +34575,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260217210457766339000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260515190518822858000000",
@@ -33385,7 +34594,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515190518822858000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260508135927740180000000",
@@ -33404,7 +34613,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508135927740180000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260508134627957469000000",
@@ -33423,7 +34632,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508134627957469000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260328223452770614000000",
@@ -33442,7 +34651,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260328223452770614000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20251210011701465589000000",
@@ -33461,7 +34670,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251210011701465589000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20250903150233057777000000",
@@ -33471,8 +34680,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "plymouth-mi",
     "zip": "48170",
     "listPrice": 45.14,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 105,
     "daysOnMarket": 0,
     "status": "active",
@@ -33480,7 +34689,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250903150233057777000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20250826144634210297000000",
@@ -33490,8 +34699,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "plymouth-mi",
     "zip": "48170",
     "listPrice": 35.71,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 168,
     "daysOnMarket": 0,
     "status": "active",
@@ -33499,7 +34708,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250826144634210297000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260428164646198716000000",
@@ -33518,7 +34727,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428164646198716000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260524032930082370000000",
@@ -33537,7 +34746,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524032930082370000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260512211913518029000000",
@@ -33556,7 +34765,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512211913518029000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260519140331662490000000",
@@ -33575,7 +34784,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519140331662490000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260513162243224180000000",
@@ -33594,7 +34803,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260513162243224180000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260325174541681370000000",
@@ -33613,7 +34822,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260325174541681370000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260506132103156070000000",
@@ -33632,7 +34841,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506132103156070000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260421192545694269000000",
@@ -33651,7 +34860,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421192545694269000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20260302183727906059000000",
@@ -33670,7 +34879,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260302183727906059000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20250506154635810190000000",
@@ -33689,7 +34898,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250506154635810190000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20250618145917068378000000",
@@ -33708,7 +34917,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250618145917068378000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
   },
   {
     "id": "20250626171854998186000000",
@@ -33718,16 +34927,839 @@ export const listingsByCity: ListingsByCity = {
     "slug": "plymouth-mi",
     "zip": "48170",
     "listPrice": 324900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250626171854998186000000",
-    "lastUpdated": "2026-06-05T17:46:34.762Z"
+    "lastUpdated": "2026-06-05T17:57:37.584Z"
+  }
+],
+
+  "rochester-hills-mi": [
+  {
+    "id": "20260516184815333577000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "478 Cypress Road",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48309",
+    "listPrice": 580000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2642,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260516184815333577000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260604133950243307000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "546 Parkland Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 549999,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2088,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604133950243307000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260604153039818347000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "306 Antoinette Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48309",
+    "listPrice": 515000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2318,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604153039818347000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260515185000328007000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3801 Fawn Drive",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48306",
+    "listPrice": 818000,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 3120,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260515185000328007000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260601134311057082000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3394 Edmunton Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48306",
+    "listPrice": 600000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2662,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260601134311057082000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260430141427205871000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "4923 Lexington Court",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48306",
+    "listPrice": 625000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2514,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260430141427205871000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260427204539030673000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1859 Allenway Court",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48309",
+    "listPrice": 299900,
+    "beds": 2,
+    "baths": 3,
+    "sqft": 1017,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260427204539030673000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260504192804905550000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "183 Flicker Street",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48309",
+    "listPrice": 49900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 960,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260504192804905550000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260424020214980008000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "950 Gallaland Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 339900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1130,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260424020214980008000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260325201138402303000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1260 Silverbell Road",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48306",
+    "listPrice": 875000,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 3052,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260325201138402303000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260309012503307422000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3242 Salem Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48306",
+    "listPrice": 635000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2799,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260309012503307422000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260219165611466151000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1208 Lear Court",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 165000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1128,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260219165611466151000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260424174241076179000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "456 Essex Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 2750,
+    "beds": 3,
+    "baths": 2.5,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260424174241076179000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20251125183245912805000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5520 Whitehall Boulevard",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48306",
+    "listPrice": 1675000,
+    "beds": 5,
+    "baths": 6,
+    "sqft": 5382,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251125183245912805000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260112195722053012000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3110 Raffler Drive",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 899500,
+    "beds": 5,
+    "baths": 3,
+    "sqft": 3068,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260112195722053012000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260522143615077513000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2938 Dearborn Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48309",
+    "listPrice": 300000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1370,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522143615077513000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260522192050779710000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3153 Bendelow Road",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 424900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1729,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522192050779710000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260413164727660971000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2119 Cattail Circle",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48309",
+    "listPrice": 499900,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 2351,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260413164727660971000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260514003148301554000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3636 Alida Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48309",
+    "listPrice": 324900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1040,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260514003148301554000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260519131555945671000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3727 Hogan Circle",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 659000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 2468,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260519131555945671000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260428163134179888000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2070 Winchester Road",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 435000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1680,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260428163134179888000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260309132545030464000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2654 Quail Run Street",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48306",
+    "listPrice": 400000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1623,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260309132545030464000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260102161711990761000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3845 Hazelton Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 700000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2600,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260102161711990761000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260330135206569348000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1053 Autumnview Court",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 809953,
+    "beds": 4,
+    "baths": 5,
+    "sqft": 3098,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260330135206569348000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  },
+  {
+    "id": "20260324161006626208000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1354 Catalpa Drive",
+    "city": "Rochester",
+    "slug": "rochester-hills-mi",
+    "zip": "48307",
+    "listPrice": 2400,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260324161006626208000000",
+    "lastUpdated": "2026-06-05T17:57:32.747Z"
+  }
+],
+
+  "rochester-mi": [
+  {
+    "id": "20260516184815333577000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "478 Cypress Road",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48309",
+    "listPrice": 580000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2642,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260516184815333577000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260604133950243307000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "546 Parkland Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 549999,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2088,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604133950243307000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260604153039818347000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "306 Antoinette Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48309",
+    "listPrice": 515000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2318,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260604153039818347000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260427204539030673000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1859 Allenway Court",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48309",
+    "listPrice": 299900,
+    "beds": 2,
+    "baths": 3,
+    "sqft": 1017,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260427204539030673000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260504192804905550000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "183 Flicker Street",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48309",
+    "listPrice": 49900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 960,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260504192804905550000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260424020214980008000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "950 Gallaland Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 339900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1130,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260424020214980008000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260219165611466151000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1208 Lear Court",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 165000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1128,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260219165611466151000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260424174241076179000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "456 Essex Drive",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 2750,
+    "beds": 3,
+    "baths": 2.5,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260424174241076179000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260112195722053012000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3110 Raffler Drive",
+    "city": "Rochester",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 899500,
+    "beds": 5,
+    "baths": 3,
+    "sqft": 3068,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260112195722053012000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260522143615077513000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2938 Dearborn Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48309",
+    "listPrice": 300000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1370,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522143615077513000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260522192050779710000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3153 Bendelow Road",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 424900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1729,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260522192050779710000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260413164727660971000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2119 Cattail Circle",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48309",
+    "listPrice": 499900,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 2351,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260413164727660971000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260514003148301554000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3636 Alida Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48309",
+    "listPrice": 324900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1040,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260514003148301554000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260519131555945671000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3727 Hogan Circle",
+    "city": "Rochester",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 659000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 2468,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260519131555945671000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260428163134179888000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2070 Winchester Road",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 435000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1680,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260428163134179888000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260102161711990761000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "3845 Hazelton Avenue",
+    "city": "Rochester Hills",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 700000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2600,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260102161711990761000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260330135206569348000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1053 Autumnview Court",
+    "city": "Rochester",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 809953,
+    "beds": 4,
+    "baths": 5,
+    "sqft": 3098,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260330135206569348000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
+  },
+  {
+    "id": "20260324161006626208000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "1354 Catalpa Drive",
+    "city": "Rochester",
+    "slug": "rochester-mi",
+    "zip": "48307",
+    "listPrice": 2400,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260324161006626208000000",
+    "lastUpdated": "2026-06-05T17:57:32.233Z"
   }
 ],
 
@@ -33749,7 +35781,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527123342242468000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260504161759542451000000",
@@ -33761,14 +35793,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1700,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504161759542451000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260512134157059477000000",
@@ -33787,7 +35819,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512134157059477000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260520114150067423000000",
@@ -33806,7 +35838,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260520114150067423000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260527201942153838000000",
@@ -33825,7 +35857,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260527201942153838000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260526190228356234000000",
@@ -33844,7 +35876,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526190228356234000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260401203143838638000000",
@@ -33854,16 +35886,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "royal-oak-mi",
     "zip": "48067",
     "listPrice": 525000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401203143838638000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260508135309917632000000",
@@ -33882,7 +35914,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508135309917632000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   },
   {
     "id": "20260313160214924794000000",
@@ -33901,7 +35933,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260313160214924794000000",
-    "lastUpdated": "2026-06-05T17:46:32.242Z"
+    "lastUpdated": "2026-06-05T17:57:34.266Z"
   }
 ],
 
@@ -33923,7 +35955,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602195258635211000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260602030534141244000000",
@@ -33942,7 +35974,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260602030534141244000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260507101015899088000000",
@@ -33961,7 +35993,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507101015899088000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260507175531139555000000",
@@ -33980,7 +36012,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507175531139555000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260528171417007928000000",
@@ -33999,7 +36031,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528171417007928000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260511003518920081000000",
@@ -34018,7 +36050,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260511003518920081000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260508160419092522000000",
@@ -34028,7 +36060,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 975000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 5492,
     "daysOnMarket": 0,
@@ -34037,7 +36069,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508160419092522000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260504031446182244000000",
@@ -34056,7 +36088,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260504031446182244000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260601192221041267000000",
@@ -34066,16 +36098,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 149900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601192221041267000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260518225851269400000000",
@@ -34094,7 +36126,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260518225851269400000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260526163512471741000000",
@@ -34113,7 +36145,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260526163512471741000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260413150316490921000000",
@@ -34132,7 +36164,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260413150316490921000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251003115406900140000000",
@@ -34151,7 +36183,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251003115406900140000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260512123932705223000000",
@@ -34170,7 +36202,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512123932705223000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260317092530423568000000",
@@ -34189,7 +36221,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260317092530423568000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260428235928916884000000",
@@ -34208,7 +36240,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428235928916884000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260418180231527889000000",
@@ -34227,7 +36259,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260418180231527889000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260501135356708356000000",
@@ -34246,7 +36278,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501135356708356000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260417015451492881000000",
@@ -34256,7 +36288,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 285000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 1000,
     "daysOnMarket": 0,
@@ -34265,7 +36297,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417015451492881000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260519151719607108000000",
@@ -34284,7 +36316,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260519151719607108000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260422035735773274000000",
@@ -34303,7 +36335,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260422035735773274000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260403133123148513000000",
@@ -34322,7 +36354,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403133123148513000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260530111400525031000000",
@@ -34334,14 +36366,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2800,
     "beds": 2,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260530111400525031000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260529160749164282000000",
@@ -34353,14 +36385,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 5900,
     "beds": 6,
     "baths": 5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529160749164282000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260529150850864175000000",
@@ -34370,16 +36402,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 425000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Commercial",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260529150850864175000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260522180539286474000000",
@@ -34398,7 +36430,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260522180539286474000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260427164034658419000000",
@@ -34417,7 +36449,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427164034658419000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250516203925646022000000",
@@ -34427,16 +36459,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 289900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250516203925646022000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260514185019738172000000",
@@ -34448,14 +36480,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 4000,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514185019738172000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260126191342073157000000",
@@ -34474,7 +36506,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260126191342073157000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260127170520985577000000",
@@ -34484,16 +36516,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 79900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260127170520985577000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260405014519265975000000",
@@ -34503,7 +36535,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 319900,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 1758,
     "daysOnMarket": 0,
@@ -34512,7 +36544,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260405014519265975000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260113230821549866000000",
@@ -34531,7 +36563,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260113230821549866000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260417121004683372000000",
@@ -34550,7 +36582,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260417121004683372000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251106150959621980000000",
@@ -34560,16 +36592,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 149900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251106150959621980000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251003130019195863000000",
@@ -34588,7 +36620,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251003130019195863000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250904015020126542000000",
@@ -34607,7 +36639,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250904015020126542000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250904111522191821000000",
@@ -34626,7 +36658,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250904111522191821000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20231022161602433865000000",
@@ -34645,7 +36677,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231022161602433865000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251003111916173604000000",
@@ -34664,7 +36696,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251003111916173604000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260127114347779014000000",
@@ -34674,16 +36706,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 199900,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260127114347779014000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260403145241778812000000",
@@ -34702,7 +36734,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403145241778812000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260510162130248215000000",
@@ -34721,7 +36753,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260510162130248215000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260413173428901964000000",
@@ -34733,14 +36765,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1400,
     "beds": 2,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260413173428901964000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250805161543019603000000",
@@ -34759,7 +36791,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250805161543019603000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250924153003634681000000",
@@ -34778,7 +36810,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250924153003634681000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260312175112469668000000",
@@ -34788,16 +36820,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 59500,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312175112469668000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260506164828523748000000",
@@ -34816,7 +36848,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506164828523748000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260507174908020995000000",
@@ -34835,7 +36867,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": true,
     "sparkListingId": "20260507174908020995000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260427152735788033000000",
@@ -34854,7 +36886,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427152735788033000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260304182447785260000000",
@@ -34873,7 +36905,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304182447785260000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251121121134069473000000",
@@ -34892,7 +36924,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251121121134069473000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250827181307299728000000",
@@ -34911,7 +36943,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250827181307299728000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250912140038084317000000",
@@ -34930,7 +36962,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250912140038084317000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260317190818607665000000",
@@ -34949,7 +36981,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260317190818607665000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251010144848940865000000",
@@ -34968,7 +37000,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251010144848940865000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260416175441056660000000",
@@ -34978,8 +37010,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 13.95,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 12100,
     "daysOnMarket": 0,
     "status": "active",
@@ -34987,7 +37019,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260416175441056660000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260323124313933730000000",
@@ -34997,16 +37029,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 225000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260323124313933730000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260330182752801268000000",
@@ -35025,7 +37057,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330182752801268000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260318181947676435000000",
@@ -35044,7 +37076,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260318181947676435000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251204182158466967000000",
@@ -35063,7 +37095,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251204182158466967000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260307200901041724000000",
@@ -35075,14 +37107,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2900,
     "beds": 2,
     "baths": 2.1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260307200901041724000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250624132919861944000000",
@@ -35092,16 +37124,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 390000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250624132919861944000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260223165116669519000000",
@@ -35111,8 +37143,8 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 15,
-    "beds": "********",
-    "baths": "********",
+    "beds": 0,
+    "baths": 0,
     "sqft": 9996,
     "daysOnMarket": 0,
     "status": "active",
@@ -35120,7 +37152,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260223165116669519000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251202140920841532000000",
@@ -35130,16 +37162,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 409000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251202140920841532000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260224172246557394000000",
@@ -35149,16 +37181,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 250000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260224172246557394000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20230906164149419602000000",
@@ -35168,16 +37200,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 155000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230906164149419602000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20230831223644968589000000",
@@ -35187,16 +37219,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 165000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230831223644968589000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250221215349631949000000",
@@ -35206,7 +37238,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 1000500,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 4594,
     "daysOnMarket": 0,
@@ -35215,7 +37247,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250221215349631949000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20231012173350241003000000",
@@ -35234,7 +37266,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231012173350241003000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20231022125728711054000000",
@@ -35253,7 +37285,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231022125728711054000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260420130147105253000000",
@@ -35272,7 +37304,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420130147105253000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260330173417105506000000",
@@ -35284,14 +37316,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2700,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330173417105506000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260427180529628635000000",
@@ -35310,7 +37342,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427180529628635000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20250823231325529457000000",
@@ -35320,16 +37352,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "saline-mi",
     "zip": "48176",
     "listPrice": 215000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250823231325529457000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260521023211652777000000",
@@ -35348,7 +37380,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260521023211652777000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260429151346266290000000",
@@ -35367,7 +37399,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429151346266290000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260501153611803600000000",
@@ -35379,14 +37411,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2800,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260501153611803600000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260303192806502868000000",
@@ -35405,7 +37437,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260303192806502868000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260407150259858729000000",
@@ -35424,7 +37456,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260407150259858729000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260304202926466702000000",
@@ -35443,7 +37475,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260304202926466702000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260506213125328463000000",
@@ -35462,7 +37494,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260506213125328463000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260107180630657470000000",
@@ -35481,7 +37513,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260107180630657470000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260320001644101601000000",
@@ -35493,14 +37525,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3800,
     "beds": 3,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260320001644101601000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260423195957071408000000",
@@ -35519,7 +37551,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260423195957071408000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260403135759602846000000",
@@ -35538,7 +37570,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260403135759602846000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260312185956826942000000",
@@ -35557,7 +37589,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312185956826942000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260312183706058239000000",
@@ -35576,7 +37608,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312183706058239000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20260116154604430795000000",
@@ -35595,7 +37627,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260116154604430795000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251107211216534260000000",
@@ -35614,7 +37646,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251107211216534260000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251107200812576376000000",
@@ -35633,7 +37665,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251107200812576376000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20251107195038196365000000",
@@ -35652,7 +37684,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251107195038196365000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20241003143848938927000000",
@@ -35671,7 +37703,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20241003143848938927000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20230906221238881597000000",
@@ -35690,7 +37722,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20230906221238881597000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
   },
   {
     "id": "20231012165429976638000000",
@@ -35702,14 +37734,245 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 5650,
     "beds": 5,
     "baths": 5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20231012165429976638000000",
-    "lastUpdated": "2026-06-05T17:46:39.803Z"
+    "lastUpdated": "2026-06-05T17:57:45.365Z"
+  }
+],
+
+  "shelby-township-mi": [
+  {
+    "id": "20260318210301603557000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "52018 Loon Court",
+    "city": "Shelby Twp",
+    "slug": "shelby-township-mi",
+    "zip": "48315",
+    "listPrice": 799000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 3800,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260318210301603557000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260513031136509567000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "45315 Kensington Street",
+    "city": "Utica",
+    "slug": "shelby-township-mi",
+    "zip": "48317",
+    "listPrice": 112000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1296,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260513031136509567000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260513175746926791000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "56260 Troon N",
+    "city": "Utica",
+    "slug": "shelby-township-mi",
+    "zip": "48316",
+    "listPrice": 239000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1066,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260513175746926791000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260529141830738613000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14017 Towering Oaks Drive",
+    "city": "Utica",
+    "slug": "shelby-township-mi",
+    "zip": "48315",
+    "listPrice": 550000,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 2758,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260529141830738613000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260602172447108221000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "11347 N Woods Drive",
+    "city": "Utica",
+    "slug": "shelby-township-mi",
+    "zip": "48317",
+    "listPrice": 269999,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1253,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260602172447108221000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260527191644250481000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "47709 Greenview Road",
+    "city": "Utica",
+    "slug": "shelby-township-mi",
+    "zip": "48317",
+    "listPrice": 225000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 922,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260527191644250481000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260430155013407348000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "48797 Lansdowne Court",
+    "city": "Shelby Twp",
+    "slug": "shelby-township-mi",
+    "zip": "48317",
+    "listPrice": 479900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2142,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260430155013407348000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260415140559986085000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "45199 Cass Avenue",
+    "city": "Utica",
+    "slug": "shelby-township-mi",
+    "zip": "48317",
+    "listPrice": 800000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 3943,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Multi-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260415140559986085000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260329000656376958000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "8480 Rosecrest Court",
+    "city": "Shelby Twp",
+    "slug": "shelby-township-mi",
+    "zip": "48316",
+    "listPrice": 119999,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260329000656376958000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260206211550223381000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "8820 Russell Street",
+    "city": "Shelby Twp",
+    "slug": "shelby-township-mi",
+    "zip": "48317",
+    "listPrice": 399900,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Commercial",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260206211550223381000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260514140151404068000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "46329 Huling Street",
+    "city": "Shelby Twp",
+    "slug": "shelby-township-mi",
+    "zip": "48317",
+    "listPrice": 279900,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1054,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260514140151404068000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
+  },
+  {
+    "id": "20260402213216781984000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "14164 Bayberry Drive",
+    "city": "Shelby Twp",
+    "slug": "shelby-township-mi",
+    "zip": "48315",
+    "listPrice": 919900,
+    "beds": 5,
+    "baths": 6,
+    "sqft": 4465,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260402213216781984000000",
+    "lastUpdated": "2026-06-05T17:57:38.012Z"
   }
 ],
 
@@ -35731,7 +37994,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250603201149469015000000",
-    "lastUpdated": "2026-06-05T17:46:35.564Z"
+    "lastUpdated": "2026-06-05T17:57:39.609Z"
   },
   {
     "id": "20260523160920107681000000",
@@ -35750,7 +38013,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260523160920107681000000",
-    "lastUpdated": "2026-06-05T17:46:35.564Z"
+    "lastUpdated": "2026-06-05T17:57:39.609Z"
   },
   {
     "id": "20260305120544533238000000",
@@ -35769,7 +38032,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305120544533238000000",
-    "lastUpdated": "2026-06-05T17:46:35.564Z"
+    "lastUpdated": "2026-06-05T17:57:39.609Z"
   },
   {
     "id": "20260523001945276883000000",
@@ -35788,7 +38051,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260523001945276883000000",
-    "lastUpdated": "2026-06-05T17:46:35.564Z"
+    "lastUpdated": "2026-06-05T17:57:39.609Z"
   },
   {
     "id": "20251029184903211113000000",
@@ -35807,7 +38070,314 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251029184903211113000000",
-    "lastUpdated": "2026-06-05T17:46:35.564Z"
+    "lastUpdated": "2026-06-05T17:57:39.609Z"
+  }
+],
+
+  "sterling-heights-mi": [
+  {
+    "id": "20260429203737990913000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "12415 Clinton River Road",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48313",
+    "listPrice": 245900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 912,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260429203737990913000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260529201703418364000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "8065 Ogden Drive",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48314",
+    "listPrice": 279900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1282,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260529201703418364000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260527160328049596000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "39511 Helena Avenue",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48313",
+    "listPrice": 299000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1352,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260527160328049596000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260508123517472635000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "2252 Winston Drive",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48310",
+    "listPrice": 1800,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Rental",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260508123517472635000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260516152601111320000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37102 Aberdeen Drive 10",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48312",
+    "listPrice": 140000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 984,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260516152601111320000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20250322145816438712000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "13001 E 14 Mile Road",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48312",
+    "listPrice": 495000,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Condo",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20250322145816438712000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260122202849046518000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "37600 Van Dyke Avenue",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48312",
+    "listPrice": 14,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 126018,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Land",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260122202849046518000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260116205212143805000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "44533 Schoenherr Road",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48313",
+    "listPrice": 18,
+    "beds": 0,
+    "baths": 0,
+    "sqft": 41003,
+    "daysOnMarket": 0,
+    "status": "active",
+    "propertyType": "Land",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260116205212143805000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260527193415868308000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "12641 Raleigh Drive",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48313",
+    "listPrice": 225000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 912,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260527193415868308000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260419110548447290000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "33633 Swan Drive",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48312",
+    "listPrice": 284900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1511,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260419110548447290000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260513225746850497000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "35340 Monza Court",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48312",
+    "listPrice": 250000,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 1884,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260513225746850497000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260503200936383461000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "33455 Elgin Court",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48310",
+    "listPrice": 259900,
+    "beds": 1,
+    "baths": 4,
+    "sqft": 1442,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260503200936383461000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260416024545093412000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "5620 ` Victory Circle",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48310",
+    "listPrice": 265000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1243,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260416024545093412000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20251223152511734944000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "13070 Picadilly Drive",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48312",
+    "listPrice": 349900,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1330,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20251223152511734944000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260221173946935896000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "42359 Sable Boulevard",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48314",
+    "listPrice": 454900,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2030,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260221173946935896000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
+  },
+  {
+    "id": "20260212220346099196000000",
+    "mlsNumber": "20140402194227539412000000",
+    "address": "34617 Greentrees Road",
+    "city": "Sterling Heights",
+    "slug": "sterling-heights-mi",
+    "zip": "48312",
+    "listPrice": 287350,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1347,
+    "daysOnMarket": 0,
+    "status": "pending",
+    "propertyType": "Single-Family",
+    "imageUrl": "",
+    "isFeatured": false,
+    "sparkListingId": "20260212220346099196000000",
+    "lastUpdated": "2026-06-05T17:57:38.520Z"
   }
 ],
 
@@ -35829,7 +38399,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260508143812920440000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   },
   {
     "id": "20260507192020534640000000",
@@ -35848,7 +38418,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260507192020534640000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   },
   {
     "id": "20260524224653346640000000",
@@ -35860,14 +38430,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2350,
     "beds": 2,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260524224653346640000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   },
   {
     "id": "20251109192211700503000000",
@@ -35886,7 +38456,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251109192211700503000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   },
   {
     "id": "20251109183543816704000000",
@@ -35905,7 +38475,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251109183543816704000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   },
   {
     "id": "20260502161352548051000000",
@@ -35917,14 +38487,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2895,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260502161352548051000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   },
   {
     "id": "20260512181848742707000000",
@@ -35943,7 +38513,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260512181848742707000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   },
   {
     "id": "20250910133824293404000000",
@@ -35955,14 +38525,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 3800,
     "beds": 4,
     "baths": 3,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250910133824293404000000",
-    "lastUpdated": "2026-06-05T17:46:32.570Z"
+    "lastUpdated": "2026-06-05T17:57:34.544Z"
   }
 ],
 
@@ -35984,7 +38554,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260120164818593850000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260514151328835421000000",
@@ -36003,7 +38573,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260514151328835421000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260305140807181709000000",
@@ -36022,7 +38592,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305140807181709000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260428232256328741000000",
@@ -36041,7 +38611,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260428232256328741000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260215232535891785000000",
@@ -36060,7 +38630,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260215232535891785000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260603185557448202000000",
@@ -36079,7 +38649,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260603185557448202000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260528013130195440000000",
@@ -36098,7 +38668,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528013130195440000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260601180912450056000000",
@@ -36110,14 +38680,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1800,
     "beds": 3,
     "baths": 2,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601180912450056000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260430012031920085000000",
@@ -36136,7 +38706,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260430012031920085000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260601223240589457000000",
@@ -36155,7 +38725,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601223240589457000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260414192044586370000000",
@@ -36165,16 +38735,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "warren-mi",
     "zip": "48089",
     "listPrice": 2500,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260414192044586370000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260528184119826062000000",
@@ -36186,14 +38756,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260528184119826062000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260203123857274927000000",
@@ -36212,7 +38782,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260203123857274927000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260515170001619634000000",
@@ -36231,7 +38801,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515170001619634000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260515161127478517000000",
@@ -36241,7 +38811,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "warren-mi",
     "zip": "48091",
     "listPrice": 120000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 2030,
     "daysOnMarket": 0,
@@ -36250,7 +38820,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260515161127478517000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20250819171742439238000000",
@@ -36260,7 +38830,7 @@ export const listingsByCity: ListingsByCity = {
     "slug": "warren-mi",
     "zip": "48089",
     "listPrice": 995000,
-    "beds": "********",
+    "beds": 0,
     "baths": 0,
     "sqft": 23776,
     "daysOnMarket": 0,
@@ -36269,7 +38839,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250819171742439238000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260227035704166784000000",
@@ -36288,7 +38858,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260227035704166784000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260305175505525169000000",
@@ -36307,7 +38877,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260305175505525169000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260429185552234631000000",
@@ -36326,7 +38896,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260429185552234631000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260327153353558356000000",
@@ -36345,7 +38915,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260327153353558356000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260312004312682765000000",
@@ -36364,7 +38934,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260312004312682765000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260217154028146065000000",
@@ -36376,14 +38946,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 999,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260217154028146065000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20251013162101749893000000",
@@ -36402,7 +38972,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251013162101749893000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260330133901922756000000",
@@ -36412,16 +38982,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "warren-mi",
     "zip": "48091",
     "listPrice": 7000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260330133901922756000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20250212163635830080000000",
@@ -36440,7 +39010,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250212163635830080000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260220000711562337000000",
@@ -36459,7 +39029,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260220000711562337000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260129172934974623000000",
@@ -36478,7 +39048,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260129172934974623000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20250502170324017601000000",
@@ -36497,7 +39067,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250502170324017601000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260220013620909751000000",
@@ -36509,14 +39079,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1350,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260220013620909751000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20241202163952095659000000",
@@ -36535,7 +39105,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20241202163952095659000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20250210163531012892000000",
@@ -36554,7 +39124,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250210163531012892000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260401143916423024000000",
@@ -36573,7 +39143,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260401143916423024000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260316170200196999000000",
@@ -36592,7 +39162,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260316170200196999000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260421234030531796000000",
@@ -36611,7 +39181,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421234030531796000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260214180957821397000000",
@@ -36630,7 +39200,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260214180957821397000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   },
   {
     "id": "20260102172253816137000000",
@@ -36642,14 +39212,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 1200,
     "beds": 3,
     "baths": 1,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "pending",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260102172253816137000000",
-    "lastUpdated": "2026-06-05T17:46:36.044Z"
+    "lastUpdated": "2026-06-05T17:57:40.447Z"
   }
 ],
 
@@ -36664,14 +39234,14 @@ export const listingsByCity: ListingsByCity = {
     "listPrice": 2999,
     "beds": 3,
     "baths": 2.5,
-    "sqft": "********",
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Rental",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260601151000793048000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20260427152252782669000000",
@@ -36690,7 +39260,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260427152252782669000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20251116235311425739000000",
@@ -36709,7 +39279,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20251116235311425739000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20260421215201457005000000",
@@ -36728,7 +39298,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260421215201457005000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20260226213149154999000000",
@@ -36747,7 +39317,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260226213149154999000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20250506122719648498000000",
@@ -36766,7 +39336,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20250506122719648498000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20260419180304383622000000",
@@ -36785,7 +39355,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260419180304383622000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20260331201723641756000000",
@@ -36804,7 +39374,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260331201723641756000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20240802164038365767000000",
@@ -36814,16 +39384,16 @@ export const listingsByCity: ListingsByCity = {
     "slug": "west-bloomfield-mi",
     "zip": "48322",
     "listPrice": 149000,
-    "beds": "********",
-    "baths": "********",
-    "sqft": "********",
+    "beds": 0,
+    "baths": 0,
+    "sqft": 0,
     "daysOnMarket": 0,
     "status": "active",
     "propertyType": "Condo",
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20240802164038365767000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20260327133141568172000000",
@@ -36842,7 +39412,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260327133141568172000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   },
   {
     "id": "20260420145432935774000000",
@@ -36861,7 +39431,7 @@ export const listingsByCity: ListingsByCity = {
     "imageUrl": "",
     "isFeatured": false,
     "sparkListingId": "20260420145432935774000000",
-    "lastUpdated": "2026-06-05T17:46:33.027Z"
+    "lastUpdated": "2026-06-05T17:57:34.902Z"
   }
 ],
 
