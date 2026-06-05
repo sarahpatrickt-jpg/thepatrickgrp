@@ -122,10 +122,26 @@ All 5 events marked as Key Events in GA4 Admin — confirmed May 2026.
 
 ## PENDING / NEXT UP
 
+### 🔴 DO THIS FIRST — Spark API key in Vercel (5 min)
+The IDX search is live and working locally with 2,067 real listings.
+The nightly cron job will fail until this is done:
+1. Go to vercel.com → thepatrickgrp project → Settings → Environment Variables
+2. Add: Name = `SPARK_API_KEY` / Value = (the Access Token from the FBS approval email)
+3. Check Production + Preview + Development, click Save
+That's it. Nightly sync runs at 11 PM ET and auto-commits fresh listings.
+
+### IDX Integration — status as of 2026-06-05
+- ✅ Spark API approved (MichRIC + RealComp + MiRealSource)
+- ✅ 2,067 listings synced (1,345 active, 722 pending across 30 cities)
+- ✅ /search-homes live with real listings + Search button
+- ✅ Nightly cron in vercel.json (11 PM ET)
+- ⏳ SPARK_API_KEY needs to be added to Vercel env vars (see above)
+- ⏳ Sold/Closed listings not yet synced (Spark date filter syntax TBD)
+
+### Other
 - GA4: ✓ All 5 events marked as Key Events (May 2026)
 - GBP photos: team headshots ✓ done. Office exterior + Real Producers April 2026 cover still needed
 - GBP Post: Publish March 2026 market report (copy ready)
-- April 2026 market report page (when Realcomp data available)
 - AI citation re-test: divorce + cash offer pages — test with Gemini/ChatGPT (overdue from March)
 - City vs City comparison pages (next programmatic SEO priority)
 - Brad + Sarah to review/approve all 24 city quotes
