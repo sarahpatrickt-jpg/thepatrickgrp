@@ -272,6 +272,12 @@ function normalizeListings(
       const primary = photos.find((p) => p.Primary) || photos[0];
       const imageUrl = primary?.Uri640 || "";
 
+      // Helper: parse a Spark field that may be "********" (redacted) or a number
+      const n = (v: unknown): number => {
+        const num = Number(v);
+        return isNaN(num) ? 0 : num;
+      };
+
       return {
         id: s.Id || s.ListingKey,
         mlsNumber: s.MlsId || "",
@@ -279,11 +285,11 @@ function normalizeListings(
         city: s.City || "",
         slug: citySlug,
         zip: s.PostalCode || "",
-        listPrice: s.ListPrice || 0,
-        beds: s.BedsTotal || s.Bedrooms || 0,
-        baths: s.BathsTotal || s.Bathrooms || 0,
-        sqft: s.BuildingAreaTotal || 0,
-        daysOnMarket: s.DaysOnMarket || 0,
+        listPrice: n(s.ListPrice),
+        beds: n(s.BedsTotal ?? s.Bedrooms),
+        baths: n(s.BathsTotal ?? s.Bathrooms),
+        sqft: n(s.BuildingAreaTotal),
+        daysOnMarket: n(s.DaysOnMarket),
         status,
         propertyType: mapPropertyType(s.PropertyType),
         imageUrl,
