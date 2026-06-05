@@ -1,5 +1,5 @@
 /**
- * Listings Data Module
+ * Listings Data Module — Last sync: 2026-06-05
  *
  * Static TypeScript object for cached IDX listings from Spark API.
  * Synced nightly via scripts/update-listings-nightly.ts
