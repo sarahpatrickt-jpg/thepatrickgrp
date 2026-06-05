@@ -431,14 +431,16 @@ export default function ListingSearch({
           )}
         </div>
 
-        {/* Status row — auto-search indicator + manual refresh */}
+        {/* Search button + status */}
         <div className="mt-4 flex items-center gap-4">
-          {loading && (
-            <span className="text-xs text-gray-500 flex items-center gap-1.5">
-              <span className="inline-block w-3 h-3 border-2 border-[#C70000] border-t-transparent rounded-full animate-spin" />
-              Searching…
-            </span>
-          )}
+          <button
+            onClick={() => handleSearch(1)}
+            disabled={loading}
+            className="px-6 py-2.5 font-medium uppercase tracking-wider hover:opacity-90 disabled:opacity-50 transition-opacity text-sm"
+            style={{ backgroundColor: "#C70000", color: "#fff", letterSpacing: "0.1em" }}
+          >
+            {loading ? "Searching…" : "Search Listings"}
+          </button>
           {!loading && results && (
             <span className="text-xs text-gray-500">
               {results.pagination.total > 0
@@ -446,13 +448,12 @@ export default function ListingSearch({
                 : "No listings match — try broadening your search"}
             </span>
           )}
-          <button
-            onClick={() => handleSearch(1)}
-            disabled={loading}
-            className="ml-auto text-xs font-medium uppercase tracking-wider px-4 py-2 border border-gray-300 hover:border-[#C70000] hover:text-[#C70000] disabled:opacity-40 transition-colors"
-          >
-            Refresh
-          </button>
+          {loading && (
+            <span className="text-xs text-gray-500 flex items-center gap-1.5">
+              <span className="inline-block w-3 h-3 border-2 border-[#C70000] border-t-transparent rounded-full animate-spin" />
+              Searching…
+            </span>
+          )}
         </div>
       </div>
 

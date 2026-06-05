@@ -45,16 +45,23 @@ const SE_MICHIGAN_CITIES = [
   "birmingham-mi",
   "bloomfield-hills-mi",
   "bloomfield-township-mi",
+  "rochester-mi",
+  "rochester-hills-mi",
   "clarkston-mi",
   "lake-orion-mi",
   "orchard-lake-mi",
   "royal-oak-mi",
   "troy-mi",
   "west-bloomfield-mi",
+  "novi-mi",
+  "oxford-mi",
   "brighton-mi",
   "howell-mi",
   "northville-mi",
   "plymouth-mi",
+  "shelby-township-mi",
+  "sterling-heights-mi",
+  "clinton-township-mi",
   "macomb-township-mi",
   "st-clair-shores-mi",
   "warren-mi",
@@ -63,6 +70,7 @@ const SE_MICHIGAN_CITIES = [
   "detroit-mi",
   "grosse-pointe-mi",
   "grosse-pointe-woods-mi",
+  "livonia-mi",
   "flint-mi",
 ];
 
@@ -71,6 +79,14 @@ const CITY_ZIP_MAP: Record<string, string[]> = {
   "birmingham-mi": ["48009"],
   "bloomfield-hills-mi": ["48302", "48304"],
   "bloomfield-township-mi": ["48301", "48304"],
+  "rochester-mi":           ["48307", "48309"],
+  "rochester-hills-mi":     ["48306", "48307", "48309"],
+  "novi-mi":                ["48374", "48375", "48377"],
+  "oxford-mi":              ["48370", "48371"],
+  "shelby-township-mi":     ["48315", "48316", "48317"],
+  "sterling-heights-mi":    ["48310", "48311", "48312", "48313", "48314"],
+  "clinton-township-mi":    ["48035", "48036", "48038"],
+  "livonia-mi":             ["48150", "48152", "48154"],
   "clarkston-mi": ["48346"],
   "lake-orion-mi": ["48361"],
   "orchard-lake-mi": ["48323"],
@@ -98,20 +114,24 @@ const OAUTH_CLIENT_SECRET = process.env.SPARK_OAUTH_CLIENT_SECRET || "demo";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
+// Spark API returns data nested under StandardFields
 interface SparkListing {
-  ListingKey: string;
-  MlsId: string;
-  StreetAddress: string;
+  Id: string;                    // Spark listing ID
+  ListingKey: string;            // fallback ID
+  MlsId: string;                 // MLS source identifier
+  UnparsedAddress: string;       // "123 Main St, City, MI 48009"
   City: string;
   PostalCode: string;
   ListPrice: number;
-  Bedrooms: number;
-  Bathrooms: number;
-  BuildingAreaTotal: number;
+  BedsTotal: number;             // RESO standard field
+  Bedrooms: number;              // fallback
+  BathsTotal: number;            // RESO standard field (decimal)
+  Bathrooms: number;             // fallback
+  BuildingAreaTotal: number;     // square footage
   DaysOnMarket: number;
-  ListingStatus: string; // "Active", "Pending", "Sold"
-  PropertyType: string; // "Single Family Attached", "Condo", "Townhouse", etc.
-  ListingLastModified: string; // ISO timestamp
+  MlsStatus: string;             // "Active", "Pending", "Closed"
+  PropertyType: string;          // "A"=Single-Family, "B"=Condo, etc.
+  ModificationTimestamp: string;
 }
 
 interface Listing {
@@ -162,35 +182,26 @@ async function getSparkToken(): Promise<string> {
 }
 
 async function fetchSparkListings(
+  zipCodes: string[],
   status: "active" | "pending" | "sold",
+  maxPages = 5, // Cap at 500 listings per city per status
 ): Promise<SparkListing[]> {
   /**
-   * Fetch from Spark API using MlsId filter (per MichRIC IDX agreement).
-   * This pulls MichRIC + RealComp + MiRealSource in a single query set.
-   * Rate limit: 1,500 requests per 5 minutes. Pages of 100.
+   * Fetch listings for specific zip codes from Spark API.
+   * NOTE: Spark Replication API always returns results at any offset (never empty).
+   * We use maxPages to cap the fetch rather than relying on empty-page detection.
    */
 
   const token = await getSparkToken();
   const allListings: SparkListing[] = [];
 
-  // Status filter
+  // Status filter — Spark uses MlsStatus
   const statusFilter =
-    status === "active" ? "Active" : status === "pending" ? "Pending" : "Sold";
+    status === "active" ? "Active" : status === "pending" ? "Pending" : "Closed";
 
-  // MlsId filter — covers all three data sources per MichRIC sharing agreement
-  const mlsFilter = SPARK_MLS_IDS.map((id) => `MlsId Eq '${id}'`).join(" Or ");
-
-  // Date filter for sold listings (past 90 days)
-  let dateFilter = "";
-  if (status === "sold") {
-    const ninetyDaysAgo = new Date();
-    ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
-    const dateStr = ninetyDaysAgo.toISOString().split("T")[0];
-    dateFilter = ` AND ListingLastModified GE '${dateStr}'`;
-  }
-
-  // Filter to SE Michigan by state + status + MLS source
-  const filter = `StateOrProvince Eq 'MI' AND ListingStatus Eq '${statusFilter}' AND (${mlsFilter})${dateFilter}`;
+  // Zip code filter
+  const zipFilter = zipCodes.map((z) => `PostalCode Eq '${z}'`).join(" Or ");
+  const filter = `MlsStatus Eq '${statusFilter}' AND (${zipFilter})`;
 
   let page = 1;
   const pageSize = 100;
@@ -203,7 +214,7 @@ async function fetchSparkListings(
       url.searchParams.set("_filter", filter);
       url.searchParams.set("_limit", String(pageSize));
       url.searchParams.set("_offset", String((page - 1) * pageSize));
-      url.searchParams.set("_expand", "none"); // Don't expand related resources
+      // No _expand param — default response is sufficient
 
       const response = await fetch(url.toString(), {
         headers: {
@@ -220,16 +231,20 @@ async function fetchSparkListings(
         throw new Error(`Spark API returned ${response.status}`);
       }
 
-      const data = (await response.json()) as { value?: SparkListing[] };
-      const listings = data.value || [];
-
-      if (listings.length === 0) break; // No more pages
+      // Spark API response: { D: { Results: [{ Id, StandardFields: {...} }] } }
+      const data = (await response.json()) as { D?: { Results?: { Id: string; StandardFields: SparkListing }[] } };
+      const rawResults = data.D?.Results || [];
+      // Flatten: merge Id into StandardFields for easier access
+      const listings = rawResults.map((r) => ({ ...r.StandardFields, Id: r.Id })) as SparkListing[];
 
       allListings.push(...listings);
-      page++;
 
-      // Rate limit safety: ~500-600 requests per nightly run is safe
-      // Log progress every 5 pages
+      // Stop conditions:
+      // 1. Partial page = genuine end of results
+      // 2. Hit maxPages cap (Spark Replication API loops indefinitely at high offsets)
+      if (listings.length < pageSize || page >= maxPages) break;
+
+      page++;
       if (page % 5 === 0) {
         console.log(`    (${allListings.length} ${statusFilter} listings so far)`);
       }
@@ -247,32 +262,50 @@ async function fetchSparkListings(
 function normalizeListings(
   sparkListings: SparkListing[],
   citySlug: string,
+  status: "active" | "pending" | "sold",
 ): Listing[] {
-  return sparkListings.map((s) => ({
-    id: s.ListingKey,
-    mlsNumber: s.MlsId,
-    address: s.StreetAddress,
-    city: s.City,
-    slug: citySlug,
-    zip: s.PostalCode,
-    listPrice: s.ListPrice || 0,
-    beds: s.Bedrooms || 0,
-    baths: s.Bathrooms || 0,
-    sqft: s.BuildingAreaTotal || 0,
-    daysOnMarket: s.DaysOnMarket || 0,
-    status: (
-      s.ListingStatus === "Active"
-        ? "active"
-        : s.ListingStatus === "Pending"
-          ? "pending"
-          : "sold"
-    ) as "active" | "pending" | "sold",
-    propertyType: s.PropertyType || "Other",
-    imageUrl: "", // Would be populated from MLS data or photo API
-    isFeatured: false, // Set below
-    sparkListingId: s.ListingKey,
-    lastUpdated: new Date().toISOString(),
-  }));
+  return sparkListings
+    .filter((s) => s.ListPrice && s.UnparsedAddress)
+    .map((s) => {
+      // Get primary photo URL if available
+      const photos = (s as unknown as { StandardFields?: { Photos?: { Uri640?: string; Primary?: boolean }[] } }).StandardFields?.Photos || [];
+      const primary = photos.find((p) => p.Primary) || photos[0];
+      const imageUrl = primary?.Uri640 || "";
+
+      return {
+        id: s.Id || s.ListingKey,
+        mlsNumber: s.MlsId || "",
+        address: s.UnparsedAddress?.split(",")[0]?.trim() || "",
+        city: s.City || "",
+        slug: citySlug,
+        zip: s.PostalCode || "",
+        listPrice: s.ListPrice || 0,
+        beds: s.BedsTotal || s.Bedrooms || 0,
+        baths: s.BathsTotal || s.Bathrooms || 0,
+        sqft: s.BuildingAreaTotal || 0,
+        daysOnMarket: s.DaysOnMarket || 0,
+        status,
+        propertyType: mapPropertyType(s.PropertyType),
+        imageUrl,
+        agentNotes: undefined,
+        isFeatured: false,
+        sparkListingId: s.Id || s.ListingKey,
+        lastUpdated: new Date().toISOString(),
+      };
+    });
+}
+
+function mapPropertyType(code: string | undefined): string {
+  const map: Record<string, string> = {
+    "A": "Single-Family",
+    "B": "Condo",
+    "C": "Multi-Family",
+    "D": "Land",
+    "E": "Commercial",
+    "F": "Rental",
+    "G": "Townhouse",
+  };
+  return map[code || ""] || "Single-Family";
 }
 
 // ── Mark Featured Listings ───────────────────────────────────────────────────
@@ -503,53 +536,33 @@ async function main() {
   console.log("║  MichRIC® | RealComp | MiRealSource                 ║");
   console.log("╚═══════════════════════════════════════════════════════╝\n");
 
-  // ── Single bulk fetch (MlsId filter covers MichRIC + RealComp + MiRealSource) ──
-  // Per MichRIC IDX agreement: filter by MlsId, not by zip/city.
-  // We then distribute results into city buckets by PostalCode.
-
-  console.log("Fetching active listings from all MLS sources...");
-  const rawActive  = await fetchSparkListings("active");
-  console.log(`  → ${rawActive.length} active`);
-
-  console.log("Fetching pending listings...");
-  const rawPending = await fetchSparkListings("pending");
-  console.log(`  → ${rawPending.length} pending`);
-
-  console.log("Fetching sold listings (past 90 days)...");
-  const rawSold    = await fetchSparkListings("sold");
-  console.log(`  → ${rawSold.length} sold`);
-
-  // Build a zip → city-slug lookup from CITY_ZIP_MAP
-  const zipToCitySlug: Record<string, string> = {};
-  for (const [slug, zips] of Object.entries(CITY_ZIP_MAP)) {
-    for (const zip of zips) {
-      zipToCitySlug[zip] = slug;
-    }
-  }
-
-  // Distribute raw listings into city buckets
+  // ── Per-city fetch (targeted by zip code) ──
   const listingsByCity: Record<string, Listing[]> = {};
+
   for (const citySlug of SE_MICHIGAN_CITIES) {
-    listingsByCity[citySlug] = [];
-  }
-
-  for (const raw of [...rawActive, ...rawPending, ...rawSold]) {
-    const citySlug = zipToCitySlug[raw.PostalCode];
-    if (!citySlug) continue; // Outside our service area — skip
-    const status: "active" | "pending" | "sold" =
-      rawActive.includes(raw) ? "active" :
-      rawPending.includes(raw) ? "pending" : "sold";
-    const normalized = normalizeListings([raw], citySlug);
-    if (normalized.length > 0) {
-      listingsByCity[citySlug].push(...normalized);
+    const zipCodes = CITY_ZIP_MAP[citySlug] || [];
+    if (zipCodes.length === 0) {
+      console.warn(`⚠ No zip codes for ${citySlug}, skipping`);
+      listingsByCity[citySlug] = [];
+      continue;
     }
-  }
 
-  // Log city breakdown
-  console.log("\nCity breakdown:");
-  for (const slug of SE_MICHIGAN_CITIES) {
-    const count = listingsByCity[slug]?.length ?? 0;
-    if (count > 0) console.log(`  ${slug}: ${count}`);
+    console.log(`\nFetching ${citySlug}...`);
+    try {
+      const active  = await fetchSparkListings(zipCodes, "active");
+      const pending = await fetchSparkListings(zipCodes, "pending");
+      // Sold/Closed skipped for now — Spark date filtering needs investigation
+      const sold: SparkListing[] = [];
+
+      const activeNorm  = normalizeListings(active,  citySlug, "active");
+      const pendingNorm = normalizeListings(pending, citySlug, "pending");
+
+      listingsByCity[citySlug] = [...activeNorm, ...pendingNorm];
+      console.log(`  ✓ ${activeNorm.length} active, ${pendingNorm.length} pending`);
+    } catch (err) {
+      console.error(`  ✗ Failed for ${citySlug}:`, err);
+      listingsByCity[citySlug] = [];
+    }
   }
 
   // Mark featured listings
