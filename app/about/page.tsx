@@ -267,25 +267,28 @@ export default function AboutPage() {
 
       {/* BEHIND THE SCENES */}
       <section className="py-16 px-4 sm:px-6 bg-white border-t border-gray-100">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
-              Behind the scenes
-            </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
-              The Team in Action
-            </h2>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
-            <TikTokEmbed videoId="7569008654024740110" username=".christianbrown" />
-            <TikTokEmbed videoId="7613910134464597262" username=".christianbrown" />
-            <TikTokEmbed videoId="7544117008367996173" username=".christianbrown" />
-            <TikTokEmbed videoId="7571260418878917901" username=".christianbrown" />
-            <TikTokEmbed videoId="7534852005362273549" username=".christianbrown" />
-            <TikTokEmbed videoId="7529880336684092727" username=".christianbrown" />
-            <TikTokEmbed videoId="7527719819722902798" username=".christianbrown" />
-            <TikTokEmbed videoId="7487075479971826987" username=".christianbrown" />
-          </div>
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            Behind the scenes
+          </p>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-4">
+            The Team in Action
+          </h2>
+          <p className="text-gray-500 text-base mb-8 max-w-md mx-auto">
+            Christian shares buyer tips, market updates, and real estate insights on TikTok.
+          </p>
+          <a
+            href="https://www.tiktok.com/@.christianbrown"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-8 py-4 font-semibold text-sm uppercase tracking-wider transition-opacity hover:opacity-80"
+            style={{ backgroundColor: "#FF004F", color: "#fff" }}
+          >
+            <svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M34.2 4h-6.8v27.6c0 3.2-2.6 5.8-5.8 5.8s-5.8-2.6-5.8-5.8 2.5-5.8 5.7-5.8c.6 0 1.1.1 1.6.3V19c-.5-.1-1.1-.1-1.6-.1C14 18.9 8 24.9 8 32.4S14 46 21.6 46s13.6-6.1 13.6-13.6V18.2c2.4 1.7 5.4 2.7 8.6 2.7v-6.8c-4.7-.1-9.6-4.3-9.6-10.1z" fill="white"/>
+            </svg>
+            Follow @.christianbrown on TikTok
+          </a>
         </div>
       </section>
 

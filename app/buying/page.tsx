@@ -252,12 +252,24 @@ export default function BuyingPage() {
           <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
             Follow along
           </p>
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-8">
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">
             Real Estate Tips From Our Team
           </h2>
-          <div className="flex justify-center">
-            <TikTokEmbed videoId="7529880336684092727" username=".christianbrown" />
-          </div>
+          <p className="text-white/60 text-base mb-8 max-w-md mx-auto">
+            Christian shares buyer tips, market insights, and behind-the-scenes looks at SE Michigan real estate.
+          </p>
+          <a
+            href="https://www.tiktok.com/@.christianbrown"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-8 py-4 font-semibold text-sm uppercase tracking-wider transition-opacity hover:opacity-80"
+            style={{ backgroundColor: "#FF004F", color: "#fff" }}
+          >
+            <svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M34.2 4h-6.8v27.6c0 3.2-2.6 5.8-5.8 5.8s-5.8-2.6-5.8-5.8 2.5-5.8 5.7-5.8c.6 0 1.1.1 1.6.3V19c-.5-.1-1.1-.1-1.6-.1C14 18.9 8 24.9 8 32.4S14 46 21.6 46s13.6-6.1 13.6-13.6V18.2c2.4 1.7 5.4 2.7 8.6 2.7v-6.8c-4.7-.1-9.6-4.3-9.6-10.1z" fill="white"/>
+            </svg>
+            Follow on TikTok
+          </a>
         </div>
       </section>
 
