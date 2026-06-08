@@ -199,9 +199,11 @@ async function fetchSparkListings(
   const statusFilter =
     status === "active" ? "Active" : status === "pending" ? "Pending" : "Closed";
 
-  // Zip code filter
+  // Zip code filter — combined with MlsId filter to pull from ALL three MLSs
+  // (Without MlsId filter, Spark returns only one MLS's data at a time)
   const zipFilter = zipCodes.map((z) => `PostalCode Eq '${z}'`).join(" Or ");
-  const filter = `MlsStatus Eq '${statusFilter}' AND (${zipFilter})`;
+  const mlsFilter = SPARK_MLS_IDS.map((id) => `MlsId Eq '${id}'`).join(" Or ");
+  const filter = `MlsStatus Eq '${statusFilter}' AND (${zipFilter}) AND (${mlsFilter})`;
 
   let page = 1;
   const pageSize = 100;
