@@ -28,9 +28,7 @@ import { getListingById } from "@/data/listings";
 import { getMarketAnalysis } from "@/data/market-analysis";
 
 interface ListingDetailPageProps {
-  params: {
-    id: string;
-  };
+  params: Promise<{ id: string }>;
 }
 
 /**
@@ -39,7 +37,8 @@ interface ListingDetailPageProps {
 export async function generateMetadata({
   params,
 }: ListingDetailPageProps): Promise<Metadata> {
-  const listing = getListingById(params.id);
+  const { id } = await params;
+  const listing = getListingById(id);
 
   if (!listing) {
     return {
@@ -94,8 +93,9 @@ function formatNumber(num: number): string {
 /**
  * Listing Detail Page
  */
-export default function ListingDetailPage({ params }: ListingDetailPageProps) {
-  const listing = getListingById(params.id);
+export default async function ListingDetailPage({ params }: ListingDetailPageProps) {
+  const { id } = await params;
+  const listing = getListingById(id);
 
   if (!listing) {
     notFound();

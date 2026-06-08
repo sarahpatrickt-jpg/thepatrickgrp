@@ -159,7 +159,7 @@ interface MarketAnalysis {
   activeCount: number;
   medianPrice: number;
   medianDOM: number;
-  avgPricePerSqft: number;
+  avgPricePerSqft: number | null;
   soldCount30d: number;
   soldMedianPrice: number;
   lastUpdated: string;
@@ -214,7 +214,7 @@ async function fetchSparkListings(
       url.searchParams.set("_filter", filter);
       url.searchParams.set("_limit", String(pageSize));
       url.searchParams.set("_offset", String((page - 1) * pageSize));
-      // No _expand param — default response is sufficient
+      url.searchParams.set("_expand", "Photos"); // Include listing photos
 
       const response = await fetch(url.toString(), {
         headers: {
@@ -469,7 +469,7 @@ export interface MarketAnalysis {
   activeCount: number;
   medianPrice: number;
   medianDOM: number;
-  avgPricePerSqft: number;
+  avgPricePerSqft: number | null;
   soldCount30d: number;
   soldMedianPrice: number;
   lastUpdated: string;

@@ -11,7 +11,7 @@ export interface MarketAnalysis {
   activeCount: number;
   medianPrice: number;
   medianDOM: number;
-  avgPricePerSqft: number;
+  avgPricePerSqft: number | null;
   soldCount30d: number;
   soldMedianPrice: number;
   lastUpdated: string;
