@@ -183,8 +183,8 @@ async function getSparkToken(): Promise<string> {
 
 async function fetchSparkListings(
   zipCodes: string[],
-  status: "active" | "pending" | "sold",
-  maxPages = 5, // Cap at 500 listings per city per status
+  status: "active" | "active_backup" | "active_contingent" | "coming_soon" | "pending" | "sold",
+  maxPages = 5,
 ): Promise<SparkListing[]> {
   /**
    * Fetch listings for specific zip codes from Spark API.
@@ -195,9 +195,16 @@ async function fetchSparkListings(
   const token = await getSparkToken();
   const allListings: SparkListing[] = [];
 
-  // Status filter — Spark uses MlsStatus
-  const statusFilter =
-    status === "active" ? "Active" : status === "pending" ? "Pending" : "Closed";
+  // Status filter — exact Spark MlsStatus values
+  const statusMap: Record<string, string> = {
+    active:             "Active",
+    active_backup:      "Active Backup",
+    active_contingent:  "Active Contingent",
+    coming_soon:        "Coming Soon",
+    pending:            "Pending",
+    sold:               "Closed",
+  };
+  const statusFilter = statusMap[status] || "Active";
 
   // Zip code filter — combined with MlsId filter to pull from ALL three MLSs
   // (Without MlsId filter, Spark returns only one MLS's data at a time)
@@ -557,16 +564,23 @@ async function main() {
 
     console.log(`\nFetching ${citySlug}...`);
     try {
-      const active  = await fetchSparkListings(zipCodes, "active");
-      const pending = await fetchSparkListings(zipCodes, "pending");
+      const active            = await fetchSparkListings(zipCodes, "active");
+      const activeBackup      = await fetchSparkListings(zipCodes, "active_backup");
+      const activeContingent  = await fetchSparkListings(zipCodes, "active_contingent");
+      const pending           = await fetchSparkListings(zipCodes, "pending");
+      const comingSoon        = await fetchSparkListings(zipCodes, "coming_soon");
       // Sold/Closed skipped for now — Spark date filtering needs investigation
       const sold: SparkListing[] = [];
 
-      const activeNorm  = normalizeListings(active,  citySlug, "active");
-      const pendingNorm = normalizeListings(pending, citySlug, "pending");
+      const activeNorm           = normalizeListings(active,           citySlug, "active");
+      const activeBackupNorm     = normalizeListings(activeBackup,     citySlug, "active");
+      const activeContingentNorm = normalizeListings(activeContingent, citySlug, "active");
+      const pendingNorm          = normalizeListings(pending,          citySlug, "pending");
+      const comingSoonNorm       = normalizeListings(comingSoon,       citySlug, "active");
 
-      listingsByCity[citySlug] = [...activeNorm, ...pendingNorm];
-      console.log(`  ✓ ${activeNorm.length} active, ${pendingNorm.length} pending`);
+      listingsByCity[citySlug] = [...activeNorm, ...activeBackupNorm, ...activeContingentNorm, ...pendingNorm, ...comingSoonNorm];
+      const totalActive = activeNorm.length + activeBackupNorm.length + activeContingentNorm.length + comingSoonNorm.length;
+      console.log(`  ✓ ${totalActive} active (+backup/contingent/coming soon), ${pendingNorm.length} pending`);
     } catch (err) {
       console.error(`  ✗ Failed for ${citySlug}:`, err);
       listingsByCity[citySlug] = [];
