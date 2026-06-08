@@ -1,39 +1,18 @@
-"use client";
-
-import { useEffect } from "react";
-
 interface TikTokEmbedProps {
   videoId: string;
   username: string;
 }
 
 export default function TikTokEmbed({ videoId, username }: TikTokEmbedProps) {
-  useEffect(() => {
-    // Load TikTok embed script once
-    if (document.getElementById("tiktok-embed-script")) return;
-    const script = document.createElement("script");
-    script.id = "tiktok-embed-script";
-    script.src = "https://www.tiktok.com/embed.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
-
   return (
-    <blockquote
-      className="tiktok-embed"
-      cite={`https://www.tiktok.com/@${username}/video/${videoId}`}
-      data-video-id={videoId}
-      style={{ maxWidth: "605px", minWidth: "325px" }}
-    >
-      <section>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={`https://www.tiktok.com/@${username}/video/${videoId}`}
-        >
-          Watch on TikTok
-        </a>
-      </section>
-    </blockquote>
+    <div style={{ position: "relative", paddingBottom: "177.78%", height: 0, overflow: "hidden", borderRadius: "8px" }}>
+      <iframe
+        src={`https://www.tiktok.com/embed/v2/${videoId}`}
+        style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "none" }}
+        allow="encrypted-media"
+        allowFullScreen
+        title={`TikTok video by @${username}`}
+      />
+    </div>
   );
 }
