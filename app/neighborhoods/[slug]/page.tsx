@@ -73,8 +73,9 @@ async function MarketAnalysisCard({
 }) {
   const analysis = getMarketAnalysis(citySlug);
 
-  if (!analysis || analysis.activeCount === 0) {
-    return null; // No data available for this city
+  // Need at least 3 listings for the data to be meaningful
+  if (!analysis || analysis.activeCount < 3) {
+    return null;
   }
 
   function formatPrice(price: number): string {
