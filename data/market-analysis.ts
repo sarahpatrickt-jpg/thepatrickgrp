@@ -11,7 +11,7 @@ export interface MarketAnalysis {
   activeCount: number;
   medianPrice: number;
   medianDOM: number;
-  avgPricePerSqft: number | null;
+  avgPricePerSqft: number;
   soldCount30d: number;
   soldMedianPrice: number;
   lastUpdated: string;
@@ -20,30 +20,30 @@ export interface MarketAnalysis {
 export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
   "ann-arbor-mi": {
     "activeCount": 500,
-    "medianPrice": 529800,
+    "medianPrice": 549000,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.059Z"
+    "lastUpdated": "2026-06-08T18:18:38.882Z"
   },
   "birmingham-mi": {
-    "activeCount": 21,
+    "activeCount": 20,
     "medianPrice": 425900,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.059Z"
+    "lastUpdated": "2026-06-08T18:18:38.882Z"
   },
   "bloomfield-hills-mi": {
-    "activeCount": 6,
+    "activeCount": 7,
     "medianPrice": 349999,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.059Z"
+    "lastUpdated": "2026-06-08T18:18:38.882Z"
   },
   "bloomfield-township-mi": {
     "activeCount": 8,
@@ -52,16 +52,16 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.059Z"
+    "lastUpdated": "2026-06-08T18:18:38.882Z"
   },
   "brighton-mi": {
-    "activeCount": 11,
+    "activeCount": 12,
     "medianPrice": 359900,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.059Z"
+    "lastUpdated": "2026-06-08T18:18:38.882Z"
   },
   "clarkston-mi": {
     "activeCount": 2,
@@ -70,34 +70,34 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": 133,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.059Z"
+    "lastUpdated": "2026-06-08T18:18:38.882Z"
   },
   "clinton-township-mi": {
     "activeCount": 10,
-    "medianPrice": 300000,
+    "medianPrice": 359999,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.059Z"
+    "lastUpdated": "2026-06-08T18:18:38.882Z"
   },
   "detroit-mi": {
     "activeCount": 500,
-    "medianPrice": 115000,
+    "medianPrice": 100000,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "flint-mi": {
-    "activeCount": 16,
+    "activeCount": 18,
     "medianPrice": 2000,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "grosse-pointe-mi": {
     "activeCount": 0,
@@ -106,7 +106,7 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": 0,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "grosse-pointe-woods-mi": {
     "activeCount": 2,
@@ -115,16 +115,16 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "howell-mi": {
-    "activeCount": 9,
-    "medianPrice": 449900,
+    "activeCount": 8,
+    "medianPrice": 520000,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "lake-orion-mi": {
     "activeCount": 0,
@@ -133,34 +133,34 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": 0,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "livonia-mi": {
-    "activeCount": 20,
-    "medianPrice": 294900,
+    "activeCount": 18,
+    "medianPrice": 347000,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "macomb-township-mi": {
-    "activeCount": 5,
-    "medianPrice": 539900,
+    "activeCount": 4,
+    "medianPrice": 599900,
     "medianDOM": 0,
-    "avgPricePerSqft": 195,
+    "avgPricePerSqft": 185,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "northville-mi": {
-    "activeCount": 32,
-    "medianPrice": 579900,
+    "activeCount": 31,
+    "medianPrice": 529900,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "novi-mi": {
     "activeCount": 9,
@@ -169,7 +169,7 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "orchard-lake-mi": {
     "activeCount": 5,
@@ -178,7 +178,7 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": 316,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "oxford-mi": {
     "activeCount": 1,
@@ -187,7 +187,7 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": 1458,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "plymouth-mi": {
     "activeCount": 23,
@@ -196,16 +196,16 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "rochester-hills-mi": {
-    "activeCount": 15,
-    "medianPrice": 580000,
+    "activeCount": 14,
+    "medianPrice": 559900,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "rochester-mi": {
     "activeCount": 9,
@@ -214,7 +214,7 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "royal-oak-mi": {
     "activeCount": 7,
@@ -223,34 +223,34 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "saline-mi": {
-    "activeCount": 71,
-    "medianPrice": 479900,
+    "activeCount": 73,
+    "medianPrice": 460000,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "shelby-township-mi": {
-    "activeCount": 10,
+    "activeCount": 12,
     "medianPrice": 399900,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "st-clair-shores-mi": {
     "activeCount": 3,
-    "medianPrice": 232000,
+    "medianPrice": 222000,
     "medianDOM": 0,
-    "avgPricePerSqft": 189,
+    "avgPricePerSqft": 181,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "sterling-heights-mi": {
     "activeCount": 8,
@@ -259,7 +259,7 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "troy-mi": {
     "activeCount": 5,
@@ -268,25 +268,25 @@ export const marketAnalysisByCity: Record<string, MarketAnalysis> = {
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "warren-mi": {
-    "activeCount": 28,
+    "activeCount": 27,
     "medianPrice": 120000,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   },
   "west-bloomfield-mi": {
-    "activeCount": 9,
-    "medianPrice": 354900,
+    "activeCount": 10,
+    "medianPrice": 349900,
     "medianDOM": 0,
     "avgPricePerSqft": null,
     "soldCount30d": 0,
     "soldMedianPrice": 0,
-    "lastUpdated": "2026-06-05T17:57:54.060Z"
+    "lastUpdated": "2026-06-08T18:18:38.883Z"
   }
 };
 
