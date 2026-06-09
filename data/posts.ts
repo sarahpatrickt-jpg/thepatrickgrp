@@ -2169,6 +2169,149 @@ export const posts: Post[] = [
     ],
   },
 
+  // ─── "June 2026: The Quiet Buyer Window" ────────────────────────────────
+  {
+    slug: "june-2026-quiet-buyer-window-oakland-county",
+    title: "The Quietest Buyer's Window Metro Detroit Has Had in Five Years",
+    image: "/images/insights/june-2026-buyer-window.jpg",
+    imageAlt: "Suburban Oakland County home with a for sale sign in early summer",
+    excerpt:
+      "Inventory is up. Days on market are up. Prices in Oakland County are actually down year-over-year. Owning is now cheaper than renting in most of our service area — and almost no one is talking about it.",
+    date: "2026-06-09",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    relatedSlugs: [
+      "may-2026-southeast-michigan-market-pulse",
+      "spring-2026-southeast-michigan-market-update",
+      "how-to-win-a-bidding-war-metro-detroit",
+      "michigan-homebuyer-grants-rates-how-to-afford-a-home-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "bloomfield-hills-mi",
+      "northville-mi",
+      "royal-oak-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "There's a moment in every cycle when the data shifts before the headlines catch up. We're in one right now. Most buyers I talk to this month still think we're in the 2022 market — bidding wars, no inventory, paying over asking. That hasn't been true in Oakland County for several months, and the June numbers make it official.",
+      },
+      {
+        type: "paragraph",
+        text: "Lucido Real Estate ran their analysis last week and called it a \"choice without a crash\" market. That's the right frame. The market hasn't broken. Prices aren't collapsing. But the leverage has quietly moved to buyers in a way it hasn't since 2019, and most people haven't noticed yet.",
+      },
+      {
+        type: "h2",
+        text: "Three Numbers That Changed the Picture",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Oakland Inventory", value: "+12.2%", note: "YoY active listings" },
+          { label: "Days on Market", value: "+18.5%", note: "Median, YoY" },
+          { label: "Median List Price", value: "−3.6%", note: "Oakland County, YoY" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Active listings in Oakland County are up 12% year over year. The median home is sitting almost three weeks before going under contract — up nearly 20% from this time last year. And the median list price has actually come down 3.6% YoY. Each of those numbers in isolation is mild. Stacked together, they say one thing: sellers are quietly repricing.",
+      },
+      {
+        type: "paragraph",
+        text: "You won't see that on the front page. You will see it the moment you start writing offers.",
+      },
+      {
+        type: "h2",
+        text: "The Math That Just Flipped",
+      },
+      {
+        type: "paragraph",
+        text: "Here's the one nobody's pointing out. The median Oakland County home, financed with 20% down at today's rate, comes in at about $1,869 a month in principal and interest. The median Oakland County rent is around $2,050.",
+      },
+      {
+        type: "callout",
+        label: "The flip",
+        text: "Owning the median home is now roughly $180/month cheaper than renting it. That math hasn't been true in our market since before 2021.",
+      },
+      {
+        type: "paragraph",
+        text: "That doesn't account for taxes and insurance, and it doesn't make a renter's life harder than it needs to be. But for anyone debating whether to keep renting or finally buy, the gap is small enough that the long-term math of owning — building equity, fixing your housing cost, deducting interest — wins decisively over a 5-year hold. That's a conversation worth having with anyone you know who's been waiting for \"the right time.\"",
+      },
+      {
+        type: "h2",
+        text: "Why This Isn't a Crash",
+      },
+      {
+        type: "paragraph",
+        text: "When the numbers move like this — inventory up, DOM up, price down — people understandably get nervous about 2008. I've been through that cycle. This isn't it. Three reasons:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Inventory is rebuilding from historic lows, not from oversupply. Oakland's active listing count is still well below where it sat in 2018–2019.",
+          "Mortgage rates are actually lower than this time last year. The 30-year fixed averaged 6.36% in May, down from 6.81% in May 2025. Buyers think rates are punishing them. They're not — they're better.",
+          "Demand hasn't disappeared. It's just become more selective. Well-priced, well-presented homes still move in under two weeks. The homes piling up DOM are the ones priced to 2024 comps.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "This is what a healthy, functional market looks like after four years of distortion. Not a crash. A reset.",
+      },
+      {
+        type: "h2",
+        text: "If You're Buying",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "What's working",
+          text: "Sellers are negotiating. Inspection objections are being addressed. Closing cost concessions are back. You can take a weekend to think about a house — that wasn't true 18 months ago. The serious buyer who's pre-approved and ready to write a clean offer has the most leverage of any point in the last five years.",
+        },
+        right: {
+          label: "What to watch",
+          text: "Don't confuse this window with a buyer's market across the board. Birmingham, Northville, and Bloomfield Hills under $700k are still tight. The shift is concentrated in the $400k–$1M range and in markets where inventory rebuilt fastest. Know which submarket you're in.",
+        },
+      },
+      {
+        type: "h2",
+        text: "If You're Selling",
+      },
+      {
+        type: "paragraph",
+        text: "Two things. First — your home is still worth more than it was last year. Even in Oakland, with prices down 3.6% YoY, you're well above 2022 numbers, let alone 2019. The headline isn't \"prices crashed.\" The headline is \"the line stopped going straight up.\"",
+      },
+      {
+        type: "paragraph",
+        text: "Second — pricing discipline matters more right now than it has in five years. Homes priced to last summer's comps are the ones sitting. Homes priced to today's market are selling, and several are seeing competitive offers. The difference is rarely more than 3–5% in initial list price, but it's the difference between selling in 14 days and renegotiating after 60.",
+      },
+      {
+        type: "callout",
+        label: "The seller's takeaway",
+        text: "Get your home priced right on day one. The market will tell you in the first two weeks. Listening to it early is the entire game.",
+      },
+      {
+        type: "h2",
+        text: "What I'd Actually Do This Month",
+      },
+      {
+        type: "paragraph",
+        text: "If you've been on the fence about buying, this is the cleanest window we've seen since the pandemic distorted everything. Get pre-approved this week. Walk three homes before the Fourth of July. Write an offer you can sleep with — there's room to negotiate that didn't exist last summer.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're selling, list with discipline. The buyers are out there and they're qualified. They're just not paying for last year's market anymore.",
+      },
+      {
+        type: "paragraph",
+        text: "The window won't stay open forever. When rates drop another quarter point — and most economists still expect that before year-end — the demand side wakes up and the leverage shifts back. The buyers who move now will look back at June 2026 as the quietest moment of the cycle.",
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
