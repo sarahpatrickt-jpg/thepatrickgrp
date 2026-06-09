@@ -2173,8 +2173,8 @@ export const posts: Post[] = [
   {
     slug: "june-2026-quiet-buyer-window-oakland-county",
     title: "The Quietest Buyer's Window Metro Detroit Has Had in Five Years",
-    image: "/images/insights/june-2026-buyer-window.jpg",
-    imageAlt: "Suburban Oakland County home with a for sale sign in early summer",
+    image: "/images/insights/may-2026-market-pulse.jpg",
+    imageAlt: "Aerial view of a Southeast Michigan residential neighborhood with tree-lined streets",
     excerpt:
       "Inventory is up. Days on market are up. Prices in Oakland County are actually down year-over-year. Owning is now cheaper than renting in most of our service area — and almost no one is talking about it.",
     date: "2026-06-09",
