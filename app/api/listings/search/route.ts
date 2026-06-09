@@ -151,7 +151,7 @@ export async function GET(request: NextRequest) {
     const page = Math.max(1, parseInt(pageStr, 10) || 1);
     const limit = Math.min(50, Math.max(1, parseInt(limitStr, 10) || 20)); // Max 50 per page
 
-    // Build search criteria
+    // Build search criteria — no limit so we get the true total for pagination
     const criteria: ListingSearchCriteria = {
       slug: city,
       minPrice,
@@ -159,17 +159,11 @@ export async function GET(request: NextRequest) {
       beds,
       baths,
       status: status || undefined,
-      limit: limit * page, // Get all results up to current page for proper sorting
-      offset: 0,
     };
 
-    // Search listings
+    // Search all matching listings, sort, then paginate
     const allResults = searchListings(criteria);
-
-    // Sort
     const sorted = sortListings(allResults, sort);
-
-    // Paginate
     const offset = (page - 1) * limit;
     const paginatedResults = sorted.slice(offset, offset + limit);
 

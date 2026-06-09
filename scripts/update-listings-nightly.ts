@@ -276,8 +276,8 @@ function normalizeListings(
   return sparkListings
     .filter((s) => s.ListPrice && s.UnparsedAddress)
     .map((s) => {
-      // Get primary photo URL if available
-      const photos = (s as unknown as { StandardFields?: { Photos?: { Uri640?: string; Primary?: boolean }[] } }).StandardFields?.Photos || [];
+      // Get primary photo URL — Photos is a top-level field after StandardFields spread
+      const photos = (s as unknown as { Photos?: { Uri640?: string; Primary?: boolean }[] }).Photos || [];
       const primary = photos.find((p) => p.Primary) || photos[0];
       const imageUrl = primary?.Uri640 || "";
 
@@ -390,10 +390,15 @@ function updateListingsFile(listingsByCity: Record<string, Listing[]>): void {
   newListingsContent += "\n" + endMarker;
 
   // Replace in template
-  const updatedContent =
+  let updatedContent =
     template.substring(0, startIdx) +
     newListingsContent +
     template.substring(endIdx + endMarker.length);
+
+  // Ensure @ts-nocheck is always at the top (survives re-runs)
+  if (!updatedContent.startsWith("// @ts-nocheck")) {
+    updatedContent = "// @ts-nocheck — auto-generated file, too large for TS union type inference\n" + updatedContent;
+  }
 
   fs.writeFileSync(listingsPath, updatedContent, "utf-8");
   console.log(`✓ Updated ${listingsPath}`);
