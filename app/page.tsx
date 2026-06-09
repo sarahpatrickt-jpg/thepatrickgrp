@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MapMI from "@/components/MapMI";
 import FeaturedListings from "@/components/FeaturedListings";
+import { posts } from "@/data/posts";
 
 
 export const metadata: Metadata = {
@@ -193,47 +194,23 @@ const TESTIMONIALS = [
   },
 ];
 
-const JOURNAL = [
-  {
-    slug: "michigan-homebuyer-grants-rates-how-to-afford-a-home-2026",
-    label: "Buyer Tips",
-    num: "01",
-    title: "Grants, Rates, and Real Math: How Michigan Buyers Are Affording Homes in 2026",
-    excerpt:
-      "Mortgage rates are in the mid-6s. Insurance is up 20%. And Michigan has thousands in grant money most buyers don't know about. Here's how to stack every advantage.",
-    date: "May 2026",
-    readTime: "7 min",
-    large: true,
-    image: "/images/insights/grants-rates-real-math.jpg",
-    imageAlt: "Young couple reviewing paperwork at a kitchen table",
-  },
-  {
-    slug: "michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know",
-    label: "Buyer Tips",
-    num: "02",
-    title: "Michigan's SB 971 Could Cap Out-of-State Investors at 10 Homes",
-    excerpt:
-      "A new Michigan bill would prohibit out-of-state investment groups from owning more than 10 single-family homes. Here's what it means locally.",
-    date: "May 2026",
-    readTime: "6 min",
-    large: false,
-    image: "/images/insights/sb-971-investor-cap.jpg",
-    imageAlt: "Residential street in Southeast Michigan with for sale sign",
-  },
-  {
-    slug: "spring-2026-southeast-michigan-market-update",
-    label: "Market Update",
-    num: "03",
-    title: "The 2026 Southeast Michigan Market Report",
-    excerpt:
-      "Oakland, Macomb & Wayne counties: where prices are, what's moving, and how the spring selling season is playing out.",
-    date: "Apr 2026",
-    readTime: "8 min",
-    large: false,
-    image: "/images/insights/spring-2026-market-update.jpg",
-    imageAlt: "Suburban homes in spring with green lawns and flowering trees",
-  },
-];
+// Top 3 most recent journal posts, sorted by date desc.
+// Auto-updates when a new post is added — no manual list to maintain.
+const JOURNAL = [...posts]
+  .sort((a, b) => (a.date < b.date ? 1 : -1))
+  .slice(0, 3)
+  .map((p, i) => ({
+    slug: p.slug,
+    label: p.category,
+    num: String(i + 1).padStart(2, "0"),
+    title: p.title,
+    excerpt: p.excerpt,
+    date: new Date(p.date).toLocaleDateString("en-US", { month: "short", year: "numeric" }),
+    readTime: p.readTime,
+    large: i === 0, // newest article gets the big card
+    image: p.image,
+    imageAlt: p.imageAlt,
+  }));
 
 // ─── Shared style helpers ───────────────────────────────────────────────────
 
@@ -525,6 +502,137 @@ export default function HomePage() {
         subhead="A handful of homes on the market right now across our SE Michigan service area. Updated nightly from the MLS."
         count={6}
       />
+
+      {/* ══════════════════════════════════════════════════════
+          §3.5  FROM THE JOURNAL (auto-pulled, newest first)
+      ══════════════════════════════════════════════════════ */}
+      <section className="py-20" style={{ backgroundColor: "var(--paper-2)", borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
+            <div>
+              <p
+                className={eyebrow}
+                style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+              >
+                From the Journal
+              </p>
+              <h2
+                className="font-display mt-3"
+                style={{
+                  fontSize: "clamp(36px, 4vw, 56px)",
+                  lineHeight: "1",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                Market intel,{" "}
+                <em style={{ color: "var(--red)", fontStyle: "italic" }}>straight talk.</em>
+              </h2>
+            </div>
+            <Link
+              href="/insights"
+              className="text-sm font-medium hover:underline shrink-0"
+              style={{ color: "var(--red)", textUnderlineOffset: "3px" }}
+            >
+              All articles →
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {JOURNAL.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/insights/${article.slug}`}
+                className={`group block ${article.large ? "lg:col-span-2" : ""}`}
+                style={{
+                  border: "1px solid var(--line)",
+                  backgroundColor: "var(--paper)",
+                }}
+              >
+                <div
+                  className="relative overflow-hidden"
+                  style={{
+                    paddingBottom: article.large ? "42%" : "56%",
+                    backgroundColor: "var(--paper-3)",
+                  }}
+                >
+                  {article.image ? (
+                    <Image
+                      src={article.image}
+                      alt={article.imageAlt ?? article.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes={article.large ? "(max-width: 1024px) 100vw, 66vw" : "(max-width: 1024px) 100vw, 33vw"}
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" strokeWidth="1">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                      </svg>
+                    </div>
+                  )}
+                </div>
+
+                <div className="p-7">
+                  <p
+                    className={eyebrow}
+                    style={{
+                      color: "var(--ink-3)",
+                      fontFamily: "var(--font-mono, monospace)",
+                      fontSize: "9px",
+                    }}
+                  >
+                    Journal · {article.num} · {article.label}
+                  </p>
+                  <h3
+                    className="font-display mt-3 group-hover:underline"
+                    style={{
+                      fontSize: article.large ? "clamp(22px, 2.5vw, 30px)" : "20px",
+                      color: "var(--ink)",
+                      lineHeight: "1.15",
+                      textUnderlineOffset: "4px",
+                    }}
+                  >
+                    {article.title}
+                  </h3>
+                  <p
+                    className="mt-3 leading-relaxed"
+                    style={{ fontSize: "14px", color: "var(--ink-3)" }}
+                  >
+                    {article.excerpt}
+                  </p>
+                  <div className="flex items-center gap-3 mt-5">
+                    <p
+                      className={eyebrow}
+                      style={{
+                        color: "var(--ink-3)",
+                        fontFamily: "var(--font-mono, monospace)",
+                        fontSize: "9px",
+                      }}
+                    >
+                      {article.date}
+                    </p>
+                    <span style={{ color: "var(--line)" }}>·</span>
+                    <p
+                      className={eyebrow}
+                      style={{
+                        color: "var(--ink-3)",
+                        fontFamily: "var(--font-mono, monospace)",
+                        fontSize: "9px",
+                      }}
+                    >
+                      {article.readTime}
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
 
       {/* ══════════════════════════════════════════════════════
@@ -897,139 +1005,7 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          §8  FROM THE JOURNAL
-      ══════════════════════════════════════════════════════ */}
-      <section className="py-20" style={{ backgroundColor: "var(--paper)" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
-            <div>
-              <p
-                className={eyebrow}
-                style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
-              >
-                From the Journal
-              </p>
-              <h2
-                className="font-display mt-3"
-                style={{
-                  fontSize: "clamp(36px, 4vw, 56px)",
-                  lineHeight: "1",
-                  letterSpacing: "-0.01em",
-                }}
-              >
-                Market intel,{" "}
-                <em style={{ color: "var(--red)", fontStyle: "italic" }}>straight talk.</em>
-              </h2>
-            </div>
-            <Link
-              href="/insights"
-              className="text-sm font-medium hover:underline shrink-0"
-              style={{ color: "var(--red)", textUnderlineOffset: "3px" }}
-            >
-              All articles →
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {JOURNAL.map((article) => (
-              <Link
-                key={article.slug}
-                href={`/insights/${article.slug}`}
-                className={`group block ${article.large ? "lg:col-span-2" : ""}`}
-                style={{
-                  border: "1px solid var(--line)",
-                  backgroundColor: "var(--paper-2)",
-                }}
-              >
-                {/* Card image */}
-                <div
-                  className="relative overflow-hidden"
-                  style={{
-                    paddingBottom: article.large ? "42%" : "56%",
-                    backgroundColor: "var(--paper-3)",
-                  }}
-                >
-                  {article.image ? (
-                    <Image
-                      src={article.image}
-                      alt={article.imageAlt ?? article.title}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes={article.large ? "(max-width: 1024px) 100vw, 66vw" : "(max-width: 1024px) 100vw, 33vw"}
-                    />
-                  ) : (
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" strokeWidth="1">
-                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                        <polyline points="14 2 14 8 20 8"/>
-                        <line x1="16" y1="13" x2="8" y2="13"/>
-                        <line x1="16" y1="17" x2="8" y2="17"/>
-                        <polyline points="10 9 9 9 8 9"/>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-
-                <div className="p-7">
-                  <p
-                    className={eyebrow}
-                    style={{
-                      color: "var(--ink-3)",
-                      fontFamily: "var(--font-mono, monospace)",
-                      fontSize: "9px",
-                    }}
-                  >
-                    Journal · {article.num} · {article.label}
-                  </p>
-                  <h3
-                    className="font-display mt-3 group-hover:underline"
-                    style={{
-                      fontSize: article.large ? "clamp(22px, 2.5vw, 30px)" : "20px",
-                      color: "var(--ink)",
-                      lineHeight: "1.15",
-                      textUnderlineOffset: "4px",
-                    }}
-                  >
-                    {article.title}
-                  </h3>
-                  <p
-                    className="mt-3 leading-relaxed"
-                    style={{ fontSize: "14px", color: "var(--ink-3)" }}
-                  >
-                    {article.excerpt}
-                  </p>
-                  <div className="flex items-center gap-3 mt-5">
-                    <p
-                      className={eyebrow}
-                      style={{
-                        color: "var(--ink-3)",
-                        fontFamily: "var(--font-mono, monospace)",
-                        fontSize: "9px",
-                      }}
-                    >
-                      {article.date}
-                    </p>
-                    <span style={{ color: "var(--line)" }}>·</span>
-                    <p
-                      className={eyebrow}
-                      style={{
-                        color: "var(--ink-3)",
-                        fontFamily: "var(--font-mono, monospace)",
-                        fontSize: "9px",
-                      }}
-                    >
-                      {article.readTime}
-                    </p>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════════════════════
-          §9  VALUATION CTA  (dark section)
+          §8  VALUATION CTA  (dark section)
       ══════════════════════════════════════════════════════ */}
       <section className="py-24" style={{ backgroundColor: "var(--ink)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
