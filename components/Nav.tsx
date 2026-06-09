@@ -38,7 +38,7 @@ const specialtyHrefs = new Set(specialtyLinks.map((l) => l.href));
 const allLinks = [
   { href: "/buying",               label: "Buy" },
   { href: "/selling",              label: "Sell" },
-  { href: "/search-homes",         label: "Search Homes" },
+  // Search Homes intentionally not in mobile drawer — it's a CTA button
   { href: "/cash-offer",           label: "Cash Offer Program" },
   { href: "/new-construction",     label: "New Construction" },
   { href: "/divorce-real-estate",   label: "Divorce Real Estate" },
@@ -248,8 +248,10 @@ export default function Nav() {
             >
               248.755.3545
             </a>
-            <Link
-              href="/search-homes"
+            <a
+              href="https://bradpatrick.oakandstonerealestate.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[12px] font-medium px-4 py-2.5 uppercase tracking-wider transition-colors whitespace-nowrap"
               style={{
                 border: "1px solid var(--ink)",
@@ -259,7 +261,7 @@ export default function Nav() {
               }}
             >
               Search Homes
-            </Link>
+            </a>
             <Link
               href="/home-valuation"
               className="text-[12px] font-medium px-4 py-2.5 uppercase tracking-wider transition-colors whitespace-nowrap"

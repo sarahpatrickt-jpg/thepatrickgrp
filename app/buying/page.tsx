@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TikTokEmbed from "@/components/TikTokEmbed";
+import FeaturedListings from "@/components/FeaturedListings";
 
 export const metadata: Metadata = {
   title: "Buy a Home in Southeast Michigan",
@@ -159,6 +160,14 @@ export default function BuyingPage() {
           </div>
         </div>
       </section>
+
+      {/* FEATURED HOMES — synced nightly from MLS */}
+      <FeaturedListings
+        eyebrow="Browsing the Market?"
+        heading="Featured Homes for Sale"
+        subhead="A taste of what's on the market right now. Click any home to explore it on our full MLS search."
+        count={6}
+      />
 
       {/* VIP PROMO BAND */}
       <section className="py-10 px-4 sm:px-6 bg-[#c70000] text-white">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import MapMI from "@/components/MapMI";
+import FeaturedListings from "@/components/FeaturedListings";
 
 
 export const metadata: Metadata = {
@@ -377,8 +378,10 @@ export default function HomePage() {
 
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 mt-10">
-                <Link
-                  href="/search-homes"
+                <a
+                  href="https://bradpatrick.oakandstonerealestate.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wider uppercase transition-colors"
                   style={{
                     backgroundColor: "var(--red)",
@@ -388,7 +391,7 @@ export default function HomePage() {
                   }}
                 >
                   Search Homes
-                </Link>
+                </a>
                 <Link
                   href="/home-valuation"
                   className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wider uppercase transition-colors hover:bg-ink hover:text-paper"
@@ -514,56 +517,15 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          §3  ACTIVE LISTINGS CTA
+          §3  FEATURED HOMES (auto-pulled from MLS sync)
       ══════════════════════════════════════════════════════ */}
-      <section className="py-20" style={{ backgroundColor: "var(--paper)" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p
-            className={eyebrow}
-            style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
-          >
-            Currently Showing
-          </p>
-          <h2
-            className="font-display mt-3"
-            style={{ fontSize: "clamp(36px, 4vw, 56px)", lineHeight: "1", letterSpacing: "-0.01em" }}
-          >
-            Browse Our{" "}
-            <em style={{ color: "var(--red)", fontStyle: "italic" }}>Active Listings</em>
-          </h2>
-          <p className="mt-4 max-w-xl mx-auto" style={{ color: "var(--ink-2)", fontSize: "17px", lineHeight: "1.7" }}>
-            Search every home for sale in Southeast Michigan — filter by city, price, beds, and status.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link
-              href="/search-homes"
-              className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wide uppercase"
-              style={{
-                backgroundColor: "var(--red)",
-                color: "#fff",
-                fontFamily: "var(--font-mono, monospace)",
-                letterSpacing: "0.1em",
-              }}
-            >
-              Search All Listings
-            </Link>
-            <a
-              href="https://bradpatrick.oakandstonerealestate.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wide uppercase transition-colors hover:bg-ink hover:text-paper"
-              style={{
-                border: "1px solid var(--ink)",
-                color: "var(--ink)",
-                fontFamily: "var(--font-mono, monospace)",
-                letterSpacing: "0.1em",
-              }}
-            >
-              Full MLS on Oak &amp; Stone →
-            </a>
-          </div>
-        </div>
-      </section>
+      <FeaturedListings
+        eyebrow="Currently Showing"
+        heading="Featured Homes for Sale"
+        subhead="A handful of homes on the market right now across our SE Michigan service area. Updated nightly from the MLS."
+        count={6}
+      />
+
 
       {/* ══════════════════════════════════════════════════════
           §4  THE PATRICK GROUP DIFFERENCE  (dark section)
