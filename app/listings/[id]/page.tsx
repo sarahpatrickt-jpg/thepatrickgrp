@@ -1,349 +1,317 @@
 /**
- * /app/listings/[id]/page.tsx
+ * /listings/[id] — Single listing detail page.
  *
- * Dynamic listing detail page.
+ * Shows full photo gallery, key specs, and a CTA to view the listing on Oak & Stone
+ * for additional details or to schedule a showing.
  *
- * Route: /listings/[id]
- * Data: Fetches from /data/listings.ts based on [id] slug
+ * Data: pulled from /data/listings.ts (synced nightly from Spark API).
  *
- * Content:
- * - Hero: Address, status badge, list price (red)
- * - Image gallery: Hero image + placeholder thumbnails
- * - Key stats: Beds, baths, sqft, lot size, year built, DOM
- * - Property description
- * - Agent notes (Cormorant Garamond italic)
- * - Market context: Similar homes in city
- * - CTA: "Schedule a Showing" button
- * - Footer: Compliance link to oakandstonerealestate.com
- *
- * Styling: Oak & Stone brand tokens (DM Serif, red accent, cream/ink)
- * MichRIC® Compliance: Footer link directs to approved external interface
+ * MichRIC® Compliance: no raw data export, all photos served from MLS-provided URLs,
+ * external link goes to the approved Oak & Stone Real Estate interface.
  */
 
-import { notFound } from "next/navigation";
-import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
-import { getListingById } from "@/data/listings";
-import { getMarketAnalysis } from "@/data/market-analysis";
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
 
-interface ListingDetailPageProps {
+import { getListingById } from "@/data/listings";
+import ListingGallery from "@/components/ListingGallery";
+
+interface PageProps {
   params: Promise<{ id: string }>;
 }
 
-/**
- * Generate metadata for the listing detail page
- */
-export async function generateMetadata({
-  params,
-}: ListingDetailPageProps): Promise<Metadata> {
+const OAK_AND_STONE_SEARCH = "https://bradpatrick.oakandstonerealestate.com/";
+
+function fmtPrice(n: number) {
+  return "$" + n.toLocaleString("en-US");
+}
+
+function fmtNumber(n: number) {
+  return n.toLocaleString("en-US");
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
   const listing = getListingById(id);
 
   if (!listing) {
-    return {
-      title: "Listing Not Found",
-      description: "The listing you're looking for could not be found.",
-    };
+    return { title: "Listing Not Found" };
   }
 
   return {
-    title: `${listing.address}, ${listing.city} — Oak & Stone Real Estate`,
-    description: `${listing.beds}bd/${listing.baths}ba home in ${listing.city}, MI. $${listing.listPrice.toLocaleString()}. ${listing.sqft.toLocaleString()} sqft.`,
+    title: `${listing.address}, ${listing.city}, MI — ${fmtPrice(listing.listPrice)}`,
+    description: `${listing.beds} bed, ${listing.baths} bath home for sale in ${listing.city}, MI. Listed at ${fmtPrice(listing.listPrice)}.`,
     alternates: {
       canonical: `https://www.thepatrickgrp.com/listings/${listing.id}`,
     },
-    openGraph: {
-      type: "website",
-      url: `https://www.thepatrickgrp.com/listings/${listing.id}`,
-      title: `${listing.address}, ${listing.city}`,
-      description: `${listing.beds}bd/${listing.baths}ba home in ${listing.city}, MI. $${listing.listPrice.toLocaleString()}.`,
-      images: listing.imageUrl
-        ? [
-            {
-              url: listing.imageUrl,
-              width: 1200,
-              height: 630,
-              alt: listing.address,
-            },
-          ]
-        : [],
-    },
+    openGraph: listing.imageUrl
+      ? {
+          type: "website",
+          title: `${listing.address}, ${listing.city}, MI`,
+          description: `${listing.beds}bd / ${listing.baths}ba · ${fmtPrice(listing.listPrice)}`,
+          images: [{ url: listing.imageUrl }],
+        }
+      : undefined,
   };
 }
 
-/**
- * Format price as USD string (e.g., "$485,000")
- */
-function formatPrice(price: number): string {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD",
-    minimumFractionDigits: 0,
-  }).format(price);
-}
-
-/**
- * Format number with thousands separator (e.g., "2,145" sqft)
- */
-function formatNumber(num: number): string {
-  return new Intl.NumberFormat("en-US").format(Math.round(num));
-}
-
-/**
- * Listing Detail Page
- */
-export default async function ListingDetailPage({ params }: ListingDetailPageProps) {
+export default async function ListingDetailPage({ params }: PageProps) {
   const { id } = await params;
   const listing = getListingById(id);
 
-  if (!listing) {
-    notFound();
-  }
+  if (!listing) notFound();
 
-  // Get market analysis for the city to show context
-  const cityMarketData = getMarketAnalysis(listing.slug);
-
-  // Status badge styling
-  const statusBg =
-    listing.status === "active"
-      ? "bg-green-50 text-green-700"
-      : listing.status === "pending"
-        ? "bg-amber-50 text-amber-700"
-        : "bg-gray-50 text-gray-600";
+  // Use full gallery if available, otherwise just the primary hero
+  const photos = listing.photos && listing.photos.length > 0
+    ? listing.photos
+    : listing.imageUrl
+    ? [listing.imageUrl]
+    : [];
 
   const statusLabel =
-    listing.status === "sold"
-      ? "Sold"
+    listing.status === "active"
+      ? "Active"
       : listing.status === "pending"
-        ? "Pending"
-        : "Active";
+      ? "Pending"
+      : "Sold";
+
+  const statusBg =
+    listing.status === "active"
+      ? "#dcfce7"
+      : listing.status === "pending"
+      ? "#fef3c7"
+      : "#e5e7eb";
+
+  const statusFg =
+    listing.status === "active"
+      ? "#166534"
+      : listing.status === "pending"
+      ? "#92400e"
+      : "#374151";
 
   return (
-    <div className="min-h-screen bg-white">
+    <div style={{ backgroundColor: "var(--paper)", color: "var(--ink)" }}>
+
       {/* Breadcrumb */}
-      <nav className="bg-gray-50 px-4 sm:px-6 py-4 border-b border-gray-200">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/search-homes" className="text-[#C70000] hover:underline">
-              Search Homes
-            </Link>
-            <span className="text-gray-400">/</span>
-            <Link href={`/neighborhoods/${listing.slug}`} className="text-[#C70000] hover:underline">
-              {listing.city}, MI
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-600">{listing.address}</span>
-          </div>
-        </div>
-      </nav>
+      <div className="pt-24 px-4 sm:px-6 max-w-7xl mx-auto">
+        <p
+          className="text-xs"
+          style={{
+            color: "var(--ink-3)",
+            fontFamily: "var(--font-mono, monospace)",
+            letterSpacing: "0.1em",
+          }}
+        >
+          <Link href="/" className="hover:underline">Home</Link>
+          {" / "}
+          <Link href="/buying" className="hover:underline">Buy</Link>
+          {" / "}
+          <span style={{ color: "var(--ink)" }}>{listing.city}</span>
+        </p>
+      </div>
 
-      {/* Hero Section */}
-      <section className="bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-          {/* Header Row */}
-          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-8">
-            <div className="flex-1">
-              {/* Status Badge */}
-              <div className="mb-3">
-                <span className={`inline-block px-3 py-1 rounded text-sm font-medium ${statusBg}`}>
-                  {statusLabel}
-                </span>
-              </div>
-
-              {/* Address */}
-              <h1 className="font-['DM_Serif_Display'] text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-                {listing.address}
-              </h1>
-
-              {/* City/Zip */}
-              <p className="text-lg text-gray-600 mb-6">
-                {listing.city}, MI {listing.zip}
-              </p>
-
-              {/* Price - Red accent */}
-              <p className="font-['DM_Serif_Display'] text-5xl font-bold text-[#C70000] mb-8">
-                {formatPrice(listing.listPrice)}
-              </p>
-            </div>
-
-            {/* Quick Stats */}
-            <div className="flex gap-6">
-              <div className="text-center">
-                <p className="text-3xl font-bold text-gray-900">{listing.beds}</p>
-                <p className="text-sm text-gray-600 uppercase">Beds</p>
-              </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-gray-900">{listing.baths}</p>
-                <p className="text-sm text-gray-600 uppercase">Baths</p>
-              </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-gray-900">
-                  {formatNumber(listing.sqft)}
-                </p>
-                <p className="text-sm text-gray-600 uppercase">Sqft</p>
-              </div>
-            </div>
+      {/* Hero / Address / Price */}
+      <section className="pt-8 pb-6 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center gap-3 mb-3">
+            <span
+              className="px-3 py-1 text-xs font-semibold uppercase tracking-wider"
+              style={{
+                backgroundColor: statusBg,
+                color: statusFg,
+                letterSpacing: "0.1em",
+              }}
+            >
+              {statusLabel}
+            </span>
+            <p
+              className="text-xs"
+              style={{
+                color: "var(--ink-3)",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.1em",
+              }}
+            >
+              MLS #{listing.mlsNumber.slice(0, 12)}
+            </p>
           </div>
 
-          {/* Image Gallery */}
-          <div className="bg-gray-100 rounded-lg overflow-hidden aspect-video mb-12">
-            {listing.imageUrl ? (
-              <Image
-                src={listing.imageUrl}
-                alt={listing.address}
-                width={1200}
-                height={675}
-                className="w-full h-full object-cover"
-                priority
-              />
-            ) : (
-              <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-                <span className="text-gray-400 text-lg">No image available</span>
-              </div>
-            )}
-          </div>
-
-          {/* Main Content Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            {/* Left Column: Details */}
-            <div className="lg:col-span-2">
-              {/* Key Facts */}
-              <div className="bg-gray-50 rounded-lg p-6 mb-8">
-                <h2 className="font-['DM_Serif_Display'] text-2xl font-bold text-gray-900 mb-6">
-                  Property Details
-                </h2>
-                <div className="grid grid-cols-2 gap-6">
-                  <div>
-                    <p className="text-xs font-semibold text-gray-600 uppercase mb-1">
-                      Bedrooms
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">{listing.beds}</p>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold text-gray-600 uppercase mb-1">
-                      Bathrooms
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">{listing.baths}</p>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold text-gray-600 uppercase mb-1">
-                      Square Feet
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">
-                      {formatNumber(listing.sqft)}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold text-gray-600 uppercase mb-1">
-                      Days on Market
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">{listing.daysOnMarket}</p>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold text-gray-600 uppercase mb-1">
-                      Property Type
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">{listing.propertyType}</p>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold text-gray-600 uppercase mb-1">
-                      Price per Sqft
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">
-                      ${Math.round(listing.listPrice / listing.sqft)}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Description */}
-              {listing.agentNotes && (
-                <div className="mb-8">
-                  <h2 className="font-['DM_Serif_Display'] text-2xl font-bold text-gray-900 mb-4">
-                    About This Home
-                  </h2>
-                  <p className="text-lg text-gray-700 leading-relaxed font-['Cormorant_Garamond'] italic">
-                    "{listing.agentNotes}"
-                  </p>
-                </div>
-              )}
-
-              {/* Market Context */}
-              {cityMarketData && cityMarketData.activeCount > 0 && (
-                <div className="bg-blue-50 rounded-lg p-6 border border-blue-100">
-                  <h2 className="font-['DM_Serif_Display'] text-lg font-bold text-gray-900 mb-3">
-                    Market Context
-                  </h2>
-                  <p className="text-gray-700 mb-3">
-                    This home is listed in a market with{" "}
-                    <span className="font-semibold">{cityMarketData.activeCount}</span> active
-                    listings. Homes in {listing.city} are typically listed for{" "}
-                    <span className="font-semibold">{cityMarketData.medianDOM}</span> days.
-                  </p>
-                  <p className="text-gray-700">
-                    Similar homes sell for a median of{" "}
-                    <span className="font-semibold">{formatPrice(cityMarketData.medianPrice)}</span>
-                    .
-                  </p>
-                </div>
-              )}
-            </div>
-
-            {/* Right Column: CTA & Info */}
-            <div className="lg:col-span-1">
-              {/* CTA Card */}
-              <div className="bg-gray-50 rounded-lg p-6 mb-6 sticky top-6">
-                <h3 className="font-['DM_Serif_Display'] text-xl font-bold text-gray-900 mb-4">
-                  Interested in This Home?
-                </h3>
-                <Link
-                  href={`/contact?listing=${listing.id}&address=${encodeURIComponent(listing.address)}`}
-                  className="block w-full text-center px-6 py-3 bg-[#C70000] text-white font-medium uppercase tracking-wider hover:bg-[#a90000] transition-colors rounded mb-4"
-                >
-                  Schedule a Showing
-                </Link>
-                <p className="text-xs text-gray-600 text-center">
-                  Contact our team to schedule a viewing or ask questions.
-                </p>
-              </div>
-
-              {/* Agent Info Card */}
-              <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <p className="text-sm text-gray-600 mb-2">Represented by</p>
-                <p className="font-['DM_Serif_Display'] text-xl font-bold text-gray-900">
-                  Oak & Stone Real Estate
-                </p>
-                <p className="text-sm text-gray-600 mt-4">
-                  <a href="tel:2487553545" className="text-[#C70000] hover:underline">
-                    248.755.3545
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer: Compliance & External Link */}
-      <section className="bg-gray-50 border-t border-gray-200 py-8 px-4 sm:px-6 mt-12">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-sm text-gray-600 mb-3">
-            See full listing details with additional photos and information on
-          </p>
-          <a
-            href="https://www.oakandstonerealestate.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-6 py-2 bg-[#C70000] text-white font-medium uppercase tracking-wider hover:bg-[#a90000] transition-colors"
+          <h1
+            className="font-display"
+            style={{
+              fontSize: "clamp(28px, 4vw, 48px)",
+              lineHeight: "1.1",
+              letterSpacing: "-0.01em",
+            }}
           >
-            Oak & Stone Real Estate
-          </a>
-          <p className="text-xs text-gray-500 mt-4">
-            Listing information sourced from MichRIC® Broker Reciprocity (IDX).
+            {listing.address}
+          </h1>
+          <p
+            className="font-editorial italic mt-2"
+            style={{ fontSize: "20px", color: "var(--ink-2)" }}
+          >
+            {listing.city}, MI {listing.zip}
+          </p>
+
+          <p
+            className="font-display mt-5"
+            style={{
+              fontSize: "clamp(36px, 5vw, 56px)",
+              color: "var(--red)",
+              lineHeight: "1",
+            }}
+          >
+            {fmtPrice(listing.listPrice)}
           </p>
         </div>
       </section>
+
+      {/* Photo Gallery */}
+      {photos.length > 0 && (
+        <section className="px-4 sm:px-6 mb-12">
+          <div className="max-w-7xl mx-auto">
+            <ListingGallery photos={photos} address={listing.address} />
+          </div>
+        </section>
+      )}
+
+      {/* Specs Grid */}
+      <section className="px-4 sm:px-6 py-8" style={{ backgroundColor: "var(--paper-2)", borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }}>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-0">
+            {[
+              { label: "Bedrooms", value: fmtNumber(listing.beds) },
+              { label: "Bathrooms", value: fmtNumber(listing.baths) },
+              { label: "Square Feet", value: listing.sqft > 0 ? fmtNumber(listing.sqft) : "—" },
+              { label: "Property Type", value: listing.propertyType },
+            ].map((spec, i) => (
+              <div
+                key={spec.label}
+                className="sm:px-6"
+                style={{ borderLeft: i > 0 ? "1px solid var(--line)" : "none" }}
+              >
+                <p
+                  className="uppercase tracking-[0.18em] text-[10px] font-medium"
+                  style={{
+                    color: "var(--ink-3)",
+                    fontFamily: "var(--font-mono, monospace)",
+                  }}
+                >
+                  {spec.label}
+                </p>
+                <p
+                  className="font-display mt-2"
+                  style={{
+                    fontSize: "28px",
+                    color: "var(--ink)",
+                    lineHeight: "1",
+                  }}
+                >
+                  {spec.value}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* About + CTA */}
+      <section className="py-16 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p
+            className="uppercase tracking-[0.22em] text-[10px] font-medium"
+            style={{
+              color: "var(--red)",
+              fontFamily: "var(--font-mono, monospace)",
+            }}
+          >
+            Interested in this home?
+          </p>
+          <h2
+            className="font-display mt-3"
+            style={{
+              fontSize: "clamp(28px, 3.5vw, 40px)",
+              lineHeight: "1.1",
+              letterSpacing: "-0.01em",
+            }}
+          >
+            Let's get you{" "}
+            <em style={{ color: "var(--red)", fontStyle: "italic" }}>
+              inside this home.
+            </em>
+          </h2>
+          <p
+            className="font-editorial italic mt-4 mx-auto"
+            style={{ fontSize: "17px", color: "var(--ink-2)", maxWidth: 520 }}
+          >
+            Get the full listing details, schedule a showing, or have us reach
+            out about this property.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mt-8">
+            <Link
+              href={`/contact?subject=${encodeURIComponent("Question about " + listing.address)}`}
+              className="inline-block px-8 py-4 text-sm font-medium uppercase tracking-wider transition-opacity hover:opacity-90"
+              style={{
+                backgroundColor: "var(--red)",
+                color: "#FDFBF7",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.12em",
+              }}
+            >
+              Ask Brad About This Home
+            </Link>
+            <a
+              href={OAK_AND_STONE_SEARCH}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-4 text-sm font-medium uppercase tracking-wider transition-colors hover:bg-ink hover:text-paper"
+              style={{
+                border: "1px solid var(--ink)",
+                color: "var(--ink)",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.12em",
+              }}
+            >
+              Full Search on Oak &amp; Stone →
+            </a>
+          </div>
+
+          <p
+            className="mt-8 text-xs"
+            style={{
+              color: "var(--ink-3)",
+              fontFamily: "var(--font-mono, monospace)",
+            }}
+          >
+            Or call us directly:{" "}
+            <a
+              href="tel:2487553545"
+              style={{ color: "var(--red)" }}
+              className="hover:underline"
+            >
+              248.755.3545
+            </a>
+          </p>
+        </div>
+      </section>
+
+      {/* Compliance footer */}
+      <div
+        className="py-4 px-4 sm:px-6 text-center text-xs"
+        style={{
+          backgroundColor: "var(--paper-2)",
+          color: "var(--ink-3)",
+          borderTop: "1px solid var(--line)",
+        }}
+      >
+        <span style={{ fontFamily: "var(--font-mono, monospace)" }}>
+          Listing data sourced from MichRIC® Broker Reciprocity (IDX).
+          Last updated {new Date(listing.lastUpdated).toLocaleDateString("en-US")}.
+        </span>
+      </div>
     </div>
   );
 }

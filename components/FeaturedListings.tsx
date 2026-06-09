@@ -12,6 +12,7 @@
  */
 
 import Image from "next/image";
+import Link from "next/link";
 
 import { getAllListings, type Listing } from "@/data/listings";
 
@@ -32,27 +33,48 @@ const BOUTIQUE_CITIES = new Set<string>([
 
 const OAK_AND_STONE_SEARCH = "https://bradpatrick.oakandstonerealestate.com/";
 
+/**
+ * Day-of-year used to deterministically rotate the featured set each day.
+ * Same 6 homes within a day, different 6 tomorrow.
+ */
+function dayOfYear(): number {
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const diff = now.getTime() - start.getTime();
+  return Math.floor(diff / 86400000);
+}
+
 function pickFeatured(count = 6): Listing[] {
   const all = getAllListings();
 
-  // Show only real homes for sale: in our boutique markets, with a photo, beds and baths populated
+  // Eligibility: $600k+ luxury inventory in our boutique markets, with a photo
   const eligible = all.filter(
     (l) =>
       BOUTIQUE_CITIES.has(l.slug) &&
       l.status === "active" &&
-      l.listPrice >= 200000 &&
-      l.listPrice <= 3000000 &&
+      l.listPrice >= 600000 &&
       l.beds > 0 &&
       l.baths > 0 &&
-      l.imageUrl, // must have a real photo
+      l.imageUrl,
   );
 
-  // Deterministic spread across cities so we don't show 6 from one city
+  if (eligible.length <= count) return eligible;
+
+  // Build a pool sized to give a 5-7 day rotation cycle
+  const poolSize = Math.min(count * 7, eligible.length);
+  const pool = [...eligible]
+    .sort((a, b) => b.listPrice - a.listPrice)
+    .slice(0, poolSize);
+
+  // Rotate the pool by day-of-year, then take the first `count`
+  // De-duped by city so we don't show two from the same city.
+  const offset = dayOfYear() % pool.length;
+  const rotated = [...pool.slice(offset), ...pool.slice(0, offset)];
+
   const seenCities = new Set<string>();
   const picked: Listing[] = [];
 
-  // First pass — one per city, sorted by price descending
-  for (const l of [...eligible].sort((a, b) => b.listPrice - a.listPrice)) {
+  for (const l of rotated) {
     if (!seenCities.has(l.slug)) {
       picked.push(l);
       seenCities.add(l.slug);
@@ -60,9 +82,9 @@ function pickFeatured(count = 6): Listing[] {
     }
   }
 
-  // Top up if not enough distinct cities
+  // Top up if not enough distinct cities in the pool today
   if (picked.length < count) {
-    for (const l of eligible) {
+    for (const l of rotated) {
       if (!picked.includes(l)) {
         picked.push(l);
         if (picked.length === count) break;
@@ -146,11 +168,9 @@ export default function FeaturedListings({
         {/* Listings grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {featured.map((listing) => (
-            <a
+            <Link
               key={listing.id}
-              href={OAK_AND_STONE_SEARCH}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`/listings/${listing.id}`}
               className="group block"
               style={{ backgroundColor: cardBg, border: `1px solid ${cardBorder}` }}
             >
@@ -233,7 +253,7 @@ export default function FeaturedListings({
                   View Details →
                 </p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
 

@@ -149,6 +149,7 @@ interface Listing {
   status: "active" | "pending" | "sold";
   propertyType: string;
   imageUrl: string;
+  photos?: string[];
   agentNotes?: string;
   isFeatured: boolean;
   sparkListingId: string;
@@ -276,10 +277,15 @@ function normalizeListings(
   return sparkListings
     .filter((s) => s.ListPrice && s.UnparsedAddress)
     .map((s) => {
-      // Get primary photo URL — Photos is a top-level field after StandardFields spread
-      const photos = (s as unknown as { Photos?: { Uri640?: string; Primary?: boolean }[] }).Photos || [];
-      const primary = photos.find((p) => p.Primary) || photos[0];
-      const imageUrl = primary?.Uri640 || "";
+      // Photos — full gallery + primary image
+      const rawPhotos = (s as unknown as { Photos?: { Uri640?: string; Uri800?: string; Primary?: boolean }[] }).Photos || [];
+      // Use Uri800 for gallery (better quality), fall back to Uri640
+      const photoUrls = rawPhotos
+        .map((p) => p.Uri800 || p.Uri640 || "")
+        .filter((u) => u);
+      // Primary photo for cards/hero (Uri640 is fine for thumbnails)
+      const primary = rawPhotos.find((p) => p.Primary) || rawPhotos[0];
+      const imageUrl = primary?.Uri640 || primary?.Uri800 || "";
 
       // Helper: parse a Spark field that may be "********" (redacted) or a number
       const n = (v: unknown): number => {
@@ -302,6 +308,7 @@ function normalizeListings(
         status,
         propertyType: mapPropertyType(s.PropertyType),
         imageUrl,
+        photos: photoUrls.length > 0 ? photoUrls : undefined,
         agentNotes: undefined,
         isFeatured: false,
         sparkListingId: s.Id || s.ListingKey,
