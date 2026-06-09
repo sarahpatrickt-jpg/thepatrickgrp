@@ -44,6 +44,11 @@ function dayOfYear(): number {
   return Math.floor(diff / 86400000);
 }
 
+/** Normalize an address for dedup: lowercase, strip whitespace + punctuation */
+function normalizeAddress(addr: string): string {
+  return addr.toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
 function pickFeatured(count = 6): Listing[] {
   const all = getAllListings();
 
@@ -58,11 +63,25 @@ function pickFeatured(count = 6): Listing[] {
       l.imageUrl,
   );
 
-  if (eligible.length <= count) return eligible;
+  // Dedupe across MLS feeds — same property is often in RealComp AND
+  // MiRealSource under slightly different city slugs (e.g. Bloomfield Hills
+  // vs Bloomfield Township). Key on normalized address + price.
+  const dedupKey = (l: Listing) => `${normalizeAddress(l.address)}:${l.listPrice}`;
+  const seenAddresses = new Set<string>();
+  const deduped: Listing[] = [];
+  for (const l of eligible) {
+    const k = dedupKey(l);
+    if (!seenAddresses.has(k)) {
+      seenAddresses.add(k);
+      deduped.push(l);
+    }
+  }
+
+  if (deduped.length <= count) return deduped;
 
   // Build a pool sized to give a 5-7 day rotation cycle
-  const poolSize = Math.min(count * 7, eligible.length);
-  const pool = [...eligible]
+  const poolSize = Math.min(count * 7, deduped.length);
+  const pool = [...deduped]
     .sort((a, b) => b.listPrice - a.listPrice)
     .slice(0, poolSize);
 
