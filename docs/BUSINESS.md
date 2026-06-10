@@ -77,7 +77,9 @@ Cadence: daily 1 social post; weekly journal + GBP post + review outreach; month
 
 ## 7. Backlog (consolidated, as of 2026-06-10)
 
-Done June 10: design system unified across all pages (brand tokens); /market-tracker launched (nightly city-level inventory + median price, history snapshots in data/market-history.json, week-over-week change appears after 7 days); reviews surfaced in hero + testimonials; fair housing copy cleanup; site-wide em dash removal.
+Done June 10: design system unified across all pages (brand tokens); /market-tracker launched (nightly city-level inventory + median price, history in data/market-history.json, WoW change appears after 7 days); reviews surfaced in hero + testimonials (16 on /reviews, true 32-count shown); fair housing copy cleanup; site-wide em dash removal; city pages got city-specific Search Homes hero buttons; homepage county grid moved to bottom with "Serving All of Southeast Michigan" framing; photo bands on all 11 specialty pages (graded via assets/grade.py, contained 1024px frames); Brad's email signature built (assets/brad-email-signature.html) and installed.
+
+Awaiting Sarah/Brad (drafted and ready): send Real Producers + Hour Detroit backlink emails (drafts in the June 10 chat); add thepatrickgrp.com to Brad's Zillow + Realtor.com profiles and GMAR directory; 5 review-request texts per month.
 
 - Sierra routing rule for inherited property leads (source "thepatrickgrp.com - Inherited Property")
 - AI citation test: /divorce-real-estate and /cash-offer in ChatGPT/Gemini (overdue since March)
