@@ -33,9 +33,9 @@ const reviews = [
     text: "I highly recommend The Patrick Group for all of your real estate needs. Mr. Brad & Mrs. Sarah Patrick came to our home to formally introduce themselves. The couple made us feel taken care of and protected from the start!! They advised us what we needed to do and we all got to work! Mr. Brad Patrick was the detailed, diligent intelligent agent that assisted us directly. He was very patient with our questions, research and reservations early on. What really impressed us, we ran into an issue with the buyers of our house needing more time due to an issue, not on our end. The big issue was we were a few days from closing. He happily offered to and executed to contact the listing agent, builder and whoever else was in charge on our contract to buy elsewhere. It's a family affair. Brad and Sarah's son, Christian, hosted the open house for us when our home was for sale. All texts, emails and calls are handled with care and I never felt like Brad didn't care! Expectations were always exceeded, if he told me he would call by 5 pm, he is calling at 3:30! Please trust that you are working with the best!",
   },
   {
-    name: "Sabella Cascarelli",
+    name: "Isabella Cascarelli",
     rating: 5,
-    text: "Brad recently helped my husband and I find our first home together. He made the entire process feel absolutely seamless from start to finish. From the beginning, he was always transparent, sharing his honest opinions and giving us advice to help us through the process. He offered so much insight on everything from design ideas to different ways of house hunting in order to get the most 'bang' for our 'buck'. He acted not only as our realtor, but as a friend and advisor. Buying a first home is no easy feat, especially in today's market. Brad coached us through, gave pep talks when needed, and provided us with all the tools we would need to be successful homeowners. He made us feel like we were his only clients, always making our busy schedules work with his and answering the phone if we ever called with any questions. There is no one I would more highly recommend!!!",
+    text: "Brad recently helped my husband and I find our first home together. He made the entire process feel absolutely seamless from start to finish. From the beginning, he was always transparent, sharing his honest opinions and giving us advice to help us through the process. He offered so much insight on everything from design ideas to help transform a space to different ways of house hunting in order to get the most 'bang' for our 'buck'. He acted not only as our realtor, but as a friend and advisor. Buying a first home is no easy feat, especially in today's market, with how fast houses are coming and going. Brad coached us through, gave pep talks when needed, and provided us with all the tools we would need to be successful homeowners (I swear he has a 'guy' for everything). He made us feel like we were his only clients, always making our busy schedules work with his and answering the phone if we ever called with any questions. There is no one I would more highly recommend!!!",
   },
   {
     name: "Jasmine Coleman",
@@ -77,7 +77,7 @@ const aggregateSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5.0",
-    reviewCount: String(reviews.length),
+    reviewCount: "32", // total Google reviews (page displays a subset)
     bestRating: "5",
     worstRating: "1",
   },
@@ -140,7 +140,15 @@ export default function ReviewsPage() {
                 </svg>
               ))}
             </div>
-            <p className="text-white/60 text-sm">Google Reviews</p>
+            <p className="text-white/60 text-sm">32 Google Reviews</p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=The+Patrick+Group+Oak+and+Stone+Real+Estate+Rochester+MI"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#c70000] text-xs font-semibold hover:underline"
+            >
+              Read all reviews on Google
+            </a>
           </div>
         </div>
       </section>

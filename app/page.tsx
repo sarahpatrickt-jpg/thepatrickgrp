@@ -172,7 +172,7 @@ const TESTIMONIALS = [
   {
     quote:
       "Brad was not just our realtor, but our partner throughout the entire process. He went to bat for us, and we secured our dream home.",
-    name: "Sabella Cascarelli",
+    name: "Isabella Cascarelli",
     type: "Buyer",
   },
   {
