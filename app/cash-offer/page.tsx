@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import CashOfferForm from "@/components/CashOfferForm";
 
@@ -231,6 +232,18 @@ export default function CashOfferPage() {
           </div>
         </div>
       </section>
+
+      {/* Photo band */}
+      <section className="relative w-full" style={{ height: "clamp(240px, 38vw, 440px)" }}>
+        <Image
+          src="/images/photos/white-kitchen.jpg"
+          alt="Bright white kitchen in a Southeast Michigan home"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+      </section>
+
 
       {/* IMPORTANT DISTINCTION. TRUST */}
       <section className="py-12 px-4 sm:px-6 bg-[var(--red)] text-white">

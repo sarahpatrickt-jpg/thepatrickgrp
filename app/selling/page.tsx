@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -146,6 +147,18 @@ export default function SellingPage() {
           </div>
         </div>
       </section>
+
+      {/* Photo band */}
+      <section className="relative w-full" style={{ height: "clamp(240px, 38vw, 440px)" }}>
+        <Image
+          src="/images/photos/brick-courtyard-home.jpg"
+          alt="Brick home with courtyard drive in Southeast Michigan"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+      </section>
+
 
       {/* MARKETING TOOLKIT */}
       <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">

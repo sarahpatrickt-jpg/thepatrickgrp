@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -173,6 +174,18 @@ export default function RealEstateInvestorsPage() {
           </div>
         </div>
       </section>
+
+      {/* Photo band */}
+      <section className="relative w-full" style={{ height: "clamp(240px, 38vw, 440px)" }}>
+        <Image
+          src="/images/photos/townhome-street-dusk.jpg"
+          alt="Row of homes at dusk in Southeast Michigan"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+      </section>
+
 
       {/* INVESTOR TYPES */}
       <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
