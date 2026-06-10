@@ -1,20 +1,19 @@
-# The Patrick Group — Business Hub
+# The Patrick Group — Master Business Document
 
-Single source of truth for the business side of thepatrickgrp.com.
-Brand/copy rules live in `CLAUDE.md` (repo root). Legal terms in `docs/MICHRIC-LICENSE.md`. SEO history in `docs/SEO-LOG.md`.
+The ONE document for the business side of thepatrickgrp.com. Brand and copy rules live in `CLAUDE.md` (repo root); everything else is here.
 
 Last full update: 2026-06-10
 
 ---
 
-## Stack & Accounts
+## 1. Stack & Accounts
 
 | What | Where |
 |---|---|
 | Domain | GoDaddy |
 | Code | GitHub `sarahpatrickt-jpg/thepatrickgrp` |
-| Hosting | Vercel — push to `main` auto-deploys |
-| Analytics | GA4 (5 key events configured) |
+| Hosting | Vercel — push to `main` auto-deploys (builds take 2–4 min) |
+| Analytics | GA4 (5 key events configured, confirmed May 2026) |
 | CRM | Sierra |
 | Newsletter | Beehiiv |
 | Email marketing (planned) | Mailchimp per growth plan |
@@ -22,7 +21,7 @@ Last full update: 2026-06-10
 | MLS data | Spark API (MichRIC + RealComp + MiRealSource), key in Vercel env `SPARK_API_KEY` |
 | External search site | bradpatrick.oakandstonerealestate.com |
 
-## Automations (all running)
+## 2. Automations (all running — do not duplicate manually)
 
 | Automation | Schedule | What it does |
 |---|---|---|
@@ -31,15 +30,27 @@ Last full update: 2026-06-10
 | Monthly grant update | 1st of month 9 AM (Claude task `monthly-grant-update`) | Refreshes Michigan homebuyer grant programs in `data/grants.ts` |
 | Morning dashboard | Weekdays ~10 AM (Claude task `patrick-group-morning-dashboard`) | Daily briefing on growth plan tasks |
 
-## IDX / Listings Architecture (current, June 2026)
+## 3. IDX / Listings Architecture (current, June 2026)
 
 - Full on-site search was built, then deliberately pivoted away from (data quality edge cases). The `/search-homes` page exists but is not linked.
 - **Live approach:** "Search Homes" buttons go to the external Oak & Stone site. Homepage + /buying show a **Featured Homes** grid (6 homes, $600k+, boutique cities, rotates daily, deduped across MLS feeds) via `components/FeaturedListings.tsx`.
 - Featured cards link to internal detail pages `/listings/[id]` with full photo gallery (`components/ListingGallery.tsx`).
 - ~15k listings cached in `data/listings.ts`, refreshed nightly. Listings under $50k filtered out (rentals/lots).
-- Spark API rate limit: 1,500 req / 5 min. Sync uses ~150 requests. Compliance rules in `docs/MICHRIC-LICENSE.md`.
+- Spark API rate limit: 1,500 req / 5 min; sync uses ~150 requests.
 
-## 2026 Organic Growth Plan (created 2026-05-11)
+## 4. MichRIC® IDX License (signed June 1, 2026 — auto-renews each June 1)
+
+Provider: Michigan Regional Information Center (MichRIC®) via GMAR. Contact: support@michric.org · 5830 Venture Park Dr., Kalamazoo, MI 49009 · mlshelp.com. Michigan law, Kalamazoo County jurisdiction.
+
+**Allowed:** public IDX display on thepatrickgrp.com; local caching for performance (no live API calls per page load); statistical/CMA use for specific clients; redistributing the team's OWN listings.
+
+**Prohibited (risk: injunctive relief + attorney's fees):** redistributing/selling/sublicensing data; exporting raw data to third parties; aggregating MichRIC data with other sources (Zillow, Redfin, etc.); derivative works beyond IDX/statistical use; sharing members-only data publicly; sharing passwords via broadcast channels.
+
+**Compliance:** maintain firewalls/filters; follow MLS Bylaws + IDX/VOW policies (MLS rules prevail; check mlshelp.com); data is "as is," MichRIC retains all IP, we indemnify.
+
+**Termination — CRITICAL:** either party with 5 business days written notice (USPS + email). Auto-terminates if Sarah leaves GMAR, GMAR leaves MichRIC, or the vendor relationship ends. On termination: **purge ALL MichRIC data from all servers within 1 business day**, written confirmation within 3. Keep a kill switch to purge `data/listings.ts` and caches within 24 hours.
+
+## 5. 2026 Organic Growth Plan (created 2026-05-11)
 
 Budget: $0–100/month, no paid ads yet. Revenue targets: 12-month 35–45 transactions ($378K–$486K GCI); 24-month 55–65 ($619K–$731K).
 
@@ -50,11 +61,25 @@ Budget: $0–100/month, no paid ads yet. Revenue targets: 12-month 35–45 trans
 
 Cadence: daily 1 social post; weekly journal + GBP post + review outreach; monthly newsletter + GBP photos + performance review; quarterly past-client email + ROI review.
 
-## Backlog (consolidated, as of 2026-06-10)
+## 6. SEO / Search Console Log (newest first — append after each checkup)
+
+### 2026-05-29 — One-week check-in
+- Impressions 426 (up from 378), 1 click, CTR 0.2%, avg position 39.1 (broader discovery after www fix)
+- Top query: "real estate agents near me" (36 impressions, 0 clicks). Top pages: homepage 177, /grants 145, /neighborhoods/livonia 54
+- Indexing requested: /inherited-property, /buying; /cash-offer already indexed. Still to check: /selling, /contact
+- Backlinks: 0 external links showing — building them is a priority
+- michiganhomegrants.com: verified, sitemap submitted, re-crawl requested after a stale cached noindex; bank/CU programs added to landing page + grants wizard
+
+### 2026-05-22 — Initial health check + www fix
+- Found: property registered for non-www but site 308-redirects to www → 6 redirect errors; 7 indexed / 7 not; 9 clicks / 378 impressions / avg position 18.5 (3-mo)
+- Fixed: added www property, submitted sitemap, updated ALL URLs site-wide to www (32 files, commit a66ac33), requested re-indexing for /, /grants, /divorce-real-estate, /estate-sales
+- Notes: Google deprecated FAQ rich results May 7, 2026 (schema cleanup pending); no manual actions; 0 backlinks
+
+## 7. Backlog (consolidated, as of 2026-06-10)
 
 - Sierra routing rule for inherited property leads (source "thepatrickgrp.com - Inherited Property")
 - AI citation test: /divorce-real-estate and /cash-offer in ChatGPT/Gemini (overdue since March)
-- FAQ schema cleanup (Google deprecated FAQ rich results May 7, 2026)
+- FAQ schema cleanup (deprecated by Google May 7, 2026)
 - Backlink building (0 external links in Search Console)
 - City-vs-city comparison pages (next programmatic SEO build)
 - Facebook post with UTM-tagged inherited property link
@@ -65,9 +90,14 @@ Cadence: daily 1 social post; weekly journal + GBP post + review outreach; month
 - Unique hero image for the June buyer-window article (currently reuses may-pulse image)
 - Paid ads launch: revisit when revenue allows
 
-## Umbrella Folder Map (`~/Desktop/patrick-group/`)
+## 8. Umbrella Folder Map (`~/Desktop/patrick-group/` — sorted 2026-06-10)
 
-- `website-repo/` — THE live site source (this repo). The folder `website 2/` is an old design handoff; do not edit it.
-- `landing-pages/`, `listing-presentation/` — standalone deliverables
-- Root PDFs/HTML — per-property market analyses and zbuyer email deliverables (one-off artifacts)
-- `gbp-content.md`, `handoff-christian.md` — content docs
+| Folder | Contents |
+|---|---|
+| `website-repo/` | THE live site source (this repo) |
+| `market-analyses/` | Per-property market analysis PDFs/HTML |
+| `zbuyer-emails/` | zbuyer outreach email HTML files |
+| `assets/` | Review QR code, listing presentation PDFs, brand zip |
+| `content/` | gbp-content.md, handoff-christian.md |
+| `landing-pages/`, `listing-presentation/` | Standalone deliverable projects |
+| `website 2/` | OLD design handoff — never edit |

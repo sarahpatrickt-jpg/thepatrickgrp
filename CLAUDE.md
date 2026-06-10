@@ -6,7 +6,7 @@ Boutique real estate team in Southeast Michigan. Principal Broker: **Sarah Patri
 
 **Stack:** Next.js App Router, TypeScript, Tailwind CSS. Auto-deploys to Vercel on every push to `main` (GitHub: sarahpatrickt-jpg/thepatrickgrp).
 
-**Business hub:** `docs/BUSINESS.md` — accounts, automations, growth plan, IDX architecture, backlog. Read it when working on anything beyond code. Legal: `docs/MICHRIC-LICENSE.md`. SEO history: `docs/SEO-LOG.md`. Old planning docs: `docs/archive/`.
+**Business hub:** `docs/BUSINESS.md` — the ONE master doc: accounts, automations, growth plan, IDX architecture, MichRIC license terms, SEO log, backlog, folder map. Read it when working on anything beyond code. Old planning docs: `docs/archive/`.
 
 ---
 
