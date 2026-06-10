@@ -473,9 +473,17 @@ export default function HomePage() {
               className="font-display mt-3"
               style={{ fontSize: "clamp(32px, 4vw, 52px)", lineHeight: "1", letterSpacing: "-0.01em" }}
             >
-              40 Cities Across{" "}
-              <em style={{ color: "var(--red)", fontStyle: "italic" }}>7 Counties</em>
+              Serving All of{" "}
+              <em style={{ color: "var(--red)", fontStyle: "italic" }}>Southeast Michigan</em>
             </h2>
+            <p
+              className="font-editorial italic mt-4"
+              style={{ fontSize: "17px", color: "var(--ink-2)", maxWidth: 560 }}
+            >
+              These are the communities where we publish street-level guides. Our work
+              doesn&apos;t stop at this list: if you&apos;re buying or selling anywhere in the
+              region, we&apos;re your team.
+            </p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-x-6 gap-y-10">

@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 };
 
 const categoryColors: Record<string, string> = {
-  "Market Update": "bg-blue-50 text-blue-700",
-  "Buyer Tips": "bg-emerald-50 text-emerald-700",
-  "Seller Tips": "bg-amber-50 text-amber-700",
-  "Neighborhood": "bg-purple-50 text-purple-700",
+  "Market Update": "bg-[var(--paper-3)] text-[var(--ink-2)]",
+  "Buyer Tips": "bg-[var(--paper-3)] text-[var(--ink-2)]",
+  "Seller Tips": "bg-[var(--paper-3)] text-[var(--ink-2)]",
+  "Neighborhood": "bg-[var(--paper-3)] text-[var(--ink-2)]",
   "Team News": "bg-gray-100 text-[var(--ink-2)]",
 };
 

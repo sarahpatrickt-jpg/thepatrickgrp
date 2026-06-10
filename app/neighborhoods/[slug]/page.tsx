@@ -304,6 +304,24 @@ export default async function CityPage({ params }: Props) {
           <p className="text-white/70 text-lg">
             {city.county} County · Southeast Michigan
           </p>
+          <div className="flex flex-col sm:flex-row gap-3 mt-7">
+            <a
+              href={city.sierraSearchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-[var(--red)] text-white font-medium uppercase tracking-wider text-sm px-7 py-3.5 hover:bg-[var(--red-deep)] transition-colors"
+              style={{ letterSpacing: "0.1em" }}
+            >
+              Search Homes in {city.name} →
+            </a>
+            <a
+              href="tel:2487553545"
+              className="inline-flex items-center justify-center border border-white/30 text-white font-medium uppercase tracking-wider text-sm px-7 py-3.5 hover:border-white/60 transition-colors"
+              style={{ letterSpacing: "0.1em" }}
+            >
+              Call 248.755.3545
+            </a>
+          </div>
         </div>
       </section>
 
