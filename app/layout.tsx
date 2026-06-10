@@ -134,6 +134,7 @@ const localBusinessSchema = {
     "Boutique real estate team serving Southeast Michigan. Oakland, Macomb, Washtenaw, and Livingston counties. Led by Principal Broker Sarah Patrick and Realtor® Brad Patrick. Specialists in buyer representation, home sales, cash offers, divorce real estate, estate and probate sales, living trust property, downsizing, new construction, investor properties, and relocation.",
   sameAs: [
     "https://www.oakandstonerealestate.com",
+    "https://www.zillow.com/profile/YourAgentBrad",
     "https://www.instagram.com/youragentbrad/",
     "https://www.linkedin.com/in/sarahkpatrick/",
     "https://www.youtube.com/@itsmondayyall",
@@ -157,6 +158,7 @@ const localBusinessSchema = {
       email: "brad@youragentbrad.net",
       telephone: "+12487553545",
       sameAs: [
+        "https://www.zillow.com/profile/YourAgentBrad",
         "https://www.instagram.com/youragentbrad/",
         "https://www.facebook.com/search/top?q=your%20agent%20brad",
         "https://www.youtube.com/@itsmondayyall",
