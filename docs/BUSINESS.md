@@ -99,7 +99,7 @@ Done June 10: design system unified across all pages (brand tokens); /market-tra
 | `website-repo/` | THE live site source (this repo) |
 | `market-analyses/` | Per-property market analysis PDFs/HTML |
 | `zbuyer-emails/` | zbuyer outreach email HTML files |
-| `assets/` | Review QR code, listing presentation PDFs, brand zip |
+| `assets/` | Review QR code, listing presentations, brand zip, Brad email signature, photo pipeline (`photos-raw/` originals, `photos-graded/` output, `grade.py` applies the unified site photo treatment) |
 | `content/` | gbp-content.md, handoff-christian.md |
 | `landing-pages/`, `listing-presentation/` | Standalone deliverable projects |
 | `website 2/` | OLD design handoff — never edit |
