@@ -452,74 +452,6 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          §2  COMMUNITIES BY COUNTY
-      ══════════════════════════════════════════════════════ */}
-      <section
-        className="py-16 border-y"
-        style={{
-          backgroundColor: "var(--paper-2)",
-          borderColor: "var(--line)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-10">
-            <p
-              className={eyebrow}
-              style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
-            >
-              Communities We Serve
-            </p>
-            <h2
-              className="font-display mt-3"
-              style={{ fontSize: "clamp(32px, 4vw, 52px)", lineHeight: "1", letterSpacing: "-0.01em" }}
-            >
-              Serving All of{" "}
-              <em style={{ color: "var(--red)", fontStyle: "italic" }}>Southeast Michigan</em>
-            </h2>
-            <p
-              className="font-editorial italic mt-4"
-              style={{ fontSize: "17px", color: "var(--ink-2)", maxWidth: 560 }}
-            >
-              These are the communities where we publish street-level guides. Our work
-              doesn&apos;t stop at this list: if you&apos;re buying or selling anywhere in the
-              region, we&apos;re your team.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-x-6 gap-y-10">
-            {COUNTIES.map((county) => (
-              <div key={county.name}>
-                <p
-                  className={eyebrow + " mb-4 pb-2"}
-                  style={{
-                    color: "var(--red)",
-                    fontFamily: "var(--font-mono, monospace)",
-                    fontSize: "10px",
-                    borderBottom: "1px solid var(--line)",
-                  }}
-                >
-                  {county.name}
-                </p>
-                <ul className="space-y-2">
-                  {county.cities.map((city) => (
-                    <li key={city.slug}>
-                      <Link
-                        href={`/neighborhoods/${city.slug}`}
-                        className="text-sm transition-colors hover:underline"
-                        style={{ color: "var(--ink-2)", textUnderlineOffset: "3px" }}
-                      >
-                        {city.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════════════════════
           §3  FEATURED HOMES (auto-pulled from MLS sync)
       ══════════════════════════════════════════════════════ */}
       <FeaturedListings
@@ -1034,6 +966,74 @@ export default function HomePage() {
             >
               Read all client reviews →
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
+          §2  COMMUNITIES BY COUNTY
+      ══════════════════════════════════════════════════════ */}
+      <section
+        className="py-16 border-y"
+        style={{
+          backgroundColor: "var(--paper-2)",
+          borderColor: "var(--line)",
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-10">
+            <p
+              className={eyebrow}
+              style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+            >
+              Communities We Serve
+            </p>
+            <h2
+              className="font-display mt-3"
+              style={{ fontSize: "clamp(32px, 4vw, 52px)", lineHeight: "1", letterSpacing: "-0.01em" }}
+            >
+              Serving All of{" "}
+              <em style={{ color: "var(--red)", fontStyle: "italic" }}>Southeast Michigan</em>
+            </h2>
+            <p
+              className="font-editorial italic mt-4"
+              style={{ fontSize: "17px", color: "var(--ink-2)", maxWidth: 560 }}
+            >
+              These are the communities where we publish street-level guides. Our work
+              doesn&apos;t stop at this list: if you&apos;re buying or selling anywhere in the
+              region, we&apos;re your team.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-x-6 gap-y-10">
+            {COUNTIES.map((county) => (
+              <div key={county.name}>
+                <p
+                  className={eyebrow + " mb-4 pb-2"}
+                  style={{
+                    color: "var(--red)",
+                    fontFamily: "var(--font-mono, monospace)",
+                    fontSize: "10px",
+                    borderBottom: "1px solid var(--line)",
+                  }}
+                >
+                  {county.name}
+                </p>
+                <ul className="space-y-2">
+                  {county.cities.map((city) => (
+                    <li key={city.slug}>
+                      <Link
+                        href={`/neighborhoods/${city.slug}`}
+                        className="text-sm transition-colors hover:underline"
+                        style={{ color: "var(--ink-2)", textUnderlineOffset: "3px" }}
+                      >
+                        {city.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </section>
