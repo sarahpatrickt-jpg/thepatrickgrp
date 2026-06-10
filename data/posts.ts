@@ -2312,6 +2312,107 @@ export const posts: Post[] = [
     ],
   },
 
+  // ─── "Foreclosures Up 26% — Why This Isn't 2008" ────────────────────────
+  {
+    slug: "foreclosures-up-26-percent-2026-not-2008-michigan",
+    title: "Foreclosures Are Up 26%. Here's Why That Headline Doesn't Mean What You Think.",
+    image: "/images/insights/spring-2026-market-update.jpg",
+    imageAlt: "Suburban Southeast Michigan homes on a quiet residential street",
+    excerpt:
+      "National foreclosure filings just hit a six-year high and the headlines smell like 2008. Meanwhile, Michigan's own foreclosure numbers have been falling for three straight years. Both things are true — here's how.",
+    date: "2026-06-10",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "5 min read",
+    relatedSlugs: [
+      "june-2026-quiet-buyer-window-oakland-county",
+      "spring-2026-southeast-michigan-market-update",
+      "cash-offer-home-michigan-is-it-right-for-you",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "plymouth-mi",
+      "west-bloomfield-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The scariest housing headline of the year landed this week: U.S. foreclosure filings rose 26% year-over-year in the first quarter, to roughly 119,000 — the highest level in six years, according to ATTOM's national data. If you lived through 2008 in this market, that number hits something in your chest. I understand the reaction. I also think it's the wrong one, and the Michigan data is the reason why.",
+      },
+      {
+        type: "paragraph",
+        text: "Here's the part the national coverage skips: while the percentage jump looks dramatic, the base it's jumping from is one of the lowest foreclosure environments in modern history. A 26% increase off a historic floor still leaves filings at a small fraction of where they sat during the 2009–2010 crisis, when quarterly filings ran more than double today's pace for years on end.",
+      },
+      {
+        type: "h2",
+        text: "Michigan Is Telling the Opposite Story",
+      },
+      {
+        type: "paragraph",
+        text: "And then there's our own backyard, which is quietly moving the other direction. Michigan recorded roughly 12,500 foreclosures in 2023. In 2024, the year-end total came in around 2,600. Through October of 2025, the state logged fewer than 900 filings. As of this spring, Michigan's rate sits at about one foreclosure for every 3,700 homes — and Wayne County, historically the epicenter of distress in this state, has been on a multi-year decline.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "Michigan 2023", value: "~12,500", note: "Total foreclosure filings" },
+          { label: "Michigan 2024", value: "~2,600", note: "Year-end estimate" },
+          { label: "Michigan 2025", value: "<900", note: "Filings through October" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A national six-year high and a three-year local decline, at the same time. Both are real. The question worth asking isn't \"which headline is right?\" It's \"what makes this cycle structurally different from the last one?\"",
+      },
+      {
+        type: "h2",
+        text: "The Equity Cushion Changes Everything",
+      },
+      {
+        type: "paragraph",
+        text: "In 2008, the typical distressed homeowner in Metro Detroit was underwater — they owed more than the house was worth, so when trouble hit, there was no exit except default. That mechanical link between hardship and foreclosure is what turned a recession into a housing collapse.",
+      },
+      {
+        type: "callout",
+        label: "The structural difference",
+        text: "Today's homeowner in Oakland or Macomb County is sitting on years of accumulated equity. A homeowner who hits hardship in 2026 doesn't get foreclosed on — they sell, pay off the mortgage, and walk away with a check. Distress becomes a listing, not a filing.",
+      },
+      {
+        type: "paragraph",
+        text: "That's why local inventory can rise — as it has, with Oakland County active listings up about 12% year-over-year — while foreclosures keep falling. Some of those new listings are quiet hardship sales. The owner still wins, the neighborhood comp holds, and the bank never gets involved. That is what a functioning market does with stress.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You're In the Market",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "For buyers",
+          text: "Don't wait for a wave of foreclosure deals — in Southeast Michigan, the math says it isn't coming. The opportunity here is ordinary inventory from sellers who need to move and are priced to today's market, not a courthouse auction. If you're hunting value, motivated conventional sellers are the real story of summer 2026.",
+        },
+        right: {
+          label: "For sellers",
+          text: "If you're facing a genuine hardship — job loss, divorce, an estate you can't carry — your equity is the asset that gives you options the last cycle never offered. Selling early and on your own terms beats waiting until the timeline isn't yours anymore. That conversation is confidential, and it costs nothing.",
+        },
+      },
+      {
+        type: "h2",
+        text: "The Pattern Worth Remembering",
+      },
+      {
+        type: "paragraph",
+        text: "Every cycle produces a moment where a scary national number collides with a calm local reality, and people make decisions based on the wrong one. The 26% headline will get the clicks this month. The Michigan data — three straight years of declining filings, supported by real equity — is what should actually inform whether you buy, sell, or hold here.",
+      },
+      {
+        type: "paragraph",
+        text: "Headlines describe the country. Markets are local. In this corner of Michigan, the foundation under prices is the strongest it's been in a generation — even, and especially, in a week when the national news says otherwise.",
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
