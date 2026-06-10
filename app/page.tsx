@@ -900,7 +900,7 @@ export default function HomePage() {
                   src: "/team/brad-patrick.jpg",
                   name: "Brad Patrick",
                   title: "Realtor®",
-                  awards: "15+ years · Mortgage background · Real Producers April 2026",
+                  awards: "Hour Detroit All-Stars · Real Producers April 2026 cover · Mortgage background",
                 },
                 {
                   src: "/team/christian-brown.jpg",

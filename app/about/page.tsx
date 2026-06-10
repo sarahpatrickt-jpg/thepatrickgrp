@@ -50,11 +50,11 @@ As a Realtor with The Patrick Group and a featured agent in Real Producers Magaz
 
 Outside of real estate, Brad enjoys spending time with family, riding his Harley, and playing golf.`,
     credentials: [
-      "Realtor®. The Patrick Group / Oak and Stone Real Estate",
+      "Realtor®, The Patrick Group / Oak and Stone Real Estate",
       "15+ years Southeast Michigan real estate",
       "Mortgage lending background (Ferris State University)",
       "Hour Detroit Real Estate All-Stars: multiple years",
-      "Real Producers Magazine. April 2026",
+      "Real Producers Magazine cover, April 2026",
       "Oakland County Real Producers Top 300: 2026",
     ],
   },
@@ -68,7 +68,7 @@ Outside of real estate, Brad enjoys spending time with family, riding his Harley
 
 Christian is committed to making sure clients are well-prepared, well-informed, and never left wondering what comes next. In an industry where trust is everything, Christian's approach is straightforward: earn it, protect it, and make every client feel like their decision matters as much to him as it does to them.`,
     credentials: [
-      "Realtor®. The Patrick Group / Oak and Stone Real Estate",
+      "Realtor®, The Patrick Group / Oak and Stone Real Estate",
       "Southeast Michigan specialist",
     ],
   },
