@@ -167,14 +167,16 @@ export default function NewConstructionPage() {
       </section>
 
       {/* Photo band */}
-      <section className="relative w-full" style={{ height: "clamp(240px, 38vw, 440px)" }}>
+      <section className="px-4 sm:px-6 py-10" style={{ backgroundColor: "var(--paper)" }}>
+        <div className="max-w-5xl mx-auto relative overflow-hidden" style={{ aspectRatio: "16 / 8", border: "1px solid var(--line)" }}>
         <Image
           src="/images/photos/modern-new-build-dusk.jpg"
           alt="Newly built modern home at dusk"
           fill
           className="object-cover"
-          sizes="100vw"
+          sizes="(max-width: 1024px) 100vw, 1024px"
         />
+        </div>
       </section>
 
 
