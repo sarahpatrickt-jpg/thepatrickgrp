@@ -2176,7 +2176,7 @@ export const posts: Post[] = [
     image: "/images/insights/may-2026-market-pulse.jpg",
     imageAlt: "Aerial view of a Southeast Michigan residential neighborhood with tree-lined streets",
     excerpt:
-      "Inventory is up. Days on market are up. Prices in Oakland County are actually down year-over-year. Owning is now cheaper than renting in most of our service area — and almost no one is talking about it.",
+      "Inventory is up. Days on market are up. Prices in Oakland County are actually down year-over-year. Owning is now cheaper than renting in most of our service area, and almost no one is talking about it.",
     date: "2026-06-09",
     author: "Sarah",
     category: "Market Update",
@@ -2198,7 +2198,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "There's a moment in every cycle when the data shifts before the headlines catch up. We're in one right now. Most buyers I talk to this month still think we're in the 2022 market — bidding wars, no inventory, paying over asking. That hasn't been true in Oakland County for several months, and the June numbers make it official.",
+        text: "There's a moment in every cycle when the data shifts before the headlines catch up. We're in one right now. Most buyers I talk to this month still think we're in the 2022 market: bidding wars, no inventory, paying over asking. That hasn't been true in Oakland County for several months, and the June numbers make it official.",
       },
       {
         type: "paragraph",
@@ -2218,7 +2218,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Active listings in Oakland County are up 12% year over year. The median home is sitting almost three weeks before going under contract — up nearly 20% from this time last year. And the median list price has actually come down 3.6% YoY. Each of those numbers in isolation is mild. Stacked together, they say one thing: sellers are quietly repricing.",
+        text: "Active listings in Oakland County are up 12% year over year. The median home is sitting almost three weeks before going under contract, up nearly 20% from this time last year. And the median list price has actually come down 3.6% YoY. Each of those numbers in isolation is mild. Stacked together, they say one thing: sellers are quietly repricing.",
       },
       {
         type: "paragraph",
@@ -2239,7 +2239,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "That doesn't account for taxes and insurance, and it doesn't make a renter's life harder than it needs to be. But for anyone debating whether to keep renting or finally buy, the gap is small enough that the long-term math of owning — building equity, fixing your housing cost, deducting interest — wins decisively over a 5-year hold. That's a conversation worth having with anyone you know who's been waiting for \"the right time.\"",
+        text: "That doesn't account for taxes and insurance, and it doesn't make a renter's life harder than it needs to be. But for anyone debating whether to keep renting or finally buy, the gap is small enough that the long-term math of owning (building equity, fixing your housing cost, deducting interest) wins decisively over a 5-year hold. That's a conversation worth having with anyone you know who's been waiting for \"the right time.\"",
       },
       {
         type: "h2",
@@ -2247,13 +2247,13 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "When the numbers move like this — inventory up, DOM up, price down — people understandably get nervous about 2008. I've been through that cycle. This isn't it. Three reasons:",
+        text: "When the numbers move like this (inventory up, DOM up, price down), people understandably get nervous about 2008. I've been through that cycle. This isn't it. Three reasons:",
       },
       {
         type: "bullets",
         items: [
           "Inventory is rebuilding from historic lows, not from oversupply. Oakland's active listing count is still well below where it sat in 2018–2019.",
-          "Mortgage rates are actually lower than this time last year. The 30-year fixed averaged 6.36% in May, down from 6.81% in May 2025. Buyers think rates are punishing them. They're not — they're better.",
+          "Mortgage rates are actually lower than this time last year. The 30-year fixed averaged 6.36% in May, down from 6.81% in May 2025. Buyers think rates are punishing them. They're not. They're better.",
           "Demand hasn't disappeared. It's just become more selective. Well-priced, well-presented homes still move in under two weeks. The homes piling up DOM are the ones priced to 2024 comps.",
         ],
       },
@@ -2269,7 +2269,7 @@ export const posts: Post[] = [
         type: "two-col",
         left: {
           label: "What's working",
-          text: "Sellers are negotiating. Inspection objections are being addressed. Closing cost concessions are back. You can take a weekend to think about a house — that wasn't true 18 months ago. The serious buyer who's pre-approved and ready to write a clean offer has the most leverage of any point in the last five years.",
+          text: "Sellers are negotiating. Inspection objections are being addressed. Closing cost concessions are back. You can take a weekend to think about a house. That wasn't true 18 months ago. The serious buyer who's pre-approved and ready to write a clean offer has the most leverage of any point in the last five years.",
         },
         right: {
           label: "What to watch",
@@ -2282,11 +2282,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Two things. First — your home is still worth more than it was last year. Even in Oakland, with prices down 3.6% YoY, you're well above 2022 numbers, let alone 2019. The headline isn't \"prices crashed.\" The headline is \"the line stopped going straight up.\"",
+        text: "Two things. First: your home is still worth more than it was last year. Even in Oakland, with prices down 3.6% YoY, you're well above 2022 numbers, let alone 2019. The headline isn't \"prices crashed.\" The headline is \"the line stopped going straight up.\"",
       },
       {
         type: "paragraph",
-        text: "Second — pricing discipline matters more right now than it has in five years. Homes priced to last summer's comps are the ones sitting. Homes priced to today's market are selling, and several are seeing competitive offers. The difference is rarely more than 3–5% in initial list price, but it's the difference between selling in 14 days and renegotiating after 60.",
+        text: "Second: pricing discipline matters more right now than it has in five years. Homes priced to last summer's comps are the ones sitting. Homes priced to today's market are selling, and several are seeing competitive offers. The difference is rarely more than 3–5% in initial list price, but it's the difference between selling in 14 days and renegotiating after 60.",
       },
       {
         type: "callout",
@@ -2299,7 +2299,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "If you've been on the fence about buying, this is the cleanest window we've seen since the pandemic distorted everything. Get pre-approved this week. Walk three homes before the Fourth of July. Write an offer you can sleep with — there's room to negotiate that didn't exist last summer.",
+        text: "If you've been on the fence about buying, this is the cleanest window we've seen since the pandemic distorted everything. Get pre-approved this week. Walk three homes before the Fourth of July. Write an offer you can sleep with. There's room to negotiate that didn't exist last summer.",
       },
       {
         type: "paragraph",
@@ -2307,19 +2307,19 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The window won't stay open forever. When rates drop another quarter point — and most economists still expect that before year-end — the demand side wakes up and the leverage shifts back. The buyers who move now will look back at June 2026 as the quietest moment of the cycle.",
+        text: "The window won't stay open forever. When rates drop another quarter point (and most economists still expect that before year-end), the demand side wakes up and the leverage shifts back. The buyers who move now will look back at June 2026 as the quietest moment of the cycle.",
       },
     ],
   },
 
-  // ─── "Foreclosures Up 26% — Why This Isn't 2008" ────────────────────────
+  // ─── "Foreclosures Up 26%: Why This Isn't 2008" ────────────────────────
   {
     slug: "foreclosures-up-26-percent-2026-not-2008-michigan",
     title: "Foreclosures Are Up 26%. Here's Why That Headline Doesn't Mean What You Think.",
     image: "/images/insights/spring-2026-market-update.jpg",
     imageAlt: "Suburban Southeast Michigan homes on a quiet residential street",
     excerpt:
-      "National foreclosure filings just hit a six-year high and the headlines smell like 2008. Meanwhile, Michigan's own foreclosure numbers have been falling for three straight years. Both things are true — here's how.",
+      "National foreclosure filings just hit a six-year high and the headlines smell like 2008. Meanwhile, Michigan's own foreclosure numbers have been falling for three straight years. Both things are true. Here's how.",
     date: "2026-06-10",
     author: "Sarah",
     category: "Market Update",
@@ -2340,7 +2340,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "The scariest housing headline of the year landed this week: U.S. foreclosure filings rose 26% year-over-year in the first quarter, to roughly 119,000 — the highest level in six years, according to ATTOM's national data. If you lived through 2008 in this market, that number hits something in your chest. I understand the reaction. I also think it's the wrong one, and the Michigan data is the reason why.",
+        text: "The scariest housing headline of the year landed this week: U.S. foreclosure filings rose 26% year-over-year in the first quarter, to roughly 119,000, the highest level in six years, according to ATTOM's national data. If you lived through 2008 in this market, that number hits something in your chest. I understand the reaction. I also think it's the wrong one, and the Michigan data is the reason why.",
       },
       {
         type: "paragraph",
@@ -2352,7 +2352,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "And then there's our own backyard, which is quietly moving the other direction. Michigan recorded roughly 12,500 foreclosures in 2023. In 2024, the year-end total came in around 2,600. Through October of 2025, the state logged fewer than 900 filings. As of this spring, Michigan's rate sits at about one foreclosure for every 3,700 homes — and Wayne County, historically the epicenter of distress in this state, has been on a multi-year decline.",
+        text: "And then there's our own backyard, which is quietly moving the other direction. Michigan recorded roughly 12,500 foreclosures in 2023. In 2024, the year-end total came in around 2,600. Through October of 2025, the state logged fewer than 900 filings. As of this spring, Michigan's rate sits at about one foreclosure for every 3,700 homes. Wayne County, historically the epicenter of distress in this state, has been on a multi-year decline.",
       },
       {
         type: "stat-row",
@@ -2372,16 +2372,16 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "In 2008, the typical distressed homeowner in Metro Detroit was underwater — they owed more than the house was worth, so when trouble hit, there was no exit except default. That mechanical link between hardship and foreclosure is what turned a recession into a housing collapse.",
+        text: "In 2008, the typical distressed homeowner in Metro Detroit was underwater. They owed more than the house was worth, so when trouble hit, there was no exit except default. That mechanical link between hardship and foreclosure is what turned a recession into a housing collapse.",
       },
       {
         type: "callout",
         label: "The structural difference",
-        text: "Today's homeowner in Oakland or Macomb County is sitting on years of accumulated equity. A homeowner who hits hardship in 2026 doesn't get foreclosed on — they sell, pay off the mortgage, and walk away with a check. Distress becomes a listing, not a filing.",
+        text: "Today's homeowner in Oakland or Macomb County is sitting on years of accumulated equity. A homeowner who hits hardship in 2026 doesn't get foreclosed on. They sell, pay off the mortgage, and walk away with a check. Distress becomes a listing, not a filing.",
       },
       {
         type: "paragraph",
-        text: "That's why local inventory can rise — as it has, with Oakland County active listings up about 12% year-over-year — while foreclosures keep falling. Some of those new listings are quiet hardship sales. The owner still wins, the neighborhood comp holds, and the bank never gets involved. That is what a functioning market does with stress.",
+        text: "That's why local inventory can rise (as it has, with Oakland County active listings up about 12% year-over-year) while foreclosures keep falling. Some of those new listings are quiet hardship sales. The owner still wins, the neighborhood comp holds, and the bank never gets involved. That is what a functioning market does with stress.",
       },
       {
         type: "h2",
@@ -2391,11 +2391,11 @@ export const posts: Post[] = [
         type: "two-col",
         left: {
           label: "For buyers",
-          text: "Don't wait for a wave of foreclosure deals — in Southeast Michigan, the math says it isn't coming. The opportunity here is ordinary inventory from sellers who need to move and are priced to today's market, not a courthouse auction. If you're hunting value, motivated conventional sellers are the real story of summer 2026.",
+          text: "Don't wait for a wave of foreclosure deals. In Southeast Michigan, the math says it isn't coming. The opportunity here is ordinary inventory from sellers who need to move and are priced to today's market, not a courthouse auction. If you're hunting value, motivated conventional sellers are the real story of summer 2026.",
         },
         right: {
           label: "For sellers",
-          text: "If you're facing a genuine hardship — job loss, divorce, an estate you can't carry — your equity is the asset that gives you options the last cycle never offered. Selling early and on your own terms beats waiting until the timeline isn't yours anymore. That conversation is confidential, and it costs nothing.",
+          text: "If you're facing a genuine hardship (job loss, divorce, an estate you can't carry), your equity is the asset that gives you options the last cycle never offered. Selling early and on your own terms beats waiting until the timeline isn't yours anymore. That conversation is confidential, and it costs nothing.",
         },
       },
       {
@@ -2404,11 +2404,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Every cycle produces a moment where a scary national number collides with a calm local reality, and people make decisions based on the wrong one. The 26% headline will get the clicks this month. The Michigan data — three straight years of declining filings, supported by real equity — is what should actually inform whether you buy, sell, or hold here.",
+        text: "Every cycle produces a moment where a scary national number collides with a calm local reality, and people make decisions based on the wrong one. The 26% headline will get the clicks this month. The Michigan data, three straight years of declining filings supported by real equity, is what should actually inform whether you buy, sell, or hold here.",
       },
       {
         type: "paragraph",
-        text: "Headlines describe the country. Markets are local. In this corner of Michigan, the foundation under prices is the strongest it's been in a generation — even, and especially, in a week when the national news says otherwise.",
+        text: "Headlines describe the country. Markets are local. In this corner of Michigan, the foundation under prices is the strongest it's been in a generation. That holds even, and especially, in a week when the national news says otherwise.",
       },
     ],
   },
