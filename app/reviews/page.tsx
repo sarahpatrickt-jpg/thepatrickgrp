@@ -67,6 +67,31 @@ const reviews = [
     rating: 5,
     text: "Everything went so smoothly and our closing was a breeze. Thank you Brad.... you are great!!",
   },
+  {
+    name: "Chris Orlando",
+    rating: 5,
+    text: "Brad and Sarah were prompt, helpful, and honest. As a first time home buyer I was intimidated but they helped every step of the way so I didn't have to worry about much of anything.",
+  },
+  {
+    name: "Kenny Brown",
+    rating: 5,
+    text: "Brad was very patient and helpful to me as a first time homebuyer. Always took time to explain things and point out any concerns with any properties that I may have overlooked as someone new to homeownership. Would very much recommend him as an agent!",
+  },
+  {
+    name: "Joel Thursam",
+    rating: 5,
+    text: "Had a unique situation and needing to get into a home asap, Brad and his groups went out of his way to make sure I got into a home that works for me and in dealing with a unique situation. Couldn't recommend him more and will definitely be using the company again in the future.",
+  },
+  {
+    name: "Ramona Wilson",
+    rating: 5,
+    text: "Highly recommend Brad! He helped me every step of the way. He also made the transition from my old house to my new house easier. Awesome!!!",
+  },
+  {
+    name: "Douglas McDowell",
+    rating: 5,
+    text: "In the spirit of unity and compassion, I wish to extend my heartfelt gratitude to Oak and Stone Real Estate. In the sacred journey of selling my home, their virtuous efforts shone brightly. God bless Oak and Stone Real Estate, and may their endeavors continue to be a source of grace for those seeking a haven in the journey of life's transitions.",
+  },
 ];
 
 const aggregateSchema = {
