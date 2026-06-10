@@ -117,7 +117,7 @@ export default function MapMI() {
         viewBox="0 0 660 530"
         xmlns="http://www.w3.org/2000/svg"
         className="w-full h-auto"
-        aria-label="Southeast Michigan service area map — we serve all communities across seven counties"
+        aria-label="Southeast Michigan service area map, we serve all communities across seven counties"
       >
         {/* ── Background ── */}
         <rect width="660" height="530" fill="var(--paper)" />
@@ -157,7 +157,7 @@ export default function MapMI() {
           </g>
         ))}
 
-        {/* ── City pins — all 24 neighborhood guides ── */}
+        {/* ── City pins, all 24 neighborhood guides ── */}
         {CITY_PINS.map((city) => {
           const isHovered = hovered === city.slug;
           const [dx, dy] = city.label ?? [0, -10];
@@ -192,7 +192,7 @@ export default function MapMI() {
                   fill="var(--red)"
                   style={{ transition: "r 0.15s ease" }}
                 />
-                {/* City name label — always visible */}
+                {/* City name label, always visible */}
                 <text
                   x={city.cx + dx}
                   y={city.cy + dy}

@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Client Reviews",
   description:
-    "Client reviews of The Patrick Group — Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
+    "Client reviews of The Patrick Group. Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
   alternates: { canonical: "https://www.thepatrickgrp.com/reviews" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/reviews",
     title: "Client Reviews",
     description:
-      "Client reviews of The Patrick Group — Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
+      "Client reviews of The Patrick Group. Brad and Sarah Patrick, Oak & Stone Real Estate. Southeast Michigan buyers and sellers.",
     siteName: "The Patrick Group",
   },
 };
@@ -30,7 +30,7 @@ const reviews = [
   {
     name: "Mrs. H",
     rating: 5,
-    text: "I highly recommend The Patrick Group for all of your real estate needs. Mr. Brad & Mrs. Sarah Patrick came to our home to formally introduce themselves. The couple made us feel taken care of and protected from the start!! They advised us what we needed to do and we all got to work! Mr. Brad Patrick was the detailed, diligent intelligent agent that assisted us directly. He was very patient with our questions, research and reservations early on. What really impressed us — we ran into an issue with the buyers of our house needing more time due to an issue, not on our end. The big issue was we were a few days from closing. He happily offered to and executed to contact the listing agent, builder and whoever else was in charge on our contract to buy elsewhere. It's a family affair — Brad and Sarah's son, Christian, hosted the open house for us when our home was for sale. All texts, emails and calls are handled with care and I never felt like Brad didn't care! Expectations were always exceeded — if he told me he would call by 5 pm, he is calling at 3:30! Please trust that you are working with the best!",
+    text: "I highly recommend The Patrick Group for all of your real estate needs. Mr. Brad & Mrs. Sarah Patrick came to our home to formally introduce themselves. The couple made us feel taken care of and protected from the start!! They advised us what we needed to do and we all got to work! Mr. Brad Patrick was the detailed, diligent intelligent agent that assisted us directly. He was very patient with our questions, research and reservations early on. What really impressed us, we ran into an issue with the buyers of our house needing more time due to an issue, not on our end. The big issue was we were a few days from closing. He happily offered to and executed to contact the listing agent, builder and whoever else was in charge on our contract to buy elsewhere. It's a family affair. Brad and Sarah's son, Christian, hosted the open house for us when our home was for sale. All texts, emails and calls are handled with care and I never felt like Brad didn't care! Expectations were always exceeded, if he told me he would call by 5 pm, he is calling at 3:30! Please trust that you are working with the best!",
   },
   {
     name: "Sabella Cascarelli",
@@ -45,7 +45,7 @@ const reviews = [
   {
     name: "Amanda Conlon",
     rating: 5,
-    text: "Our experience with Brad and The Patrick Group as a whole was incredible! As first time home buyers we really appreciated that Brad made sure all our questions were answered, really listened to what we wanted and was very patient with us. Having had an unsatisfactory experience with another real estate group we felt very discouraged, but the minute we began working with Brad things took a 180 and now we are moving into the perfect home for us. The housing market can be very overwhelming and feel impossible to navigate — but working with Brad made it so much more manageable and made us feel like we could actually be excited to buy our home. Can't recommend enough!",
+    text: "Our experience with Brad and The Patrick Group as a whole was incredible! As first time home buyers we really appreciated that Brad made sure all our questions were answered, really listened to what we wanted and was very patient with us. Having had an unsatisfactory experience with another real estate group we felt very discouraged, but the minute we began working with Brad things took a 180 and now we are moving into the perfect home for us. The housing market can be very overwhelming and feel impossible to navigate, but working with Brad made it so much more manageable and made us feel like we could actually be excited to buy our home. Can't recommend enough!",
   },
   {
     name: "Devon Mosquera",
@@ -193,7 +193,7 @@ export default function ReviewsPage() {
           Let&apos;s Make You Our Next Success Story.
         </h2>
         <p className="text-white/70 text-sm mb-6 max-w-md mx-auto">
-          Whether you&apos;re buying, selling, or just starting to think about it — we&apos;d love to talk.
+          Whether you&apos;re buying, selling, or just starting to think about it, we&apos;d love to talk.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

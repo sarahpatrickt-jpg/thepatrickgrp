@@ -4,14 +4,14 @@ import NewsletterForm from "@/components/NewsletterForm";
 export const metadata: Metadata = {
   title: "Local Intel Newsletter",
   description:
-    "Sign up for The Patrick Group Local Intel — monthly Southeast Michigan real estate updates, community news, and market insights from your local experts.",
+    "Sign up for The Patrick Group Local Intel: monthly Southeast Michigan real estate updates, community news, and market insights from your local experts.",
   alternates: { canonical: "https://www.thepatrickgrp.com/newsletter" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/newsletter",
     title: "Local Intel Newsletter",
     description:
-      "Sign up for The Patrick Group Local Intel — monthly Southeast Michigan real estate updates, community news, and market insights from your local experts.",
+      "Sign up for The Patrick Group Local Intel: monthly Southeast Michigan real estate updates, community news, and market insights from your local experts.",
     siteName: "The Patrick Group",
   },
 };
@@ -20,32 +20,32 @@ const contentPillars = [
   {
     icon: "📊",
     title: "Monthly Market Update",
-    desc: "Median prices, days on market, and what's actually happening in Southeast Michigan — not national headlines.",
+    desc: "Median prices, days on market, and what's actually happening in Southeast Michigan, not national headlines.",
   },
   {
     icon: "📅",
     title: "Community Events",
-    desc: "The best local events in Rochester, Birmingham, and beyond — because your next neighborhood connection might be at the Farmers Market.",
+    desc: "The best local events in Rochester, Birmingham, and beyond, because your next neighborhood connection might be at the Farmers Market.",
   },
   {
     icon: "🏡",
     title: "Featured Listing",
-    desc: "One great home, highlighted each month — sometimes before it's publicly active.",
+    desc: "One great home, highlighted each month, sometimes before it's publicly active.",
   },
   {
     icon: "🗺️",
     title: "Neighborhood Focus",
-    desc: "Deep dives on Southeast Michigan communities — what makes each one different, and who thrives there.",
+    desc: "Deep dives on Southeast Michigan communities, what makes each one different, and who thrives there.",
   },
   {
     icon: "💡",
     title: "Homeowner Resource",
-    desc: "Seasonal maintenance tips, staging advice, financing insights — practical content for homeowners at every stage.",
+    desc: "Seasonal maintenance tips, staging advice, financing insights, practical content for homeowners at every stage.",
   },
   {
     icon: "🤝",
     title: "Local Spotlight",
-    desc: "We highlight trusted local businesses and service providers — because your home needs more than just an agent.",
+    desc: "We highlight trusted local businesses and service providers, because your home needs more than just an agent.",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function NewsletterPage() {
           </h1>
           <p className="text-white/70 text-lg leading-relaxed">
             The real estate newsletter that actually tells you something. Monthly
-            market data, community events, local insights — and none of the noise.
+            market data, community events, local insights, and none of the noise.
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function NewsletterPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white border border-gray-100 rounded-sm shadow-sm p-8">
             <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-2">
-              Subscribe — It&apos;s Free
+              Subscribe. It&apos;s Free
             </h2>
             <p className="text-gray-500 text-sm mb-6">
               Monthly updates, no spam, unsubscribe any time.

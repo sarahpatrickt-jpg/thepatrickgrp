@@ -9,14 +9,14 @@ import { posts } from "@/data/posts";
 export const metadata: Metadata = {
   title: "Southeast Michigan Real Estate",
   description:
-    "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
+    "The Patrick Group, boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
   alternates: { canonical: "https://www.thepatrickgrp.com" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com",
     title: "Southeast Michigan Real Estate",
     description:
-      "The Patrick Group — boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
+      "The Patrick Group, boutique real estate service for Southeast Michigan. Sarah Patrick, Principal Broker. Leading You Home.",
     siteName: "The Patrick Group",
   },
 };
@@ -115,7 +115,7 @@ const DIFFERENTIATORS = [
   {
     num: "03",
     title: "Full Transaction Ecosystem",
-    body: "We work with a vetted network of local lenders and title professionals. One trusted ecosystem from offer to close — no surprises.",
+    body: "We work with a vetted network of local lenders and title professionals. One trusted ecosystem from offer to close, no surprises.",
   },
   {
     num: "04",
@@ -140,38 +140,38 @@ const SPECIALTIES = [
     href: "/relocation",
     num: "II",
     title: "Relocating to Michigan",
-    desc: "Moving from Chicago, the East Coast, or out of state? We're your trusted local guide — before, during, and after the move.",
+    desc: "Moving from Chicago, the East Coast, or out of state? We're your trusted local guide, before, during, and after the move.",
   },
   {
     href: "/selling",
     num: "III",
     title: "Move-Up Selling",
-    desc: "Selling while buying at the same time? We've coordinated hundreds of simultaneous transactions. No surprises — just results.",
+    desc: "Selling while buying at the same time? We've coordinated hundreds of simultaneous transactions. No surprises, just results.",
   },
   {
     href: "/downsizing",
     num: "IV",
     title: "Downsizing",
-    desc: "Moving to a smaller home is a life transition, not just a transaction. We make it manageable — protecting your equity and working around your timeline.",
+    desc: "Moving to a smaller home is a life transition, not just a transaction. We make it manageable, protecting your equity and working around your timeline.",
   },
   {
     href: "/estate-sales",
     num: "V",
     title: "Estate & Probate",
-    desc: "Managing the sale of a loved one's home requires patience, legal awareness, and local expertise. We've guided families through this — with care and no added pressure.",
+    desc: "Managing the sale of a loved one's home requires patience, legal awareness, and local expertise. We've guided families through this, with care and no added pressure.",
   },
   {
     href: "/grants",
     num: "VI",
     title: "Homebuyer Grants",
-    desc: "Michigan offers thousands in down payment assistance. Our free tool checks 12+ programs and shows you what you qualify for — instantly.",
+    desc: "Michigan offers thousands in down payment assistance. Our free tool checks 12+ programs and shows you what you qualify for, instantly.",
   },
 ];
 
 const TESTIMONIALS = [
   {
     quote:
-      "Brad was not just our realtor, but our partner throughout the entire process. He went to bat for us — and we secured our dream home.",
+      "Brad was not just our realtor, but our partner throughout the entire process. He went to bat for us, and we secured our dream home.",
     name: "Sabella Cascarelli",
     type: "Buyer",
   },
@@ -188,14 +188,14 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Sarah and Brad helped us find our HOME. They are amazing to work with — fun, knowledgeable and easy.",
+      "Sarah and Brad helped us find our HOME. They are amazing to work with, fun, knowledgeable and easy.",
     name: "Tracey Williams",
     type: "Buyer",
   },
 ];
 
 // Top 3 most recent journal posts, sorted by date desc.
-// Auto-updates when a new post is added — no manual list to maintain.
+// Auto-updates when a new post is added, no manual list to maintain.
 const JOURNAL = [...posts]
   .sort((a, b) => (a.date < b.date ? 1 : -1))
   .slice(0, 3)
@@ -349,7 +349,7 @@ export default function HomePage() {
                   maxWidth: 520,
                 }}
               >
-                Southeast Michigan&apos;s boutique real estate team — for buyers,
+                Southeast Michigan&apos;s boutique real estate team, for buyers,
                 sellers, and every complex situation in between.
               </p>
 
@@ -722,7 +722,7 @@ export default function HomePage() {
               className="font-editorial italic mt-4"
               style={{ fontSize: "18px", color: "var(--ink-2)", maxWidth: 560 }}
             >
-              Divorce, relocation, move-up, downsizing, estate — if your situation is
+              Divorce, relocation, move-up, downsizing, estate, if your situation is
               complicated, we&apos;re the right team.
             </p>
           </div>
@@ -809,7 +809,7 @@ export default function HomePage() {
               >
                 Sarah Patrick is a licensed Principal Broker in Michigan. Brad Patrick
                 brings 15+ years of real estate experience on top of a prior career in
-                mortgage lending. Together — with Christian Brown and Christian Wodtke —
+                mortgage lending. Together, with Christian Brown and Christian Wodtke 
                 The Patrick Group is a team that outperforms at every price point.
               </p>
 
@@ -1033,7 +1033,7 @@ export default function HomePage() {
             className="font-editorial italic mt-8"
             style={{ fontSize: "20px", lineHeight: "1.6", color: "rgba(253,251,247,0.65)", maxWidth: 560, margin: "2rem auto 0" }}
           >
-            Get your instant home valuation — then schedule a free listing consultation.
+            Get your instant home valuation, then schedule a free listing consultation.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
@@ -1068,7 +1068,7 @@ export default function HomePage() {
             className="font-editorial italic mt-10"
             style={{ fontSize: "16px", color: "rgba(253,251,247,0.4)" }}
           >
-            Unconditional Release Guarantee — if you&apos;re not satisfied, we&apos;ll release
+            Unconditional Release Guarantee, if you&apos;re not satisfied, we&apos;ll release
             you from your listing contract in writing.
           </p>
           <p
@@ -1100,7 +1100,7 @@ export default function HomePage() {
           </h2>
           <p className="mt-3 text-sm" style={{ color: "rgba(253,251,247,0.75)" }}>
             Median prices, days on market, and year-over-year trends across Oakland,
-            Macomb, Wayne, Washtenaw, and Livingston counties — straight from Realcomp.
+            Macomb, Wayne, Washtenaw, and Livingston counties, straight from Realcomp.
           </p>
           <form
             action="/api/subscribe"

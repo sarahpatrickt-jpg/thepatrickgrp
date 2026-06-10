@@ -5,14 +5,14 @@ import MapMI from "@/components/MapMI";
 export const metadata: Metadata = {
   title: "Southeast Michigan Neighborhoods",
   description:
-    "Explore Oakland County and Macomb County communities. Home price ranges, property types, school districts, and local insights — to help you find the right fit.",
+    "Explore Oakland County and Macomb County communities. Home price ranges, property types, school districts, and local insights, to help you find the right fit.",
   alternates: { canonical: "https://www.thepatrickgrp.com/neighborhoods" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/neighborhoods",
     title: "Southeast Michigan Neighborhoods",
     description:
-      "Explore Oakland County and Macomb County communities. Home price ranges, property types, school districts, and local insights — to help you find the right fit.",
+      "Explore Oakland County and Macomb County communities. Home price ranges, property types, school districts, and local insights, to help you find the right fit.",
     siteName: "The Patrick Group",
   },
 };
@@ -145,7 +145,7 @@ const wayneNeighborhoods = [
     href: "/neighborhoods/livonia-mi",
     name: "Livonia",
     county: "Wayne County",
-    tagline: "One of Michigan's largest cities — well-maintained brick ranches and colonials at accessible price points.",
+    tagline: "One of Michigan's largest cities, well-maintained brick ranches and colonials at accessible price points.",
     priceRange: "$225K – $600K+",
     propertyTypes: "Brick ranch, colonial, tri-level, condo",
   },
@@ -172,7 +172,7 @@ const macombNeighborhoods = [
     href: "/neighborhoods/sterling-heights-mi",
     name: "Sterling Heights",
     county: "Macomb County",
-    tagline: "Largest city in Macomb County — diverse housing stock at accessible price points.",
+    tagline: "Largest city in Macomb County, diverse housing stock at accessible price points.",
     priceRange: "$200K – $550K",
     propertyTypes: "Single-family, ranch, colonial, condos",
   },
@@ -196,7 +196,7 @@ const macombNeighborhoods = [
     href: "/neighborhoods/macomb-township-mi",
     name: "Macomb Township",
     county: "Macomb County",
-    tagline: "One of Michigan's fastest-growing communities — newer construction, larger lots, active builder market.",
+    tagline: "One of Michigan's fastest-growing communities: newer construction, larger lots, active builder market.",
     priceRange: "$300K – $700K+",
     propertyTypes: "New construction, colonial, ranch",
   },
@@ -237,7 +237,7 @@ export default function NeighborhoodsPage() {
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
             Objective information about the communities we serve across Oakland
-            and Macomb counties — home price ranges, property types, school
+            and Macomb counties: home price ranges, property types, school
             districts, and what makes each area distinct.
           </p>
         </div>
@@ -387,7 +387,7 @@ export default function NeighborhoodsPage() {
               City vs. City Comparisons
             </h2>
             <p className="text-gray-500 text-sm mb-6">
-              Side-by-side market data, lifestyle differences, and school districts — for buyers deciding between two communities.
+              Side-by-side market data, lifestyle differences, and school districts, for buyers deciding between two communities.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {[
@@ -427,7 +427,7 @@ export default function NeighborhoodsPage() {
               Let&apos;s Talk About What Matters to You
             </h2>
             <p className="text-white/70 text-sm mb-6 max-w-md mx-auto">
-              Commute, school district, lot size, price range — we help you
+              Commute, school district, lot size, price range, we help you
               figure out which communities match your priorities. No pressure,
               no obligation.
             </p>

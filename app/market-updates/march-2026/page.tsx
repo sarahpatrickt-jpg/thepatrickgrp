@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Southeast Michigan Real Estate Market Report — March 2026",
+  title: "Southeast Michigan Real Estate Market Report: March 2026",
   description:
-    "March 2026 Southeast Michigan market report — median sale price, price per sq ft, and days on market across Oakland, Macomb, Wayne, Washtenaw, and Livingston counties.",
+    "March 2026 Southeast Michigan market report: median sale price, price per sq ft, and days on market across Oakland, Macomb, Wayne, Washtenaw, and Livingston counties.",
   alternates: { canonical: "https://www.thepatrickgrp.com/market-updates/march-2026" },
 };
 
@@ -19,7 +19,7 @@ const counties = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Southeast Michigan Real Estate Market Report — March 2026",
+  headline: "Southeast Michigan Real Estate Market Report: March 2026",
   description: "March 2026 real estate market data for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties.",
   datePublished: "2026-03-01",
   dateModified: "2026-03-20",
@@ -60,11 +60,11 @@ export default function MarchReport() {
             Southeast Michigan · Realcomp · March 2026
           </p>
           <h1 className="font-display mt-3" style={{ fontSize: "clamp(36px, 5vw, 68px)", lineHeight: "1", letterSpacing: "-0.02em", color: "#FDFBF7" }}>
-            Market Report —{" "}
+            Market Report:{" "}
             <em style={{ color: "var(--red)", fontStyle: "italic" }}>March 2026</em>
           </h1>
           <p className="font-editorial italic mt-4" style={{ fontSize: "17px", color: "rgba(253,251,247,0.5)", maxWidth: 520 }}>
-            Prices up across all five counties. Days on market rising — buyers have more time, but well-priced homes still move.
+            Prices up across all five counties. Days on market rising, buyers have more time, but well-priced homes still move.
           </p>
           <p className={eyebrow + " mt-6"} style={{ color: "rgba(253,251,247,0.2)", fontFamily: "var(--font-mono, monospace)" }}>
             Last updated March 20, 2026 · Source: Realcomp MLS · Sarah Patrick, Principal Broker
@@ -96,7 +96,7 @@ export default function MarchReport() {
 
                 <div className="py-3" style={{ borderTop: "1px solid var(--line)" }}>
                   <p className="font-display" style={{ fontSize: "18px", color: "var(--ink)", lineHeight: "1" }}>
-                    {c.pricePerSqFt ? `$${c.pricePerSqFt}` : <span style={{ color: "var(--ink-3)" }}>—</span>}
+                    {c.pricePerSqFt ? `$${c.pricePerSqFt}` : <span style={{ color: "var(--ink-3)" }}>n/a</span>}
                   </p>
                   <p className={eyebrow + " mt-1"} style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)", fontSize: "8px" }}>Price / Sq Ft</p>
                 </div>
@@ -128,7 +128,7 @@ export default function MarchReport() {
                     <td className="font-display" style={{ padding: "12px 16px", fontSize: "14px" }}>{c.name}</td>
                     <td style={{ padding: "12px 16px", textAlign: "right", fontFamily: "var(--font-mono, monospace)", fontSize: "13px" }}>{fmt(c.medianPrice)}</td>
                     <td style={{ padding: "12px 16px", textAlign: "right", color: "#166534", fontFamily: "var(--font-mono, monospace)", fontSize: "12px" }}>+{c.priceYoY}%</td>
-                    <td style={{ padding: "12px 16px", textAlign: "right", fontFamily: "var(--font-mono, monospace)", fontSize: "13px" }}>{c.pricePerSqFt ? `$${c.pricePerSqFt}` : "—"}</td>
+                    <td style={{ padding: "12px 16px", textAlign: "right", fontFamily: "var(--font-mono, monospace)", fontSize: "13px" }}>{c.pricePerSqFt ? `$${c.pricePerSqFt}` : "n/a"}</td>
                     <td style={{ padding: "12px 16px", textAlign: "right", fontFamily: "var(--font-mono, monospace)", fontSize: "13px" }}>{c.dom}d</td>
                     <td style={{ padding: "12px 16px", textAlign: "right", color: "#92400e", fontFamily: "var(--font-mono, monospace)", fontSize: "12px" }}>+{c.domYoY}%</td>
                   </tr>
@@ -153,12 +153,12 @@ export default function MarchReport() {
                 {[
                   { bold: "Prices up across all five counties", body: "led by Wayne (+6.2%) and Macomb (+4.7%). Every market is appreciating year-over-year." },
                   { bold: "Days on market rising everywhere", body: "most notably Macomb (+28.6%) and Livingston (+21.4%). Buyers have more room than a year ago." },
-                  { bold: "Washtenaw leads on median price", body: "at $420,000 — followed by Livingston at $404,000. Wayne remains the most accessible entry point at $202,000." },
+                  { bold: "Washtenaw leads on median price", body: "at $420,000, followed by Livingston at $404,000. Wayne remains the most accessible entry point at $202,000." },
                 ].map((t) => (
                   <div key={t.bold} className="flex gap-4">
                     <div style={{ width: 2, minWidth: 2, backgroundColor: "var(--red)", marginTop: 4 }} />
                     <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.6" }}>
-                      <strong style={{ color: "var(--ink)" }}>{t.bold}</strong> — {t.body}
+                      <strong style={{ color: "var(--ink)" }}>{t.bold}</strong> {t.body}
                     </p>
                   </div>
                 ))}
@@ -169,7 +169,7 @@ export default function MarchReport() {
             <div className="p-8" style={{ backgroundColor: "var(--paper)", border: "1px solid var(--line)" }}>
               <p className={eyebrow + " mb-4"} style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}>From the Broker</p>
               <blockquote className="font-editorial italic" style={{ fontSize: "18px", lineHeight: "1.55", color: "var(--ink)" }}>
-                &ldquo;DOM is up in every county — but prices haven&apos;t followed. Sellers still have leverage. The window to list at peak pricing is open, but it won&apos;t be for long in markets like Macomb.&rdquo;
+                &ldquo;DOM is up in every county, but prices haven&apos;t followed. Sellers still have leverage. The window to list at peak pricing is open, but it won&apos;t be for long in markets like Macomb.&rdquo;
               </blockquote>
               <div className="flex items-center gap-3 mt-6">
                 <div style={{ width: 1, height: 28, backgroundColor: "var(--red)" }} />
@@ -189,7 +189,7 @@ export default function MarchReport() {
           <div className="p-8" style={{ borderRight: "1px solid var(--line)" }}>
             <p className={eyebrow + " mb-4"} style={{ color: "var(--red)", fontFamily: "var(--font-mono, monospace)" }}>For Buyers</p>
             <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.7" }}>
-              Rising days on market gives you more room to evaluate — but prices are still climbing. Getting pre-approved and having a clear strategy before you start looking is still essential. The right home still goes fast.
+              Rising days on market gives you more room to evaluate, but prices are still climbing. Getting pre-approved and having a clear strategy before you start looking is still essential. The right home still goes fast.
             </p>
           </div>
           <div className="p-8">

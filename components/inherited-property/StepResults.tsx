@@ -199,7 +199,7 @@ export default function StepResults({
       <p className="mt-8 text-xs text-gray-400 text-center leading-relaxed max-w-2xl mx-auto">
         This action plan is generated based on common inherited property
         scenarios in Michigan and is for informational purposes only. It does not
-        constitute legal, tax, or financial advice. Every situation is unique —
+        constitute legal, tax, or financial advice. Every situation is unique 
         consult with an estate attorney and tax professional for guidance
         specific to your circumstances. The Patrick Group does not provide legal
         or tax services.

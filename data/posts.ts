@@ -384,7 +384,7 @@ export const posts: Post[] = [
     image: "/images/insights/cost-to-sell-michigan.jpg",
     imageAlt: "Calculator and documents on a desk representing home selling costs",
     excerpt:
-      "Transfer taxes, title fees, commissions, and concessions — here's what Southeast Michigan sellers actually pay at closing, with a worked example on a $400K sale.",
+      "Transfer taxes, title fees, commissions, and concessions, here's what Southeast Michigan sellers actually pay at closing, with a worked example on a $400K sale.",
     date: "2026-05-05",
     author: "Sarah",
     category: "Seller Tips",
@@ -394,7 +394,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Most sellers focus on what their home will sell for. Fewer have a clear picture of what they'll actually walk away with. The gap between sale price and net proceeds is larger than most people expect — and understanding it in advance puts you in a much stronger position when it's time to make decisions.",
+        text: "Most sellers focus on what their home will sell for. Fewer have a clear picture of what they'll actually walk away with. The gap between sale price and net proceeds is larger than most people expect, and understanding it in advance puts you in a much stronger position when it's time to make decisions.",
       },
       {
         type: "paragraph",
@@ -406,7 +406,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Commission is typically the largest line item. Under rules that took effect in 2024, the buyer's agent compensation is now negotiated separately from the listing commission — it's no longer automatically bundled. In practice, here's how it plays out: listing agents in Southeast Michigan generally charge 2.5–3% of the sale price. Sellers may also choose to offer a buyer agent concession — typically 2–2.5% — as a strategic tool to attract financed buyers. If you offer nothing toward the buyer's agent, some buyers will factor that into their offer or pass entirely.",
+        text: "Commission is typically the largest line item. Under rules that took effect in 2024, the buyer's agent compensation is now negotiated separately from the listing commission, it's no longer automatically bundled. In practice, here's how it plays out: listing agents in Southeast Michigan generally charge 2.5–3% of the sale price. Sellers may also choose to offer a buyer agent concession, typically 2–2.5%, as a strategic tool to attract financed buyers. If you offer nothing toward the buyer's agent, some buyers will factor that into their offer or pass entirely.",
       },
       {
         type: "callout",
@@ -431,7 +431,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Note: Michigan principal residence exemption (PRE) holders may qualify for an exemption from the state transfer tax if the property is their primary residence. Ask your title company to verify eligibility early — this can save a meaningful amount.",
+        text: "Note: Michigan principal residence exemption (PRE) holders may qualify for an exemption from the state transfer tax if the property is their primary residence. Ask your title company to verify eligibility early, this can save a meaningful amount.",
       },
       {
         type: "h2",
@@ -447,7 +447,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "This line item is entirely within your control — and it's where sellers make their biggest mistakes in both directions. Some over-invest in renovations that won't be recovered in the sale price. Others under-invest and leave money on the table.",
+        text: "This line item is entirely within your control, and it's where sellers make their biggest mistakes in both directions. Some over-invest in renovations that won't be recovered in the sale price. Others under-invest and leave money on the table.",
       },
       {
         type: "two-col",
@@ -470,7 +470,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "In today's market, buyers frequently ask sellers to contribute toward closing costs — typically 1–3% of the purchase price. In a competitive multiple-offer situation, concessions may be zero. In a slower market or on a home that's been sitting, concessions are often part of the negotiation. Plan for the possibility even if you don't end up paying them.",
+        text: "In today's market, buyers frequently ask sellers to contribute toward closing costs, typically 1–3% of the purchase price. In a competitive multiple-offer situation, concessions may be zero. In a slower market or on a home that's been sitting, concessions are often part of the negotiation. Plan for the possibility even if you don't end up paying them.",
       },
       {
         type: "h2",
@@ -488,7 +488,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Total estimated selling costs: approximately $29,840 — or roughly 7.5% of the sale price before any seller concessions. That leaves a seller with a $400,000 sale walking away with approximately $370,000 before paying off their mortgage.",
+        text: "Total estimated selling costs: approximately $29,840, or roughly 7.5% of the sale price before any seller concessions. That leaves a seller with a $400,000 sale walking away with approximately $370,000 before paying off their mortgage.",
       },
       {
         type: "h2",
@@ -499,7 +499,7 @@ export const posts: Post[] = [
         items: [
           "Get a net sheet before you list. Any agent should be able to produce one with your specific numbers.",
           "Understand the transfer tax exemption if this is your primary residence.",
-          "Be surgical about pre-market repairs — fix what will come up in inspection, not what will make the home look renovated.",
+          "Be surgical about pre-market repairs, fix what will come up in inspection, not what will make the home look renovated.",
           "Price accurately from the start. Overpriced homes sit, and price reductions cost more than the initial discount would have.",
           "In a competitive offer situation, push back on excessive concession requests before accepting.",
         ],
@@ -514,7 +514,7 @@ export const posts: Post[] = [
     image: "/images/insights/best-time-to-sell.jpg",
     imageAlt: "For sale sign in front of a well-maintained suburban home",
     excerpt:
-      "Spring gets the most attention, but the real answer is more nuanced — and timing matters less than most sellers think.",
+      "Spring gets the most attention, but the real answer is more nuanced, and timing matters less than most sellers think.",
     date: "2026-04-18",
     author: "Sarah",
     category: "Seller Tips",
@@ -524,11 +524,11 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Every seller asks some version of this question. The conventional answer is spring — and the conventional answer isn't wrong. But it's incomplete. Here's how I actually think about timing with clients, and what the data from Southeast Michigan says.",
+        text: "Every seller asks some version of this question. The conventional answer is spring, and the conventional answer isn't wrong. But it's incomplete. Here's how I actually think about timing with clients, and what the data from Southeast Michigan says.",
       },
       {
         type: "h2",
-        text: "Spring Is the Peak — With a Catch",
+        text: "Spring Is the Peak. With a Catch",
       },
       {
         type: "paragraph",
@@ -549,7 +549,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "July and August still see active buyers — particularly buyers on corporate relocation timelines, which are year-round. The volume is lower than spring, but motivated buyers are real. The problem is seller attention: families are traveling, contractors are busy, and the logistics of a summer showing schedule can be frustrating. If your home is turnkey and priced right, summer works fine. If it needs any prep work, summer timelines get squeezed.",
+        text: "July and August still see active buyers, particularly buyers on corporate relocation timelines, which are year-round. The volume is lower than spring, but motivated buyers are real. The problem is seller attention: families are traveling, contractors are busy, and the logistics of a summer showing schedule can be frustrating. If your home is turnkey and priced right, summer works fine. If it needs any prep work, summer timelines get squeezed.",
       },
       {
         type: "h2",
@@ -561,7 +561,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The buyers who are actively searching in October in Southeast Michigan are not casual browsers. They have real motivation. Fall listings that are priced correctly often move faster than sellers expect — without the multiple-offer chaos that spring can produce.",
+        text: "The buyers who are actively searching in October in Southeast Michigan are not casual browsers. They have real motivation. Fall listings that are priced correctly often move faster than sellers expect, without the multiple-offer chaos that spring can produce.",
       },
       {
         type: "h2",
@@ -569,11 +569,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "November through February is the slowest period — but slow doesn't mean dead. Buyer volume is lowest, but so is seller competition. The buyers who are looking in January in Michigan are serious. They are not driving around in the snow looking at houses for fun.",
+        text: "November through February is the slowest period, but slow doesn't mean dead. Buyer volume is lowest, but so is seller competition. The buyers who are looking in January in Michigan are serious. They are not driving around in the snow looking at houses for fun.",
       },
       {
         type: "paragraph",
-        text: "For certain home types — condos, ranch homes, properties that show as well in winter as in summer — the winter window can produce a faster, less complicated sale than spring. The pool of buyers is smaller, but the pool of sellers is smaller too.",
+        text: "For certain home types: condos, ranch homes, properties that show as well in winter as in summer, the winter window can produce a faster, less complicated sale than spring. The pool of buyers is smaller, but the pool of sellers is smaller too.",
       },
       {
         type: "h2",
@@ -598,11 +598,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The best time to list is when your home is genuinely ready and you're prepared to execute — not when the calendar says so. If that happens to be March, great. If it's October, that can work in your favor. What doesn't work is waiting for the \"right\" season while holding off on the preparation that actually moves homes.",
+        text: "The best time to list is when your home is genuinely ready and you're prepared to execute, not when the calendar says so. If that happens to be March, great. If it's October, that can work in your favor. What doesn't work is waiting for the \"right\" season while holding off on the preparation that actually moves homes.",
       },
       {
         type: "paragraph",
-        text: "If you're thinking about selling in the next six months, the conversation to have now isn't about timing — it's about what the home needs to look its best, what comparable homes have sold for, and what your net proceeds will look like. That conversation is free and takes about 30 minutes.",
+        text: "If you're thinking about selling in the next six months, the conversation to have now isn't about timing, it's about what the home needs to look its best, what comparable homes have sold for, and what your net proceeds will look like. That conversation is free and takes about 30 minutes.",
       },
     ],
   },
@@ -614,7 +614,7 @@ export const posts: Post[] = [
     image: "/images/insights/selling-during-divorce.jpg",
     imageAlt: "House keys and legal documents on a table",
     excerpt:
-      "Timing, authority, equity splits, and keeping the process from derailing — what Michigan sellers navigating a divorce actually need to know.",
+      "Timing, authority, equity splits, and keeping the process from derailing, what Michigan sellers navigating a divorce actually need to know.",
     date: "2026-04-05",
     author: "Sarah",
     category: "Seller Tips",
@@ -624,7 +624,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Selling a home during a divorce is one of the most common situations we handle — and one of the most emotionally and logistically complex. The real estate part is straightforward. The human part is not. Here's what you need to understand before the listing agreement is signed.",
+        text: "Selling a home during a divorce is one of the most common situations we handle, and one of the most emotionally and logistically complex. The real estate part is straightforward. The human part is not. Here's what you need to understand before the listing agreement is signed.",
       },
       {
         type: "paragraph",
@@ -632,15 +632,15 @@ export const posts: Post[] = [
       },
       {
         type: "h2",
-        text: "Both Spouses Must Sign — Unless There's a Court Order",
+        text: "Both Spouses Must Sign. Unless There's a Court Order",
       },
       {
         type: "paragraph",
-        text: "In Michigan, when a home is jointly owned — as most marital homes are — both spouses must sign the listing agreement, the purchase agreement, and the closing documents. There is no workaround for this. If one spouse refuses to cooperate, the home cannot be listed or sold without a court order directing the sale.",
+        text: "In Michigan, when a home is jointly owned, as most marital homes are: both spouses must sign the listing agreement, the purchase agreement, and the closing documents. There is no workaround for this. If one spouse refuses to cooperate, the home cannot be listed or sold without a court order directing the sale.",
       },
       {
         type: "paragraph",
-        text: "Michigan courts can and do order the sale of a marital home when spouses cannot agree. If that's your situation, your attorney can file a motion with the court. The process takes time, but it is available. In the meantime, the home sits — which affects everyone's financial position.",
+        text: "Michigan courts can and do order the sale of a marital home when spouses cannot agree. If that's your situation, your attorney can file a motion with the court. The process takes time, but it is available. In the meantime, the home sits, which affects everyone's financial position.",
       },
       {
         type: "h2",
@@ -648,7 +648,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "There is no universally right answer on timing — it depends on your financial situation, your attorney's guidance, and your ability to cooperate on the sale process. Here are the options:",
+        text: "There is no universally right answer on timing, it depends on your financial situation, your attorney's guidance, and your ability to cooperate on the sale process. Here are the options:",
       },
       {
         type: "bullets",
@@ -669,12 +669,12 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "A neutral comparative market analysis from an experienced agent — someone neither party has a prior relationship with — is often the cleanest way to resolve this disagreement. The data should drive the pricing decision, not whoever is more emotionally attached to a number.",
+        text: "A neutral comparative market analysis from an experienced agent, someone neither party has a prior relationship with, is often the cleanest way to resolve this disagreement. The data should drive the pricing decision, not whoever is more emotionally attached to a number.",
       },
       {
         type: "callout",
         label: "From experience",
-        text: "The couples who sell quickly and cleanly are the ones who treat this as a business transaction from the first conversation. That doesn't mean it isn't painful — it is. It means they've agreed to make decisions based on data and their attorneys' guidance rather than the emotions of the moment.",
+        text: "The couples who sell quickly and cleanly are the ones who treat this as a business transaction from the first conversation. That doesn't mean it isn't painful, it is. It means they've agreed to make decisions based on data and their attorneys' guidance rather than the emotions of the moment.",
       },
       {
         type: "h2",
@@ -682,7 +682,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Sale proceeds are marital property in Michigan and are subject to equitable distribution — which means fair, but not necessarily 50/50. The divorce decree will specify how proceeds are divided. In most cases where both spouses contributed to the home, the split is close to equal after the mortgage is paid off, but your attorney will advise on your specific situation.",
+        text: "Sale proceeds are marital property in Michigan and are subject to equitable distribution, which means fair, but not necessarily 50/50. The divorce decree will specify how proceeds are divided. In most cases where both spouses contributed to the home, the split is close to equal after the mortgage is paid off, but your attorney will advise on your specific situation.",
       },
       {
         type: "paragraph",
@@ -694,7 +694,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "If you and your spouse have lived in the home as your primary residence for at least two of the last five years, you may qualify for the federal capital gains exclusion — up to $500,000 for married couples filing jointly. If the home is sold after the divorce is final and ownership transfers to one party, that individual's exclusion drops to $250,000. Timing the sale relative to the divorce finalization can have real tax consequences. Talk to a CPA before making this decision.",
+        text: "If you and your spouse have lived in the home as your primary residence for at least two of the last five years, you may qualify for the federal capital gains exclusion, up to $500,000 for married couples filing jointly. If the home is sold after the divorce is final and ownership transfers to one party, that individual's exclusion drops to $250,000. Timing the sale relative to the divorce finalization can have real tax consequences. Talk to a CPA before making this decision.",
       },
       {
         type: "h2",
@@ -706,7 +706,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "We've handled these transactions before. We work with both parties professionally, communicate transparently with each, and focus on getting the home sold at the best possible price — which ultimately serves everyone. If you're in this situation and want a confidential conversation about where to start, call us.",
+        text: "We've handled these transactions before. We work with both parties professionally, communicate transparently with each, and focus on getting the home sold at the best possible price, which ultimately serves everyone. If you're in this situation and want a confidential conversation about where to start, call us.",
       },
     ],
   },
@@ -728,7 +728,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "The new construction vs. resale question comes up constantly with buyers in Southeast Michigan — and the answer is rarely obvious. Both have real advantages. Both have real traps. Here's how I walk clients through the decision.",
+        text: "The new construction vs. resale question comes up constantly with buyers in Southeast Michigan, and the answer is rarely obvious. Both have real advantages. Both have real traps. Here's how I walk clients through the decision.",
       },
       {
         type: "h2",
@@ -736,7 +736,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "This is the single most important thing to understand about new construction: the price on the sign is not the price you'll pay. Builder base prices reflect a stripped-down configuration that often doesn't match what you saw in the model home. The model home was built to sell — loaded with structural options, design center upgrades, and lot premiums that don't appear in the advertised starting price.",
+        text: "This is the single most important thing to understand about new construction: the price on the sign is not the price you'll pay. Builder base prices reflect a stripped-down configuration that often doesn't match what you saw in the model home. The model home was built to sell: loaded with structural options, design center upgrades, and lot premiums that don't appear in the advertised starting price.",
       },
       {
         type: "paragraph",
@@ -745,7 +745,7 @@ export const posts: Post[] = [
       {
         type: "callout",
         label: "Before you visit a model home",
-        text: "Register with your buyer's agent before your first visit to the sales office. The moment you enter unrepresented, you may lose your right to have your own agent. The builder's on-site rep works for the builder — not for you.",
+        text: "Register with your buyer's agent before your first visit to the sales office. The moment you enter unrepresented, you may lose your right to have your own agent. The builder's on-site rep works for the builder, not for you.",
       },
       {
         type: "h2",
@@ -753,11 +753,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Production new construction in Southeast Michigan typically takes 6–12 months from contract signing to closing, depending on the builder and construction stage at the time you sign. Semi-custom and custom builds take longer. Builder contracts give the builder significant flexibility on delivery dates — read carefully what your remedies are if the timeline extends.",
+        text: "Production new construction in Southeast Michigan typically takes 6–12 months from contract signing to closing, depending on the builder and construction stage at the time you sign. Semi-custom and custom builds take longer. Builder contracts give the builder significant flexibility on delivery dates, read carefully what your remedies are if the timeline extends.",
       },
       {
         type: "paragraph",
-        text: "Resale closes on a timeline you control — typically 30–45 days from accepted offer. If you have a lease ending, a job starting, or a home to sell, that flexibility matters.",
+        text: "Resale closes on a timeline you control, typically 30–45 days from accepted offer. If you have a lease ending, a job starting, or a home to sell, that flexibility matters.",
       },
       {
         type: "h2",
@@ -769,7 +769,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The caveat: new construction is not immune to defects. I strongly recommend independent inspections at framing, rough-in, and final walkthrough — before the walls are closed and before the closing date. The warranty protects you after close; inspections protect you from inheriting defects that are much harder to fix once the home is finished.",
+        text: "The caveat: new construction is not immune to defects. I strongly recommend independent inspections at framing, rough-in, and final walkthrough, before the walls are closed and before the closing date. The warranty protects you after close; inspections protect you from inheriting defects that are much harder to fix once the home is finished.",
       },
       {
         type: "h2",
@@ -777,7 +777,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "With resale, everything is negotiable — price, closing date, repairs, appliances. With a builder, price negotiation is limited. Builders in Southeast Michigan rarely move on base price, especially in active communities. Where there is room to negotiate: lot premiums, design center allowances, included upgrades, and closing cost contributions — particularly if the builder is closing out a community or has standing inventory.",
+        text: "With resale, everything is negotiable: price, closing date, repairs, appliances. With a builder, price negotiation is limited. Builders in Southeast Michigan rarely move on base price, especially in active communities. Where there is room to negotiate: lot premiums, design center allowances, included upgrades, and closing cost contributions, particularly if the builder is closing out a community or has standing inventory.",
       },
       {
         type: "paragraph",
@@ -789,7 +789,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "New construction communities are often in developing areas where the surrounding infrastructure is still catching up — retail, restaurants, and road capacity may take years to mature. Resale homes in established neighborhoods in Birmingham, Troy, Rochester Hills, or Northville come with the amenities already in place.",
+        text: "New construction communities are often in developing areas where the surrounding infrastructure is still catching up: retail, restaurants, and road capacity may take years to mature. Resale homes in established neighborhoods in Birmingham, Troy, Rochester Hills, or Northville come with the amenities already in place.",
       },
       {
         type: "two-col",
@@ -808,7 +808,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Neither option is universally better. The right answer depends on your timeline, your priorities, and the specific community and price point you're targeting. What matters most is that you understand what you're buying in both cases — not the version the builder's sales agent or a listing MLS photo projects.",
+        text: "Neither option is universally better. The right answer depends on your timeline, your priorities, and the specific community and price point you're targeting. What matters most is that you understand what you're buying in both cases, not the version the builder's sales agent or a listing MLS photo projects.",
       },
       {
         type: "paragraph",
@@ -824,7 +824,7 @@ export const posts: Post[] = [
     image: "/images/insights/how-to-win-bidding-war.jpg",
     imageAlt: "Couple reviewing an offer with their real estate agent",
     excerpt:
-      "Escalation clauses and waiving inspections aren't the whole story. Here's how Brad actually advises buyers to compete — and win — in Southeast Michigan.",
+      "Escalation clauses and waiving inspections aren't the whole story. Here's how Brad actually advises buyers to compete, and win, in Southeast Michigan.",
     date: "2026-05-01",
     author: "Brad",
     category: "Buyer Tips",
@@ -834,7 +834,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Multiple offers are a reality in Southeast Michigan — especially in the under-$450K range in Oakland and Macomb counties. I've helped buyers compete in some brutal situations and walked away from others. Here's how I actually approach it.",
+        text: "Multiple offers are a reality in Southeast Michigan, especially in the under-$450K range in Oakland and Macomb counties. I've helped buyers compete in some brutal situations and walked away from others. Here's how I actually approach it.",
       },
       {
         type: "h2",
@@ -847,7 +847,7 @@ export const posts: Post[] = [
       {
         type: "bullets",
         items: [
-          "Get fully underwritten, not just pre-approved. A fully underwritten pre-approval means the lender has verified your income, assets, and credit — and your file is conditionally approved pending the property appraisal. Sellers and listing agents recognize the difference.",
+          "Get fully underwritten, not just pre-approved. A fully underwritten pre-approval means the lender has verified your income, assets, and credit, and your file is conditionally approved pending the property appraisal. Sellers and listing agents recognize the difference.",
           "Know your ceiling before you tour. In a multiple-offer situation, you may have 24 hours to submit. That's not when you want to have a conversation with your lender about how high you can go.",
           "Have your earnest money liquid. In competitive offers, $5,000–$10,000 in earnest money is a baseline. Thinly liquid buyers who need time to pull funds together lose to buyers who don't.",
         ],
@@ -863,9 +863,9 @@ export const posts: Post[] = [
       {
         type: "bullets",
         items: [
-          "The escalation cap is the number that matters. Set it at your true maximum — not a comfortable number. You can always walk away from a deal; you can't walk back into one after it's sold to someone else.",
+          "The escalation cap is the number that matters. Set it at your true maximum, not a comfortable number. You can always walk away from a deal; you can't walk back into one after it's sold to someone else.",
           "Not all sellers or listing agents like them. Some sellers find them confusing or manipulative and prefer a clean highest-and-best. Your agent should know the listing agent's preferences before you escalate.",
-          "Escalation clauses don't cover terms. If two offers escalate to the same price, the seller decides based on other terms — inspection contingency, closing date, financing type. Don't let the escalation make you lazy on the rest of the offer.",
+          "Escalation clauses don't cover terms. If two offers escalate to the same price, the seller decides based on other terms: inspection contingency, closing date, financing type. Don't let the escalation make you lazy on the rest of the offer.",
         ],
       },
       {
@@ -878,7 +878,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "What I do recommend, when the market is competitive: offer to do an inspection for informational purposes only, or offer to accept the home with repairs only above a specific dollar threshold (say, $5,000). This tells the seller you're not going to use the inspection as a renegotiation tool for minor items — while preserving your right to walk away from something genuinely serious.",
+        text: "What I do recommend, when the market is competitive: offer to do an inspection for informational purposes only, or offer to accept the home with repairs only above a specific dollar threshold (say, $5,000). This tells the seller you're not going to use the inspection as a renegotiation tool for minor items, while preserving your right to walk away from something genuinely serious.",
       },
       {
         type: "h2",
@@ -893,14 +893,14 @@ export const posts: Post[] = [
         items: [
           "Closing date flexibility. If the sellers need 60 days before they have to be out, a buyer who gives them that is worth real money.",
           "Rent-back options. Sellers who haven't found their next home sometimes need to stay after closing. Offering a short rent-back period can break a tie.",
-          "Fewer contingencies. A financing contingency is usually necessary. A home sale contingency — 'I'll buy your house after mine sells' — is a deal-killer in a competitive situation.",
+          "Fewer contingencies. A financing contingency is usually necessary. A home sale contingency 'I'll buy your house after mine sells', is a deal-killer in a competitive situation.",
           "Certainty of close. Cash offers win in part because they remove financing risk. If you're not paying cash, a strong underwriting approval closes the gap.",
         ],
       },
       {
         type: "callout",
         label: "On offer letters",
-        text: "Many buyers want to write a personal letter to the seller. I advise against this. Seller letters introduce fair housing risk when they mention personal characteristics — and in Michigan, sellers and their agents are advised to avoid accepting decisions influenced by personal information unrelated to the transaction. A clean, strong offer tells the seller everything they need to know.",
+        text: "Many buyers want to write a personal letter to the seller. I advise against this. Seller letters introduce fair housing risk when they mention personal characteristics, and in Michigan, sellers and their agents are advised to avoid accepting decisions influenced by personal information unrelated to the transaction. A clean, strong offer tells the seller everything they need to know.",
       },
       {
         type: "h2",
@@ -912,7 +912,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "If you're serious about buying in Southeast Michigan this year, the conversation to have now is about preparation — not waiting until you find the right house to figure out how to compete for it.",
+        text: "If you're serious about buying in Southeast Michigan this year, the conversation to have now is about preparation, not waiting until you find the right house to figure out how to compete for it.",
       },
     ],
   },
@@ -924,7 +924,7 @@ export const posts: Post[] = [
     image: "/images/insights/selling-parents-home.jpg",
     imageAlt: "Classic family home with mature landscaping",
     excerpt:
-      "Whether your parent is downsizing, moving to memory care, or has passed away — selling their home involves legal authority, tax questions, and emotional weight that a standard sale doesn't.",
+      "Whether your parent is downsizing, moving to memory care, or has passed away: selling their home involves legal authority, tax questions, and emotional weight that a standard sale doesn't.",
     date: "2026-04-22",
     author: "Sarah",
     category: "Seller Tips",
@@ -934,7 +934,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "This is one of the most common calls we get — and one of the most varied. Selling a parent's home looks very different depending on whether your parent is still living, has recently passed, or is moving into care. The common threads are legal authority, family coordination, and a property that may need work before it goes on the market.",
+        text: "This is one of the most common calls we get, and one of the most varied. Selling a parent's home looks very different depending on whether your parent is still living, has recently passed, or is moving into care. The common threads are legal authority, family coordination, and a property that may need work before it goes on the market.",
       },
       {
         type: "paragraph",
@@ -946,7 +946,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "If your parent is in memory care, has cognitive decline, or simply can't manage the sale process, someone needs to have legal authority to act on their behalf. That typically means a durable power of attorney (POA) naming you or another family member as agent. Without a valid POA, children have no legal authority to list or sell a parent's home — even with the best intentions.",
+        text: "If your parent is in memory care, has cognitive decline, or simply can't manage the sale process, someone needs to have legal authority to act on their behalf. That typically means a durable power of attorney (POA) naming you or another family member as agent. Without a valid POA, children have no legal authority to list or sell a parent's home, even with the best intentions.",
       },
       {
         type: "paragraph",
@@ -958,11 +958,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "When a parent passes away, the path to selling their home depends on how the property was held. If the home was in a living trust, the successor trustee can typically proceed with the sale without court involvement. If the home was held outright in the parent's name, the estate must go through Michigan's probate process — which requires Letters of Authority from the probate court before a purchase agreement can be signed.",
+        text: "When a parent passes away, the path to selling their home depends on how the property was held. If the home was in a living trust, the successor trustee can typically proceed with the sale without court involvement. If the home was held outright in the parent's name, the estate must go through Michigan's probate process, which requires Letters of Authority from the probate court before a purchase agreement can be signed.",
       },
       {
         type: "paragraph",
-        text: "The probate process in Michigan takes a minimum of five months from the date of death, though the practical timeline is often longer. Planning around this timeline — and making sure the home is maintained and secured during probate — is something we help families navigate.",
+        text: "The probate process in Michigan takes a minimum of five months from the date of death, though the practical timeline is often longer. Planning around this timeline, and making sure the home is maintained and secured during probate, is something we help families navigate.",
       },
       {
         type: "h2",
@@ -970,16 +970,16 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "When a parent passes and leaves real property to heirs, the heirs receive what's called a stepped-up cost basis — the property's fair market value at the date of death becomes the new basis, not the original purchase price.",
+        text: "When a parent passes and leaves real property to heirs, the heirs receive what's called a stepped-up cost basis, the property's fair market value at the date of death becomes the new basis, not the original purchase price.",
       },
       {
         type: "callout",
         label: "Why this matters",
-        text: "If your parents bought their home for $90,000 in 1985, and it's worth $420,000 today when your parent passes, your basis as the heir is $420,000 — not $90,000. If you sell for $420,000, there's no capital gains tax owed. This is a significant benefit that many families don't realize until their CPA tells them. Timing the sale relative to the date of death matters.",
+        text: "If your parents bought their home for $90,000 in 1985, and it's worth $420,000 today when your parent passes, your basis as the heir is $420,000, not $90,000. If you sell for $420,000, there's no capital gains tax owed. This is a significant benefit that many families don't realize until their CPA tells them. Timing the sale relative to the date of death matters.",
       },
       {
         type: "paragraph",
-        text: "This does not apply if you inherit through a living trust or as a joint tenant — the rules differ. Consult a CPA before you sell, not after.",
+        text: "This does not apply if you inherit through a living trust or as a joint tenant, the rules differ. Consult a CPA before you sell, not after.",
       },
       {
         type: "h2",
@@ -987,7 +987,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Parent homes have usually been lived in for decades. That means deferred maintenance, dated finishes, and systems (furnace, water heater, roof, windows) that may be at or past their useful life. The question isn't whether to address these things — it's which ones move the needle on sale price and which ones don't.",
+        text: "Parent homes have usually been lived in for decades. That means deferred maintenance, dated finishes, and systems (furnace, water heater, roof, windows) that may be at or past their useful life. The question isn't whether to address these things, it's which ones move the needle on sale price and which ones don't.",
       },
       {
         type: "two-col",
@@ -1010,7 +1010,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "We stay neutral. We provide data. We communicate with the person who has legal authority to act — and we keep the process moving without fanning family conflict. This is something we've done before, and we know how to handle it.",
+        text: "We stay neutral. We provide data. We communicate with the person who has legal authority to act, and we keep the process moving without fanning family conflict. This is something we've done before, and we know how to handle it.",
       },
       {
         type: "h2",
@@ -1018,7 +1018,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The first step is almost always the same: figure out who has legal authority to sell. Once that's clear, the rest of the process is straightforward. Call us for a confidential conversation — we can walk through your specific situation and tell you exactly what the path forward looks like.",
+        text: "The first step is almost always the same: figure out who has legal authority to sell. Once that's clear, the rest of the process is straightforward. Call us for a confidential conversation, we can walk through your specific situation and tell you exactly what the path forward looks like.",
       },
     ],
   },
@@ -1030,7 +1030,7 @@ export const posts: Post[] = [
     image: "/images/insights/moving-from-chicago.jpg",
     imageAlt: "Tree-lined residential street in a Michigan suburb",
     excerpt:
-      "Chicago buyers are consistently surprised by what their budget buys here — and by a few things they didn't expect. Here's an honest guide.",
+      "Chicago buyers are consistently surprised by what their budget buys here, and by a few things they didn't expect. Here's an honest guide.",
     date: "2026-04-12",
     author: "Sarah",
     category: "Buyer Tips",
@@ -1040,7 +1040,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "We work with relocators from across the country, and Chicago buyers come up consistently. There's a reason: Metro Detroit's suburbs offer a lifestyle and a price point that's genuinely hard to find in the Chicago suburbs at comparable proximity to a major city. But there are also things that surprise Chicago buyers — in both directions. Here's what I tell them.",
+        text: "We work with relocators from across the country, and Chicago buyers come up consistently. There's a reason: Metro Detroit's suburbs offer a lifestyle and a price point that's genuinely hard to find in the Chicago suburbs at comparable proximity to a major city. But there are also things that surprise Chicago buyers, in both directions. Here's what I tell them.",
       },
       {
         type: "h2",
@@ -1052,7 +1052,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "In Birmingham — the closest thing Southeast Michigan has to a walkable, dining-and-retail-centric suburb like Hinsdale or Western Springs — $600K still buys a detached single-family on a real lot. That's not a comparison that holds in most major metro areas.",
+        text: "In Birmingham, the closest thing Southeast Michigan has to a walkable, dining-and-retail-centric suburb like Hinsdale or Western Springs, $600K still buys a detached single-family on a real lot. That's not a comparison that holds in most major metro areas.",
       },
       {
         type: "h2",
@@ -1060,7 +1060,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Illinois property taxes are among the highest in the country. Effective rates in the Chicago suburbs typically run 2–3% of assessed value annually. Michigan's effective property tax rates are generally lower — typically 1.2–1.8% depending on the municipality. On a $500,000 home, that difference can be $5,000–$9,000 per year.",
+        text: "Illinois property taxes are among the highest in the country. Effective rates in the Chicago suburbs typically run 2–3% of assessed value annually. Michigan's effective property tax rates are generally lower, typically 1.2–1.8% depending on the municipality. On a $500,000 home, that difference can be $5,000–$9,000 per year.",
       },
       {
         type: "stat-row",
@@ -1072,7 +1072,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Michigan also has a principal residence exemption (PRE) that reduces the taxable value of your primary residence. This takes effect in the tax year following your purchase — make sure your title company files the paperwork at closing.",
+        text: "Michigan also has a principal residence exemption (PRE) that reduces the taxable value of your primary residence. This takes effect in the tax year following your purchase, make sure your title company files the paperwork at closing.",
       },
       {
         type: "h2",
@@ -1086,7 +1086,7 @@ export const posts: Post[] = [
         type: "bullets",
         items: [
           "If you're coming from the North Shore (Winnetka, Kenilworth, Wilmette): look at Birmingham and Bloomfield Hills. The architecture, the scale of homes, and the premium real estate culture are comparable.",
-          "If you're coming from the western suburbs (Naperville, Wheaton, Glen Ellyn): Rochester Hills, Clarkston, and Northville tend to feel most familiar — strong community identity, good infrastructure, varied housing.",
+          "If you're coming from the western suburbs (Naperville, Wheaton, Glen Ellyn): Rochester Hills, Clarkston, and Northville tend to feel most familiar: strong community identity, good infrastructure, varied housing.",
           "If you want acreage and privacy and don't mind being further out: Washington Township, Independence Township near Clarkston, and the northern Oakland County corridor.",
           "If walkability matters and you want the densest, most urban suburb: Birmingham is the answer.",
         ],
@@ -1104,7 +1104,7 @@ export const posts: Post[] = [
         items: [
           "Traffic is manageable. Southeast Michigan doesn't have anything close to Chicago-level congestion. Drive times feel dramatically shorter even though the geography is similar.",
           "The lake is everywhere. Lake St. Clair and the inland lake system in Oakland and Livingston counties mean water access is far more available than Chicago buyers expect at non-waterfront prices.",
-          "Winters are similar, not worse. The Great Lakes climate in Southeast Michigan is cold and snowy — like Chicago, sometimes more. This doesn't surprise most Chicago buyers, but the occasional buyer from the South gets a reminder.",
+          "Winters are similar, not worse. The Great Lakes climate in Southeast Michigan is cold and snowy, like Chicago, sometimes more. This doesn't surprise most Chicago buyers, but the occasional buyer from the South gets a reminder.",
         ],
       },
       {
@@ -1117,7 +1117,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Michigan allows remote closings, so you can technically complete the purchase without being here for every step — though we recommend being present for the final walkthrough. The entire process, from first conversation to keys, typically takes 60–120 days depending on your timeline and the market.",
+        text: "Michigan allows remote closings, so you can technically complete the purchase without being here for every step, though we recommend being present for the final walkthrough. The entire process, from first conversation to keys, typically takes 60–120 days depending on your timeline and the market.",
       },
       {
         type: "paragraph",
@@ -1133,7 +1133,7 @@ export const posts: Post[] = [
     image: "/images/insights/rochester-hills-vs-troy.jpg",
     imageAlt: "Split view of two different suburban neighborhoods",
     excerpt:
-      "Two of Oakland County's top markets — different character, different commute patterns, different price floors. Here's how to decide.",
+      "Two of Oakland County's top markets: different character, different commute patterns, different price floors. Here's how to decide.",
     date: "2026-03-22",
     author: "Brad",
     category: "Neighborhood",
@@ -1151,11 +1151,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Rochester Hills is anchored by the village of Rochester — a walkable downtown with independently owned restaurants, a farmers market, coffee shops, and Paint Creek Trail running through it. The community has a small-town identity even though it's a city of 80,000. Buyers who want a place with a neighborhood feel, trail access, and a functional town center tend to land here.",
+        text: "Rochester Hills is anchored by the village of Rochester, a walkable downtown with independently owned restaurants, a farmers market, coffee shops, and Paint Creek Trail running through it. The community has a small-town identity even though it's a city of 80,000. Buyers who want a place with a neighborhood feel, trail access, and a functional town center tend to land here.",
       },
       {
         type: "paragraph",
-        text: "Troy reads differently. It's a corporate hub — home to significant employer bases along the I-75 and Big Beaver corridors, the Somerset Collection, and some of the best road infrastructure in Oakland County. The residential neighborhoods are strong, but Troy doesn't have a downtown the way Rochester does. The payoff is proximity to employment, easy freeway access, and a housing market with strong resale history.",
+        text: "Troy reads differently. It's a corporate hub, home to significant employer bases along the I-75 and Big Beaver corridors, the Somerset Collection, and some of the best road infrastructure in Oakland County. The residential neighborhoods are strong, but Troy doesn't have a downtown the way Rochester does. The payoff is proximity to employment, easy freeway access, and a housing market with strong resale history.",
       },
       {
         type: "h2",
@@ -1171,7 +1171,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Rochester Hills typically carries a slight price premium over comparable homes in Troy — reflecting the trail access, the village downtown, and the demand for that community feel. The gap narrows in the upper price ranges. Both markets move quickly; well-priced homes in either city rarely sit more than a couple of weeks.",
+        text: "Rochester Hills typically carries a slight price premium over comparable homes in Troy: reflecting the trail access, the village downtown, and the demand for that community feel. The gap narrows in the upper price ranges. Both markets move quickly; well-priced homes in either city rarely sit more than a couple of weeks.",
       },
       {
         type: "h2",
@@ -1179,11 +1179,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Most of Rochester Hills falls within Rochester Community Schools — one of the largest districts in Oakland County, serving Rochester Hills, the City of Rochester, and parts of Oakland Township. Troy is served by Troy School District.",
+        text: "Most of Rochester Hills falls within Rochester Community Schools, one of the largest districts in Oakland County, serving Rochester Hills, the City of Rochester, and parts of Oakland Township. Troy is served by Troy School District.",
       },
       {
         type: "paragraph",
-        text: "Note: small portions of Rochester Hills fall within the Avondale or Lake Orion school districts depending on the specific address. If school district boundaries matter to your search, verify the specific parcel — don't assume based on city alone. We always confirm this for buyers before they make an offer.",
+        text: "Note: small portions of Rochester Hills fall within the Avondale or Lake Orion school districts depending on the specific address. If school district boundaries matter to your search, verify the specific parcel, don't assume based on city alone. We always confirm this for buyers before they make an offer.",
       },
       {
         type: "h2",
@@ -1195,7 +1195,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Rochester Hills accesses M-59 and M-24 easily and connects north to Clarkston, south to Troy, and east to Macomb County. Commute times to downtown Detroit are longer than Troy — typically 35–50 minutes depending on route and time of day. For buyers whose employers are in the northern Oakland County corridor or Macomb, Rochester Hills can actually be more convenient.",
+        text: "Rochester Hills accesses M-59 and M-24 easily and connects north to Clarkston, south to Troy, and east to Macomb County. Commute times to downtown Detroit are longer than Troy, typically 35–50 minutes depending on route and time of day. For buyers whose employers are in the northern Oakland County corridor or Macomb, Rochester Hills can actually be more convenient.",
       },
       {
         type: "h2",
@@ -1203,7 +1203,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Rochester Hills has limited new construction — it's a largely built-out community, so new inventory is mostly infill or teardown-rebuild. Troy is similar. Buyers specifically seeking new construction communities are usually better served looking at Shelby Township, Macomb Township, Washington Township, or Northville/Plymouth.",
+        text: "Rochester Hills has limited new construction, it's a largely built-out community, so new inventory is mostly infill or teardown-rebuild. Troy is similar. Buyers specifically seeking new construction communities are usually better served looking at Shelby Township, Macomb Township, Washington Township, or Northville/Plymouth.",
       },
       {
         type: "h2",
@@ -1222,7 +1222,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "For most buyers, the right answer comes out of a single conversation about what matters most. If you've narrowed it to these two and want to see both in a single day, I can set that up — usually 3–4 homes in each market gives you a clear sense of the difference.",
+        text: "For most buyers, the right answer comes out of a single conversation about what matters most. If you've narrowed it to these two and want to see both in a single day, I can set that up, usually 3–4 homes in each market gives you a clear sense of the difference.",
       },
     ],
   },
@@ -1234,7 +1234,7 @@ export const posts: Post[] = [
     image: "/images/insights/cash-offer-right-for-you.jpg",
     imageAlt: "Person reviewing a cash offer letter at a kitchen table",
     excerpt:
-      "Cash offers are faster and simpler — but you'll typically net less. Here's when the trade-off makes sense, and when it doesn't.",
+      "Cash offers are faster and simpler, but you'll typically net less. Here's when the trade-off makes sense, and when it doesn't.",
     date: "2026-03-14",
     author: "Sarah",
     category: "Seller Tips",
@@ -1244,7 +1244,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "The pitch for cash offers is simple: skip the showings, skip the uncertainty, close in two weeks. That pitch works for some sellers. For others, it means leaving $30,000 to $60,000 on the table. The question isn't whether cash offers are good or bad — it's whether the trade-off makes sense for your specific situation.",
+        text: "The pitch for cash offers is simple: skip the showings, skip the uncertainty, close in two weeks. That pitch works for some sellers. For others, it means leaving $30,000 to $60,000 on the table. The question isn't whether cash offers are good or bad, it's whether the trade-off makes sense for your specific situation.",
       },
       {
         type: "h2",
@@ -1252,7 +1252,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Cash buyers — whether institutional buyers, local investors, or iBuyers — price in margin. They're not paying full market value. They're paying a price that allows for repairs, carrying costs, and profit. In Southeast Michigan, cash offer programs typically come in 10–20% below what the property would fetch on the open market with professional marketing and proper preparation.",
+        text: "Cash buyers: whether institutional buyers, local investors, or iBuyers, price in margin. They're not paying full market value. They're paying a price that allows for repairs, carrying costs, and profit. In Southeast Michigan, cash offer programs typically come in 10–20% below what the property would fetch on the open market with professional marketing and proper preparation.",
       },
       {
         type: "paragraph",
@@ -1266,8 +1266,8 @@ export const posts: Post[] = [
         type: "bullets",
         items: [
           "The property needs significant work you don't want to manage. A home that needs a new roof, foundation work, major updates, or a complete renovation is difficult to sell at full market value without investing first. If you don't have the capital or appetite for that work, a cash sale avoids it entirely.",
-          "You need to close fast and the timeline is non-negotiable. Job relocation in three weeks, a care facility deposit that's due, an estate that needs to settle quickly — these are real situations where the certainty of a cash close has genuine value.",
-          "The home has a title or legal issue that makes financing difficult. Certain properties — those with unpermitted additions, estate complications, or title defects — are hard to finance. Cash buyers take on that complexity.",
+          "You need to close fast and the timeline is non-negotiable. Job relocation in three weeks, a care facility deposit that's due, an estate that needs to settle quickly, these are real situations where the certainty of a cash close has genuine value.",
+          "The home has a title or legal issue that makes financing difficult. Certain properties: those with unpermitted additions, estate complications, or title defects, are hard to finance. Cash buyers take on that complexity.",
           "You're a tired landlord and want out with minimal friction. Managing a vacant or tenant-occupied property while going through a traditional sale is stressful. A cash sale ends the obligation.",
         ],
       },
@@ -1277,7 +1277,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "If your home is in reasonable condition, you have 30–60 days of flexibility, and you're not in financial distress — a traditional listing with professional marketing will almost always net you more money. The difference isn't marginal. In a market like Southeast Michigan, where buyer demand is real and properly priced homes move quickly, the premium for going to market is significant.",
+        text: "If your home is in reasonable condition, you have 30–60 days of flexibility, and you're not in financial distress, a traditional listing with professional marketing will almost always net you more money. The difference isn't marginal. In a market like Southeast Michigan, where buyer demand is real and properly priced homes move quickly, the premium for going to market is significant.",
       },
       {
         type: "callout",
@@ -1290,7 +1290,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "One approach that works well for sellers who are uncertain: list the home on the market for 2–3 weeks with a firm cash offer in hand as a fallback. If the market responds — and in Southeast Michigan, properly priced homes usually do — you capture the premium. If it doesn't, you have the certainty of the cash sale to fall back on.",
+        text: "One approach that works well for sellers who are uncertain: list the home on the market for 2–3 weeks with a firm cash offer in hand as a fallback. If the market responds, and in Southeast Michigan, properly priced homes usually do, you capture the premium. If it doesn't, you have the certainty of the cash sale to fall back on.",
       },
       {
         type: "paragraph",
@@ -1306,7 +1306,7 @@ export const posts: Post[] = [
     image: "/images/insights/brrrr-strategy.jpg",
     imageAlt: "Investment property being renovated with tools and materials",
     excerpt:
-      "Buy distressed, rehab, rent, refinance, repeat. Here's how the strategy actually works in Southeast Michigan — and where it breaks down.",
+      "Buy distressed, rehab, rent, refinance, repeat. Here's how the strategy actually works in Southeast Michigan, and where it breaks down.",
     date: "2026-03-05",
     author: "Brad",
     category: "Buyer Tips",
@@ -1316,7 +1316,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "The BRRRR strategy — Buy, Rehab, Rent, Refinance, Repeat — is one of the most discussed approaches in real estate investing. The theory is clean: buy a distressed property below market, force appreciation through rehab, rent it out, then pull your capital back out through a cash-out refinance based on the new after-repair value. Use that capital for the next deal.",
+        text: "The BRRRR strategy. Buy, Rehab, Rent, Refinance, Repeat, is one of the most discussed approaches in real estate investing. The theory is clean: buy a distressed property below market, force appreciation through rehab, rent it out, then pull your capital back out through a cash-out refinance based on the new after-repair value. Use that capital for the next deal.",
       },
       {
         type: "paragraph",
@@ -1328,7 +1328,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The BRRRR only works if you buy right. In Oakland and Macomb counties, the inventory of genuinely distressed, off-market properties is limited — and the competition for it is real. There are local wholesalers, out-of-state investors, and iBuyer-adjacent platforms all fishing in the same pond.",
+        text: "The BRRRR only works if you buy right. In Oakland and Macomb counties, the inventory of genuinely distressed, off-market properties is limited, and the competition for it is real. There are local wholesalers, out-of-state investors, and iBuyer-adjacent platforms all fishing in the same pond.",
       },
       {
         type: "paragraph",
@@ -1348,7 +1348,7 @@ export const posts: Post[] = [
           "Always get contractor bids before you close, not after. The surprise costs come from deferred structural issues, outdated electrical panels, galvanized plumbing, and roofs that looked okay until someone was actually on them.",
           "Budget a 15–20% contingency on every rehab. Something unexpected always comes up.",
           "Know the difference between cosmetic and structural rehab timelines. Cosmetic rehabs (paint, flooring, fixtures, kitchen refresh) can finish in 4–8 weeks. Structural work doubles or triples that.",
-          "Carrying costs accumulate during rehab — mortgage, insurance, property taxes, utilities. A 3-month rehab that becomes 6 months eats margin.",
+          "Carrying costs accumulate during rehab: mortgage, insurance, property taxes, utilities. A 3-month rehab that becomes 6 months eats margin.",
         ],
       },
       {
@@ -1381,12 +1381,12 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Here's the math on a simplified example: purchase $130K + rehab $40K = $170K all-in. ARV $240K. At 75% LTV, the refi loan is $180K. That covers your all-in cost and pulls $10K back out — not a full capital recycle, but you've deployed less than $10K of permanent capital into a cash-flowing rental. The deal works. If the ARV comes in at $210K instead of $240K, the math breaks down.",
+        text: "Here's the math on a simplified example: purchase $130K + rehab $40K = $170K all-in. ARV $240K. At 75% LTV, the refi loan is $180K. That covers your all-in cost and pulls $10K back out, not a full capital recycle, but you've deployed less than $10K of permanent capital into a cash-flowing rental. The deal works. If the ARV comes in at $210K instead of $240K, the math breaks down.",
       },
       {
         type: "callout",
         label: "The discipline required",
-        text: "BRRRR math is sensitive to the ARV. Deals that look good at a $240K ARV often don't work at $210K. Underwrite conservatively — use comparable sales that are actually comparable, not the best-case examples. And get the property under contract with inspection rights before you commit to a number.",
+        text: "BRRRR math is sensitive to the ARV. Deals that look good at a $240K ARV often don't work at $210K. Underwrite conservatively, use comparable sales that are actually comparable, not the best-case examples. And get the property under contract with inspection rights before you commit to a number.",
       },
       {
         type: "h2",
@@ -1394,7 +1394,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Selectively, yes. The entry prices in parts of Macomb County and northern Wayne County are low enough to make the math work in ways that coastal markets can't. Rental demand is steady. The rehab contractor ecosystem in Metro Detroit is mature — there are experienced crews who know what they're doing.",
+        text: "Selectively, yes. The entry prices in parts of Macomb County and northern Wayne County are low enough to make the math work in ways that coastal markets can't. Rental demand is steady. The rehab contractor ecosystem in Metro Detroit is mature, there are experienced crews who know what they're doing.",
       },
       {
         type: "paragraph",
@@ -1410,7 +1410,7 @@ export const posts: Post[] = [
     image: "/images/insights/downsizing.jpg",
     imageAlt: "Cozy smaller home with welcoming front porch",
     excerpt:
-      "The logistics of downsizing are more complex than most people expect — selling, buying, timing, and letting go of a home you've lived in for decades.",
+      "The logistics of downsizing are more complex than most people expect: selling, buying, timing, and letting go of a home you've lived in for decades.",
     date: "2026-02-28",
     author: "Sarah",
     category: "Seller Tips",
@@ -1420,7 +1420,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Downsizing is one of the most common and most emotionally layered moves we help clients make. The practical challenge is coordinating two transactions — selling a larger home and buying a smaller one — in a market where both sides of that equation have their own timing pressures. The emotional challenge is letting go of a home that holds decades of memory.",
+        text: "Downsizing is one of the most common and most emotionally layered moves we help clients make. The practical challenge is coordinating two transactions, selling a larger home and buying a smaller one, in a market where both sides of that equation have their own timing pressures. The emotional challenge is letting go of a home that holds decades of memory.",
       },
       {
         type: "paragraph",
@@ -1432,7 +1432,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Before you look at a single condo or ranch home, understand what your current home is worth and what you'll net after the sale. That number determines what you can realistically spend on the next home — and whether the downsize actually frees up the liquidity you're expecting.",
+        text: "Before you look at a single condo or ranch home, understand what your current home is worth and what you'll net after the sale. That number determines what you can realistically spend on the next home, and whether the downsize actually frees up the liquidity you're expecting.",
       },
       {
         type: "paragraph",
@@ -1465,7 +1465,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Condominiums are a strong option for downsizers who want to eliminate exterior maintenance — lawn, snow, exterior upkeep. Oakland County has a range of condo communities from entry-level maintenance-fee product up through luxury attached and detached condos in Birmingham, Bloomfield Hills, and Troy.",
+        text: "Condominiums are a strong option for downsizers who want to eliminate exterior maintenance: lawn, snow, exterior upkeep. Oakland County has a range of condo communities from entry-level maintenance-fee product up through luxury attached and detached condos in Birmingham, Bloomfield Hills, and Troy.",
       },
       {
         type: "h2",
@@ -1478,7 +1478,7 @@ export const posts: Post[] = [
       {
         type: "callout",
         label: "What I've observed",
-        text: "The clients who navigate this best are the ones who've decided the move is right for them — and then let the data drive the real estate decisions. The attachment to the home is real and valid. Separating it from the pricing and timing decisions is what keeps the transaction on track.",
+        text: "The clients who navigate this best are the ones who've decided the move is right for them, and then let the data drive the real estate decisions. The attachment to the home is real and valid. Separating it from the pricing and timing decisions is what keeps the transaction on track.",
       },
       {
         type: "h2",
@@ -1486,7 +1486,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "A walkthrough of your current home and a conversation about what you're looking for on the other side — that's where this starts. We'll give you a current market value assessment, walk through your net proceeds at different price points, and help you understand what the timing looks like in today's market. That conversation typically takes an hour and answers most of the questions that have been sitting unresolved.",
+        text: "A walkthrough of your current home and a conversation about what you're looking for on the other side, that's where this starts. We'll give you a current market value assessment, walk through your net proceeds at different price points, and help you understand what the timing looks like in today's market. That conversation typically takes an hour and answers most of the questions that have been sitting unresolved.",
       },
     ],
   },
@@ -1498,7 +1498,7 @@ export const posts: Post[] = [
     image: "/images/insights/home-inspection-michigan.jpg",
     imageAlt: "Home inspector examining a property exterior",
     excerpt:
-      "Most buyers think a home inspection is a pass/fail test. It isn't — and misunderstanding what inspectors find (and don't find) leads to expensive surprises.",
+      "Most buyers think a home inspection is a pass/fail test. It isn't, and misunderstanding what inspectors find (and don't find) leads to expensive surprises.",
     date: "2026-02-18",
     author: "Brad",
     category: "Buyer Tips",
@@ -1508,7 +1508,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Home inspections are one of the most misunderstood parts of the buying process. Buyers treat them like a seal of approval. They're not. A home inspection is a visual assessment of accessible systems and components by a licensed professional — not a guarantee that the home is defect-free, and not a structural engineering report. Here's what it actually covers and what to do with the results.",
+        text: "Home inspections are one of the most misunderstood parts of the buying process. Buyers treat them like a seal of approval. They're not. A home inspection is a visual assessment of accessible systems and components by a licensed professional, not a guarantee that the home is defect-free, and not a structural engineering report. Here's what it actually covers and what to do with the results.",
       },
       {
         type: "h2",
@@ -1521,11 +1521,11 @@ export const posts: Post[] = [
       {
         type: "bullets",
         items: [
-          "Roof: visible condition, flashing, gutters, and drainage — from the ground or with a ladder, not always walked",
+          "Roof: visible condition, flashing, gutters, and drainage, from the ground or with a ladder, not always walked",
           "Foundation and structure: visible foundation walls, basement or crawlspace, framing elements that are accessible",
           "Electrical: panel condition, visible wiring, outlets, GFCI protection, grounding",
           "Plumbing: supply and drain lines, water heater, fixtures, visible pipe condition",
-          "HVAC: furnace, air conditioning, ductwork, filters — operational test at the time of inspection",
+          "HVAC: furnace, air conditioning, ductwork, filters, operational test at the time of inspection",
           "Insulation and ventilation: attic and crawlspace where accessible",
           "Windows and doors: operation, seals, visible damage",
           "Exterior: siding, grading, visible drainage, porches and decks",
@@ -1543,7 +1543,7 @@ export const posts: Post[] = [
         type: "bullets",
         items: [
           "Behind walls, under flooring, or inside inaccessible spaces",
-          "Sewer line condition (requires a separate sewer scope — highly recommended on homes over 20 years old)",
+          "Sewer line condition (requires a separate sewer scope, highly recommended on homes over 20 years old)",
           "Radon levels (separate test, ~$150, worth doing in Michigan where radon is common)",
           "Mold assessment beyond visual observation of moisture staining",
           "Chimney interior condition (separate chimney inspection if the home has a fireplace)",
@@ -1562,7 +1562,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "A typical inspection report for a 30-year-old Michigan home will have 30–60 items flagged. Most of them are not deal-killers. Inspectors are trained to document everything — deferred caulk, minor grading issues, an outlet that needs a cover. Don't panic at the number of items.",
+        text: "A typical inspection report for a 30-year-old Michigan home will have 30–60 items flagged. Most of them are not deal-killers. Inspectors are trained to document everything: deferred caulk, minor grading issues, an outlet that needs a cover. Don't panic at the number of items.",
       },
       {
         type: "paragraph",
@@ -1574,7 +1574,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "In Michigan, the standard purchase agreement gives buyers an inspection contingency period — typically 10 days from acceptance. Within that window, you can request repairs, ask for a price reduction, or walk away. Here's how I advise buyers to handle it:",
+        text: "In Michigan, the standard purchase agreement gives buyers an inspection contingency period, typically 10 days from acceptance. Within that window, you can request repairs, ask for a price reduction, or walk away. Here's how I advise buyers to handle it:",
       },
       {
         type: "two-col",
@@ -1605,7 +1605,7 @@ export const posts: Post[] = [
     image: "/images/insights/may-2026-market-pulse.jpg",
     imageAlt: "Aerial view of a residential neighborhood with tree-lined streets",
     excerpt:
-      "Southeast Michigan just landed on multiple national hottest-markets lists. Here's what that means locally — and whether the hype matches reality on the ground.",
+      "Southeast Michigan just landed on multiple national hottest-markets lists. Here's what that means locally, and whether the hype matches reality on the ground.",
     date: "2026-05-11",
     author: "Sarah",
     category: "Market Update",
@@ -1615,7 +1615,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "Something shifted in the national conversation this month. Fortune and Redfin both published their 2026 hottest-neighborhood rankings — and Michigan showed up twice in the top 10. Locally, the Detroit News ran its own analysis putting Livonia and Troy at the top of the state. Southeast Michigan is getting attention it hasn't had in years.",
+        text: "Something shifted in the national conversation this month. Fortune and Redfin both published their 2026 hottest-neighborhood rankings, and Michigan showed up twice in the top 10. Locally, the Detroit News ran its own analysis putting Livonia and Troy at the top of the state. Southeast Michigan is getting attention it hasn't had in years.",
       },
       {
         type: "paragraph",
@@ -1647,7 +1647,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Mortgage rates have been stubbornly range-bound since late winter — hovering between 6.25% and 6.45% on a 30-year fixed depending on the lender and borrower profile. The rate relief that some buyers were hoping for by spring hasn't materialized. That's keeping transaction volume lower than it would be otherwise, but it's not stopping motivated buyers from acting.",
+        text: "Mortgage rates have been stubbornly range-bound since late winter, hovering between 6.25% and 6.45% on a 30-year fixed depending on the lender and borrower profile. The rate relief that some buyers were hoping for by spring hasn't materialized. That's keeping transaction volume lower than it would be otherwise, but it's not stopping motivated buyers from acting.",
       },
       {
         type: "h2",
@@ -1655,12 +1655,12 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Active listings across Metro Detroit are up roughly 13–17% year-over-year depending on the submarket. That sounds like good news for buyers — more to choose from. But the increase isn't driven by a wave of new listings hitting the market. It's driven by homes sitting longer. The listings that are priced right and well-prepared are still moving in under three weeks. The ones that aren't are accumulating.",
+        text: "Active listings across Metro Detroit are up roughly 13–17% year-over-year depending on the submarket. That sounds like good news for buyers, more to choose from. But the increase isn't driven by a wave of new listings hitting the market. It's driven by homes sitting longer. The listings that are priced right and well-prepared are still moving in under three weeks. The ones that aren't are accumulating.",
       },
       {
         type: "callout",
         label: "The split market",
-        text: "This is the defining feature of spring 2026 in Southeast Michigan. There is no single market. There is a fast market for well-priced, well-prepared homes — and a slow market for everything else. The gap between the two is wider than it was a year ago.",
+        text: "This is the defining feature of spring 2026 in Southeast Michigan. There is no single market. There is a fast market for well-priced, well-prepared homes, and a slow market for everything else. The gap between the two is wider than it was a year ago.",
       },
       {
         type: "h2",
@@ -1672,7 +1672,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The sub-$450K single-family market in Oakland County remains the most competitive segment in Southeast Michigan. Troy, Livonia, and Rochester Hills are seeing homes go under contract within two weeks when priced accurately. Above $600K, buyers have leverage they didn't have last year — especially in Bloomfield and parts of West Bloomfield where luxury inventory has been building.",
+        text: "The sub-$450K single-family market in Oakland County remains the most competitive segment in Southeast Michigan. Troy, Livonia, and Rochester Hills are seeing homes go under contract within two weeks when priced accurately. Above $600K, buyers have leverage they didn't have last year, especially in Bloomfield and parts of West Bloomfield where luxury inventory has been building.",
       },
       {
         type: "h3",
@@ -1680,7 +1680,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Shelby Township and Clinton Township continue to attract buyers who've been priced out of Oakland County. Macomb County's price appreciation has been quietly strong — up nearly 5% year-over-year in some pockets — and the demand from move-up buyers and first-time buyers is real. New construction activity in Washington Township and northern Macomb is adding inventory, but it's getting absorbed.",
+        text: "Shelby Township and Clinton Township continue to attract buyers who've been priced out of Oakland County. Macomb County's price appreciation has been quietly strong, up nearly 5% year-over-year in some pockets, and the demand from move-up buyers and first-time buyers is real. New construction activity in Washington Township and northern Macomb is adding inventory, but it's getting absorbed.",
       },
       {
         type: "h3",
@@ -1692,7 +1692,7 @@ export const posts: Post[] = [
       },
       {
         type: "h2",
-        text: "For Sellers: The Window Is Open — Use It Well",
+        text: "For Sellers: The Window Is Open. Use It Well",
       },
       {
         type: "paragraph",
@@ -1702,7 +1702,7 @@ export const posts: Post[] = [
         type: "bullets",
         items: [
           "Price with current data. The homes sitting longest this spring are the ones priced based on what the neighbor got six months ago rather than what comparable homes are closing at now.",
-          "Invest in presentation. Professional photography, decluttering, and handling deferred maintenance before listing — not after the first price reduction.",
+          "Invest in presentation. Professional photography, decluttering, and handling deferred maintenance before listing, not after the first price reduction.",
           "Expect negotiation above $500K. Buyers at the upper end of the market have options and are using them. The days of multiple offers on every luxury listing are over for now.",
         ],
       },
@@ -1717,7 +1717,7 @@ export const posts: Post[] = [
       {
         type: "bullets",
         items: [
-          "Get fully underwritten before you start. In a multiple-offer situation at $350K in Troy, a pre-approval letter isn't enough — a fully underwritten approval signals certainty.",
+          "Get fully underwritten before you start. In a multiple-offer situation at $350K in Troy, a pre-approval letter isn't enough, a fully underwritten approval signals certainty.",
           "Don't sleep on Macomb County. The value-to-quality ratio in Shelby Township, Macomb Township, and even Sterling Heights is hard to beat.",
           "Move on the right house. Inventory is up, but the good inventory still goes fast. The increase in active listings is not an invitation to wait.",
         ],
@@ -1728,7 +1728,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Southeast Michigan getting national attention isn't hype — the fundamentals support it. Prices are appreciating at a healthy pace. Inventory is tight but workable. Employment is stable. And the cost of entry is still dramatically lower than comparable markets nationally. Whether you're buying, selling, or thinking about it for later this year, the May picture is clear: the market rewards preparation and punishes delay.",
+        text: "Southeast Michigan getting national attention isn't hype, the fundamentals support it. Prices are appreciating at a healthy pace. Inventory is tight but workable. Employment is stable. And the cost of entry is still dramatically lower than comparable markets nationally. Whether you're buying, selling, or thinking about it for later this year, the May picture is clear: the market rewards preparation and punishes delay.",
       },
     ],
   },
@@ -1853,7 +1853,7 @@ export const posts: Post[] = [
 
   {
     slug: "michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know",
-    title: "Michigan's SB 971 Could Cap Out-of-State Investors at 10 Homes — What It Means for You",
+    title: "Michigan's SB 971 Could Cap Out-of-State Investors at 10 Homes. What It Means for You",
     image: "/images/insights/sb-971-investor-cap.jpg",
     imageAlt: "Residential street in Southeast Michigan with for sale sign",
     excerpt:
@@ -1867,7 +1867,7 @@ export const posts: Post[] = [
     content: [
       {
         type: "paragraph",
-        text: "If you've been on TikTok or Instagram this month, you've probably seen it: creators and local housing advocates are buzzing about a Michigan bill that would cap how many single-family homes out-of-state investment groups can own in the state. The bill is Senate Bill 971, introduced by Senator Veronica Klinefelt (D-Eastpointe), and the core idea is simple — if you're an out-of-state investment entity, you cannot own more than 10 single-family homes in Michigan.",
+        text: "If you've been on TikTok or Instagram this month, you've probably seen it: creators and local housing advocates are buzzing about a Michigan bill that would cap how many single-family homes out-of-state investment groups can own in the state. The bill is Senate Bill 971, introduced by Senator Veronica Klinefelt (D-Eastpointe), and the core idea is simple, if you're an out-of-state investment entity, you cannot own more than 10 single-family homes in Michigan.",
       },
       {
         type: "paragraph",
@@ -1879,7 +1879,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "SB 971 was introduced on May 14, 2026, as part of a broader package of housing affordability legislation from Michigan Senate Democrats. The bill targets out-of-state investment groups specifically — not individual investors, not local landlords, not Michigan-based companies. The proposed cap is 10 single-family homes per entity.",
+        text: "SB 971 was introduced on May 14, 2026, as part of a broader package of housing affordability legislation from Michigan Senate Democrats. The bill targets out-of-state investment groups specifically, not individual investors, not local landlords, not Michigan-based companies. The proposed cap is 10 single-family homes per entity.",
       },
       {
         type: "paragraph",
@@ -1900,7 +1900,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The House passed its own version in May 2026, though it takes a softer approach — dropping the outright ban in favor of other mechanisms. The two chambers will need to reconcile the differences before anything reaches the president's desk.",
+        text: "The House passed its own version in May 2026, though it takes a softer approach, dropping the outright ban in favor of other mechanisms. The two chambers will need to reconcile the differences before anything reaches the president's desk.",
       },
       {
         type: "paragraph",
@@ -1912,11 +1912,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Nationally, institutional investors (entities owning 100+ homes) account for a relatively small share of total home purchases — roughly 1-2% of transactions. But the impact is not evenly distributed. Sun Belt markets like Atlanta and Jacksonville have seen institutional ownership reach 18-25% of single-family rentals. The Midwest has been less affected overall, but Metro Detroit's affordability has made it increasingly attractive to out-of-state capital.",
+        text: "Nationally, institutional investors (entities owning 100+ homes) account for a relatively small share of total home purchases, roughly 1-2% of transactions. But the impact is not evenly distributed. Sun Belt markets like Atlanta and Jacksonville have seen institutional ownership reach 18-25% of single-family rentals. The Midwest has been less affected overall, but Metro Detroit's affordability has made it increasingly attractive to out-of-state capital.",
       },
       {
         type: "paragraph",
-        text: "Here's what we see on the ground: in Wayne and Macomb counties specifically, cash offers from entities with no local presence have become more common in the sub-$300,000 price range over the past two years. These aren't always massive institutional players — some are mid-sized out-of-state firms running portfolios of 50-200 homes across multiple states. But the effect on a first-time buyer trying to purchase a starter home in Warren or Clinton Township is the same: they lose.",
+        text: "Here's what we see on the ground: in Wayne and Macomb counties specifically, cash offers from entities with no local presence have become more common in the sub-$300,000 price range over the past two years. These aren't always massive institutional players, some are mid-sized out-of-state firms running portfolios of 50-200 homes across multiple states. But the effect on a first-time buyer trying to purchase a starter home in Warren or Clinton Township is the same: they lose.",
       },
       {
         type: "h2",
@@ -1924,14 +1924,14 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "If SB 971 passes, it would reduce one category of competition in the market — particularly at the entry-level price points where institutional interest is highest. That's meaningful. But it's not a silver bullet.",
+        text: "If SB 971 passes, it would reduce one category of competition in the market, particularly at the entry-level price points where institutional interest is highest. That's meaningful. But it's not a silver bullet.",
       },
       {
         type: "bullets",
         items: [
           "The bill targets out-of-state groups only. Michigan-based investors and individual landlords are unaffected.",
           "It does not address the core supply problem. Southeast Michigan still needs more housing built, period.",
-          "It will not lower home prices on its own. Prices are driven by supply, demand, rates, and local employment — not just investor activity.",
+          "It will not lower home prices on its own. Prices are driven by supply, demand, rates, and local employment, not just investor activity.",
           "It could reduce the frequency of all-cash, no-inspection offers in certain price brackets, which would give financed buyers a better shot.",
         ],
       },
@@ -1945,7 +1945,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "If you're selling, the concern is obvious: does limiting investor buyers reduce your pool of potential offers? The honest answer is yes, marginally — but that's not the whole story.",
+        text: "If you're selling, the concern is obvious: does limiting investor buyers reduce your pool of potential offers? The honest answer is yes, marginally, but that's not the whole story.",
       },
       {
         type: "paragraph",
@@ -1954,7 +1954,7 @@ export const posts: Post[] = [
       {
         type: "callout",
         label: "For Sellers",
-        text: "A well-marketed home priced correctly will attract strong offers regardless of this legislation. The fundamentals of selling well — preparation, pricing, and professional marketing — matter far more than who is in your buyer pool.",
+        text: "A well-marketed home priced correctly will attract strong offers regardless of this legislation. The fundamentals of selling well: preparation, pricing, and professional marketing, matter far more than who is in your buyer pool.",
       },
       {
         type: "h2",
@@ -1966,7 +1966,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "We'll be watching this closely and will update this article as the bill progresses. For now, the takeaway is that the political momentum — at both the state and federal level — is clearly moving toward restricting institutional ownership of single-family homes. Whether that becomes law in Michigan this session or next, the direction is set.",
+        text: "We'll be watching this closely and will update this article as the bill progresses. For now, the takeaway is that the political momentum, at both the state and federal level, is clearly moving toward restricting institutional ownership of single-family homes. Whether that becomes law in Michigan this session or next, the direction is set.",
       },
       {
         type: "h2",
@@ -1974,7 +1974,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "SB 971 is a real bill with real momentum, not just a TikTok talking point. It won't fix housing affordability on its own, but it addresses a genuine frustration that Michigan buyers — especially first-time buyers in the $200K-$300K range — feel every week. Whether you're buying or selling, the fundamentals haven't changed: work with someone who knows the local market, understands the competitive landscape, and can help you navigate whatever rules are in play.",
+        text: "SB 971 is a real bill with real momentum, not just a TikTok talking point. It won't fix housing affordability on its own, but it addresses a genuine frustration that Michigan buyers, especially first-time buyers in the $200K-$300K range, feel every week. Whether you're buying or selling, the fundamentals haven't changed: work with someone who knows the local market, understands the competitive landscape, and can help you navigate whatever rules are in play.",
       },
       {
         type: "bullets",
@@ -2007,11 +2007,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "It's not dead. But it does require a different strategy than it did in 2019 when rates were in the 3s and nobody was talking about insurance costs. The buyers who are actually closing in Southeast Michigan right now aren't lucky — they're informed. They know what programs exist, they know how to stack them, and they have someone in their corner who's done it before.",
+        text: "It's not dead. But it does require a different strategy than it did in 2019 when rates were in the 3s and nobody was talking about insurance costs. The buyers who are actually closing in Southeast Michigan right now aren't lucky, they're informed. They know what programs exist, they know how to stack them, and they have someone in their corner who's done it before.",
       },
       {
         type: "paragraph",
-        text: "This article breaks down every financial lever available to Michigan homebuyers right now — grants, loan programs, rate strategies, and insurance realities. No fluff. Just the math.",
+        text: "This article breaks down every financial lever available to Michigan homebuyers right now: grants, loan programs, rate strategies, and insurance realities. No fluff. Just the math.",
       },
       {
         type: "h2",
@@ -2023,7 +2023,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Here's what I tell every buyer who walks into my office worried about rates: your grandparents bought their house at 8-12%. The average 30-year rate over the last 50 years is about 7.7%. We're below the historical average. What changed isn't the rate — it's the price of the house relative to wages, and that's exactly where grants and assistance programs become your leverage.",
+        text: "Here's what I tell every buyer who walks into my office worried about rates: your grandparents bought their house at 8-12%. The average 30-year rate over the last 50 years is about 7.7%. We're below the historical average. What changed isn't the rate, it's the price of the house relative to wages, and that's exactly where grants and assistance programs become your leverage.",
       },
       {
         type: "stat-row",
@@ -2052,7 +2052,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The Michigan State Housing Development Authority offers up to $7,500 in down payment assistance statewide, and up to $10,000 in targeted zip codes. This is a zero-interest, zero-monthly-payment loan that you only pay back when you sell, refinance, or pay off your mortgage. It stacks on top of FHA, conventional, VA, or USDA loans. You need a 640+ credit score and your household income must be under the county limit — roughly $95,000 to $121,000 depending on where you're buying.",
+        text: "The Michigan State Housing Development Authority offers up to $7,500 in down payment assistance statewide, and up to $10,000 in targeted zip codes. This is a zero-interest, zero-monthly-payment loan that you only pay back when you sell, refinance, or pay off your mortgage. It stacks on top of FHA, conventional, VA, or USDA loans. You need a 640+ credit score and your household income must be under the county limit: roughly $95,000 to $121,000 depending on where you're buying.",
       },
       {
         type: "h3",
@@ -2068,7 +2068,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Here's one that surprises people: 97% of Michigan is USDA-eligible. That means zero down payment required. You don't have to be buying a farm — plenty of suburban and small-town communities in Livingston County, northern Macomb County, and western Oakland County qualify. Income limits are generous too: $119,850 for a family of 1-4 in 2026. If you're buying outside the major metro cores, this should be your first conversation with a lender.",
+        text: "Here's one that surprises people: 97% of Michigan is USDA-eligible. That means zero down payment required. You don't have to be buying a farm, plenty of suburban and small-town communities in Livingston County, northern Macomb County, and western Oakland County qualify. Income limits are generous too: $119,850 for a family of 1-4 in 2026. If you're buying outside the major metro cores, this should be your first conversation with a lender.",
       },
       {
         type: "h3",
@@ -2097,7 +2097,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Here's the number that's quietly changing the affordability math: Michigan home insurance premiums increased 21.6% between 2024 and 2025, and projections show another 3-8% increase in 2026. The average Michigan homeowner is now paying roughly $2,200 per year — about $183/month — just for insurance.",
+        text: "Here's the number that's quietly changing the affordability math: Michigan home insurance premiums increased 21.6% between 2024 and 2025, and projections show another 3-8% increase in 2026. The average Michigan homeowner is now paying roughly $2,200 per year, about $183/month, just for insurance.",
       },
       {
         type: "paragraph",
@@ -2106,7 +2106,7 @@ export const posts: Post[] = [
       {
         type: "bullets",
         items: [
-          "Get insurance quotes before you make an offer — not after. Your agent should help you factor this into your budget from day one.",
+          "Get insurance quotes before you make an offer, not after. Your agent should help you factor this into your budget from day one.",
           "Bundle your auto and home insurance. In Michigan, bundling typically saves 15-25%.",
           "Ask about wind/hail deductible options. A higher deductible on weather-related claims can meaningfully reduce your premium.",
           "Newer homes and updated roofs get significantly better rates. Factor this into which homes you're targeting.",
@@ -2118,7 +2118,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Let's run real numbers on a $270,000 home in Macomb County — right at the county median — for a first-time buyer with a 680 credit score and $65,000 household income.",
+        text: "Let's run real numbers on a $270,000 home in Macomb County, right at the county median, for a first-time buyer with a 680 credit score and $65,000 household income.",
       },
       {
         type: "stat-row",
@@ -2130,7 +2130,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "With MSHDA's DPA covering most of the down payment, this buyer needs roughly $2,700 of their own money plus closing costs — which can often be negotiated as seller concessions in the current market. Add a seller-paid 2-1 rate buydown and the first-year monthly payment drops by $300-400 compared to the sticker rate. That's the difference between 'I can't afford it' and 'I'm moving in next month.'",
+        text: "With MSHDA's DPA covering most of the down payment, this buyer needs roughly $2,700 of their own money plus closing costs, which can often be negotiated as seller concessions in the current market. Add a seller-paid 2-1 rate buydown and the first-year monthly payment drops by $300-400 compared to the sticker rate. That's the difference between 'I can't afford it' and 'I'm moving in next month.'",
       },
       {
         type: "h2",
@@ -2138,11 +2138,11 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Here's something the TikTok finance creators don't always mention: knowing these programs isn't just about affording the home. It's about winning the offer. When I write an offer for a buyer using MSHDA or a similar program, I make sure the offer is structured so the seller sees strength, not complexity. Pre-approval with DPA already confirmed. Clean terms. Fast close timeline. The seller doesn't care where your down payment comes from — they care that you can close.",
+        text: "Here's something the TikTok finance creators don't always mention: knowing these programs isn't just about affording the home. It's about winning the offer. When I write an offer for a buyer using MSHDA or a similar program, I make sure the offer is structured so the seller sees strength, not complexity. Pre-approval with DPA already confirmed. Clean terms. Fast close timeline. The seller doesn't care where your down payment comes from, they care that you can close.",
       },
       {
         type: "paragraph",
-        text: "I've personally closed deals in Macomb and Wayne counties where my buyer was using full DPA and beat out a conventional offer because we presented it better. The program doesn't make you a weaker buyer — bad preparation makes you a weaker buyer.",
+        text: "I've personally closed deals in Macomb and Wayne counties where my buyer was using full DPA and beat out a conventional offer because we presented it better. The program doesn't make you a weaker buyer, bad preparation makes you a weaker buyer.",
       },
       {
         type: "h2",
@@ -2155,11 +2155,11 @@ export const posts: Post[] = [
       {
         type: "bullets",
         items: [
-          "Check your grant eligibility in 2 minutes — free, instant results at thepatrickgrp.com/grants",
+          "Check your grant eligibility in 2 minutes, free, instant results at thepatrickgrp.com/grants",
           "Get pre-approved with an MSHDA-approved lender. We have a list of trusted local lenders we work with regularly.",
           "Get insurance quotes early. Know your real monthly cost before you start touring homes.",
-          "Join our VIP Coming Soon list to see homes before they hit Zillow — thepatrickgrp.com/vip-buyers",
-          "Call us at 248.755.3545 — a 15-minute conversation about your situation costs nothing and could save you thousands.",
+          "Join our VIP Coming Soon list to see homes before they hit Zillow, thepatrickgrp.com/vip-buyers",
+          "Call us at 248.755.3545, a 15-minute conversation about your situation costs nothing and could save you thousands.",
         ],
       },
       {

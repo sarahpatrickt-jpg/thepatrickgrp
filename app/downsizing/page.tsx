@@ -25,7 +25,7 @@ const whatWeHandle = [
   },
   {
     title: "Equity Maximization on Your Current Home",
-    desc: "Your existing home is likely your largest asset. Our full marketing toolkit — professional photography, 300-agent preview, 15-platform syndication — ensures you extract every dollar of equity you've built.",
+    desc: "Your existing home is likely your largest asset. Our full marketing toolkit: professional photography, 300-agent preview, 15-platform syndication, ensures you extract every dollar of equity you've built.",
   },
   {
     title: "Coordinated Buy-Sell Timing",
@@ -33,11 +33,11 @@ const whatWeHandle = [
   },
   {
     title: "Understanding What You Actually Need",
-    desc: "Downsizing isn't always about square footage. We help you think through what you use, what matters, and what you can let go of — before you start looking at listings.",
+    desc: "Downsizing isn't always about square footage. We help you think through what you use, what matters, and what you can let go of, before you start looking at listings.",
   },
   {
     title: "Navigating the Emotional Side",
-    desc: "Leaving a family home is hard. We don't pretend otherwise. We work at your pace, respect your process, and make sure you feel confident at every step — not rushed.",
+    desc: "Leaving a family home is hard. We don't pretend otherwise. We work at your pace, respect your process, and make sure you feel confident at every step, not rushed.",
   },
   {
     title: "Condo, Ranch, and 55+ Community Expertise",
@@ -52,7 +52,7 @@ const downsizingProcess = [
   },
   {
     title: "Honest Assessment of Your Current Home's Value",
-    desc: "Before you make any decisions, you need to know exactly what you're working with. We provide a documented comparative market analysis — not a Zestimate.",
+    desc: "Before you make any decisions, you need to know exactly what you're working with. We provide a documented comparative market analysis, not a Zestimate.",
   },
   {
     title: "Build Your Target Profile",
@@ -71,18 +71,18 @@ const downsizingProcess = [
 const faqs = [
   {
     q: "Should I sell my current home before buying a smaller one?",
-    a: "It depends on your financial position, the current market, and your risk tolerance. In a competitive market, buyers with contingencies can struggle — but buying before selling carries its own risks. We'll walk through your specific situation and help you decide which sequence makes the most sense.",
+    a: "It depends on your financial position, the current market, and your risk tolerance. In a competitive market, buyers with contingencies can struggle, but buying before selling carries its own risks. We'll walk through your specific situation and help you decide which sequence makes the most sense.",
   },
   {
     q: "How do I know if downsizing actually makes financial sense?",
-    a: "For most Southeast Michigan homeowners who have held their property for 5+ years, the equity available makes downsizing not just emotionally freeing but financially significant. We'll model out what you'd net from your sale and what you'd spend on a smaller home — so you see the real numbers before you commit.",
+    a: "For most Southeast Michigan homeowners who have held their property for 5+ years, the equity available makes downsizing not just emotionally freeing but financially significant. We'll model out what you'd net from your sale and what you'd spend on a smaller home, so you see the real numbers before you commit.",
   },
   {
     q: "We've lived here 25 years. I don't know where to start.",
     a: "We hear this often. The best starting point is a conversation, not a commitment. We'll walk through your current home, talk through what you want in the next one, and build a plan at a pace that works for you. There's no pressure and no timeline except yours.",
   },
   {
-    q: "What's the difference between a condo and a ranch — which is better for downsizing?",
+    q: "What's the difference between a condo and a ranch, which is better for downsizing?",
     a: "It depends on what you value. Condos eliminate exterior maintenance and often offer community amenities, but come with HOA fees and rules. Ranches give you more autonomy, a yard, and privacy, but you're responsible for upkeep. We'll help you understand what each option looks like in Southeast Michigan's market and which type fits your lifestyle best.",
   },
   {
@@ -102,7 +102,7 @@ const downsizingChecklist = [
   },
   {
     title: "Choose Your Property Type",
-    desc: "Condo, ranch, townhome, or 55+ community — each has different costs, maintenance obligations, and lifestyle tradeoffs. HOA fees, special assessments, and resale restrictions all factor in.",
+    desc: "Condo, ranch, townhome, or 55+ community, each has different costs, maintenance obligations, and lifestyle tradeoffs. HOA fees, special assessments, and resale restrictions all factor in.",
   },
   {
     title: "Research Target Neighborhoods",
@@ -114,7 +114,7 @@ const downsizingChecklist = [
   },
   {
     title: "Review Your Financial Picture",
-    desc: "Talk to a lender about your options — even if you plan to buy with cash from your sale proceeds. Bridge loans, HELOCs, and contingency strategies exist if you need to buy before selling.",
+    desc: "Talk to a lender about your options, even if you plan to buy with cash from your sale proceeds. Bridge loans, HELOCs, and contingency strategies exist if you need to buy before selling.",
   },
   {
     title: "Start Decluttering Early",
@@ -122,7 +122,7 @@ const downsizingChecklist = [
   },
   {
     title: "Prepare Your Current Home for Sale",
-    desc: "Invest in the improvements that matter: cleaning, painting, and staging. Your agent should tell you what buyers in your price range expect — and what's not worth doing.",
+    desc: "Invest in the improvements that matter: cleaning, painting, and staging. Your agent should tell you what buyers in your price range expect, and what's not worth doing.",
   },
   {
     title: "List and Show Your Home",
@@ -151,7 +151,7 @@ export default function DownsizingPage() {
             Moving to a smaller home is a life transition, not just a
             transaction. The equity you&apos;ve built, the memories in those
             walls, and the logistics of coordinating a sale and a purchase
-            at the same time — it&apos;s a lot. We&apos;ve guided clients through
+            at the same time, it&apos;s a lot. We&apos;ve guided clients through
             this before, and we know how to make it manageable.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-white/60 mb-8">
@@ -200,7 +200,7 @@ export default function DownsizingPage() {
                 temporary housing.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                We handle both sides — the emotional and the transactional —
+                We handle both sides, the emotional and the transactional 
                 with patience, honesty, and a clear process. You don&apos;t have
                 to figure this out alone.
               </p>
@@ -212,7 +212,7 @@ export default function DownsizingPage() {
                 </p>
                 <p className="text-[#1a1a1a] font-medium text-base mb-3">
                   &ldquo;Sarah and Brad helped us find our HOME. They are amazing
-                  to work with — fun, knowledgeable and easy. I will work with
+                  to work with, fun, knowledgeable and easy. I will work with
                   them again.&rdquo;
                 </p>
                 <p className="text-sm text-gray-500">Tracey Williams · Buyer</p>
@@ -300,7 +300,7 @@ export default function DownsizingPage() {
             </h2>
             <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
               Downsizing is a major life transition. This checklist covers the decisions most
-              Southeast Michigan homeowners need to make — in roughly the order they come up.
+              Southeast Michigan homeowners need to make, in roughly the order they come up.
             </p>
           </div>
 
@@ -331,7 +331,7 @@ export default function DownsizingPage() {
               <Link href="/home-valuation" className="text-[#c70000] font-semibold hover:underline">
                 free home valuation
               </Link>{" "}
-              — it takes 15 minutes and gives you the real numbers to plan around.
+, it takes 15 minutes and gives you the real numbers to plan around.
             </p>
           </div>
         </div>
@@ -442,7 +442,7 @@ export default function DownsizingPage() {
         </h2>
         <p className="text-white/80 mb-6 text-sm max-w-md mx-auto">
           Start with a free home valuation. It takes 15 minutes and gives you
-          the real numbers — so you can decide from a position of clarity,
+          the real numbers, so you can decide from a position of clarity,
           not guesswork.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -490,7 +490,7 @@ export default function DownsizingPage() {
             "@type": "HowTo",
             name: "Southeast Michigan Downsizing Checklist",
             description:
-              "Downsizing is a major life transition. This checklist covers the decisions most Southeast Michigan homeowners need to make — in roughly the order they come up.",
+              "Downsizing is a major life transition. This checklist covers the decisions most Southeast Michigan homeowners need to make, in roughly the order they come up.",
             step: downsizingChecklist.map((s, i) => ({
               "@type": "HowToStep",
               position: i + 1,

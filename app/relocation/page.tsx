@@ -64,11 +64,11 @@ const relocatorProcess = [
   },
   {
     title: "Custom Neighborhood Matching",
-    desc: "Based on your commute, schools, lifestyle, and price range, we'll identify 3-5 neighborhoods worth serious consideration — with honest trade-offs for each.",
+    desc: "Based on your commute, schools, lifestyle, and price range, we'll identify 3-5 neighborhoods worth serious consideration, with honest trade-offs for each.",
   },
   {
     title: "Virtual Tours + Video Walk-Throughs",
-    desc: "Can't visit yet? We'll FaceTime you through homes, give you our honest take on condition, street, and neighborhood — not just what's in the listing.",
+    desc: "Can't visit yet? We'll FaceTime you through homes, give you our honest take on condition, street, and neighborhood, not just what's in the listing.",
   },
   {
     title: "Visit Trip Planning",
@@ -83,11 +83,11 @@ const relocatorProcess = [
 const faqs = [
   {
     q: "What are the most popular Oakland County cities for out-of-state buyers?",
-    a: "Rochester Hills, Clarkston, and Troy consistently rank as top choices for those relocating to Michigan. Rochester Hills offers walkable community features and easy freeway access. Clarkston features a historic downtown and a small-town feel. Troy offers strong employment access and a diverse housing stock. We'll help you narrow down your search based on your specific priorities — including commute times, school district boundaries, price point, and lifestyle preferences.",
+    a: "Rochester Hills, Clarkston, and Troy consistently rank as top choices for those relocating to Michigan. Rochester Hills offers walkable community features and easy freeway access. Clarkston features a historic downtown and a small-town feel. Troy offers strong employment access and a diverse housing stock. We'll help you narrow down your search based on your specific priorities, including commute times, school district boundaries, price point, and lifestyle preferences.",
   },
   {
     q: "How does the Michigan real estate market compare to Chicago or other Midwest cities?",
-    a: "The Metro Detroit suburbs — particularly Oakland County — typically offer significantly more home per dollar than Chicago suburbs or major East Coast markets. You can often get a newer home with more square footage, a larger lot, and better school district access at a lower price point. The market is competitive but not as frenzied as coastal cities.",
+    a: "The Metro Detroit suburbs, particularly Oakland County, typically offer significantly more home per dollar than Chicago suburbs or major East Coast markets. You can often get a newer home with more square footage, a larger lot, and better school district access at a lower price point. The market is competitive but not as frenzied as coastal cities.",
   },
   {
     q: "Can I buy a home remotely without visiting Michigan first?",
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     q: "How long does the home buying process take when relocating?",
-    a: "Most relocations close within 30–60 days from accepted offer. The full process — from initial conversation to closing — typically takes 2–4 months, depending on your search timeline and market conditions.",
+    a: "Most relocations close within 30–60 days from accepted offer. The full process, from initial conversation to closing, typically takes 2–4 months, depending on your search timeline and market conditions.",
   },
 ];
 
@@ -289,7 +289,7 @@ export default function RelocationPage() {
           Let&apos;s Start the Conversation.
         </h2>
         <p className="text-white/80 mb-6 text-sm max-w-md mx-auto">
-          15 minutes on the phone will tell us whether we&apos;re the right fit — and
+          15 minutes on the phone will tell us whether we&apos;re the right fit, and
           give you a clearer picture of the market.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

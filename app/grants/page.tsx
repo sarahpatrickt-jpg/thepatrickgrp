@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Michigan Homebuyer Grants & Down Payment Assistance | Free Qualification Tool",
   description:
-    "Find out which Michigan grants and down payment assistance programs you qualify for. Check MSHDA, county DPA, VA, USDA, and more — free, instant results.",
+    "Find out which Michigan grants and down payment assistance programs you qualify for. Check MSHDA, county DPA, VA, USDA, and more, free, instant results.",
   keywords:
     "Michigan homebuyer grants, down payment assistance Michigan, MSHDA DPA, first time homebuyer Michigan, Oakland County down payment assistance, Detroit down payment assistance, Michigan first time buyer programs, homebuyer grants Southeast Michigan",
   alternates: { canonical: "https://www.thepatrickgrp.com/grants" },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://www.thepatrickgrp.com/grants",
     title:
-      "Michigan Homebuyer Grants & Down Payment Assistance — Free Qualification Tool",
+      "Michigan Homebuyer Grants & Down Payment Assistance. Free Qualification Tool",
     description:
       "See which Michigan grants and down payment assistance programs you qualify for. Instant results, no cost, no obligation.",
     siteName: "The Patrick Group",
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "Do I have to be a first-time homebuyer?",
-    a: "Not always. While many programs target first-time buyers, some — like MSHDA's standard DPA, VA loans, and HomeReady — are available to repeat buyers as well. Our tool checks both first-time and non-first-time programs based on your answers.",
+    a: "Not always. While many programs target first-time buyers, some, like MSHDA's standard DPA, VA loans, and HomeReady, are available to repeat buyers as well. Our tool checks both first-time and non-first-time programs based on your answers.",
   },
   {
     q: "What counts as a first-time homebuyer in Michigan?",
@@ -96,7 +96,7 @@ export default function GrantsPage() {
           <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed">
             Michigan offers thousands of dollars in down payment assistance and
             grants for homebuyers. Answer a few questions and we&apos;ll show
-            you which programs match your situation — instantly, for free.
+            you which programs match your situation, instantly, for free.
           </p>
         </div>
       </section>
@@ -157,7 +157,7 @@ export default function GrantsPage() {
               {
                 n: "03",
                 title: "Connect With a Lender",
-                desc: "Want to move forward? We'll connect you with an MSHDA-approved lender who specializes in DPA — at no cost to you.",
+                desc: "Want to move forward? We'll connect you with an MSHDA-approved lender who specializes in DPA, at no cost to you.",
               },
             ].map((step) => (
               <div
@@ -231,7 +231,7 @@ export default function GrantsPage() {
               { name: "Chase Homebuyer Grant", amount: "Up to $7,500", type: "Eligible areas" },
               { name: "Wells Fargo Homebuyer Access", amount: "Up to $10,000", type: "Down payment grant" },
               { name: "Wells Fargo Closing Cost Credit", amount: "Up to $5,000", type: "At or below 80% AMI" },
-              { name: "Rocket Mortgage ONE+", amount: "1% down", type: "Rocket covers 2% — up to $7K" },
+              { name: "Rocket Mortgage ONE+", amount: "1% down", type: "Rocket covers 2%: up to $7K" },
               { name: "Honor CU Launch DPA", amount: "Up to $20,000", type: "First-time buyers, 80% AMI" },
               { name: "FHLB HomeBoost", amount: "Up to $25,000", type: "Minority / first-gen buyers" },
               { name: "Flagstar Destination Home", amount: "No PMI", type: "Community lending areas" },
@@ -290,7 +290,7 @@ export default function GrantsPage() {
           </h2>
           <p className="text-white/70 text-sm mb-6 max-w-md mx-auto">
             Call or text Brad Patrick directly. He&apos;ll walk you through your
-            options and connect you with a lender who can help — no cost, no
+            options and connect you with a lender who can help, no cost, no
             pressure.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

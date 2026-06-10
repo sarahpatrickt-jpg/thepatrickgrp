@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * ListingGallery — Photo gallery for listing detail pages.
+ * ListingGallery. Photo gallery for listing detail pages.
  *
  * Layout: large hero photo on top, scrollable thumbnail strip below.
  * Click any thumbnail to swap into the hero position.
@@ -49,7 +49,7 @@ export default function ListingGallery({ photos, address }: ListingGalleryProps)
       >
         <Image
           src={photos[activeIdx]}
-          alt={`${address} — photo ${activeIdx + 1}`}
+          alt={`${address}, photo ${activeIdx + 1}`}
           fill
           sizes="(max-width: 1280px) 100vw, 1280px"
           className="object-cover"
@@ -128,7 +128,7 @@ export default function ListingGallery({ photos, address }: ListingGalleryProps)
             >
               <Image
                 src={url}
-                alt={`${address} — thumbnail ${i + 1}`}
+                alt={`${address}, thumbnail ${i + 1}`}
                 fill
                 sizes="100px"
                 className="object-cover"

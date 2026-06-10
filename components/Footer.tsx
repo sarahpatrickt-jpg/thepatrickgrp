@@ -26,10 +26,10 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-2">
-            {/* Real logo — all-white via brightness(0) invert(1) on dark footer */}
+            {/* Real logo, all-white via brightness(0) invert(1) on dark footer */}
             <Image
               src="/logo-full-color.png"
-              alt="Oak & Stone Real Estate — The Patrick Group — Leading You Home"
+              alt="Oak & Stone Real Estate. The Patrick Group. Leading You Home"
               width={500}
               height={500}
               className="h-20 w-auto object-contain mb-4"
@@ -37,7 +37,7 @@ export default function Footer() {
             />
             <p className="text-white/60 text-sm leading-relaxed max-w-xs">
               Boutique real estate service for Southeast Michigan.
-              Experience matters — especially when the market gets complicated.
+              Experience matters, especially when the market gets complicated.
             </p>
             <div className="mt-5 space-y-4">
               <p className="text-sm text-white/60">

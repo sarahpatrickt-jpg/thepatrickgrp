@@ -91,7 +91,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      {/* Honeypot — hidden from real users, bots fill it in */}
+      {/* Honeypot, hidden from real users, bots fill it in */}
       <div style={{ display: "none" }} aria-hidden="true">
         <label htmlFor="website">Website</label>
         <input type="text" id="website" name="website" tabIndex={-1} autoComplete="off" />

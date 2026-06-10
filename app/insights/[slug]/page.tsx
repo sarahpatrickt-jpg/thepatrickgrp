@@ -329,7 +329,7 @@ export default async function InsightPost({ params }: Props) {
             </h2>
             <p className="text-white/80 text-sm mb-6 max-w-sm mx-auto">
               Every situation is different. Call or email Sarah or Brad directly
-              — no forms, no runaround.
+, no forms, no runaround.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

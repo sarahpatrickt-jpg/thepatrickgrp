@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     template: "%s | The Patrick Group",
   },
   description:
-    "The Patrick Group — Southeast Michigan real estate specialists. Boutique service, deep local knowledge. Led by Sarah Patrick, Principal Broker.",
+    "The Patrick Group. Southeast Michigan real estate specialists. Boutique service, deep local knowledge. Led by Sarah Patrick, Principal Broker.",
   metadataBase: new URL("https://www.thepatrickgrp.com"),
   verification: {
     google: "DMvVDBTW9H-kSbHatJUzmNyGPErhzEAs0cBcePYjZrc",
@@ -131,7 +131,7 @@ const localBusinessSchema = {
     { "@type": "City", name: "Romulus", containedInPlace: "Michigan" },
   ],
   description:
-    "Boutique real estate team serving Southeast Michigan — Oakland, Macomb, Washtenaw, and Livingston counties. Led by Principal Broker Sarah Patrick and Realtor® Brad Patrick. Specialists in buyer representation, home sales, cash offers, divorce real estate, estate and probate sales, living trust property, downsizing, new construction, investor properties, and relocation.",
+    "Boutique real estate team serving Southeast Michigan. Oakland, Macomb, Washtenaw, and Livingston counties. Led by Principal Broker Sarah Patrick and Realtor® Brad Patrick. Specialists in buyer representation, home sales, cash offers, divorce real estate, estate and probate sales, living trust property, downsizing, new construction, investor properties, and relocation.",
   sameAs: [
     "https://www.oakandstonerealestate.com",
     "https://www.instagram.com/youragentbrad/",

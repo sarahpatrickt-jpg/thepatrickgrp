@@ -24,7 +24,7 @@ export default function BuyerQuestionnaireForm() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
-    data.append("_subject", "New Buyer Inquiry — The Patrick Group");
+    data.append("_subject", "New Buyer Inquiry. The Patrick Group");
 
     try {
       const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
@@ -50,7 +50,7 @@ export default function BuyerQuestionnaireForm() {
           <span className="text-[#c70000] text-2xl font-bold">✓</span>
         </div>
         <h3 className="font-serif text-xl font-bold text-[#1a1a1a] mb-2">
-          Got it — we&apos;ll be in touch.
+          Got it, we&apos;ll be in touch.
         </h3>
         <p className="text-gray-500 text-sm leading-relaxed max-w-sm mx-auto">
           Brad will reach out within one business day with homes that match your
@@ -76,7 +76,7 @@ export default function BuyerQuestionnaireForm() {
           className={inputClass}
         />
         <p className="text-xs text-gray-400 mt-1">
-          As specific or broad as you like — we know every pocket of Southeast Michigan.
+          As specific or broad as you like, we know every pocket of Southeast Michigan.
         </p>
       </div>
 
@@ -218,7 +218,7 @@ export default function BuyerQuestionnaireForm() {
       )}
 
       <p className="text-xs text-gray-400 text-center">
-        No obligation. Brad will reach out with curated options — no spam, no pressure.
+        No obligation. Brad will reach out with curated options, no spam, no pressure.
       </p>
     </form>
   );

@@ -3,16 +3,16 @@ import Link from "next/link";
 import VipSignupForm from "@/components/VipSignupForm";
 
 export const metadata: Metadata = {
-  title: "VIP Buyer List — Coming Soon Listings",
+  title: "VIP Buyer List. Coming Soon Listings",
   description:
-    "Get first access to Coming Soon listings in Southeast Michigan before they hit Zillow. Join The Patrick Group VIP Buyer List — free, no obligation.",
+    "Get first access to Coming Soon listings in Southeast Michigan before they hit Zillow. Join The Patrick Group VIP Buyer List, free, no obligation.",
   alternates: { canonical: "https://www.thepatrickgrp.com/vip-buyers" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/vip-buyers",
-    title: "VIP Buyer List — Coming Soon Listings",
+    title: "VIP Buyer List. Coming Soon Listings",
     description:
-      "Get first access to Coming Soon listings in Southeast Michigan before they hit Zillow. Join The Patrick Group VIP Buyer List — free, no obligation.",
+      "Get first access to Coming Soon listings in Southeast Michigan before they hit Zillow. Join The Patrick Group VIP Buyer List, free, no obligation.",
     siteName: "The Patrick Group",
   },
 };
@@ -21,7 +21,7 @@ const howItWorks = [
   {
     n: "01",
     title: "You Tell Us What You're Looking For",
-    desc: "Area, price range, bedrooms — as specific or broad as you want. Takes 60 seconds.",
+    desc: "Area, price range, bedrooms, as specific or broad as you want. Takes 60 seconds.",
   },
   {
     n: "02",
@@ -31,12 +31,12 @@ const howItWorks = [
   {
     n: "03",
     title: "You Hear About It First",
-    desc: "Coming Soon listings are typically 3–10 days before active status — and completely off Zillow and Realtor.com during that window.",
+    desc: "Coming Soon listings are typically 3–10 days before active status, and completely off Zillow and Realtor.com during that window.",
   },
   {
     n: "04",
     title: "We Schedule a Private Preview",
-    desc: "See a home before anyone else can schedule a showing. In a competitive market, that's how you win — without a bidding war.",
+    desc: "See a home before anyone else can schedule a showing. In a competitive market, that's how you win, without a bidding war.",
   },
 ];
 
@@ -59,7 +59,7 @@ const whyItMatters = [
   {
     icon: "📱",
     title: "Instant alerts",
-    desc: "MLS-powered notifications — not delayed Zillow scrapes. When a match hits, you hear about it in real time.",
+    desc: "MLS-powered notifications, not delayed Zillow scrapes. When a match hits, you hear about it in real time.",
   },
 ];
 
@@ -84,7 +84,7 @@ export default function VipBuyersPage() {
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed mb-8">
             Join The Patrick Group VIP Buyer List and get Coming Soon listings
-            sent directly to you — days before they&apos;re publicly available.
+            sent directly to you, days before they&apos;re publicly available.
             Free. No obligation. Just first access.
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-white/60 mb-8">
@@ -112,7 +112,7 @@ export default function VipBuyersPage() {
             {/* Form */}
             <div className="bg-white border border-gray-100 rounded-sm shadow-sm p-8">
               <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
-                Join free — takes 60 seconds
+                Join free, takes 60 seconds
               </p>
               <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-1">
                 Get Your Coming Soon Alerts
@@ -134,8 +134,8 @@ export default function VipBuyersPage() {
                 Coming Soon Is the Most Valuable Window in Real Estate.
               </h2>
               <p className="text-gray-600 leading-relaxed mb-8">
-                In Southeast Michigan, the best homes — especially in the
-                $400k–$800k range — often receive multiple offers within 24
+                In Southeast Michigan, the best homes, especially in the
+                $400k–$800k range, often receive multiple offers within 24
                 hours of going active. The buyers who win are rarely the ones
                 who found the listing on Zillow. They&apos;re the ones who knew
                 about it first.
@@ -205,7 +205,7 @@ export default function VipBuyersPage() {
             <div className="bg-white p-6 border border-gray-100 rounded-sm shadow-sm">
               <p className="text-base font-medium text-[#1a1a1a] mb-3">
                 &ldquo;Brad was not just our realtor, but our partner throughout
-                the entire process. He went to bat for us — and we secured our
+                the entire process. He went to bat for us, and we secured our
                 dream home.&rdquo;
               </p>
               <p className="text-sm font-semibold text-[#1a1a1a]">
@@ -218,7 +218,7 @@ export default function VipBuyersPage() {
             <div className="bg-white p-6 border border-gray-100 rounded-sm shadow-sm">
               <p className="text-base font-medium text-[#1a1a1a] mb-3">
                 &ldquo;Sarah and Brad helped us find our HOME. They are amazing
-                to work with — fun, knowledgeable and easy. I will work with
+                to work with, fun, knowledgeable and easy. I will work with
                 them again.&rdquo;
               </p>
               <p className="text-sm font-semibold text-[#1a1a1a]">
@@ -242,7 +242,7 @@ export default function VipBuyersPage() {
         </h2>
         <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
           The VIP list gets you first access. A buyer consultation with Brad
-          gets you a full strategy — financing, search criteria, and a plan to
+          gets you a full strategy: financing, search criteria, and a plan to
           win in any market.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

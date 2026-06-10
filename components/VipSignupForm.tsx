@@ -85,7 +85,7 @@ export default function VipSignupForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      {/* Honeypot — hidden from real users, bots fill it in */}
+      {/* Honeypot, hidden from real users, bots fill it in */}
       <div style={{ display: "none" }} aria-hidden="true">
         <label htmlFor="website">Website</label>
         <input type="text" id="website" name="website" tabIndex={-1} autoComplete="off" />
@@ -173,7 +173,7 @@ export default function VipSignupForm() {
         disabled={status === "loading"}
         className="w-full bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors disabled:opacity-60 mt-2"
       >
-        {status === "loading" ? "Joining…" : "Get First Access — Join the VIP List"}
+        {status === "loading" ? "Joining…" : "Get First Access. Join the VIP List"}
       </button>
 
       {status === "error" && (

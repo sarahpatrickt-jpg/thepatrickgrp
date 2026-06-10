@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Investment Property Southeast Michigan — Buyer's Agent for Investors",
+  title: "Investment Property Southeast Michigan. Buyer's Agent for Investors",
   description:
-    "Investment property in Southeast Michigan — buy-and-hold, BRRRR, fix-and-flip, and 1031 exchanges. The Patrick Group is your buyer's agent.",
+    "Investment property in Southeast Michigan: buy-and-hold, BRRRR, fix-and-flip, and 1031 exchanges. The Patrick Group is your buyer's agent.",
   keywords:
     "investment property Southeast Michigan, rental property Oakland County, buy and hold real estate Michigan, fix and flip Southeast Michigan, 1031 exchange Michigan, real estate investor agent Michigan",
   alternates: { canonical: "https://www.thepatrickgrp.com/real-estate-investors" },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.thepatrickgrp.com/real-estate-investors",
     title: "Investment Property Southeast Michigan",
     description:
-      "Investment property in Southeast Michigan — buy-and-hold, BRRRR, fix-and-flip, and 1031 exchanges. The Patrick Group is your buyer's agent.",
+      "Investment property in Southeast Michigan: buy-and-hold, BRRRR, fix-and-flip, and 1031 exchanges. The Patrick Group is your buyer's agent.",
     siteName: "The Patrick Group",
   },
 };
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const investorTypes = [
   {
     title: "Buy-and-Hold Rental",
-    desc: "Single-family and small multi-family rentals with long-term tenants. We know which neighborhoods have strong rental demand and which properties pencil — and which ones don't.",
+    desc: "Single-family and small multi-family rentals with long-term tenants. We know which neighborhoods have strong rental demand and which properties pencil, and which ones don't.",
   },
   {
     title: "BRRRR Strategy",
@@ -29,7 +29,7 @@ const investorTypes = [
   },
   {
     title: "Fix and Flip",
-    desc: "Finding undervalued properties with the right ARV upside requires neighborhood-level pricing knowledge. We know what renovated homes are selling for in each submarket — and we move quickly.",
+    desc: "Finding undervalued properties with the right ARV upside requires neighborhood-level pricing knowledge. We know what renovated homes are selling for in each submarket, and we move quickly.",
   },
   {
     title: "1031 Exchange",
@@ -37,18 +37,18 @@ const investorTypes = [
   },
   {
     title: "First-Time Investor",
-    desc: "Starting your first rental property is different from buying a primary home. We'll walk you through the numbers — purchase price, estimated rent, expenses, vacancy — before you make an offer.",
+    desc: "Starting your first rental property is different from buying a primary home. We'll walk you through the numbers: purchase price, estimated rent, expenses, vacancy, before you make an offer.",
   },
   {
     title: "Portfolio Expansion",
-    desc: "Adding a second or fifth property to an existing portfolio. You know how to run the analysis — we bring the inventory, the off-market access, and the speed to compete.",
+    desc: "Adding a second or fifth property to an existing portfolio. You know how to run the analysis, we bring the inventory, the off-market access, and the speed to compete.",
   },
 ];
 
 const ourEdge = [
   {
     title: "Off-Market Access Through Our Cash Offer Program",
-    desc: "We run a cash offer program that puts us in front of motivated sellers before they list. That means opportunities that never hit Zillow — distressed properties, landlords who are done, estates that want a quiet sale. Investors who work with us get first look.",
+    desc: "We run a cash offer program that puts us in front of motivated sellers before they list. That means opportunities that never hit Zillow: distressed properties, landlords who are done, estates that want a quiet sale. Investors who work with us get first look.",
   },
   {
     title: "Neighborhood-Level Rental Market Knowledge",
@@ -56,7 +56,7 @@ const ourEdge = [
   },
   {
     title: "Honest Condition Assessment",
-    desc: "An investor who overpays for rehab scope loses the deal before the first nail goes in. We walk properties with an investor's eye — structural concerns, mechanical systems, deferred maintenance — and give you a realistic picture of what you're actually buying.",
+    desc: "An investor who overpays for rehab scope loses the deal before the first nail goes in. We walk properties with an investor's eye: structural concerns, mechanical systems, deferred maintenance, and give you a realistic picture of what you're actually buying.",
   },
   {
     title: "Speed",
@@ -75,19 +75,19 @@ const investorProcess = [
   },
   {
     title: "Market and Submarket Education",
-    desc: "If you're new to Southeast Michigan, we'll walk you through the submarkets — which areas have strong rental demand, which have strong resale values for flips, and where the best value is relative to your criteria.",
+    desc: "If you're new to Southeast Michigan, we'll walk you through the submarkets, which areas have strong rental demand, which have strong resale values for flips, and where the best value is relative to your criteria.",
   },
   {
-    title: "Active Property Search — On and Off Market",
-    desc: "We search MLS inventory and pull from our off-market pipeline. When something fits your criteria, you hear about it immediately — before it's been sitting for three days.",
+    title: "Active Property Search. On and Off Market",
+    desc: "We search MLS inventory and pull from our off-market pipeline. When something fits your criteria, you hear about it immediately, before it's been sitting for three days.",
   },
   {
     title: "Walk the Property Together",
-    desc: "We attend showings with an investor's perspective — not a homebuyer's. We're looking at condition, rehab scope, layout efficiency for rental, and neighborhood comp trajectory, not finishes and paint colors.",
+    desc: "We attend showings with an investor's perspective, not a homebuyer's. We're looking at condition, rehab scope, layout efficiency for rental, and neighborhood comp trajectory, not finishes and paint colors.",
   },
   {
     title: "Run the Numbers Before You Offer",
-    desc: "Before you write an offer, we look at comparable sales, comparable rentals, estimated rehab scope, and holding costs. Not a guarantee of returns — but an honest view of what the deal actually looks like.",
+    desc: "Before you write an offer, we look at comparable sales, comparable rentals, estimated rehab scope, and holding costs. Not a guarantee of returns, but an honest view of what the deal actually looks like.",
   },
   {
     title: "Negotiate, Close, and Connect You",
@@ -98,19 +98,19 @@ const investorProcess = [
 const faqs = [
   {
     q: "What types of investment properties are most active in Southeast Michigan?",
-    a: "Single-family rentals are the most active category in Oakland and Macomb counties — particularly in the $150K–$350K range where rent-to-price ratios tend to work better. Small multi-family (2–4 units) is less common but exists in certain pockets. Fix-and-flip activity is strong in the $100K–$250K purchase range, with higher ARV potential in suburbs like Sterling Heights, Warren, and parts of Oakland County. We can show you specific comp data for the areas you're targeting.",
+    a: "Single-family rentals are the most active category in Oakland and Macomb counties, particularly in the $150K–$350K range where rent-to-price ratios tend to work better. Small multi-family (2–4 units) is less common but exists in certain pockets. Fix-and-flip activity is strong in the $100K–$250K purchase range, with higher ARV potential in suburbs like Sterling Heights, Warren, and parts of Oakland County. We can show you specific comp data for the areas you're targeting.",
   },
   {
     q: "Do you have access to off-market properties?",
-    a: "Yes. We operate a cash offer program that generates motivated seller leads — landlords who are done, distressed properties, and estates that want a quiet sale. These properties often never hit MLS. Investors who work with us get early access to this pipeline. We can't guarantee volume, but it's a consistent source of deals that aren't publicly available.",
+    a: "Yes. We operate a cash offer program that generates motivated seller leads: landlords who are done, distressed properties, and estates that want a quiet sale. These properties often never hit MLS. Investors who work with us get early access to this pipeline. We can't guarantee volume, but it's a consistent source of deals that aren't publicly available.",
   },
   {
     q: "Can you help me run the numbers on a potential rental?",
-    a: "We can pull comparable rental data, show you what similar properties are renting for, and help you think through the expense side — taxes, insurance, maintenance reserve, vacancy, and property management. We're not financial advisors and we won't project your returns for you, but we can make sure you're working with accurate market data before you make a decision.",
+    a: "We can pull comparable rental data, show you what similar properties are renting for, and help you think through the expense side: taxes, insurance, maintenance reserve, vacancy, and property management. We're not financial advisors and we won't project your returns for you, but we can make sure you're working with accurate market data before you make a decision.",
   },
   {
     q: "Can you help with a 1031 exchange purchase in Michigan?",
-    a: "Yes. We've worked with out-of-state investors exchanging into Southeast Michigan. We understand the 45-day identification deadline and 180-day closing requirement, and we can move quickly to help you identify and close qualifying replacement property within your exchange timeline. Coordinate with your qualified intermediary early — we handle the real estate side.",
+    a: "Yes. We've worked with out-of-state investors exchanging into Southeast Michigan. We understand the 45-day identification deadline and 180-day closing requirement, and we can move quickly to help you identify and close qualifying replacement property within your exchange timeline. Coordinate with your qualified intermediary early, we handle the real estate side.",
   },
   {
     q: "What financing options do investors typically use in this market?",
@@ -118,7 +118,7 @@ const faqs = [
   },
   {
     q: "Do you work with out-of-state investors?",
-    a: "Yes. We've helped investors from out of state buy rental property in Southeast Michigan remotely — video walk-throughs, detailed condition reports, and coordination through closing without requiring you to be here for every step. If you can visit once for a targeted showing trip, that's ideal. But we can work around your schedule.",
+    a: "Yes. We've helped investors from out of state buy rental property in Southeast Michigan remotely: video walk-throughs, detailed condition reports, and coordination through closing without requiring you to be here for every step. If you can visit once for a targeted showing trip, that's ideal. But we can work around your schedule.",
   },
 ];
 
@@ -338,7 +338,7 @@ export default function RealEstateInvestorsPage() {
           Tell Us Your Criteria. We&apos;ll Go to Work.
         </h2>
         <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
-          A 15-minute call is all it takes to know whether we&apos;re a fit — and to get you plugged into our off-market pipeline.
+          A 15-minute call is all it takes to know whether we&apos;re a fit, and to get you plugged into our off-market pipeline.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

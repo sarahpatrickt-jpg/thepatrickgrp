@@ -434,7 +434,7 @@ export default async function ComparisonPage({ params }: Props) {
             </h2>
             <p className="text-white/70 mb-6 max-w-lg mx-auto">
               We show homes in {cityA.name} and {cityB.name} regularly. One
-              conversation about your priorities will narrow it down — and we
+              conversation about your priorities will narrow it down, and we
               can tour both in a single day.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

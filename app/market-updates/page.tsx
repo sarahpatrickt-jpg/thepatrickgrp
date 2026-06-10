@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Southeast Michigan Market Reports",
   description:
-    "Monthly Southeast Michigan market reports — median price, price per sq ft, and days on market for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties. Pulled from Realcomp.",
+    "Monthly Southeast Michigan market reports: median price, price per sq ft, and days on market for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties. Pulled from Realcomp.",
   alternates: { canonical: "https://www.thepatrickgrp.com/market-updates" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/market-updates",
     title: "Southeast Michigan Market Reports",
     description:
-      "Monthly Southeast Michigan market reports — median price, price per sq ft, and days on market across five SE Michigan counties.",
+      "Monthly Southeast Michigan market reports: median price, price per sq ft, and days on market across five SE Michigan counties.",
     siteName: "The Patrick Group",
   },
 };
@@ -39,7 +39,7 @@ const PAST_REPORTS = [
   {
     href: "/market-updates/march-2026",
     month: "March 2026",
-    summary: "Median prices up county-wide. DOM rising YoY — buyers had more time, but well-priced homes still moved.",
+    summary: "Median prices up county-wide. DOM rising YoY, buyers had more time, but well-priced homes still moved.",
   },
 ];
 
@@ -231,7 +231,7 @@ export default function MarketUpdatesPage() {
             className="font-editorial italic mt-4"
             style={{ fontSize: "clamp(20px, 2.5vw, 26px)", lineHeight: "1.5", color: "var(--ink)" }}
           >
-            &ldquo;Livingston moving faster while everything else slows is worth watching. Oakland at 13 days is still a seller&apos;s market. Wayne buyers are finally getting room — but prices haven&apos;t followed DOM down. They rarely do.&rdquo;
+            &ldquo;Livingston moving faster while everything else slows is worth watching. Oakland at 13 days is still a seller&apos;s market. Wayne buyers are finally getting room, but prices haven&apos;t followed DOM down. They rarely do.&rdquo;
           </blockquote>
           <div className="flex items-center gap-3 mt-5">
             <div style={{ width: 1, height: 32, backgroundColor: "var(--red)" }} />
@@ -303,7 +303,7 @@ export default function MarketUpdatesPage() {
               className="font-editorial italic mt-4"
               style={{ fontSize: "17px", color: "rgba(253,251,247,0.5)", maxWidth: 480 }}
             >
-              What county trends mean for your pricing, timing, or offer — that&apos;s where we come in.
+              What county trends mean for your pricing, timing, or offer, that&apos;s where we come in.
             </p>
           </div>
           <div className="flex flex-col gap-3 shrink-0">

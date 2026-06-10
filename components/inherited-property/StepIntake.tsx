@@ -280,7 +280,7 @@ export default function StepIntake({
                 name="transferMethod"
                 value="unsure"
                 label="I'm not sure"
-                sublabel="That's okay — we'll help you figure it out"
+                sublabel="That's okay, we'll help you figure it out"
                 selected={transferMethod === "unsure"}
                 onChange={(v) => setTransferMethod(v as TransferMethod)}
               />
@@ -360,7 +360,7 @@ export default function StepIntake({
                 <RadioOption
                   name="heirAgreement"
                   value="mostly"
-                  label="Mostly — a few details to work out"
+                  label="Mostly, a few details to work out"
                   selected={heirAgreement === "mostly"}
                   onChange={(v) => setHeirAgreement(v as HeirAgreement)}
                 />
@@ -421,7 +421,7 @@ export default function StepIntake({
                 name="propertyCondition"
                 value="move-in-ready"
                 label="Move-in ready"
-                sublabel="Minimal updates needed — could be listed as-is"
+                sublabel="Minimal updates needed, could be listed as-is"
                 selected={propertyCondition === "move-in-ready"}
                 onChange={(v) => setPropertyCondition(v as PropertyCondition)}
               />
@@ -460,7 +460,7 @@ export default function StepIntake({
               <RadioOption
                 name="lienStatus"
                 value="clear"
-                label="No — clear title"
+                label="No: clear title"
                 sublabel="No mortgage, no liens, no back taxes"
                 selected={lienStatus === "clear"}
                 onChange={(v) => setLienStatus(v as LienStatus)}

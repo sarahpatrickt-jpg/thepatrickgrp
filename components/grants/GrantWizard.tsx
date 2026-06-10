@@ -70,19 +70,19 @@ export default function GrantWizard() {
         // Only show results after lead is confirmed in Sierra
         setStep("results");
       } else {
-        // Sierra returned an error — still show results (we have their info in the form)
+        // Sierra returned an error, still show results (we have their info in the form)
         // but retry the lead in background
         setLeadStatus("error");
         setStep("results");
       }
     } catch {
-      // Network error — still show results but mark lead as failed
+      // Network error, still show results but mark lead as failed
       setLeadStatus("error");
       setStep("results");
     }
   }
 
-  // Loading state — shown while lead is being sent to Sierra
+  // Loading state, shown while lead is being sent to Sierra
   if (step === "sending") {
     return (
       <div className="max-w-2xl mx-auto py-20 text-center">

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import ListingSearch from "@/components/ListingSearch";
 
-// Neighborhood discovery cards — curated popular searches that pre-fill the search
+// Neighborhood discovery cards, curated popular searches that pre-fill the search
 const QUICK_SEARCHES = [
   { label: "Birmingham",        slug: "birmingham-mi",         tag: "Luxury · Oakland" },
   { label: "Rochester Hills",   slug: "rochester-hills-mi",    tag: "All prices · Oakland" },

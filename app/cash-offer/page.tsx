@@ -5,7 +5,7 @@ import CashOfferForm from "@/components/CashOfferForm";
 export const metadata: Metadata = {
   title: "Sell Your Home for Cash in Southeast Michigan",
   description:
-    "Get a cash offer on your Southeast Michigan home. The Patrick Group represents you — not the investor. No repairs, close in as few as 14 days.",
+    "Get a cash offer on your Southeast Michigan home. The Patrick Group represents you, not the investor. No repairs, close in as few as 14 days.",
   keywords:
     "sell house fast Southeast Michigan, cash offer Michigan, sell home to investor Michigan, sell house as-is Oakland County, fast home sale Michigan, cash buyer Southeast Michigan",
   alternates: { canonical: "https://www.thepatrickgrp.com/cash-offer" },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://www.thepatrickgrp.com/cash-offer",
     title: "Sell Your Home for Cash in Southeast Michigan",
     description:
-      "Get a cash offer on your Southeast Michigan home. The Patrick Group represents you — not the investor. No repairs, close in as few as 14 days.",
+      "Get a cash offer on your Southeast Michigan home. The Patrick Group represents you, not the investor. No repairs, close in as few as 14 days.",
     siteName: "The Patrick Group",
   },
 };
@@ -23,12 +23,12 @@ const whoItsFor = [
   {
     icon: "📦",
     title: "Relocating Quickly",
-    desc: "Job transfer, military move, or life change — you need the home sold before you leave, not 90 days later.",
+    desc: "Job transfer, military move, or life change, you need the home sold before you leave, not 90 days later.",
   },
   {
     icon: "🏚️",
     title: "Property Needs Major Repairs",
-    desc: "Roof, foundation, outdated systems — you don't have the time or money to fix it before listing. Cash investors buy as-is.",
+    desc: "Roof, foundation, outdated systems, you don't have the time or money to fix it before listing. Cash investors buy as-is.",
   },
   {
     icon: "⚖️",
@@ -56,7 +56,7 @@ const steps = [
   {
     n: "01",
     title: "Tell Us About Your Property",
-    desc: "Call, text, or fill out our form with basic property details. No commitment required — just a conversation.",
+    desc: "Call, text, or fill out our form with basic property details. No commitment required, just a conversation.",
   },
   {
     n: "02",
@@ -66,7 +66,7 @@ const steps = [
   {
     n: "03",
     title: "You Receive a No-Obligation Offer",
-    desc: "Typically within 24–48 hours. We review the offer with you, explain the terms, and negotiate on your behalf — you are never on your own.",
+    desc: "Typically within 24–48 hours. We review the offer with you, explain the terms, and negotiate on your behalf, you are never on your own.",
   },
   {
     n: "04",
@@ -78,11 +78,11 @@ const steps = [
 const faqs = [
   {
     q: "How is this different from M1 Home Buyers, Simply Sold RE, We Buy Houses, or similar companies?",
-    a: "Those companies are the buyer — their goal is to purchase your home as cheaply as possible. That's a fundamental conflict of interest. The Patrick Group is a licensed real estate team that represents you, the seller. We connect you with vetted local cash investors, negotiate the offer on your behalf, and show you a comparative market analysis so you know exactly what you're leaving on the table (or not) before you sign anything. You get the speed of a cash sale with a licensed agent whose interests are aligned with yours — not the buyer's.",
+    a: "Those companies are the buyer, their goal is to purchase your home as cheaply as possible. That's a fundamental conflict of interest. The Patrick Group is a licensed real estate team that represents you, the seller. We connect you with vetted local cash investors, negotiate the offer on your behalf, and show you a comparative market analysis so you know exactly what you're leaving on the table (or not) before you sign anything. You get the speed of a cash sale with a licensed agent whose interests are aligned with yours, not the buyer's.",
   },
   {
     q: "Do you buy my home directly?",
-    a: "No. The Patrick Group is a licensed real estate team — we represent you as a seller and connect you with our network of vetted, pre-screened cash investors. We do not purchase properties ourselves. This means our interests are aligned with yours: we want you to get the best possible offer.",
+    a: "No. The Patrick Group is a licensed real estate team, we represent you as a seller and connect you with our network of vetted, pre-screened cash investors. We do not purchase properties ourselves. This means our interests are aligned with yours: we want you to get the best possible offer.",
   },
   {
     q: "Will I need to make repairs or clean the home?",
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     q: "How fast can we close?",
-    a: "Closings can happen in as few as 14 days. The timeline is flexible — if you need more time to move or coordinate, that's fine too. Cash transactions are not subject to mortgage approval timelines, so the schedule is largely up to you.",
+    a: "Closings can happen in as few as 14 days. The timeline is flexible, if you need more time to move or coordinate, that's fine too. Cash transactions are not subject to mortgage approval timelines, so the schedule is largely up to you.",
   },
   {
     q: "Is there a commission or fee for this service?",
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: "Can I still get a traditional listing if the cash offer isn't right?",
-    a: "Absolutely. Our job is to help you make the best decision for your situation — not to push you into a cash sale. If we review the cash offer and it doesn't make sense, we'll tell you. Listing traditionally is always an option, and we'll give you an honest comparison.",
+    a: "Absolutely. Our job is to help you make the best decision for your situation, not to push you into a cash sale. If we review the cash offer and it doesn't make sense, we'll tell you. Listing traditionally is always an option, and we'll give you an honest comparison.",
   },
   {
     q: "Do I have to accept an offer?",
@@ -110,11 +110,11 @@ const faqs = [
   },
   {
     q: "What makes The Patrick Group different for cash home sales in Southeast Michigan?",
-    a: "Most cash buyer companies in Southeast Michigan — M1 Home Buyers, Simply Sold RE, Pluto Property Group, and others — are purchasing your home directly. They are the buyer. The Patrick Group is different: we are a licensed real estate team that represents sellers exclusively. We bring your property to our network of vetted local cash investors, negotiate competing offers, and provide a full market analysis so you can make an informed decision. You are never negotiating alone against a company whose profit depends on paying you less.",
+    a: "Most cash buyer companies in Southeast Michigan. M1 Home Buyers, Simply Sold RE, Pluto Property Group, and others, are purchasing your home directly. They are the buyer. The Patrick Group is different: we are a licensed real estate team that represents sellers exclusively. We bring your property to our network of vetted local cash investors, negotiate competing offers, and provide a full market analysis so you can make an informed decision. You are never negotiating alone against a company whose profit depends on paying you less.",
   },
   {
     q: "Can you help if my home has liens, back taxes, or other legal complications?",
-    a: "Yes. Many of the cash investors in our network are experienced with complex title situations — including liens, judgments, back taxes, estate properties, and no-equity scenarios. These situations require experienced local buyers who know how to close despite complications. We'll be upfront about whether a cash sale is the right path or whether the situation calls for a different approach.",
+    a: "Yes. Many of the cash investors in our network are experienced with complex title situations, including liens, judgments, back taxes, estate properties, and no-equity scenarios. These situations require experienced local buyers who know how to close despite complications. We'll be upfront about whether a cash sale is the right path or whether the situation calls for a different approach.",
   },
 ];
 
@@ -133,7 +133,7 @@ const decisionChecklist = [
   },
   {
     title: "Is your situation time-sensitive?",
-    desc: "Relocation, divorce, foreclosure risk, estate settlement — these situations often make speed and certainty more valuable than an extra 10-15% on the sale price.",
+    desc: "Relocation, divorce, foreclosure risk, estate settlement, these situations often make speed and certainty more valuable than an extra 10-15% on the sale price.",
   },
   {
     title: "Have you seen a comparative market analysis?",
@@ -205,7 +205,7 @@ export default function CashOfferPage() {
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-6">
             We connect Southeast Michigan homeowners with vetted local cash
             investors. No repairs. No showings. No waiting on a buyer&apos;s
-            mortgage. Close in as few as 14 days — with a licensed agent
+            mortgage. Close in as few as 14 days, with a licensed agent
             representing your interests throughout.
           </p>
           <div className="flex flex-wrap gap-3 text-sm text-white/60 mb-8">
@@ -232,13 +232,13 @@ export default function CashOfferPage() {
         </div>
       </section>
 
-      {/* IMPORTANT DISTINCTION — TRUST */}
+      {/* IMPORTANT DISTINCTION. TRUST */}
       <section className="py-12 px-4 sm:px-6 bg-[#c70000] text-white">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
               <p className="font-bold text-lg mb-1">We Represent You</p>
-              <p className="text-white/80 text-sm">A licensed agent negotiates on your behalf — not the investor&apos;s.</p>
+              <p className="text-white/80 text-sm">A licensed agent negotiates on your behalf, not the investor&apos;s.</p>
             </div>
             <div>
               <p className="font-bold text-lg mb-1">Local, Vetted Investors</p>
@@ -263,7 +263,7 @@ export default function CashOfferPage() {
               Situations Where a Cash Sale Makes Sense
             </h2>
             <p className="mt-4 text-gray-500 max-w-xl mx-auto text-sm">
-              A cash offer isn&apos;t right for everyone — but for these situations, it&apos;s often the smartest move.
+              A cash offer isn&apos;t right for everyone, but for these situations, it&apos;s often the smartest move.
             </p>
           </div>
 
@@ -372,7 +372,7 @@ export default function CashOfferPage() {
         </div>
       </section>
 
-      {/* WHY NOT LIST TRADITIONALLY — HONEST SECTION */}
+      {/* WHY NOT LIST TRADITIONALLY. HONEST SECTION */}
       <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
@@ -386,14 +386,14 @@ export default function CashOfferPage() {
               <p className="text-gray-600 leading-relaxed mb-4 text-sm">
                 We won&apos;t push you toward a cash sale if it&apos;s not right for your
                 situation. If your home is in good condition, you&apos;re not in a
-                rush, and the market is strong — a traditional listing will
+                rush, and the market is strong, a traditional listing will
                 almost always net you more money.
               </p>
               <p className="text-gray-600 leading-relaxed text-sm">
                 Our job is to help you understand both options, give you the
                 numbers, and let you decide. If a cash offer comes in at a
                 significant discount from market value and you don&apos;t have
-                a pressing reason to accept it — we&apos;ll tell you to list
+                a pressing reason to accept it, we&apos;ll tell you to list
                 traditionally instead. That&apos;s what it means to have an agent
                 who represents your interests.
               </p>
@@ -413,7 +413,7 @@ export default function CashOfferPage() {
                 <ul className="space-y-1 text-sm text-white/70">
                   <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>Home is in good condition with strong market appeal</li>
                   <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>You have 60–90 days and want to maximize proceeds</li>
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>Market inventory is low — sellers have leverage right now</li>
+                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>Market inventory is low, sellers have leverage right now</li>
                   <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>The gap between cash offer and market value is significant</li>
                 </ul>
               </div>
@@ -461,7 +461,7 @@ export default function CashOfferPage() {
               <a href="tel:2487553545" className="text-[#c70000] font-semibold hover:underline">
                 248.755.3545
               </a>{" "}
-              — he&apos;ll give you an honest comparison of your cash offer options vs. a traditional
+, he&apos;ll give you an honest comparison of your cash offer options vs. a traditional
               listing so you can decide with real numbers, not guesswork.
             </p>
           </div>
@@ -574,7 +574,7 @@ export default function CashOfferPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
-            {/* Left — copy */}
+            {/* Left, copy */}
             <div>
               <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
                 No obligation. No pressure.
@@ -584,7 +584,7 @@ export default function CashOfferPage() {
               </h2>
               <p className="text-white/70 mb-6 text-sm leading-relaxed">
                 Fill out the form and we&apos;ll reach out within one business day.
-                Or call Brad directly — a 15-minute conversation is all it takes
+                Or call Brad directly, a 15-minute conversation is all it takes
                 to understand your options.
               </p>
               <a
@@ -619,7 +619,7 @@ export default function CashOfferPage() {
               </p>
             </div>
 
-            {/* Right — form */}
+            {/* Right, form */}
             <div className="bg-white/5 border border-white/10 rounded-sm p-8">
               <p className="text-white font-semibold text-lg mb-1">Request a Cash Offer</p>
               <p className="text-white/50 text-sm mb-6">We&apos;ll respond within one business day.</p>

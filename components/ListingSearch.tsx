@@ -26,7 +26,7 @@ import ListingCard from "./ListingCard";
 import { trackListingSearchSubmitted, trackListingCardClicked } from "@/lib/analytics";
 import type { Listing } from "@/data/listings";
 
-// All SE Michigan cities — sorted alphabetically
+// All SE Michigan cities, sorted alphabetically
 const SE_MICHIGAN_CITIES: { name: string; slug: string }[] = [
   { name: "Ann Arbor",          slug: "ann-arbor-mi" },
   { name: "Birmingham",         slug: "birmingham-mi" },
@@ -221,7 +221,7 @@ export default function ListingSearch({
             <input
               type="text"
               value={cityInput}
-              placeholder="All cities — or type to filter"
+              placeholder="All cities, or type to filter"
               autoComplete="off"
               onFocus={() => setCityOpen(true)}
               onChange={(e) => {
@@ -445,7 +445,7 @@ export default function ListingSearch({
             <span className="text-xs text-gray-500">
               {results.pagination.total > 0
                 ? `${results.pagination.total.toLocaleString()} listing${results.pagination.total !== 1 ? "s" : ""} found`
-                : "No listings match — try broadening your search"}
+                : "No listings match, try broadening your search"}
             </span>
           )}
           {loading && (
@@ -537,7 +537,7 @@ export default function ListingSearch({
                 No listings match right now.
               </p>
               <p className="text-sm text-gray-500 mb-8 max-w-sm mx-auto">
-                MLS data syncs nightly. Try broadening your price range or selecting a different city — or let Brad find something before it hits the market.
+                MLS data syncs nightly. Try broadening your price range or selecting a different city, or let Brad find something before it hits the market.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a

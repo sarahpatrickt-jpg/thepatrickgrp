@@ -1,5 +1,5 @@
 /**
- * FeaturedListings — A curated grid of 6 featured homes for sale.
+ * FeaturedListings. A curated grid of 6 featured homes for sale.
  *
  * Server component: pulls from the cached IDX data synced nightly.
  * No client-side fetching. No search UI. No pagination.
@@ -7,7 +7,7 @@
  * Picks 6 listings from the 8 boutique cities, only homes with a real photo,
  * sorted by price descending so the most impressive ones lead.
  *
- * All "View Details" links go to the external Oak & Stone search site —
+ * All "View Details" links go to the external Oak & Stone search site 
  * this section is a hook, not a destination.
  */
 
@@ -63,7 +63,7 @@ function pickFeatured(count = 6): Listing[] {
       l.imageUrl,
   );
 
-  // Dedupe across MLS feeds — same property is often in RealComp AND
+  // Dedupe across MLS feeds, same property is often in RealComp AND
   // MiRealSource under slightly different city slugs (e.g. Bloomfield Hills
   // vs Bloomfield Township). Key on normalized address + price.
   const dedupKey = (l: Listing) => `${normalizeAddress(l.address)}:${l.listPrice}`;
@@ -127,7 +127,7 @@ interface FeaturedListingsProps {
   subhead?: string;
   /** How many listings (default 6) */
   count?: number;
-  /** Background variant — "paper" (cream) or "ink" (dark) */
+  /** Background variant. "paper" (cream) or "ink" (dark) */
   variant?: "paper" | "ink";
 }
 

@@ -21,11 +21,11 @@ export const metadata: Metadata = {
 const buyingFaqs = [
   {
     q: "Do I need a buyer's agent when purchasing a home in Michigan?",
-    a: "You are not legally required to have a buyer's agent in Michigan, but it is strongly recommended. The seller's agent represents the seller's interests — not yours. A buyer's agent negotiates on your behalf, reviews contracts for red flags, coordinates inspections, and guides you through every step at no direct cost to you in most transactions.",
+    a: "You are not legally required to have a buyer's agent in Michigan, but it is strongly recommended. The seller's agent represents the seller's interests, not yours. A buyer's agent negotiates on your behalf, reviews contracts for red flags, coordinates inspections, and guides you through every step at no direct cost to you in most transactions.",
   },
   {
     q: "How much does a buyer's agent cost in Southeast Michigan?",
-    a: "In most transactions, buyer's agent compensation is negotiated as part of the purchase offer and is often covered through seller-paid concessions, meaning buyers typically pay nothing out of pocket for professional representation. The Patrick Group's buyer representation fees are transparent and negotiable — we explain the structure clearly before you sign anything.",
+    a: "In most transactions, buyer's agent compensation is negotiated as part of the purchase offer and is often covered through seller-paid concessions, meaning buyers typically pay nothing out of pocket for professional representation. The Patrick Group's buyer representation fees are transparent and negotiable, we explain the structure clearly before you sign anything.",
   },
   {
     q: "What is the VIP Coming Soon Buyer List?",
@@ -33,11 +33,11 @@ const buyingFaqs = [
   },
   {
     q: "How long does it take to buy a home in Southeast Michigan?",
-    a: "From accepted offer to closing, most Michigan residential transactions close in 30–45 days. The search process varies — some buyers find the right home in one weekend, others take several months. As of March 2026, average days on market range from 15–18 days across Southeast Michigan counties, meaning well-priced homes move quickly.",
+    a: "From accepted offer to closing, most Michigan residential transactions close in 30–45 days. The search process varies, some buyers find the right home in one weekend, others take several months. As of March 2026, average days on market range from 15–18 days across Southeast Michigan counties, meaning well-priced homes move quickly.",
   },
   {
     q: "Why does Brad's mortgage background matter when buying a home?",
-    a: "Brad Patrick began his career in mortgage lending before transitioning to real estate. This means he understands how loans are underwritten, how financing contingencies should be structured, and how to spot terms in a purchase agreement that could create problems at closing. Most buyer's agents don't have this background — it gives The Patrick Group clients a meaningful edge in offer strategy and negotiation.",
+    a: "Brad Patrick began his career in mortgage lending before transitioning to real estate. This means he understands how loans are underwritten, how financing contingencies should be structured, and how to spot terms in a purchase agreement that could create problems at closing. Most buyer's agents don't have this background, it gives The Patrick Group clients a meaningful edge in offer strategy and negotiation.",
   },
   {
     q: "Which Southeast Michigan cities and counties does The Patrick Group serve?",
@@ -58,7 +58,7 @@ const buyingFaqSchema = {
 const buyerBenefits = [
   {
     title: "Brad's mortgage background",
-    desc: "Brad started his career in mortgage lending. He understands financing at a level most agents never reach — which means better-structured offers, fewer surprises at closing, and an edge in competitive situations.",
+    desc: "Brad started his career in mortgage lending. He understands financing at a level most agents never reach, which means better-structured offers, fewer surprises at closing, and an edge in competitive situations.",
   },
   {
     title: "Access before it hits Zillow",
@@ -66,11 +66,11 @@ const buyerBenefits = [
   },
   {
     title: "We fight for you in negotiations",
-    desc: "Brad doesn't just write an offer — he develops a strategy. Multiple offers? He's been there. He knows how to win without overpaying.",
+    desc: "Brad doesn't just write an offer, he develops a strategy. Multiple offers? He's been there. He knows how to win without overpaying.",
   },
   {
     title: "Principal Broker oversight on every transaction",
-    desc: "Every deal at The Patrick Group has Sarah Patrick behind it — a licensed Principal Broker who has navigated every market cycle Metro Detroit has seen. That level of brokerage experience, market depth, and accountability isn't something most teams can offer. It's your protection from contract to close.",
+    desc: "Every deal at The Patrick Group has Sarah Patrick behind it, a licensed Principal Broker who has navigated every market cycle Metro Detroit has seen. That level of brokerage experience, market depth, and accountability isn't something most teams can offer. It's your protection from contract to close.",
   },
   {
     title: "One relationship, all the way to close",
@@ -82,7 +82,7 @@ const buyerBenefits = [
   },
   {
     title: "Patience and education",
-    desc: "As one client said: \"Great experience with comprehensive information and service — and thanks for your patience when gaining information on the market.\"",
+    desc: "As one client said: \"Great experience with comprehensive information and service, and thanks for your patience when gaining information on the market.\"",
   },
 ];
 
@@ -90,7 +90,7 @@ const buyerProcess = [
   {
     n: "01",
     title: "Initial Consultation",
-    desc: "We learn your goals, timeline, and priorities. You learn how we work. No commitment required — just conversation.",
+    desc: "We learn your goals, timeline, and priorities. You learn how we work. No commitment required, just conversation.",
   },
   {
     n: "02",
@@ -100,7 +100,7 @@ const buyerProcess = [
   {
     n: "03",
     title: "Home Search Strategy",
-    desc: "We set up custom searches and alert you the moment something matches — not after it's had 40 showings.",
+    desc: "We set up custom searches and alert you the moment something matches, not after it's had 40 showings.",
   },
   {
     n: "04",
@@ -110,12 +110,12 @@ const buyerProcess = [
   {
     n: "05",
     title: "Offer & Negotiation",
-    desc: "We analyze the market, develop the offer strategy, and negotiate on your behalf — with the fire of someone who treats this like it's our own money.",
+    desc: "We analyze the market, develop the offer strategy, and negotiate on your behalf, with the fire of someone who treats this like it's our own money.",
   },
   {
     n: "06",
     title: "Inspection & Due Diligence",
-    desc: "We help you navigate inspections, evaluate findings, and negotiate repairs — where many deals are won or lost.",
+    desc: "We help you navigate inspections, evaluate findings, and negotiate repairs, where many deals are won or lost.",
   },
   {
     n: "07",
@@ -161,7 +161,7 @@ export default function BuyingPage() {
         </div>
       </section>
 
-      {/* FEATURED HOMES — synced nightly from MLS */}
+      {/* FEATURED HOMES, synced nightly from MLS */}
       <FeaturedListings
         eyebrow="Browsing the Market?"
         heading="Featured Homes for Sale"
@@ -180,7 +180,7 @@ export default function BuyingPage() {
               See Homes Before They Hit Zillow.
             </h2>
             <p className="text-white/80 text-sm max-w-xl">
-              Join our Coming Soon VIP list — get MLS-powered alerts for matching
+              Join our Coming Soon VIP list, get MLS-powered alerts for matching
               homes the moment they enter Coming Soon status. Days before the public sees them.
             </p>
           </div>
@@ -214,7 +214,7 @@ export default function BuyingPage() {
               Michigan Offers Thousands in Homebuyer Grants.
             </h2>
             <p className="text-white/60 text-sm max-w-xl">
-              MSHDA, county programs, VA, USDA — our free tool checks 12+ programs and shows you
+              MSHDA, county programs, VA, USDA, our free tool checks 12+ programs and shows you
               what you qualify for. Takes 2 minutes.
             </p>
           </div>
@@ -324,12 +324,12 @@ export default function BuyingPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {[
               {
-                q: "Brad was not just our realtor, but our partner throughout the entire process. He went to bat for us and it paid off — we secured our dream home.",
+                q: "Brad was not just our realtor, but our partner throughout the entire process. He went to bat for us and it paid off, we secured our dream home.",
                 name: "Verified Client",
                 type: "Buyer & Seller",
               },
               {
-                q: "Sarah and Brad helped us find our HOME. They are amazing to work with — fun, knowledgeable and easy. I will work with them again.",
+                q: "Sarah and Brad helped us find our HOME. They are amazing to work with, fun, knowledgeable and easy. I will work with them again.",
                 name: "Tracey Williams",
                 type: "Buyer",
               },
@@ -401,7 +401,7 @@ export default function BuyingPage() {
                   Browse All Available Homes
                 </h2>
                 <p className="text-gray-500 text-sm leading-relaxed mb-6">
-                  Search the full Southeast Michigan MLS on Brad&apos;s portal —
+                  Search the full Southeast Michigan MLS on Brad&apos;s portal 
                   save searches, set up alerts, and see every active listing in
                   real time.
                 </p>
@@ -427,7 +427,7 @@ export default function BuyingPage() {
                 </h2>
                 <p className="text-white/70 text-sm leading-relaxed mb-6">
                   See homes before they&apos;re publicly listed. Join the VIP list
-                  and get MLS-powered Coming Soon alerts sent straight to you —
+                  and get MLS-powered Coming Soon alerts sent straight to you 
                   days before Zillow has them.
                 </p>
               </div>
@@ -458,7 +458,7 @@ export default function BuyingPage() {
           Let&apos;s Find Your Home.
         </h2>
         <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
-          Call or text us to set up your free buyer consultation — no commitment required.
+          Call or text us to set up your free buyer consultation, no commitment required.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

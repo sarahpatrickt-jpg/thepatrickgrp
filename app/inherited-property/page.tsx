@@ -32,7 +32,7 @@ const stats = [
 const commonSituations = [
   {
     title: "You inherited the family home and live out of state",
-    desc: "Managing a property from a distance adds complexity to every decision. We handle the on-the-ground work — property assessment, vendor coordination, and full marketing — so you don't have to fly back and forth.",
+    desc: "Managing a property from a distance adds complexity to every decision. We handle the on-the-ground work: property assessment, vendor coordination, and full marketing, so you don't have to fly back and forth.",
   },
   {
     title: "Siblings can't agree on what to do",
@@ -48,7 +48,7 @@ const commonSituations = [
   },
   {
     title: "You're worried about the tax implications",
-    desc: "The stepped-up tax basis is one of the most significant tax advantages of inherited property — but most heirs don't know about it. We'll make sure you understand the numbers before making any decisions.",
+    desc: "The stepped-up tax basis is one of the most significant tax advantages of inherited property, but most heirs don't know about it. We'll make sure you understand the numbers before making any decisions.",
   },
   {
     title: "There's a mortgage or liens on the property",
@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     q: "What is a stepped-up tax basis and why does it matter?",
-    a: "When you inherit property, the IRS resets the cost basis to the property's fair market value on the date of death. If the home was purchased for $80,000 in 1985 but was worth $350,000 when the owner passed, your new basis is $350,000. If you sell for $360,000, you only owe capital gains tax on $10,000 — not the full $270,000 gain from the original purchase. Get a date-of-death appraisal to document this value.",
+    a: "When you inherit property, the IRS resets the cost basis to the property's fair market value on the date of death. If the home was purchased for $80,000 in 1985 but was worth $350,000 when the owner passed, your new basis is $350,000. If you sell for $360,000, you only owe capital gains tax on $10,000, not the full $270,000 gain from the original purchase. Get a date-of-death appraisal to document this value.",
   },
   {
     q: "How long does it take to sell an inherited home?",
@@ -71,11 +71,11 @@ const faqs = [
   },
   {
     q: "What if the heirs disagree about selling?",
-    a: "When heirs can't agree, any co-owner can file a partition action in Michigan courts, which forces a court-supervised sale — usually at a significant discount. It's almost always better to reach agreement voluntarily. We can help facilitate these conversations by providing objective market data and presenting all options clearly.",
+    a: "When heirs can't agree, any co-owner can file a partition action in Michigan courts, which forces a court-supervised sale, usually at a significant discount. It's almost always better to reach agreement voluntarily. We can help facilitate these conversations by providing objective market data and presenting all options clearly.",
   },
   {
     q: "Should I fix up an inherited home before selling it?",
-    a: "It depends on the cost of repairs versus the potential increase in sale price. Cosmetic updates often provide a strong return, while major renovations rarely do for estate properties. We'll walk through the property, give you honest guidance, and help you run both scenarios — fix-and-sell vs. as-is — so you can make a data-driven decision.",
+    a: "It depends on the cost of repairs versus the potential increase in sale price. Cosmetic updates often provide a strong return, while major renovations rarely do for estate properties. We'll walk through the property, give you honest guidance, and help you run both scenarios, fix-and-sell vs. as-is, so you can make a data-driven decision.",
   },
   {
     q: "Can I rent out the inherited property instead of selling?",
@@ -98,7 +98,7 @@ export default function InheritedPropertyPage() {
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-6">
             Answer a few questions about your situation and get a personalized
-            action plan — probate steps, tax basis guidance, sell vs. rent
+            action plan: probate steps, tax basis guidance, sell vs. rent
             analysis, and a realistic timeline. No cost, no obligation.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-white/60 mb-8">
@@ -141,7 +141,7 @@ export default function InheritedPropertyPage() {
             </h2>
             <p className="text-gray-500 text-sm max-w-lg mx-auto">
               Tell us about your situation and we&apos;ll generate a
-              step-by-step plan tailored to your inherited property — including
+              step-by-step plan tailored to your inherited property, including
               legal steps, tax guidance, and a realistic timeline.
             </p>
           </div>
@@ -311,7 +311,7 @@ export default function InheritedPropertyPage() {
             "@type": "WebApplication",
             name: "Inherited Property Navigator",
             description:
-              "Free tool that generates a personalized action plan for heirs of inherited property in Michigan — including probate steps, tax basis guidance, and sell vs. rent analysis.",
+              "Free tool that generates a personalized action plan for heirs of inherited property in Michigan, including probate steps, tax basis guidance, and sell vs. rent analysis.",
             url: "https://www.thepatrickgrp.com/inherited-property",
             applicationCategory: "FinanceApplication",
             operatingSystem: "Any",

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { trackPhoneClick } from "@/lib/analytics";
 
-// Left-side nav links (desktop) — split around the Specialties dropdown
+// Left-side nav links (desktop), split around the Specialties dropdown
 const leftLinksBefore = [
   { href: "/buying",  label: "Buy" },
   { href: "/selling", label: "Sell" },
@@ -18,7 +18,7 @@ const leftLinksAfter = [
   { href: "/market-updates",   label: "Market Reports" },
 ];
 
-// Specialties dropdown — mirrors the footer "Specialties" section
+// Specialties dropdown, mirrors the footer "Specialties" section
 const specialtyLinks = [
   { href: "/cash-offer",               label: "Cash Offer Program" },
   { href: "/new-construction",         label: "New Construction" },
@@ -38,7 +38,7 @@ const specialtyHrefs = new Set(specialtyLinks.map((l) => l.href));
 const allLinks = [
   { href: "/buying",               label: "Buy" },
   { href: "/selling",              label: "Sell" },
-  // Search Homes intentionally not in mobile drawer — it's a CTA button
+  // Search Homes intentionally not in mobile drawer, it's a CTA button
   { href: "/cash-offer",           label: "Cash Offer Program" },
   { href: "/new-construction",     label: "New Construction" },
   { href: "/divorce-real-estate",   label: "Divorce Real Estate" },
@@ -208,11 +208,11 @@ export default function Nav() {
           <Link
             href="/"
             className="absolute left-1/2 -translate-x-1/2 hidden lg:block"
-            aria-label="The Patrick Group — Home"
+            aria-label="The Patrick Group. Home"
           >
             <Image
               src="/logo-full-color.png"
-              alt="Oak & Stone Real Estate — The Patrick Group — Leading You Home"
+              alt="Oak & Stone Real Estate. The Patrick Group. Leading You Home"
               width={500}
               height={500}
               priority
@@ -225,7 +225,7 @@ export default function Nav() {
           <Link href="/" className="lg:hidden flex items-center">
             <Image
               src="/logo-full-color.png"
-              alt="Oak & Stone Real Estate — The Patrick Group"
+              alt="Oak & Stone Real Estate. The Patrick Group"
               width={500}
               height={500}
               priority

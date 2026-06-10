@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "New Construction Homes Southeast Michigan",
   description:
-    "Buying new construction in Southeast Michigan? The builder's rep works for the builder — you need your own agent. We help at no extra cost.",
+    "Buying new construction in Southeast Michigan? The builder's rep works for the builder, you need your own agent. We help at no extra cost.",
   keywords:
     "new construction homes Southeast Michigan, new builds Oakland County, new construction buyer agent Michigan, new homes Macomb Township, new construction Plymouth Northville Novi Canton",
   alternates: { canonical: "https://www.thepatrickgrp.com/new-construction" },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.thepatrickgrp.com/new-construction",
     title: "New Construction Homes Southeast Michigan",
     description:
-      "Buying new construction in Southeast Michigan? The builder's rep works for the builder — you need your own agent. We help at no extra cost.",
+      "Buying new construction in Southeast Michigan? The builder's rep works for the builder, you need your own agent. We help at no extra cost.",
     siteName: "The Patrick Group",
   },
 };
@@ -60,7 +60,7 @@ const markets = [
 const process = [
   {
     title: "Get Representation Before You Visit a Model Home",
-    desc: "The moment you walk into a builder's sales office unrepresented, you may lose your ability to have your own agent. Register with your agent's name on your first visit — this protects your right to independent representation at no cost to you.",
+    desc: "The moment you walk into a builder's sales office unrepresented, you may lose your ability to have your own agent. Register with your agent's name on your first visit, this protects your right to independent representation at no cost to you.",
   },
   {
     title: "Understand What's Actually Included",
@@ -72,11 +72,11 @@ const process = [
   },
   {
     title: "Understand Builder Financing Incentives",
-    desc: "Many builders offer rate buydowns or closing cost credits tied to using their preferred lender. These incentives can be valuable — but they may also come with trade-offs. We encourage buyers to get quotes from multiple lenders and compare the full picture before committing.",
+    desc: "Many builders offer rate buydowns or closing cost credits tied to using their preferred lender. These incentives can be valuable, but they may also come with trade-offs. We encourage buyers to get quotes from multiple lenders and compare the full picture before committing.",
   },
   {
     title: "Schedule Independent Inspections",
-    desc: "New construction is not immune to defects. We strongly recommend independent inspections at framing, rough-in, and final walkthrough — before the walls are closed and before your closing date. Catching issues during construction is far easier than after move-in.",
+    desc: "New construction is not immune to defects. We strongly recommend independent inspections at framing, rough-in, and final walkthrough, before the walls are closed and before your closing date. Catching issues during construction is far easier than after move-in.",
   },
   {
     title: "The Pre-Closing Walkthrough and Punch List",
@@ -87,23 +87,23 @@ const process = [
 const faqs = [
   {
     q: "Do I need my own agent when buying new construction?",
-    a: "Yes — and it costs you nothing extra. The builder pays the buyer's agent commission as part of the transaction. The builder's on-site agent represents the builder's interests, not yours. Having your own agent means someone is looking out for you during contract review, the options and upgrades process, inspections, and at closing.",
+    a: "Yes, and it costs you nothing extra. The builder pays the buyer's agent commission as part of the transaction. The builder's on-site agent represents the builder's interests, not yours. Having your own agent means someone is looking out for you during contract review, the options and upgrades process, inspections, and at closing.",
   },
   {
     q: "Can I negotiate with a builder?",
-    a: "It depends on the builder and the market. Builders rarely move on base price, but there is often room to negotiate on lot premiums, included upgrades, closing cost contributions, or design center allowances — especially if the builder has unsold inventory or is nearing the end of a community. An experienced agent knows where builders have historically had flexibility.",
+    a: "It depends on the builder and the market. Builders rarely move on base price, but there is often room to negotiate on lot premiums, included upgrades, closing cost contributions, or design center allowances, especially if the builder has unsold inventory or is nearing the end of a community. An experienced agent knows where builders have historically had flexibility.",
   },
   {
     q: "How long does new construction take?",
-    a: "Production homes typically take 6–12 months from contract to close, though timelines vary by builder and market conditions. Custom or semi-custom builds take longer. Builder contracts typically give the builder significant flexibility on delivery dates — it's important to understand your options if a timeline extends significantly.",
+    a: "Production homes typically take 6–12 months from contract to close, though timelines vary by builder and market conditions. Custom or semi-custom builds take longer. Builder contracts typically give the builder significant flexibility on delivery dates, it's important to understand your options if a timeline extends significantly.",
   },
   {
     q: "Is a home inspection necessary on a brand new home?",
-    a: "Absolutely. New construction homes can and do have defects — improper grading, HVAC issues, insulation gaps, plumbing problems, and more. An independent inspector has no relationship with the builder and will give you an objective assessment. We recommend inspections at framing, rough-in systems (before drywall), and final walkthrough at minimum.",
+    a: "Absolutely. New construction homes can and do have defects: improper grading, HVAC issues, insulation gaps, plumbing problems, and more. An independent inspector has no relationship with the builder and will give you an objective assessment. We recommend inspections at framing, rough-in systems (before drywall), and final walkthrough at minimum.",
   },
   {
     q: "What is a new construction warranty?",
-    a: "Michigan requires builders to provide statutory warranty coverage on new homes — typically 1 year on workmanship, 2 years on mechanical systems, and 10 years on structural defects. Builder warranty terms and processes vary, and it's important to understand what's covered, how to file claims, and what the builder's history is with warranty service.",
+    a: "Michigan requires builders to provide statutory warranty coverage on new homes: typically 1 year on workmanship, 2 years on mechanical systems, and 10 years on structural defects. Builder warranty terms and processes vary, and it's important to understand what's covered, how to file claims, and what the builder's history is with warranty service.",
   },
   {
     q: "Can I use my own lender for new construction?",
@@ -141,10 +141,10 @@ export default function NewConstructionPage() {
             <span className="text-[#c70000]">You Need Your Own Agent.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-5">
-            The builder&apos;s on-site agent works for the builder — not for you. Buyer representation on new construction is free to you and makes a meaningful difference at every step of the process.
+            The builder&apos;s on-site agent works for the builder, not for you. Buyer representation on new construction is free to you and makes a meaningful difference at every step of the process.
           </p>
           <p className="text-white/60 text-base max-w-2xl leading-relaxed mb-8">
-            From contract review and upgrade negotiation to independent inspections and punch list walkthroughs — we guide new construction buyers through a process that&apos;s more complex than most people expect.
+            From contract review and upgrade negotiation to independent inspections and punch list walkthroughs, we guide new construction buyers through a process that&apos;s more complex than most people expect.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -176,7 +176,7 @@ export default function NewConstructionPage() {
               },
               {
                 heading: "The Builder's Agent Works for the Builder",
-                body: "On-site sales agents are employed by the builder. Their job is to sell you on the community, the upgrades, and the contract — on the builder's terms. They cannot advise you on contract risk, inspection strategy, or negotiating against the builder.",
+                body: "On-site sales agents are employed by the builder. Their job is to sell you on the community, the upgrades, and the contract, on the builder's terms. They cannot advise you on contract risk, inspection strategy, or negotiating against the builder.",
               },
               {
                 heading: "The Contract Is Written Against You",
@@ -234,7 +234,7 @@ export default function NewConstructionPage() {
               The New Construction Process
             </h2>
             <p className="mt-4 text-gray-500 max-w-xl mx-auto text-sm">
-              New construction has more steps — and more decisions — than a standard resale purchase. Here&apos;s what to expect.
+              New construction has more steps, and more decisions, than a standard resale purchase. Here&apos;s what to expect.
             </p>
           </div>
           <div className="space-y-8">
@@ -354,7 +354,7 @@ export default function NewConstructionPage() {
       <section className="py-6 px-4 sm:px-6 bg-white border-t border-gray-100">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xs text-gray-400 leading-relaxed">
-            Price ranges are approximate and reflect general market conditions — they are not guarantees of value or availability. Builder terms, warranty coverage, and financing incentives vary by builder and community and should be independently verified. Oak &amp; Stone Real Estate is committed to compliance with the Fair Housing Act and all applicable fair housing laws. Equal Housing Opportunity.
+            Price ranges are approximate and reflect general market conditions, they are not guarantees of value or availability. Builder terms, warranty coverage, and financing incentives vary by builder and community and should be independently verified. Oak &amp; Stone Real Estate is committed to compliance with the Fair Housing Act and all applicable fair housing laws. Equal Housing Opportunity.
           </p>
         </div>
       </section>

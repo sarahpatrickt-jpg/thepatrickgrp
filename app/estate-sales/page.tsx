@@ -25,7 +25,7 @@ const whatWeHandle = [
   },
   {
     title: "Property Assessment and Pricing",
-    desc: "Estate homes often haven't been updated in years, may need repairs, or have deferred maintenance. We provide an honest, documented market analysis that accounts for condition — so the estate receives fair value without leaving money on the table.",
+    desc: "Estate homes often haven't been updated in years, may need repairs, or have deferred maintenance. We provide an honest, documented market analysis that accounts for condition, so the estate receives fair value without leaving money on the table.",
   },
   {
     title: "Working with Executors and Trustees",
@@ -33,7 +33,7 @@ const whatWeHandle = [
   },
   {
     title: "Preparing the Property for Sale",
-    desc: "Estate homes frequently need cleaning, de-cluttering, minor repairs, or staging. We can coordinate trusted vendors — and tell you honestly what's worth doing and what isn't, so you don't over-invest.",
+    desc: "Estate homes frequently need cleaning, de-cluttering, minor repairs, or staging. We can coordinate trusted vendors, and tell you honestly what's worth doing and what isn't, so you don't over-invest.",
   },
   {
     title: "Managing Family Dynamics",
@@ -41,7 +41,7 @@ const whatWeHandle = [
   },
   {
     title: "Full Marketing Execution",
-    desc: "Estate properties deserve the same professional marketing as any other listing. Professional photography, 300-agent outreach, custom property website, and 15-platform syndication — regardless of price point.",
+    desc: "Estate properties deserve the same professional marketing as any other listing. Professional photography, 300-agent outreach, custom property website, and 15-platform syndication, regardless of price point.",
   },
 ];
 
@@ -52,7 +52,7 @@ const estateProcess = [
   },
   {
     title: "Property Walkthrough and Honest Assessment",
-    desc: "We visit the home, assess its condition honestly, and give the estate a realistic picture of value — including what improvements are worth making and which aren't.",
+    desc: "We visit the home, assess its condition honestly, and give the estate a realistic picture of value, including what improvements are worth making and which aren't.",
   },
   {
     title: "Preparing the Property for Market",
@@ -60,7 +60,7 @@ const estateProcess = [
   },
   {
     title: "Listing and Full-Market Exposure",
-    desc: "We list at the right price, at the right time, with the full marketing toolkit. Every decision is made to maximize the estate's return — not to move the property quickly at a discount.",
+    desc: "We list at the right price, at the right time, with the full marketing toolkit. Every decision is made to maximize the estate's return, not to move the property quickly at a discount.",
   },
   {
     title: "Managing Offers Through Closing",
@@ -75,19 +75,19 @@ const faqs = [
   },
   {
     q: "What happens if the heirs disagree about selling the home?",
-    a: "This is more common than most people expect. In some cases, heirs must reach agreement — and that can delay or complicate the sale. In others, the executor has clear legal authority to proceed. We work with the executor and the estate's attorney to move forward within the bounds of what's legally permitted. We stay neutral and professional throughout.",
+    a: "This is more common than most people expect. In some cases, heirs must reach agreement, and that can delay or complicate the sale. In others, the executor has clear legal authority to proceed. We work with the executor and the estate's attorney to move forward within the bounds of what's legally permitted. We stay neutral and professional throughout.",
   },
   {
-    q: "The home is in poor condition — is it worth fixing it up before listing?",
-    a: "Sometimes yes, sometimes no. It depends on the cost of repairs versus the likely increase in sale price — and on the estate's timeline and budget. We'll walk through the property with you, give you an honest recommendation, and help coordinate trusted contractors for anything that genuinely improves value.",
+    q: "The home is in poor condition, is it worth fixing it up before listing?",
+    a: "Sometimes yes, sometimes no. It depends on the cost of repairs versus the likely increase in sale price, and on the estate's timeline and budget. We'll walk through the property with you, give you an honest recommendation, and help coordinate trusted contractors for anything that genuinely improves value.",
   },
   {
     q: "How is an estate sale priced differently from a regular home sale?",
-    a: "The pricing process is the same — we do a full comparative market analysis. However, we factor in the property's condition, the legal timeline, and whether the estate has flexibility on timing. A well-priced estate property that's properly prepared sells well in today's market. The goal is always to maximize the estate's return, not just to move the property quickly.",
+    a: "The pricing process is the same, we do a full comparative market analysis. However, we factor in the property's condition, the legal timeline, and whether the estate has flexibility on timing. A well-priced estate property that's properly prepared sells well in today's market. The goal is always to maximize the estate's return, not just to move the property quickly.",
   },
   {
     q: "Can you help with the personal property inside the home as well?",
-    a: "We can refer you to trusted estate sale companies who handle personal property — furniture, contents, and collectibles — separately from the real estate transaction. We can also advise on sequencing: whether to hold the estate sale before or after listing, which depends on the property's condition and how quickly it needs to sell.",
+    a: "We can refer you to trusted estate sale companies who handle personal property: furniture, contents, and collectibles, separately from the real estate transaction. We can also advise on sequencing: whether to hold the estate sale before or after listing, which depends on the property's condition and how quickly it needs to sell.",
   },
 ];
 
@@ -114,7 +114,7 @@ const executorChecklist = [
   },
   {
     title: "Address Personal Property",
-    desc: "Decide what will be distributed to heirs, donated, or sold through an estate sale company. This should happen before or during the listing preparation — not after an offer is accepted.",
+    desc: "Decide what will be distributed to heirs, donated, or sold through an estate sale company. This should happen before or during the listing preparation, not after an offer is accepted.",
   },
   {
     title: "Assess Repairs vs. Sell As-Is",
@@ -150,7 +150,7 @@ export default function EstateSalesPage() {
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-6">
             Managing the sale of a loved one&apos;s home requires patience,
             legal awareness, and local market expertise. We&apos;ve guided
-            families through this before — with calm, structure, and no
+            families through this before, with calm, structure, and no
             added pressure during an already difficult time.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-white/60 mb-8">
@@ -226,7 +226,7 @@ export default function EstateSalesPage() {
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed">
                   All consultations are completely confidential. We can meet
-                  at the property, at our office, or by phone — whatever
+                  at the property, at our office, or by phone, whatever
                   works best for the executor and the estate.
                 </p>
               </div>
@@ -327,7 +327,7 @@ export default function EstateSalesPage() {
               <a href="tel:2487553545" className="text-[#c70000] font-semibold hover:underline">
                 248.755.3545
               </a>{" "}
-              — we&apos;ll walk you through where you are in the process and what needs to happen next.
+, we&apos;ll walk you through where you are in the process and what needs to happen next.
             </p>
           </div>
         </div>

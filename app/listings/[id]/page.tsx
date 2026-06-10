@@ -1,5 +1,5 @@
 /**
- * /listings/[id] — Single listing detail page.
+ * /listings/[id]. Single listing detail page.
  *
  * Shows full photo gallery, key specs, and a CTA to view the listing on Oak & Stone
  * for additional details or to schedule a showing.
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${listing.address}, ${listing.city}, MI — ${fmtPrice(listing.listPrice)}`,
+    title: `${listing.address}, ${listing.city}, MI, ${fmtPrice(listing.listPrice)}`,
     description: `${listing.beds} bed, ${listing.baths} bath home for sale in ${listing.city}, MI. Listed at ${fmtPrice(listing.listPrice)}.`,
     alternates: {
       canonical: `https://www.thepatrickgrp.com/listings/${listing.id}`,
@@ -184,7 +184,7 @@ export default async function ListingDetailPage({ params }: PageProps) {
             {[
               { label: "Bedrooms", value: fmtNumber(listing.beds) },
               { label: "Bathrooms", value: fmtNumber(listing.baths) },
-              { label: "Square Feet", value: listing.sqft > 0 ? fmtNumber(listing.sqft) : "—" },
+              { label: "Square Feet", value: listing.sqft > 0 ? fmtNumber(listing.sqft) : "n/a" },
               { label: "Property Type", value: listing.propertyType },
             ].map((spec, i) => (
               <div

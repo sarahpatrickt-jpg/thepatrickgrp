@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import FaqPageClient from "@/components/FaqPageClient";
 
 export const metadata: Metadata = {
-  title: "FAQ — Southeast Michigan Real Estate | Rochester, MI",
+  title: "FAQ. Southeast Michigan Real Estate | Rochester, MI",
   description:
-    "Common real estate questions answered by The Patrick Group — Sarah Patrick (Principal Broker) and Brad Patrick (Realtor®). Southeast Michigan.",
+    "Common real estate questions answered by The Patrick Group. Sarah Patrick (Principal Broker) and Brad Patrick (Realtor®). Southeast Michigan.",
   alternates: { canonical: "https://www.thepatrickgrp.com/faq" },
   robots: {
     index: true,
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/faq",
-    title: "FAQ — Southeast Michigan Real Estate",
+    title: "FAQ. Southeast Michigan Real Estate",
     description:
-      "Common questions about buying, selling, and working with The Patrick Group — Southeast Michigan's boutique real estate team led by Sarah Patrick and Brad Patrick.",
+      "Common questions about buying, selling, and working with The Patrick Group. Southeast Michigan's boutique real estate team led by Sarah Patrick and Brad Patrick.",
     siteName: "The Patrick Group",
   },
 };
@@ -66,7 +66,7 @@ const faqSchema = {
       award: [
         "Hour Detroit Real Estate All-Stars",
         "Real Producers Top 300 (2026)",
-        "Real Producers Magazine Cover Feature — Brad Patrick, April 2026",
+        "Real Producers Magazine Cover Feature. Brad Patrick, April 2026",
       ],
       parentOrganization: {
         "@type": "Organization",
@@ -171,7 +171,7 @@ const faqSchema = {
           name: "How is The Patrick Group different from using Zillow or a large real estate team?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Patrick Group is a boutique operation — every client works directly with Sarah or Brad Patrick, not an anonymous agent assigned by an algorithm. They offer an Unconditional Release Guarantee (sellers can exit their listing contract at any time if unsatisfied), VIP pre-market access for buyers before listings hit Zillow, and deep specialization in complex situations that large platforms cannot handle personally.",
+            text: "The Patrick Group is a boutique operation, every client works directly with Sarah or Brad Patrick, not an anonymous agent assigned by an algorithm. They offer an Unconditional Release Guarantee (sellers can exit their listing contract at any time if unsatisfied), VIP pre-market access for buyers before listings hit Zillow, and deep specialization in complex situations that large platforms cannot handle personally.",
           },
         },
         {
@@ -179,7 +179,7 @@ const faqSchema = {
           name: "What is the Unconditional Release Guarantee?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Patrick Group's Unconditional Release Guarantee means that if you list your home with the team and are not completely satisfied with the service at any point, you can exit the listing agreement — no questions asked, no penalties.",
+            text: "The Patrick Group's Unconditional Release Guarantee means that if you list your home with the team and are not completely satisfied with the service at any point, you can exit the listing agreement, no questions asked, no penalties.",
           },
         },
         {
@@ -235,7 +235,7 @@ const faqSchema = {
           name: "Does The Patrick Group offer cash offers for homes?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. The Patrick Group offers a cash offer program for sellers who want speed and certainty — skip the showings, set your own close date, and avoid the uncertainty of traditional listings. Learn more at thepatrickgrp.com/cash-offer.",
+            text: "Yes. The Patrick Group offers a cash offer program for sellers who want speed and certainty: skip the showings, set your own close date, and avoid the uncertainty of traditional listings. Learn more at thepatrickgrp.com/cash-offer.",
           },
         },
         {
@@ -243,7 +243,7 @@ const faqSchema = {
           name: "Can The Patrick Group help me buy a new construction home?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. The Patrick Group represents buyers purchasing new construction homes in Southeast Michigan. Having your own agent when buying new construction is important — the builder's on-site agent works for the builder, not for you.",
+            text: "Yes. The Patrick Group represents buyers purchasing new construction homes in Southeast Michigan. Having your own agent when buying new construction is important, the builder's on-site agent works for the builder, not for you.",
           },
         },
         {

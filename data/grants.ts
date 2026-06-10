@@ -116,7 +116,7 @@ const MSHDA_TARGET_PURCHASE_LIMIT = 544_233; // MSHDA now applies one statewide 
 const OAKLAND_PURCHASE_LIMIT = 294_600;
 const DETROIT_PURCHASE_LIMIT = 265_000;
 
-// 80% AMI by county (2025-2026 HUD) — used for HomeReady/Home Possible
+// 80% AMI by county (2025-2026 HUD), used for HomeReady/Home Possible
 const AMI_80_BY_COUNTY: Record<County, Record<number, number>> = {
   Oakland: { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
   Macomb:  { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
@@ -138,7 +138,7 @@ function creditAtLeast(score: CreditScoreRange, min: number): boolean {
     "720-plus": 720,
     "not-sure": 0,
   };
-  // "not-sure" is NOT a pass — it's unknown. We mark it as a soft flag.
+  // "not-sure" is NOT a pass, it's unknown. We mark it as a soft flag.
   if (score === "not-sure") return false;
   return map[score] >= min;
 }
@@ -186,7 +186,7 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score of 640+ required — verify yours before applying");
+        missing.push("Credit score of 640+ required, verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
         missing.push("Purchase price must be under $544,233");
       return { eligible: missing.length === 0, missing };
@@ -220,10 +220,10 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score of 640+ required — verify yours before applying");
+        missing.push("Credit score of 640+ required, verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
         missing.push("Purchase price must be under $544,233");
-      // As of 2026 the MI 10K DPA is available statewide — the targeted-zip restriction no longer applies
+      // As of 2026 the MI 10K DPA is available statewide, the targeted-zip restriction no longer applies
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -235,7 +235,7 @@ export const programs: GrantProgram[] = [
     description:
       "Oakland County Community Development provides a direct grant of up to $5,000 for down payment and closing costs. This does not need to be repaid. Available to income-qualified first-time buyers purchasing in Oakland County.",
     highlights: [
-      "True grant — does not need to be repaid",
+      "True grant: does not need to be repaid",
       "Up to $5,000 for down payment or closing costs",
       "Specifically for Oakland County purchases",
     ],
@@ -270,7 +270,7 @@ export const programs: GrantProgram[] = [
     description:
       "The City of Detroit offers up to $25,000 in down payment and closing cost assistance for buyers purchasing within the city. One of the most generous municipal DPA programs in the state.",
     highlights: [
-      "Up to $25,000 — one of Michigan's largest",
+      "Up to $25,000, one of Michigan's largest",
       "Forgivable over 5-10 years",
       "Available for purchases within Detroit city limits",
       "Can be combined with other programs",
@@ -438,7 +438,7 @@ export const programs: GrantProgram[] = [
     amount: "Up to $25,000",
     type: "forgivable-loan",
     description:
-      "MSHDA's First-Generation Down Payment Assistance pilot offered up to $25,000 for first-generation homebuyers (those whose parents never owned a home). Funding is currently exhausted — but this program may be renewed. Worth monitoring.",
+      "MSHDA's First-Generation Down Payment Assistance pilot offered up to $25,000 for first-generation homebuyers (those whose parents never owned a home). Funding is currently exhausted, but this program may be renewed. Worth monitoring.",
     highlights: [
       "Up to $25,000 in assistance",
       "Designed for first-generation homebuyers",
@@ -452,10 +452,10 @@ export const programs: GrantProgram[] = [
     ],
     url: "https://www.michigan.gov/mshda/pathway-to-housing/firstgendpa",
     qualify: () => {
-      // Funding exhausted — always near-miss so users know it exists
+      // Funding exhausted, always near-miss so users know it exists
       return {
         eligible: false,
-        missing: ["Funding currently exhausted (depleted May 2025) — no renewal announced as of mid-2026; check back"],
+        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of mid-2026; check back"],
       };
     },
   },
@@ -516,7 +516,7 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ recommended");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score of 640+ recommended — verify yours before applying");
+        missing.push("Credit score of 640+ recommended, verify yours before applying");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -574,7 +574,7 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score of 620+ required — verify yours before applying");
+        missing.push("Credit score of 620+ required, verify yours before applying");
       const amiTable = AMI_80_BY_COUNTY[p.county];
       const amiLimit = getIncomeLimit(amiTable, p.householdSize);
       if (p.annualIncome > amiLimit)
@@ -595,7 +595,7 @@ export const programs: GrantProgram[] = [
     description:
       "Chase offers up to $7,500 in grant funds toward down payment and closing costs for homebuyers purchasing in eligible areas. This is a true grant that does not need to be repaid. Available through Chase mortgage origination.",
     highlights: [
-      "True grant — no repayment required",
+      "True grant, no repayment required",
       "Up to $7,500 toward down payment or closing costs",
       "Available in eligible census tracts",
       "Must originate mortgage through Chase",
@@ -612,8 +612,8 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ typically required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply — verify yours before applying");
-      missing.push("Property must be in a Chase-eligible census tract — ask a Chase loan officer to verify");
+        missing.push("Credit score requirements apply, verify yours before applying");
+      missing.push("Property must be in a Chase-eligible census tract, ask a Chase loan officer to verify");
       return { eligible: false, missing };
     },
   },
@@ -642,8 +642,8 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ typically required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply — verify yours before applying");
-      missing.push("Property must be in a Wells Fargo-eligible area — ask a Wells Fargo loan officer to verify");
+        missing.push("Credit score requirements apply, verify yours before applying");
+      missing.push("Property must be in a Wells Fargo-eligible area, ask a Wells Fargo loan officer to verify");
       return { eligible: false, missing };
     },
   },
@@ -677,7 +677,7 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ typically required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply — verify yours before applying");
+        missing.push("Credit score requirements apply, verify yours before applying");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -712,7 +712,7 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score of 620+ required — verify yours before applying");
+        missing.push("Credit score of 620+ required, verify yours before applying");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -749,7 +749,7 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ typically required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply — verify yours before applying");
+        missing.push("Credit score requirements apply, verify yours before applying");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -764,7 +764,7 @@ export const programs: GrantProgram[] = [
       "Up to $25,000 in assistance",
       "Targeted toward minority and first-gen buyers",
       "Available through participating lenders",
-      "Grant — no repayment required",
+      "Grant, no repayment required",
     ],
     requirements: [
       "Minority or first-generation homebuyer",
@@ -776,7 +776,7 @@ export const programs: GrantProgram[] = [
     qualify: (p) => {
       const missing: string[] = [];
       // Cannot determine minority/first-gen status from current profile
-      missing.push("Must be a minority or first-generation homebuyer — ask your lender about FHLB HomeBoost eligibility");
+      missing.push("Must be a minority or first-generation homebuyer, ask your lender about FHLB HomeBoost eligibility");
       return { eligible: false, missing };
     },
   },
@@ -805,8 +805,8 @@ export const programs: GrantProgram[] = [
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 620+ typically required");
       if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply — verify yours before applying");
-      missing.push("Property must be in a Flagstar community lending area — ask a Flagstar loan officer to verify");
+        missing.push("Credit score requirements apply, verify yours before applying");
+      missing.push("Property must be in a Flagstar community lending area, ask a Flagstar loan officer to verify");
       return { eligible: false, missing };
     },
   },

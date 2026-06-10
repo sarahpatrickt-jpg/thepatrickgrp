@@ -30,7 +30,7 @@ export default function ExitIntentPopup() {
   useEffect(() => {
     if (alreadyShown()) return;
 
-    // Single-fire trigger — once called, removes the listener and clears the timer
+    // Single-fire trigger, once called, removes the listener and clears the timer
     let fired = false;
     const trigger = () => {
       if (fired || alreadyShown()) return;
@@ -99,7 +99,7 @@ export default function ExitIntentPopup() {
             Thinking About Making a Move?
           </h2>
           <p className="text-gray-500 text-sm mb-8 leading-relaxed">
-            Tell us where you are — we&apos;ll send you exactly the right
+            Tell us where you are, we&apos;ll send you exactly the right
             information. No pressure, no spam.
           </p>
 
@@ -140,7 +140,7 @@ export default function ExitIntentPopup() {
               onClick={dismiss}
               className="text-xs text-gray-400 hover:text-gray-600 underline underline-offset-2 transition-colors"
             >
-              Just browsing — no thanks
+              Just browsing, no thanks
             </button>
           </p>
         </div>

@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${city.name}, MI Real Estate Guide | The Patrick Group`,
-    description: `${city.name}, Michigan real estate — median prices, market stats, school district, and local insights from The Patrick Group. ${city.county} County specialists.`,
+    description: `${city.name}, Michigan real estate: median prices, market stats, school district, and local insights from The Patrick Group. ${city.county} County specialists.`,
     alternates: {
       canonical: `https://www.thepatrickgrp.com/neighborhoods/${city.slug}`,
     },
@@ -173,12 +173,12 @@ export default async function CityPage({ params }: Props) {
               className="font-editorial italic"
               style={{ fontSize: "20px", color: "var(--ink-2)", lineHeight: "1.5" }}
             >
-              &ldquo;We&apos;re expanding our coverage here — a full neighborhood guide for{" "}
+              &ldquo;We&apos;re expanding our coverage here, a full neighborhood guide for{" "}
               {displayName} is coming soon.&rdquo;
             </p>
             <p className="mt-5 text-sm leading-relaxed" style={{ color: "var(--ink-3)" }}>
               In the meantime, our team is actively working with buyers and sellers in{" "}
-              {displayName} and the surrounding area. Reach out directly — we&apos;d love
+              {displayName} and the surrounding area. Reach out directly, we&apos;d love
               to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
@@ -220,7 +220,7 @@ export default async function CityPage({ params }: Props) {
     );
   }
 
-  // Unknown slug — true 404
+  // Unknown slug, true 404
   if (!city) notFound();
 
   const nearbyCities = city.nearbySlugsSee
@@ -534,7 +534,7 @@ export default async function CityPage({ params }: Props) {
                   Downsizing
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
-                  Right-sizing your home in Southeast Michigan — sell your {city.name} property and find your next chapter.
+                  Right-sizing your home in Southeast Michigan, sell your {city.name} property and find your next chapter.
                 </p>
               </Link>
               <Link
@@ -545,7 +545,7 @@ export default async function CityPage({ params }: Props) {
                   Cash Offer Program
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
-                  Get a no-obligation cash offer on your {city.name} home in 48 hours — no showings, no repairs.
+                  Get a no-obligation cash offer on your {city.name} home in 48 hours, no showings, no repairs.
                 </p>
               </Link>
               <Link
@@ -556,7 +556,7 @@ export default async function CityPage({ params }: Props) {
                   Homebuyer Grants &amp; DPA
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
-                  Check which Michigan down payment assistance programs you qualify for — free, instant results.
+                  Check which Michigan down payment assistance programs you qualify for, free, instant results.
                 </p>
               </Link>
             </div>
@@ -628,7 +628,7 @@ export default async function CityPage({ params }: Props) {
                 Let&apos;s Have a Real Conversation
               </h2>
               <p className="text-white/70 text-sm mb-5">
-                Whether you&apos;re buying, selling, or just figuring out the market — we give you straight information and no pressure. Call us or explore listings now.
+                Whether you&apos;re buying, selling, or just figuring out the market, we give you straight information and no pressure. Call us or explore listings now.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a

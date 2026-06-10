@@ -25,15 +25,15 @@ const whatWeHandle = [
   },
   {
     title: "Buyout Valuations",
-    desc: "If one spouse is buying out the other, you need an accurate, defensible market value — not a Zestimate. We provide documented comparative market analyses suitable for legal proceedings.",
+    desc: "If one spouse is buying out the other, you need an accurate, defensible market value, not a Zestimate. We provide documented comparative market analyses suitable for legal proceedings.",
   },
   {
     title: "Direct Attorney Coordination",
-    desc: "We work directly alongside Southeast Michigan family law attorneys — sharing documentation, meeting legal deadlines, and keeping all parties informed. We make your attorney's job easier, not harder.",
+    desc: "We work directly alongside Southeast Michigan family law attorneys: sharing documentation, meeting legal deadlines, and keeping all parties informed. We make your attorney's job easier, not harder.",
   },
   {
     title: "Equity Maximization",
-    desc: "Even in a difficult situation, you deserve top dollar. Our full listing marketing toolkit — professional photography, 300-agent outreach, 15-platform syndication — doesn't change because of the circumstances.",
+    desc: "Even in a difficult situation, you deserve top dollar. Our full listing marketing toolkit: professional photography, 300-agent outreach, 15-platform syndication, doesn't change because of the circumstances.",
   },
   {
     title: "Discrete, Professional Service",
@@ -41,14 +41,14 @@ const whatWeHandle = [
   },
   {
     title: "Timeline Sensitivity",
-    desc: "Divorce proceedings move on legal calendars. We work around your timeline — expediting when courts require it, and moving carefully when precision matters more than speed.",
+    desc: "Divorce proceedings move on legal calendars. We work around your timeline, expediting when courts require it, and moving carefully when precision matters more than speed.",
   },
 ];
 
 const faqs = [
   {
     q: "Do both spouses have to agree to list the home?",
-    a: "In most cases, yes — both parties must agree to list and accept an offer. In court-ordered situations, the judge may authorize the sale regardless of one party's objection. We've worked in both scenarios and know how to navigate them.",
+    a: "In most cases, yes, both parties must agree to list and accept an offer. In court-ordered situations, the judge may authorize the sale regardless of one party's objection. We've worked in both scenarios and know how to navigate them.",
   },
   {
     q: "Can you work with just one spouse if we can't communicate?",
@@ -56,11 +56,11 @@ const faqs = [
   },
   {
     q: "How do you handle the proceeds?",
-    a: "Proceeds are handled at closing through a licensed title company. The division of proceeds follows the separation agreement or court order — we ensure the right amounts go to the right parties. Contact us for a list of our trusted service providers.",
+    a: "Proceeds are handled at closing through a licensed title company. The division of proceeds follows the separation agreement or court order, we ensure the right amounts go to the right parties. Contact us for a list of our trusted service providers.",
   },
   {
     q: "What if we disagree on list price?",
-    a: "This is common. We provide a detailed, documented comparative market analysis and present it to both parties separately if needed. Our goal is an objective, defensible price — not one that favors either side.",
+    a: "This is common. We provide a detailed, documented comparative market analysis and present it to both parties separately if needed. Our goal is an objective, defensible price, not one that favors either side.",
   },
   {
     q: "Do I need a special type of agent for divorce real estate?",
@@ -68,22 +68,22 @@ const faqs = [
   },
   {
     q: "What makes The Patrick Group different for divorce real estate in Southeast Michigan?",
-    a: "Three things: volume, attorney relationships, and broker-level accountability. We handle numerous divorce transactions annually — this isn't a niche we've dabbled in, it's a process we know. We work directly alongside local Southeast Michigan family law attorneys, coordinating documentation and deadlines so real estate doesn't slow down your legal proceedings. And every transaction is led by Sarah Patrick, Principal Broker and Owner — not handed off to a junior agent. When your attorney has a question, they reach the decision-maker directly.",
+    a: "Three things: volume, attorney relationships, and broker-level accountability. We handle numerous divorce transactions annually, this isn't a niche we've dabbled in, it's a process we know. We work directly alongside local Southeast Michigan family law attorneys, coordinating documentation and deadlines so real estate doesn't slow down your legal proceedings. And every transaction is led by Sarah Patrick, Principal Broker and Owner, not handed off to a junior agent. When your attorney has a question, they reach the decision-maker directly.",
   },
   {
     q: "Do you work with divorce attorneys in Southeast Michigan?",
-    a: "Yes. We coordinate directly with local family law attorneys throughout the process — sharing documentation, aligning on timelines, and communicating on behalf of clients when direct communication between spouses isn't possible. If you're working with a divorce attorney in Southeast Michigan, we're experienced at fitting into that process without adding friction.",
+    a: "Yes. We coordinate directly with local family law attorneys throughout the process: sharing documentation, aligning on timelines, and communicating on behalf of clients when direct communication between spouses isn't possible. If you're working with a divorce attorney in Southeast Michigan, we're experienced at fitting into that process without adding friction.",
   },
 ];
 
 const checklist = [
   {
     title: "Determine Legal Authority to Sell",
-    desc: "Before anything else, confirm who has the legal right to list the property. In Michigan, both parties typically must agree — unless a court order authorizes the sale. Your attorney can confirm your authority.",
+    desc: "Before anything else, confirm who has the legal right to list the property. In Michigan, both parties typically must agree, unless a court order authorizes the sale. Your attorney can confirm your authority.",
   },
   {
     title: "Get a Documented Market Valuation",
-    desc: "Request a comparative market analysis (CMA) from a licensed agent — not a Zestimate. This establishes a defensible value for negotiations, buyout calculations, or court proceedings.",
+    desc: "Request a comparative market analysis (CMA) from a licensed agent, not a Zestimate. This establishes a defensible value for negotiations, buyout calculations, or court proceedings.",
   },
   {
     title: "Decide: Sell, Buyout, or Retain",
@@ -103,7 +103,7 @@ const checklist = [
   },
   {
     title: "Prepare the Home for Market",
-    desc: "Even in a divorce sale, presentation matters. Agree on a reasonable preparation plan — cleaning, minor repairs, and staging if appropriate — to protect the equity both parties share.",
+    desc: "Even in a divorce sale, presentation matters. Agree on a reasonable preparation plan: cleaning, minor repairs, and staging if appropriate, to protect the equity both parties share.",
   },
   {
     title: "Review and Accept an Offer Together",
@@ -134,7 +134,7 @@ export default function DivorceRealEstatePage() {
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">
             Navigating a divorce is hard enough. Selling the family home doesn&apos;t
-            have to make it harder. We provide calm, discreet, expert guidance —
+            have to make it harder. We provide calm, discreet, expert guidance 
             for both parties or one.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-white/60 mb-8">
@@ -180,7 +180,7 @@ export default function DivorceRealEstatePage() {
               <p className="text-gray-600 leading-relaxed mb-4">
                 The Patrick Group handles numerous divorce real estate transactions
                 every year in Southeast Michigan. We work directly alongside local
-                family law attorneys — coordinating documentation, deadlines, and
+                family law attorneys: coordinating documentation, deadlines, and
                 communication so your legal proceedings move forward without
                 real estate becoming the bottleneck.
               </p>
@@ -189,7 +189,7 @@ export default function DivorceRealEstatePage() {
                 Principal Broker and Owner of Oak and Stone Real Estate. That matters
                 because a broker-owner carries a level of accountability and legal
                 authority that a typical agent cannot. When attorneys need answers,
-                they get them directly — not from a junior team member reading a script.
+                they get them directly, not from a junior team member reading a script.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Zillow can&apos;t help you here. A national portal agent who bought
@@ -262,7 +262,7 @@ export default function DivorceRealEstatePage() {
             </h2>
             <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
               Every divorce home sale is different, but these are the steps most Michigan families
-              need to address. Use this as a starting point — we can walk you through each one.
+              need to address. Use this as a starting point, we can walk you through each one.
             </p>
           </div>
 
@@ -321,7 +321,7 @@ export default function DivorceRealEstatePage() {
         </div>
       </section>
 
-      {/* FAQ — AI SEO optimized with FAQ schema */}
+      {/* FAQ. AI SEO optimized with FAQ schema */}
       <section className="py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">

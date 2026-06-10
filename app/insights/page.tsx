@@ -3,7 +3,7 @@ import Link from "next/link";
 import { posts } from "@/data/posts";
 
 export const metadata: Metadata = {
-  title: "Insights — Southeast Michigan Real Estate",
+  title: "Insights. Southeast Michigan Real Estate",
   description:
     "Market updates, buyer and seller tips, and local real estate insights from The Patrick Group in Southeast Michigan.",
   alternates: { canonical: "https://www.thepatrickgrp.com/insights" },
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: "https://www.thepatrickgrp.com/insights",
     title: "Insights",
     description:
-      "Market updates and real estate guidance from Sarah Patrick and Brad Patrick — Southeast Michigan's boutique real estate team.",
+      "Market updates and real estate guidance from Sarah Patrick and Brad Patrick. Southeast Michigan's boutique real estate team.",
     siteName: "The Patrick Group",
   },
 };
@@ -162,7 +162,7 @@ export default function InsightsPage() {
             </h2>
             <p className="text-white/70 text-sm mb-6 max-w-sm mx-auto">
               Southeast Michigan market updates, new listings, and real estate
-              insights — delivered to your inbox every week.
+              insights, delivered to your inbox every week.
             </p>
             <Link
               href="/newsletter"

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Southeast Michigan Real Estate Market Report — April 2026",
+  title: "Southeast Michigan Real Estate Market Report: April 2026",
   description:
-    "April 2026 Southeast Michigan market report — median sale price, price per sq ft, and days on market across Oakland, Macomb, Wayne, Washtenaw, and Livingston counties.",
+    "April 2026 Southeast Michigan market report: median sale price, price per sq ft, and days on market across Oakland, Macomb, Wayne, Washtenaw, and Livingston counties.",
   alternates: { canonical: "https://www.thepatrickgrp.com/market-updates/april-2026" },
 };
 
@@ -19,7 +19,7 @@ const counties = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Southeast Michigan Real Estate Market Report — April 2026",
+  headline: "Southeast Michigan Real Estate Market Report: April 2026",
   description: "April 2026 real estate market data for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties.",
   datePublished: "2026-04-01",
   dateModified: "2026-05-22",
@@ -60,7 +60,7 @@ export default function AprilReport() {
             Southeast Michigan · Realcomp · April 2026
           </p>
           <h1 className="font-display mt-3" style={{ fontSize: "clamp(36px, 5vw, 68px)", lineHeight: "1", letterSpacing: "-0.02em", color: "#FDFBF7" }}>
-            Market Report —{" "}
+            Market Report:{" "}
             <em style={{ color: "var(--red)", fontStyle: "italic" }}>April 2026</em>
           </h1>
           <p className="font-editorial italic mt-4" style={{ fontSize: "17px", color: "rgba(253,251,247,0.5)", maxWidth: 520 }}>
@@ -155,14 +155,14 @@ export default function AprilReport() {
               <div className="space-y-4">
                 {[
                   { bold: "Prices up across all five counties", body: "led by Wayne (+7.7%) and Oakland (+4.0%). Every market is appreciating." },
-                  { bold: "Livingston overtakes Washtenaw", body: "on median price for the first time — $458k vs $425k. The outer ring is catching up." },
+                  { bold: "Livingston overtakes Washtenaw", body: "on median price for the first time, $458k vs $425k. The outer ring is catching up." },
                   { bold: "DOM is splitting hard", body: "Macomb +50% and Wayne +25% are slowing significantly. Livingston is actually moving faster (-10%). Oakland stays tight at 10 days." },
                   { bold: "Price per sqft mixed", body: "Wayne leads at +5.1% YoY. Washtenaw is the only county where $/sqft dipped (-2.2%)." },
                 ].map((t) => (
                   <div key={t.bold} className="flex gap-4">
                     <div style={{ width: 2, minWidth: 2, backgroundColor: "var(--red)", marginTop: 4 }} />
                     <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.6" }}>
-                      <strong style={{ color: "var(--ink)" }}>{t.bold}</strong> — {t.body}
+                      <strong style={{ color: "var(--ink)" }}>{t.bold}</strong> {t.body}
                     </p>
                   </div>
                 ))}
@@ -173,7 +173,7 @@ export default function AprilReport() {
             <div className="p-8" style={{ backgroundColor: "var(--paper)", border: "1px solid var(--line)" }}>
               <p className={eyebrow + " mb-4"} style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}>From the Broker</p>
               <blockquote className="font-editorial italic" style={{ fontSize: "18px", lineHeight: "1.55", color: "var(--ink)" }}>
-                &ldquo;Macomb DOM is up 50% YoY. That market is shifting. Sellers pricing to 2024 comps are sitting. Oakland is still tight — know your county before you price.&rdquo;
+                &ldquo;Macomb DOM is up 50% YoY. That market is shifting. Sellers pricing to 2024 comps are sitting. Oakland is still tight, know your county before you price.&rdquo;
               </blockquote>
               <div className="flex items-center gap-3 mt-6">
                 <div style={{ width: 1, height: 28, backgroundColor: "var(--red)" }} />
@@ -193,13 +193,13 @@ export default function AprilReport() {
           <div className="p-8" style={{ borderRight: "1px solid var(--line)" }}>
             <p className={eyebrow + " mb-4"} style={{ color: "var(--red)", fontFamily: "var(--font-mono, monospace)" }}>For Buyers</p>
             <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.7" }}>
-              Macomb and Wayne are giving you more time — but prices are still rising. Oakland at 10 days means well-priced homes there still move fast. Get pre-approved and be ready to act, especially in Oakland and Livingston.
+              Macomb and Wayne are giving you more time, but prices are still rising. Oakland at 10 days means well-priced homes there still move fast. Get pre-approved and be ready to act, especially in Oakland and Livingston.
             </p>
           </div>
           <div className="p-8">
             <p className={eyebrow + " mb-4"} style={{ color: "var(--red)", fontFamily: "var(--font-mono, monospace)" }}>For Sellers</p>
             <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.7" }}>
-              Oakland and Livingston — properly priced homes are selling in under two weeks. In Macomb and Wayne, expect a longer runway and invest in presentation. Pricing to 2024 comps in a slowing market is the most expensive mistake you can make.
+              Oakland and Livingston, properly priced homes are selling in under two weeks. In Macomb and Wayne, expect a longer runway and invest in presentation. Pricing to 2024 comps in a slowing market is the most expensive mistake you can make.
             </p>
           </div>
         </div>

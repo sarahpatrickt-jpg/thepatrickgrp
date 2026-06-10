@@ -6,14 +6,14 @@ import TikTokEmbed from "@/components/TikTokEmbed";
 export const metadata: Metadata = {
   title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
   description:
-    "Meet Sarah Patrick, Brad Patrick, and The Patrick Group — Southeast Michigan's boutique real estate team. Results-driven service.",
+    "Meet Sarah Patrick, Brad Patrick, and The Patrick Group. Southeast Michigan's boutique real estate team. Results-driven service.",
   alternates: { canonical: "https://www.thepatrickgrp.com/about" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/about",
     title: "Meet The Patrick Group Team | Southeast Michigan Real Estate",
     description:
-      "Meet Sarah Patrick, Brad Patrick, and The Patrick Group — Southeast Michigan's boutique real estate team. Results-driven service.",
+      "Meet Sarah Patrick, Brad Patrick, and The Patrick Group. Southeast Michigan's boutique real estate team. Results-driven service.",
     siteName: "The Patrick Group",
   },
 };
@@ -25,17 +25,17 @@ const team = [
     photo: "/team/sarah-patrick.jpg",
     phone: "248.755.3545",
     email: "sarah@sarahpatrickhomes.com",
-    bio: `Sarah Patrick is the Principal Broker and Owner of Oak and Stone Real Estate and the driving force behind The Patrick Group — one of Southeast Michigan's most recognized real estate teams. With over 26 years of experience navigating every market cycle Metro Detroit has seen, Sarah has built a reputation on results and relationships.
+    bio: `Sarah Patrick is the Principal Broker and Owner of Oak and Stone Real Estate and the driving force behind The Patrick Group, one of Southeast Michigan's most recognized real estate teams. With over 26 years of experience navigating every market cycle Metro Detroit has seen, Sarah has built a reputation on results and relationships.
 
-A consecutive recipient of the Hour Detroit Real Estate All-Stars honor and a featured broker in Top Producers Magazine, Sarah's credentials speak for themselves. But what her clients remember most is the experience: bespoke, attentive service from an agent who genuinely knows the market — and genuinely cares about the outcome.
+A consecutive recipient of the Hour Detroit Real Estate All-Stars honor and a featured broker in Top Producers Magazine, Sarah's credentials speak for themselves. But what her clients remember most is the experience: bespoke, attentive service from an agent who genuinely knows the market, and genuinely cares about the outcome.
 
 As a broker-owner, Sarah brings a level of accountability to every transaction that a typical agent simply cannot offer. Whether she's guiding a family through a move-up purchase, navigating a sensitive divorce situation, or helping out-of-state buyers find their place in Southeast Michigan, her approach is the same: knowledgeable, calm, and entirely focused on you.`,
     credentials: [
-      "Principal Broker / Owner — Oak and Stone Real Estate",
+      "Principal Broker / Owner. Oak and Stone Real Estate",
       "Licensed since 2000",
-      "Hour Detroit Real Estate All-Stars — multiple years",
-      "Top Producers Magazine — February 2022 Feature",
-      "Award-winning service — Hour Detroit All-Stars",
+      "Hour Detroit Real Estate All-Stars, multiple years",
+      "Top Producers Magazine. February 2022 Feature",
+      "Award-winning service. Hour Detroit All-Stars",
     ],
   },
   {
@@ -44,18 +44,18 @@ As a broker-owner, Sarah brings a level of accountability to every transaction t
     photo: "/team/brad-patrick-2024.jpg",
     phone: "248.755.3545",
     email: "Brad@youragentbrad.net",
-    bio: `Brad Patrick brings a rare dual perspective to real estate: he started his career in the mortgage industry, which means he understands financing at the level most agents never reach. After graduating from Ferris State University and spending years in mortgages, refinancing, and debt consolidation, Brad made the natural move into real estate — and has spent 15+ years helping buyers and sellers throughout Southeast Michigan ever since.
+    bio: `Brad Patrick brings a rare dual perspective to real estate: he started his career in the mortgage industry, which means he understands financing at the level most agents never reach. After graduating from Ferris State University and spending years in mortgages, refinancing, and debt consolidation, Brad made the natural move into real estate, and has spent 15+ years helping buyers and sellers throughout Southeast Michigan ever since.
 
-As a Realtor with The Patrick Group and a featured agent in Real Producers Magazine — including the April 2026 cover — Brad is recognized as one of Southeast Michigan's top producers. His approach is built on deep market knowledge, patience, and a genuine commitment to fighting for his clients. Whether navigating a competitive multiple-offer situation or coordinating the simultaneous buy-sell of a move-up client, Brad treats every transaction like a partnership, not a paycheck.
+As a Realtor with The Patrick Group and a featured agent in Real Producers Magazine, including the April 2026 cover. Brad is recognized as one of Southeast Michigan's top producers. His approach is built on deep market knowledge, patience, and a genuine commitment to fighting for his clients. Whether navigating a competitive multiple-offer situation or coordinating the simultaneous buy-sell of a move-up client, Brad treats every transaction like a partnership, not a paycheck.
 
 Outside of real estate, Brad enjoys spending time with family, riding his Harley, and playing golf.`,
     credentials: [
-      "Realtor® — The Patrick Group / Oak and Stone Real Estate",
+      "Realtor®. The Patrick Group / Oak and Stone Real Estate",
       "15+ years Southeast Michigan real estate",
       "Mortgage lending background (Ferris State University)",
-      "Hour Detroit Real Estate All-Stars — multiple years",
-      "Real Producers Magazine — April 2026",
-      "Oakland County Real Producers Top 300 — 2026",
+      "Hour Detroit Real Estate All-Stars: multiple years",
+      "Real Producers Magazine. April 2026",
+      "Oakland County Real Producers Top 300: 2026",
     ],
   },
   {
@@ -64,11 +64,11 @@ Outside of real estate, Brad enjoys spending time with family, riding his Harley
     photo: "/team/christian-brown.jpg",
     phone: "248.890.7952",
     email: "MyrealtorBrown@gmail.com",
-    bio: `Christian Brown joined The Patrick Group with real estate in his DNA. Growing up around the industry gave him an understanding of what clients truly need — not just the transaction, but the peace of mind that comes with an agent who is genuinely in your corner.
+    bio: `Christian Brown joined The Patrick Group with real estate in his DNA. Growing up around the industry gave him an understanding of what clients truly need, not just the transaction, but the peace of mind that comes with an agent who is genuinely in your corner.
 
 Christian is committed to making sure clients are well-prepared, well-informed, and never left wondering what comes next. In an industry where trust is everything, Christian's approach is straightforward: earn it, protect it, and make every client feel like their decision matters as much to him as it does to them.`,
     credentials: [
-      "Realtor® — The Patrick Group / Oak and Stone Real Estate",
+      "Realtor®. The Patrick Group / Oak and Stone Real Estate",
       "Southeast Michigan specialist",
     ],
   },
@@ -78,12 +78,12 @@ Christian is committed to making sure clients are well-prepared, well-informed, 
     photo: "/team/christian-wodtke.jpg",
     phone: "248.648.5078",
     email: "",
-    bio: `Christian Wodtke brings a rare dual capability to The Patrick Group: he is both a licensed Realtor and the team's dedicated refinance loan officer. In a business where most agents stop at the sale, Christian gives clients a resource that follows them through the full lifecycle of homeownership — including what comes after closing.
+    bio: `Christian Wodtke brings a rare dual capability to The Patrick Group: he is both a licensed Realtor and the team's dedicated refinance loan officer. In a business where most agents stop at the sale, Christian gives clients a resource that follows them through the full lifecycle of homeownership, including what comes after closing.
 
-As a refinance specialist, Christian helps homeowners tap into their equity, improve their rate, or restructure their mortgage to better meet their financial goals. His fluency in both real estate and lending means he can identify opportunities that most agents simply aren't equipped to see. Whether a client is weighing a cash-out refinance, navigating a rate change, or just wondering if now is the right time to act — Christian gives them a straight answer.`,
+As a refinance specialist, Christian helps homeowners tap into their equity, improve their rate, or restructure their mortgage to better meet their financial goals. His fluency in both real estate and lending means he can identify opportunities that most agents simply aren't equipped to see. Whether a client is weighing a cash-out refinance, navigating a rate change, or just wondering if now is the right time to act. Christian gives them a straight answer.`,
     credentials: [
-      "Licensed Realtor® — The Patrick Group / Oak and Stone Real Estate",
-      "Senior Banker — Rocket Mortgage | NMLS #3030",
+      "Licensed Realtor®. The Patrick Group / Oak and Stone Real Estate",
+      "Senior Banker. Rocket Mortgage | NMLS #3030",
       "NMLS #2699419",
       "Southeast Michigan real estate & lending specialist",
     ],
@@ -128,11 +128,11 @@ const values = [
   },
   {
     title: "Exceptional",
-    desc: "We believe in excellence — we strive to be exceptional.",
+    desc: "We believe in excellence, we strive to be exceptional.",
   },
   {
     title: "Teamwork",
-    desc: "We believe in teamwork — we share in order to succeed.",
+    desc: "We believe in teamwork, we share in order to succeed.",
   },
   {
     title: "Skill",
@@ -155,7 +155,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed">
             A boutique real estate team built on results and relationships. We
-            do our job the way it was supposed to be done — and our clients
+            do our job the way it was supposed to be done, and our clients
             remember that.
           </p>
         </div>
@@ -185,12 +185,12 @@ export default function AboutPage() {
               {/* Card */}
               <div className="md:col-span-1">
                 <div className="bg-[#1a1a1a] text-white rounded-sm overflow-hidden">
-                  {/* Photo — shows when file exists in public/team/, falls back to initials */}
+                  {/* Photo, shows when file exists in public/team/, falls back to initials */}
                   {member.photo ? (
                     <div className="relative w-full aspect-[4/3]">
                       <Image
                         src={member.photo}
-                        alt={`${member.name} — ${member.title}, The Patrick Group, Southeast Michigan Real Estate`}
+                        alt={`${member.name}, ${member.title}, The Patrick Group, Southeast Michigan Real Estate`}
                         fill
                         className="object-cover object-top"
                         sizes="(max-width: 768px) 100vw, 33vw"

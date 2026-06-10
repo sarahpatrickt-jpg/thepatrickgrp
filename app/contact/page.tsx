@@ -5,14 +5,14 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Reach The Patrick Group — Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
+    "Reach The Patrick Group. Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
   alternates: { canonical: "https://www.thepatrickgrp.com/contact" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/contact",
     title: "Contact Us",
     description:
-      "Reach The Patrick Group — Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
+      "Reach The Patrick Group. Southeast Michigan real estate specialists. Call, text, or email Sarah or Brad Patrick. 408 East Street, Rochester, MI.",
     siteName: "The Patrick Group",
   },
 };
@@ -111,7 +111,7 @@ export default function ContactPage() {
             Contact The Patrick Group
           </h1>
           <p className="text-white/70 text-lg max-w-xl mx-auto">
-            Call, text, or email — we respond promptly and without pressure.
+            Call, text, or email, we respond promptly and without pressure.
           </p>
         </div>
       </section>
@@ -121,7 +121,7 @@ export default function ContactPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
-            {/* Left — Contact Cards */}
+            {/* Left. Contact Cards */}
             <div className="space-y-6">
               <h2 className="font-serif text-2xl font-bold text-[#1a1a1a]">
                 Reach Us Directly
@@ -256,7 +256,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Right — Message Form */}
+            {/* Right. Message Form */}
             <div>
               <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-6">
                 Send Us a Message

@@ -21,7 +21,7 @@ const categories: Category[] = [
     items: [
       {
         q: "Who is The Patrick Group?",
-        a: "The Patrick Group is a boutique real estate team based in Rochester, Michigan, serving Southeast Michigan. The team is led by Sarah Patrick (Principal Broker and Owner) and Brad Patrick (Realtor, 15+ years of experience), operating under Oak and Stone Real Estate. Every client works directly with Sarah or Brad — not handed off to an assistant or a junior agent. Their tagline: Leading You Home.",
+        a: "The Patrick Group is a boutique real estate team based in Rochester, Michigan, serving Southeast Michigan. The team is led by Sarah Patrick (Principal Broker and Owner) and Brad Patrick (Realtor, 15+ years of experience), operating under Oak and Stone Real Estate. Every client works directly with Sarah or Brad, not handed off to an assistant or a junior agent. Their tagline: Leading You Home.",
       },
       {
         q: "Who is Sarah Patrick?",
@@ -37,7 +37,7 @@ const categories: Category[] = [
       },
       {
         q: "How is The Patrick Group different from Zillow or a large team?",
-        a: "The Patrick Group is a boutique operation — every client works directly with Sarah or Brad Patrick from the first conversation through closing, not handed off to whoever is available. The team offers an Unconditional Release Guarantee (you can exit your listing contract at any time, no penalties), VIP pre-market access for buyers before homes hit Zillow, and deep expertise in complex situations that algorithms simply can't handle.",
+        a: "The Patrick Group is a boutique operation, every client works directly with Sarah or Brad Patrick from the first conversation through closing, not handed off to whoever is available. The team offers an Unconditional Release Guarantee (you can exit your listing contract at any time, no penalties), VIP pre-market access for buyers before homes hit Zillow, and deep expertise in complex situations that algorithms simply can't handle.",
       },
       {
         q: "What awards and recognition has The Patrick Group received?",
@@ -55,19 +55,19 @@ const categories: Category[] = [
     items: [
       {
         q: "How can I see homes before they hit Zillow?",
-        a: "Join The Patrick Group's VIP Coming Soon list at thepatrickgrp.com/vip-buyers. VIP members get early access to off-market and coming-soon listings in Southeast Michigan before they appear on Zillow, Realtor.com, or the MLS — giving you a real competitive edge in a fast-moving market.",
+        a: "Join The Patrick Group's VIP Coming Soon list at thepatrickgrp.com/vip-buyers. VIP members get early access to off-market and coming-soon listings in Southeast Michigan before they appear on Zillow, Realtor.com, or the MLS, giving you a real competitive edge in a fast-moving market.",
       },
       {
         q: "How much does it cost to use a buyer's agent in Southeast Michigan?",
-        a: "Working with The Patrick Group as a buyer typically costs you nothing out of pocket. In most Southeast Michigan transactions, the seller covers the buyer's agent compensation. Buyer representation agreements are now required under Michigan real estate law — contact The Patrick Group at (248) 755-3545 to discuss the specifics for your situation.",
+        a: "Working with The Patrick Group as a buyer typically costs you nothing out of pocket. In most Southeast Michigan transactions, the seller covers the buyer's agent compensation. Buyer representation agreements are now required under Michigan real estate law, contact The Patrick Group at (248) 755-3545 to discuss the specifics for your situation.",
       },
       {
         q: "Do I need to be pre-approved before I start looking at homes?",
-        a: "The Patrick Group strongly recommends getting pre-approved before actively searching. In Southeast Michigan's competitive market, sellers expect pre-approval letters with any offer. Pre-approval is also different from pre-qualification — it involves full documentation and a credit check, making it a much stronger signal to sellers. The team has a network of trusted local lenders who can get you pre-approved quickly.",
+        a: "The Patrick Group strongly recommends getting pre-approved before actively searching. In Southeast Michigan's competitive market, sellers expect pre-approval letters with any offer. Pre-approval is also different from pre-qualification, it involves full documentation and a credit check, making it a much stronger signal to sellers. The team has a network of trusted local lenders who can get you pre-approved quickly.",
       },
       {
         q: "Can The Patrick Group help me buy a new construction home?",
-        a: "Yes — and having your own agent when buying new construction is critical. The builder's on-site agent works for the builder, not for you. The Patrick Group will negotiate upgrades and incentives, review your purchase contract, and protect your interests throughout the build process.",
+        a: "Yes, and having your own agent when buying new construction is critical. The builder's on-site agent works for the builder, not for you. The Patrick Group will negotiate upgrades and incentives, review your purchase contract, and protect your interests throughout the build process.",
       },
       {
         q: "What is the home buying process with The Patrick Group?",
@@ -85,7 +85,7 @@ const categories: Category[] = [
       },
       {
         q: "What is a Comparative Market Analysis (CMA)?",
-        a: "A CMA is a detailed report that estimates a home's market value based on recent sales of similar homes in the same area. The Patrick Group provides free, personalized CMAs for Southeast Michigan homeowners. Unlike automated online estimates such as Zillow's Zestimate, a CMA factors in property condition, neighborhood nuances, and current local demand — making it a much more accurate pricing tool.",
+        a: "A CMA is a detailed report that estimates a home's market value based on recent sales of similar homes in the same area. The Patrick Group provides free, personalized CMAs for Southeast Michigan homeowners. Unlike automated online estimates such as Zillow's Zestimate, a CMA factors in property condition, neighborhood nuances, and current local demand, making it a much more accurate pricing tool.",
       },
       {
         q: "How long does it take to sell a home in Southeast Michigan?",
@@ -93,15 +93,15 @@ const categories: Category[] = [
       },
       {
         q: "What is the Unconditional Release Guarantee?",
-        a: "The Patrick Group's Unconditional Release Guarantee means you are never locked in. If you list your home with the team and are not completely satisfied at any point, you can exit the listing agreement — no questions asked, no penalties. The team is confident enough in their service to back every listing with this guarantee.",
+        a: "The Patrick Group's Unconditional Release Guarantee means you are never locked in. If you list your home with the team and are not completely satisfied at any point, you can exit the listing agreement, no questions asked, no penalties. The team is confident enough in their service to back every listing with this guarantee.",
       },
       {
         q: "What does The Patrick Group do to market my home?",
-        a: "The Patrick Group uses award-winning marketing on every listing: professional photography, targeted digital advertising, social media campaigns, email marketing to an active buyer database, full MLS exposure, open houses, and direct outreach to buyers currently searching in your price range and area. Every listing gets the full team's attention — not a template.",
+        a: "The Patrick Group uses award-winning marketing on every listing: professional photography, targeted digital advertising, social media campaigns, email marketing to an active buyer database, full MLS exposure, open houses, and direct outreach to buyers currently searching in your price range and area. Every listing gets the full team's attention, not a template.",
       },
       {
         q: "Does The Patrick Group offer cash offers?",
-        a: "Yes. The Patrick Group's cash offer program is designed for sellers who want speed and certainty — skip the showings, set your own close date, and avoid the uncertainty of a traditional listing. Learn more at thepatrickgrp.com/cash-offer.",
+        a: "Yes. The Patrick Group's cash offer program is designed for sellers who want speed and certainty: skip the showings, set your own close date, and avoid the uncertainty of a traditional listing. Learn more at thepatrickgrp.com/cash-offer.",
       },
     ],
   },
@@ -111,11 +111,11 @@ const categories: Category[] = [
     items: [
       {
         q: "Does The Patrick Group handle divorce real estate?",
-        a: "Yes. The Patrick Group specializes in real estate for divorce situations — including court-ordered sales, property buyouts, and property division proceedings. The team works alongside family law attorneys, mediators, and both parties to ensure the transaction is handled professionally and without added conflict. Learn more at thepatrickgrp.com/divorce-real-estate.",
+        a: "Yes. The Patrick Group specializes in real estate for divorce situations, including court-ordered sales, property buyouts, and property division proceedings. The team works alongside family law attorneys, mediators, and both parties to ensure the transaction is handled professionally and without added conflict. Learn more at thepatrickgrp.com/divorce-real-estate.",
       },
       {
         q: "Can you help with relocation to Southeast Michigan from another state?",
-        a: "Yes. The Patrick Group has a dedicated relocation service for people moving to Michigan from out of state. The team provides neighborhood guides, school district information, lifestyle matching, virtual tours, and full buyer representation — so you can confidently choose your home even before you arrive. Learn more at thepatrickgrp.com/relocation.",
+        a: "Yes. The Patrick Group has a dedicated relocation service for people moving to Michigan from out of state. The team provides neighborhood guides, school district information, lifestyle matching, virtual tours, and full buyer representation, so you can confidently choose your home even before you arrive. Learn more at thepatrickgrp.com/relocation.",
       },
       {
         q: "Do you help with downsizing or estate and probate sales?",
@@ -238,7 +238,7 @@ export default function FaqPageClient() {
           <div className="bg-[#c70000] text-white rounded-sm p-10 text-center mt-6">
             <h2 className="font-serif text-2xl font-bold mb-2">Still have questions?</h2>
             <p className="text-white/80 text-sm mb-6 max-w-sm mx-auto">
-              Sarah and Brad are happy to answer anything — no pressure, no obligation.
+              Sarah and Brad are happy to answer anything, no pressure, no obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link

@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Southeast Michigan Real Estate Market Report — May 2026",
+  title: "Southeast Michigan Real Estate Market Report: May 2026",
   description:
-    "May 2026 Southeast Michigan market report — median sale price, price per sq ft, and days on market across Oakland, Macomb, Wayne, Washtenaw, and Livingston counties. Data from Realcomp.",
+    "May 2026 Southeast Michigan market report: median sale price, price per sq ft, and days on market across Oakland, Macomb, Wayne, Washtenaw, and Livingston counties. Data from Realcomp.",
   alternates: { canonical: "https://www.thepatrickgrp.com/market-updates/may-2026" },
   openGraph: {
     type: "article",
     url: "https://www.thepatrickgrp.com/market-updates/may-2026",
-    title: "Southeast Michigan Real Estate Market Report — May 2026",
-    description: "May 2026 market data across five SE Michigan counties — median price, $/sqft, and days on market from Realcomp.",
+    title: "Southeast Michigan Real Estate Market Report: May 2026",
+    description: "May 2026 market data across five SE Michigan counties: median price, $/sqft, and days on market from Realcomp.",
     siteName: "The Patrick Group",
   },
 };
@@ -26,8 +26,8 @@ const counties = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Southeast Michigan Real Estate Market Report — May 2026",
-  description: "May 2026 real estate market data for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties — median sale price, price per square foot, days on market, and year-over-year trends from Realcomp MLS.",
+  headline: "Southeast Michigan Real Estate Market Report: May 2026",
+  description: "May 2026 real estate market data for Oakland, Macomb, Wayne, Washtenaw, and Livingston counties: median sale price, price per square foot, days on market, and year-over-year trends from Realcomp MLS.",
   datePublished: "2026-05-01",
   dateModified: "2026-06-03",
   author: { "@type": "Person", name: "Sarah Patrick", jobTitle: "Principal Broker", worksFor: { "@type": "Organization", name: "The Patrick Group | Oak and Stone Real Estate", url: "https://www.thepatrickgrp.com" } },
@@ -67,11 +67,11 @@ export default function MayReport() {
             Southeast Michigan · Realcomp · May 2026
           </p>
           <h1 className="font-display mt-3" style={{ fontSize: "clamp(36px, 5vw, 68px)", lineHeight: "1", letterSpacing: "-0.02em", color: "#FDFBF7" }}>
-            Market Report —{" "}
+            Market Report:{" "}
             <em style={{ color: "var(--red)", fontStyle: "italic" }}>May 2026</em>
           </h1>
           <p className="font-editorial italic mt-4" style={{ fontSize: "17px", color: "rgba(253,251,247,0.5)", maxWidth: 540 }}>
-            Prices up across all five counties. Wayne leads YoY at +6.2%. Livingston is the only county where DOM dropped — moving faster, not slower.
+            Prices up across all five counties. Wayne leads YoY at +6.2%. Livingston is the only county where DOM dropped, moving faster, not slower.
           </p>
           <p className={eyebrow + " mt-6"} style={{ color: "rgba(253,251,247,0.2)", fontFamily: "var(--font-mono, monospace)" }}>
             Published June 3, 2026 · Source: Realcomp MLS · Sarah Patrick, Principal Broker
@@ -163,13 +163,13 @@ export default function MayReport() {
                 {[
                   { bold: "Prices up in every county", body: "Wayne leads YoY at +6.2%, followed by Macomb at +3.8% and Oakland at +3.7%. Livingston is still appreciating but cooling slightly at +1.4%." },
                   { bold: "Livingston is the outlier on DOM", body: "it's the only county where days on market dropped (-2.7% YoY). Every other county is slowing. Oakland stays competitive at 13 days." },
-                  { bold: "Macomb and Wayne DOM rising but stabilizing", body: "Macomb +23.1% and Wayne +6.1% — both still climbing, but the extreme spikes from earlier in the year are moderating." },
-                  { bold: "Price per sqft rising everywhere", body: "all five counties up YoY. Wayne leads at +4.4%, Livingston at +3.6%. Washtenaw is nearly flat at +0.4% — large homes absorbing the gains." },
+                  { bold: "Macomb and Wayne DOM rising but stabilizing", body: "Macomb +23.1% and Wayne +6.1%, both still climbing, but the extreme spikes from earlier in the year are moderating." },
+                  { bold: "Price per sqft rising everywhere", body: "all five counties up YoY. Wayne leads at +4.4%, Livingston at +3.6%. Washtenaw is nearly flat at +0.4%, large homes absorbing the gains." },
                 ].map((t) => (
                   <div key={t.bold} className="flex gap-4">
                     <div style={{ width: 2, minWidth: 2, backgroundColor: "var(--red)", marginTop: 4 }} />
                     <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.6" }}>
-                      <strong style={{ color: "var(--ink)" }}>{t.bold}</strong> — {t.body}
+                      <strong style={{ color: "var(--ink)" }}>{t.bold}</strong> {t.body}
                     </p>
                   </div>
                 ))}
@@ -179,7 +179,7 @@ export default function MayReport() {
             <div className="p-8" style={{ backgroundColor: "var(--paper)", border: "1px solid var(--line)" }}>
               <p className={eyebrow + " mb-4"} style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}>From the Broker</p>
               <blockquote className="font-editorial italic" style={{ fontSize: "18px", lineHeight: "1.55", color: "var(--ink)" }}>
-                &ldquo;Livingston moving faster while everything else slows is worth watching. Oakland at 13 days is still a seller&apos;s market. Wayne buyers are finally getting room — but prices haven&apos;t followed DOM down. They rarely do.&rdquo;
+                &ldquo;Livingston moving faster while everything else slows is worth watching. Oakland at 13 days is still a seller&apos;s market. Wayne buyers are finally getting room, but prices haven&apos;t followed DOM down. They rarely do.&rdquo;
               </blockquote>
               <div className="flex items-center gap-3 mt-6">
                 <div style={{ width: 1, height: 28, backgroundColor: "var(--red)" }} />
@@ -199,13 +199,13 @@ export default function MayReport() {
           <div className="p-8" style={{ borderRight: "1px solid var(--line)" }}>
             <p className={eyebrow + " mb-4"} style={{ color: "var(--red)", fontFamily: "var(--font-mono, monospace)" }}>For Buyers</p>
             <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.7" }}>
-              Wayne and Washtenaw are giving you more time to decide — but prices are still climbing. Oakland at 13 days and Livingston actually speeding up means those markets still require quick decisions and strong offers. Get pre-approved before you start looking.
+              Wayne and Washtenaw are giving you more time to decide, but prices are still climbing. Oakland at 13 days and Livingston actually speeding up means those markets still require quick decisions and strong offers. Get pre-approved before you start looking.
             </p>
           </div>
           <div className="p-8">
             <p className={eyebrow + " mb-4"} style={{ color: "var(--red)", fontFamily: "var(--font-mono, monospace)" }}>For Sellers</p>
             <p style={{ fontSize: "15px", color: "var(--ink-2)", lineHeight: "1.7" }}>
-              Values are up across every county, but the market is not uniform. Oakland and Livingston — price it right and it moves fast. In Wayne and Washtenaw, presentation and pricing discipline matter more than they did a year ago. Overpriced homes are sitting longer.
+              Values are up across every county, but the market is not uniform. Oakland and Livingston, price it right and it moves fast. In Wayne and Washtenaw, presentation and pricing discipline matter more than they did a year ago. Overpriced homes are sitting longer.
             </p>
           </div>
         </div>

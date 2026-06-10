@@ -28,7 +28,7 @@ export default function StepResults({
         </h2>
         <p className="text-white/70 text-sm leading-relaxed">
           {qualified.length > 0
-            ? `Based on your information, you appear to qualify for ${qualified.length} assistance program${qualified.length > 1 ? "s" : ""}${nearMiss.length > 0 ? ` and may be close to qualifying for ${nearMiss.length} more` : ""}. These results are estimates — a licensed lender will confirm your eligibility.`
+            ? `Based on your information, you appear to qualify for ${qualified.length} assistance program${qualified.length > 1 ? "s" : ""}${nearMiss.length > 0 ? ` and may be close to qualifying for ${nearMiss.length} more` : ""}. These results are estimates, a licensed lender will confirm your eligibility.`
             : "While you may not meet all requirements for these programs right now, some are worth discussing with a lender. Eligibility can change based on exact income, property address, and program updates."}
         </p>
       </div>
@@ -81,14 +81,14 @@ export default function StepResults({
         </div>
       )}
 
-      {/* CTA — Talk to us */}
+      {/* CTA. Talk to us */}
       <div className="bg-[#c70000] text-white rounded-sm p-8 text-center">
         <h3 className="font-serif text-xl font-bold mb-2">
           Want help navigating these programs?
         </h3>
         <p className="text-white/80 text-sm mb-6 max-w-md mx-auto">
           We work with MSHDA-approved lenders who specialize in down payment
-          assistance. Let us connect you — no cost, no obligation.
+          assistance. Let us connect you, no cost, no obligation.
         </p>
 
         {leadStatus === "success" ? (

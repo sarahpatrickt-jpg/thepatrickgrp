@@ -3,16 +3,16 @@ import Link from "next/link";
 import SierraValuationFrame from "@/components/SierraValuationFrame";
 
 export const metadata: Metadata = {
-  title: "Free Home Valuation — Southeast Michigan",
+  title: "Free Home Valuation. Southeast Michigan",
   description:
-    "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — deep local expertise, real data.",
+    "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group, deep local expertise, real data.",
   alternates: { canonical: "https://www.thepatrickgrp.com/home-valuation" },
   openGraph: {
     type: "website",
     url: "https://www.thepatrickgrp.com/home-valuation",
-    title: "Free Home Valuation — Southeast Michigan",
+    title: "Free Home Valuation. Southeast Michigan",
     description:
-      "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group — deep local expertise, real data.",
+      "Find out what your Southeast Michigan home is worth. Free, no-obligation home valuation from The Patrick Group, deep local expertise, real data.",
     siteName: "The Patrick Group",
   },
 };
@@ -31,7 +31,7 @@ const process = [
   {
     step: "03",
     title: "Schedule Your Free Consultation",
-    desc: "We'll come to your home, walk through it, and give you a precise market analysis — not just a Zestimate.",
+    desc: "We'll come to your home, walk through it, and give you a precise market analysis, not just a Zestimate.",
   },
   {
     step: "04",
@@ -72,9 +72,9 @@ export default function HomeValuationPage() {
             <span className="text-[#c70000]">Actually</span> Worth?
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">
-            Zillow&apos;s Zestimate is a starting point — not a selling price. Enter
+            Zillow&apos;s Zestimate is a starting point, not a selling price. Enter
             your address for an instant estimate, then connect with an agent who
-            knows your neighborhood — not just the data.
+            knows your neighborhood, not just the data.
           </p>
           <div className="flex flex-wrap gap-6 text-sm text-white/60">
             <span>✓ No pressure, no obligation</span>
@@ -95,7 +95,7 @@ export default function HomeValuationPage() {
                   Get Your Instant Home Valuation
                 </h2>
                 <p className="text-gray-500 text-sm">
-                  Enter your address below — takes less than 60 seconds.
+                  Enter your address below, takes less than 60 seconds.
                 </p>
               </div>
               <SierraValuationFrame />
@@ -139,7 +139,7 @@ export default function HomeValuationPage() {
                     </p>
                     <p className="text-sm text-gray-500">
                       We&apos;ll walk through your home and tell you exactly what
-                      matters — and what doesn&apos;t — before you spend a dollar on
+                      matters, and what doesn&apos;t, before you spend a dollar on
                       updates.
                     </p>
                   </div>

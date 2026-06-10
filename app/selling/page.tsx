@@ -27,7 +27,7 @@ const sellingFaqs = [
   },
   {
     q: "What is the Unconditional Release Guarantee?",
-    a: "If at any point during our listing agreement you are unhappy with our service, you may notify us in writing and we will release you from the listing contract — no fees, no penalties. This applies to active listings only; once an offer has been accepted, the agreement can no longer be withdrawn.",
+    a: "If at any point during our listing agreement you are unhappy with our service, you may notify us in writing and we will release you from the listing contract, no fees, no penalties. This applies to active listings only; once an offer has been accepted, the agreement can no longer be withdrawn.",
   },
   {
     q: "How do you market a home differently than other agents?",
@@ -35,7 +35,7 @@ const sellingFaqs = [
   },
   {
     q: "Should I make repairs before listing my home?",
-    a: "Fix anything a buyer's inspector is likely to flag — deferred maintenance creates perceived risk and weakens your negotiating position. Cosmetic updates like fresh paint, landscaping, and decluttering almost always return dollar-for-dollar or better. Major renovations rarely pay back fully in a sale context. We walk through a prioritized prep list during your listing consultation.",
+    a: "Fix anything a buyer's inspector is likely to flag, deferred maintenance creates perceived risk and weakens your negotiating position. Cosmetic updates like fresh paint, landscaping, and decluttering almost always return dollar-for-dollar or better. Major renovations rarely pay back fully in a sale context. We walk through a prioritized prep list during your listing consultation.",
   },
   {
     q: "What is the median home sale price in Southeast Michigan right now?",
@@ -57,7 +57,7 @@ const marketingToolkit = [
   {
     icon: "📸",
     title: "Award-Winning Photography",
-    desc: "Nationwide professional photographers — not the listing agent with an iPhone. Buyers decide in 3 seconds whether to click.",
+    desc: "Nationwide professional photographers, not the listing agent with an iPhone. Buyers decide in 3 seconds whether to click.",
   },
   {
     icon: "🎬",
@@ -77,17 +77,17 @@ const marketingToolkit = [
   {
     icon: "📮",
     title: "Targeted Postcard Campaign",
-    desc: "Direct mail to your neighbors — they know people who want to live near them. Word-of-mouth is still the most powerful channel in real estate.",
+    desc: "Direct mail to your neighbors, they know people who want to live near them. Word-of-mouth is still the most powerful channel in real estate.",
   },
   {
     icon: "🔊",
     title: "15-Platform Syndication",
-    desc: "Realtor.com, Zillow, Trulia, Homes.com, Redfin, and 10+ more — your home is everywhere buyers are looking.",
+    desc: "Realtor.com, Zillow, Trulia, Homes.com, Redfin, and 10+ more, your home is everywhere buyers are looking.",
   },
   {
     icon: "💬",
     title: "Buyer Feedback Loop",
-    desc: "Regular reporting of showing feedback so you can make informed decisions — not guesses — throughout the process.",
+    desc: "Regular reporting of showing feedback so you can make informed decisions, not guesses, throughout the process.",
   },
   {
     icon: "🏷️",
@@ -107,7 +107,7 @@ const timeline = [
   { phase: "Week 1–2", title: "Pre-Market Prep", desc: "Professional photography, video shoot, custom website creation, and 300-agent broker outreach." },
   { phase: "Launch", title: "Go Live + Open House", desc: "Simultaneous syndication to 15+ platforms, targeted postcards, and neighborhood outreach on day one." },
   { phase: "Ongoing", title: "Active Management", desc: "Showings scheduled, feedback collected and reported, pricing strategy reviewed weekly." },
-  { phase: "Offer", title: "Negotiation & Acceptance", desc: "We analyze every offer in detail — not just price, but terms, contingencies, and timeline." },
+  { phase: "Offer", title: "Negotiation & Acceptance", desc: "We analyze every offer in detail, not just price, but terms, contingencies, and timeline." },
   { phase: "Close", title: "To the Closing Table", desc: "Coordinated with your lender and title company. We manage every detail so nothing falls through." },
 ];
 
@@ -127,7 +127,7 @@ export default function SellingPage() {
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">
             Most agents take 20 photos and put your home on the MLS. We build a
-            full marketing campaign — because your home is worth it, and so is
+            full marketing campaign, because your home is worth it, and so is
             your equity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -158,7 +158,7 @@ export default function SellingPage() {
               What We Do for Every Listing
             </h2>
             <p className="mt-4 text-gray-500 max-w-xl mx-auto">
-              Every seller gets the full toolkit — not just the sellers whose homes
+              Every seller gets the full toolkit, not just the sellers whose homes
               are over a certain price.
             </p>
           </div>
@@ -180,7 +180,7 @@ export default function SellingPage() {
         </div>
       </section>
 
-      {/* VIDEO — SEE OUR MARKETING */}
+      {/* VIDEO. SEE OUR MARKETING */}
       <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
@@ -191,7 +191,7 @@ export default function SellingPage() {
               Our Marketing in Action
             </h2>
             <p className="mt-4 text-gray-500 max-w-xl mx-auto">
-              Every Patrick Group listing gets a full video walkthrough — not a
+              Every Patrick Group listing gets a full video walkthrough, not a
               slideshow with music. Here&apos;s a recent example.
             </p>
           </div>
@@ -199,13 +199,13 @@ export default function SellingPage() {
             <iframe
               className="absolute inset-0 w-full h-full"
               src="https://www.youtube.com/embed/cgcc_wQIbGw"
-              title="Patrick Group Listing Video — 1021 Clear Creek Dr"
+              title="Patrick Group Listing Video, 1021 Clear Creek Dr"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
           </div>
           <p className="text-center text-xs text-gray-400 mt-4">
-            1021 Clear Creek Dr — Full property tour produced by The Patrick Group
+            1021 Clear Creek Dr. Full property tour produced by The Patrick Group
           </p>
         </div>
       </section>
