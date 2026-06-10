@@ -225,14 +225,14 @@ export default function NeighborhoodsPage() {
       <section
         className="pt-32 pb-16 px-4 sm:px-6"
         style={{
-          background: "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
+          background: "var(--ink)",
         }}
       >
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
             Southeast Michigan
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-4">
+          <h1 className="font-display text-4xl sm:text-5xl text-white mb-4">
             Neighborhood Guides
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
@@ -244,16 +244,16 @@ export default function NeighborhoodsPage() {
       </section>
 
       {/* Interactive Map */}
-      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-8">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Interactive Map
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               Explore Our Service Area
             </h2>
-            <p className="text-gray-500 text-sm mt-2">
+            <p className="text-[var(--ink-3)] text-sm mt-2">
               We serve all of Southeast Michigan. Pins mark cities with published neighborhood guides.
             </p>
           </div>
@@ -264,13 +264,13 @@ export default function NeighborhoodsPage() {
       </section>
 
       {/* Grid */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
 
           {/* Oakland County */}
           <div className="mb-14">
             <div className="flex items-center gap-4 mb-6">
-              <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] shrink-0">Oakland County</h2>
+              <h2 className="font-display text-2xl text-[var(--ink)] shrink-0">Oakland County</h2>
               <div className="flex-1 h-px bg-gray-100" />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -278,26 +278,26 @@ export default function NeighborhoodsPage() {
                 <Link
                   key={n.href}
                   href={n.href}
-                  className="group border border-gray-100 rounded-sm p-6 hover:shadow-lg hover:border-[#c70000]/30 transition-all bg-white block"
+                  className="group border border-[var(--line)] p-6 hover:shadow-lg hover:border-[#c70000]/30 transition-all bg-[var(--paper)] block"
                 >
-                  <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+                  <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                     {n.county}
                   </p>
-                  <h3 className="font-serif text-xl font-bold text-[#1a1a1a] mb-2 group-hover:text-[#c70000] transition-colors">
+                  <h3 className="font-display text-xl text-[var(--ink)] mb-2 group-hover:text-[var(--red)] transition-colors">
                     {n.name}
                   </h3>
-                  <p className="text-sm text-gray-500 leading-relaxed mb-4">{n.tagline}</p>
-                  <div className="border-t border-gray-100 pt-4 space-y-1">
-                    <p className="text-xs text-gray-500">
-                      <span className="font-semibold text-[#1a1a1a]">Typical range:</span>{" "}
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed mb-4">{n.tagline}</p>
+                  <div className="border-t border-[var(--line)] pt-4 space-y-1">
+                    <p className="text-xs text-[var(--ink-3)]">
+                      <span className="font-semibold text-[var(--ink)]">Typical range:</span>{" "}
                       {n.priceRange}
                     </p>
-                    <p className="text-xs text-gray-500">
-                      <span className="font-semibold text-[#1a1a1a]">Property types:</span>{" "}
+                    <p className="text-xs text-[var(--ink-3)]">
+                      <span className="font-semibold text-[var(--ink)]">Property types:</span>{" "}
                       {n.propertyTypes}
                     </p>
                   </div>
-                  <span className="mt-4 inline-block text-[#c70000] text-sm font-semibold group-hover:underline">
+                  <span className="mt-4 inline-block text-[var(--red)] text-sm font-semibold group-hover:underline">
                     View guide →
                   </span>
                 </Link>
@@ -308,7 +308,7 @@ export default function NeighborhoodsPage() {
           {/* Macomb County */}
           <div className="mb-14">
             <div className="flex items-center gap-4 mb-6">
-              <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] shrink-0">Macomb County</h2>
+              <h2 className="font-display text-2xl text-[var(--ink)] shrink-0">Macomb County</h2>
               <div className="flex-1 h-px bg-gray-100" />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -316,26 +316,26 @@ export default function NeighborhoodsPage() {
                 <Link
                   key={n.href}
                   href={n.href}
-                  className="group border border-gray-100 rounded-sm p-6 hover:shadow-lg hover:border-[#c70000]/30 transition-all bg-white block"
+                  className="group border border-[var(--line)] p-6 hover:shadow-lg hover:border-[#c70000]/30 transition-all bg-[var(--paper)] block"
                 >
-                  <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+                  <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                     {n.county}
                   </p>
-                  <h3 className="font-serif text-xl font-bold text-[#1a1a1a] mb-2 group-hover:text-[#c70000] transition-colors">
+                  <h3 className="font-display text-xl text-[var(--ink)] mb-2 group-hover:text-[var(--red)] transition-colors">
                     {n.name}
                   </h3>
-                  <p className="text-sm text-gray-500 leading-relaxed mb-4">{n.tagline}</p>
-                  <div className="border-t border-gray-100 pt-4 space-y-1">
-                    <p className="text-xs text-gray-500">
-                      <span className="font-semibold text-[#1a1a1a]">Typical range:</span>{" "}
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed mb-4">{n.tagline}</p>
+                  <div className="border-t border-[var(--line)] pt-4 space-y-1">
+                    <p className="text-xs text-[var(--ink-3)]">
+                      <span className="font-semibold text-[var(--ink)]">Typical range:</span>{" "}
                       {n.priceRange}
                     </p>
-                    <p className="text-xs text-gray-500">
-                      <span className="font-semibold text-[#1a1a1a]">Property types:</span>{" "}
+                    <p className="text-xs text-[var(--ink-3)]">
+                      <span className="font-semibold text-[var(--ink)]">Property types:</span>{" "}
                       {n.propertyTypes}
                     </p>
                   </div>
-                  <span className="mt-4 inline-block text-[#c70000] text-sm font-semibold group-hover:underline">
+                  <span className="mt-4 inline-block text-[var(--red)] text-sm font-semibold group-hover:underline">
                     View guide →
                   </span>
                 </Link>
@@ -346,7 +346,7 @@ export default function NeighborhoodsPage() {
           {/* Wayne County */}
           <div className="mb-14">
             <div className="flex items-center gap-4 mb-6">
-              <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] shrink-0">Wayne County</h2>
+              <h2 className="font-display text-2xl text-[var(--ink)] shrink-0">Wayne County</h2>
               <div className="flex-1 h-px bg-gray-100" />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -354,26 +354,26 @@ export default function NeighborhoodsPage() {
                 <Link
                   key={n.href}
                   href={n.href}
-                  className="group border border-gray-100 rounded-sm p-6 hover:shadow-lg hover:border-[#c70000]/30 transition-all bg-white block"
+                  className="group border border-[var(--line)] p-6 hover:shadow-lg hover:border-[#c70000]/30 transition-all bg-[var(--paper)] block"
                 >
-                  <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+                  <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                     {n.county}
                   </p>
-                  <h3 className="font-serif text-xl font-bold text-[#1a1a1a] mb-2 group-hover:text-[#c70000] transition-colors">
+                  <h3 className="font-display text-xl text-[var(--ink)] mb-2 group-hover:text-[var(--red)] transition-colors">
                     {n.name}
                   </h3>
-                  <p className="text-sm text-gray-500 leading-relaxed mb-4">{n.tagline}</p>
-                  <div className="border-t border-gray-100 pt-4 space-y-1">
-                    <p className="text-xs text-gray-500">
-                      <span className="font-semibold text-[#1a1a1a]">Typical range:</span>{" "}
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed mb-4">{n.tagline}</p>
+                  <div className="border-t border-[var(--line)] pt-4 space-y-1">
+                    <p className="text-xs text-[var(--ink-3)]">
+                      <span className="font-semibold text-[var(--ink)]">Typical range:</span>{" "}
                       {n.priceRange}
                     </p>
-                    <p className="text-xs text-gray-500">
-                      <span className="font-semibold text-[#1a1a1a]">Property types:</span>{" "}
+                    <p className="text-xs text-[var(--ink-3)]">
+                      <span className="font-semibold text-[var(--ink)]">Property types:</span>{" "}
                       {n.propertyTypes}
                     </p>
                   </div>
-                  <span className="mt-4 inline-block text-[#c70000] text-sm font-semibold group-hover:underline">
+                  <span className="mt-4 inline-block text-[var(--red)] text-sm font-semibold group-hover:underline">
                     View guide →
                   </span>
                 </Link>
@@ -382,11 +382,11 @@ export default function NeighborhoodsPage() {
           </div>
 
           {/* Comparison Guides */}
-          <div className="bg-white p-8 rounded-sm border border-gray-100">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-2">
+          <div className="bg-[var(--paper)] p-8 border border-[var(--line)]">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-2">
               City vs. City Comparisons
             </h2>
-            <p className="text-gray-500 text-sm mb-6">
+            <p className="text-[var(--ink-3)] text-sm mb-6">
               Side-by-side market data, lifestyle differences, and school districts, for buyers deciding between two communities.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -410,7 +410,7 @@ export default function NeighborhoodsPage() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-[#1a1a1a] hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] border border-gray-100 rounded-sm hover:border-[#c70000]/30"
+                  className="text-sm text-[var(--ink)] hover:text-[var(--red)] transition-colors py-2 px-3 bg-[var(--paper-2)] border border-[var(--line)] hover:border-[#c70000]/30"
                 >
                   {link.label} →
                 </Link>
@@ -419,11 +419,11 @@ export default function NeighborhoodsPage() {
           </div>
 
           {/* CTA */}
-          <div className="bg-[#1a1a1a] text-white p-8 rounded-sm text-center">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+          <div className="bg-[var(--ink)] text-white p-8 text-center">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
               Not sure where to start?
             </p>
-            <h2 className="font-serif text-2xl font-bold mb-3">
+            <h2 className="font-display text-2xl mb-3">
               Let&apos;s Talk About What Matters to You
             </h2>
             <p className="text-white/70 text-sm mb-6 max-w-md mx-auto">
@@ -433,14 +433,14 @@ export default function NeighborhoodsPage() {
             </p>
             <a
               href="tel:2487553545"
-              className="inline-block bg-[#c70000] text-white font-semibold px-8 py-3 text-sm hover:bg-[#a30000] transition-colors"
+              className="inline-block bg-[var(--red)] text-white font-semibold px-8 py-3 text-sm hover:bg-[var(--red-deep)] transition-colors"
             >
               Call 248.755.3545
             </a>
           </div>
 
           {/* Fair Housing Notice */}
-          <p className="mt-8 text-xs text-gray-400 text-center leading-relaxed">
+          <p className="mt-8 text-xs text-[var(--ink-3)] text-center leading-relaxed">
             All neighborhood information is provided for general reference only.
             Price ranges reflect general market trends and are not guarantees of
             value. The Patrick Group | Oak &amp; Stone Real Estate is committed to

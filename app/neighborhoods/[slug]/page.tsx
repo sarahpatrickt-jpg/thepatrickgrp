@@ -94,43 +94,45 @@ async function MarketAnalysisCard({
   });
 
   return (
-    <section className="bg-blue-50 border-y border-blue-100 py-8 px-4 sm:px-6">
+    <section className="bg-blue-50 border-y border-[var(--line)] py-8 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         <div className="mb-4 flex items-center justify-between">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono">
             Live Market Insights · {cityName}, MI
           </p>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-[var(--ink-3)]">
             Updated {formattedDate}
           </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-          <div className="bg-white border border-blue-100 rounded-sm p-4">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+          <div className="bg-[var(--paper)] border border-[var(--line)] p-4">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
               Active Listings
             </p>
-            <p className="font-bold text-[#1a1a1a] text-2xl">
+            <p className="font-bold text-[var(--ink)] text-2xl">
               {analysis.activeCount}
             </p>
           </div>
-          <div className="bg-white border border-blue-100 rounded-sm p-4">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+          <div className="bg-[var(--paper)] border border-[var(--line)] p-4">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
               Median Price
             </p>
-            <p className="font-bold text-[#1a1a1a] text-2xl">
+            <p className="font-bold text-[var(--ink)] text-2xl">
               {formatPrice(analysis.medianPrice)}
             </p>
           </div>
-          <div className="bg-white border border-blue-100 rounded-sm p-4">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
-              Days on Market
-            </p>
-            <p className="font-bold text-[#1a1a1a] text-2xl">
-              {analysis.medianDOM}
-            </p>
-          </div>
+          {analysis.medianDOM > 0 && (
+            <div className="bg-[var(--paper)] border border-[var(--line)] p-4">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
+                Days on Market
+              </p>
+              <p className="font-bold text-[var(--ink)] text-2xl">
+                {analysis.medianDOM}
+              </p>
+            </div>
+          )}
         </div>
-        <p className="text-xs text-gray-600 mt-4">
+        <p className="text-xs text-[var(--ink-2)] mt-4">
           Real-time MLS data from Spark API. Compiled from active and pending listings in {cityName}.
         </p>
       </div>
@@ -292,11 +294,11 @@ export default async function CityPage({ params }: Props) {
         <div className="relative z-10 max-w-3xl mx-auto">
           <Link
             href="/neighborhoods"
-            className="text-[#c70000] text-xs uppercase tracking-widest font-semibold hover:underline"
+            className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono hover:underline"
           >
             ← Neighborhood Guides
           </Link>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mt-4 mb-3">
+          <h1 className="font-display text-4xl sm:text-5xl text-white mt-4 mb-3">
             {city.name}, MI Real Estate Guide
           </h1>
           <p className="text-white/70 text-lg">
@@ -306,41 +308,41 @@ export default async function CityPage({ params }: Props) {
       </section>
 
       {/* ── Market Stats Bar ─────────────────────────────────────────────────── */}
-      <section className="bg-white border-b border-gray-100 py-8 px-4 sm:px-6">
+      <section className="bg-[var(--paper)] border-b border-[var(--line)] py-8 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Current Market Data · {city.county} County, MI (Realcomp, March 2026)
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-4">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+            <div className="bg-[var(--paper-2)] border border-[var(--line)] p-4">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                 Median Price
               </p>
-              <p className="font-bold text-[#1a1a1a] text-xl">
+              <p className="font-bold text-[var(--ink)] text-xl">
                 {formatPrice(city.marketStats.medianPrice)}
               </p>
             </div>
-            <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-4">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+            <div className="bg-[var(--paper-2)] border border-[var(--line)] p-4">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                 YoY Change
               </p>
-              <p className="font-bold text-[#1a1a1a] text-xl">
+              <p className="font-bold text-[var(--ink)] text-xl">
                 {yoySign}{city.marketStats.medianPriceChange}%
               </p>
             </div>
-            <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-4">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+            <div className="bg-[var(--paper-2)] border border-[var(--line)] p-4">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                 Days on Market
               </p>
-              <p className="font-bold text-[#1a1a1a] text-xl">
+              <p className="font-bold text-[var(--ink)] text-xl">
                 {city.marketStats.daysOnMarket}
               </p>
             </div>
-            <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-4">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+            <div className="bg-[var(--paper-2)] border border-[var(--line)] p-4">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                 Price / Sq Ft
               </p>
-              <p className="font-bold text-[#1a1a1a] text-xl">
+              <p className="font-bold text-[var(--ink)] text-xl">
                 ${city.marketStats.pricePerSqft}
               </p>
             </div>
@@ -352,60 +354,60 @@ export default async function CityPage({ params }: Props) {
       <MarketAnalysisCard citySlug={city.slug} cityName={city.name} />
 
       {/* ── Main Content ─────────────────────────────────────────────────────── */}
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto space-y-14">
 
           {/* About */}
-          <div className="bg-white p-8 rounded-sm border border-gray-100">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-4">
+          <div className="bg-[var(--paper)] p-8 border border-[var(--line)]">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-4">
               About {city.name}
             </h2>
             {city.about.split("\n\n").map((para, i) => (
-              <p key={i} className="text-gray-600 leading-relaxed mb-3 last:mb-0">
+              <p key={i} className="text-[var(--ink-2)] leading-relaxed mb-3 last:mb-0">
                 {para}
               </p>
             ))}
           </div>
 
           {/* Real Estate Overview */}
-          <div className="bg-white p-8 rounded-sm border border-gray-100">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-4">
+          <div className="bg-[var(--paper)] p-8 border border-[var(--line)]">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-4">
               Real Estate Overview
             </h2>
             {city.realEstateOverview.split("\n\n").map((para, i) => (
-              <p key={i} className="text-gray-600 leading-relaxed mb-3 last:mb-0">
+              <p key={i} className="text-[var(--ink-2)] leading-relaxed mb-3 last:mb-0">
                 {para}
               </p>
             ))}
           </div>
 
           {/* What Your Budget Buys */}
-          <div className="bg-white p-8 rounded-sm border border-gray-100">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-6">
+          <div className="bg-[var(--paper)] p-8 border border-[var(--line)]">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-6">
               What Your Budget Buys in {city.name}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-5">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="bg-[var(--paper-2)] border border-[var(--line)] p-5">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   Entry Tier
                 </p>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">
                   {city.priceRange.low}
                 </p>
               </div>
-              <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-5">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="bg-[var(--paper-2)] border border-[var(--line)] p-5">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   Mid Range
                 </p>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">
                   {city.priceRange.high}
                 </p>
               </div>
-              <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-5">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="bg-[var(--paper-2)] border border-[var(--line)] p-5">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   Luxury Tier
                 </p>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">
                   {city.priceRange.luxury}
                 </p>
               </div>
@@ -417,19 +419,19 @@ export default async function CityPage({ params }: Props) {
             const isSarah = city.quoteAuthor === "Sarah";
             return (
               <div
-                className="rounded-sm p-8"
+                className=" p-8"
                 style={{
-                  background: "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
+                  background: "var(--ink)",
                 }}
               >
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
                   {isSarah ? "Sarah\u2019s Take" : "Brad\u2019s Take"}
                 </p>
-                <blockquote className="text-white text-lg leading-relaxed font-serif italic mb-6">
+                <blockquote className="text-white text-lg leading-relaxed font-display italic mb-6">
                   &ldquo;{city.bradQuote}&rdquo;
                 </blockquote>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bg-[var(--paper)]/10 border border-white/20 flex items-center justify-center flex-shrink-0">
                     <span className="text-white/60 text-xs font-semibold">
                       {isSarah ? "SP" : "BP"}
                     </span>
@@ -450,29 +452,29 @@ export default async function CityPage({ params }: Props) {
           })()}
 
           {/* Location & Access */}
-          <div className="bg-white p-8 rounded-sm border border-gray-100">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-4">
+          <div className="bg-[var(--paper)] p-8 border border-[var(--line)]">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-4">
               Location &amp; Access
             </h2>
             <ul className="space-y-2">
               {city.locationAccess.map((item, i) => (
-                <li key={i} className="flex gap-2 text-gray-600 text-sm leading-relaxed">
-                  <span className="text-[#c70000] mt-0.5 flex-shrink-0">•</span>
+                <li key={i} className="flex gap-2 text-[var(--ink-2)] text-sm leading-relaxed">
+                  <span className="text-[var(--red)] mt-0.5 flex-shrink-0">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <div className="mt-5 pt-5 border-t border-gray-100 flex flex-wrap gap-4 text-sm text-gray-600">
+            <div className="mt-5 pt-5 border-t border-[var(--line)] flex flex-wrap gap-4 text-sm text-[var(--ink-2)]">
               <span>
-                <span className="font-semibold text-[#1a1a1a]">County:</span>{" "}
+                <span className="font-semibold text-[var(--ink)]">County:</span>{" "}
                 {city.county} County
               </span>
               <span>
-                <span className="font-semibold text-[#1a1a1a]">Commute to Detroit:</span>{" "}
+                <span className="font-semibold text-[var(--ink)]">Commute to Detroit:</span>{" "}
                 {city.commuteToDetroit}
               </span>
               <span>
-                <span className="font-semibold text-[#1a1a1a]">ZIP Codes:</span>{" "}
+                <span className="font-semibold text-[var(--ink)]">ZIP Codes:</span>{" "}
                 {city.zipCodes.slice(0, 4).join(", ")}
                 {city.zipCodes.length > 4 ? ` + ${city.zipCodes.length - 4} more` : ""}
               </span>
@@ -480,19 +482,19 @@ export default async function CityPage({ params }: Props) {
           </div>
 
           {/* Schools */}
-          <div className="bg-white p-8 rounded-sm border border-gray-100">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-4">
+          <div className="bg-[var(--paper)] p-8 border border-[var(--line)]">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-4">
               Schools
             </h2>
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
               Primary District: {city.schoolDistrict}
             </p>
-            <p className="text-gray-600 leading-relaxed text-sm">{city.schoolInfo}</p>
+            <p className="text-[var(--ink-2)] leading-relaxed text-sm">{city.schoolInfo}</p>
           </div>
 
           {/* FAQs */}
-          <div className="bg-white p-8 rounded-sm border border-gray-100">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-6">
+          <div className="bg-[var(--paper)] p-8 border border-[var(--line)]">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-6">
               Frequently Asked Questions
             </h2>
             <CityFaqAccordion faqs={city.faqs} cityName={city.name} />
@@ -500,62 +502,62 @@ export default async function CityPage({ params }: Props) {
 
           {/* Specialty Services */}
           <div>
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
               Specialty Services in {city.name}
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link
                 href="/divorce-real-estate"
-                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+                className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
               >
-                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                   Divorce Real Estate
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-[var(--ink-3)] mt-1">
                   Court-compliant home sales with dual-party coordination for {city.name} families navigating divorce.
                 </p>
               </Link>
               <Link
                 href="/estate-sales"
-                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+                className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
               >
-                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                   Estate &amp; Probate Sales
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-[var(--ink-3)] mt-1">
                   Executor guidance, probate timelines, and estate property sales in {city.county} County.
                 </p>
               </Link>
               <Link
                 href="/downsizing"
-                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+                className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
               >
-                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                   Downsizing
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-[var(--ink-3)] mt-1">
                   Right-sizing your home in Southeast Michigan, sell your {city.name} property and find your next chapter.
                 </p>
               </Link>
               <Link
                 href="/cash-offer"
-                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+                className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
               >
-                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                   Cash Offer Program
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-[var(--ink-3)] mt-1">
                   Get a no-obligation cash offer on your {city.name} home in 48 hours, no showings, no repairs.
                 </p>
               </Link>
               <Link
                 href="/grants"
-                className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+                className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
               >
-                <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+                <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                   Homebuyer Grants &amp; DPA
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-[var(--ink-3)] mt-1">
                   Check which Michigan down payment assistance programs you qualify for, free, instant results.
                 </p>
               </Link>
@@ -564,11 +566,11 @@ export default async function CityPage({ params }: Props) {
 
           {/* CTA Block */}
           {city.ctaVariant === "buyer" && (
-            <div className="bg-[#1a1a1a] text-white p-8 rounded-sm">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+            <div className="bg-[var(--ink)] text-white p-8">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                 Buying in {city.name}?
               </p>
-              <h2 className="font-serif text-2xl font-bold mb-3">
+              <h2 className="font-display text-2xl mb-3">
                 Get VIP Access to New Listings
               </h2>
               <p className="text-white/70 text-sm mb-5">
@@ -577,7 +579,7 @@ export default async function CityPage({ params }: Props) {
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/vip-buyers"
-                  className="bg-[#c70000] text-white font-semibold px-6 py-3 text-sm hover:bg-[#a30000] transition-colors text-center"
+                  className="bg-[var(--red)] text-white font-semibold px-6 py-3 text-sm hover:bg-[var(--red-deep)] transition-colors text-center"
                 >
                   Join the VIP Buyer List →
                 </Link>
@@ -592,11 +594,11 @@ export default async function CityPage({ params }: Props) {
           )}
 
           {city.ctaVariant === "seller" && (
-            <div className="bg-[#1a1a1a] text-white p-8 rounded-sm">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+            <div className="bg-[var(--ink)] text-white p-8">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                 Selling in {city.name}?
               </p>
-              <h2 className="font-serif text-2xl font-bold mb-3">
+              <h2 className="font-display text-2xl mb-3">
                 Find Out What Your Home Is Worth
               </h2>
               <p className="text-white/70 text-sm mb-5">
@@ -605,7 +607,7 @@ export default async function CityPage({ params }: Props) {
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/home-valuation"
-                  className="bg-[#c70000] text-white font-semibold px-6 py-3 text-sm hover:bg-[#a30000] transition-colors text-center"
+                  className="bg-[var(--red)] text-white font-semibold px-6 py-3 text-sm hover:bg-[var(--red-deep)] transition-colors text-center"
                 >
                   Free Home Valuation →
                 </Link>
@@ -620,11 +622,11 @@ export default async function CityPage({ params }: Props) {
           )}
 
           {city.ctaVariant === "both" && (
-            <div className="bg-[#1a1a1a] text-white p-8 rounded-sm">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+            <div className="bg-[var(--ink)] text-white p-8">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                 Ready to talk {city.name}?
               </p>
-              <h2 className="font-serif text-2xl font-bold mb-3">
+              <h2 className="font-display text-2xl mb-3">
                 Let&apos;s Have a Real Conversation
               </h2>
               <p className="text-white/70 text-sm mb-5">
@@ -633,7 +635,7 @@ export default async function CityPage({ params }: Props) {
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="tel:2487553545"
-                  className="bg-[#c70000] text-white font-semibold px-6 py-3 text-sm hover:bg-[#a30000] transition-colors text-center"
+                  className="bg-[var(--red)] text-white font-semibold px-6 py-3 text-sm hover:bg-[var(--red-deep)] transition-colors text-center"
                 >
                   Call 248.755.3545
                 </a>
@@ -652,7 +654,7 @@ export default async function CityPage({ params }: Props) {
           {/* Compare With */}
           {cityComparisons.length > 0 && (
             <div>
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
                 Compare {city.name} With
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -667,16 +669,16 @@ export default async function CityPage({ params }: Props) {
                     <Link
                       key={comp.slug}
                       href={`/compare/${comp.slug}`}
-                      className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-[#c70000]/30 hover:shadow-md transition-all"
+                      className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-[#c70000]/30 hover:shadow-md transition-all"
                     >
-                      <p className="font-serif font-bold text-[#1a1a1a] group-hover:text-[#c70000] transition-colors">
+                      <p className="font-display text-[var(--ink)] group-hover:text-[var(--red)] transition-colors">
                         {city.name} vs. {other.name}
                       </p>
-                      <p className="text-gray-500 text-xs mt-1">
+                      <p className="text-[var(--ink-3)] text-xs mt-1">
                         {formatPrice(city.marketStats.medianPrice)} vs{" "}
                         {formatPrice(other.marketStats.medianPrice)} median
                       </p>
-                      <span className="mt-3 inline-block text-[#c70000] text-xs font-semibold group-hover:underline">
+                      <span className="mt-3 inline-block text-[var(--red)] text-xs font-semibold group-hover:underline">
                         Full comparison →
                       </span>
                     </Link>
@@ -689,7 +691,7 @@ export default async function CityPage({ params }: Props) {
           {/* Nearby Cities */}
           {nearbyCities.length > 0 && (
             <div>
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
                 Also Explore
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -697,19 +699,19 @@ export default async function CityPage({ params }: Props) {
                   <Link
                     key={nearby.slug}
                     href={`/neighborhoods/${nearby.slug}`}
-                    className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-[#c70000]/30 hover:shadow-md transition-all"
+                    className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-[#c70000]/30 hover:shadow-md transition-all"
                   >
-                    <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+                    <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                       {nearby.county} County
                     </p>
-                    <p className="font-serif font-bold text-[#1a1a1a] group-hover:text-[#c70000] transition-colors">
+                    <p className="font-display text-[var(--ink)] group-hover:text-[var(--red)] transition-colors">
                       {nearby.name}
                     </p>
-                    <p className="text-gray-500 text-xs mt-1">
+                    <p className="text-[var(--ink-3)] text-xs mt-1">
                       {formatPrice(nearby.marketStats.medianPrice)} median ·{" "}
                       {nearby.marketStats.daysOnMarket} DOM
                     </p>
-                    <span className="mt-3 inline-block text-[#c70000] text-xs font-semibold group-hover:underline">
+                    <span className="mt-3 inline-block text-[var(--red)] text-xs font-semibold group-hover:underline">
                       View guide →
                     </span>
                   </Link>
@@ -718,7 +720,7 @@ export default async function CityPage({ params }: Props) {
               <div className="mt-4">
                 <Link
                   href="/neighborhoods"
-                  className="text-sm border border-gray-200 px-4 py-2 rounded-sm text-gray-600 hover:border-[#c70000] hover:text-[#c70000] transition-colors inline-block"
+                  className="text-sm border border-[var(--line)] px-4 py-2 text-[var(--ink-2)] hover:border-[#c70000] hover:text-[var(--red)] transition-colors inline-block"
                 >
                   All Neighborhood Guides →
                 </Link>
@@ -727,7 +729,7 @@ export default async function CityPage({ params }: Props) {
           )}
 
           {/* Legal Disclaimer */}
-          <p className="text-xs text-gray-400 leading-relaxed">
+          <p className="text-xs text-[var(--ink-3)] leading-relaxed">
             Market statistics are sourced from Realcomp MLS data for {city.county} County and reflect general market conditions as of March 2026. City-level figures are adjusted estimates based on known market positioning and may not reflect official MLS sub-market data. Price ranges are general guidance and not guarantees of value. Individual property values depend on condition, location, and current market conditions. School district information should be verified directly with the district for specific property addresses. The Patrick Group | Oak &amp; Stone Real Estate is committed to compliance with the Fair Housing Act and all applicable fair housing laws. Equal Housing Opportunity.
           </p>
         </div>
