@@ -94,7 +94,7 @@ async function MarketAnalysisCard({
   });
 
   return (
-    <section className="bg-blue-50 border-y border-[var(--line)] py-8 px-4 sm:px-6">
+    <section className="bg-[var(--paper-2)] border-y border-[var(--line)] py-8 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         <div className="mb-4 flex items-center justify-between">
           <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono">
