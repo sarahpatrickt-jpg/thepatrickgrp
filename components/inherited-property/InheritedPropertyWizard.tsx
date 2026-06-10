@@ -84,9 +84,9 @@ export default function InheritedPropertyWizard() {
   if (step === "sending") {
     return (
       <div className="max-w-2xl mx-auto py-20 text-center">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#c70000]/10 mb-6">
+        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--red)]/10 mb-6">
           <svg
-            className="w-8 h-8 text-[#c70000] animate-spin"
+            className="w-8 h-8 text-[var(--red)] animate-spin"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -106,10 +106,10 @@ export default function InheritedPropertyWizard() {
             />
           </svg>
         </div>
-        <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-3">
+        <h2 className="font-display text-2xl text-[var(--ink)] mb-3">
           Building Your Action Plan...
         </h2>
-        <p className="text-gray-500 text-sm">
+        <p className="text-[var(--ink-3)] text-sm">
           We&apos;re analyzing your situation and creating a personalized
           step-by-step plan. This takes just a moment.
         </p>

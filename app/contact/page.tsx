@@ -100,14 +100,14 @@ export default function ContactPage() {
         className="pt-32 pb-16 px-4 sm:px-6"
         style={{
           background:
-            "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
+            "var(--ink)",
         }}
       >
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
             Get in Touch
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-4">
+          <h1 className="font-display text-4xl sm:text-5xl text-white mb-4">
             Contact The Patrick Group
           </h1>
           <p className="text-white/70 text-lg max-w-xl mx-auto">
@@ -117,29 +117,29 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Content */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
             {/* Left. Contact Cards */}
             <div className="space-y-6">
-              <h2 className="font-serif text-2xl font-bold text-[#1a1a1a]">
+              <h2 className="font-display text-2xl text-[var(--ink)]">
                 Reach Us Directly
               </h2>
 
               {/* Sarah */}
-              <div className="border border-gray-100 rounded-sm p-6 bg-[#faf9f7]">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+              <div className="border border-[var(--line)] p-6 bg-[var(--paper-2)]">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                   Principal Broker / Owner
                 </p>
-                <p className="font-serif text-xl font-bold text-[#1a1a1a] mb-3">
+                <p className="font-display text-xl text-[var(--ink)] mb-3">
                   Sarah Patrick
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li>
                     <a
                       href="mailto:sarah@sarahpatrickhomes.com"
-                      className="text-[#c70000] hover:underline"
+                      className="text-[var(--red)] hover:underline"
                     >
                       ✉ sarah@sarahpatrickhomes.com
                     </a>
@@ -149,7 +149,7 @@ export default function ContactPage() {
                       href="https://www.linkedin.com/in/sarahkpatrick/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-500 hover:text-[#c70000] transition-colors"
+                      className="text-[var(--ink-3)] hover:text-[var(--red)] transition-colors"
                     >
                       LinkedIn →
                     </a>
@@ -158,18 +158,18 @@ export default function ContactPage() {
               </div>
 
               {/* Brad */}
-              <div className="border border-gray-100 rounded-sm p-6 bg-[#faf9f7]">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+              <div className="border border-[var(--line)] p-6 bg-[var(--paper-2)]">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                   Realtor®
                 </p>
-                <p className="font-serif text-xl font-bold text-[#1a1a1a] mb-3">
+                <p className="font-display text-xl text-[var(--ink)] mb-3">
                   Brad Patrick
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li>
                     <a
                       href="tel:2487553545"
-                      className="text-[#c70000] hover:underline"
+                      className="text-[var(--red)] hover:underline"
                     >
                       📞 248.755.3545
                     </a>
@@ -177,7 +177,7 @@ export default function ContactPage() {
                   <li>
                     <a
                       href="mailto:brad@youragentbrad.net"
-                      className="text-[#c70000] hover:underline"
+                      className="text-[var(--red)] hover:underline"
                     >
                       ✉ brad@youragentbrad.net
                     </a>
@@ -187,7 +187,7 @@ export default function ContactPage() {
                       href="https://www.instagram.com/youragentbrad/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-500 hover:text-[#c70000] transition-colors"
+                      className="text-[var(--ink-3)] hover:text-[var(--red)] transition-colors"
                     >
                       Instagram @youragentbrad →
                     </a>
@@ -197,7 +197,7 @@ export default function ContactPage() {
                       href="https://www.facebook.com/search/top?q=your%20agent%20brad"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-500 hover:text-[#c70000] transition-colors"
+                      className="text-[var(--ink-3)] hover:text-[var(--red)] transition-colors"
                     >
                       Facebook →
                     </a>
@@ -206,14 +206,14 @@ export default function ContactPage() {
               </div>
 
               {/* Office */}
-              <div className="border border-gray-100 rounded-sm p-6 bg-[#faf9f7]">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">
+              <div className="border border-[var(--line)] p-6 bg-[var(--paper-2)]">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">
                   Office
                 </p>
-                <p className="font-serif text-lg font-bold text-[#1a1a1a] mb-2">
+                <p className="font-display text-lg text-[var(--ink)] mb-2">
                   Oak &amp; Stone Real Estate
                 </p>
-                <p className="text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm text-[var(--ink-2)] leading-relaxed">
                   408 East Street<br />
                   Rochester, MI 48307<br />
                   Licensed in Michigan
@@ -222,7 +222,7 @@ export default function ContactPage() {
                   href="https://www.oakandstonerealestate.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-3 text-sm text-gray-500 hover:text-[#c70000] transition-colors"
+                  className="inline-block mt-3 text-sm text-[var(--ink-3)] hover:text-[var(--red)] transition-colors"
                 >
                   OakAndStoneRealEstate.com →
                 </a>
@@ -230,25 +230,25 @@ export default function ContactPage() {
 
               {/* Quick links */}
               <div className="space-y-2">
-                <p className="text-xs uppercase tracking-widest text-gray-400 font-semibold">
+                <p className="text-xs uppercase tracking-widest text-[var(--ink-3)] font-semibold">
                   Quick Actions
                 </p>
                 <div className="flex flex-col gap-2">
                   <Link
                     href="/home-valuation"
-                    className="text-sm text-[#1a1a1a] border border-gray-200 px-4 py-3 rounded-sm hover:border-[#c70000] hover:text-[#c70000] transition-colors"
+                    className="text-sm text-[var(--ink)] border border-[var(--line)] px-4 py-3 hover:border-[#c70000] hover:text-[var(--red)] transition-colors"
                   >
                     → Request a Free Home Valuation
                   </Link>
                   <Link
                     href="/vip-buyers"
-                    className="text-sm text-[#1a1a1a] border border-gray-200 px-4 py-3 rounded-sm hover:border-[#c70000] hover:text-[#c70000] transition-colors"
+                    className="text-sm text-[var(--ink)] border border-[var(--line)] px-4 py-3 hover:border-[#c70000] hover:text-[var(--red)] transition-colors"
                   >
                     → Join the VIP Coming Soon Buyers List
                   </Link>
                   <Link
                     href="/faq"
-                    className="text-sm text-[#1a1a1a] border border-gray-200 px-4 py-3 rounded-sm hover:border-[#c70000] hover:text-[#c70000] transition-colors"
+                    className="text-sm text-[var(--ink)] border border-[var(--line)] px-4 py-3 hover:border-[#c70000] hover:text-[var(--red)] transition-colors"
                   >
                     → Browse Our FAQ
                   </Link>
@@ -258,7 +258,7 @@ export default function ContactPage() {
 
             {/* Right. Message Form */}
             <div>
-              <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-6">
+              <h2 className="font-display text-2xl text-[var(--ink)] mb-6">
                 Send Us a Message
               </h2>
               <ContactForm />
@@ -268,9 +268,9 @@ export default function ContactPage() {
       </section>
 
       {/* Fair Housing */}
-      <section className="py-6 px-4 sm:px-6 bg-[#faf9f7] border-t border-gray-100">
+      <section className="py-6 px-4 sm:px-6 bg-[var(--paper-2)] border-t border-[var(--line)]">
         <div className="max-w-5xl mx-auto">
-          <p className="text-xs text-gray-400 text-center leading-relaxed">
+          <p className="text-xs text-[var(--ink-3)] text-center leading-relaxed">
             The Patrick Group | Oak &amp; Stone Real Estate is committed to
             compliance with all federal, state, and local fair housing laws. We
             do not discriminate on the basis of race, color, religion, sex,

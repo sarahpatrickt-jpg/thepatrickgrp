@@ -4,9 +4,9 @@ import { useState } from "react";
 import { trackContactFormSubmitted } from "@/lib/analytics";
 
 const inputClass =
-  "w-full border border-gray-200 px-4 py-3 text-sm text-[#1a1a1a] focus:outline-none focus:border-[#c70000] rounded-sm";
+  "w-full border border-[var(--line)] px-4 py-3 text-sm text-[var(--ink)] focus:outline-none focus:border-[#c70000]";
 const labelClass =
-  "block text-xs uppercase tracking-widest text-gray-500 font-semibold mb-1";
+  "block text-xs uppercase tracking-widest text-[var(--ink-3)] font-semibold mb-1";
 
 // Map interest value → Sierra leadType (1=Buyer, 2=Seller, 3=Both)
 function getLeadType(interest: string): number {
@@ -71,16 +71,16 @@ export default function ContactForm() {
   if (status === "success") {
     return (
       <div className="text-center py-10">
-        <div className="w-14 h-14 rounded-full bg-[#c70000]/10 flex items-center justify-center mx-auto mb-4">
-          <span className="text-[#c70000] text-2xl font-bold">✓</span>
+        <div className="w-14 h-14 rounded-full bg-[var(--red)]/10 flex items-center justify-center mx-auto mb-4">
+          <span className="text-[var(--red)] text-2xl font-bold">✓</span>
         </div>
-        <h3 className="font-serif text-xl font-bold text-[#1a1a1a] mb-2">
+        <h3 className="font-display text-xl text-[var(--ink)] mb-2">
           Message Received
         </h3>
-        <p className="text-gray-500 text-sm max-w-xs mx-auto leading-relaxed">
+        <p className="text-[var(--ink-3)] text-sm max-w-xs mx-auto leading-relaxed">
           We typically respond within one business day. You can also reach Brad
           directly at{" "}
-          <a href="tel:2487553545" className="text-[#c70000] hover:underline">
+          <a href="tel:2487553545" className="text-[var(--red)] hover:underline">
             248.755.3545
           </a>
           .
@@ -119,7 +119,7 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="interest" className={labelClass}>I am interested in</label>
-        <select id="interest" name="interest" className={inputClass + " bg-white"}>
+        <select id="interest" name="interest" className={inputClass + " bg-[var(--paper)]"}>
           <option value="">Select one…</option>
           <option value="buying">Buying a Home</option>
           <option value="selling">Selling a Home</option>
@@ -148,7 +148,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full bg-[#c70000] text-white font-bold py-4 text-sm hover:bg-[#a30000] transition-colors rounded-sm disabled:opacity-60"
+        className="w-full bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors disabled:opacity-60"
       >
         {status === "loading" ? "Sending…" : "Send Message"}
       </button>
@@ -160,7 +160,7 @@ export default function ContactForm() {
         </p>
       )}
 
-      <p className="text-xs text-gray-400 text-center">
+      <p className="text-xs text-[var(--ink-3)] text-center">
         We typically respond within one business day. Your information is never shared or sold.
       </p>
     </form>

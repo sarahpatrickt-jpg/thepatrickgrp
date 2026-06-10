@@ -303,14 +303,14 @@ export default function FaqPage() {
       <section
         className="pt-32 pb-16 px-4 sm:px-6"
         style={{
-          background: "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
+          background: "var(--ink)",
         }}
       >
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
             The Patrick Group
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-4">
+          <h1 className="font-display text-4xl sm:text-5xl text-white mb-4">
             Frequently Asked Questions
           </h1>
           <p className="text-white/70 text-lg max-w-xl mx-auto">

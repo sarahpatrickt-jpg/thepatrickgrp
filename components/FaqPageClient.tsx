@@ -158,14 +158,14 @@ function AccordionSection({ items }: { items: FaqItem[] }) {
           <div key={i}>
             <button
               onClick={() => toggle(i)}
-              className="w-full text-left py-5 flex items-start justify-between gap-4 hover:text-[#c70000] transition-colors group"
+              className="w-full text-left py-5 flex items-start justify-between gap-4 hover:text-[var(--red)] transition-colors group"
               aria-expanded={isOpen}
             >
-              <span className={`font-semibold text-base leading-snug transition-colors ${isOpen ? "text-[#c70000]" : "text-[#1a1a1a]"}`}>
+              <span className={`font-semibold text-base leading-snug transition-colors ${isOpen ? "text-[var(--red)]" : "text-[var(--ink)]"}`}>
                 {faq.q}
               </span>
               <span
-                className={`flex-shrink-0 w-6 h-6 rounded-full bg-[#f7eaea] flex items-center justify-center text-[#c70000] font-bold text-sm transition-transform duration-200 mt-0.5 ${isOpen ? "rotate-45" : ""}`}
+                className={`flex-shrink-0 w-6 h-6 rounded-full bg-[#f7eaea] flex items-center justify-center text-[var(--red)] font-bold text-sm transition-transform duration-200 mt-0.5 ${isOpen ? "rotate-45" : ""}`}
                 aria-hidden="true"
               >
                 +
@@ -173,7 +173,7 @@ function AccordionSection({ items }: { items: FaqItem[] }) {
             </button>
             {isOpen && (
               <div className="pb-5 pr-10 faq-answer">
-                <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">{faq.a}</p>
               </div>
             )}
           </div>
@@ -194,14 +194,14 @@ export default function FaqPageClient() {
   return (
     <>
       {/* Filter tabs */}
-      <div className="bg-[#f5f5f5] border-b border-gray-200 sticky top-0 z-10">
+      <div className="bg-[#f5f5f5] border-b border-[var(--line)] sticky top-0 z-10">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 flex gap-1 overflow-x-auto">
           <button
             onClick={() => setActiveFilter("all")}
             className={`px-4 py-4 text-xs font-semibold uppercase tracking-wide whitespace-nowrap border-b-2 transition-colors ${
               activeFilter === "all"
-                ? "text-[#c70000] border-[#c70000]"
-                : "text-gray-500 border-transparent hover:text-[#1a1a1a]"
+                ? "text-[var(--red)] border-[#c70000]"
+                : "text-[var(--ink-3)] border-transparent hover:text-[var(--ink)]"
             }`}
           >
             All Questions
@@ -212,8 +212,8 @@ export default function FaqPageClient() {
               onClick={() => setActiveFilter(cat.id)}
               className={`px-4 py-4 text-xs font-semibold uppercase tracking-wide whitespace-nowrap border-b-2 transition-colors ${
                 activeFilter === cat.id
-                  ? "text-[#c70000] border-[#c70000]"
-                  : "text-gray-500 border-transparent hover:text-[#1a1a1a]"
+                  ? "text-[var(--red)] border-[#c70000]"
+                  : "text-[var(--ink-3)] border-transparent hover:text-[var(--ink)]"
               }`}
             >
               {cat.label}
@@ -223,11 +223,11 @@ export default function FaqPageClient() {
       </div>
 
       {/* FAQ Content */}
-      <section className="py-14 px-4 sm:px-6 bg-white">
+      <section className="py-14 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-3xl mx-auto">
           {visibleCategories.map((cat) => (
             <div key={cat.id} className="mb-12">
-              <h2 className="text-xs font-bold uppercase tracking-widest text-[#c70000] mb-1 pb-3 border-b-2 border-[#f0e0e0]">
+              <h2 className="text-xs font-bold uppercase tracking-widest text-[var(--red)] mb-1 pb-3 border-b-2 border-[#f0e0e0]">
                 {cat.label}
               </h2>
               <AccordionSection items={cat.items} />
@@ -235,15 +235,15 @@ export default function FaqPageClient() {
           ))}
 
           {/* CTA */}
-          <div className="bg-[#c70000] text-white rounded-sm p-10 text-center mt-6">
-            <h2 className="font-serif text-2xl font-bold mb-2">Still have questions?</h2>
+          <div className="bg-[var(--red)] text-white p-10 text-center mt-6">
+            <h2 className="font-display text-2xl mb-2">Still have questions?</h2>
             <p className="text-white/80 text-sm mb-6 max-w-sm mx-auto">
               Sarah and Brad are happy to answer anything, no pressure, no obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
                 href="/contact"
-                className="bg-white text-[#c70000] font-semibold px-6 py-3 text-sm hover:bg-gray-100 transition-colors"
+                className="bg-[var(--paper)] text-[var(--red)] font-semibold px-6 py-3 text-sm hover:bg-gray-100 transition-colors"
               >
                 Contact Us
               </Link>
@@ -257,7 +257,7 @@ export default function FaqPageClient() {
           </div>
 
           {/* Fair Housing */}
-          <p className="mt-8 text-xs text-gray-400 text-center leading-relaxed">
+          <p className="mt-8 text-xs text-[var(--ink-3)] text-center leading-relaxed">
             The Patrick Group | Oak &amp; Stone Real Estate is committed to
             compliance with all federal, state, and local fair housing laws. We
             do not discriminate on the basis of race, color, religion, sex,

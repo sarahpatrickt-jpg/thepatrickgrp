@@ -131,14 +131,14 @@ export default function NewConstructionPage() {
       />
 
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Specialty Services
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             New Construction in Southeast Michigan.{" "}
-            <span className="text-[#c70000]">You Need Your Own Agent.</span>
+            <span className="text-[var(--red)]">You Need Your Own Agent.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-5">
             The builder&apos;s on-site agent works for the builder, not for you. Buyer representation on new construction is free to you and makes a meaningful difference at every step of the process.
@@ -149,7 +149,7 @@ export default function NewConstructionPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:2487553545"
-              className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors text-center"
+              className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors text-center"
             >
               Talk to Us: 248.755.3545
             </a>
@@ -157,7 +157,7 @@ export default function NewConstructionPage() {
               href="https://www.oakandstonerealestate.com/new-construction/"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors text-center"
+              className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors text-center"
             >
               Search New Construction →
             </a>
@@ -166,7 +166,7 @@ export default function NewConstructionPage() {
       </section>
 
       {/* WHY YOU NEED YOUR OWN AGENT */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
@@ -183,10 +183,10 @@ export default function NewConstructionPage() {
                 body: "Builder contracts are long, detailed documents drafted by the builder's legal team. They dictate your rights, your deposits, and your remedies. An experienced buyer's agent has reviewed hundreds of these and knows what to look for.",
               },
             ].map((item) => (
-              <div key={item.heading} className="bg-[#faf9f7] border border-gray-100 rounded-sm p-6">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">Why it matters</p>
-                <h3 className="font-serif text-lg font-bold text-[#1a1a1a] mb-3">{item.heading}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.body}</p>
+              <div key={item.heading} className="bg-[var(--paper-2)] border border-[var(--line)] p-6">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">Why it matters</p>
+                <h3 className="font-display text-lg text-[var(--ink)] mb-3">{item.heading}</h3>
+                <p className="text-sm text-[var(--ink-2)] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -194,58 +194,58 @@ export default function NewConstructionPage() {
       </section>
 
       {/* ACTIVE MARKETS */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Where to Look
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               Active New Construction Markets
             </h2>
-            <p className="mt-4 text-gray-500 max-w-xl mx-auto text-sm">
+            <p className="mt-4 text-[var(--ink-3)] max-w-xl mx-auto text-sm">
               Southeast Michigan has significant builder activity across Oakland, Macomb, and Wayne counties. These are the areas with the most consistent new construction inventory.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {markets.map((m) => (
-              <div key={m.area} className="bg-white border border-gray-100 rounded-sm p-6">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-1">{m.county}</p>
-                <h3 className="font-serif text-lg font-bold text-[#1a1a1a] mb-2">{m.area}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed mb-3">{m.note}</p>
-                <p className="text-sm font-semibold text-[#1a1a1a]">Typical range: {m.priceRange}</p>
+              <div key={m.area} className="bg-[var(--paper)] border border-[var(--line)] p-6">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-1">{m.county}</p>
+                <h3 className="font-display text-lg text-[var(--ink)] mb-2">{m.area}</h3>
+                <p className="text-sm text-[var(--ink-3)] leading-relaxed mb-3">{m.note}</p>
+                <p className="text-sm font-semibold text-[var(--ink)]">Typical range: {m.priceRange}</p>
               </div>
             ))}
           </div>
-          <p className="text-center text-xs text-gray-400 mt-6">
+          <p className="text-center text-xs text-[var(--ink-3)] mt-6">
             Price ranges are approximate and vary by builder, community, and options selected. Contact us for current builder inventory and pricing.
           </p>
         </div>
       </section>
 
       {/* PROCESS */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               How it works
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               The New Construction Process
             </h2>
-            <p className="mt-4 text-gray-500 max-w-xl mx-auto text-sm">
+            <p className="mt-4 text-[var(--ink-3)] max-w-xl mx-auto text-sm">
               New construction has more steps, and more decisions, than a standard resale purchase. Here&apos;s what to expect.
             </p>
           </div>
           <div className="space-y-8">
             {process.map((step, i) => (
               <div key={i} className="flex gap-6">
-                <div className="w-10 h-10 rounded-full bg-[#c70000] text-white text-sm font-bold flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white text-sm font-bold flex items-center justify-center shrink-0 mt-0.5">
                   {i + 1}
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#1a1a1a] mb-2">{step.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
+                  <h3 className="font-semibold text-[var(--ink)] mb-2">{step.title}</h3>
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">{step.desc}</p>
                 </div>
               </div>
             ))}
@@ -254,21 +254,21 @@ export default function NewConstructionPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Common questions
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               New Construction FAQs
             </h2>
           </div>
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="border-b border-gray-200 pb-6">
-                <h3 className="font-semibold text-[#1a1a1a] mb-2">{faq.q}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{faq.a}</p>
+              <div key={i} className="border-b border-[var(--line)] pb-6">
+                <h3 className="font-semibold text-[var(--ink)] mb-2">{faq.q}</h3>
+                <p className="text-sm text-[var(--ink-2)] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -276,13 +276,13 @@ export default function NewConstructionPage() {
       </section>
 
       {/* AREAS WE SERVE */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Where we work
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               New Construction Buyer Representation Across Southeast Michigan
             </h2>
           </div>
@@ -304,17 +304,17 @@ export default function NewConstructionPage() {
               <Link
                 key={city.slug}
                 href={`/neighborhoods/${city.slug}`}
-                className="text-sm text-gray-600 hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] rounded-sm text-center"
+                className="text-sm text-[var(--ink-2)] hover:text-[var(--red)] transition-colors py-2 px-3 bg-[var(--paper-2)] text-center"
               >
                 {city.name}
               </Link>
             ))}
           </div>
-          <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 justify-center">
-            <Link href="/real-estate-investors" className="text-sm font-semibold text-[#c70000] hover:underline">
+          <div className="mt-8 pt-6 border-t border-[var(--line)] flex flex-wrap gap-4 justify-center">
+            <Link href="/real-estate-investors" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Investment Property →
             </Link>
-            <Link href="/relocation" className="text-sm font-semibold text-[#c70000] hover:underline">
+            <Link href="/relocation" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Relocation Services →
             </Link>
           </div>
@@ -322,8 +322,8 @@ export default function NewConstructionPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#c70000] text-white text-center">
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--red)] text-white text-center">
+        <h2 className="font-display text-2xl sm:text-3xl mb-4">
           Looking at New Construction? Let&apos;s Talk First.
         </h2>
         <p className="text-white/80 mb-6 text-sm max-w-md mx-auto">
@@ -332,7 +332,7 @@ export default function NewConstructionPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="tel:2487553545"
-            className="bg-white text-[#c70000] font-bold px-8 py-4 rounded-sm hover:bg-white/90 transition-colors"
+            className="bg-[var(--paper)] text-[var(--red)] font-bold px-8 py-4 hover:bg-[var(--paper)]/90 transition-colors"
           >
             Call 248.755.3545
           </a>
@@ -340,7 +340,7 @@ export default function NewConstructionPage() {
             href="https://www.oakandstonerealestate.com/new-construction/"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-white text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
+            className="border border-white text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Search New Construction →
           </a>
@@ -351,9 +351,9 @@ export default function NewConstructionPage() {
       </section>
 
       {/* FAIR HOUSING */}
-      <section className="py-6 px-4 sm:px-6 bg-white border-t border-gray-100">
+      <section className="py-6 px-4 sm:px-6 bg-[var(--paper)] border-t border-[var(--line)]">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs text-gray-400 leading-relaxed">
+          <p className="text-xs text-[var(--ink-3)] leading-relaxed">
             Price ranges are approximate and reflect general market conditions, they are not guarantees of value or availability. Builder terms, warranty coverage, and financing incentives vary by builder and community and should be independently verified. Oak &amp; Stone Real Estate is committed to compliance with the Fair Housing Act and all applicable fair housing laws. Equal Housing Opportunity.
           </p>
         </div>

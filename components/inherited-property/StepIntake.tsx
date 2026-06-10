@@ -15,20 +15,20 @@ import { michiganCities } from "@/data/inherited-property";
 import { trackWizardStart, trackWizardStep } from "@/lib/analytics";
 
 const inputClass =
-  "w-full border border-gray-200 bg-white px-4 py-3 text-sm text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:border-[#c70000] rounded-sm";
+  "w-full border border-[var(--line)] bg-[var(--paper)] px-4 py-3 text-sm text-[var(--ink)] placeholder-gray-400 focus:outline-none focus:border-[#c70000]";
 const selectClass =
-  "w-full border border-gray-200 bg-white px-4 py-3 text-sm text-[#1a1a1a] focus:outline-none focus:border-[#c70000] rounded-sm";
+  "w-full border border-[var(--line)] bg-[var(--paper)] px-4 py-3 text-sm text-[var(--ink)] focus:outline-none focus:border-[#c70000]";
 const labelClass =
-  "block text-xs uppercase tracking-widest text-gray-500 font-semibold mb-1";
-const sectionTitle = "font-serif text-lg font-bold text-[#1a1a1a] mb-4";
-const sectionWrap = "bg-[#faf9f7] border border-gray-100 rounded-sm p-6";
+  "block text-xs uppercase tracking-widest text-[var(--ink-3)] font-semibold mb-1";
+const sectionTitle = "font-display text-lg text-[var(--ink)] mb-4";
+const sectionWrap = "bg-[var(--paper-2)] border border-[var(--line)] p-6";
 
 type WizardStep = 1 | 2 | 3;
 
 const radioOptionClass =
-  "flex items-start gap-3 p-3 border border-gray-200 rounded-sm cursor-pointer hover:border-[#c70000]/40 transition-colors";
+  "flex items-start gap-3 p-3 border border-[var(--line)] cursor-pointer hover:border-[#c70000]/40 transition-colors";
 const radioOptionSelectedClass =
-  "flex items-start gap-3 p-3 border-2 border-[#c70000] bg-[#c70000]/5 rounded-sm cursor-pointer";
+  "flex items-start gap-3 p-3 border-2 border-[#c70000] bg-[var(--red)]/5 cursor-pointer";
 
 function RadioOption({
   name,
@@ -56,9 +56,9 @@ function RadioOption({
         className="accent-[#c70000] mt-0.5 shrink-0"
       />
       <div>
-        <span className="text-sm font-medium text-[#1a1a1a]">{label}</span>
+        <span className="text-sm font-medium text-[var(--ink)]">{label}</span>
         {sublabel && (
-          <span className="block text-xs text-gray-400 mt-0.5">{sublabel}</span>
+          <span className="block text-xs text-[var(--ink-3)] mt-0.5">{sublabel}</span>
         )}
       </div>
     </label>
@@ -190,8 +190,8 @@ export default function StepIntake({
               <div
                 className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold ${
                   wizardStep >= s.num
-                    ? "bg-[#c70000] text-white"
-                    : "bg-gray-200 text-gray-500"
+                    ? "bg-[var(--red)] text-white"
+                    : "bg-gray-200 text-[var(--ink-3)]"
                 }`}
               >
                 {wizardStep > s.num ? (
@@ -206,14 +206,14 @@ export default function StepIntake({
                   s.num
                 )}
               </div>
-              <span className="text-[10px] text-gray-500 mt-1 whitespace-nowrap">
+              <span className="text-[10px] text-[var(--ink-3)] mt-1 whitespace-nowrap">
                 {s.label}
               </span>
             </div>
             {i < progressSteps.length - 1 && (
               <div
                 className={`w-16 sm:w-24 h-0.5 mx-2 mb-4 ${
-                  wizardStep > s.num ? "bg-[#c70000]" : "bg-gray-200"
+                  wizardStep > s.num ? "bg-[var(--red)]" : "bg-gray-200"
                 }`}
               />
             )}
@@ -234,7 +234,7 @@ export default function StepIntake({
       </div>
 
       {errors.length > 0 && (
-        <div className="bg-red-50 border border-red-200 rounded-sm p-4 mb-6">
+        <div className="bg-red-50 border border-red-200 p-4 mb-6">
           <p className="text-sm font-semibold text-red-700 mb-1">
             Please fix the following:
           </p>
@@ -385,7 +385,7 @@ export default function StepIntake({
           <button
             type="button"
             onClick={handleNext}
-            className="w-full bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors"
+            className="w-full bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors"
           >
             Next: Tell Us About the Property
           </button>
@@ -528,14 +528,14 @@ export default function StepIntake({
             <button
               type="button"
               onClick={handleBack}
-              className="px-6 py-4 text-sm text-gray-500 hover:text-gray-700 transition-colors"
+              className="px-6 py-4 text-sm text-[var(--ink-3)] hover:text-[var(--ink-2)] transition-colors"
             >
               Back
             </button>
             <button
               type="button"
               onClick={handleNext}
-              className="flex-1 bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors"
+              className="flex-1 bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors"
             >
               Next: Get Your Action Plan
             </button>
@@ -546,11 +546,11 @@ export default function StepIntake({
       {/* ── STEP 3: Contact Info ── */}
       {wizardStep === 3 && (
         <form onSubmit={handleSubmit} className="space-y-8">
-          <div className="bg-[#1a1a1a] text-white rounded-sm p-6 text-center">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+          <div className="bg-[var(--ink)] text-white p-6 text-center">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
               Almost done
             </p>
-            <h3 className="font-serif text-xl font-bold mb-2">
+            <h3 className="font-display text-xl mb-2">
               Your personalized action plan is ready.
             </h3>
             <p className="text-white/60 text-sm">
@@ -614,19 +614,19 @@ export default function StepIntake({
             <button
               type="button"
               onClick={handleBack}
-              className="px-6 py-4 text-sm text-gray-500 hover:text-gray-700 transition-colors"
+              className="px-6 py-4 text-sm text-[var(--ink-3)] hover:text-[var(--ink-2)] transition-colors"
             >
               Back
             </button>
             <button
               type="submit"
-              className="flex-1 bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors"
+              className="flex-1 bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors"
             >
               See My Action Plan
             </button>
           </div>
 
-          <p className="text-xs text-gray-400 text-center">
+          <p className="text-xs text-[var(--ink-3)] text-center">
             We never sell your information. Your plan is personalized to your
             situation.
           </p>

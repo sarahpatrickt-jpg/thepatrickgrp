@@ -75,30 +75,30 @@ export default function ExitIntentPopup() {
       aria-modal="true"
       aria-label="Are you thinking about moving?"
     >
-      <div className="bg-[#faf9f7] max-w-md w-full shadow-2xl relative overflow-hidden">
+      <div className="bg-[var(--paper-2)] max-w-md w-full shadow-2xl relative overflow-hidden">
         {/* Red accent bar */}
-        <div className="h-1 bg-[#c70000]" />
+        <div className="h-1 bg-[var(--red)]" />
 
         <div className="p-8 sm:p-10">
           {/* Close */}
           <button
             onClick={dismiss}
-            className="absolute top-4 right-5 text-gray-400 hover:text-[#1a1a1a] text-2xl leading-none transition-colors"
+            className="absolute top-4 right-5 text-[var(--ink-3)] hover:text-[var(--ink)] text-2xl leading-none transition-colors"
             aria-label="Close"
           >
             ×
           </button>
 
           {/* Eyebrow */}
-          <p className="text-[#c70000] text-xs uppercase tracking-[0.2em] font-semibold mb-2">
+          <p className="text-[var(--red)] text-xs uppercase tracking-[0.2em] font-semibold mb-2">
             Before you go
           </p>
 
           {/* Headline */}
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-2 leading-tight">
+          <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-2 leading-tight">
             Thinking About Making a Move?
           </h2>
-          <p className="text-gray-500 text-sm mb-8 leading-relaxed">
+          <p className="text-[var(--ink-3)] text-sm mb-8 leading-relaxed">
             Tell us where you are, we&apos;ll send you exactly the right
             information. No pressure, no spam.
           </p>
@@ -108,10 +108,10 @@ export default function ExitIntentPopup() {
             <Link
               href="/home-valuation"
               onClick={dismiss}
-              className="group flex flex-col bg-[#1a1a1a] text-white p-5 hover:bg-[#c70000] transition-colors duration-200"
+              className="group flex flex-col bg-[var(--ink)] text-white p-5 hover:bg-[var(--red)] transition-colors duration-200"
             >
               <span className="text-2xl mb-3 block">🏡</span>
-              <span className="font-serif font-bold text-base mb-1 leading-snug">
+              <span className="font-display text-base mb-1 leading-snug">
                 I&apos;m thinking of selling
               </span>
               <span className="text-white/65 text-xs leading-relaxed">
@@ -122,10 +122,10 @@ export default function ExitIntentPopup() {
             <Link
               href="/vip-buyers"
               onClick={dismiss}
-              className="group flex flex-col bg-[#1a1a1a] text-white p-5 hover:bg-[#c70000] transition-colors duration-200"
+              className="group flex flex-col bg-[var(--ink)] text-white p-5 hover:bg-[var(--red)] transition-colors duration-200"
             >
               <span className="text-2xl mb-3 block">🔑</span>
-              <span className="font-serif font-bold text-base mb-1 leading-snug">
+              <span className="font-display text-base mb-1 leading-snug">
                 I&apos;m looking to buy
               </span>
               <span className="text-white/65 text-xs leading-relaxed">
@@ -138,7 +138,7 @@ export default function ExitIntentPopup() {
           <p className="text-center mt-5">
             <button
               onClick={dismiss}
-              className="text-xs text-gray-400 hover:text-gray-600 underline underline-offset-2 transition-colors"
+              className="text-xs text-[var(--ink-3)] hover:text-[var(--ink-2)] underline underline-offset-2 transition-colors"
             >
               Just browsing, no thanks
             </button>

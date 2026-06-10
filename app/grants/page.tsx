@@ -82,16 +82,16 @@ export default function GrantsPage() {
         className="pt-32 pb-16 px-4 sm:px-6"
         style={{
           background:
-            "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
+            "var(--ink)",
         }}
       >
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
             Michigan Homebuyer Assistance
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-5 leading-tight">
+          <h1 className="font-display text-4xl sm:text-5xl text-white mb-5 leading-tight">
             Find Out Which Grants{" "}
-            <span className="text-[#c70000]">You Qualify For</span>
+            <span className="text-[var(--red)]">You Qualify For</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed">
             Michigan offers thousands of dollars in down payment assistance and
@@ -102,7 +102,7 @@ export default function GrantsPage() {
       </section>
 
       {/* Trust bar */}
-      <section className="py-6 px-4 sm:px-6 bg-[#1a1a1a] border-t border-white/5">
+      <section className="py-6 px-4 sm:px-6 bg-[var(--ink)] border-t border-white/5">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-sm text-white/60">
             <div>
@@ -125,20 +125,20 @@ export default function GrantsPage() {
       </section>
 
       {/* Wizard */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-3xl mx-auto">
           <GrantWizard />
         </div>
       </section>
 
       {/* How it works */}
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               How it works
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Three Steps to Your Results
             </h2>
           </div>
@@ -162,15 +162,15 @@ export default function GrantsPage() {
             ].map((step) => (
               <div
                 key={step.n}
-                className="bg-white border border-gray-100 rounded-sm p-6"
+                className="bg-[var(--paper)] border border-[var(--line)] p-6"
               >
-                <div className="w-10 h-10 rounded-full bg-[#c70000] text-white flex items-center justify-center text-xs font-bold mb-4">
+                <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white flex items-center justify-center text-xs font-bold mb-4">
                   {step.n}
                 </div>
-                <h3 className="font-semibold text-[#1a1a1a] mb-2">
+                <h3 className="font-semibold text-[var(--ink)] mb-2">
                   {step.title}
                 </h3>
-                <p className="text-sm text-gray-500 leading-relaxed">
+                <p className="text-sm text-[var(--ink-3)] leading-relaxed">
                   {step.desc}
                 </p>
               </div>
@@ -180,21 +180,21 @@ export default function GrantsPage() {
       </section>
 
       {/* Program overview */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Programs we check
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Michigan Down Payment Assistance Programs
             </h2>
-            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+            <p className="text-[var(--ink-3)] text-sm mt-3 max-w-xl mx-auto">
               Government grants, bank-specific programs, and credit union offers.
               Eligibility depends on your income, location, and buyer status.
             </p>
           </div>
-          <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Government &amp; County Programs</p>
+          <p className="text-xs font-semibold text-[var(--ink-3)] uppercase tracking-widest mb-3">Government &amp; County Programs</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {[
               { name: "MSHDA MI DPA", amount: "Up to $7,500", type: "Statewide" },
@@ -213,19 +213,19 @@ export default function GrantsPage() {
             ].map((p) => (
               <div
                 key={p.name}
-                className="bg-[#faf9f7] border border-gray-100 rounded-sm p-4"
+                className="bg-[var(--paper-2)] border border-[var(--line)] p-4"
               >
-                <p className="font-semibold text-[#1a1a1a] text-sm">
+                <p className="font-semibold text-[var(--ink)] text-sm">
                   {p.name}
                 </p>
-                <p className="text-[#c70000] font-bold text-sm mt-1">
+                <p className="text-[var(--red)] font-bold text-sm mt-1">
                   {p.amount}
                 </p>
-                <p className="text-xs text-gray-400 mt-1">{p.type}</p>
+                <p className="text-xs text-[var(--ink-3)] mt-1">{p.type}</p>
               </div>
             ))}
           </div>
-          <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Bank &amp; Credit Union Programs</p>
+          <p className="text-xs font-semibold text-[var(--ink-3)] uppercase tracking-widest mb-3">Bank &amp; Credit Union Programs</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { name: "Chase Homebuyer Grant", amount: "Up to $7,500", type: "Eligible areas" },
@@ -238,15 +238,15 @@ export default function GrantsPage() {
             ].map((p) => (
               <div
                 key={p.name}
-                className="bg-[#faf9f7] border border-gray-100 rounded-sm p-4"
+                className="bg-[var(--paper-2)] border border-[var(--line)] p-4"
               >
-                <p className="font-semibold text-[#1a1a1a] text-sm">
+                <p className="font-semibold text-[var(--ink)] text-sm">
                   {p.name}
                 </p>
-                <p className="text-[#c70000] font-bold text-sm mt-1">
+                <p className="text-[var(--red)] font-bold text-sm mt-1">
                   {p.amount}
                 </p>
-                <p className="text-xs text-gray-400 mt-1">{p.type}</p>
+                <p className="text-xs text-[var(--ink-3)] mt-1">{p.type}</p>
               </div>
             ))}
           </div>
@@ -254,23 +254,23 @@ export default function GrantsPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Common questions
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Grant &amp; DPA FAQs
             </h2>
           </div>
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="border-b border-gray-100 pb-6">
-                <h3 className="font-semibold text-[#1a1a1a] mb-2 text-base">
+              <div key={i} className="border-b border-[var(--line)] pb-6">
+                <h3 className="font-semibold text-[var(--ink)] mb-2 text-base">
                   {faq.q}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">
                   {faq.a}
                 </p>
               </div>
@@ -280,12 +280,12 @@ export default function GrantsPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-14 px-4 sm:px-6 bg-[#1a1a1a] text-white">
+      <section className="py-14 px-4 sm:px-6 bg-[var(--ink)] text-white">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
             Ready to get started?
           </p>
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+          <h2 className="font-display text-2xl sm:text-3xl mb-4">
             Have Questions About Grants or DPA Programs?
           </h2>
           <p className="text-white/70 text-sm mb-6 max-w-md mx-auto">
@@ -296,13 +296,13 @@ export default function GrantsPage() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="tel:2487553545"
-              className="bg-[#c70000] text-white font-semibold px-8 py-4 text-sm hover:bg-[#a30000] transition-colors"
+              className="bg-[var(--red)] text-white font-semibold px-8 py-4 text-sm hover:bg-[var(--red-deep)] transition-colors"
             >
               Call (248) 755-3545
             </a>
             <Link
               href="/contact"
-              className="border border-white/30 text-white font-semibold px-8 py-4 text-sm hover:bg-white/10 transition-colors"
+              className="border border-white/30 text-white font-semibold px-8 py-4 text-sm hover:bg-[var(--paper)]/10 transition-colors"
             >
               Send a Message →
             </Link>

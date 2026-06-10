@@ -71,16 +71,16 @@ export default function VipBuyersPage() {
         className="relative min-h-[60vh] flex items-center justify-center text-white pt-32 pb-20 px-4 sm:px-6"
         style={{
           background:
-            "linear-gradient(135deg, #0d0d0d 0%, #1a0000 40%, #2a0808 100%)",
+            "var(--ink)",
         }}
       >
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             VIP Buyer Access
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold mb-5 leading-tight">
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl mb-5 leading-tight">
             See Homes Before{" "}
-            <span className="text-[#c70000]">They Hit Zillow.</span>
+            <span className="text-[var(--red)]">They Hit Zillow.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto leading-relaxed mb-8">
             Join The Patrick Group VIP Buyer List and get Coming Soon listings
@@ -97,7 +97,7 @@ export default function VipBuyersPage() {
             href="https://bradpatrick.oakandstonerealestate.com/coming-soon-properties/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block border border-white/30 text-white/80 text-sm font-medium px-6 py-3 rounded-sm hover:bg-white/10 transition-colors"
+            className="inline-block border border-white/30 text-white/80 text-sm font-medium px-6 py-3 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Browse Current Coming Soon Listings →
           </a>
@@ -105,19 +105,19 @@ export default function VipBuyersPage() {
       </section>
 
       {/* SIGNUP + WHY IT MATTERS */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 
             {/* Form */}
-            <div className="bg-white border border-gray-100 rounded-sm shadow-sm p-8">
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+            <div className="bg-[var(--paper)] border border-[var(--line)] shadow-sm p-8">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                 Join free, takes 60 seconds
               </p>
-              <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-1">
+              <h2 className="font-display text-2xl text-[var(--ink)] mb-1">
                 Get Your Coming Soon Alerts
               </h2>
-              <p className="text-gray-500 text-sm mb-6">
+              <p className="text-[var(--ink-3)] text-sm mb-6">
                 Tell us what you&apos;re looking for and we&apos;ll set up your
                 personalized MLS search. You&apos;ll hear about matches the
                 moment they enter Coming Soon status.
@@ -127,13 +127,13 @@ export default function VipBuyersPage() {
 
             {/* Why it matters */}
             <div>
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
                 Why it matters
               </p>
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-6">
+              <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-6">
                 Coming Soon Is the Most Valuable Window in Real Estate.
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-8">
+              <p className="text-[var(--ink-2)] leading-relaxed mb-8">
                 In Southeast Michigan, the best homes, especially in the
                 $400k–$800k range, often receive multiple offers within 24
                 hours of going active. The buyers who win are rarely the ones
@@ -143,14 +143,14 @@ export default function VipBuyersPage() {
               <div className="space-y-5">
                 {whyItMatters.map((item) => (
                   <div key={item.title} className="flex gap-4">
-                    <div className="w-10 h-10 rounded-full bg-[#c70000]/10 text-[#c70000] text-lg flex items-center justify-center shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-[var(--red)]/10 text-[var(--red)] text-lg flex items-center justify-center shrink-0">
                       {item.icon}
                     </div>
                     <div>
-                      <p className="font-semibold text-[#1a1a1a] mb-0.5">
+                      <p className="font-semibold text-[var(--ink)] mb-0.5">
                         {item.title}
                       </p>
-                      <p className="text-sm text-gray-500 leading-relaxed">
+                      <p className="text-sm text-[var(--ink-3)] leading-relaxed">
                         {item.desc}
                       </p>
                     </div>
@@ -163,13 +163,13 @@ export default function VipBuyersPage() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Simple process
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               How the VIP List Works
             </h2>
           </div>
@@ -177,7 +177,7 @@ export default function VipBuyersPage() {
             {howItWorks.map((step, i) => (
               <div key={i} className="flex gap-6 pb-8">
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full bg-[#c70000] text-white flex items-center justify-center text-xs font-bold shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white flex items-center justify-center text-xs font-bold shrink-0">
                     {step.n}
                   </div>
                   {i < howItWorks.length - 1 && (
@@ -185,10 +185,10 @@ export default function VipBuyersPage() {
                   )}
                 </div>
                 <div className="pb-2">
-                  <h3 className="font-semibold text-[#1a1a1a] mb-1">
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">
                     {step.title}
                   </h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">
                     {step.desc}
                   </p>
                 </div>
@@ -199,32 +199,32 @@ export default function VipBuyersPage() {
       </section>
 
       {/* SOCIAL PROOF BAND */}
-      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7] border-y border-gray-100">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper-2)] border-y border-[var(--line)]">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-white p-6 border border-gray-100 rounded-sm shadow-sm">
-              <p className="text-base font-medium text-[#1a1a1a] mb-3">
+            <div className="bg-[var(--paper)] p-6 border border-[var(--line)] shadow-sm">
+              <p className="text-base font-medium text-[var(--ink)] mb-3">
                 &ldquo;Brad was not just our realtor, but our partner throughout
                 the entire process. He went to bat for us, and we secured our
                 dream home.&rdquo;
               </p>
-              <p className="text-sm font-semibold text-[#1a1a1a]">
+              <p className="text-sm font-semibold text-[var(--ink)]">
                 Verified Client
               </p>
-              <p className="text-xs text-[#c70000] uppercase tracking-wider">
+              <p className="text-xs text-[var(--red)] uppercase tracking-wider">
                 Buyer &amp; Seller
               </p>
             </div>
-            <div className="bg-white p-6 border border-gray-100 rounded-sm shadow-sm">
-              <p className="text-base font-medium text-[#1a1a1a] mb-3">
+            <div className="bg-[var(--paper)] p-6 border border-[var(--line)] shadow-sm">
+              <p className="text-base font-medium text-[var(--ink)] mb-3">
                 &ldquo;Sarah and Brad helped us find our HOME. They are amazing
                 to work with, fun, knowledgeable and easy. I will work with
                 them again.&rdquo;
               </p>
-              <p className="text-sm font-semibold text-[#1a1a1a]">
+              <p className="text-sm font-semibold text-[var(--ink)]">
                 Tracey Williams
               </p>
-              <p className="text-xs text-[#c70000] uppercase tracking-wider">
+              <p className="text-xs text-[var(--red)] uppercase tracking-wider">
                 Buyer
               </p>
             </div>
@@ -233,11 +233,11 @@ export default function VipBuyersPage() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--ink)] text-white text-center">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
           Ready to search actively?
         </p>
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="font-display text-2xl sm:text-3xl mb-4">
           Want More Than Alerts?
         </h2>
         <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
@@ -248,13 +248,13 @@ export default function VipBuyersPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/buying"
-            className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+            className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
           >
             Work With a Buyer&apos;s Agent →
           </Link>
           <a
             href="tel:2487553545"
-            className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
+            className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Call Brad: 248.755.3545
           </a>

@@ -193,14 +193,14 @@ export default function CashOfferPage() {
       />
 
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Cash Offer Program
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             Need to Sell Fast?{" "}
-            <span className="text-[#c70000]">Get a Cash Offer in 48 Hours.</span>
+            <span className="text-[var(--red)]">Get a Cash Offer in 48 Hours.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-6">
             We connect Southeast Michigan homeowners with vetted local cash
@@ -218,13 +218,13 @@ export default function CashOfferPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:2487553545"
-              className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors text-center"
+              className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors text-center"
             >
               Call for a Free Cash Offer Consultation
             </a>
             <Link
               href="/home-valuation"
-              className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors text-center"
+              className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors text-center"
             >
               What&apos;s My Home Worth?
             </Link>
@@ -233,7 +233,7 @@ export default function CashOfferPage() {
       </section>
 
       {/* IMPORTANT DISTINCTION. TRUST */}
-      <section className="py-12 px-4 sm:px-6 bg-[#c70000] text-white">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--red)] text-white">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
@@ -253,16 +253,16 @@ export default function CashOfferPage() {
       </section>
 
       {/* WHO IT'S FOR */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Is this right for you?
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               Situations Where a Cash Sale Makes Sense
             </h2>
-            <p className="mt-4 text-gray-500 max-w-xl mx-auto text-sm">
+            <p className="mt-4 text-[var(--ink-3)] max-w-xl mx-auto text-sm">
               A cash offer isn&apos;t right for everyone, but for these situations, it&apos;s often the smartest move.
             </p>
           </div>
@@ -271,11 +271,11 @@ export default function CashOfferPage() {
             {whoItsFor.map((item) => (
               <div
                 key={item.title}
-                className="bg-[#faf9f7] border border-gray-100 p-6 rounded-sm"
+                className="bg-[var(--paper-2)] border border-[var(--line)] p-6"
               >
                 <div className="text-2xl mb-3">{item.icon}</div>
-                <h3 className="font-semibold text-[#1a1a1a] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
+                <h3 className="font-semibold text-[var(--ink)] mb-2">{item.title}</h3>
+                <p className="text-sm text-[var(--ink-3)] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -283,13 +283,13 @@ export default function CashOfferPage() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Simple process
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               How the Cash Offer Program Works
             </h2>
           </div>
@@ -298,7 +298,7 @@ export default function CashOfferPage() {
             {steps.map((step, i) => (
               <div key={i} className="flex gap-6 pb-8">
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full bg-[#c70000] text-white flex items-center justify-center text-xs font-bold shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white flex items-center justify-center text-xs font-bold shrink-0">
                     {step.n}
                   </div>
                   {i < steps.length - 1 && (
@@ -306,8 +306,8 @@ export default function CashOfferPage() {
                   )}
                 </div>
                 <div className="pb-2">
-                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">{step.title}</h3>
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">{step.desc}</p>
                 </div>
               </div>
             ))}
@@ -316,13 +316,13 @@ export default function CashOfferPage() {
       </section>
 
       {/* COMPARISON */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Know your options
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Cash Offer vs. Your Other Options
             </h2>
           </div>
@@ -330,9 +330,9 @@ export default function CashOfferPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="bg-[#1a1a1a] text-white">
+                <tr className="bg-[var(--ink)] text-white">
                   <th className="text-left p-4 font-semibold rounded-tl-sm"></th>
-                  <th className="text-center p-4 font-semibold text-[#c70000]">
+                  <th className="text-center p-4 font-semibold text-[var(--red)]">
                     Cash Offer<br /><span className="text-white/60 font-normal text-xs">via The Patrick Group</span>
                   </th>
                   <th className="text-center p-4 font-semibold">
@@ -355,41 +355,41 @@ export default function CashOfferPage() {
                 ].map(([label, col1, col2, col3], i) => (
                   <tr
                     key={i}
-                    className={i % 2 === 0 ? "bg-[#faf9f7]" : "bg-white"}
+                    className={i % 2 === 0 ? "bg-[var(--paper-2)]" : "bg-[var(--paper)]"}
                   >
-                    <td className="p-4 font-medium text-[#1a1a1a] border-b border-gray-100">{label}</td>
-                    <td className="p-4 text-center text-[#c70000] font-semibold border-b border-gray-100">{col1}</td>
-                    <td className="p-4 text-center text-gray-500 border-b border-gray-100">{col2}</td>
-                    <td className="p-4 text-center text-gray-500 border-b border-gray-100">{col3}</td>
+                    <td className="p-4 font-medium text-[var(--ink)] border-b border-[var(--line)]">{label}</td>
+                    <td className="p-4 text-center text-[var(--red)] font-semibold border-b border-[var(--line)]">{col1}</td>
+                    <td className="p-4 text-center text-[var(--ink-3)] border-b border-[var(--line)]">{col2}</td>
+                    <td className="p-4 text-center text-[var(--ink-3)] border-b border-[var(--line)]">{col3}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-400 mt-3 text-center">
+          <p className="text-xs text-[var(--ink-3)] mt-3 text-center">
             Timelines and offer prices are estimates and vary by property, condition, and market conditions. All cash offers are no-obligation.
           </p>
         </div>
       </section>
 
       {/* WHY NOT LIST TRADITIONALLY. HONEST SECTION */}
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
                 Honest advice
               </p>
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-4">
+              <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-4">
                 When a Traditional Listing Is the Better Choice
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <p className="text-[var(--ink-2)] leading-relaxed mb-4 text-sm">
                 We won&apos;t push you toward a cash sale if it&apos;s not right for your
                 situation. If your home is in good condition, you&apos;re not in a
                 rush, and the market is strong, a traditional listing will
                 almost always net you more money.
               </p>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-[var(--ink-2)] leading-relaxed text-sm">
                 Our job is to help you understand both options, give you the
                 numbers, and let you decide. If a cash offer comes in at a
                 significant discount from market value and you don&apos;t have
@@ -399,22 +399,22 @@ export default function CashOfferPage() {
               </p>
             </div>
             <div className="space-y-4">
-              <div className="bg-white border border-gray-100 p-5 rounded-sm shadow-sm">
-                <p className="font-semibold text-[#1a1a1a] mb-1 text-sm">Cash offer may be best when:</p>
-                <ul className="space-y-1 text-sm text-gray-500">
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>Speed is a priority (relocation, foreclosure, divorce)</li>
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>Property needs significant repairs you can&apos;t fund</li>
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>You want certainty over maximum price</li>
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>You&apos;re managing an inherited or vacant property from a distance</li>
+              <div className="bg-[var(--paper)] border border-[var(--line)] p-5 shadow-sm">
+                <p className="font-semibold text-[var(--ink)] mb-1 text-sm">Cash offer may be best when:</p>
+                <ul className="space-y-1 text-sm text-[var(--ink-3)]">
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>Speed is a priority (relocation, foreclosure, divorce)</li>
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>Property needs significant repairs you can&apos;t fund</li>
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>You want certainty over maximum price</li>
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>You&apos;re managing an inherited or vacant property from a distance</li>
                 </ul>
               </div>
-              <div className="bg-[#1a1a1a] text-white p-5 rounded-sm">
+              <div className="bg-[var(--ink)] text-white p-5">
                 <p className="font-semibold mb-1 text-sm">Traditional listing may be best when:</p>
                 <ul className="space-y-1 text-sm text-white/70">
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>Home is in good condition with strong market appeal</li>
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>You have 60–90 days and want to maximize proceeds</li>
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>Market inventory is low, sellers have leverage right now</li>
-                  <li className="flex gap-2"><span className="text-[#c70000] shrink-0">·</span>The gap between cash offer and market value is significant</li>
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>Home is in good condition with strong market appeal</li>
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>You have 60–90 days and want to maximize proceeds</li>
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>Market inventory is low, sellers have leverage right now</li>
+                  <li className="flex gap-2"><span className="text-[var(--red)] shrink-0">·</span>The gap between cash offer and market value is significant</li>
                 </ul>
               </div>
             </div>
@@ -423,16 +423,16 @@ export default function CashOfferPage() {
       </section>
 
       {/* DECISION CHECKLIST */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Decision guide
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               Is a Cash Offer Right for You? A Seller&apos;s Checklist
             </h2>
-            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+            <p className="text-[var(--ink-3)] text-sm mt-3 max-w-xl mx-auto">
               A cash sale isn&apos;t the right move for everyone. Walk through these
               questions to determine whether it makes sense for your situation.
             </p>
@@ -440,25 +440,25 @@ export default function CashOfferPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {decisionChecklist.map((item, i) => (
-              <div key={i} className="bg-white border border-gray-100 rounded-sm p-5">
+              <div key={i} className="bg-[var(--paper)] border border-[var(--line)] p-5">
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full border-2 border-[#c70000] flex items-center justify-center shrink-0 mt-0.5">
-                    <span className="text-[#c70000] text-xs font-bold">{i + 1}</span>
+                    <span className="text-[var(--red)] text-xs font-bold">{i + 1}</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#1a1a1a] text-sm mb-1">{item.title}</h3>
-                    <p className="text-xs text-gray-500 leading-relaxed">{item.desc}</p>
+                    <h3 className="font-semibold text-[var(--ink)] text-sm mb-1">{item.title}</h3>
+                    <p className="text-xs text-[var(--ink-3)] leading-relaxed">{item.desc}</p>
                   </div>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 bg-[#1a1a1a] text-white rounded-sm p-6 text-center">
+          <div className="mt-8 bg-[var(--ink)] text-white p-6 text-center">
             <p className="font-semibold mb-2">Still not sure?</p>
             <p className="text-white/70 text-sm leading-relaxed max-w-lg mx-auto">
               Call Brad Patrick at{" "}
-              <a href="tel:2487553545" className="text-[#c70000] font-semibold hover:underline">
+              <a href="tel:2487553545" className="text-[var(--red)] font-semibold hover:underline">
                 248.755.3545
               </a>{" "}
 , he&apos;ll give you an honest comparison of your cash offer options vs. a traditional
@@ -469,47 +469,47 @@ export default function CashOfferPage() {
       </section>
 
       {/* RELATED SERVICES */}
-      <section className="py-12 px-4 sm:px-6 bg-white">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Related specialty services
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Link href="/divorce-real-estate" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Divorce Real Estate</p>
-              <p className="text-xs text-gray-500 mt-1">Selling during a divorce? We provide neutral, court-compliant representation for both parties.</p>
+            <Link href="/divorce-real-estate" className="group bg-[var(--paper-2)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Divorce Real Estate</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Selling during a divorce? We provide neutral, court-compliant representation for both parties.</p>
             </Link>
-            <Link href="/estate-sales" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Estate &amp; Probate Sales</p>
-              <p className="text-xs text-gray-500 mt-1">Inherited a property? We coordinate with executors and attorneys to handle the sale.</p>
+            <Link href="/estate-sales" className="group bg-[var(--paper-2)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Estate &amp; Probate Sales</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Inherited a property? We coordinate with executors and attorneys to handle the sale.</p>
             </Link>
-            <Link href="/insights/cash-offer-home-michigan-is-it-right-for-you" className="group bg-[#faf9f7] border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Is a Cash Offer Right for You?</p>
-              <p className="text-xs text-gray-500 mt-1">Our in-depth guide to deciding whether a cash sale or traditional listing is the better move.</p>
+            <Link href="/insights/cash-offer-home-michigan-is-it-right-for-you" className="group bg-[var(--paper-2)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Is a Cash Offer Right for You?</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Our in-depth guide to deciding whether a cash sale or traditional listing is the better move.</p>
             </Link>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Common questions
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Cash Offer FAQs
             </h2>
           </div>
 
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="border-b border-gray-100 pb-6">
-                <h3 className="font-semibold text-[#1a1a1a] mb-2 text-base">
+              <div key={i} className="border-b border-[var(--line)] pb-6">
+                <h3 className="font-semibold text-[var(--ink)] mb-2 text-base">
                   {faq.q}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -517,13 +517,13 @@ export default function CashOfferPage() {
       </section>
 
       {/* AREAS WE SERVE */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Where we work
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               Cash Offers Across Southeast Michigan
             </h2>
           </div>
@@ -549,20 +549,20 @@ export default function CashOfferPage() {
               <Link
                 key={city.slug}
                 href={`/neighborhoods/${city.slug}`}
-                className="text-sm text-gray-600 hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] rounded-sm text-center"
+                className="text-sm text-[var(--ink-2)] hover:text-[var(--red)] transition-colors py-2 px-3 bg-[var(--paper-2)] text-center"
               >
                 {city.name}
               </Link>
             ))}
           </div>
-          <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 justify-center">
-            <Link href="/selling" className="text-sm font-semibold text-[#c70000] hover:underline">
+          <div className="mt-8 pt-6 border-t border-[var(--line)] flex flex-wrap gap-4 justify-center">
+            <Link href="/selling" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Full-Service Selling →
             </Link>
-            <Link href="/divorce-real-estate" className="text-sm font-semibold text-[#c70000] hover:underline">
+            <Link href="/divorce-real-estate" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Divorce Real Estate →
             </Link>
-            <Link href="/estate-sales" className="text-sm font-semibold text-[#c70000] hover:underline">
+            <Link href="/estate-sales" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Estate &amp; Probate Sales →
             </Link>
           </div>
@@ -570,16 +570,16 @@ export default function CashOfferPage() {
       </section>
 
       {/* CTA + FORM */}
-      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--ink)] text-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
             {/* Left, copy */}
             <div>
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
                 No obligation. No pressure.
               </p>
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+              <h2 className="font-display text-2xl sm:text-3xl mb-4">
                 Find Out What a Cash Offer Looks Like for Your Home.
               </h2>
               <p className="text-white/70 mb-6 text-sm leading-relaxed">
@@ -589,7 +589,7 @@ export default function CashOfferPage() {
               </p>
               <a
                 href="tel:2487553545"
-                className="inline-block bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors mb-6"
+                className="inline-block bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors mb-6"
               >
                 Call Brad: 248.755.3545
               </a>
@@ -620,7 +620,7 @@ export default function CashOfferPage() {
             </div>
 
             {/* Right, form */}
-            <div className="bg-white/5 border border-white/10 rounded-sm p-8">
+            <div className="bg-[var(--paper)]/5 border border-white/10 p-8">
               <p className="text-white font-semibold text-lg mb-1">Request a Cash Offer</p>
               <p className="text-white/50 text-sm mb-6">We&apos;ll respond within one business day.</p>
               <CashOfferForm />

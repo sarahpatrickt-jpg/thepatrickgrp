@@ -144,14 +144,14 @@ export default function AboutPage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Our Team
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             We&apos;re The Patrick Group.{" "}
-            <span className="text-[#c70000]">Southeast Michigan&apos;s Boutique Team.</span>
+            <span className="text-[var(--red)]">Southeast Michigan&apos;s Boutique Team.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed">
             A boutique real estate team built on results and relationships. We
@@ -162,9 +162,9 @@ export default function AboutPage() {
       </section>
 
       {/* BRAND STATEMENT */}
-      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7] border-b border-gray-100">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper-2)] border-b border-[var(--line)]">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="font-serif text-xl sm:text-2xl text-[#1a1a1a] italic leading-relaxed">
+          <p className="font-display text-xl sm:text-2xl text-[var(--ink)] italic leading-relaxed">
             &ldquo;Oak &amp; Stone Real Estate is committed to delivering a personalized,
             boutique brokerage experience rooted in the human side of real
             estate. We measure our success by our clients&apos; success.&rdquo;
@@ -173,18 +173,18 @@ export default function AboutPage() {
       </section>
 
       {/* TEAM PROFILES */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto space-y-16">
           {team.map((member, i) => (
             <div
               key={member.name}
               className={`grid grid-cols-1 md:grid-cols-3 gap-10 ${
-                i < team.length - 1 ? "pb-16 border-b border-gray-100" : ""
+                i < team.length - 1 ? "pb-16 border-b border-[var(--line)]" : ""
               }`}
             >
               {/* Card */}
               <div className="md:col-span-1">
-                <div className="bg-[#1a1a1a] text-white rounded-sm overflow-hidden">
+                <div className="bg-[var(--ink)] text-white overflow-hidden">
                   {/* Photo, shows when file exists in public/team/, falls back to initials */}
                   {member.photo ? (
                     <div className="relative w-full aspect-[4/3]">
@@ -198,14 +198,14 @@ export default function AboutPage() {
                     </div>
                   ) : (
                     <div className="px-6 pt-6">
-                      <div className="w-16 h-16 rounded-full bg-[#c70000]/20 text-[#c70000] text-2xl font-bold flex items-center justify-center font-serif">
+                      <div className="w-16 h-16 rounded-full bg-[var(--red)]/20 text-[var(--red)] text-2xl flex items-center justify-center font-display">
                         {member.name.charAt(0)}
                       </div>
                     </div>
                   )}
                   <div className="p-6">
-                  <h2 className="font-serif text-xl font-bold mb-1">{member.name}</h2>
-                  <p className="text-[#c70000] text-xs uppercase tracking-widest mb-4">
+                  <h2 className="font-display text-xl mb-1">{member.name}</h2>
+                  <p className="text-[var(--red)] text-xs uppercase tracking-widest mb-4">
                     {member.title}
                   </p>
                   <div className="space-y-2">
@@ -238,7 +238,7 @@ export default function AboutPage() {
                       <ul className="space-y-1">
                         {member.credentials.map((c, ci) => (
                           <li key={ci} className="text-xs text-white/60 flex gap-1">
-                            <span className="text-[#c70000] shrink-0">·</span>
+                            <span className="text-[var(--red)] shrink-0">·</span>
                             {c}
                           </li>
                         ))}
@@ -253,7 +253,7 @@ export default function AboutPage() {
               <div className="md:col-span-2">
                 <div className="prose prose-sm max-w-none">
                   {member.bio.split("\n\n").map((para, pi) => (
-                    <p key={pi} className="text-gray-600 leading-relaxed mb-4">
+                    <p key={pi} className="text-[var(--ink-2)] leading-relaxed mb-4">
                       {para}
                     </p>
                   ))}
@@ -266,15 +266,15 @@ export default function AboutPage() {
       </section>
 
       {/* BEHIND THE SCENES */}
-      <section className="py-16 px-4 sm:px-6 bg-white border-t border-gray-100">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)] border-t border-[var(--line)]">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
             Behind the scenes
           </p>
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-4">
             The Team in Action
           </h2>
-          <p className="text-gray-500 text-base mb-8 max-w-md mx-auto">
+          <p className="text-[var(--ink-3)] text-base mb-8 max-w-md mx-auto">
             Christian shares buyer tips, market updates, and real estate insights on TikTok.
           </p>
           <a
@@ -293,24 +293,24 @@ export default function AboutPage() {
       </section>
 
       {/* CORE VALUES */}
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               What we stand for
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               Our Core Values
             </h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {values.map((v) => (
               <div key={v.title} className="text-center">
-                <div className="w-12 h-12 rounded-full bg-[#c70000] text-white font-bold text-lg flex items-center justify-center mx-auto mb-3">
+                <div className="w-12 h-12 rounded-full bg-[var(--red)] text-white font-bold text-lg flex items-center justify-center mx-auto mb-3">
                   {v.title.charAt(0)}
                 </div>
-                <h3 className="font-semibold text-[#1a1a1a] mb-1">{v.title}</h3>
-                <p className="text-xs text-gray-500 leading-relaxed">{v.desc}</p>
+                <h3 className="font-semibold text-[var(--ink)] mb-1">{v.title}</h3>
+                <p className="text-xs text-[var(--ink-3)] leading-relaxed">{v.desc}</p>
               </div>
             ))}
           </div>
@@ -318,13 +318,13 @@ export default function AboutPage() {
       </section>
 
       {/* PRESS & AWARDS */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Recognition
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               Press &amp; Awards
             </h2>
           </div>
@@ -332,25 +332,25 @@ export default function AboutPage() {
             {pressFeatures.map((p, i) => (
               <div
                 key={i}
-                className="flex items-start gap-4 bg-[#faf9f7] border border-gray-100 p-5 rounded-sm"
+                className="flex items-start gap-4 bg-[var(--paper-2)] border border-[var(--line)] p-5"
               >
-                <div className="w-10 h-10 rounded-full bg-[#c70000]/10 text-[#c70000] flex items-center justify-center shrink-0">
+                <div className="w-10 h-10 rounded-full bg-[var(--red)]/10 text-[var(--red)] flex items-center justify-center shrink-0">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">
+                  <p className="text-xs text-[var(--ink-3)] uppercase tracking-wider mb-1">
                     {p.outlet} · {p.year}
                   </p>
-                  <p className="font-semibold text-[#1a1a1a]">{p.feature}</p>
-                  <p className="text-sm text-gray-500">{p.agent}</p>
+                  <p className="font-semibold text-[var(--ink)]">{p.feature}</p>
+                  <p className="text-sm text-[var(--ink-3)]">{p.agent}</p>
                   {p.link && (
                     <a
                       href={p.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs text-[#c70000] hover:underline mt-1 inline-block"
+                      className="text-xs text-[var(--red)] hover:underline mt-1 inline-block"
                     >
                       View feature →
                     </a>
@@ -363,8 +363,8 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--ink)] text-white text-center">
+        <h2 className="font-display text-2xl sm:text-3xl mb-4">
           Ready to Work With Us?
         </h2>
         <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
@@ -373,13 +373,13 @@ export default function AboutPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/home-valuation"
-            className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+            className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
           >
             Get My Free Home Valuation
           </Link>
           <a
             href="tel:2487553545"
-            className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
+            className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Call 248.755.3545
           </a>

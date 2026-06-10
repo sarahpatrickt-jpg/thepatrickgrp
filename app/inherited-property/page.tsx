@@ -87,14 +87,14 @@ export default function InheritedPropertyPage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Free Tool for Michigan Heirs
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             Inherited a Property?{" "}
-            <span className="text-[#c70000]">Here&apos;s What to Do.</span>
+            <span className="text-[var(--red)]">Here&apos;s What to Do.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-6">
             Answer a few questions about your situation and get a personalized
@@ -108,7 +108,7 @@ export default function InheritedPropertyPage() {
           </div>
           <a
             href="#navigator"
-            className="inline-block bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+            className="inline-block bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
           >
             Start the Navigator
           </a>
@@ -116,30 +116,30 @@ export default function InheritedPropertyPage() {
       </section>
 
       {/* STATS BAR */}
-      <section className="bg-white border-b border-gray-100 py-8 px-4 sm:px-6">
+      <section className="bg-[var(--paper)] border-b border-[var(--line)] py-8 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-3 gap-6 text-center">
           {stats.map((s) => (
             <div key={s.label}>
-              <p className="font-serif text-2xl sm:text-3xl font-bold text-[#c70000]">
+              <p className="font-display text-2xl sm:text-3xl text-[var(--red)]">
                 {s.value}
               </p>
-              <p className="text-xs text-gray-500 mt-1">{s.label}</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">{s.label}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* NAVIGATOR WIZARD */}
-      <section id="navigator" className="py-20 px-4 sm:px-6 bg-white">
+      <section id="navigator" className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Inherited Property Navigator
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a] mb-3">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)] mb-3">
               Get Your Personalized Action Plan
             </h2>
-            <p className="text-gray-500 text-sm max-w-lg mx-auto">
+            <p className="text-[var(--ink-3)] text-sm max-w-lg mx-auto">
               Tell us about your situation and we&apos;ll generate a
               step-by-step plan tailored to your inherited property, including
               legal steps, tax guidance, and a realistic timeline.
@@ -150,13 +150,13 @@ export default function InheritedPropertyPage() {
       </section>
 
       {/* COMMON SITUATIONS */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Sound familiar?
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               Common Inherited Property Situations
             </h2>
           </div>
@@ -164,12 +164,12 @@ export default function InheritedPropertyPage() {
             {commonSituations.map((item) => (
               <div
                 key={item.title}
-                className="bg-white p-6 border border-gray-100 rounded-sm shadow-sm"
+                className="bg-[var(--paper)] p-6 border border-[var(--line)] shadow-sm"
               >
-                <h3 className="font-semibold text-[#1a1a1a] mb-2 text-sm">
+                <h3 className="font-semibold text-[var(--ink)] mb-2 text-sm">
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-500 leading-relaxed">
+                <p className="text-sm text-[var(--ink-3)] leading-relaxed">
                   {item.desc}
                 </p>
               </div>
@@ -179,23 +179,23 @@ export default function InheritedPropertyPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Common questions
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Inherited Property: Frequently Asked Questions
             </h2>
           </div>
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="border-b border-gray-200 pb-6">
-                <h3 className="font-semibold text-[#1a1a1a] mb-2 text-base">
+              <div key={i} className="border-b border-[var(--line)] pb-6">
+                <h3 className="font-semibold text-[var(--ink)] mb-2 text-base">
                   {faq.q}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">
                   {faq.a}
                 </p>
               </div>
@@ -205,44 +205,44 @@ export default function InheritedPropertyPage() {
       </section>
 
       {/* RELATED SERVICES */}
-      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Related services
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <Link
               href="/estate-sales"
-              className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
             >
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                 Estate &amp; Probate Sales
               </p>
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="text-xs text-[var(--ink-3)] mt-1">
                 Full-service estate sale coordination from first walkthrough to
                 closing.
               </p>
             </Link>
             <Link
               href="/cash-offer"
-              className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
             >
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                 Cash Offer Program
               </p>
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="text-xs text-[var(--ink-3)] mt-1">
                 Sell as-is with no repairs, no showings, and close in as few as
                 14 days.
               </p>
             </Link>
             <Link
               href="/living-trust"
-              className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors"
+              className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors"
             >
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">
                 Living Trust Sales
               </p>
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="text-xs text-[var(--ink-3)] mt-1">
                 Selling trust-held property with proper trustee documentation and
                 title transfer.
               </p>
@@ -252,11 +252,11 @@ export default function InheritedPropertyPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--ink)] text-white text-center">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
           Patient. Knowledgeable. Local.
         </p>
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="font-display text-2xl sm:text-3xl mb-4">
           Every Inherited Property Has a Right Answer.
         </h2>
         <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
@@ -267,13 +267,13 @@ export default function InheritedPropertyPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="tel:2487553545"
-            className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+            className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
           >
             Call 248.755.3545
           </a>
           <Link
             href="/home-valuation"
-            className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
+            className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Request a Property Assessment
           </Link>

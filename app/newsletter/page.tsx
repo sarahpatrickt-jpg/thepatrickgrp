@@ -52,14 +52,14 @@ const contentPillars = [
 export default function NewsletterPage() {
   return (
     <>
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Stay connected
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             The Patrick Group{" "}
-            <span className="text-[#c70000]">Local Intel</span>
+            <span className="text-[var(--red)]">Local Intel</span>
           </h1>
           <p className="text-white/70 text-lg leading-relaxed">
             The real estate newsletter that actually tells you something. Monthly
@@ -68,13 +68,13 @@ export default function NewsletterPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto">
-          <div className="bg-white border border-gray-100 rounded-sm shadow-sm p-8">
-            <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-2">
+          <div className="bg-[var(--paper)] border border-[var(--line)] shadow-sm p-8">
+            <h2 className="font-display text-2xl text-[var(--ink)] mb-2">
               Subscribe. It&apos;s Free
             </h2>
-            <p className="text-gray-500 text-sm mb-6">
+            <p className="text-[var(--ink-3)] text-sm mb-6">
               Monthly updates, no spam, unsubscribe any time.
             </p>
             <NewsletterForm />
@@ -82,10 +82,10 @@ export default function NewsletterPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               What&apos;s in Every Issue
             </h2>
           </div>
@@ -94,8 +94,8 @@ export default function NewsletterPage() {
               <div key={pillar.title} className="flex gap-4">
                 <span className="text-2xl shrink-0">{pillar.icon}</span>
                 <div>
-                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{pillar.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{pillar.desc}</p>
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">{pillar.title}</h3>
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">{pillar.desc}</p>
                 </div>
               </div>
             ))}

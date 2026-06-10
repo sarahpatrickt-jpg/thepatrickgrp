@@ -8,9 +8,9 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#1a1a1a] text-white">
+    <footer className="bg-[var(--ink)] text-white">
       {/* Top strip */}
-      <div className="bg-[#c70000] py-3 text-center">
+      <div className="bg-[var(--red)] py-3 text-center">
         <p className="text-sm text-white font-medium tracking-wide">
           Ready to make a move?{" "}
           <a onClick={() => trackPhoneClick("footer")} href="tel:2487553545" className="underline font-bold">
@@ -82,7 +82,7 @@ export default function Footer() {
 
           {/* Buyers & Sellers */}
           <div>
-            <h4 className="text-xs uppercase tracking-widest text-[#c70000] font-semibold mb-4">
+            <h4 className="text-xs uppercase tracking-widest text-[var(--red)] font-semibold mb-4">
               Buyers &amp; Sellers
             </h4>
             <ul className="space-y-2">
@@ -108,7 +108,7 @@ export default function Footer() {
 
           {/* Specialties & Company */}
           <div>
-            <h4 className="text-xs uppercase tracking-widest text-[#c70000] font-semibold mb-4">
+            <h4 className="text-xs uppercase tracking-widest text-[var(--red)] font-semibold mb-4">
               Specialties
             </h4>
             <ul className="space-y-2 mb-6">
@@ -132,7 +132,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-            <h4 className="text-xs uppercase tracking-widest text-[#c70000] font-semibold mb-4">
+            <h4 className="text-xs uppercase tracking-widest text-[var(--red)] font-semibold mb-4">
               Company
             </h4>
             <ul className="space-y-2">
@@ -178,7 +178,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
-              className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#c70000] flex items-center justify-center transition-colors"
+              className="w-9 h-9 rounded-full bg-[var(--paper)]/10 hover:bg-[var(--red)] flex items-center justify-center transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
@@ -190,7 +190,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#c70000] flex items-center justify-center transition-colors"
+              className="w-9 h-9 rounded-full bg-[var(--paper)]/10 hover:bg-[var(--red)] flex items-center justify-center transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
@@ -204,7 +204,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#c70000] flex items-center justify-center transition-colors"
+              className="w-9 h-9 rounded-full bg-[var(--paper)]/10 hover:bg-[var(--red)] flex items-center justify-center transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
@@ -218,7 +218,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
-              className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#c70000] flex items-center justify-center transition-colors"
+              className="w-9 h-9 rounded-full bg-[var(--paper)]/10 hover:bg-[var(--red)] flex items-center justify-center transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white">
                 <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>

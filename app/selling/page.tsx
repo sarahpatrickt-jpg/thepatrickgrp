@@ -115,14 +115,14 @@ export default function SellingPage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             For Sellers
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             Your Home Deserves{" "}
-            <span className="text-[#c70000]">Better</span> Than the
+            <span className="text-[var(--red)]">Better</span> Than the
             Average Listing.
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">
@@ -133,13 +133,13 @@ export default function SellingPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/home-valuation"
-              className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+              className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
             >
               Get My Free Home Valuation
             </Link>
             <a
               href="tel:2487553545"
-              className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors text-center"
+              className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors text-center"
             >
               Call 248.755.3545
             </a>
@@ -148,16 +148,16 @@ export default function SellingPage() {
       </section>
 
       {/* MARKETING TOOLKIT */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               The difference
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               What We Do for Every Listing
             </h2>
-            <p className="mt-4 text-gray-500 max-w-xl mx-auto">
+            <p className="mt-4 text-[var(--ink-3)] max-w-xl mx-auto">
               Every seller gets the full toolkit, not just the sellers whose homes
               are over a certain price.
             </p>
@@ -167,13 +167,13 @@ export default function SellingPage() {
             {marketingToolkit.map((item) => (
               <div
                 key={item.title}
-                className="bg-[#faf9f7] border border-gray-100 p-6 rounded-sm"
+                className="bg-[var(--paper-2)] border border-[var(--line)] p-6"
               >
                 <div className="text-2xl mb-3">{item.icon}</div>
-                <h3 className="font-semibold text-[#1a1a1a] mb-2 text-sm">
+                <h3 className="font-semibold text-[var(--ink)] mb-2 text-sm">
                   {item.title}
                 </h3>
-                <p className="text-xs text-gray-500 leading-relaxed">{item.desc}</p>
+                <p className="text-xs text-[var(--ink-3)] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -181,21 +181,21 @@ export default function SellingPage() {
       </section>
 
       {/* VIDEO. SEE OUR MARKETING */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               See the difference
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               Our Marketing in Action
             </h2>
-            <p className="mt-4 text-gray-500 max-w-xl mx-auto">
+            <p className="mt-4 text-[var(--ink-3)] max-w-xl mx-auto">
               Every Patrick Group listing gets a full video walkthrough, not a
               slideshow with music. Here&apos;s a recent example.
             </p>
           </div>
-          <div className="relative w-full overflow-hidden rounded-sm shadow-lg" style={{ paddingBottom: "56.25%" }}>
+          <div className="relative w-full overflow-hidden shadow-lg" style={{ paddingBottom: "56.25%" }}>
             <iframe
               className="absolute inset-0 w-full h-full"
               src="https://www.youtube.com/embed/cgcc_wQIbGw"
@@ -204,20 +204,20 @@ export default function SellingPage() {
               allowFullScreen
             />
           </div>
-          <p className="text-center text-xs text-gray-400 mt-4">
+          <p className="text-center text-xs text-[var(--ink-3)] mt-4">
             1021 Clear Creek Dr. Full property tour produced by The Patrick Group
           </p>
         </div>
       </section>
 
       {/* VS. AVERAGE AGENT COMPARISON */}
-      <section className="py-20 px-4 sm:px-6 bg-[#1a1a1a] text-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--ink)] text-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               The honest comparison
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold">
+            <h2 className="font-display text-3xl sm:text-4xl">
               Most Agents vs. The Patrick Group
             </h2>
             <p className="mt-4 text-white/60 max-w-xl mx-auto text-sm">
@@ -236,7 +236,7 @@ export default function SellingPage() {
                   <th className="text-left py-3 text-white/40 font-normal text-xs uppercase tracking-widest w-1/5 text-center">
                     Typical agent
                   </th>
-                  <th className="text-left py-3 pl-8 text-[#c70000] font-semibold text-xs uppercase tracking-widest w-1/5 text-center">
+                  <th className="text-left py-3 pl-8 text-[var(--red)] font-semibold text-xs uppercase tracking-widest w-1/5 text-center">
                     The Patrick Group
                   </th>
                 </tr>
@@ -271,7 +271,7 @@ export default function SellingPage() {
           <div className="mt-10 text-center">
             <Link
               href="/home-valuation"
-              className="inline-block bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+              className="inline-block bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
             >
               Get My Free Home Valuation
             </Link>
@@ -280,16 +280,16 @@ export default function SellingPage() {
       </section>
 
       {/* SYNDICATION */}
-      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7] border-y border-gray-100">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper-2)] border-y border-[var(--line)]">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-400 text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--ink-3)] text-xs uppercase tracking-widest font-semibold mb-4">
             Your listing appears on all of these platforms
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {syndication.map((s) => (
               <span
                 key={s}
-                className="bg-white border border-gray-200 text-sm text-gray-600 px-4 py-2 rounded-sm"
+                className="bg-[var(--paper)] border border-[var(--line)] text-sm text-[var(--ink-2)] px-4 py-2"
               >
                 {s}
               </span>
@@ -299,13 +299,13 @@ export default function SellingPage() {
       </section>
 
       {/* PROCESS TIMELINE */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               The process
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               From Consultation to Close
             </h2>
           </div>
@@ -314,7 +314,7 @@ export default function SellingPage() {
             {timeline.map((t, i) => (
               <div key={i} className="flex gap-6 pb-8">
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full bg-[#c70000] text-white flex items-center justify-center text-xs font-bold shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white flex items-center justify-center text-xs font-bold shrink-0">
                     {i + 1}
                   </div>
                   {i < timeline.length - 1 && (
@@ -322,11 +322,11 @@ export default function SellingPage() {
                   )}
                 </div>
                 <div className="pb-2">
-                  <p className="text-xs text-[#c70000] font-semibold uppercase tracking-wider mb-1">
+                  <p className="text-xs text-[var(--red)] font-semibold uppercase tracking-wider mb-1">
                     {t.phase}
                   </p>
-                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{t.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{t.desc}</p>
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">{t.title}</h3>
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">{t.desc}</p>
                 </div>
               </div>
             ))}
@@ -335,12 +335,12 @@ export default function SellingPage() {
       </section>
 
       {/* GUARANTEE */}
-      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--ink)] text-white">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Zero risk
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold mb-6">
+          <h2 className="font-display text-3xl sm:text-4xl mb-6">
             The Unconditional Release Guarantee*
           </h2>
           <p className="text-white/70 text-lg leading-relaxed mb-6 max-w-2xl mx-auto">
@@ -359,7 +359,7 @@ export default function SellingPage() {
           <div className="mt-8">
             <Link
               href="/home-valuation"
-              className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+              className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
             >
               Schedule My Free Consultation
             </Link>
@@ -368,9 +368,9 @@ export default function SellingPage() {
       </section>
 
       {/* SELLER TESTIMONIALS */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-8 text-center">
+          <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-8 text-center">
             What Our Sellers Say
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -391,17 +391,17 @@ export default function SellingPage() {
                 type: "Seller & Buyer",
               },
             ].map((t, i) => (
-              <div key={i} className="bg-[#faf9f7] p-6 border border-gray-100 rounded-sm">
-                <p className="text-base font-medium text-[#1a1a1a] mb-3">
+              <div key={i} className="bg-[var(--paper-2)] p-6 border border-[var(--line)]">
+                <p className="text-base font-medium text-[var(--ink)] mb-3">
                   &ldquo;{t.q}&rdquo;
                 </p>
-                <p className="text-sm font-semibold text-[#1a1a1a]">{t.name}</p>
-                <p className="text-xs text-[#c70000] uppercase tracking-wider">{t.type}</p>
+                <p className="text-sm font-semibold text-[var(--ink)]">{t.name}</p>
+                <p className="text-xs text-[var(--red)] uppercase tracking-wider">{t.type}</p>
               </div>
             ))}
           </div>
           <div className="mt-8 text-center">
-            <Link href="/reviews" className="text-sm text-[#c70000] font-semibold hover:underline">
+            <Link href="/reviews" className="text-sm text-[var(--red)] font-semibold hover:underline">
               See all client reviews →
             </Link>
           </div>
@@ -413,19 +413,19 @@ export default function SellingPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(sellingFaqSchema) }}
       />
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-8 text-center">
+          <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-8 text-center">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             {sellingFaqs.map((faq, i) => (
-              <details key={i} className="bg-white border border-gray-100 rounded-sm group">
-                <summary className="px-6 py-4 cursor-pointer font-semibold text-[#1a1a1a] list-none flex justify-between items-center hover:text-[#c70000] transition-colors">
+              <details key={i} className="bg-[var(--paper)] border border-[var(--line)] group">
+                <summary className="px-6 py-4 cursor-pointer font-semibold text-[var(--ink)] list-none flex justify-between items-center hover:text-[var(--red)] transition-colors">
                   {faq.q}
-                  <span className="text-[#c70000] ml-4 shrink-0 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-[var(--red)] ml-4 shrink-0 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
-                <p className="px-6 pb-5 text-sm text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                <p className="px-6 pb-5 text-sm text-[var(--ink-2)] leading-relaxed border-t border-gray-50 pt-4">
                   {faq.a}
                 </p>
               </details>
@@ -435,8 +435,8 @@ export default function SellingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#c70000] text-white text-center">
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--red)] text-white text-center">
+        <h2 className="font-display text-2xl sm:text-3xl mb-3">
           Ready to Find Out What Your Home Is Worth?
         </h2>
         <p className="text-white/80 mb-6 max-w-md mx-auto text-sm">
@@ -445,13 +445,13 @@ export default function SellingPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/home-valuation"
-            className="bg-white text-[#c70000] font-bold px-8 py-4 rounded-sm hover:bg-white/90 transition-colors"
+            className="bg-[var(--paper)] text-[var(--red)] font-bold px-8 py-4 hover:bg-[var(--paper)]/90 transition-colors"
           >
             Get My Free Home Valuation
           </Link>
           <a
             href="tel:2487553545"
-            className="border border-white text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
+            className="border border-white text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Call 248.755.3545
           </a>

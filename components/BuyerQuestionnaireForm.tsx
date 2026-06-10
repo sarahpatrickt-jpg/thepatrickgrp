@@ -11,9 +11,9 @@ const FORMSPREE_ID = "YOUR_BUYER_FORM_ID";
 type Status = "idle" | "loading" | "success" | "error";
 
 const inputClass =
-  "w-full px-4 py-3 border border-gray-200 text-sm focus:outline-none focus:border-[#c70000] rounded-sm bg-white";
+  "w-full px-4 py-3 border border-[var(--line)] text-sm focus:outline-none focus:border-[#c70000] bg-[var(--paper)]";
 
-const labelClass = "block text-sm font-medium text-[#1a1a1a] mb-1";
+const labelClass = "block text-sm font-medium text-[var(--ink)] mb-1";
 
 export default function BuyerQuestionnaireForm() {
   const [status, setStatus] = useState<Status>("idle");
@@ -45,17 +45,17 @@ export default function BuyerQuestionnaireForm() {
 
   if (status === "success") {
     return (
-      <div className="bg-white border border-gray-100 rounded-sm p-10 text-center shadow-sm">
-        <div className="w-14 h-14 rounded-full bg-[#c70000]/10 flex items-center justify-center mx-auto mb-4">
-          <span className="text-[#c70000] text-2xl font-bold">✓</span>
+      <div className="bg-[var(--paper)] border border-[var(--line)] p-10 text-center shadow-sm">
+        <div className="w-14 h-14 rounded-full bg-[var(--red)]/10 flex items-center justify-center mx-auto mb-4">
+          <span className="text-[var(--red)] text-2xl font-bold">✓</span>
         </div>
-        <h3 className="font-serif text-xl font-bold text-[#1a1a1a] mb-2">
+        <h3 className="font-display text-xl text-[var(--ink)] mb-2">
           Got it, we&apos;ll be in touch.
         </h3>
-        <p className="text-gray-500 text-sm leading-relaxed max-w-sm mx-auto">
+        <p className="text-[var(--ink-3)] text-sm leading-relaxed max-w-sm mx-auto">
           Brad will reach out within one business day with homes that match your
           criteria. In the meantime, feel free to call or text at{" "}
-          <a href="tel:2487553545" className="text-[#c70000] font-medium">
+          <a href="tel:2487553545" className="text-[var(--red)] font-medium">
             248.755.3545
           </a>
           .
@@ -75,7 +75,7 @@ export default function BuyerQuestionnaireForm() {
           placeholder="e.g. Rochester Hills, Troy, Bloomfield Hills…"
           className={inputClass}
         />
-        <p className="text-xs text-gray-400 mt-1">
+        <p className="text-xs text-[var(--ink-3)] mt-1">
           As specific or broad as you like, we know every pocket of Southeast Michigan.
         </p>
       </div>
@@ -150,8 +150,8 @@ export default function BuyerQuestionnaireForm() {
         />
       </div>
 
-      <div className="border-t border-gray-100 pt-5">
-        <p className="text-xs text-[#c70000] uppercase tracking-widest font-semibold mb-4">
+      <div className="border-t border-[var(--line)] pt-5">
+        <p className="text-xs text-[var(--red)] uppercase tracking-widest font-semibold mb-4">
           Your contact info
         </p>
         <div className="grid grid-cols-2 gap-4 mb-4">
@@ -202,7 +202,7 @@ export default function BuyerQuestionnaireForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors disabled:opacity-60"
+        className="w-full bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors disabled:opacity-60"
       >
         {status === "loading" ? "Sending…" : "Send My Search Criteria to Brad →"}
       </button>
@@ -217,7 +217,7 @@ export default function BuyerQuestionnaireForm() {
         </p>
       )}
 
-      <p className="text-xs text-gray-400 text-center">
+      <p className="text-xs text-[var(--ink-3)] text-center">
         No obligation. Brad will reach out with curated options, no spam, no pressure.
       </p>
     </form>

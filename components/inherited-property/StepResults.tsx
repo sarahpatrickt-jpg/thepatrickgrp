@@ -13,27 +13,27 @@ const iconMap: Record<ActionStep["icon"], string> = {
 const urgencyLabels: Record<ActionStep["urgency"], { text: string; className: string }> = {
   now: { text: "Do Now", className: "bg-red-50 text-red-700" },
   soon: { text: "Do Soon", className: "bg-amber-50 text-amber-700" },
-  later: { text: "When Ready", className: "bg-gray-100 text-gray-600" },
+  later: { text: "When Ready", className: "bg-gray-100 text-[var(--ink-2)]" },
 };
 
 function ActionStepCard({ step, index }: { step: ActionStep; index: number }) {
   const urgency = urgencyLabels[step.urgency];
   return (
-    <div className="bg-white border border-gray-100 rounded-sm p-6 shadow-sm">
+    <div className="bg-[var(--paper)] border border-[var(--line)] p-6 shadow-sm">
       <div className="flex items-start gap-4">
-        <div className="w-10 h-10 rounded-full bg-[#c70000] text-white flex items-center justify-center shrink-0 text-sm font-bold">
+        <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white flex items-center justify-center shrink-0 text-sm font-bold">
           {index + 1}
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-2 flex-wrap">
-            <h3 className="font-semibold text-[#1a1a1a]">{step.title}</h3>
+            <h3 className="font-semibold text-[var(--ink)]">{step.title}</h3>
             <span
               className={`text-[10px] font-semibold px-2 py-0.5 rounded-full whitespace-nowrap ${urgency.className}`}
             >
               {urgency.text}
             </span>
           </div>
-          <p className="text-sm text-gray-600 leading-relaxed">{step.detail}</p>
+          <p className="text-sm text-[var(--ink-2)] leading-relaxed">{step.detail}</p>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@ function ActionStepCard({ step, index }: { step: ActionStep; index: number }) {
 
 function RedFlagCard({ flag }: { flag: RedFlag }) {
   return (
-    <div className="bg-red-50 border border-red-100 rounded-sm p-5">
+    <div className="bg-red-50 border border-red-100 p-5">
       <div className="flex items-start gap-3">
         <svg
           className="w-5 h-5 text-red-600 shrink-0 mt-0.5"
@@ -80,11 +80,11 @@ export default function StepResults({
   return (
     <div>
       {/* Summary header */}
-      <div className="bg-[#1a1a1a] text-white rounded-sm p-8 mb-8">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+      <div className="bg-[var(--ink)] text-white p-8 mb-8">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
           Your Action Plan
         </p>
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3">
+        <h2 className="font-display text-2xl sm:text-3xl mb-3">
           {plan.headline}
         </h2>
         <p className="text-white/70 text-sm leading-relaxed">{plan.summary}</p>
@@ -92,7 +92,7 @@ export default function StepResults({
 
       {/* Action steps */}
       <div className="mb-10">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
           Step-by-Step Action Plan
         </p>
         <div className="space-y-4">
@@ -117,16 +117,16 @@ export default function StepResults({
       )}
 
       {/* Tax basis explainer */}
-      <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-6 mb-8">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+      <div className="bg-[var(--paper-2)] border border-[var(--line)] p-6 mb-8">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
           Tax Basis Step-Up
         </p>
-        <p className="text-sm text-gray-600 leading-relaxed">{plan.taxNote}</p>
+        <p className="text-sm text-[var(--ink-2)] leading-relaxed">{plan.taxNote}</p>
       </div>
 
       {/* Sell vs rent insight */}
-      <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-6 mb-8">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+      <div className="bg-[var(--paper-2)] border border-[var(--line)] p-6 mb-8">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
           {profile.intention === "sell"
             ? "Selling Outlook"
             : profile.intention === "rent"
@@ -135,24 +135,24 @@ export default function StepResults({
                 ? "Keeping the Property"
                 : "Sell vs. Rent vs. Keep"}
         </p>
-        <p className="text-sm text-gray-600 leading-relaxed">
+        <p className="text-sm text-[var(--ink-2)] leading-relaxed">
           {plan.sellVsRentInsight}
         </p>
       </div>
 
       {/* Timeline */}
-      <div className="bg-[#faf9f7] border border-gray-100 rounded-sm p-6 mb-10">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+      <div className="bg-[var(--paper-2)] border border-[var(--line)] p-6 mb-10">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
           Estimated Timeline
         </p>
-        <p className="text-sm text-gray-600 leading-relaxed">
+        <p className="text-sm text-[var(--ink-2)] leading-relaxed">
           {plan.timelineEstimate}
         </p>
       </div>
 
       {/* CTA */}
-      <div className="bg-[#c70000] text-white rounded-sm p-8 text-center">
-        <h3 className="font-serif text-xl font-bold mb-2">
+      <div className="bg-[var(--red)] text-white p-8 text-center">
+        <h3 className="font-display text-xl mb-2">
           Need help navigating this?
         </h3>
         <p className="text-white/80 text-sm mb-6 max-w-md mx-auto">
@@ -162,7 +162,7 @@ export default function StepResults({
         </p>
 
         {leadStatus === "success" ? (
-          <div className="bg-white/10 rounded-sm p-4 mb-4">
+          <div className="bg-[var(--paper)]/10 p-4 mb-4">
             <p className="font-semibold">We have your information!</p>
             <p className="text-white/70 text-sm mt-1">
               Someone from our team will reach out within one business day.
@@ -173,7 +173,7 @@ export default function StepResults({
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
             href="tel:2487553545"
-            className="bg-white text-[#c70000] font-semibold px-6 py-3 text-sm hover:bg-gray-100 transition-colors"
+            className="bg-[var(--paper)] text-[var(--red)] font-semibold px-6 py-3 text-sm hover:bg-gray-100 transition-colors"
           >
             Call Sarah: (248) 755-3545
           </a>
@@ -190,13 +190,13 @@ export default function StepResults({
       <div className="mt-6 text-center">
         <button
           onClick={onBack}
-          className="text-sm text-gray-400 hover:text-gray-600 transition-colors"
+          className="text-sm text-[var(--ink-3)] hover:text-[var(--ink-2)] transition-colors"
         >
           Start Over
         </button>
       </div>
 
-      <p className="mt-8 text-xs text-gray-400 text-center leading-relaxed max-w-2xl mx-auto">
+      <p className="mt-8 text-xs text-[var(--ink-3)] text-center leading-relaxed max-w-2xl mx-auto">
         This action plan is generated based on common inherited property
         scenarios in Michigan and is for informational purposes only. It does not
         constitute legal, tax, or financial advice. Every situation is unique 

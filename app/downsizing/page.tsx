@@ -138,14 +138,14 @@ export default function DownsizingPage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Specialty Services
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             Downsizing in{" "}
-            <span className="text-[#c70000]">Southeast Michigan.</span>
+            <span className="text-[var(--red)]">Southeast Michigan.</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-6">
             Moving to a smaller home is a life transition, not just a
@@ -163,13 +163,13 @@ export default function DownsizingPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/home-valuation"
-              className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors text-center"
+              className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors text-center"
             >
               Get a Free Home Valuation
             </Link>
             <a
               href="tel:2487553545"
-              className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors text-center"
+              className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors text-center"
             >
               Call 248.755.3545
             </a>
@@ -178,47 +178,47 @@ export default function DownsizingPage() {
       </section>
 
       {/* CONTEXT */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
                 Why this is different
               </p>
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-4">
+              <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-4">
                 This Isn&apos;t Just a Real Estate Transaction.
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-[var(--ink-2)] leading-relaxed mb-4">
                 Downsizing often means leaving the home where your kids grew
                 up, where holidays happened, where decades of your life unfolded.
                 That&apos;s not something a standard agent is trained to handle.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-[var(--ink-2)] leading-relaxed mb-4">
                 At the same time, the logistics are genuinely complex: selling
                 your current home, finding the right smaller property, timing
                 both so you&apos;re not carrying two mortgages or scrambling for
                 temporary housing.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-[var(--ink-2)] leading-relaxed">
                 We handle both sides, the emotional and the transactional 
                 with patience, honesty, and a clear process. You don&apos;t have
                 to figure this out alone.
               </p>
             </div>
             <div className="space-y-4">
-              <div className="bg-[#faf9f7] border border-gray-100 p-6 rounded-sm">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="bg-[var(--paper-2)] border border-[var(--line)] p-6">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   What clients say
                 </p>
-                <p className="text-[#1a1a1a] font-medium text-base mb-3">
+                <p className="text-[var(--ink)] font-medium text-base mb-3">
                   &ldquo;Sarah and Brad helped us find our HOME. They are amazing
                   to work with, fun, knowledgeable and easy. I will work with
                   them again.&rdquo;
                 </p>
-                <p className="text-sm text-gray-500">Tracey Williams · Buyer</p>
+                <p className="text-sm text-[var(--ink-3)]">Tracey Williams · Buyer</p>
               </div>
-              <div className="bg-[#1a1a1a] text-white p-6 rounded-sm">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="bg-[var(--ink)] text-white p-6">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   Unconditional Release Guarantee*
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed">
@@ -237,13 +237,13 @@ export default function DownsizingPage() {
       </section>
 
       {/* WHAT WE HANDLE */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Our expertise
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               What We Handle for Downsizing Clients
             </h2>
           </div>
@@ -251,10 +251,10 @@ export default function DownsizingPage() {
             {whatWeHandle.map((item) => (
               <div
                 key={item.title}
-                className="bg-white p-6 border border-gray-100 rounded-sm shadow-sm"
+                className="bg-[var(--paper)] p-6 border border-[var(--line)] shadow-sm"
               >
-                <h3 className="font-semibold text-[#1a1a1a] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
+                <h3 className="font-semibold text-[var(--ink)] mb-2">{item.title}</h3>
+                <p className="text-sm text-[var(--ink-3)] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -262,25 +262,25 @@ export default function DownsizingPage() {
       </section>
 
       {/* PROCESS */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               How it works
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               How We Guide You Through the Transition
             </h2>
           </div>
           <div className="space-y-8">
             {downsizingProcess.map((step, i) => (
               <div key={i} className="flex gap-6">
-                <div className="w-10 h-10 rounded-full bg-[#c70000] text-white text-sm font-bold flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white text-sm font-bold flex items-center justify-center shrink-0 mt-0.5">
                   {i + 1}
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">{step.title}</h3>
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">{step.desc}</p>
                 </div>
               </div>
             ))}
@@ -289,16 +289,16 @@ export default function DownsizingPage() {
       </section>
 
       {/* DOWNSIZING CHECKLIST */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Your planning guide
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               Southeast Michigan Downsizing Checklist
             </h2>
-            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+            <p className="text-[var(--ink-3)] text-sm mt-3 max-w-xl mx-auto">
               Downsizing is a major life transition. This checklist covers the decisions most
               Southeast Michigan homeowners need to make, in roughly the order they come up.
             </p>
@@ -308,27 +308,27 @@ export default function DownsizingPage() {
             {downsizingChecklist.map((step, i) => (
               <div key={i} className="flex gap-6 pb-8">
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full bg-[#c70000] text-white text-sm font-bold flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white text-sm font-bold flex items-center justify-center shrink-0">
                     {i + 1}
                   </div>
                   {i < downsizingChecklist.length - 1 && <div className="w-px flex-1 bg-gray-200 mt-2" />}
                 </div>
                 <div className="pb-2">
-                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">{step.title}</h3>
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">{step.desc}</p>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 bg-[#faf9f7] border border-gray-100 rounded-sm p-6">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+          <div className="mt-8 bg-[var(--paper-2)] border border-[var(--line)] p-6">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
               Where are you in the process?
             </p>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-[var(--ink-2)] text-sm leading-relaxed">
               Whether you&apos;re just thinking about downsizing or ready to list next month, start with
               a{" "}
-              <Link href="/home-valuation" className="text-[#c70000] font-semibold hover:underline">
+              <Link href="/home-valuation" className="text-[var(--red)] font-semibold hover:underline">
                 free home valuation
               </Link>{" "}
 , it takes 15 minutes and gives you the real numbers to plan around.
@@ -338,44 +338,44 @@ export default function DownsizingPage() {
       </section>
 
       {/* RELATED SERVICES */}
-      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Related resources
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Link href="/insights/downsizing-southeast-michigan" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Downsizing Guide</p>
-              <p className="text-xs text-gray-500 mt-1">Read our in-depth article on when, where, and how to downsize in Southeast Michigan.</p>
+            <Link href="/insights/downsizing-southeast-michigan" className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Downsizing Guide</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Read our in-depth article on when, where, and how to downsize in Southeast Michigan.</p>
             </Link>
-            <Link href="/insights/cost-to-sell-a-house-michigan" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">What Does It Cost to Sell?</p>
-              <p className="text-xs text-gray-500 mt-1">Understand the full picture of seller closing costs before you commit to a move.</p>
+            <Link href="/insights/cost-to-sell-a-house-michigan" className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">What Does It Cost to Sell?</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Understand the full picture of seller closing costs before you commit to a move.</p>
             </Link>
-            <Link href="/cash-offer" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Cash Offer Program</p>
-              <p className="text-xs text-gray-500 mt-1">Need to sell your current home quickly to fund the next one? Get a no-obligation cash offer.</p>
+            <Link href="/cash-offer" className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Cash Offer Program</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Need to sell your current home quickly to fund the next one? Get a no-obligation cash offer.</p>
             </Link>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Common questions
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Downsizing in Southeast Michigan: Your Questions Answered
             </h2>
           </div>
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="border-b border-gray-200 pb-6">
-                <h3 className="font-semibold text-[#1a1a1a] mb-2">{faq.q}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{faq.a}</p>
+              <div key={i} className="border-b border-[var(--line)] pb-6">
+                <h3 className="font-semibold text-[var(--ink)] mb-2">{faq.q}</h3>
+                <p className="text-sm text-[var(--ink-2)] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -383,13 +383,13 @@ export default function DownsizingPage() {
       </section>
 
       {/* AREAS WE SERVE */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Where we work
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               Downsizing Services Across Southeast Michigan
             </h2>
           </div>
@@ -415,20 +415,20 @@ export default function DownsizingPage() {
               <Link
                 key={city.slug}
                 href={`/neighborhoods/${city.slug}`}
-                className="text-sm text-gray-600 hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] rounded-sm text-center"
+                className="text-sm text-[var(--ink-2)] hover:text-[var(--red)] transition-colors py-2 px-3 bg-[var(--paper-2)] text-center"
               >
                 {city.name}
               </Link>
             ))}
           </div>
-          <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 justify-center">
-            <Link href="/estate-sales" className="text-sm font-semibold text-[#c70000] hover:underline">
+          <div className="mt-8 pt-6 border-t border-[var(--line)] flex flex-wrap gap-4 justify-center">
+            <Link href="/estate-sales" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Estate &amp; Probate Sales →
             </Link>
-            <Link href="/living-trust" className="text-sm font-semibold text-[#c70000] hover:underline">
+            <Link href="/living-trust" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Living Trust Sales →
             </Link>
-            <Link href="/cash-offer" className="text-sm font-semibold text-[#c70000] hover:underline">
+            <Link href="/cash-offer" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Cash Offer Program →
             </Link>
           </div>
@@ -436,8 +436,8 @@ export default function DownsizingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#c70000] text-white text-center">
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--red)] text-white text-center">
+        <h2 className="font-display text-2xl sm:text-3xl mb-4">
           Ready to Find Out What Your Next Chapter Looks Like?
         </h2>
         <p className="text-white/80 mb-6 text-sm max-w-md mx-auto">
@@ -448,13 +448,13 @@ export default function DownsizingPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/home-valuation"
-            className="bg-white text-[#c70000] font-bold px-8 py-4 rounded-sm hover:bg-white/90 transition-colors"
+            className="bg-[var(--paper)] text-[var(--red)] font-bold px-8 py-4 hover:bg-[var(--paper)]/90 transition-colors"
           >
             Get My Free Home Valuation
           </Link>
           <a
             href="tel:2487553545"
-            className="border border-white text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
+            className="border border-white text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Call 248.755.3545
           </a>

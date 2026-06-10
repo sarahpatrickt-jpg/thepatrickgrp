@@ -211,11 +211,11 @@ export default function ListingSearch({
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-8">
       {/* Search Form */}
-      <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+      <div className="bg-gray-50 border border-[var(--line)] p-6 mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
           {/* City combobox */}
           <div ref={cityRef} className="relative">
-            <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
+            <label className="block text-xs font-semibold text-[var(--ink-2)] uppercase tracking-wider mb-2">
               City
             </label>
             <input
@@ -241,11 +241,11 @@ export default function ListingSearch({
                   setCityOpen(false);
                 }
               }}
-              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
+              className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C70000]"
             />
             {cityOpen && (
               <ul
-                className="absolute z-20 left-0 right-0 top-full mt-1 bg-white border border-gray-200 rounded shadow-lg max-h-60 overflow-y-auto"
+                className="absolute z-20 left-0 right-0 top-full mt-1 bg-[var(--paper)] border border-[var(--line)] shadow-lg max-h-60 overflow-y-auto"
               >
                 <li>
                   <button
@@ -256,7 +256,7 @@ export default function ListingSearch({
                       setFilters({ ...filters, city: "" });
                       setCityOpen(false);
                     }}
-                    className="w-full text-left px-3 py-2 text-sm text-gray-500 hover:bg-gray-50"
+                    className="w-full text-left px-3 py-2 text-sm text-[var(--ink-3)] hover:bg-gray-50"
                   >
                     All cities
                   </button>
@@ -283,7 +283,7 @@ export default function ListingSearch({
                   </li>
                 ))}
                 {filteredCities.length === 0 && (
-                  <li className="px-3 py-2 text-sm text-gray-400">No cities match</li>
+                  <li className="px-3 py-2 text-sm text-[var(--ink-3)]">No cities match</li>
                 )}
               </ul>
             )}
@@ -291,7 +291,7 @@ export default function ListingSearch({
 
           {/* Min Price */}
           <div>
-            <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
+            <label className="block text-xs font-semibold text-[var(--ink-2)] uppercase tracking-wider mb-2">
               Min Price
             </label>
             <input
@@ -304,13 +304,13 @@ export default function ListingSearch({
                 })
               }
               placeholder="$100,000"
-              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
+              className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C70000]"
             />
           </div>
 
           {/* Max Price */}
           <div>
-            <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
+            <label className="block text-xs font-semibold text-[var(--ink-2)] uppercase tracking-wider mb-2">
               Max Price
             </label>
             <input
@@ -323,13 +323,13 @@ export default function ListingSearch({
                 })
               }
               placeholder="$5,000,000"
-              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
+              className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C70000]"
             />
           </div>
 
           {/* Sort */}
           <div>
-            <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
+            <label className="block text-xs font-semibold text-[var(--ink-2)] uppercase tracking-wider mb-2">
               Sort By
             </label>
             <select
@@ -338,7 +338,7 @@ export default function ListingSearch({
                 setFilters({ ...filters, sort: e.target.value });
                 setCurrentPage(1);
               }}
-              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
+              className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C70000]"
             >
               <option value="newest">Newest</option>
               <option value="price-asc">Price: Low to High</option>
@@ -353,7 +353,7 @@ export default function ListingSearch({
         <div className="border-t border-gray-300 pt-4">
           <button
             onClick={() => setExpandedFilters(!expandedFilters)}
-            className="text-sm font-medium text-[#C70000] hover:underline flex items-center gap-1"
+            className="text-sm font-medium text-[var(--red)] hover:underline flex items-center gap-1"
           >
             {expandedFilters ? "▼" : "▶"} Advanced Filters
           </button>
@@ -362,7 +362,7 @@ export default function ListingSearch({
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
               {/* Beds */}
               <div>
-                <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
+                <label className="block text-xs font-semibold text-[var(--ink-2)] uppercase tracking-wider mb-2">
                   Min Bedrooms
                 </label>
                 <select
@@ -373,7 +373,7 @@ export default function ListingSearch({
                       beds: e.target.value ? parseInt(e.target.value) : null,
                     })
                   }
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
+                  className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C70000]"
                 >
                   <option value="">Any</option>
                   <option value="1">1+</option>
@@ -386,7 +386,7 @@ export default function ListingSearch({
 
               {/* Baths */}
               <div>
-                <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
+                <label className="block text-xs font-semibold text-[var(--ink-2)] uppercase tracking-wider mb-2">
                   Min Bathrooms
                 </label>
                 <select
@@ -397,7 +397,7 @@ export default function ListingSearch({
                       baths: e.target.value ? parseFloat(e.target.value) : null,
                     })
                   }
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
+                  className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C70000]"
                 >
                   <option value="">Any</option>
                   <option value="1">1+</option>
@@ -410,7 +410,7 @@ export default function ListingSearch({
 
               {/* Status */}
               <div>
-                <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
+                <label className="block text-xs font-semibold text-[var(--ink-2)] uppercase tracking-wider mb-2">
                   Status
                 </label>
                 <select
@@ -419,7 +419,7 @@ export default function ListingSearch({
                     setFilters({ ...filters, status: e.target.value });
                     setCurrentPage(1);
                   }}
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#C70000]"
+                  className="w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C70000]"
                 >
                   <option value="">Any</option>
                   <option value="active">Active</option>
@@ -442,14 +442,14 @@ export default function ListingSearch({
             {loading ? "Searching…" : "Search Listings"}
           </button>
           {!loading && results && (
-            <span className="text-xs text-gray-500">
+            <span className="text-xs text-[var(--ink-3)]">
               {results.pagination.total > 0
                 ? `${results.pagination.total.toLocaleString()} listing${results.pagination.total !== 1 ? "s" : ""} found`
                 : "No listings match, try broadening your search"}
             </span>
           )}
           {loading && (
-            <span className="text-xs text-gray-500 flex items-center gap-1.5">
+            <span className="text-xs text-[var(--ink-3)] flex items-center gap-1.5">
               <span className="inline-block w-3 h-3 border-2 border-[#C70000] border-t-transparent rounded-full animate-spin" />
               Searching…
             </span>
@@ -462,7 +462,7 @@ export default function ListingSearch({
         <div>
           {/* Results Count */}
           <div className="mb-6">
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-[var(--ink-2)]">
               Showing{" "}
               <span className="font-semibold">
                 {(results.pagination.page - 1) * results.pagination.limit + 1}-
@@ -494,7 +494,7 @@ export default function ListingSearch({
                   <button
                     onClick={() => handleSearch(currentPage - 1)}
                     disabled={currentPage === 1 || loading}
-                    className="px-4 py-2 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50"
+                    className="px-4 py-2 border border-gray-300 hover:bg-gray-50 disabled:opacity-50"
                   >
                     Previous
                   </button>
@@ -506,9 +506,9 @@ export default function ListingSearch({
                           key={page}
                           onClick={() => handleSearch(page)}
                           disabled={loading}
-                          className={`px-3 py-2 rounded ${
+                          className={`px-3 py-2 ${
                             page === currentPage
-                              ? "bg-[#C70000] text-white"
+                              ? "bg-[var(--red)] text-white"
                               : "border border-gray-300 hover:bg-gray-50"
                           } disabled:opacity-50`}
                         >
@@ -521,7 +521,7 @@ export default function ListingSearch({
                   <button
                     onClick={() => handleSearch(currentPage + 1)}
                     disabled={currentPage === results.pagination.pages || loading}
-                    className="px-4 py-2 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50"
+                    className="px-4 py-2 border border-gray-300 hover:bg-gray-50 disabled:opacity-50"
                   >
                     Next
                   </button>
@@ -536,7 +536,7 @@ export default function ListingSearch({
               >
                 No listings match right now.
               </p>
-              <p className="text-sm text-gray-500 mb-8 max-w-sm mx-auto">
+              <p className="text-sm text-[var(--ink-3)] mb-8 max-w-sm mx-auto">
                 MLS data syncs nightly. Try broadening your price range or selecting a different city, or let Brad find something before it hits the market.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -563,14 +563,14 @@ export default function ListingSearch({
       )}
 
       {/* Subtle compliance footer */}
-      <div className="mt-10 pt-6 border-t border-gray-100 text-center">
-        <p className="text-xs text-gray-400">
+      <div className="mt-10 pt-6 border-t border-[var(--line)] text-center">
+        <p className="text-xs text-[var(--ink-3)]">
           Need advanced filters?{" "}
           <a
             href="https://www.oakandstonerealestate.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-gray-600 transition-colors"
+            className="underline hover:text-[var(--ink-2)] transition-colors"
           >
             Full MLS search on Oak &amp; Stone Real Estate
           </a>

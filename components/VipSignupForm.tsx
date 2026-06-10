@@ -6,9 +6,9 @@ import { trackVipBuyerSignup } from "@/lib/analytics";
 type Status = "idle" | "loading" | "success" | "error";
 
 const inputClass =
-  "w-full px-4 py-3 border border-gray-200 text-sm focus:outline-none focus:border-[#c70000] rounded-sm bg-white";
+  "w-full px-4 py-3 border border-[var(--line)] text-sm focus:outline-none focus:border-[#c70000] bg-[var(--paper)]";
 
-const labelClass = "block text-sm font-medium text-[#1a1a1a] mb-1";
+const labelClass = "block text-sm font-medium text-[var(--ink)] mb-1";
 
 export default function VipSignupForm() {
   const [status, setStatus] = useState<Status>("idle");
@@ -69,13 +69,13 @@ export default function VipSignupForm() {
   if (status === "success") {
     return (
       <div className="text-center py-6">
-        <div className="w-14 h-14 rounded-full bg-[#c70000]/10 flex items-center justify-center mx-auto mb-4">
-          <span className="text-[#c70000] text-2xl font-bold">✓</span>
+        <div className="w-14 h-14 rounded-full bg-[var(--red)]/10 flex items-center justify-center mx-auto mb-4">
+          <span className="text-[var(--red)] text-2xl font-bold">✓</span>
         </div>
-        <h3 className="font-serif text-xl font-bold text-[#1a1a1a] mb-2">
+        <h3 className="font-display text-xl text-[var(--ink)] mb-2">
           You&apos;re on the VIP List.
         </h3>
-        <p className="text-gray-500 text-sm leading-relaxed max-w-xs mx-auto">
+        <p className="text-[var(--ink-3)] text-sm leading-relaxed max-w-xs mx-auto">
           We&apos;ll confirm your search preferences and get you set up. Expect
           matching Coming Soon listings in your inbox first.
         </p>
@@ -171,7 +171,7 @@ export default function VipSignupForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors disabled:opacity-60 mt-2"
+        className="w-full bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors disabled:opacity-60 mt-2"
       >
         {status === "loading" ? "Joining…" : "Get First Access. Join the VIP List"}
       </button>
@@ -186,7 +186,7 @@ export default function VipSignupForm() {
         </p>
       )}
 
-      <p className="text-xs text-gray-400 text-center">
+      <p className="text-xs text-[var(--ink-3)] text-center">
         No spam. We only send you homes that match your criteria. Unsubscribe
         any time.
       </p>

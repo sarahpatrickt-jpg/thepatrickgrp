@@ -123,14 +123,14 @@ export default function DivorceRealEstatePage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Specialty Services
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             Divorce Real Estate in{" "}
-            <span className="text-[#c70000]">Southeast Michigan</span>
+            <span className="text-[var(--red)]">Southeast Michigan</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">
             Navigating a divorce is hard enough. Selling the family home doesn&apos;t
@@ -146,13 +146,13 @@ export default function DivorceRealEstatePage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:2487553545"
-              className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors text-center"
+              className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors text-center"
             >
               Confidential Consultation: 248.755.3545
             </a>
             <Link
               href="/home-valuation"
-              className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors text-center"
+              className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors text-center"
             >
               Request a Valuation
             </Link>
@@ -161,56 +161,56 @@ export default function DivorceRealEstatePage() {
       </section>
 
       {/* CONTEXT */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+              <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
                 Why this matters
               </p>
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-4">
+              <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-4">
                 This Is Different from a Typical Home Sale.
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-[var(--ink-2)] leading-relaxed mb-4">
                 When a marriage ends and a home must be sold, the process involves
                 legal timelines, emotional stakes, and two people who may not be
                 on speaking terms. A standard real estate agent isn&apos;t always
                 prepared for that.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-[var(--ink-2)] leading-relaxed mb-4">
                 The Patrick Group handles numerous divorce real estate transactions
                 every year in Southeast Michigan. We work directly alongside local
                 family law attorneys: coordinating documentation, deadlines, and
                 communication so your legal proceedings move forward without
                 real estate becoming the bottleneck.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-[var(--ink-2)] leading-relaxed mb-4">
                 Every divorce transaction at The Patrick Group is led by Sarah Patrick,
                 Principal Broker and Owner of Oak and Stone Real Estate. That matters
                 because a broker-owner carries a level of accountability and legal
                 authority that a typical agent cannot. When attorneys need answers,
                 they get them directly, not from a junior team member reading a script.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-[var(--ink-2)] leading-relaxed">
                 Zillow can&apos;t help you here. A national portal agent who bought
                 your lead won&apos;t have this experience. You need someone local, with
                 real transactional depth, and a direct line to the legal process.
               </p>
             </div>
             <div className="space-y-4">
-              <div className="bg-[#faf9f7] border border-gray-100 p-6 rounded-sm">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="bg-[var(--paper-2)] border border-[var(--line)] p-6">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   What clients say
                 </p>
-                <p className="text-[#1a1a1a] font-medium text-base mb-3">
+                <p className="text-[var(--ink)] font-medium text-base mb-3">
                   &ldquo;Sarah was very prompt on all fronts, answering any questions
                   or concerns I had at any point. A wonderful experience thanks
                   to her hard work and impeccable work ethic.&rdquo;
                 </p>
-                <p className="text-sm text-gray-500">Verified Client</p>
+                <p className="text-sm text-[var(--ink-3)]">Verified Client</p>
               </div>
-              <div className="bg-[#1a1a1a] text-white p-6 rounded-sm">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="bg-[var(--ink)] text-white p-6">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   Confidential consultations
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed">
@@ -225,13 +225,13 @@ export default function DivorceRealEstatePage() {
       </section>
 
       {/* WHAT WE HANDLE */}
-      <section className="py-20 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Our expertise
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               What We Handle for Divorcing Clients
             </h2>
           </div>
@@ -240,10 +240,10 @@ export default function DivorceRealEstatePage() {
             {whatWeHandle.map((item) => (
               <div
                 key={item.title}
-                className="bg-white p-6 border border-gray-100 rounded-sm shadow-sm"
+                className="bg-[var(--paper)] p-6 border border-[var(--line)] shadow-sm"
               >
-                <h3 className="font-semibold text-[#1a1a1a] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
+                <h3 className="font-semibold text-[var(--ink)] mb-2">{item.title}</h3>
+                <p className="text-sm text-[var(--ink-3)] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -251,16 +251,16 @@ export default function DivorceRealEstatePage() {
       </section>
 
       {/* CHECKLIST */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Step-by-step guide
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)]">
               Your Michigan Divorce Home Sale Checklist
             </h2>
-            <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">
+            <p className="text-[var(--ink-3)] text-sm mt-3 max-w-xl mx-auto">
               Every divorce home sale is different, but these are the steps most Michigan families
               need to address. Use this as a starting point, we can walk you through each one.
             </p>
@@ -270,26 +270,26 @@ export default function DivorceRealEstatePage() {
             {checklist.map((step, i) => (
               <div key={i} className="flex gap-6 pb-8">
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full bg-[#c70000] text-white text-sm font-bold flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-[var(--red)] text-white text-sm font-bold flex items-center justify-center shrink-0">
                     {i + 1}
                   </div>
                   {i < checklist.length - 1 && <div className="w-px flex-1 bg-gray-200 mt-2" />}
                 </div>
                 <div className="pb-2">
-                  <h3 className="font-semibold text-[#1a1a1a] mb-1">{step.title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">{step.title}</h3>
+                  <p className="text-sm text-[var(--ink-3)] leading-relaxed">{step.desc}</p>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 bg-[#faf9f7] border border-gray-100 rounded-sm p-6">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+          <div className="mt-8 bg-[var(--paper-2)] border border-[var(--line)] p-6">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
               Need help with any of these steps?
             </p>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-[var(--ink-2)] text-sm leading-relaxed">
               Every divorce situation is unique. Call Sarah Patrick directly at{" "}
-              <a href="tel:2487553545" className="text-[#c70000] font-semibold hover:underline">
+              <a href="tel:2487553545" className="text-[var(--red)] font-semibold hover:underline">
                 248.755.3545
               </a>{" "}
               for a confidential conversation about where you are in the process and what comes next.
@@ -299,36 +299,36 @@ export default function DivorceRealEstatePage() {
       </section>
 
       {/* RELATED SERVICES */}
-      <section className="py-12 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Related specialty services
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Link href="/cash-offer" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Cash Offer Program</p>
-              <p className="text-xs text-gray-500 mt-1">Need to sell quickly during proceedings? Get a no-obligation cash offer in 48 hours.</p>
+            <Link href="/cash-offer" className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Cash Offer Program</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Need to sell quickly during proceedings? Get a no-obligation cash offer in 48 hours.</p>
             </Link>
-            <Link href="/estate-sales" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Estate &amp; Probate Sales</p>
-              <p className="text-xs text-gray-500 mt-1">Handling a property as part of an estate? We coordinate with attorneys and executors.</p>
+            <Link href="/estate-sales" className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Estate &amp; Probate Sales</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Handling a property as part of an estate? We coordinate with attorneys and executors.</p>
             </Link>
-            <Link href="/insights/selling-a-house-during-divorce-michigan" className="group bg-white border border-gray-100 rounded-sm p-5 hover:border-gray-300 transition-colors">
-              <p className="font-semibold text-[#1a1a1a] text-sm group-hover:text-[#c70000] transition-colors">Selling During a Divorce</p>
-              <p className="text-xs text-gray-500 mt-1">Read our in-depth guide to navigating a home sale during Michigan divorce proceedings.</p>
+            <Link href="/insights/selling-a-house-during-divorce-michigan" className="group bg-[var(--paper)] border border-[var(--line)] p-5 hover:border-gray-300 transition-colors">
+              <p className="font-semibold text-[var(--ink)] text-sm group-hover:text-[var(--red)] transition-colors">Selling During a Divorce</p>
+              <p className="text-xs text-[var(--ink-3)] mt-1">Read our in-depth guide to navigating a home sale during Michigan divorce proceedings.</p>
             </Link>
           </div>
         </div>
       </section>
 
       {/* FAQ. AI SEO optimized with FAQ schema */}
-      <section className="py-20 px-4 sm:px-6 bg-white">
+      <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Common questions
             </p>
-            <h2 className="font-serif text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-3xl text-[var(--ink)]">
               Divorce Real Estate: Frequently Asked Questions
             </h2>
           </div>
@@ -337,12 +337,12 @@ export default function DivorceRealEstatePage() {
             {faqs.map((faq, i) => (
               <div
                 key={i}
-                className="border-b border-gray-100 pb-6"
+                className="border-b border-[var(--line)] pb-6"
               >
-                <h3 className="font-semibold text-[#1a1a1a] mb-2 text-base">
+                <h3 className="font-semibold text-[var(--ink)] mb-2 text-base">
                   {faq.q}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+                <p className="text-[var(--ink-2)] text-sm leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -350,13 +350,13 @@ export default function DivorceRealEstatePage() {
       </section>
 
       {/* AREAS WE SERVE */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+            <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
               Where we work
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a]">
+            <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)]">
               Divorce Real Estate Services Across Southeast Michigan
             </h2>
           </div>
@@ -382,20 +382,20 @@ export default function DivorceRealEstatePage() {
               <Link
                 key={city.slug}
                 href={`/neighborhoods/${city.slug}`}
-                className="text-sm text-gray-600 hover:text-[#c70000] transition-colors py-2 px-3 bg-[#faf9f7] rounded-sm text-center"
+                className="text-sm text-[var(--ink-2)] hover:text-[var(--red)] transition-colors py-2 px-3 bg-[var(--paper-2)] text-center"
               >
                 {city.name}
               </Link>
             ))}
           </div>
-          <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 justify-center">
-            <Link href="/estate-sales" className="text-sm font-semibold text-[#c70000] hover:underline">
+          <div className="mt-8 pt-6 border-t border-[var(--line)] flex flex-wrap gap-4 justify-center">
+            <Link href="/estate-sales" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Estate &amp; Probate Sales →
             </Link>
-            <Link href="/downsizing" className="text-sm font-semibold text-[#c70000] hover:underline">
+            <Link href="/downsizing" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Downsizing →
             </Link>
-            <Link href="/cash-offer" className="text-sm font-semibold text-[#c70000] hover:underline">
+            <Link href="/cash-offer" className="text-sm font-semibold text-[var(--red)] hover:underline">
               Cash Offer Program →
             </Link>
           </div>
@@ -403,11 +403,11 @@ export default function DivorceRealEstatePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 bg-[#1a1a1a] text-white text-center">
-        <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-3">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--ink)] text-white text-center">
+        <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
           Confidential. Professional. Local.
         </p>
-        <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="font-display text-2xl sm:text-3xl mb-4">
           Let&apos;s Talk. No Pressure, No Judgment.
         </h2>
         <p className="text-white/70 mb-6 text-sm max-w-md mx-auto">
@@ -417,13 +417,13 @@ export default function DivorceRealEstatePage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="tel:2487553545"
-            className="bg-[#c70000] text-white font-bold px-8 py-4 rounded-sm hover:bg-[#a30000] transition-colors"
+            className="bg-[var(--red)] text-white font-bold px-8 py-4 hover:bg-[var(--red-deep)] transition-colors"
           >
             Call 248.755.3545
           </a>
           <Link
             href="/home-valuation"
-            className="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors"
+            className="border border-white/30 text-white font-semibold px-8 py-4 hover:bg-[var(--paper)]/10 transition-colors"
           >
             Request a Confidential Valuation
           </Link>

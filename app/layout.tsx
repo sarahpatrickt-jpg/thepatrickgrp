@@ -187,7 +187,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col antialiased bg-white text-[#1a1a1a]">
+      <body className="min-h-full flex flex-col antialiased bg-[var(--paper)] text-[var(--ink)]">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-DPFLY88Y4D"
           strategy="afterInteractive"

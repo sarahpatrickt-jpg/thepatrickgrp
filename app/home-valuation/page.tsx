@@ -62,14 +62,14 @@ export default function HomeValuationPage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-[#1a1a1a] text-white pt-32 pb-16 px-4 sm:px-6">
+      <section className="bg-[var(--ink)] text-white pt-32 pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-4">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-4">
             Seller Resources
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-5">
+          <h1 className="font-display text-4xl sm:text-5xl mb-5">
             What Is Your Home{" "}
-            <span className="text-[#c70000]">Actually</span> Worth?
+            <span className="text-[var(--red)]">Actually</span> Worth?
           </h1>
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">
             Zillow&apos;s Zestimate is a starting point, not a selling price. Enter
@@ -85,16 +85,16 @@ export default function HomeValuationPage() {
       </section>
 
       {/* VALUATION FORM */}
-      <section className="py-16 px-4 sm:px-6 bg-[#faf9f7]">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper-2)]">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Sierra Instant Home Valuation Tool */}
-            <div className="bg-white border border-gray-100 rounded-sm shadow-sm overflow-hidden">
+            <div className="bg-[var(--paper)] border border-[var(--line)] shadow-sm overflow-hidden">
               <div className="px-8 pt-8 pb-4">
-                <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-1">
+                <h2 className="font-display text-2xl text-[var(--ink)] mb-1">
                   Get Your Instant Home Valuation
                 </h2>
-                <p className="text-gray-500 text-sm">
+                <p className="text-[var(--ink-3)] text-sm">
                   Enter your address below, takes less than 60 seconds.
                 </p>
               </div>
@@ -103,41 +103,41 @@ export default function HomeValuationPage() {
 
             {/* Why us */}
             <div>
-              <h2 className="font-serif text-2xl font-bold text-[#1a1a1a] mb-6">
+              <h2 className="font-display text-2xl text-[var(--ink)] mb-6">
                 Why a Real Valuation Matters
               </h2>
               <div className="space-y-5">
                 <div className="flex gap-4">
-                  <span className="text-[#c70000] font-bold text-xl shrink-0">→</span>
+                  <span className="text-[var(--red)] font-bold text-xl shrink-0">→</span>
                   <div>
-                    <p className="font-semibold text-[#1a1a1a] mb-1">
+                    <p className="font-semibold text-[var(--ink)] mb-1">
                       Zestimates are off by 7–8% on average
                     </p>
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-[var(--ink-3)]">
                       That&apos;s $35,000–$56,000 on a $700k home. You need a number
                       you can make decisions with.
                     </p>
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <span className="text-[#c70000] font-bold text-xl shrink-0">→</span>
+                  <span className="text-[var(--red)] font-bold text-xl shrink-0">→</span>
                   <div>
-                    <p className="font-semibold text-[#1a1a1a] mb-1">
+                    <p className="font-semibold text-[var(--ink)] mb-1">
                       Pricing strategy changes in every market
                     </p>
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-[var(--ink-3)]">
                       The 2026 market is different from 2021, 2022, or 2019.
                       You need an agent who has sold through all of them.
                     </p>
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <span className="text-[#c70000] font-bold text-xl shrink-0">→</span>
+                  <span className="text-[var(--red)] font-bold text-xl shrink-0">→</span>
                   <div>
-                    <p className="font-semibold text-[#1a1a1a] mb-1">
+                    <p className="font-semibold text-[var(--ink)] mb-1">
                       First impressions determine final price
                     </p>
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-[var(--ink-3)]">
                       We&apos;ll walk through your home and tell you exactly what
                       matters, and what doesn&apos;t, before you spend a dollar on
                       updates.
@@ -147,11 +147,11 @@ export default function HomeValuationPage() {
               </div>
 
               {/* Guarantee */}
-              <div className="mt-8 bg-[#1a1a1a] text-white p-6 rounded-sm">
-                <p className="text-[#c70000] text-xs uppercase tracking-widest font-semibold mb-2">
+              <div className="mt-8 bg-[var(--ink)] text-white p-6">
+                <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-2">
                   Our Guarantee
                 </p>
-                <p className="font-serif text-lg font-bold mb-2">
+                <p className="font-display text-lg mb-2">
                   Unconditional Release*
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed">
@@ -168,11 +168,11 @@ export default function HomeValuationPage() {
               {/* Seller testimonials */}
               <div className="mt-6 space-y-4">
                 {sellerTestimonials.map((t, i) => (
-                  <div key={i} className="bg-[#faf9f7] p-4 rounded-sm border border-gray-100">
-                    <p className="text-sm text-[#1a1a1a] font-medium mb-1">
+                  <div key={i} className="bg-[var(--paper-2)] p-4 border border-[var(--line)]">
+                    <p className="text-sm text-[var(--ink)] font-medium mb-1">
                       &ldquo;{t.quote}&rdquo;
                     </p>
-                    <p className="text-xs text-gray-500">
+                    <p className="text-xs text-[var(--ink-3)]">
                       {t.name} · {t.type}
                     </p>
                   </div>
@@ -184,19 +184,19 @@ export default function HomeValuationPage() {
       </section>
 
       {/* PROCESS */}
-      <section className="py-16 px-4 sm:px-6 bg-white">
+      <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1a1a1a] mb-10 text-center">
+          <h2 className="font-display text-2xl sm:text-3xl text-[var(--ink)] mb-10 text-center">
             What Happens Next
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {process.map((p) => (
               <div key={p.step} className="text-center">
-                <div className="w-12 h-12 rounded-full bg-[#c70000]/10 text-[#c70000] font-bold text-lg flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 rounded-full bg-[var(--red)]/10 text-[var(--red)] font-bold text-lg flex items-center justify-center mx-auto mb-4">
                   {p.step}
                 </div>
-                <h3 className="font-semibold text-[#1a1a1a] mb-2">{p.title}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed">{p.desc}</p>
+                <h3 className="font-semibold text-[var(--ink)] mb-2">{p.title}</h3>
+                <p className="text-sm text-[var(--ink-3)] leading-relaxed">{p.desc}</p>
               </div>
             ))}
           </div>
@@ -204,8 +204,8 @@ export default function HomeValuationPage() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-12 px-4 sm:px-6 bg-[#c70000] text-white text-center">
-        <p className="font-serif text-xl font-bold mb-2">
+      <section className="py-12 px-4 sm:px-6 bg-[var(--red)] text-white text-center">
+        <p className="font-display text-xl mb-2">
           Prefer to call or text?
         </p>
         <a

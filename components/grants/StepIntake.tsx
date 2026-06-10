@@ -3,14 +3,14 @@ import type { BuyerProfile, County, CreditScoreRange, OccupationCategory } from 
 import { counties, citiesByCounty } from "@/data/grants";
 
 const inputClass =
-  "w-full border border-gray-200 bg-white px-4 py-3 text-sm text-[#1a1a1a] placeholder-gray-400 focus:outline-none focus:border-[#c70000] rounded-sm";
+  "w-full border border-[var(--line)] bg-[var(--paper)] px-4 py-3 text-sm text-[var(--ink)] placeholder-gray-400 focus:outline-none focus:border-[#c70000]";
 const selectClass =
-  "w-full border border-gray-200 bg-white px-4 py-3 text-sm text-[#1a1a1a] focus:outline-none focus:border-[#c70000] rounded-sm";
+  "w-full border border-[var(--line)] bg-[var(--paper)] px-4 py-3 text-sm text-[var(--ink)] focus:outline-none focus:border-[#c70000]";
 const labelClass =
-  "block text-xs uppercase tracking-widest text-gray-500 font-semibold mb-1";
+  "block text-xs uppercase tracking-widest text-[var(--ink-3)] font-semibold mb-1";
 
-const sectionTitle = "font-serif text-lg font-bold text-[#1a1a1a] mb-4";
-const sectionWrap = "bg-[#faf9f7] border border-gray-100 rounded-sm p-6";
+const sectionTitle = "font-display text-lg text-[var(--ink)] mb-4";
+const sectionWrap = "bg-[var(--paper-2)] border border-[var(--line)] p-6";
 
 export default function StepIntake({
   onSubmit,
@@ -98,7 +98,7 @@ export default function StepIntake({
       </div>
 
       {errors.length > 0 && (
-        <div className="bg-red-50 border border-red-200 rounded-sm p-4">
+        <div className="bg-red-50 border border-red-200 p-4">
           <p className="text-sm font-semibold text-red-700 mb-1">
             Please fix the following:
           </p>
@@ -214,7 +214,7 @@ export default function StepIntake({
             placeholder="$250,000"
             className={inputClass}
           />
-          <p className="text-xs text-gray-400 mt-1">
+          <p className="text-xs text-[var(--ink-3)] mt-1">
             Your best estimate of the home price you&apos;re targeting
           </p>
         </div>
@@ -247,7 +247,7 @@ export default function StepIntake({
               placeholder="$75,000"
               className={inputClass}
             />
-            <p className="text-xs text-gray-400 mt-1">
+            <p className="text-xs text-[var(--ink-3)] mt-1">
               Total income for everyone in your household
             </p>
           </div>
@@ -273,11 +273,11 @@ export default function StepIntake({
             <label className={labelClass}>
               Are you a first-time homebuyer? *
             </label>
-            <p className="text-xs text-gray-400 mb-2">
+            <p className="text-xs text-[var(--ink-3)] mb-2">
               Generally means you haven&apos;t owned a home in the past 3 years
             </p>
             <div className="flex gap-4">
-              <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+              <label className="flex items-center gap-2 text-sm text-[var(--ink-2)] cursor-pointer">
                 <input
                   type="radio"
                   name="firstTimeBuyer"
@@ -287,7 +287,7 @@ export default function StepIntake({
                 />
                 Yes
               </label>
-              <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+              <label className="flex items-center gap-2 text-sm text-[var(--ink-2)] cursor-pointer">
                 <input
                   type="radio"
                   name="firstTimeBuyer"
@@ -304,7 +304,7 @@ export default function StepIntake({
               Are you a veteran or active-duty military?
             </label>
             <div className="flex gap-4">
-              <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+              <label className="flex items-center gap-2 text-sm text-[var(--ink-2)] cursor-pointer">
                 <input
                   type="radio"
                   name="veteran"
@@ -313,7 +313,7 @@ export default function StepIntake({
                 />
                 Yes
               </label>
-              <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+              <label className="flex items-center gap-2 text-sm text-[var(--ink-2)] cursor-pointer">
                 <input
                   type="radio"
                   name="veteran"
@@ -345,12 +345,12 @@ export default function StepIntake({
       {/* Submit */}
       <button
         type="submit"
-        className="w-full bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors"
+        className="w-full bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors"
       >
         See My Grant Results →
       </button>
 
-      <p className="text-xs text-gray-400 text-center">
+      <p className="text-xs text-[var(--ink-3)] text-center">
         We never sell your information. Results are estimates only.
       </p>
     </form>

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { trackCashOfferSubmitted } from "@/lib/analytics";
 
 const inputClass =
-  "w-full border border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#c70000] rounded-sm";
+  "w-full border border-white/20 bg-[var(--paper)]/10 px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#c70000]";
 const labelClass = "block text-xs uppercase tracking-widest text-white/60 font-semibold mb-1";
 
 export default function CashOfferForm() {
@@ -65,13 +65,13 @@ export default function CashOfferForm() {
   if (status === "success") {
     return (
       <div className="text-center py-8">
-        <div className="w-14 h-14 rounded-full bg-[#c70000]/20 flex items-center justify-center mx-auto mb-4">
-          <span className="text-[#c70000] text-2xl font-bold">✓</span>
+        <div className="w-14 h-14 rounded-full bg-[var(--red)]/20 flex items-center justify-center mx-auto mb-4">
+          <span className="text-[var(--red)] text-2xl font-bold">✓</span>
         </div>
-        <h3 className="font-serif text-xl font-bold text-white mb-2">Request Received</h3>
+        <h3 className="font-display text-xl text-white mb-2">Request Received</h3>
         <p className="text-white/60 text-sm max-w-xs mx-auto leading-relaxed">
           We&apos;ll be in touch within one business day. For faster service, call Brad at{" "}
-          <a href="tel:2487553545" className="text-[#c70000] hover:underline">
+          <a href="tel:2487553545" className="text-[var(--red)] hover:underline">
             248.755.3545
           </a>
           .
@@ -120,7 +120,7 @@ export default function CashOfferForm() {
 
       <div>
         <label className={labelClass}>Your Situation</label>
-        <select name="situation" className={inputClass + " bg-[#1a1a1a]"}>
+        <select name="situation" className={inputClass + " bg-[var(--ink)]"}>
           <option value="">Select one…</option>
           <option value="relocating">Relocating / Job Transfer</option>
           <option value="repairs">Property Needs Major Repairs</option>
@@ -134,7 +134,7 @@ export default function CashOfferForm() {
 
       <div>
         <label className={labelClass}>Ideal Timeline</label>
-        <select name="timeline" className={inputClass + " bg-[#1a1a1a]"}>
+        <select name="timeline" className={inputClass + " bg-[var(--ink)]"}>
           <option value="">Select one…</option>
           <option value="asap">As Soon as Possible</option>
           <option value="30-days">Within 30 Days</option>
@@ -146,7 +146,7 @@ export default function CashOfferForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full bg-[#c70000] text-white font-bold py-4 text-sm rounded-sm hover:bg-[#a30000] transition-colors disabled:opacity-60 mt-2"
+        className="w-full bg-[var(--red)] text-white font-bold py-4 text-sm hover:bg-[var(--red-deep)] transition-colors disabled:opacity-60 mt-2"
       >
         {status === "loading" ? "Submitting…" : "Request My Cash Offer →"}
       </button>

@@ -61,10 +61,10 @@ export default function ListingCard({
 
   // Card dimensions based on variant
   const cardClass = isFeatured
-    ? "w-full max-w-xs bg-white border border-black/5"
+    ? "w-full max-w-xs bg-[var(--paper)] border border-black/5"
     : isCompact
-      ? "w-full max-w-xs bg-white border border-black/5"
-      : "w-full max-w-sm bg-white border border-black/5";
+      ? "w-full max-w-xs bg-[var(--paper)] border border-black/5"
+      : "w-full max-w-sm bg-[var(--paper)] border border-black/5";
 
   // Status badge color
   const statusBg =
@@ -79,7 +79,7 @@ export default function ListingCard({
       ? "text-green-700"
       : listing.status === "pending"
         ? "text-amber-700"
-        : "text-gray-600";
+        : "text-[var(--ink-2)]";
 
   // Navigate to detail page OR approved external interface
   const detailLink = `/listings/${listing.id}`;
@@ -103,18 +103,18 @@ export default function ListingCard({
           />
         ) : (
           <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-            <span className="text-gray-400 text-sm">No image</span>
+            <span className="text-[var(--ink-3)] text-sm">No image</span>
           </div>
         )}
 
         {/* Status Badge */}
-        <div className={`absolute top-3 right-3 px-2 py-1 rounded text-xs font-medium ${statusBg} ${statusText}`}>
+        <div className={`absolute top-3 right-3 px-2 py-1 text-xs font-medium ${statusBg} ${statusText}`}>
           {listing.status === "sold" ? "Sold" : listing.status === "pending" ? "Pending" : "Active"}
         </div>
 
         {/* Featured Badge */}
         {listing.isFeatured && (
-          <div className="absolute top-3 left-3 px-2 py-1 rounded text-xs font-medium bg-[#C70000] text-white">
+          <div className="absolute top-3 left-3 px-2 py-1 text-xs font-medium bg-[var(--red)] text-white">
             Featured
           </div>
         )}
@@ -123,16 +123,16 @@ export default function ListingCard({
       {/* Content Container */}
       <div className={`p-4 ${isFeatured ? "pb-5" : ""}`}>
         {/* Address */}
-        <h3 className="font-['DM_Serif_Display'] text-base leading-tight mb-1 text-gray-900 line-clamp-2">
+        <h3 className="font-['DM_Serif_Display'] text-base leading-tight mb-1 text-[var(--ink)] line-clamp-2">
           {listing.address}
         </h3>
 
         {/* City */}
-        <p className="text-xs text-gray-600 mb-3">{listing.city}, MI {listing.zip}</p>
+        <p className="text-xs text-[var(--ink-2)] mb-3">{listing.city}, MI {listing.zip}</p>
 
         {/* Price - Red accent */}
         <div className="mb-3">
-          <p className="font-['DM_Serif_Display'] text-2xl font-bold text-[#C70000]">
+          <p className="font-['DM_Serif_Display'] text-2xl font-bold text-[var(--red)]">
             {formatPrice(listing.listPrice)}
           </p>
         </div>
@@ -142,19 +142,19 @@ export default function ListingCard({
           <div className="grid grid-cols-3 gap-3 mb-4 pb-4 border-b border-black/5">
             {/* Beds */}
             <div>
-              <p className="text-xs text-gray-600">Beds</p>
+              <p className="text-xs text-[var(--ink-2)]">Beds</p>
               <p className="font-medium text-sm">{listing.beds}</p>
             </div>
 
             {/* Baths */}
             <div>
-              <p className="text-xs text-gray-600">Baths</p>
+              <p className="text-xs text-[var(--ink-2)]">Baths</p>
               <p className="font-medium text-sm">{listing.baths}</p>
             </div>
 
             {/* DOM */}
             <div>
-              <p className="text-xs text-gray-600">DOM</p>
+              <p className="text-xs text-[var(--ink-2)]">DOM</p>
               <p className="font-medium text-sm">{listing.daysOnMarket}</p>
             </div>
           </div>
@@ -162,14 +162,14 @@ export default function ListingCard({
 
         {/* Square Footage - Compact only */}
         {isCompact && (
-          <p className="text-xs text-gray-600 mb-3">
+          <p className="text-xs text-[var(--ink-2)] mb-3">
             {formatNumber(listing.sqft)} sqft
           </p>
         )}
 
         {/* Agent Notes - Featured only */}
         {isFeatured && listing.agentNotes && (
-          <p className="text-sm text-gray-700 italic font-['Cormorant_Garamond'] mb-4 leading-relaxed">
+          <p className="text-sm text-[var(--ink-2)] italic font-['Cormorant_Garamond'] mb-4 leading-relaxed">
             "{listing.agentNotes}"
           </p>
         )}
@@ -179,7 +179,7 @@ export default function ListingCard({
           <Link
             href={detailLink}
             onClick={handleCardClick}
-            className="block w-full text-center px-4 py-2.5 bg-[#C70000] text-white text-sm font-medium uppercase tracking-wider hover:bg-[#a90000] transition-colors"
+            className="block w-full text-center px-4 py-2.5 bg-[var(--red)] text-white text-sm font-medium uppercase tracking-wider hover:bg-[var(--red-deep)] transition-colors"
           >
             View Full Listing
           </Link>
@@ -187,7 +187,7 @@ export default function ListingCard({
           <Link
             href={detailLink}
             onClick={handleCardClick}
-            className="text-[#C70000] text-sm font-medium hover:underline"
+            className="text-[var(--red)] text-sm font-medium hover:underline"
           >
             View Details →
           </Link>
@@ -197,20 +197,20 @@ export default function ListingCard({
       {/* Footer: Agent + Oak & Stone (featured only) */}
       {isFeatured && showAgent && (
         <div className="px-4 py-3 bg-gray-50 border-t border-black/5">
-          <p className="text-xs text-gray-600">Represented by</p>
+          <p className="text-xs text-[var(--ink-2)]">Represented by</p>
           <p className="font-medium text-sm">Oak & Stone Real Estate</p>
         </div>
       )}
 
       {/* Compliance Footer: External link note */}
-      <div className="px-4 py-2 text-center border-t border-black/5 bg-white/50">
-        <p className="text-xs text-gray-500">
+      <div className="px-4 py-2 text-center border-t border-black/5 bg-[var(--paper)]/50">
+        <p className="text-xs text-[var(--ink-3)]">
           See full details on{" "}
           <a
             href="https://www.oakandstonerealestate.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#C70000] hover:underline font-medium"
+            className="text-[var(--red)] hover:underline font-medium"
           >
             oakandstonerealestate.com
           </a>
