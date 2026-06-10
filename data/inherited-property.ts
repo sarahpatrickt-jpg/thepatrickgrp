@@ -1,5 +1,5 @@
 /* ──────────────────────────────────────────────────────────────
-   Inherited Property Navigator — decision engine
+   Inherited Property Navigator, decision engine
    ────────────────────────────────────────────────────────────── */
 
 // ── Types ──
@@ -80,7 +80,7 @@ export const michiganCities = [
   "Warren",
   "West Bloomfield",
   "Other (SE Michigan)",
-  "Other (Michigan — outside SE Michigan)",
+  "Other (Michigan, outside SE Michigan)",
 ] as const;
 
 // ── Decision engine ──
@@ -96,7 +96,7 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
       steps.push({
         title: "Open probate with the county court",
         detail:
-          "In Michigan, if the property was passed through a will (or with no will), you'll need Letters of Authority from the probate court in the county where the deceased lived before you can legally sell. This should be your first step. An estate attorney can file the petition — typical cost is $1,500-$3,500 and the process takes 4-8 weeks.",
+          "In Michigan, if the property was passed through a will (or with no will), you'll need Letters of Authority from the probate court in the county where the deceased lived before you can legally sell. This should be your first step. An estate attorney can file the petition: typical cost is $1,500-$3,500 and the process takes 4-8 weeks.",
         urgency: "now",
         icon: "legal",
       });
@@ -143,14 +143,14 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
       steps.push({
         title: "Address heir disagreements before listing",
         detail:
-          "When heirs disagree on what to do with a property, it can stall the entire process — or worse, lead to a partition action in court. We recommend a family meeting (in person or by video) where each heir's position is heard. A neutral third party, like a mediator or the estate attorney, can help. Resolve the direction before spending money on repairs or listing.",
+          "When heirs disagree on what to do with a property, it can stall the entire process, or worse, lead to a partition action in court. We recommend a family meeting (in person or by video) where each heir's position is heard. A neutral third party, like a mediator or the estate attorney, can help. Resolve the direction before spending money on repairs or listing.",
         urgency: "now",
         icon: "family",
       });
       redFlags.push({
         title: "Heir disagreement can force a court-ordered sale",
         detail:
-          "If heirs cannot agree, any co-owner can file a partition action, which forces a court-supervised sale — usually at a steep discount. Reaching agreement voluntarily almost always produces a better financial outcome for everyone.",
+          "If heirs cannot agree, any co-owner can file a partition action, which forces a court-supervised sale, usually at a steep discount. Reaching agreement voluntarily almost always produces a better financial outcome for everyone.",
       });
     } else if (p.heirAgreement === "not-discussed") {
       steps.push({
@@ -164,7 +164,7 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
       steps.push({
         title: "Document the agreement among heirs",
         detail:
-          "Get the agreed-upon plan in writing — even an informal email chain where all heirs confirm the direction works. This prevents backtracking later and gives the executor clear authority to proceed.",
+          "Get the agreed-upon plan in writing, even an informal email chain where all heirs confirm the direction works. This prevents backtracking later and gives the executor clear authority to proceed.",
         urgency: "soon",
         icon: "family",
       });
@@ -184,7 +184,7 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
   steps.push({
     title: "Establish the stepped-up tax basis",
     detail:
-      "This is one of the most valuable tax benefits of inherited property. The IRS \"steps up\" the property's cost basis to its fair market value on the date of death. If the home was worth $350,000 on that date and you sell for $360,000, you only pay capital gains on $10,000 — not on the original purchase price decades ago. Get a formal appraisal dated to the date of death as soon as possible. This protects you if you sell years later.",
+      "This is one of the most valuable tax benefits of inherited property. The IRS \"steps up\" the property's cost basis to its fair market value on the date of death. If the home was worth $350,000 on that date and you sell for $360,000, you only pay capital gains on $10,000, not on the original purchase price decades ago. Get a formal appraisal dated to the date of death as soon as possible. This protects you if you sell years later.",
     urgency: "now",
     icon: "tax",
   });
@@ -195,7 +195,7 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
     steps.push({
       title: "Contact the mortgage servicer",
       detail:
-        "Notify the lender of the death and request the current payoff amount. Federal law (Garn-St. Germain Act) prevents lenders from calling the loan due solely because of the borrower's death if the property transfers to a relative. You have time, but you need to know the numbers — the remaining balance affects whether selling makes financial sense and what the estate nets.",
+        "Notify the lender of the death and request the current payoff amount. Federal law (Garn-St. Germain Act) prevents lenders from calling the loan due solely because of the borrower's death if the property transfers to a relative. You have time, but you need to know the numbers, the remaining balance affects whether selling makes financial sense and what the estate nets.",
       urgency: "now",
       icon: "financial",
     });
@@ -216,7 +216,7 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
     steps.push({
       title: "Order a title search to uncover any liens",
       detail:
-        "Before deciding on sell, rent, or hold, you need to know what's attached to the property. A title search reveals any mortgages, tax liens, mechanic's liens, or judgments. Your real estate agent or estate attorney can order this — it costs around $200-$400 and takes a few days.",
+        "Before deciding on sell, rent, or hold, you need to know what's attached to the property. A title search reveals any mortgages, tax liens, mechanic's liens, or judgments. Your real estate agent or estate attorney can order this, it costs around $200-$400 and takes a few days.",
       urgency: "soon",
       icon: "financial",
     });
@@ -265,7 +265,7 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
     steps.push({
       title: "Get a professional market analysis",
       detail:
-        "A comparative market analysis (CMA) from a local agent shows what similar homes in the area have sold for recently — adjusted for your property's condition. This establishes fair value for the estate and gives all heirs a data-backed number to work with. We provide these at no cost.",
+        "A comparative market analysis (CMA) from a local agent shows what similar homes in the area have sold for recently, adjusted for your property's condition. This establishes fair value for the estate and gives all heirs a data-backed number to work with. We provide these at no cost.",
       urgency: "soon",
       icon: "decision",
     });
@@ -308,16 +308,16 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
   let sellVsRentInsight: string;
   if (p.intention === "sell") {
     sellVsRentInsight =
-      "Selling is often the cleanest path — especially with multiple heirs or when the property needs work. In Southeast Michigan, well-priced inherited homes typically sell within 15-30 days. With the stepped-up tax basis, capital gains exposure is usually minimal if you sell within a year or two.";
+      "Selling is often the cleanest path, especially with multiple heirs or when the property needs work. In Southeast Michigan, well-priced inherited homes typically sell within 15-30 days. With the stepped-up tax basis, capital gains exposure is usually minimal if you sell within a year or two.";
   } else if (p.intention === "rent") {
     sellVsRentInsight =
-      "Renting can make sense if the property is in good condition, in a strong rental market, and you have agreement among all heirs. But it's a business decision, not a sentimental one. Run the numbers honestly — and remember that the stepped-up basis advantage diminishes over time if the property appreciates.";
+      "Renting can make sense if the property is in good condition, in a strong rental market, and you have agreement among all heirs. But it's a business decision, not a sentimental one. Run the numbers honestly, and remember that the stepped-up basis advantage diminishes over time if the property appreciates.";
   } else if (p.intention === "keep") {
     sellVsRentInsight =
-      "Keeping the home — whether to live in or as a family property — is straightforward when you're the sole heir. With multiple heirs, you'd typically need to buy out the others' shares. Make sure the property is transferred into your name and that insurance and taxes are current.";
+      "Keeping the home, whether to live in or as a family property, is straightforward when you're the sole heir. With multiple heirs, you'd typically need to buy out the others' shares. Make sure the property is transferred into your name and that insurance and taxes are current.";
   } else {
     sellVsRentInsight =
-      "Most heirs who are unsure end up selling — and that's usually the right call, especially when the property needs work or when multiple people are involved. But there's no wrong answer. Start with the numbers and the decision usually becomes clear.";
+      "Most heirs who are unsure end up selling, and that's usually the right call, especially when the property needs work or when multiple people are involved. But there's no wrong answer. Start with the numbers and the decision usually becomes clear.";
   }
 
   // ── Timeline estimate ──
@@ -352,7 +352,7 @@ export function generateActionPlan(p: InheritedPropertyProfile): ActionPlan {
   // ── Tax note ──
 
   const taxNote =
-    "The stepped-up tax basis is one of the biggest financial advantages of inherited property. The IRS resets the property's cost basis to its fair market value on the date of death — which means if you sell near that value, you owe little or no capital gains tax. However, if you hold the property and it appreciates, you'll owe capital gains on the appreciation above the stepped-up basis. Get a date-of-death appraisal to document this value. Consult a tax professional for your specific situation.";
+    "The stepped-up tax basis is one of the biggest financial advantages of inherited property. The IRS resets the property's cost basis to its fair market value on the date of death, which means if you sell near that value, you owe little or no capital gains tax. However, if you hold the property and it appreciates, you'll owe capital gains on the appreciation above the stepped-up basis. Get a date-of-death appraisal to document this value. Consult a tax professional for your specific situation.";
 
   // ── Headline ──
 

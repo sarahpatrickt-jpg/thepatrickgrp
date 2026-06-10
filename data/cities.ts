@@ -403,9 +403,9 @@ export const cities: City[] = [
     schoolDistrict: "West Bloomfield School District",
     commuteToDetroit: "30 min",
     about:
-      "West Bloomfield Township is one of Oakland County's most established lake communities - a broad, wooded township dotted with private and semi-private lakes including Walnut Lake, Orchard Lake, and Pine Lake. The community has a quieter, more residential character than its Birmingham and Troy neighbors, with a strong emphasis on private lake living and suburban comfort.\n\nWest Bloomfield has a large and established Jewish community that has shaped much of the township's cultural infrastructure, including a concentration of delis, specialty grocers, synagogues, and community organizations along Orchard Lake Road. The township's population is roughly 65,000, and the housing market reflects a wide range of buyer profiles from young families to long-established residents.",
+      "West Bloomfield Township is one of Oakland County's most established lake communities - a broad, wooded township dotted with private and semi-private lakes including Walnut Lake, Orchard Lake, and Pine Lake. The community has a quieter, more residential character than its Birmingham and Troy neighbors, with a strong emphasis on private lake living and suburban comfort.\n\nWest Bloomfield has a large and established Jewish community that has shaped much of the township's cultural infrastructure, including a concentration of delis, specialty grocers, synagogues, and community organizations along Orchard Lake Road. The township's population is roughly 65,000, and the housing market reflects a wide range of buyer profiles, from first-time buyers to long-established residents.",
     realEstateOverview:
-      "West Bloomfield's housing market ranges from entry-level ranches and colonials in established inland subdivisions to multi-million dollar lakefront estates on Walnut Lake and Orchard Lake. The mid-range market ($400K–$700K) is particularly active, with strong demand from families targeting West Bloomfield School District and buyers seeking more lot size than Birmingham or Troy offers at comparable prices.\n\nLakefront properties in West Bloomfield represent their own distinct market segment with premium pricing driven by scarcity and recreational value.",
+      "West Bloomfield's housing market ranges from entry-level ranches and colonials in established inland subdivisions to multi-million dollar lakefront estates on Walnut Lake and Orchard Lake. The mid-range market ($400K–$700K) is particularly active, with strong demand from buyers in the West Bloomfield School District boundaries and those seeking more lot size than Birmingham or Troy offers at comparable prices.\n\nLakefront properties in West Bloomfield represent their own distinct market segment with premium pricing driven by scarcity and recreational value.",
     locationAccess: [
       "Located west of Bloomfield Township and east of Commerce Township",
       "Access via Orchard Lake Road, Northwestern Highway (M-10), and Telegraph Road (US-24)",
@@ -749,7 +749,7 @@ export const cities: City[] = [
     about:
       "Shelby Township sits at the Oakland-Macomb county line - geographically and culturally - giving buyers proximity to Oakland County's lifestyle amenities at Macomb County price points. The township is established, well-maintained, and home to Stony Creek Metropark, one of Southeast Michigan's most-used outdoor recreation facilities with trails, beaches, and a golf course.\n\nShelby Township has a strong concentration of newer construction built over the past 20 years, particularly in the northern sections near 25 Mile and 26 Mile Roads. The township population is roughly 80,000, making it one of Michigan's larger townships, and the quality of the housing stock is consistently high.",
     realEstateOverview:
-      "Shelby Township offers exceptional value relative to neighboring Oakland County cities. Buyers who start their search in Rochester Hills or Troy frequently end up here when they realize they can get a newer, larger home with a bigger lot for $50K–$100K less across the county line.\n\nThe market is active and competitive, with consistent demand from families targeting Utica Community Schools and buyers who value the Stony Creek access. Inventory is broader than many comparable cities, which gives buyers slightly more flexibility.",
+      "Shelby Township offers exceptional value relative to neighboring Oakland County cities. Buyers who start their search in Rochester Hills or Troy frequently end up here when they realize they can get a newer, larger home with a bigger lot for $50K–$100K less across the county line.\n\nThe market is active and competitive, with consistent demand from buyers within Utica Community Schools boundaries and those who value the Stony Creek access. Inventory is broader than many comparable cities, which gives buyers slightly more flexibility.",
     locationAccess: [
       "Located at the Oakland-Macomb county line, bounded by Rochester Hills to the west",
       "Access via M-53 (Van Dyke), 23 Mile Road, 24 Mile Road, and Rochester Road",
@@ -918,7 +918,7 @@ export const cities: City[] = [
     schoolDistrict: "Chippewa Valley School District",
     commuteToDetroit: "35 min",
     about:
-      "Macomb Township is one of Michigan's fastest-growing communities and has been for two decades. The township's northern location in Macomb County - further from Detroit but with more land available for development - has made it a builder's market, with new construction communities continuously opening in its vast open acreage. The result is a township full of newer homes, larger lots, and modern amenities.\n\nThe community is family-oriented with good parks and the active new construction market that gives buyers options not available in more built-out cities. The growth trajectory shows no signs of slowing, driven by buyers who want new construction without paying Oakland County prices.",
+      "Macomb Township is one of Michigan's fastest-growing communities and has been for two decades. The township's northern location in Macomb County - further from Detroit but with more land available for development - has made it a builder's market, with new construction communities continuously opening in its vast open acreage. The result is a township full of newer homes, larger lots, and modern amenities.\n\nThe community has good parks and an active new construction market that gives buyers options not available in more built-out cities. The growth trajectory shows no signs of slowing, driven by buyers who want new construction without paying Oakland County prices.",
     realEstateOverview:
       "Macomb Township is almost entirely a newer-construction or newer-vintage market - the bulk of the housing stock dates from the 1990s through today, giving buyers modern floor plans, updated systems, and garage space that older Macomb County communities can't match. Builder communities with active spec inventory are a consistent feature.\n\nThe market runs competitive for new construction and well-priced newer homes. The township's ongoing growth means it's not unusual to find a neighborhood where both resale and new-build options exist side by side.",
     locationAccess: [
@@ -930,7 +930,7 @@ export const cities: City[] = [
     schoolInfo:
       "Macomb Township is primarily served by Chippewa Valley School District in its southern sections and New Haven Community Schools and other districts in northern areas. Verify address-specific school assignments with the relevant district before purchasing.",
     bradQuote:
-      "Macomb Township is one of the great growth stories in Macomb County. What was once considered the outer edge of the market is now one of the most sought-after new construction addresses in the region, and the families who planted roots here early have been rewarded with consistent appreciation.",
+      "Macomb Township is one of the great growth stories in Macomb County. What was once considered the outer edge of the market is now one of the most sought-after new construction addresses in the region, and the owners who planted roots here early have been rewarded with consistent appreciation.",
     quoteAuthor: "Sarah",
     nearbySlugsSee: ["shelby-township-mi", "clinton-township-mi", "sterling-heights-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Macomb Township MI")}`,
@@ -1110,7 +1110,7 @@ export const cities: City[] = [
     faqs: [
       {
         q: "What is the difference between the five Grosse Pointe communities?",
-        a: "Grosse Pointe Park is the most urban, bordering Detroit directly. Grosse Pointe City is the smallest and most centrally located. Grosse Pointe Farms has the largest homes and strongest lakefront presence. Grosse Pointe Woods is the most family-oriented and moderately priced. Grosse Pointe Shores is the most exclusive, with the largest estates.",
+        a: "Grosse Pointe Park is the most urban, bordering Detroit directly. Grosse Pointe City is the smallest and most centrally located. Grosse Pointe Farms has the largest homes and strongest lakefront presence. Grosse Pointe Woods is the most moderately priced. Grosse Pointe Shores is the most exclusive, with the largest estates.",
       },
       {
         q: "Is the Grosse Pointe market more affordable than Birmingham?",
@@ -1431,7 +1431,7 @@ export const cities: City[] = [
     schoolDistrict: "Grand Blanc Community Schools",
     commuteToDetroit: "60 min",
     about:
-      "Grand Blanc sits at the southern edge of Genesee County, roughly 60 miles northwest of Detroit. It functions as the primary residential suburb for families and professionals who work in the Flint metro area but prefer a quieter, more suburban setting. The city and surrounding Grand Blanc Township together offer a mix of established neighborhoods, newer developments, and commercial corridors along Saginaw Road and Holly Road.\n\nThe community has a small but functional downtown area and benefits from proximity to Genesys Regional Medical Center, one of the region's largest employers. Grand Blanc has consistently attracted families looking for affordable housing paired with a well-regarded school district.",
+      "Grand Blanc sits at the southern edge of Genesee County, roughly 60 miles northwest of Detroit. It functions as the primary residential suburb for people who work in the Flint metro area but prefer a quieter, more suburban setting. The city and surrounding Grand Blanc Township together offer a mix of established neighborhoods, newer developments, and commercial corridors along Saginaw Road and Holly Road.\n\nThe community has a small but functional downtown area and benefits from proximity to Genesys Regional Medical Center, one of the region's largest employers. Grand Blanc has consistently attracted buyers looking for affordable housing within Grand Blanc Community Schools boundaries.",
     realEstateOverview:
       "Grand Blanc's housing stock is heavily weighted toward single-family homes built from the 1970s through the 2010s. You'll find everything from modest ranches in older subdivisions to newer colonial and contemporary homes in planned developments. The market here moves at a moderate pace, well-priced homes sell within a month, but you're unlikely to see the same bidding-war intensity as Oakland County.\n\nLot sizes tend to be generous by metro Detroit standards, and many properties include features like finished basements and attached garages that would cost significantly more in communities closer to Detroit.",
     locationAccess: [
@@ -1490,7 +1490,7 @@ export const cities: City[] = [
     about:
       "Fenton is a small city in southwestern Genesee County with a genuine downtown, a thriving restaurant scene, and access to several inland lakes that define the area's identity. The city sits at the intersection of US-23 and Silver Lake Road, making it a natural crossroads between Flint, Ann Arbor, and the northern Oakland County communities.\n\nThe downtown along LeRoy Street has seen significant reinvestment over the past decade: local restaurants, coffee shops, breweries, and boutiques have filled storefronts and created a walkable core that draws visitors from surrounding communities. Fenton's lakeside lifestyle is the primary draw for buyers who want waterfront living without lakefront pricing found in northern Michigan.",
     realEstateOverview:
-      "Fenton's real estate market splits into two distinct tiers: in-town homes and lakefront properties. In-town inventory includes bungalows, ranches, and colonials from the mid-20th century through recent construction. Lakefront homes on Lake Fenton, Silver Lake, and Marl Lake command premium pricing and move quickly when priced correctly.\n\nThe area has also seen newer subdivision development east and south of town, attracting families who want the Fenton school district and lifestyle without necessarily being on the water. Inventory turns over at a healthy pace, this isn't a market where homes sit for months.",
+      "Fenton's real estate market splits into two distinct tiers: in-town homes and lakefront properties. In-town inventory includes bungalows, ranches, and colonials from the mid-20th century through recent construction. Lakefront homes on Lake Fenton, Silver Lake, and Marl Lake command premium pricing and move quickly when priced correctly.\n\nThe area has also seen newer subdivision development east and south of town, attracting buyers who want the Fenton lifestyle without necessarily being on the water. Inventory turns over at a healthy pace, this isn't a market where homes sit for months.",
     locationAccess: [
       "Direct access to US-23 for quick connections north to Flint or south to Ann Arbor",
       "Approximately 55 minutes northwest of Detroit via US-23 and I-96",
@@ -1600,7 +1600,7 @@ export const cities: City[] = [
     about:
       "Goodrich is a small village in Atlas Township, positioned in the eastern part of Genesee County between Flint and the northern Oakland County communities. It has a distinctly rural character: rolling hills, horse farms, and open land, while still offering convenient access to I-75 and the Davison Freeway for commuters.\n\nThe village itself is small, with a few local shops and restaurants around the main intersection. Goodrich's primary draw is the combination of a well-regarded school district, affordable acreage, and a rural lifestyle that's still within reasonable driving distance of employment centers in both Genesee and Oakland counties.",
     realEstateOverview:
-      "Goodrich's real estate market leans toward larger lots and rural properties. While there are some subdivision-style neighborhoods, many homes sit on one to ten or more acres. The housing stock includes everything from modest ranches to large custom-built homes on multi-acre parcels.\n\nThis is not a high-turnover market, properties tend to be owner-occupied for long periods, and inventory is limited at any given time. When homes do come to market, those in the Goodrich school district tend to attract strong interest, particularly from families relocating from more expensive Oakland County communities.",
+      "Goodrich's real estate market leans toward larger lots and rural properties. While there are some subdivision-style neighborhoods, many homes sit on one to ten or more acres. The housing stock includes everything from modest ranches to large custom-built homes on multi-acre parcels.\n\nThis is not a high-turnover market, properties tend to be owner-occupied for long periods, and inventory is limited at any given time. When homes do come to market, they tend to attract strong interest, particularly from buyers relocating from more expensive Oakland County communities.",
     locationAccess: [
       "Located along M-15, approximately 15 miles north of Clarkston",
       "I-75 access is approximately 10 minutes west via Grange Hall Road",
@@ -1775,7 +1775,7 @@ export const cities: City[] = [
     schoolInfo:
       "Hartland is served by Hartland Consolidated Schools, which operates multiple elementary buildings, Hartland Middle School, and Hartland High School. The district is a primary driver of real estate demand in the area.",
     bradQuote:
-      "Hartland is one of the best-positioned communities in Livingston County. You've got US-23 and M-59 right there, the school district pulls families in, and the lake access adds a lifestyle dimension that keeps property values strong. It's a market I always recommend buyers explore.",
+      "Hartland is one of the best-positioned communities in Livingston County. You've got US-23 and M-59 right there, the lake access adds a lifestyle dimension that keeps property values strong. It's a market I always recommend buyers explore.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["brighton-mi", "fenton-mi", "howell-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Hartland MI")}`,
@@ -1991,9 +1991,9 @@ export const cities: City[] = [
     schoolDistrict: "Saline Area Schools",
     commuteToDetroit: "45 min",
     about:
-      "Saline is a small city approximately 10 miles south of Ann Arbor that has grown from a quiet agricultural community into one of Washtenaw County's most desirable residential markets. The downtown along Michigan Avenue retains a genuine small-town character with local restaurants, shops, and the iconic Saline River running through town.\n\nThe school district is the primary demand driver. Saline Area Schools has built a strong reputation that consistently attracts families from across the region. The city and surrounding Saline Township offer a mix of walkable in-town living and newer subdivision development that appeals to a wide range of buyers.",
+      "Saline is a small city approximately 10 miles south of Ann Arbor that has grown from a quiet agricultural community into one of Washtenaw County's most desirable residential markets. The downtown along Michigan Avenue retains a genuine small-town character with local restaurants, shops, and the iconic Saline River running through town.\n\nThe school district is the primary demand driver. The city is served by Saline Area Schools. The city and surrounding Saline Township offer a mix of walkable in-town living and newer subdivision development that appeals to a wide range of buyers.",
     realEstateOverview:
-      "Saline's real estate market is anchored by its school district reputation. The city offers a range from older homes near the downtown core to newer subdivisions on the city's expanding edges. Pricing sits between Ann Arbor (higher) and Ypsilanti or Milan (lower), making it a middle-market sweet spot for families.\n\nInventory tends to be tight, particularly for homes in the $350K–$500K range that represent the core family market. Well-priced listings attract quick interest, and the spring selling season is especially competitive.",
+      "Saline's real estate market is anchored by its school district reputation. The city offers a range from older homes near the downtown core to newer subdivisions on the city's expanding edges. Pricing sits between Ann Arbor (higher) and Ypsilanti or Milan (lower), making it a middle-market sweet spot.\n\nInventory tends to be tight, particularly for homes in the $350K–$500K range that represent the core of the market. Well-priced listings attract quick interest, and the spring selling season is especially competitive.",
     locationAccess: [
       "Located approximately 10 miles south of Ann Arbor along US-12 and M-17",
       "Quick access to US-23 for northbound connections to I-96 and I-94",
@@ -2010,7 +2010,7 @@ export const cities: City[] = [
     faqs: [
       {
         q: "How does Saline compare to Ann Arbor?",
-        a: "Saline is more affordable than Ann Arbor, comparable homes run $50K–$100K less. The tradeoff is less urban amenity and nightlife. But for families, Saline's school district, small-town feel, and lower pricing make it the preferred alternative to Ann Arbor proper.",
+        a: "Saline is more affordable than Ann Arbor, comparable homes run $50K–$100K less. The tradeoff is less urban amenity and nightlife. But Saline's small-town feel and lower pricing make it a preferred alternative to Ann Arbor proper.",
       },
       {
         q: "Is Saline growing?",
@@ -2056,7 +2056,7 @@ export const cities: City[] = [
     schoolInfo:
       "Dexter is served by Dexter Community Schools, a well-regarded smaller district that includes elementary schools, Creekside Intermediate School, Mill Creek Middle School, and Dexter High School.",
     bradQuote:
-      "Dexter is Ann Arbor's escape hatch for families who want nature, space, and a village feel without giving up access to everything Ann Arbor offers. The Huron River, the parks, and the rolling terrain make it feel like you're much further from the city than you actually are. Ten minutes and you're in downtown Ann Arbor.",
+      "Dexter is Ann Arbor's escape hatch for buyers who want nature, space, and a village feel without giving up access to everything Ann Arbor offers. The Huron River, the parks, and the rolling terrain make it feel like you're much further from the city than you actually are. Ten minutes and you're in downtown Ann Arbor.",
     quoteAuthor: "Brad",
     nearbySlugsSee: ["ann-arbor-mi", "chelsea-mi", "brighton-mi"],
     sierraSearchUrl: `https://www.oakandstonerealestate.com/search#?q=${encodeURIComponent("Dexter MI")}`,

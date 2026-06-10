@@ -42,36 +42,20 @@ const SPARK_MLS_IDS: string[] = process.env.SPARK_MLS_IDS
 
 // All 24 SE Michigan cities (from data/cities.ts)
 const SE_MICHIGAN_CITIES = [
+  // Trimmed 2026-06-10: only the boutique cities the site actually displays
+  // (FeaturedListings grid + detail pages). Add cities back if display expands.
   "birmingham-mi",
   "bloomfield-hills-mi",
   "bloomfield-township-mi",
   "rochester-mi",
   "rochester-hills-mi",
-  "clarkston-mi",
-  "lake-orion-mi",
-  "orchard-lake-mi",
-  "royal-oak-mi",
   "troy-mi",
   "west-bloomfield-mi",
-  "novi-mi",
-  "oxford-mi",
-  "brighton-mi",
-  "howell-mi",
+  "royal-oak-mi",
+  "clarkston-mi",
   "northville-mi",
   "plymouth-mi",
   "shelby-township-mi",
-  "sterling-heights-mi",
-  "clinton-township-mi",
-  "macomb-township-mi",
-  "st-clair-shores-mi",
-  "warren-mi",
-  "ann-arbor-mi",
-  "saline-mi",
-  "detroit-mi",
-  "grosse-pointe-mi",
-  "grosse-pointe-woods-mi",
-  "livonia-mi",
-  "flint-mi",
 ];
 
 // Map city slugs to their zip codes (from cities.ts)
@@ -282,7 +266,8 @@ function normalizeListings(
       // Use Uri800 for gallery (better quality), fall back to Uri640
       const photoUrls = rawPhotos
         .map((p) => p.Uri800 || p.Uri640 || "")
-        .filter((u) => u);
+        .filter((u) => u)
+        .slice(0, 12); // cap gallery size — keeps data file small
       // Primary photo for cards/hero (Uri640 is fine for thumbnails)
       const primary = rawPhotos.find((p) => p.Primary) || rawPhotos[0];
       const imageUrl = primary?.Uri640 || primary?.Uri800 || "";

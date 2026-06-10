@@ -532,7 +532,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "March through June is historically the strongest window for home sales in Michigan. More buyers are active, homes show better in natural light, curb appeal is at its best, and families buying before the school year create real deadline pressure. The demand side is simply larger in spring than any other season.",
+        text: "March through June is historically the strongest window for home sales in Michigan. More buyers are active, homes show better in natural light, curb appeal is at its best, and buyers working around the school calendar create real deadline pressure. The demand side is simply larger in spring than any other season.",
       },
       {
         type: "paragraph",
@@ -549,7 +549,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "July and August still see active buyers, particularly buyers on corporate relocation timelines, which are year-round. The volume is lower than spring, but motivated buyers are real. The problem is seller attention: families are traveling, contractors are busy, and the logistics of a summer showing schedule can be frustrating. If your home is turnkey and priced right, summer works fine. If it needs any prep work, summer timelines get squeezed.",
+        text: "July and August still see active buyers, particularly buyers on corporate relocation timelines, which are year-round. The volume is lower than spring, but motivated buyers are real. The problem is seller attention: people are traveling, contractors are busy, and the logistics of a summer showing schedule can be frustrating. If your home is turnkey and priced right, summer works fine. If it needs any prep work, summer timelines get squeezed.",
       },
       {
         type: "h2",
@@ -975,7 +975,7 @@ export const posts: Post[] = [
       {
         type: "callout",
         label: "Why this matters",
-        text: "If your parents bought their home for $90,000 in 1985, and it's worth $420,000 today when your parent passes, your basis as the heir is $420,000, not $90,000. If you sell for $420,000, there's no capital gains tax owed. This is a significant benefit that many families don't realize until their CPA tells them. Timing the sale relative to the date of death matters.",
+        text: "If your parents bought their home for $90,000 in 1985, and it's worth $420,000 today when your parent passes, your basis as the heir is $420,000, not $90,000. If you sell for $420,000, there's no capital gains tax owed. This is a significant benefit that many heirs don't realize until their CPA tells them. Timing the sale relative to the date of death matters.",
       },
       {
         type: "paragraph",
@@ -1332,7 +1332,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "The best access points I've found: our cash offer program (which generates motivated seller leads before they hit MLS), the probate and estate pipeline (older homes in disrepair that families need to move quickly), and well-networked agents who know about properties before they list. The MLS is late to this conversation.",
+        text: "The best access points I've found: our cash offer program (which generates motivated seller leads before they hit MLS), the probate and estate pipeline (older homes in disrepair that heirs need to move quickly), and well-networked agents who know about properties before they list. The MLS is late to this conversation.",
       },
       {
         type: "h2",
@@ -1949,7 +1949,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Investor offers are attractive because they're often cash and close fast. But they also tend to come in below market value, because the buyer is running a yield calculation, not an emotional one. A family that plans to live in the home for 10 years will almost always pay more than an entity calculating cap rate. For most sellers in Southeast Michigan, a deeper pool of qualified owner-occupant buyers is ultimately better for your bottom line.",
+        text: "Investor offers are attractive because they're often cash and close fast. But they also tend to come in below market value, because the buyer is running a yield calculation, not an emotional one. A buyer who plans to live in the home for 10 years will almost always pay more than an entity calculating cap rate. For most sellers in Southeast Michigan, a deeper pool of qualified owner-occupant buyers is ultimately better for your bottom line.",
       },
       {
         type: "callout",
@@ -2068,7 +2068,7 @@ export const posts: Post[] = [
       },
       {
         type: "paragraph",
-        text: "Here's one that surprises people: 97% of Michigan is USDA-eligible. That means zero down payment required. You don't have to be buying a farm, plenty of suburban and small-town communities in Livingston County, northern Macomb County, and western Oakland County qualify. Income limits are generous too: $119,850 for a family of 1-4 in 2026. If you're buying outside the major metro cores, this should be your first conversation with a lender.",
+        text: "Here's one that surprises people: 97% of Michigan is USDA-eligible. That means zero down payment required. You don't have to be buying a farm, plenty of suburban and small-town communities in Livingston County, northern Macomb County, and western Oakland County qualify. Income limits are generous too: $119,850 for a household of 1-4 in 2026. If you're buying outside the major metro cores, this should be your first conversation with a lender.",
       },
       {
         type: "h3",
