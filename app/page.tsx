@@ -384,7 +384,25 @@ export default function HomePage() {
               </div>
 
               {/* Stats */}
-              <div className="flex gap-10 mt-12 pt-10" style={{ borderTop: "1px solid var(--line)" }}>
+              <div className="flex flex-wrap gap-10 mt-12 pt-10" style={{ borderTop: "1px solid var(--line)" }}>
+                <Link href="/reviews" className="group">
+                  <p
+                    className="font-display group-hover:underline"
+                    style={{ fontSize: "clamp(28px, 3vw, 40px)", color: "var(--red)", textUnderlineOffset: "4px" }}
+                  >
+                    5.0 ★
+                  </p>
+                  <p
+                    className={eyebrow + " mt-1"}
+                    style={{
+                      color: "var(--ink-3)",
+                      fontFamily: "var(--font-mono, monospace)",
+                      fontSize: "9px",
+                    }}
+                  >
+                    32 Google Reviews
+                  </p>
+                </Link>
                 {[
                   { num: "40", label: "Cities Served" },
                   { num: "7",  label: "Counties" },
@@ -948,6 +966,14 @@ export default function HomePage() {
               Not just a realtor.{" "}
               <em style={{ color: "var(--red)", fontStyle: "italic" }}>A partner.</em>
             </h2>
+            <Link
+              href="/reviews"
+              className="inline-flex items-center gap-2 mt-4 hover:underline"
+              style={{ color: "var(--ink-2)", fontSize: "15px", textUnderlineOffset: "3px" }}
+            >
+              <span style={{ color: "var(--red)" }}>★★★★★</span>
+              <span>5.0 across 32 Google reviews</span>
+            </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
