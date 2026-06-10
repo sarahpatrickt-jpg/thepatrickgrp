@@ -595,6 +595,22 @@ async function main() {
   const analysis = computeMarketAnalysis(listingsByCity);
   updateMarketAnalysisFile(analysis);
 
+  // Daily snapshot for the public Market Tracker page (keeps 90 days).
+  // Tracker computes week-over-week change once history accumulates.
+  const histPath = path.join(__dirname, "..", "data", "market-history.json");
+  let hist: { date: string; cities: Record<string, { a: number; m: number }> }[] = [];
+  try { hist = JSON.parse(fs.readFileSync(histPath, "utf8")); } catch { /* first run */ }
+  const today = new Date().toISOString().slice(0, 10);
+  hist = hist.filter((h) => h.date !== today);
+  const snapshot: { date: string; cities: Record<string, { a: number; m: number }> } = { date: today, cities: {} };
+  for (const [slug, a] of Object.entries(analysis)) {
+    snapshot.cities[slug] = { a: a.activeCount, m: a.medianPrice };
+  }
+  hist.push(snapshot);
+  hist = hist.slice(-90);
+  fs.writeFileSync(histPath, JSON.stringify(hist));
+  console.log(`✓ Market history snapshot for ${today} (${hist.length} days kept)`);
+
   // Commit and push
   console.log("\nCommitting changes...");
   commitAndPush();

@@ -81,6 +81,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
 
     // Market reports
+    { url: `${base}/market-tracker`,      lastModified: new Date(), changeFrequency: "daily",   priority: 0.9 },
     { url: `${base}/market-updates`,      lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     ...marketReports.map((slug) => ({
       url: `${base}/market-updates/${slug}`,

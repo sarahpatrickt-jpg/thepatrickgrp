@@ -77,11 +77,13 @@ Cadence: daily 1 social post; weekly journal + GBP post + review outreach; month
 
 ## 7. Backlog (consolidated, as of 2026-06-10)
 
+Done June 10: design system unified across all pages (brand tokens); /market-tracker launched (nightly city-level inventory + median price, history snapshots in data/market-history.json, week-over-week change appears after 7 days); reviews surfaced in hero + testimonials; fair housing copy cleanup; site-wide em dash removal.
+
 - Sierra routing rule for inherited property leads (source "thepatrickgrp.com - Inherited Property")
 - AI citation test: /divorce-real-estate and /cash-offer in ChatGPT/Gemini (overdue since March)
 - FAQ schema cleanup (deprecated by Google May 7, 2026)
 - Backlink building (0 external links in Search Console)
-- City-vs-city comparison pages (next programmatic SEO build)
+- ~~City-vs-city comparison pages~~ DONE: 17 live at /compare/* (June 2026)
 - Facebook post with UTM-tagged inherited property link
 - Brad + Sarah review/approve all 24 city page quotes
 - GBP: upload Real Producers April 2026 cover + office exterior photos

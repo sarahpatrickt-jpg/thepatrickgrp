@@ -98,7 +98,12 @@ export default function MarketUpdatesPage() {
             style={{ fontSize: "18px", color: "rgba(253,251,247,0.55)", maxWidth: 520 }}
           >
             Monthly median price, price per sqft, and days on market across
-            Oakland, Macomb, Wayne, Washtenaw, and Livingston counties.
+            Oakland, Macomb, Wayne, Washtenaw, and Livingston counties. For
+            nightly city-level inventory, see the{" "}
+            <Link href="/market-tracker" className="hover:underline" style={{ color: "var(--red)", textUnderlineOffset: "3px" }}>
+              Market Tracker
+            </Link>
+            .
           </p>
         </div>
       </section>
