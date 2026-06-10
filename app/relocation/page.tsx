@@ -146,19 +146,6 @@ export default function RelocationPage() {
         </div>
       </section>
 
-      {/* Photo band */}
-      <section className="px-4 sm:px-6 py-10" style={{ backgroundColor: "var(--paper)" }}>
-        <div className="max-w-5xl mx-auto relative overflow-hidden" style={{ aspectRatio: "16 / 8", border: "1px solid var(--line)" }}>
-        <Image
-          src="/images/photos/aerial-lake-community.jpg"
-          alt="Aerial view of a Southeast Michigan lake community"
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 1024px"
-        />
-        </div>
-      </section>
-
 
       {/* AREA GUIDE */}
       <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">

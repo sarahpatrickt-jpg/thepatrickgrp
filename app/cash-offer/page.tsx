@@ -233,19 +233,6 @@ export default function CashOfferPage() {
         </div>
       </section>
 
-      {/* Photo band */}
-      <section className="px-4 sm:px-6 py-10" style={{ backgroundColor: "var(--paper)" }}>
-        <div className="max-w-5xl mx-auto relative overflow-hidden" style={{ aspectRatio: "16 / 8", border: "1px solid var(--line)" }}>
-        <Image
-          src="/images/photos/white-kitchen.jpg"
-          alt="Bright white kitchen in a Southeast Michigan home"
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 1024px"
-        />
-        </div>
-      </section>
-
 
       {/* IMPORTANT DISTINCTION. TRUST */}
       <section className="py-12 px-4 sm:px-6 bg-[var(--red)] text-white">

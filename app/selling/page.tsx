@@ -152,8 +152,8 @@ export default function SellingPage() {
       <section className="px-4 sm:px-6 py-10" style={{ backgroundColor: "var(--paper)" }}>
         <div className="max-w-5xl mx-auto relative overflow-hidden" style={{ aspectRatio: "16 / 8", border: "1px solid var(--line)" }}>
         <Image
-          src="/images/photos/brick-courtyard-home.jpg"
-          alt="Brick home with courtyard drive in Southeast Michigan"
+          src="/images/photos/kitchen-dining.jpg"
+          alt="Staged kitchen and dining area ready for showings"
           fill
           className="object-cover"
           sizes="(max-width: 1024px) 100vw, 1024px"
