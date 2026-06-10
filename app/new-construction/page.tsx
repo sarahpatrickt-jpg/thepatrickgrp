@@ -166,6 +166,20 @@ export default function NewConstructionPage() {
         </div>
       </section>
 
+      {/* Photo band */}
+      <section className="px-4 sm:px-6 py-10" style={{ backgroundColor: "var(--paper)" }}>
+        <div className="max-w-5xl mx-auto relative overflow-hidden" style={{ aspectRatio: "16 / 8", border: "1px solid var(--line)" }}>
+        <Image
+          src="/images/photos/new-white-kitchen.jpg"
+          alt="Newly built kitchen with large island"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 1024px"
+        />
+        </div>
+      </section>
+
+
 
       {/* WHY YOU NEED YOUR OWN AGENT */}
       <section className="py-16 px-4 sm:px-6 bg-[var(--paper)]">
