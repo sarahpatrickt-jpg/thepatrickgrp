@@ -6,6 +6,8 @@ Boutique real estate team in Southeast Michigan. Principal Broker: **Sarah Patri
 
 **Stack:** Next.js App Router, TypeScript, Tailwind CSS. Auto-deploys to Vercel on every push to `main` (GitHub: sarahpatrickt-jpg/thepatrickgrp).
 
+**Business hub:** `docs/BUSINESS.md` — accounts, automations, growth plan, IDX architecture, backlog. Read it when working on anything beyond code. Legal: `docs/MICHRIC-LICENSE.md`. SEO history: `docs/SEO-LOG.md`. Old planning docs: `docs/archive/`.
+
 ---
 
 ## People
@@ -22,36 +24,25 @@ Boutique real estate team in Southeast Michigan. Principal Broker: **Sarah Patri
 ## Key Files
 
 - **`data/cities.ts`** — Single source of truth for all 24 SE Michigan city pages. Edit here, not in the page template.
-- **`app/neighborhoods/[slug]/page.tsx`** — Dynamic route that renders all city pages from `data/cities.ts`
+- **`data/posts.ts`** — All journal articles. Homepage auto-promotes the newest 3 by date.
+- **`data/listings.ts`** — ~15k cached MLS listings, regenerated nightly by `scripts/update-listings-nightly.ts`. Never hand-edit listing entries.
+- **`components/FeaturedListings.tsx`** — Featured Homes grid (homepage + /buying): $600k+, boutique cities, daily rotation, address-deduped.
+- **`app/neighborhoods/[slug]/page.tsx`** — Dynamic route rendering all city pages from `data/cities.ts`
 - **`components/ExitIntentPopup.tsx`** — Exit intent popup. Shows once per session only.
-- **`components/CityFaqAccordion.tsx`** — Client-side FAQ accordion used on city pages
 
 ### City data structure (data/cities.ts)
-Each city entry has:
-- `slug`, `name`, `county`, `zipCodes`
-- `marketStats`: medianPrice, medianPriceChange, daysOnMarket, pricePerSqft
-- `priceRange`: low / mid / luxury descriptions
-- `schoolDistrict`, `schoolInfo` (factual only — see fair housing rules)
-- `about`, `realEstateOverview`, `locationAccess[]`
-- `bradQuote` (the quote text — used for both Brad and Sarah)
-- `quoteAuthor: "Brad" | "Sarah"` — controls whose name/title appears
-- `nearbySlugsSee[]`, `sierraSearchUrl`, `faqs[]`, `ctaVariant`
+Each city entry has: `slug`, `name`, `county`, `zipCodes`; `marketStats` (medianPrice, medianPriceChange, daysOnMarket, pricePerSqft); `priceRange` (low/mid/luxury); `schoolDistrict`, `schoolInfo` (factual only — see fair housing rules); `about`, `realEstateOverview`, `locationAccess[]`; `bradQuote` + `quoteAuthor: "Brad" | "Sarah"`; `nearbySlugsSee[]`, `sierraSearchUrl`, `faqs[]`, `ctaVariant`.
 
-### Quote author split (50/50)
-**Sarah's cities:** Birmingham, Bloomfield Hills, Troy, West Bloomfield, Royal Oak, Clarkston, Macomb Township, St. Clair Shores, Grosse Pointe, Northville, Plymouth, Detroit
-
-**Brad's cities:** All remaining 12
+**Quote author split:** Sarah's cities: Birmingham, Bloomfield Hills, Troy, West Bloomfield, Royal Oak, Clarkston, Macomb Township, St. Clair Shores, Grosse Pointe, Northville, Plymouth, Detroit. Brad: the remaining 12.
 
 ---
 
 ## Deployment
 
 ```bash
-git add <files>
-git commit -m "description"
-git push
+git add <files> && git commit -m "description" && git push
 ```
-Vercel auto-builds on push. No manual deploy step needed.
+Vercel auto-builds on push. No manual deploy step. Builds take 2–4 min (large listings file).
 
 ---
 
@@ -63,10 +54,11 @@ Vercel auto-builds on push. No manual deploy step needed.
 - School quality as a demand or desirability driver ("great schools," "award-winning schools," "top-rated schools," "highly ranked schools")
 - Phrases like "families are drawn here for the schools" or "schools drive demand"
 - Any language implying a neighborhood is better or worse because of its school quality
+- "Family" as a demographic descriptor of a neighborhood ("family-friendly," "Family · Oakland" tags)
 - Demographic language in neighborhood descriptions
 
 ### You MAY use:
-- Factual school district names: "served by Rochester Community Schools," "within the Birmingham school district"
+- Factual school district names: "served by Rochester Community Schools"
 - Factual school names: "Stoney Creek High School serves this area" (City of Rochester only — not Rochester Hills)
 - Objective infrastructure facts: "the district recently completed a new building"
 
@@ -74,34 +66,30 @@ Vercel auto-builds on push. No manual deploy step needed.
 
 ---
 
-## COPY RULES — DO NOT REINTRODUCE THESE
+## COPY & WRITING RULES — DO NOT REINTRODUCE THESE
+
+### No em dashes (Sarah's explicit rule, June 2026)
+Never use em dashes (—) in site copy, journal articles, or marketing content. Restructure with periods, commas, colons, or parentheses. (This file's own formatting is exempt; published content is not.)
 
 ### Tenure mentions ("26 years" / "since 2000")
-These were deliberately reduced by ~70% because they were oversaid. **Only 3 mentions remain:**
-1. Homepage differentiator card ("26 Years of Experience")
-2. Sarah's about-page bio paragraph ("With over 26 years of experience")
-3. Northville city quote ("In 26 years, I have never seen...")
-
-Do not add "26 years," "since 2000," or tenure language anywhere else on the site.
+Deliberately reduced ~70%. **Only 3 mentions remain:** homepage differentiator card, Sarah's about-page bio, Northville city quote. Do not add tenure language anywhere else.
 
 ### Referral language
-Removed entirely. The team is running paid ads. **Do not use:**
-- "referral-based business"
-- "built on referrals"
-- "by referral only"
-- Any framing that implies they don't do outbound marketing
+Removed entirely; the team runs paid ads. Never: "referral-based business," "built on referrals," "by referral only."
 
 ### Brad's title
-Always **"Realtor®"** — nothing else. Not "Lead Buyer's Agent," not "Buyer's Agent," not "agent."
+Always **"Realtor®"** — nothing else.
+
+### Journal card images
+Never invent image filenames (broken images). Reuse from `/public/images/insights/` and avoid using the same image as the other two homepage journal cards.
 
 ---
 
 ## BRAND VOICE
 
-- Confident, direct, no fluff
-- Knowledgeable without being condescending
-- Sarah's voice: macro/historical perspective, market cycles, long-term view, seller-aware
-- Brad's voice: buyer-focused, mortgage/financing awareness, tactical, competitive-market savvy
+- Confident, direct, no fluff; knowledgeable without being condescending
+- Sarah: macro/historical perspective, market cycles, long-term view, seller-aware
+- Brad: buyer-focused, mortgage/financing awareness, tactical, competitive-market savvy
 - Never oversell or use superlatives without substance ("the best," "unlike any other")
 - No emojis in page copy (newsletter/social is fine)
 
@@ -109,40 +97,13 @@ Always **"Realtor®"** — nothing else. Not "Lead Buyer's Agent," not "Buyer's 
 
 ## ANALYTICS
 
-GA4 conversion events configured:
-- `contact_form_submitted`
-- `cash_offer_submitted`
-- `vip_buyer_signup`
-- `newsletter_signup`
-- `phone_call_click`
-
-All 5 events marked as Key Events in GA4 Admin — confirmed May 2026.
+GA4 key events (all confirmed in GA4 Admin, May 2026): `contact_form_submitted`, `cash_offer_submitted`, `vip_buyer_signup`, `newsletter_signup`, `phone_call_click`.
 
 ---
 
-## PENDING / NEXT UP
+## AUTOMATIONS (do not duplicate this work manually)
 
-### 🔴 DO THIS FIRST — Spark API key in Vercel (5 min)
-The IDX search is live and working locally with 2,067 real listings.
-The nightly cron job will fail until this is done:
-1. Go to vercel.com → thepatrickgrp project → Settings → Environment Variables
-2. Add: Name = `SPARK_API_KEY` / Value = (the Access Token from the FBS approval email)
-3. Check Production + Preview + Development, click Save
-That's it. Nightly sync runs at 11 PM ET and auto-commits fresh listings.
-
-### IDX Integration — status as of 2026-06-05
-- ✅ Spark API approved (MichRIC + RealComp + MiRealSource)
-- ✅ 2,067 listings synced (1,345 active, 722 pending across 30 cities)
-- ✅ /search-homes live with real listings + Search button
-- ✅ Nightly cron in vercel.json (11 PM ET)
-- ⏳ SPARK_API_KEY needs to be added to Vercel env vars (see above)
-- ⏳ Sold/Closed listings not yet synced (Spark date filter syntax TBD)
-
-### Other
-- GA4: ✓ All 5 events marked as Key Events (May 2026)
-- GBP photos: team headshots ✓ done. Office exterior + Real Producers April 2026 cover still needed
-- GBP Post: Publish March 2026 market report (copy ready)
-- AI citation re-test: divorce + cash offer pages — test with Gemini/ChatGPT (overdue from March)
-- City vs City comparison pages (next programmatic SEO priority)
-- Brad + Sarah to review/approve all 24 city quotes
-- Paid ads launch (Google/Meta) — run `paid-ads` skill when ready
+- **Nightly listings sync** — Vercel cron 11 PM ET → `data/listings.ts`
+- **Weekly journal article** — Claude scheduled task, Mondays 8 AM (researches viral topics, writes, pushes)
+- **Monthly grants refresh** — Claude scheduled task, 1st of month
+- Full details + backlog: `docs/BUSINESS.md`
