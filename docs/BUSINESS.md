@@ -42,7 +42,16 @@ Last full update: 2026-06-10
 
 Any Claude session on this Mac can query the Spark API directly. The key lives at `website-repo/.env.local` (`SPARK_API_KEY`); base URL `https://replication.sparkapi.com/v1/listings` with Bearer auth. SparkQL `_filter` examples that work: `MlsStatus Eq 'Active'`, `PropertyType Eq 'F'` (rentals; 'A' single-family), `CountyOrParish Eq 'Oakland'`, `BedsTotal Eq 3`, plus the three MlsId values (in `scripts/update-listings-nightly.ts`) to span MichRIC + RealComp + MiRealSource. Response shape: `D.Results[].StandardFields`. Pagination never returns empty: stop on a partial page or cap pages. License expressly permits statistical/CMA use for our own clients; do not export or publish raw data.
 
-Example precedent: June 11 rental comp for a 1,000 sqft 3/1 in Oakland+Macomb → 90 tight comps, avg $1,997, median $1,948.
+**Sarah's comp methodology standards (locked June 11, 2026, after iterating on the sell-vs-rent report):**
+1. Values from CLOSED sales (`MlsStatus Eq 'Closed'` + `ClosePrice`), never active asking prices. Rents from actual leased rentals where available, asking only as a flagged fallback.
+2. Feature-match the comps to the subject: 2 to 2.5 car garage (`GarageSpaces`, well populated), exclude affirmative crawl-space/slab (`Basement` dict; field often blank, blanks retained in "practical" mode, excluded in "strict" mode for appraiser-grade work), single family only, no condos (`PropertySubType` excludes condo; matters on rentals where class F lumps everything).
+3. Dedupe across the three MLS feeds by (price, sqft, zip): the same transaction appears in multiple feeds.
+4. Test for sub-market splits by zip (cluster zip medians, split at largest gap if >= 25 percent divergence). Warren is two markets: north 48092/48088 vs south 48089/48091; the split disappears when comps are feature-matched because the south stock is crawl-space.
+5. Always disclose comp counts (n) per number; flag thin samples; city medians are for strategy, single-property pricing needs a zip-level strict pull.
+
+**SparkQL gotchas (hard-won):** dates UNQUOTED (`CloseDate Ge 2026-03-01`; quoted dates throw syntax errors). Query per CITY, not per county (the 800-row page cap truncates county queries arbitrarily). Pagination never returns empty: stop on partial page or cap pages. `PropertyType`: A=single family, B=condo, F=rental class. `BathsTotal Eq 1` works server-side. Response: `D.Results[].StandardFields`.
+
+**Tools:** report builder + last dataset saved at `~/Desktop/patrick-group/content/comp-tools/`. Finished reports in `~/Desktop/patrick-group/content/`. Example outputs: June 11 sell-vs-rent report (10 cities; Eastpointe 11.1 percent yield tops cash flow, Royal Oak $312K tops value); clean Warren 3/1 w/ basement+garage = $198,500 median.
 
 ## 4. MichRIC® IDX License (signed June 1, 2026 — auto-renews each June 1)
 
