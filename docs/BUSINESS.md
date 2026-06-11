@@ -38,6 +38,12 @@ Last full update: 2026-06-10
 - ~15k listings cached in `data/listings.ts`, refreshed nightly. Listings under $50k filtered out (rentals/lots).
 - Spark API rate limit: 1,500 req / 5 min; sync uses ~150 requests.
 
+## 3.5 Ad hoc MLS queries (comps, rentals, CMAs) from ANY chat
+
+Any Claude session on this Mac can query the Spark API directly. The key lives at `website-repo/.env.local` (`SPARK_API_KEY`); base URL `https://replication.sparkapi.com/v1/listings` with Bearer auth. SparkQL `_filter` examples that work: `MlsStatus Eq 'Active'`, `PropertyType Eq 'F'` (rentals; 'A' single-family), `CountyOrParish Eq 'Oakland'`, `BedsTotal Eq 3`, plus the three MlsId values (in `scripts/update-listings-nightly.ts`) to span MichRIC + RealComp + MiRealSource. Response shape: `D.Results[].StandardFields`. Pagination never returns empty: stop on a partial page or cap pages. License expressly permits statistical/CMA use for our own clients; do not export or publish raw data.
+
+Example precedent: June 11 rental comp for a 1,000 sqft 3/1 in Oakland+Macomb → 90 tight comps, avg $1,997, median $1,948.
+
 ## 4. MichRIC® IDX License (signed June 1, 2026 — auto-renews each June 1)
 
 Provider: Michigan Regional Information Center (MichRIC®) via GMAR. Contact: support@michric.org · 5830 Venture Park Dr., Kalamazoo, MI 49009 · mlshelp.com. Michigan law, Kalamazoo County jurisdiction.
