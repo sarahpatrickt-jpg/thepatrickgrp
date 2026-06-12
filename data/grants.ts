@@ -6,6 +6,11 @@
  * Last updated: June 1, 2026
  */
 
+// Monthly grant task: bump BOTH dates when refreshing this file.
+// Shown on /grants and in its structured data; freshness is a citation signal.
+export const GRANTS_LAST_UPDATED = "June 1, 2026";
+export const GRANTS_LAST_UPDATED_ISO = "2026-06-01";
+
 // ── Types ────────────────────────────────────────────────────────────────────
 
 export type County =

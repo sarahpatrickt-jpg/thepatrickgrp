@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import GrantWizard from "@/components/grants/GrantWizard";
+import {
+  programs,
+  GRANTS_LAST_UPDATED,
+  GRANTS_LAST_UPDATED_ISO,
+} from "@/data/grants";
 
 export const metadata: Metadata = {
   title:
@@ -56,6 +61,59 @@ const faqs = [
   },
 ];
 
+// Region/eligibility tag per program id, for the overview cards
+const regionTag: Record<string, string> = {
+  "mshda-mi-dpa": "Statewide",
+  "mshda-10k-dpa": "Targeted Areas",
+  "mshda-first-gen": "Monitor for renewal",
+  "oakland-county-dpa": "Oakland County",
+  "detroit-dpa": "Detroit",
+  "wayne-county-dpa": "Wayne County",
+  "national-faith-wayne": "Wayne County",
+  "genesee-county-dpa": "Genesee County",
+  "washtenaw-oced": "Washtenaw County",
+  "va-home-loan": "Veterans",
+  "usda-rural": "Rural Areas",
+  "good-neighbor": "Public Service",
+  homeready: "Moderate Income",
+  "chase-homebuyer-grant": "Eligible areas",
+  "wells-fargo-homebuyer-access": "Down payment grant",
+  "wells-fargo-closing-cost": "At or below 80% AMI",
+  "rocket-one-plus": "Rocket covers 2%: up to $7K",
+  "honor-cu-launch": "First-time buyers, 80% AMI",
+  "fhlb-homeboost": "Minority / first-gen buyers",
+  "flagstar-destination-home": "Community lending areas",
+};
+
+const BANK_IDS = new Set([
+  "chase-homebuyer-grant",
+  "wells-fargo-homebuyer-access",
+  "wells-fargo-closing-cost",
+  "rocket-one-plus",
+  "honor-cu-launch",
+  "fhlb-homeboost",
+  "flagstar-destination-home",
+]);
+
+const govPrograms = programs.filter((p) => !BANK_IDS.has(p.id));
+const bankPrograms = programs.filter((p) => BANK_IDS.has(p.id));
+
+const programListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Michigan Homebuyer Grant and Down Payment Assistance Programs",
+  description:
+    "State, county, federal, bank, and credit union down payment assistance programs available to Michigan homebuyers, reviewed monthly.",
+  dateModified: GRANTS_LAST_UPDATED_ISO,
+  numberOfItems: programs.length,
+  itemListElement: programs.map((p, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: `${p.name} (${p.amount})`,
+    url: p.url,
+  })),
+};
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -75,6 +133,10 @@ export default function GrantsPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(programListSchema) }}
       />
 
       {/* Hero */}
@@ -193,27 +255,17 @@ export default function GrantsPage() {
               Government grants, bank-specific programs, and credit union offers.
               Eligibility depends on your income, location, and buyer status.
             </p>
+            <p className="text-xs text-[var(--ink-3)] mt-3">
+              Program list last updated {GRANTS_LAST_UPDATED}. Reviewed monthly
+              against official program sources.
+            </p>
           </div>
           <p className="text-xs font-semibold text-[var(--ink-3)] uppercase tracking-widest mb-3">Government &amp; County Programs</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {[
-              { name: "MSHDA MI DPA", amount: "Up to $7,500", type: "Statewide" },
-              { name: "MSHDA MI 10K DPA", amount: "Up to $10,000", type: "Targeted Areas" },
-              { name: "MSHDA First-Gen DPA", amount: "Up to $25,000", type: "Monitor for renewal" },
-              { name: "Oakland County DPA", amount: "Up to $5,000", type: "Oakland County" },
-              { name: "Detroit DPA", amount: "Up to $25,000", type: "Detroit" },
-              { name: "Wayne County DPA", amount: "Up to $7,500", type: "Wayne County" },
-              { name: "National Faith", amount: "Up to $14,999", type: "Wayne County" },
-              { name: "Genesee County", amount: "Up to $10,000", type: "Genesee County" },
-              { name: "Washtenaw OCED", amount: "Up to $10,000", type: "Washtenaw County" },
-              { name: "VA Home Loan", amount: "0% down", type: "Veterans" },
-              { name: "USDA Rural", amount: "0% down", type: "Rural Areas" },
-              { name: "Good Neighbor", amount: "50% off", type: "Public Service" },
-              { name: "HomeReady / Home Possible", amount: "3% down", type: "Moderate Income" },
-            ].map((p) => (
+            {govPrograms.map((p) => (
               <div
-                key={p.name}
-                className="bg-[var(--paper-2)] border border-[var(--line)] p-4"
+                key={p.id}
+                className="bg-[var(--paper-2)] border border-[var(--line)] p-4 flex flex-col"
               >
                 <p className="font-semibold text-[var(--ink)] text-sm">
                   {p.name}
@@ -221,24 +273,26 @@ export default function GrantsPage() {
                 <p className="text-[var(--red)] font-bold text-sm mt-1">
                   {p.amount}
                 </p>
-                <p className="text-xs text-[var(--ink-3)] mt-1">{p.type}</p>
+                <p className="text-xs text-[var(--ink-3)] mt-1 mb-2">
+                  {regionTag[p.id] ?? ""}
+                </p>
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-[var(--ink-3)] underline hover:text-[var(--ink)] transition-colors mt-auto"
+                >
+                  Official program page ↗
+                </a>
               </div>
             ))}
           </div>
           <p className="text-xs font-semibold text-[var(--ink-3)] uppercase tracking-widest mb-3">Bank &amp; Credit Union Programs</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[
-              { name: "Chase Homebuyer Grant", amount: "Up to $7,500", type: "Eligible areas" },
-              { name: "Wells Fargo Homebuyer Access", amount: "Up to $10,000", type: "Down payment grant" },
-              { name: "Wells Fargo Closing Cost Credit", amount: "Up to $5,000", type: "At or below 80% AMI" },
-              { name: "Rocket Mortgage ONE+", amount: "1% down", type: "Rocket covers 2%: up to $7K" },
-              { name: "Honor CU Launch DPA", amount: "Up to $20,000", type: "First-time buyers, 80% AMI" },
-              { name: "FHLB HomeBoost", amount: "Up to $25,000", type: "Minority / first-gen buyers" },
-              { name: "Flagstar Destination Home", amount: "No PMI", type: "Community lending areas" },
-            ].map((p) => (
+            {bankPrograms.map((p) => (
               <div
-                key={p.name}
-                className="bg-[var(--paper-2)] border border-[var(--line)] p-4"
+                key={p.id}
+                className="bg-[var(--paper-2)] border border-[var(--line)] p-4 flex flex-col"
               >
                 <p className="font-semibold text-[var(--ink)] text-sm">
                   {p.name}
@@ -246,7 +300,17 @@ export default function GrantsPage() {
                 <p className="text-[var(--red)] font-bold text-sm mt-1">
                   {p.amount}
                 </p>
-                <p className="text-xs text-[var(--ink-3)] mt-1">{p.type}</p>
+                <p className="text-xs text-[var(--ink-3)] mt-1 mb-2">
+                  {regionTag[p.id] ?? ""}
+                </p>
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-[var(--ink-3)] underline hover:text-[var(--ink)] transition-colors mt-auto"
+                >
+                  Official program page ↗
+                </a>
               </div>
             ))}
           </div>
