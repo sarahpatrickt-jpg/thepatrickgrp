@@ -98,6 +98,27 @@ const BANK_IDS = new Set([
 const govPrograms = programs.filter((p) => !BANK_IDS.has(p.id));
 const bankPrograms = programs.filter((p) => BANK_IDS.has(p.id));
 
+const toolSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Michigan Homebuyer Grant Qualification Tool",
+  url: "https://www.thepatrickgrp.com/grants",
+  applicationCategory: "FinanceApplication",
+  operatingSystem: "Web browser",
+  description:
+    "Free tool that checks a Michigan homebuyer's profile (county, income, household size, buyer status, credit range) against 20+ state, county, city, federal, bank, and credit union down payment assistance programs and shows which ones they likely qualify for, instantly.",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "USD",
+  },
+  provider: {
+    "@type": "RealEstateAgent",
+    name: "The Patrick Group | Oak & Stone Real Estate",
+    url: "https://www.thepatrickgrp.com",
+  },
+};
+
 const programListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
@@ -137,6 +158,10 @@ export default function GrantsPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(programListSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }}
       />
 
       {/* Hero */}
