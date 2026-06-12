@@ -84,7 +84,8 @@ Cadence: daily 1 social post; weekly journal + GBP post + review outreach; month
 - Key events thin: contact_form_submitted 4, vip_buyer_signup 1, grant_lead_submitted 2; newsletter_signup 0, cash_offer_submitted 0, phone_call_click 0
 - **phone_call_click 0 was a tracking bug, fixed 6/12**: only Nav/Footer tel: links were instrumented; ~20 pages had untracked tel: links. Global delegated listener added (`components/PhoneClickTracker.tsx` in layout). Expect phone clicks to start appearing; don't compare to pre-6/12 numbers
 - form_start 16 vs contact_form_submitted 4 = 75% form abandonment; watch
-- GA4 banner recommends linking Search Console property (needs Sarah's click in GA4 Admin)
+- Search Console linked to GA4 (Sarah approved 6/12): www property + Patrick Group Website stream; "Search Console" report collection published in GA4 left nav (Queries + Google organic search traffic). Data populates within ~48h
+- /search-homes exposure increased 6/12: already footer-linked; added a quiet "Quick search on our site" link in the /buying hero (it was the most engaged page on the site)
 
 ### 2026-05-29 — One-week check-in
 - Impressions 426 (up from 378), 1 click, CTR 0.2%, avg position 39.1 (broader discovery after www fix)
