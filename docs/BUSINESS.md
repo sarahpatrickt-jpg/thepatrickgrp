@@ -78,6 +78,14 @@ Cadence: daily 1 social post; weekly journal + GBP post + review outreach; month
 
 ## 6. SEO / Search Console Log (newest first — append after each checkup)
 
+### 2026-06-12 — GA4 review (last 28 days, May 15–Jun 11)
+- 284 active users, 800 views, 279 new users. Last 7 days: 121 active (+6.1%), organic search +164% (37 users), organic social still #1 (81), referral +300% (4)
+- Top pages: / 397 views; **/search-homes 102 views, 38s avg engagement, 298 searches by 54 users (5.5 each)** despite being unlinked from nav — found via Google index; most engaged page on the site
+- Key events thin: contact_form_submitted 4, vip_buyer_signup 1, grant_lead_submitted 2; newsletter_signup 0, cash_offer_submitted 0, phone_call_click 0
+- **phone_call_click 0 was a tracking bug, fixed 6/12**: only Nav/Footer tel: links were instrumented; ~20 pages had untracked tel: links. Global delegated listener added (`components/PhoneClickTracker.tsx` in layout). Expect phone clicks to start appearing; don't compare to pre-6/12 numbers
+- form_start 16 vs contact_form_submitted 4 = 75% form abandonment; watch
+- GA4 banner recommends linking Search Console property (needs Sarah's click in GA4 Admin)
+
 ### 2026-05-29 — One-week check-in
 - Impressions 426 (up from 378), 1 click, CTR 0.2%, avg position 39.1 (broader discovery after www fix)
 - Top query: "real estate agents near me" (36 impressions, 0 clicks). Top pages: homepage 177, /grants 145, /neighborhoods/livonia 54
