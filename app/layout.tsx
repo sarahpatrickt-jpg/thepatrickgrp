@@ -10,6 +10,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ExitIntentPopup from "@/components/ExitIntentPopup";
+import PhoneClickTracker from "@/components/PhoneClickTracker";
 import Script from "next/script";
 
 const inter = Inter({
@@ -204,6 +205,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <ExitIntentPopup />
+        <PhoneClickTracker />
       </body>
     </html>
   );
