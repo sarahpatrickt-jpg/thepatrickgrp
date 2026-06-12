@@ -107,6 +107,7 @@ Awaiting Sarah/Brad (drafted and ready): send Real Producers + Hour Detroit back
 
 - Sierra routing rule for inherited property leads (source "thepatrickgrp.com - Inherited Property")
 - ~~AI citation test~~ DONE 6/12: /cash-offer SURFACES in web search for "cash offer southeast michigan"; /divorce-real-estate, /compare/*, /grants do NOT surface for their queries (outranked by content mills, bestplaces.net, indexyard, MSHDA). AI-readiness audit also 6/12: crawlers (GPTBot/ClaudeBot/PerplexityBot) get 200 + full server-rendered HTML, schema solid (RealEstateAgent, FAQPage, HowTo, Article w/ dates+author), llms.txt added. Verdict: technically optimized; the bottleneck is authority/backlinks. Keep FAQPage schema (Google dropped the rich result but LLMs still read it). Retest quarterly.
+- /grants made citation-grade 6/12 (Sarah's priority page): visible "last updated" date (constants `GRANTS_LAST_UPDATED`/`_ISO` in data/grants.ts, monthly task must bump both), all 20 program cards now link their official program pages, ItemList schema with dateModified added. Cards render from data/grants.ts (no more hardcoded duplicates in page.tsx).
 - FAQ schema cleanup (deprecated by Google May 7, 2026)
 - Backlink building (0 external links in Search Console)
 - ~~City-vs-city comparison pages~~ DONE: 17 live at /compare/* (June 2026)
