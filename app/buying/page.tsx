@@ -158,6 +158,12 @@ export default function BuyingPage() {
               🔑 Join the VIP Coming Soon List
             </Link>
           </div>
+          <p className="mt-4 text-sm text-white/60">
+            Prefer to browse right here?{" "}
+            <Link href="/search-homes" className="underline text-white/80 hover:text-white transition-colors">
+              Quick search on our site
+            </Link>
+          </p>
         </div>
       </section>
 
