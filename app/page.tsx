@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MapMI from "@/components/MapMI";
 import FeaturedListings from "@/components/FeaturedListings";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { posts } from "@/data/posts";
 
 
@@ -650,6 +651,46 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
+          §4.5  DESIGN INSPIRATION  (video band)
+      ══════════════════════════════════════════════════════ */}
+      <section className="py-24" style={{ backgroundColor: "var(--paper)" }}>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p
+              className={eyebrow}
+              style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+            >
+              Homes That Inspire
+            </p>
+            <h2
+              className="font-display mt-4"
+              style={{
+                fontSize: "clamp(32px, 4vw, 56px)",
+                lineHeight: "1",
+                letterSpacing: "-0.01em",
+              }}
+            >
+              The Art of a{" "}
+              <em style={{ color: "var(--red)", fontStyle: "italic" }}>Well-Made Home</em>
+            </h2>
+            <p
+              className="font-editorial italic mt-4 mx-auto"
+              style={{ fontSize: "18px", color: "var(--ink-2)", maxWidth: 600 }}
+            >
+              Great design is what we look for in every home we represent. A bit of
+              inspiration on what thoughtful architecture can be.
+            </p>
+          </div>
+          <YouTubeEmbed
+            videoId="pVx0_eNeyNM"
+            title="An Architect's Own Home Hidden in the Forest"
+            credit="Video by The Local Project"
+            creditHref="https://www.youtube.com/watch?v=pVx0_eNeyNM"
+          />
         </div>
       </section>
 
