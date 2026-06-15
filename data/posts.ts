@@ -2413,6 +2413,110 @@ export const posts: Post[] = [
     ],
   },
 
+  // ─── "The Rate Cut Just Got Pushed to 2027" ────────────────────────────
+  {
+    slug: "fannie-mae-rate-forecast-cost-of-waiting-2026",
+    title: "The Rate Cut You're Waiting For Just Got Pushed to 2027",
+    image: "/images/insights/grants-rates-real-math.jpg",
+    imageAlt: "Calculator, mortgage paperwork, and a small model house on a desk representing monthly payment math",
+    excerpt:
+      "Fannie Mae just revised its forecast upward. The 30-year rate is now expected to hold near 6.4% into 2027. For Oakland County buyers sitting on the sidelines, the cost of waiting just changed shape.",
+    date: "2026-06-15",
+    author: "Sarah",
+    category: "Buyer Tips",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "michigan-homebuyer-grants-rates-how-to-afford-a-home-2026",
+      "june-2026-quiet-buyer-window-oakland-county",
+      "how-to-win-a-bidding-war-metro-detroit",
+    ],
+    relatedCitySlugs: [
+      "troy-mi",
+      "royal-oak-mi",
+      "rochester-hills-mi",
+      "clarkston-mi",
+      "northville-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Almost every buyer I've talked to this spring has some version of the same plan: wait for rates to come down, then buy. It's a reasonable instinct. It's also a plan that just got harder to justify, because the institution most people are quietly counting on to deliver that rate cut just told us it isn't coming on schedule.",
+      },
+      {
+        type: "paragraph",
+        text: "Last week Fannie Mae revised its mortgage rate forecast. Not down, the direction everyone's hoping for. Up. The 30-year fixed averaged 6.52% in the week ending June 12, and Fannie Mae now expects it to hold near 6.4% through the rest of this year and into the first quarter of 2027. That's a step back from the company's own May forecast, which had rates settling at 6.3% across 2026. Small number, big signal.",
+      },
+      {
+        type: "h2",
+        text: "What Fannie Mae Actually Said",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "30-Year Fixed", value: "6.52%", note: "Week ending June 12, 2026" },
+          { label: "Fannie Mae Outlook", value: "~6.4%", note: "Held into Q1 2027, revised up" },
+          { label: "Oakland Median", value: "$352K", note: "Up 3.5% year-over-year" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Read past the decimal points and the message is simple. The people who model this for a living no longer see a meaningful rate drop in the next twelve months. Their reasoning is inflation that hasn't fully cooled and an economy that keeps adding jobs, both of which keep upward pressure on rates. You can disagree with the forecast. Forecasts miss. But you should at least stop building your purchase decision around a cut that the forecasters themselves just walked back.",
+      },
+      {
+        type: "h2",
+        text: "The Cost of Waiting Changed Shape",
+      },
+      {
+        type: "paragraph",
+        text: "For four years the cost of waiting was the rate. Buy now or pay a higher rate later. Now flip it. If rates are going to sit roughly where they are, the real cost of waiting isn't your interest rate anymore. It's the price. Run it on the median Oakland County home. At $352,000 with 20% down, you're financing about $281,600. At 6.52%, that's roughly $1,785 a month in principal and interest. Now wait a year.",
+      },
+      {
+        type: "callout",
+        label: "The math that flipped",
+        text: "Even the most conservative metro Detroit appreciation forecasts I've seen this year, in the 3% to 5% range, add roughly $10,000 to $17,000 to the median Oakland home over twelve months. For a rate cut to offset just a modest 4% bump in price, rates would need to fall close to half a point. Fannie Mae just said they're moving the other way.",
+      },
+      {
+        type: "paragraph",
+        text: "And the price isn't the whole bill. A higher purchase price means a larger down payment in cash up front and a larger loan balance underneath whatever rate you eventually get. The waiting buyer is often chasing a payment that keeps getting further away, not closer. Forecasts for our market this year run from a cautious 3% to 5% to as high as 9.5% from the more bullish shops. I don't put much weight on the top of that range. I put a lot of weight on the fact that even the bottom of it costs a waiting buyer real money.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "A lower rate on a higher price is frequently a wash, and sometimes a higher payment than buying today.",
+          "Every month you rent is a month the owner builds equity and you don't. In most of our service area, owning the median home now runs close to or below the cost of renting it.",
+          "You can refinance a rate. You cannot refinance the price you paid. Buy the house at today's price, and refinance the rate if and when it ever drops.",
+        ],
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "The wait-and-see case",
+          text: "Rates feel high and the headlines say a cut is coming, so it seems smart to hold cash and pounce later. The flaw: you're betting on a rate move the forecasters just abandoned, while the price clock keeps running against you. If rates stay flat and prices rise even modestly, the math quietly works against the person standing still.",
+        },
+        right: {
+          label: "The buy-now case",
+          text: "Lock today's price, start building equity this month, and treat the rate as the one variable you can fix later through a refinance. Inventory in Oakland County is the healthiest it's been in years, so you have room to negotiate and time to choose. That combination of selection and seller flexibility doesn't usually survive a rate drop.",
+        },
+      },
+      {
+        type: "h2",
+        text: "Why I'm Not Telling You Rates Will Rise",
+      },
+      {
+        type: "paragraph",
+        text: "I've watched enough cycles to know that nobody, including Fannie Mae, reliably calls the direction of rates a year out. They could fall. They could climb. The point isn't to predict them. The point is to stop letting an unpredictable variable run your timeline. Build a decision that works whether rates sit at 6.4% or drift lower, and you've taken the guesswork out of the part you can't control.",
+      },
+      {
+        type: "h2",
+        text: "What I'd Actually Do",
+      },
+      {
+        type: "paragraph",
+        text: "If you can comfortably carry the payment at today's rate and you plan to stay put for five years or more, the case for waiting got weaker last week, not stronger. Get pre-approved, look hard at what's actually on the market right now while inventory is generous, and buy the right house at a price you can defend. If rates fall in 2027 the way some hope, you refinance and your payment drops on a home you already own. If they don't, you still own the home, and the buyers who waited are paying more for it. Either way, you're not the one standing on the sidelines watching the price clock run.",
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
