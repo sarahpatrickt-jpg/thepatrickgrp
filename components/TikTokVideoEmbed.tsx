@@ -14,9 +14,8 @@ export default function TikTokVideoEmbed({
 }: TikTokVideoEmbedProps) {
   return (
     <div
-      className="relative mx-auto w-full overflow-hidden"
+      className="relative w-full overflow-hidden"
       style={{
-        maxWidth: 340,
         aspectRatio: "9 / 16",
         border: "1px solid var(--line)",
         backgroundColor: "#000",

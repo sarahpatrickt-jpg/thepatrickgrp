@@ -2,6 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TikTokVideoEmbed from "@/components/TikTokVideoEmbed";
 
+// TikTok listing-tour videos shown on the selling page. Add more here to fill
+// the row (3 across on desktop, centered for any count).
+const LISTING_VIDEOS = [
+  {
+    id: "7569008654024740110",
+    title: "Listing tour: Birmingham, MI",
+  },
+  {
+    id: "7544117008367996173",
+    title: "Listing tour: Southfield, MI",
+  },
+  {
+    id: "7615326756723002637",
+    title: "Listing tour: Northville, MI",
+  },
+];
+
 export const metadata: Metadata = {
   title: "Sell Your Home in Southeast Michigan",
   description:
@@ -148,34 +165,37 @@ export default function SellingPage() {
         </div>
       </section>
 
-      {/* Listing marketing video */}
+      {/* Listing marketing videos */}
       <section className="px-4 sm:px-6 py-14" style={{ backgroundColor: "var(--paper)" }}>
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
-            Marketing in action
+            Listing Tours
           </p>
           <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)] mb-3">
-            See a Recent Listing Tour
+            See Our Marketing in Action
           </h2>
           <p className="text-[var(--ink-3)] max-w-xl mx-auto mb-8">
-            Short-form video is part of how we put your home in front of buyers.
-            Here is one of ours.
+            Short-form video is one of the ways we get your home in front of
+            buyers. A few from our team.
           </p>
-          <TikTokVideoEmbed
-            videoId="7569008654024740110"
-            title="Listing tour by Christian Brown: Birmingham, MI"
-          />
+          <div className="flex flex-wrap justify-center gap-6">
+            {LISTING_VIDEOS.map((v) => (
+              <div key={v.id} className="w-full max-w-[300px]">
+                <TikTokVideoEmbed videoId={v.id} title={v.title} />
+              </div>
+            ))}
+          </div>
           <p
-            className="mt-3 text-xs"
+            className="mt-5 text-xs"
             style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
           >
             <a
-              href="https://www.tiktok.com/@.christianbrown/video/7569008654024740110"
+              href="https://www.tiktok.com/@.christianbrown"
               target="_blank"
               rel="noopener noreferrer"
               className="underline underline-offset-2 hover:text-[var(--ink)]"
             >
-              Watch on TikTok · @.christianbrown
+              See more on TikTok · @.christianbrown
             </a>
           </p>
         </div>
