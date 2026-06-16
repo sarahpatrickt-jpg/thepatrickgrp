@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import TikTokVideoEmbed from "@/components/TikTokVideoEmbed";
 
 export const metadata: Metadata = {
   title: "Sell Your Home in Southeast Michigan",
@@ -148,16 +148,36 @@ export default function SellingPage() {
         </div>
       </section>
 
-      {/* Photo band */}
-      <section className="px-4 sm:px-6 py-10" style={{ backgroundColor: "var(--paper)" }}>
-        <div className="max-w-5xl mx-auto relative overflow-hidden" style={{ aspectRatio: "16 / 8", border: "1px solid var(--line)" }}>
-        <Image
-          src="/images/photos/kitchen-dining.jpg"
-          alt="Staged kitchen and dining area ready for showings"
-          fill
-          className="object-cover"
-          sizes="(max-width: 1024px) 100vw, 1024px"
-        />
+      {/* Listing marketing video */}
+      <section className="px-4 sm:px-6 py-14" style={{ backgroundColor: "var(--paper)" }}>
+        <div className="max-w-5xl mx-auto text-center">
+          <p className="text-[var(--red)] uppercase tracking-[0.22em] text-[11px] font-medium font-mono mb-3">
+            Marketing in action
+          </p>
+          <h2 className="font-display text-3xl sm:text-4xl text-[var(--ink)] mb-3">
+            See a Recent Listing Tour
+          </h2>
+          <p className="text-[var(--ink-3)] max-w-xl mx-auto mb-8">
+            Short-form video is part of how we put your home in front of buyers.
+            Here is one of ours.
+          </p>
+          <TikTokVideoEmbed
+            videoId="7569008654024740110"
+            title="Listing tour by Christian Brown: Birmingham, MI"
+          />
+          <p
+            className="mt-3 text-xs"
+            style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+          >
+            <a
+              href="https://www.tiktok.com/@.christianbrown/video/7569008654024740110"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-[var(--ink)]"
+            >
+              Watch on TikTok · @.christianbrown
+            </a>
+          </p>
         </div>
       </section>
 
