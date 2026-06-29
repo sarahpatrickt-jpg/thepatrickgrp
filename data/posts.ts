@@ -2516,6 +2516,101 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "oakland-county-inventory-divergence-june-2026",
+    title: "National Inventory Stalled This Month. Oakland County's Didn't.",
+    image: "/images/insights/may-2026-market-pulse.jpg",
+    imageAlt: "Aerial view of a Southeast Michigan suburban neighborhood with homes and tree-lined streets",
+    excerpt:
+      "The national headline this week is that inventory growth has flatlined. That is not the story playing out across metro Detroit, where listings are running well ahead of last year. The gap matters more than the average.",
+    date: "2026-06-29",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "7 min read",
+    relatedSlugs: [
+      "june-2026-quiet-buyer-window-oakland-county",
+      "sorting-by-preparation-may-2026",
+      "fannie-mae-rate-forecast-cost-of-waiting-2026",
+    ],
+    relatedCitySlugs: [
+      "troy-mi",
+      "royal-oak-mi",
+      "rochester-hills-mi",
+      "birmingham-mi",
+      "clarkston-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The housing story making the rounds this week is that inventory has run out of momentum. After two years of buyers being told that more homes were finally on the way, the national supply line has gone nearly flat. Active listings are up about 1.8% from a year ago, and in three of the last four weeks the year-over-year change actually went negative. One recent week posted growth of a quarter of one percent. For practical purposes, the national inventory recovery paused this month.",
+      },
+      {
+        type: "paragraph",
+        text: "Here is the part the national read misses. A countrywide average blends Phoenix and Tampa and Boise together with Detroit, and those markets are not moving in the same direction. When I look at our own backyard, the supply picture is not flat at all. Active listings across metro Detroit are running roughly 15% ahead of where they sat a year ago. That is not a rounding error against a 1.8% national figure. It is a different market behaving differently, and if you only read the headline you would manage your buying or selling decision off the wrong number.",
+      },
+      {
+        type: "h2",
+        text: "The National Number Everyone Is Quoting",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          { label: "30-Year Fixed", value: "6.49%", note: "Late June 2026, Freddie Mac" },
+          { label: "U.S. Active Listings", value: "+1.8%", note: "Year-over-year, growth nearly stalled" },
+          { label: "Metro Detroit Listings", value: "~+15%", note: "Year-over-year, the outlier" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Rates are doing their part to keep the national picture stuck. The 30-year fixed sat at 6.49% in late June, and the cut a lot of people were penciling in for this year has quietly come off the table as inflation runs near the low fours. When rates hold in the mid sixes, owners who locked a 3% loan during the pandemic have little reason to list, and that lock-in effect is the single biggest reason national supply keeps stalling. The interesting question is why our market is shaking loose homes anyway.",
+      },
+      {
+        type: "h2",
+        text: "Why Southeast Michigan Is Running the Other Way",
+      },
+      {
+        type: "paragraph",
+        text: "Part of it is price. When a market never ran up to bubble territory, the lock-in effect bites less hard, because the gap between an old payment and a new one is smaller here than it is in a market where the median doubled. Part of it is who is selling. Estates, relocations, downsizers, and owners who simply outgrew or outlived a house do not wait for a rate cut to move on with life. Those listings come to market on their own clock, and there are more of them this year. The result is real selection returning to Oakland County at the same time the national story says the opposite.",
+      },
+      {
+        type: "callout",
+        label: "The read underneath the average",
+        text: "Suburban Oakland County has held steady appreciation through all of this, with stronger pockets like Troy and Novi running near 8.5% over the past year. So this is not distressed supply or a market cracking. It is healthy turnover plus more choices, which is the combination buyers have been asking for and sellers need to take seriously.",
+      },
+      {
+        type: "h2",
+        text: "What More Supply Actually Means for You",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If you're buying",
+          text: "More active listings means leverage you did not have a year ago. You can see five homes that fit instead of one, take a weekend to decide, and write an offer with an inspection contingency without losing the house to a frenzy. That room to negotiate exists right now. It does not usually survive the day rates drop and the sidelined buyers come flooding back in at once.",
+        },
+        right: {
+          label: "If you're selling",
+          text: "You are no longer the only house on the block, and the days of naming a price and waiting are over. Your competition just grew while the national headline tells buyers to expect scarcity. Price to the recent comps, not to what your neighbor got in 2022, and prepare the home properly. The well-priced, move-in-ready listings still sell quickly. The overpriced ones sit and then chase the market down.",
+        },
+      },
+      {
+        type: "bullets",
+        items: [
+          "National averages hide local reality. A flat U.S. inventory number can sit on top of a metro Detroit market that grew supply by double digits.",
+          "More listings does not mean falling prices here. Appreciation has held while choices expanded, which is the rare window where both sides get something.",
+          "Rates near 6.49% are not a reason to stall. The buyers waiting for a cut are competing with you for the same homes the moment one arrives.",
+          "Watch your own corridor, not the national feed. Inventory in Birmingham looks nothing like inventory in Clarkston, and the right read is the one for your price band and town.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "What I'd Actually Do",
+      },
+      {
+        type: "paragraph",
+        text: "Stop letting a national average set your expectations for a local decision. If you are buying, this is the most genuine selection metro Detroit has offered in a few years, and you should use it before the next rate move erases it. Pull the listings in your actual towns and price range, get pre-approved so you can act, and let the extra supply work in your favor on price and terms. If you are selling, recognize that more competition means the lazy strategy of overpricing and waiting will cost you weeks and dollars. The market is balanced and active, not scarce, whatever the headline says. Read the number that describes your street, and build the decision around that.",
+      },
+    ],
+  },
 
 ];
 
