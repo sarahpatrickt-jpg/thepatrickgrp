@@ -3,13 +3,13 @@
  *
  * All qualification logic runs client-side. No API needed.
  * Data sourced from MSHDA, county housing authorities, and federal programs.
- * Last updated: June 1, 2026
+ * Last updated: July 1, 2026
  */
 
 // Monthly grant task: bump BOTH dates when refreshing this file.
 // Shown on /grants and in its structured data; freshness is a citation signal.
-export const GRANTS_LAST_UPDATED = "June 1, 2026";
-export const GRANTS_LAST_UPDATED_ISO = "2026-06-01";
+export const GRANTS_LAST_UPDATED = "July 1, 2026";
+export const GRANTS_LAST_UPDATED_ISO = "2026-07-01";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -116,8 +116,8 @@ const GENESEE_INCOME: Record<number, number> = {
   8: 89_750,
 };
 
-const MSHDA_PURCHASE_LIMIT = 544_233; // statewide single sales price limit (raised from $224,500 via HB 5032, eff. May 2025)
-const MSHDA_TARGET_PURCHASE_LIMIT = 544_233; // MSHDA now applies one statewide sales price limit across all 83 counties
+const MSHDA_PURCHASE_LIMIT = 566_355; // statewide single sales price limit (raised to $566,355 eff. June 1, 2026; was $544,233)
+const MSHDA_TARGET_PURCHASE_LIMIT = 566_355; // MSHDA applies one statewide sales price limit across all 83 counties
 const OAKLAND_PURCHASE_LIMIT = 294_600;
 const DETROIT_PURCHASE_LIMIT = 265_000;
 
@@ -193,7 +193,7 @@ export const programs: GrantProgram[] = [
       if (creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required, verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $544,233");
+        missing.push("Purchase price must be under $566,355");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -227,8 +227,46 @@ export const programs: GrantProgram[] = [
       if (creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required, verify yours before applying");
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $544,233");
+        missing.push("Purchase price must be under $566,355");
       // As of 2026 the MI 10K DPA is available statewide, the targeted-zip restriction no longer applies
+      return { eligible: missing.length === 0, missing };
+    },
+  },
+  {
+    id: "mshda-rate-relief",
+    name: "MSHDA Rate Relief Mortgage",
+    amount: "~1% lower interest rate",
+    type: "rate-reduction",
+    description:
+      "MSHDA's Rate Relief Mortgage buys down the interest rate by a full percentage point for eligible first-time homebuyers, using proceeds from a bond purchased by FHLBank Indianapolis. At launch this dropped the typical MSHDA-with-DPA rate from about 6.375% to 5.375%, roughly $100/month lower on an average MSHDA loan. Limited funding, first-come first-served.",
+    highlights: [
+      "Interest rate reduced by about a full percentage point",
+      "Can be paired with MSHDA down payment assistance",
+      "Lower monthly payment for the life of the loan",
+      "Limited bond funding, available while it lasts",
+    ],
+    requirements: [
+      "First-time homebuyer",
+      "Household income at or below 80% of area median income",
+      "Credit score 640+",
+      "Must use a MSHDA-approved lender that is also an FHLBank Indianapolis member",
+      "Primary residence only",
+    ],
+    url: "https://www.michigan.gov/mshda/pathway-to-housing/mshda-rate-relief-mortgage",
+    qualify: (p) => {
+      const missing: string[] = [];
+      if (!p.isFirstTimeBuyer)
+        missing.push("Must be a first-time homebuyer");
+      const amiTable = AMI_80_BY_COUNTY[p.county];
+      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
+      if (p.annualIncome > amiLimit)
+        missing.push(
+          `Household income must be at or below $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
+        );
+      if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
+        missing.push("Credit score of 640+ required");
+      if (creditUnknown(p.creditScore))
+        missing.push("Credit score of 640+ required, verify yours before applying");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -282,7 +320,8 @@ export const programs: GrantProgram[] = [
     ],
     requirements: [
       "Property must be in Detroit city limits",
-      "Income limits apply (based on household size)",
+      "Must have lived in Detroit for the last 12 months (or lost a Detroit home to tax foreclosure between 2010-2016)",
+      "Household income at or below 80% of area median income",
       "Homebuyer education course required",
       "Must be primary residence",
     ],
@@ -334,7 +373,7 @@ export const programs: GrantProgram[] = [
           `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
       if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $544,233");
+        missing.push("Purchase price must be under $566,355");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -460,7 +499,7 @@ export const programs: GrantProgram[] = [
       // Funding exhausted, always near-miss so users know it exists
       return {
         eligible: false,
-        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of mid-2026; check back"],
+        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of July 2026; check back"],
       };
     },
   },
