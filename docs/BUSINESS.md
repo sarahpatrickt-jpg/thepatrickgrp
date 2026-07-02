@@ -33,7 +33,7 @@ Last full update: 2026-06-10
 ## 3. IDX / Listings Architecture (current, June 2026)
 
 - Full on-site search was built, then deliberately pivoted away from (data quality edge cases). The `/search-homes` page exists but is not linked.
-- **Live approach:** "Search Homes" buttons go to the external Oak & Stone site. Homepage + /buying show a **Featured Homes** grid (6 homes, $600k+, boutique cities, rotates daily, deduped across MLS feeds) via `components/FeaturedListings.tsx`.
+- **Live approach:** "Search Homes" buttons go to the external Oak & Stone site. Homepage + /buying show a **Featured Homes** grid (6 homes, $700k–$2M, boutique cities, rotates daily spread across the price band, deduped across MLS feeds) via `components/FeaturedListings.tsx`.
 - Featured cards link to internal detail pages `/listings/[id]` with full photo gallery (`components/ListingGallery.tsx`).
 - ~15k listings cached in `data/listings.ts`, refreshed nightly. Listings under $50k filtered out (rentals/lots).
 - Spark API rate limit: 1,500 req / 5 min; sync uses ~150 requests.

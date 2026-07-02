@@ -52,12 +52,15 @@ function normalizeAddress(addr: string): string {
 function pickFeatured(count = 6): Listing[] {
   const all = getAllListings();
 
-  // Eligibility: $600k+ luxury inventory in our boutique markets, with a photo
+  // Eligibility: $700k-$2M inventory in our boutique markets, with a photo
+  const MIN_PRICE = 700_000;
+  const MAX_PRICE = 2_000_000;
   const eligible = all.filter(
     (l) =>
       BOUTIQUE_CITIES.has(l.slug) &&
       l.status === "active" &&
-      l.listPrice >= 600000 &&
+      l.listPrice >= MIN_PRICE &&
+      l.listPrice <= MAX_PRICE &&
       l.beds > 0 &&
       l.baths > 0 &&
       l.imageUrl,
@@ -79,36 +82,37 @@ function pickFeatured(count = 6): Listing[] {
 
   if (deduped.length <= count) return deduped;
 
-  // Build a pool sized to give a 5-7 day rotation cycle
-  const poolSize = Math.min(count * 7, deduped.length);
-  const pool = [...deduped]
-    .sort((a, b) => b.listPrice - a.listPrice)
-    .slice(0, poolSize);
-
-  // Rotate the pool by day-of-year, then take the first `count`
-  // De-duped by city so we don't show two from the same city.
-  const offset = dayOfYear() % pool.length;
-  const rotated = [...pool.slice(offset), ...pool.slice(0, offset)];
+  // Spread the featured set across the whole price band, highest to lowest, so
+  // each day shows a range instead of six near-$2M homes. Split the sorted
+  // inventory into `count` price bands and pick one home per band, rotating the
+  // choice within each band by day-of-year. Prefer distinct cities.
+  const sorted = [...deduped].sort((a, b) => b.listPrice - a.listPrice);
+  const day = dayOfYear();
+  const bandSize = Math.floor(sorted.length / count);
 
   const seenCities = new Set<string>();
   const picked: Listing[] = [];
 
-  for (const l of rotated) {
-    if (!seenCities.has(l.slug)) {
-      picked.push(l);
-      seenCities.add(l.slug);
-      if (picked.length === count) break;
-    }
-  }
+  for (let i = 0; i < count; i++) {
+    const start = i * bandSize;
+    const band = sorted.slice(
+      start,
+      i === count - 1 ? sorted.length : start + bandSize,
+    );
+    if (band.length === 0) continue;
 
-  // Top up if not enough distinct cities in the pool today
-  if (picked.length < count) {
-    for (const l of rotated) {
-      if (!picked.includes(l)) {
-        picked.push(l);
-        if (picked.length === count) break;
+    let chosen: Listing | null = null;
+    for (let j = 0; j < band.length; j++) {
+      const cand = band[(day + j) % band.length];
+      if (!seenCities.has(cand.slug)) {
+        chosen = cand;
+        break;
       }
     }
+    if (!chosen) chosen = band[day % band.length];
+
+    picked.push(chosen);
+    seenCities.add(chosen.slug);
   }
 
   return picked;

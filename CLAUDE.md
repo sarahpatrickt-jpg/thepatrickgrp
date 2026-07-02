@@ -26,7 +26,7 @@ Boutique real estate team in Southeast Michigan. Principal Broker: **Sarah Patri
 - **`data/cities.ts`** — Single source of truth for all 24 SE Michigan city pages. Edit here, not in the page template.
 - **`data/posts.ts`** — All journal articles. Homepage auto-promotes the newest 3 by date.
 - **`data/listings.ts`** — ~15k cached MLS listings, regenerated nightly by `scripts/update-listings-nightly.ts`. Never hand-edit listing entries.
-- **`components/FeaturedListings.tsx`** — Featured Homes grid (homepage + /buying): $600k+, boutique cities, daily rotation, address-deduped.
+- **`components/FeaturedListings.tsx`** — Featured Homes grid (homepage + /buying): $700k–$2M, boutique cities, daily rotation spread across the price band, address-deduped.
 - **`app/neighborhoods/[slug]/page.tsx`** — Dynamic route rendering all city pages from `data/cities.ts`
 - **`components/ExitIntentPopup.tsx`** — Exit intent popup. Shows once per session only.
 
