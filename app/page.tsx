@@ -733,10 +733,9 @@ export default function HomePage() {
       ══════════════════════════════════════════════════════ */}
       <section className="py-20" style={{ backgroundColor: "var(--paper)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-
-            {/* Text */}
-            <div>
+          <div>
+            {/* Header */}
+            <div className="max-w-2xl">
               <p
                 className={eyebrow}
                 style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
@@ -755,65 +754,18 @@ export default function HomePage() {
               </h2>
 
               <p
-                className="mt-8 leading-relaxed"
-                style={{ fontSize: "16px", color: "var(--ink-2)", maxWidth: 500 }}
+                className="mt-6 leading-relaxed"
+                style={{ fontSize: "16px", color: "var(--ink-2)" }}
               >
-                Sarah Patrick is a licensed Principal Broker in Michigan. Brad Patrick
-                brings 15+ years of real estate experience on top of a prior career in
-                mortgage lending. Together, with Christian Brown and Christian Wodtke 
-                The Patrick Group is a team that outperforms at every price point.
+                Real estate is a people business first. Sarah Patrick leads as
+                Principal Broker in Michigan, Brad Patrick brings 15+ years and a
+                prior career in mortgage lending, and Christian Brown and Christian
+                Wodtke round out a team that outperforms at every price point.
               </p>
-
-              {/* Real Producers callout */}
-              <div
-                className="mt-8 p-6 inline-block"
-                style={{
-                  border: "1px solid var(--line)",
-                  backgroundColor: "var(--paper-2)",
-                }}
-              >
-                <p
-                  className={eyebrow}
-                  style={{
-                    color: "var(--red)",
-                    fontFamily: "var(--font-mono, monospace)",
-                    fontSize: "9px",
-                  }}
-                >
-                  Featured Cover
-                </p>
-                <p
-                  className="font-display mt-2"
-                  style={{ fontSize: "16px", color: "var(--ink)" }}
-                >
-                  Real Producers Magazine
-                </p>
-                <p
-                  className="mt-1 text-sm"
-                  style={{ color: "var(--ink-3)" }}
-                >
-                  Brad Patrick · April 2026
-                </p>
-              </div>
-
-              <div className="mt-8">
-                <Link
-                  href="/about"
-                  className="inline-flex items-center gap-2 text-sm font-medium tracking-wider uppercase hover:underline"
-                  style={{
-                    color: "var(--ink)",
-                    fontFamily: "var(--font-mono, monospace)",
-                    letterSpacing: "0.15em",
-                    textUnderlineOffset: "3px",
-                  }}
-                >
-                  Meet the full team →
-                </Link>
-              </div>
             </div>
 
-            {/* Team cards */}
-            <div className="space-y-4">
+            {/* Portrait cards */}
+            <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 {
                   src: "/team/sarah-patrick.jpg",
@@ -842,35 +794,58 @@ export default function HomePage() {
               ].map((member) => (
                 <div
                   key={member.name}
-                  className="flex items-center gap-5 p-5"
+                  className="group overflow-hidden"
                   style={{ border: "1px solid var(--line)", backgroundColor: "var(--paper-2)" }}
                 >
-                  <div className="relative shrink-0 w-32 h-32 overflow-hidden rounded-full" style={{ outline: "2px solid var(--red)", outlineOffset: "2px" }}>
+                  <div className="relative w-full aspect-[4/5] overflow-hidden">
                     <Image
                       src={member.src}
-                      alt={member.name}
+                      alt={`${member.name}, ${member.title}, The Patrick Group`}
                       fill
-                      className="object-cover object-top"
+                      className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+                      sizes="(max-width: 1024px) 50vw, 25vw"
                     />
                   </div>
-                  <div>
-                    <p className="font-display" style={{ fontSize: "16px", color: "var(--ink)" }}>
+                  <div className="p-5">
+                    <p className="font-display" style={{ fontSize: "18px", color: "var(--ink)", lineHeight: "1.1" }}>
                       {member.name}
                     </p>
                     <p
-                      className={eyebrow + " mt-0.5"}
-                      style={{ color: "var(--red)", fontFamily: "var(--font-mono, monospace)", fontSize: "9px" }}
+                      className={eyebrow + " mt-1.5"}
+                      style={{ color: "var(--red)", fontFamily: "var(--font-mono, monospace)", fontSize: "10px" }}
                     >
                       {member.title}
                     </p>
                     {member.awards && (
-                      <p className="text-xs mt-1" style={{ color: "var(--ink-3)" }}>
+                      <p className="text-xs mt-2 leading-relaxed" style={{ color: "var(--ink-3)" }}>
                         {member.awards}
                       </p>
                     )}
                   </div>
                 </div>
               ))}
+            </div>
+
+            {/* CTA + credibility */}
+            <div className="mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <Link
+                href="/about"
+                className="inline-flex items-center gap-2 text-sm font-medium tracking-wider uppercase hover:underline"
+                style={{
+                  color: "var(--ink)",
+                  fontFamily: "var(--font-mono, monospace)",
+                  letterSpacing: "0.15em",
+                  textUnderlineOffset: "3px",
+                }}
+              >
+                Meet the full team →
+              </Link>
+              <p
+                className="text-xs"
+                style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+              >
+                Featured on the cover of Real Producers Magazine, April 2026
+              </p>
             </div>
           </div>
         </div>
