@@ -174,26 +174,26 @@ export default function AboutPage() {
 
       {/* TEAM PROFILES */}
       <section className="py-20 px-4 sm:px-6 bg-[var(--paper)]">
-        <div className="max-w-4xl mx-auto space-y-16">
+        <div className="max-w-5xl mx-auto space-y-16">
           {team.map((member, i) => (
             <div
               key={member.name}
-              className={`grid grid-cols-1 md:grid-cols-3 gap-10 ${
+              className={`grid grid-cols-1 md:grid-cols-5 gap-10 ${
                 i < team.length - 1 ? "pb-16 border-b border-[var(--line)]" : ""
               }`}
             >
               {/* Card */}
-              <div className="md:col-span-1">
+              <div className="md:col-span-2">
                 <div className="bg-[var(--ink)] text-white overflow-hidden">
                   {/* Photo, shows when file exists in public/team/, falls back to initials */}
                   {member.photo ? (
-                    <div className="relative w-full aspect-[4/3]">
+                    <div className="relative w-full aspect-[4/5]">
                       <Image
                         src={member.photo}
                         alt={`${member.name}, ${member.title}, The Patrick Group, Southeast Michigan Real Estate`}
                         fill
                         className="object-cover object-top"
-                        sizes="(max-width: 768px) 100vw, 33vw"
+                        sizes="(max-width: 768px) 100vw, 40vw"
                       />
                     </div>
                   ) : (
@@ -250,7 +250,7 @@ export default function AboutPage() {
               </div>
 
               {/* Bio */}
-              <div className="md:col-span-2">
+              <div className="md:col-span-3">
                 <div className="prose prose-sm max-w-none">
                   {member.bio.split("\n\n").map((para, pi) => (
                     <p key={pi} className="text-[var(--ink-2)] leading-relaxed mb-4">

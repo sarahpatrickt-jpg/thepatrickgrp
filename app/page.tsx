@@ -852,12 +852,12 @@ export default function HomePage() {
                   className="flex items-center gap-5 p-5"
                   style={{ border: "1px solid var(--line)", backgroundColor: "var(--paper-2)" }}
                 >
-                  <div className="relative shrink-0 w-14 h-14 overflow-hidden rounded-full" style={{ outline: "2px solid var(--red)", outlineOffset: "2px" }}>
+                  <div className="relative shrink-0 w-20 h-20 overflow-hidden rounded-full" style={{ outline: "2px solid var(--red)", outlineOffset: "2px" }}>
                     <Image
                       src={member.src}
                       alt={member.name}
                       fill
-                      className="object-cover"
+                      className="object-cover object-top"
                     />
                   </div>
                   <div>
