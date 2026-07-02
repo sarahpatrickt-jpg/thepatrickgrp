@@ -741,7 +741,7 @@ export default function HomePage() {
                 className={eyebrow}
                 style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
               >
-                The Team
+                The Patrick Group
               </p>
               <h2
                 className="font-display mt-4"
@@ -751,15 +751,8 @@ export default function HomePage() {
                   letterSpacing: "-0.02em",
                 }}
               >
-                Sarah &amp;{" "}
-                <em style={{ color: "var(--red)", fontStyle: "italic" }}>Brad</em>
+                The <em style={{ color: "var(--red)", fontStyle: "italic" }}>Team</em>
               </h2>
-              <p
-                className="font-editorial italic mt-2"
-                style={{ fontSize: "20px", color: "var(--ink-2)" }}
-              >
-                Patrick
-              </p>
 
               <p
                 className="mt-8 leading-relaxed"
@@ -852,7 +845,7 @@ export default function HomePage() {
                   className="flex items-center gap-5 p-5"
                   style={{ border: "1px solid var(--line)", backgroundColor: "var(--paper-2)" }}
                 >
-                  <div className="relative shrink-0 w-20 h-20 overflow-hidden rounded-full" style={{ outline: "2px solid var(--red)", outlineOffset: "2px" }}>
+                  <div className="relative shrink-0 w-32 h-32 overflow-hidden rounded-full" style={{ outline: "2px solid var(--red)", outlineOffset: "2px" }}>
                     <Image
                       src={member.src}
                       alt={member.name}
