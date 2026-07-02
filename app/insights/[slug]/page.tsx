@@ -101,6 +101,58 @@ function renderBlock(block: ContentBlock, i: number) {
           ))}
         </div>
       );
+    case "table":
+      return (
+        <div key={i} className="overflow-x-auto -mx-4 sm:mx-0">
+          <table className="w-full min-w-[600px] border-collapse text-sm">
+            <thead>
+              <tr className="border-b-2 border-[var(--ink)]">
+                {block.headers.map((h, j) => (
+                  <th
+                    key={j}
+                    className={`py-2.5 px-3 font-mono uppercase tracking-wider text-[10px] text-[var(--ink-3)] ${
+                      j === 0 ? "text-left" : "text-right"
+                    }`}
+                  >
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {block.rows.map((row, r) => (
+                <tr key={r} className="border-b border-[var(--line)]">
+                  {row.map((cell, c) => {
+                    const isYoY = block.headers[c] === "YoY";
+                    const neg = cell.trim().startsWith("-");
+                    return (
+                      <td
+                        key={c}
+                        className={`py-2.5 px-3 ${
+                          c === 0
+                            ? "text-left font-medium text-[var(--ink)]"
+                            : "text-right"
+                        } ${
+                          isYoY
+                            ? neg
+                              ? "text-red-600 font-semibold"
+                              : "text-emerald-600 font-semibold"
+                            : "text-[var(--ink-2)]"
+                        }`}
+                      >
+                        {cell}
+                      </td>
+                    );
+                  })}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {block.caption && (
+            <p className="text-xs text-[var(--ink-3)] mt-3">{block.caption}</p>
+          )}
+        </div>
+      );
     case "two-col":
       return (
         <div key={i} className="grid grid-cols-1 sm:grid-cols-2 gap-4">

@@ -5,7 +5,8 @@ export type ContentBlock =
   | { type: "callout"; label: string; text: string }
   | { type: "bullets"; items: string[] }
   | { type: "two-col"; left: { label: string; text: string }; right: { label: string; text: string } }
-  | { type: "stat-row"; stats: { label: string; value: string; note: string }[] };
+  | { type: "stat-row"; stats: { label: string; value: string; note: string }[] }
+  | { type: "table"; headers: string[]; rows: string[][]; caption?: string };
 
 export type Post = {
   slug: string;
@@ -23,6 +24,125 @@ export type Post = {
 };
 
 export const posts: Post[] = [
+  {
+    slug: "june-2026-southeast-michigan-market-update",
+    title:
+      "June 2026 Market Update: Prices Are Still Climbing, but Homes Are Sitting Longer",
+    excerpt:
+      "Median prices rose across all six Southeast Michigan counties in June. So did days on market almost everywhere. Here is what that combination means if you are buying or selling this summer.",
+    date: "2026-07-01",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/june-2026-southeast-michigan-market-update.jpg",
+    imageAlt:
+      "Southeast Michigan homes in summer with median prices rising and homes taking longer to sell",
+    relatedSlugs: [
+      "may-2026-southeast-michigan-market-pulse",
+      "best-time-to-sell-a-house-southeast-michigan",
+      "spring-2026-southeast-michigan-market-update",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "sterling-heights-mi",
+      "warren-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Two things happened in the Southeast Michigan market in June, and on the surface they seem to contradict each other. Median prices rose year-over-year in every county we track. At the same time, homes took longer to sell in almost every one of them. Rising prices usually signal a hot market and a shrinking clock; a lengthening clock usually signals cooling. In June, we got both at once.",
+      },
+      {
+        type: "paragraph",
+        text: "That combination is the whole story of this summer, and understanding it is the difference between pricing a home well and watching it sit.",
+      },
+      {
+        type: "h2",
+        text: "The June Numbers, County by County",
+      },
+      {
+        type: "paragraph",
+        text: "Here is where the six counties across our service area landed for June 2026, with the year-over-year change on each figure.",
+      },
+      {
+        type: "table",
+        headers: [
+          "County",
+          "Median Price",
+          "YoY",
+          "Avg. DOM",
+          "YoY",
+          "Median $/Sq Ft",
+          "YoY",
+        ],
+        rows: [
+          ["Washtenaw", "$422,000", "+2.2%", "46", "+9.5%", "$245", "+0.4%"],
+          ["Livingston", "$400,000", "+2.0%", "35", "-5.4%", "$231", "+3.6%"],
+          ["Oakland", "$370,000", "+3.1%", "29", "+7.4%", "$224", "+1.8%"],
+          ["Macomb", "$270,000", "+3.8%", "33", "+10.0%", "$191", "+2.7%"],
+          ["Monroe", "$267,400", "+6.8%", "46", "+12.2%", "$178", "+5.3%"],
+          ["Wayne", "$208,500", "+6.9%", "35", "+6.1%", "$166", "+4.4%"],
+        ],
+        caption:
+          "June 2026 closed-sale data across The Patrick Group service area. Source: Realcomp.",
+      },
+      {
+        type: "paragraph",
+        text: "Every county appreciated. The strongest year-over-year price gains came from the two most accessible markets, Wayne at 6.9 percent and Monroe at 6.8 percent, where demand continues to press against limited supply. Washtenaw remains the premium of the group at a $422,000 median and $245 per square foot, though its appreciation has flattened to a fraction of a percent on a price-per-foot basis, which is what a market near its ceiling tends to look like. Oakland and Macomb, the heart of our work, posted steady mid-single-digit gains that reflect health rather than froth.",
+      },
+      {
+        type: "h2",
+        text: "The Signal Worth Watching: Days on Market",
+      },
+      {
+        type: "paragraph",
+        text: "The price column is reassuring. The days-on-market column is the one that should shape your strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "Average days on market rose year-over-year in five of the six counties, and in several by double digits: Monroe up 12.2 percent, Macomb up 10 percent, Washtenaw up 9.5 percent, Oakland up 7.4 percent, Wayne up 6.1 percent. Only Livingston moved the other way, improving 5.4 percent to 35 days. Homes are still selling, and the absolute numbers remain reasonable by historical standards. Oakland at 29 days is not a slow market. The point is the direction. Across the region, it is taking longer to get to a signed contract than it did a year ago.",
+      },
+      {
+        type: "paragraph",
+        text: "Put the two columns together and the picture resolves. Prices are being held up by owners who bought or refinanced at lower rates and have no urgency to sell, which keeps supply tight and the median firm. At the same time, buyers financing in the mid-6 percent range are more selective and more patient, which stretches the time a home spends on the market. The market is not cooling in price. It is cooling in pace.",
+      },
+      {
+        type: "h2",
+        text: "What Price per Square Foot Confirms",
+      },
+      {
+        type: "paragraph",
+        text: "Median price per square foot is the cleaner appreciation gauge because it strips out the effect of larger or smaller homes selling in a given month. In June it rose everywhere, from a nominal 0.4 percent in Washtenaw to 5.3 percent in Monroe. Nothing in that column suggests a market losing value. It suggests a market climbing at a measured, sustainable grade rather than the steep one of a few years ago. For owners, that is the healthier kind of appreciation. It holds.",
+      },
+      {
+        type: "h2",
+        text: "What This Means if You Are Buying",
+      },
+      {
+        type: "paragraph",
+        text: "You have more room than a buyer did a year ago, and it is showing up as time rather than price. Well-located homes are still moving, but the frenzy that forced instant, unconditional offers has eased in most segments. That gives you space to tour properly, to write a considered offer, and to keep an inspection contingency without automatically losing the house. What it does not give you is a falling market to wait out. Prices rose in June, and every leading indicator points to continued, if modest, appreciation. The cost of waiting is real. The better move is to buy the right home now on more favorable terms, not to hold out for a discount the data does not support. Our VIP buyer program is built to surface the right listings early and move decisively when they appear. Start at thepatrickgrp.com/vip-buyers.",
+      },
+      {
+        type: "h2",
+        text: "What This Means if You Are Selling",
+      },
+      {
+        type: "paragraph",
+        text: "The lengthening clock is the number that matters to you. A rising median can lull sellers into pricing on hope, and in a market where homes are taking longer to sell, an aggressive number is what turns into a price reduction and a stale listing. The homes clearing near their asking price in June were the ones priced correctly and presented well from day one. That is entirely within your control. Before you list, get a valuation grounded in current comparable sales rather than an automated estimate, and build a preparation plan that earns those first two weeks of attention. You can request a considered valuation of your home at thepatrickgrp.com/home-valuation, or reach us directly at thepatrickgrp.com/contact.",
+      },
+      {
+        type: "paragraph",
+        text: "The headline for June is not complicated once you hold both numbers at the same time. Southeast Michigan is still appreciating, and it is doing so at a pace that rewards preparation on both sides of the transaction. Prices are climbing. Patience is climbing with them. The people who plan around both are the ones who come out ahead this summer.",
+      },
+      {
+        type: "callout",
+        label: "Unconditional Release Guarantee",
+        text: "Sarah Patrick, Principal Broker. The Patrick Group at Oak & Stone Real Estate. 248.755.3545. Every representation we take on is backed by our Unconditional Release Guarantee. If we are not meeting your expectations, you are free to walk away.",
+      },
+    ],
+  },
   {
     slug: "spring-2026-southeast-michigan-market-update",
     title: "Spring 2026 Southeast Michigan Real Estate Market Update",
