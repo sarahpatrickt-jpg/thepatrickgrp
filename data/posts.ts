@@ -2731,6 +2731,110 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "oakland-county-jobs-signal-housing-july-2026",
+    title:
+      "Everyone Is Watching Mortgage Rates. Oakland County's Real Signal Is on a Factory Floor.",
+    excerpt:
+      "The number that actually predicts where Oakland County home values are headed did not show up in a rate table this month. It showed up in an industrial real estate report, and almost no one buying a house read it.",
+    date: "2026-07-06",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/spring-2026-market-update.jpg",
+    imageAlt:
+      "Oakland County housing market driven by employment and capital investment rather than mortgage rate headlines",
+    relatedSlugs: [
+      "oakland-county-inventory-divergence-june-2026",
+      "june-2026-southeast-michigan-market-update",
+      "why-birmingham-keeps-appreciating",
+    ],
+    relatedCitySlugs: [
+      "troy-mi",
+      "rochester-hills-mi",
+      "clarkston-mi",
+      "royal-oak-mi",
+      "bloomfield-hills-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The housing conversation this summer has one channel, and it is stuck on mortgage rates. The 30-year fixed slipped to 6.43 percent in early July, a seven-week low by Freddie Mac's reading, and nearly every buyer I talk to wants to know whether that number is finally about to break lower. It is a fair question. It is also the wrong one to build an Oakland County decision around.",
+      },
+      {
+        type: "paragraph",
+        text: "The signal that actually tells you where local values are headed did not show up in a rate table this month. It showed up in an industrial real estate report. And almost no one buying a house in Oakland County read it.",
+      },
+      {
+        type: "h2",
+        text: "The Number Everyone Missed",
+      },
+      {
+        type: "paragraph",
+        text: "A first-quarter Detroit industrial market report put the Southeastern Oakland County submarket at the top of the entire metro, with roughly 1.15 million square feet of positive absorption in a single quarter. Metro-wide industrial vacancy fell to 4.4 percent as that space filled. The report tied a meaningful share of the submarket's demand to General Motors retooling its Orion Assembly plant. Translated out of commercial-broker language: companies are committing capital and floor space in this specific corner of the county, and one of the region's largest employers is anchoring it.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "SE Oakland Absorption",
+            value: "1.15M sq ft",
+            note: "Top industrial submarket in metro Detroit, Q1 2026",
+          },
+          {
+            label: "Metro Industrial Vacancy",
+            value: "4.4%",
+            note: "Declining as capital commits to space",
+          },
+          {
+            label: "Oakland County Median",
+            value: "$382,000",
+            note: "Up 2.4% year over year, Redfin trailing read",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Why a Factory Floor Predicts a Home Value",
+      },
+      {
+        type: "paragraph",
+        text: "Housing markets are lagging indicators of employment. Payroll comes first, then household formation, then the offer on a three-bedroom within a reasonable commute. When a major employer recommits to a site, it is not a one-year event. Retooling a plant is a multi-year bet that pulls suppliers, contractors, and salaried staff into the surrounding towns, and those people rent before they buy and buy before they trade up. I have watched that sequence play out through more than one cycle. The capital shows up quietly, in a report almost nobody outside commercial real estate opens, twelve to thirty-six months before it shows up in residential comparable sales. None of this argues for chasing a boom. Oakland County's median sat near $382,000 this spring, up a measured 2.4 percent year over year on Redfin's trailing read. That is healthy, sustainable appreciation, not a spike, and the industrial story does not change that grade. What it changes is your confidence about direction. A county absorbing jobs and capital is not one where you should expect prices to soften.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If you are buying",
+          text: "Do not wait for a rate cut to validate a market that its own job base is already validating. Rates near 6.4 percent paired with a firm local economy is a workable combination. Get pre-approved, focus on the towns inside the commute radius of where the capital is landing, and buy on fundamentals rather than headlines.",
+        },
+        right: {
+          label: "If you are selling",
+          text: "The economic backdrop supports your price. It does not excuse a lazy one. Buyers financing in the mid-6s are still selective. Price to current comparable sales, present the home well from day one, and let the strong local employment story do the rest. Leverage is not a license to overreach.",
+        },
+      },
+      {
+        type: "h2",
+        text: "What I'd Read Instead of the Rate Headlines",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Whether the Orion Assembly commitment holds its timeline. A multi-year retool is what sustains the housing demand, not the announcement itself.",
+          "Metro sales volume, which ran roughly 18.5 percent ahead of last year in the first quarter. That tells you buyers are actually transacting, not just browsing.",
+          "The gap between the towns closest to the job growth and the county median. That gap is usually where the next leg of appreciation concentrates.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The rate story will keep dominating the headlines, and it does matter. But rates are a national number that moves for reasons no one in Oakland County controls. Capital committing to a plant in your own county is a local number, and it is the one that has quietly predicted the direction of these neighborhoods for as long as I have worked in them. Read that number, and the rest of the noise gets easier to tune out.",
+      },
+      {
+        type: "callout",
+        label: "Unconditional Release Guarantee",
+        text: "Sarah Patrick, Principal Broker. The Patrick Group at Oak & Stone Real Estate. 248.755.3545. Every representation we take on is backed by our Unconditional Release Guarantee. If we are not meeting your expectations, you are free to walk away.",
+      },
+    ],
+  },
 
 ];
 
