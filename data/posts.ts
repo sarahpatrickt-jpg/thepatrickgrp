@@ -25,6 +25,101 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "how-to-avoid-home-contract-collapse",
+    title:
+      "The Highest Offer Might Be Your Biggest Risk: How to Avoid a Home Contract Collapse",
+    excerpt:
+      "Nearly 1 in 7 home-sale agreements collapsed in January, a record high. In a market this shaky, the best offer is not the highest one. It is the one most likely to close. Here is how to vet the buyer and the agents before you accept.",
+    date: "2026-07-08",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "5 min read",
+    image: "/images/insights/how-to-avoid-home-contract-collapse.jpg",
+    imageAlt:
+      "A real estate purchase agreement stamped contract failed beside a set of house keys",
+    relatedSlugs: [
+      "cost-to-sell-a-house-michigan",
+      "best-time-to-sell-a-house-southeast-michigan",
+      "how-to-win-a-bidding-war-metro-detroit",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "northville-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Recent real estate market data reveals a sobering reality for home sellers: nearly 1 in 7 home-sale agreements collapsed in January alone, marking a record high for contract cancellations. With buyer cold feet and financial anxiety stretching across the market, accepting the highest offer on the table is no longer a guaranteed win. Today, a successful sale requires looking far beyond the purchase price.",
+      },
+      {
+        type: "paragraph",
+        text: "To ensure your home actually makes it to the closing table, you need to look past the dollar signs and vet two critical components of the deal: the buyer's true readiness and the experience of the agents involved.",
+      },
+      {
+        type: "h2",
+        text: "Look Beyond the Price Tag: Vet the Buyer",
+      },
+      {
+        type: "paragraph",
+        text: "A massive offer looks great on paper, but it is completely worthless if the transaction falls apart during escrow. When evaluating incoming offers, you and your agent should look at these critical indicators of buyer commitment and stability:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "The strength of their financing: Are they fully pre-approved, or just pre-qualified? What is their down payment situation? In an uncertain economy, buyers using every last cent of their savings for a down payment are the most likely to panic and back out when facing unexpected costs.",
+          "The earnest money deposit (EMD): How much skin in the game do they have? A high EMD shows seriousness and financial liquidity. A weak, low EMD makes it incredibly easy, and virtually painless, for a buyer to walk away over minor issues.",
+          "Have they actually seen the house? Sight-unseen offers, or buyers who rushed through a five-minute walkthrough, are prime candidates for buyer's remorse once the due diligence period begins.",
+          "Confidence versus hesitation: Pay close attention to their behavior early on. Are they moving forward smoothly, or do you have to constantly hand-hold, convince, and talk them into things during due diligence? If they are second-guessing everything before the appraisal even hits, it is a sign they are looking for an exit ramp.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Vet the Agents: Experience Over Favoritism",
+      },
+      {
+        type: "paragraph",
+        text: "In a market where contracts are crashing at record rates, you cannot afford to hire an agent based on sentimentality. Both the listing agent and the buyer's agent need to be seasoned professionals, not just a well-meaning friend or family member.",
+      },
+      {
+        type: "h3",
+        text: "Vetting Your Listing Agent",
+      },
+      {
+        type: "paragraph",
+        text: "Your agent is your first line of defense. If they are not showing professional standards from day one, your sale is already at risk. Make sure your listing agent checks these boxes during your initial interview:",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Professionalism from the jump: Are they bringing polished, data-backed marketing materials to your listing appointment, or are they just winging it?",
+          "High-quality presentation: Will they invest in professional photography and staging advice, or are they planning to take quick photos on their smartphone?",
+          "Contract mastery: Are the contracts clean, and can the agent clearly explain every clause to you? If they cannot break down your risks and protections seamlessly, they will not be able to defend you when a deal starts to go sideways.",
+          "Proving their experience: If an agent cannot prove their track record or explain the specific signs they look for to protect your transaction, consider it a major red flag.",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Vetting the Buyer's Agent",
+      },
+      {
+        type: "paragraph",
+        text: "Do not forget to look across the aisle. An experienced listing agent will actively vet the buyer's agent. An inexperienced agent representing the buyer often fails to manage their client's expectations, panics during home inspections, or mismanages contract deadlines, all of which can turn a perfectly salvageable deal into a collapse.",
+      },
+      {
+        type: "callout",
+        label: "The Big Takeaway",
+        text: "In a market defined by stretched affordability and economic unease, the best offer is not the one that promises the most money. It is the one most likely to close. Protect your equity by partnering with an experienced professional who knows how to spot the red flags early.",
+      },
+      {
+        type: "paragraph",
+        text: "Thinking about selling this year? Before you accept an offer, get a strategy grounded in current market conditions and a team that vets every deal for you. Request a valuation at thepatrickgrp.com/home-valuation, or reach us directly at thepatrickgrp.com/contact.",
+      },
+    ],
+  },
+  {
     slug: "june-2026-southeast-michigan-market-update",
     title:
       "June 2026 Market Update: Prices Are Still Climbing, but Homes Are Sitting Longer",
