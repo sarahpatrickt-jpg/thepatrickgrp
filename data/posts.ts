@@ -2930,6 +2930,112 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "national-buyers-market-vs-oakland-county-reality-july-2026",
+    title:
+      "The Headlines Say Buyer's Market. Oakland County Homes Still Sell in 15 Days.",
+    excerpt:
+      "National prices hit a record high and the press is declaring a buyer's market. In Oakland County, homes still sell in about 15 days. Here is why the national story does not map onto Southeast Michigan.",
+    date: "2026-07-13",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "5 min read",
+    image: "/images/insights/may-2026-market-pulse.jpg",
+    imageAlt:
+      "A residential street of homes in Southeast Michigan reflecting current local market conditions",
+    relatedSlugs: [
+      "june-2026-southeast-michigan-market-update",
+      "oakland-county-inventory-divergence-june-2026",
+      "fannie-mae-rate-forecast-cost-of-waiting-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "royal-oak-mi",
+      "rochester-hills-mi",
+      "bloomfield-hills-mi",
+      "northville-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "If you have read a housing headline in the last week, you already know the national story. The National Association of Realtors reported that the median price of an existing home hit an all-time high of $440,600 in June, even as sales slipped 2.4 percent from May to an annual pace of 4.09 million. That combination, record prices paired with cooling sales, has the national press confidently calling the start of a buyer's market. It makes for a clean headline. It also does not describe what is happening in Oakland County.",
+      },
+      {
+        type: "paragraph",
+        text: "Here is the number that got lost in the national coverage. Redfin's data shows homes across Oakland County are still selling in roughly 15 days, at a median price near $382,000, up about 2.4 percent year over year. Fifteen days is not a buyer's market. It is a market where correctly priced homes still move fast, and where the leverage buyers keep hearing about on cable news has not actually shown up at the curb in Birmingham, Troy, or Royal Oak.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "National median price",
+            value: "$440,600",
+            note: "All-time high in June, per the National Association of Realtors",
+          },
+          {
+            label: "Oakland County days on market",
+            value: "~15 days",
+            note: "Redfin, three months ending May 2026",
+          },
+          {
+            label: "30-year fixed rate",
+            value: "6.43%",
+            note: "Dipped to a two-month low over the July 4th weekend, per Freddie Mac",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Two Housing Markets, One Set of Headlines",
+      },
+      {
+        type: "paragraph",
+        text: "National real estate coverage averages the entire country into a single number. That average is useful for economists and close to useless for someone deciding whether to list a house in Bloomfield Hills this month. The national figure blends soft Sun Belt markets that overbuilt during the pandemic with tight, supply-constrained metros like ours. When you hear that inventory is climbing and buyers are gaining power, that is largely a story about Texas, Florida, and Arizona. In Southeast Michigan, active listings remain thin, and the homes that are priced to the current data still draw competition.",
+      },
+      {
+        type: "callout",
+        label: "The Data Point Everyone Missed",
+        text: "A market clearing in 15 days is not handing buyers the keys to negotiate. If you are waiting on the sidelines for Oakland County to flip into the buyer's market the national headlines describe, understand that our inventory shortage is structural, not seasonal. That wait could be a long one.",
+      },
+      {
+        type: "h2",
+        text: "What a Slowing National Market Actually Means Here",
+      },
+      {
+        type: "paragraph",
+        text: "None of this means rates and buyer fatigue are irrelevant locally. They are not. Sales volume is softer than the frenzy of a few years ago, and even here buyers are more price-sensitive and slower to commit than they were at the peak. Freddie Mac put the 30-year fixed near 6.5 percent for the week ending July 9, though it briefly touched 6.43 percent over the holiday weekend, its lowest in two months. Those rates cost real money on a monthly payment. The point is not that demand is limitless. It is that the correction the national story implies has not reached our price tiers, and both buyers and sellers need to plan for the market in front of them, not the one on the news.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If you are buying",
+          text: "Do not expect the discounts the national buyer's-market narrative promises. In the boutique cities, a correctly priced home can still see multiple offers. Come in pre-approved, know your ceiling, and be ready to move in days, not weeks. The buyers winning right now are prepared, not passive.",
+        },
+        right: {
+          label: "If you are selling",
+          text: "You still hold leverage, but it is conditional. Buyers are more discerning and less forgiving of overpricing than they were at the peak. Homes priced to the current data and shown well still move quickly. Homes priced to last year's optimism sit, and a stale listing invites the very discount you were trying to avoid.",
+        },
+      },
+      {
+        type: "h2",
+        text: "How to Read This If You Are Making a Move",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Ignore the national median. A record $440,600 U.S. price tells you nothing about what your street in Troy or Rochester Hills will bear. Local comparable sales do.",
+          "Watch days on market, not headlines. Roughly 15 days countywide means well-priced homes are still moving. That is your real read on who holds leverage.",
+          "Respect the rate math. Mid-6 percent rates are the reality for the foreseeable future. Buyers who structure their offer and budget around today's rate, rather than waiting for a cut that may never come, are the ones closing deals.",
+          "Price to the data, not to a neighbor's 2022 sale. The peak is no longer the benchmark. The last 60 days of comparable sales are.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The national story and the Southeast Michigan story are two different things right now, and treating one as the other is how buyers overpay and sellers leave money on the table. If you want a read grounded in your specific city and price band rather than a cable-news average, request a valuation at thepatrickgrp.com/home-valuation, or reach the team at thepatrickgrp.com/contact.",
+      },
+    ],
+  },
 
 ];
 
