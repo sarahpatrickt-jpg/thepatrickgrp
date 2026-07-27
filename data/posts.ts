@@ -3036,6 +3036,111 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "rate-spike-2026-high-oakland-county-sellers",
+    title:
+      "Rates Just Hit a 2026 High. The Pressure Landed on Sellers, Not Buyers.",
+    excerpt:
+      "Rates just hit a 2026 high, and the national read says buyers will freeze. In Oakland County the numbers say otherwise. The pressure is shifting to sellers, and pricing discipline now matters more than it has all year.",
+    date: "2026-07-27",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "6 min read",
+    image: "/images/insights/best-time-to-sell.jpg",
+    imageAlt:
+      "A for sale sign in front of a Southeast Michigan home with a sold rider ready to attach",
+    relatedSlugs: [
+      "best-time-to-sell-a-house-southeast-michigan",
+      "how-to-avoid-home-contract-collapse",
+      "cost-to-sell-a-house-michigan",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "bloomfield-hills-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Mortgage rates just did the thing every seller dreads. Freddie Mac's weekly survey put the 30-year fixed at 6.58 percent for the week ending July 23, the highest reading since August of last year. Renewed tension in the Middle East pushed oil and inflation expectations up, and rates followed. The national headline wrote itself: buyers are about to freeze. If you are getting ready to sell a home in Oakland County, that headline is not your story.",
+      },
+      {
+        type: "paragraph",
+        text: "Here is what the local numbers say instead. Oakland County's median single-family price hit $395,000 in June, up 3.9 percent from $380,000 a year earlier, according to Realcomp data. Homes are still going under contract in roughly 15 days on average, and about three of every ten homes listed in June went pending within the same month. Even nationally, purchase applications rose 6 percent the same week rates climbed, the Mortgage Bankers Association reported. Demand did not disappear. It got more selective.",
+      },
+      {
+        type: "h2",
+        text: "The rate move is real. The demand is too.",
+      },
+      {
+        type: "paragraph",
+        text: "Both things are true at once, and that is the part the national coverage keeps flattening. A rate at 6.58 percent is not 2021, and any seller pricing off memories of the pandemic frenzy is in for a hard summer. But a rate at 6.58 percent has not emptied out the buyer pool in Southeast Michigan either. The people shopping right now are qualified, motivated, and paying close attention to what their monthly payment actually buys. That combination rewards sellers who read the market accurately and punishes the ones who do not.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Oakland County median",
+            value: "$395,000",
+            note: "Up 3.9% from a year ago (Realcomp, June)",
+          },
+          {
+            label: "Active listings",
+            value: "+15.2%",
+            note: "Oakland County inventory vs. a year ago",
+          },
+          {
+            label: "Time to contract",
+            value: "~15 days",
+            note: "County average; Royal Oak closer to 9",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Why the pressure lands on sellers now",
+      },
+      {
+        type: "paragraph",
+        text: "When rates rise and inventory is thin, sellers hold the leverage because buyers have nowhere else to go. That is not this market. Oakland County active listings are up more than 15 percent from a year ago, and national inventory has held above 1.1 million for five straight weeks, a level not seen since 2019. So the higher rate is not landing on a scarce market. It is landing on the widest set of choices buyers have had in years. When a buyer's payment gets more expensive and the number of options in front of them grows at the same time, the seller who overprices is the one who gets skipped.",
+      },
+      {
+        type: "callout",
+        label: "The payment math moved",
+        text: "At 6.58 percent, the principal and interest on a $395,000 home runs well over a hundred dollars a month more than it did at last year's lower rates. Buyers feel that at every showing. A listing priced to last spring's comps now sits above where a rate-conscious buyer can actually go, and it shows up as days on market, not offers.",
+      },
+      {
+        type: "h2",
+        text: "What this changes about how you list",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "Priced to the moment",
+          text: "Comps from the last 60 days, adjusted for condition, with a number a rate-conscious buyer can reach. These are the homes going pending in two weeks. Correct pricing plus real prep is doing the heavy lifting right now, not hope.",
+        },
+        right: {
+          label: "Priced to last spring",
+          text: "A number pulled from what a neighbor got in a hotter month, or from what you need to net rather than what the home is worth today. With 15 percent more competition on the market, this listing sits, ages, and eventually cuts anyway, usually to less than a sharp price would have brought.",
+        },
+      },
+      {
+        type: "bullets",
+        items: [
+          "Price against the last 60 days of closed sales, not last spring's peak. The market you list into is the one that matters.",
+          "Get the prep done before you go live. Paint, declutter, and the obvious repairs pay for themselves when buyers have real choices.",
+          "Treat your first two weeks as your best two weeks. The freshest listings draw the most attention, and a stale one is harder to reset than to price right the first time.",
+          "Vet the offer, not just the number. With foreclosures up more than 20 percent nationally in the first half of the year, buyer financing is worth scrutinizing before you sign.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this is a reason to sit out. Prices in Oakland County are still higher than a year ago, and well-prepared homes are still moving quickly. Rates rise and fall over every cycle, and waiting for a perfect one usually costs more than it saves. The sellers who do well in a market like this are not the ones who caught the top. They are the ones who priced honestly, prepped seriously, and let a market full of qualified buyers do the rest. If you want a read grounded in your specific city and price band, request a valuation at thepatrickgrp.com/home-valuation, or reach the team at thepatrickgrp.com/contact.",
+      },
+    ],
+  },
 
 ];
 
