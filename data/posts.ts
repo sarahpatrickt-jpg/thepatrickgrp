@@ -3141,7 +3141,111 @@ export const posts: Post[] = [
       },
     ],
   },
-
+  {
+    slug: "oakland-county-days-on-market-negotiating-leverage-august-2026",
+    title: "The Rate Grabbed the Headline. In Oakland County, Watch the 36.",
+    excerpt:
+      "The 30-year fixed just hit a one-year high of 6.66 percent, and it made every headline. But the number that actually moves your deal in Oakland County right now is 36. Here is why.",
+    date: "2026-08-03",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/sorting-by-preparation.jpg",
+    imageAlt:
+      "A for-sale sign in front of an Oakland County home with a calendar overlay marking days on market",
+    relatedSlugs: [
+      "rate-spike-2026-high-oakland-county-sellers",
+      "national-buyers-market-vs-oakland-county-reality-july-2026",
+      "sorting-by-preparation-may-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "bloomfield-hills-mi",
+      "royal-oak-mi",
+      "northville-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The number moving markets this week is 6.66 percent. That is where the 30-year fixed mortgage landed in Freddie Mac's latest weekly survey, a fourth straight increase and the highest reading in a year. It made every national headline, and it earned the attention. But if you are buying or selling in Oakland County right now, it is not the number I would circle. I would circle 36.",
+      },
+      {
+        type: "paragraph",
+        text: "Thirty-six is the average number of days a home in Oakland County now takes to sell, according to recent Realcomp figures. A year ago that number was 27. Nine extra days does not sound dramatic. In practice, it is the quietest shift in local leverage we have seen in a while, and almost no one is talking about it because the rate headline is louder.",
+      },
+      {
+        type: "h2",
+        text: "Price Is Not Falling. Time Is Stretching.",
+      },
+      {
+        type: "paragraph",
+        text: "Here is what the national coverage gets wrong when it reaches Southeast Michigan. Higher rates and rising inventory are supposed to add up to price cuts. That is not what the data shows here. The tri-county median sits near $310,000, up roughly 5.4 percent year over year, and Oakland County still leads the region with a median around $395,000. Prices are not breaking. What is changing is how long sellers wait to get their number.",
+      },
+      {
+        type: "paragraph",
+        text: "That distinction matters because it tells you where your leverage actually lives. Buyers waiting for Oakland prices to crash are waiting for something the fundamentals do not support. Demand is real, boutique inventory is still thin, and appreciation is running near 2 to 4 percent this year, a cooldown from about 5 percent in 2025 but still positive. The opportunity is not a lower sticker price. It is a longer clock, and a longer clock buys you terms.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "30-Year Fixed",
+            value: "6.66%",
+            note: "Fourth straight weekly rise, a one-year high (Freddie Mac)",
+          },
+          {
+            label: "Oakland Days on Market",
+            value: "36",
+            note: "Up from 27 a year ago (Realcomp)",
+          },
+          {
+            label: "Oakland Median Price",
+            value: "~$395K",
+            note: "Still leads Southeast Michigan, up year over year",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "What the Longer Clock Actually Buys You",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You're Buying",
+          text: "A home that has sat past 30 days is a home whose seller has recalibrated. That is your window to negotiate a rate buydown, closing-cost credits, or repair concessions, the things that lower your real monthly cost far more than waiting for a price drop that is not coming. Write a clean offer, but do not overpay out of fear.",
+        },
+        right: {
+          label: "If You're Selling",
+          text: "The market that let you name a price and pick from five weekend offers is gone for now. Pricing to the last 30 days of comps, not last spring's peak, is what keeps you off that 36-day average. Homes priced right and prepped well are still moving quickly. The ones chasing the market down are the ones dragging that number up.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "None of this is a crash signal. It is a normalization. We are drifting back toward a market that rewards preparation over urgency, and that is healthier than the frenzy buyers and sellers both survived over the past few years. National data backs the shift: pending sales slipped about 1.7 percent week over week to their lowest level in three months, and purchase applications fell 4 percent. Activity is cooling, but the floor under Oakland prices is holding.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Buyers: get fully underwritten, not just pre-qualified, so a motivated seller takes your offer seriously even at 6.66 percent.",
+          "Buyers: target listings past 30 days on market and lead with terms, a rate buydown or credits, before you push on price.",
+          "Sellers: price to the last 30 days of closed comps in your specific city, not the spring peak.",
+          "Sellers: invest in prep and presentation up front. The homes selling in under two weeks are almost always the ones that showed well on day one.",
+        ],
+      },
+      {
+        type: "callout",
+        label: "The Bottom Line",
+        text: "The 6.66 percent rate is real and it stings, but it is a national story. The local story is that time, not price, has become the negotiating lever in Oakland County. Buyers who understand that stop waiting for a discount that is not coming and start negotiating the one that is.",
+      },
+      {
+        type: "paragraph",
+        text: "Thinking about a move before rates and inventory shift again? Let us look at the numbers for your specific city and price band. Request a valuation at thepatrickgrp.com/home-valuation, or reach the team at thepatrickgrp.com/contact.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
