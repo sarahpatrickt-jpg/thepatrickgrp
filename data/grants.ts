@@ -3,13 +3,13 @@
  *
  * All qualification logic runs client-side. No API needed.
  * Data sourced from MSHDA, county housing authorities, and federal programs.
- * Last updated: July 1, 2026
+ * Last updated: August 3, 2026
  */
 
 // Monthly grant task: bump BOTH dates when refreshing this file.
 // Shown on /grants and in its structured data; freshness is a citation signal.
-export const GRANTS_LAST_UPDATED = "July 1, 2026";
-export const GRANTS_LAST_UPDATED_ISO = "2026-07-01";
+export const GRANTS_LAST_UPDATED = "August 3, 2026";
+export const GRANTS_LAST_UPDATED_ISO = "2026-08-03";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -499,7 +499,7 @@ export const programs: GrantProgram[] = [
       // Funding exhausted, always near-miss so users know it exists
       return {
         eligible: false,
-        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of July 2026; check back"],
+        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of August 2026; check back"],
       };
     },
   },
@@ -545,7 +545,7 @@ export const programs: GrantProgram[] = [
     ],
     requirements: [
       "Property must be in a USDA-eligible area",
-      "Income limits apply (typically 115% of area median)",
+      "Income limits apply (2026 standard limit $119,850 for 1-4 person households, $158,250 for 5-8; higher in some high-cost areas). Updated by USDA July 2026.",
       "Primary residence only",
       "Credit score 640+ recommended",
     ],
