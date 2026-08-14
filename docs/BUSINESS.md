@@ -78,6 +78,17 @@ Cadence: daily 1 social post; weekly journal + GBP post + review outreach; month
 
 ## 6. SEO / Search Console Log (newest first — append after each checkup)
 
+### 2026-08-14 — GA4 review (last 28 days, Jul 17–Aug 13)
+- 90 active users, 150 views, 103 sessions. DOWN from the June 12 check (284 users / 800 views over 28 days). 90-day view still shows +468% vs the near-zero Feb–May baseline; the decline is only vs the June peak.
+- **Cause = Organic Social collapsed 81 → 9 sessions.** The June peak was a social spike that faded without consistent posting. Social is the volatile lever; rebuild via steady FB/video posting.
+- **Organic Search is the durable engine and is healthy:** 40 sessions (38.8%), 55% engagement, 47s avg (best of any channel). Roughly flat in absolute terms while social fell. SEO work is holding.
+- **New channel: "AI Assistant" = 1 session.** First traffic from an AI assistant; the llms.txt + schema work is starting to surface the site in AI answers. Watch it grow.
+- Conversions: 4 key events (3 contact_form_submitted + 1 cash_offer_submitted — first cash offer, was 0 in June). ALL 4 came from Direct. Engaged Organic Search visitors converted 0 → conversion gap on organic landing pages.
+- form_start 8 vs 4 completed submits = ~50% form abandonment (improved from June's 75%).
+- Top pages: / dominates (66/150). /grants (56s), /reviews, /about, /buying, /contact (source of all conversions). Journal articles and /search-homes NOT in top 10 — article SEO hasn't ranked yet (normal at weeks-old); keep publishing, it compounds.
+- Takeaway: traffic (not conversion rate) is the constraint. Fastest lever = rebuild social. Durable lever = keep feeding SEO/content. Add clearer CTAs on organic landing pages (homepage/grants/articles) to capture the engaged search visitors.
+
+
 ### 2026-06-12 — GA4 review (last 28 days, May 15–Jun 11)
 - 284 active users, 800 views, 279 new users. Last 7 days: 121 active (+6.1%), organic search +164% (37 users), organic social still #1 (81), referral +300% (4)
 - Top pages: / 397 views; **/search-homes 102 views, 38s avg engagement, 298 searches by 54 users (5.5 each)** despite being unlinked from nav — found via Google index; most engaged page on the site
