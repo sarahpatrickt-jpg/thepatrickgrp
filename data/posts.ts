@@ -25,6 +25,147 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "fed-vote-september-2026-southeast-michigan-timing",
+    title: "Rates Finally Fell. Read the Fed Vote Before You Celebrate.",
+    excerpt:
+      "The 30-year dropped to 6.67 percent, snapping a six-week climb. But July's Fed vote was 9 to 3, and all three dissents wanted rates higher. For Southeast Michigan sellers, that changes the calendar more than the rate does.",
+    date: "2026-08-17",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/fed-vote-timing-august-2026.jpg",
+    imageAlt:
+      "August 2026 Southeast Michigan market update: rates fell, but the Fed is not done",
+    relatedSlugs: [
+      "june-2026-southeast-michigan-market-update",
+      "how-to-avoid-home-contract-collapse",
+      "best-time-to-sell-a-house-southeast-michigan",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "sterling-heights-mi",
+      "macomb-township-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The 30-year dropped to 6.67 percent, snapping a six-week climb. But July's Fed vote was 9 to 3, and all three dissents wanted rates higher. For Southeast Michigan sellers, that changes the calendar more than the rate does.",
+      },
+      {
+        type: "paragraph",
+        text: "For six straight weeks this summer, the 30-year fixed went up. Last week it finally went down, to 6.67 percent in Freddie Mac's survey, with the 15-year at 5.96 percent. It is a small move, two basis points, and it will not change anyone's monthly payment in a way they can feel.",
+      },
+      {
+        type: "paragraph",
+        text: "The interesting part is why it happened, and almost nobody covered that.",
+      },
+      {
+        type: "h2",
+        text: "The Vote Matters More Than the Number",
+      },
+      {
+        type: "paragraph",
+        text: "Rates eased because July's employment report showed the country unexpectedly shedding jobs, and because the inflation reading that followed came in on target rather than above it. Those two data points did not raise the odds of a rate cut. They lowered the odds of a rate increase.",
+      },
+      {
+        type: "paragraph",
+        text: "That distinction is the whole story. When the Federal Open Market Committee met in July and held its benchmark at 3.50 to 3.75 percent, the vote was 9 to 3. All three dissents wanted rates to go up. For most of this summer, the live debate inside the Fed has not been about when borrowing costs fall. It has been about whether they climb further.",
+      },
+      {
+        type: "paragraph",
+        text: "If you have been waiting to make a move because you assume rates drift lower from here, that assumption is doing more work than the evidence supports.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "30-Year Fixed",
+            value: "6.67%",
+            note: "First decline in six weeks (Freddie Mac, Aug 13)",
+          },
+          {
+            label: "Metro Detroit Inventory",
+            value: "+20%",
+            note: "Year over year, up 7.6% from June (Realcomp)",
+          },
+          {
+            label: "Metro Detroit Median",
+            value: "$348,625",
+            note: "Highest of 2026, up 4.8% (Realcomp)",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Twenty Percent More Inventory, and a Record Median Anyway",
+      },
+      {
+        type: "paragraph",
+        text: "Now bring it home, because the local numbers are stranger than the national ones.",
+      },
+      {
+        type: "paragraph",
+        text: "Inventory across metro Detroit is up more than 20 percent from a year ago and more than 7.6 percent from June alone. Buyers have meaningfully more to choose from than they did last summer. And yet the median sale price in July was $348,625, up 4.8 percent year over year and the highest figure of 2026.",
+      },
+      {
+        type: "paragraph",
+        text: "Those two facts are supposed to contradict each other. More supply is supposed to soften price. It has not, and the reason is worth understanding: absorption has narrowed. Buyers are not paying more for everything. They are paying more for a smaller slice of the market, and passing on the rest.",
+      },
+      {
+        type: "paragraph",
+        text: "The county-level detail says the same thing. Oakland County posted a July median of $401,750, up 4.4 percent, on closings that eased 2.3 percent. Macomb County led the region on price with a median of $295,500 against $280,000 a year ago, a 5.5 percent gain, on the shallowest sales dip of the three counties at 1.4 percent. Prices are not breaking anywhere. Volume is simply thinner, and it is concentrating.",
+      },
+      {
+        type: "h2",
+        text: "What the Split Market Means for You",
+      },
+      {
+        type: "h3",
+        text: "If You Are Buying",
+      },
+      {
+        type: "paragraph",
+        text: "Selection is the best it has been in three years, and that is a real advantage that has nothing to do with your rate. Homes that have been listed past thirty days have sellers who have already recalibrated, and that is where terms live: a rate buydown, closing cost credits, a repair concession. Those move your actual monthly cost far more than waiting for a price correction the fundamentals do not support. Get fully underwritten rather than pre-qualified, because in a market with more inventory, the cleanest offer still wins the property worth having.",
+      },
+      {
+        type: "h3",
+        text: "If You Are Selling",
+      },
+      {
+        type: "paragraph",
+        text: "The 20 percent inventory number is your competition, and it has already arrived. Waiting for autumn to thin the field is a strategy built on a market that no longer exists. The homes clearing quickly right now are the prepared ones: priced to the last thirty days of closed comps rather than to a memory of 2022, and presented well enough that the first showing does the work. The gap between a prepared listing and an unprepared one on the same street has never been wider than it is this season.",
+      },
+      {
+        type: "paragraph",
+        text: "There is a second reason for sellers to pay attention to the Fed debate. Your own rate matters less than most people assume if you are carrying substantial equity into your next purchase, because the financed balance is small relative to the price. The rate that decides your timeline is the one available to the buyer standing behind you. If borrowing costs climb from here, that buyer's budget contracts, and your window narrows even though nothing about your own position changed.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Buyers: target listings past thirty days and lead with terms before you push on price.",
+          "Buyers: get fully underwritten, not just pre-qualified, so your offer carries weight against the added competition for well-prepared homes.",
+          "Sellers: price to the last thirty days of closed comps in your specific city, not to the spring peak or to 2022.",
+          "Sellers: put the money into prep and presentation before listing. In a 20 percent deeper market, the first showing is the only one you are guaranteed.",
+          "Both: model your actual numbers with a lender before you build a plan around a rate forecast. We are glad to share our list of recommended service providers on request.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "The rate headline this week was a decline, and it was genuinely good news. But the mechanism behind it was a reduced chance of rates going higher, not a signal that they are headed lower. Meanwhile, Southeast Michigan is running a market with 20 percent more inventory and a record median price at the same time, which only makes sense once you accept that buyers have stopped rewarding sellers for simply being listed. Preparation is the variable now. It is the one you control, and it is the one the data keeps paying for.",
+      },
+      {
+        type: "paragraph",
+        text: "Thinking about a move while inventory is this deep? Let us look at the numbers for your specific city and price band. Request a valuation at thepatrickgrp.com/home-valuation, or reach the team at thepatrickgrp.com/contact.",
+      },
+    ],
+  },
+  {
     slug: "how-to-avoid-home-contract-collapse",
     title:
       "The Highest Offer Might Be Your Biggest Risk: How to Avoid a Home Contract Collapse",
