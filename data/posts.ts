@@ -3246,6 +3246,113 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "oakland-county-permits-down-inventory-window-august-2026",
+    title:
+      "Inventory Is Up. New Construction Is Down 38 Percent. Only One of Those Lasts.",
+    excerpt:
+      "Sales jumped 7 percent in July and inventory keeps improving, so the buyer's window looks like the new normal. But Detroit-area permits are down 38 percent. The supply everyone is celebrating is borrowed, not built.",
+    date: "2026-08-14",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/new-construction-vs-resale.jpg",
+    imageAlt:
+      "A stalled new-home construction site in Southeast Michigan with framing paused against rising resale inventory",
+    relatedSlugs: [
+      "oakland-county-inventory-divergence-june-2026",
+      "national-buyers-market-vs-oakland-county-reality-july-2026",
+      "june-2026-quiet-buyer-window-oakland-county",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "bloomfield-hills-mi",
+      "northville-mi",
+      "west-bloomfield-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Here is the number everyone is repeating this month. Home sales rose 7 percent in July, the strongest annual gain of 2026, according to Zillow's July Market Report. Pair that with for-sale inventory that keeps climbing off its 2021 lows, and the story writes itself. The buyer finally has room to breathe, and Southeast Michigan has settled into a calmer, better-supplied market. That read is half right, and the half it misses is the one that decides where prices go next.",
+      },
+      {
+        type: "paragraph",
+        text: "There are two kinds of inventory, and the market treats them as if they were the same thing. They are not.",
+      },
+      {
+        type: "h2",
+        text: "Borrowed Supply Versus Built Supply",
+      },
+      {
+        type: "paragraph",
+        text: "The inventory improving right now is mostly borrowed. It is existing owners who finally decided to list, homes changing hands inside a fixed pool of houses. That kind of supply expands and contracts with rates and sentiment, and it can reverse in a single quarter. Built supply is different. It is new homes added to the total stock, and it is the only thing that permanently loosens a tight market. On that measure Southeast Michigan is heading the wrong way. New residential construction permits filed in Detroit are down roughly 38 percent year over year through mid-July, and Michigan's own statewide housing plan through MSHDA puts the shortage in the tens of thousands of homes a year. We are not building our way out of anything. We are trading the same houses back and forth.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "July home sales, year over year",
+            value: "+7%",
+            note: "Zillow's July Market Report, the strongest annual gain of 2026",
+          },
+          {
+            label: "Detroit new residential permits, year to date",
+            value: "-38%",
+            note: "City permit filings versus the same period last year",
+          },
+          {
+            label: "Newly pending listings, year over year",
+            value: "+0.3%",
+            note: "The sales pipeline is flattening even as closings rise",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "The Pipeline Is Already Flattening",
+      },
+      {
+        type: "paragraph",
+        text: "Watch the leading indicator, not the headline. That 7 percent sales gain reflects contracts signed weeks earlier, when the 30-year fixed was still in the low 6s. Since then rates have climbed to roughly 6.74 percent as of mid-August, the highest in more than a year, and newly pending listings are up just 0.3 percent from last year. Zillow flagged that the pipeline of future sales is running dry. So the closings look strong while the fuel behind them thins out. Layer the permit slowdown on top of that, and today's selection starts to look like a window rather than a floor.",
+      },
+      {
+        type: "callout",
+        label: "The Point Most Buyers Miss",
+        text: "Rising inventory feels like a permanent shift toward the buyer. In a region that is chronically underbuilding, it is closer to a temporary thaw. When rates ease and the rate-locked owners stop feeling pressure to list, the borrowed supply dries up. The underbuilt stock is still underbuilt.",
+      },
+      {
+        type: "h2",
+        text: "How to Play a Market That Is Looser Than It Will Stay",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If you are buying",
+          text: "This is real leverage, and it has a clock on it. You have more homes to choose from and more room to negotiate on price, repairs, and terms than you did a year ago in most Oakland County price bands. Use it now rather than waiting for a rate cut that also brings the competition back. Buyers who hold out for the perfect rate usually pay for it later in a thinner selection and a stronger field.",
+        },
+        right: {
+          label: "If you are selling",
+          text: "Do not read the extra listings as a reason to panic or to chase the market down. Read them as competition you have to beat on preparation and price. Well-prepared homes priced to current comps are still moving in Oakland County's stronger towns. The structural shortage supports your value over time. Sloppy pricing still gets punished in the moment.",
+        },
+      },
+      {
+        type: "bullets",
+        items: [
+          "Judge the market by your own city and price band, not a national sales headline.",
+          "Separate borrowed supply (owners listing) from built supply (new construction) when you hear that inventory is up.",
+          "If you are buying, treat the current selection and negotiating room as a window a rate cut can close.",
+          "If you are selling, compete on preparation and honest pricing, not on hope that scarcity carries a weak listing.",
+          "Watch permits and pending listings, not just closings, if you want to see the next move before it reaches prices.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The national feed will keep telling you inventory is up and the pressure is off. In a region that is not building enough homes to meet its own demand, that comfort has a shelf life. If you want a read grounded in your specific city and price band rather than a countrywide average, request a valuation at thepatrickgrp.com/home-valuation, or reach the team at thepatrickgrp.com/contact.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
