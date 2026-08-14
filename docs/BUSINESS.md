@@ -87,6 +87,9 @@ Cadence: daily 1 social post; weekly journal + GBP post + review outreach; month
 - form_start 8 vs 4 completed submits = ~50% form abandonment (improved from June's 75%).
 - Top pages: / dominates (66/150). /grants (56s), /reviews, /about, /buying, /contact (source of all conversions). Journal articles and /search-homes NOT in top 10 — article SEO hasn't ranked yet (normal at weeks-old); keep publishing, it compounds.
 - Takeaway: traffic (not conversion rate) is the constraint. Fastest lever = rebuild social. Durable lever = keep feeding SEO/content. Add clearer CTAs on organic landing pages (homepage/grants/articles) to capture the engaged search visitors.
+- **Search Console queries (now linked, last 28 days): 1,883 impressions, 1 click, CTR 0.05%, avg position 25.0.** Big visibility gain vs May 29 (426 impressions, position 39.1): impressions up ~4.4x, position improved 39 → 25. But position 25 = page 3, which earns ~0 clicks. The site is indexed broadly (654 queries) but ranks too low to get clicked.
+- Query mix: two buckets. (1) Specific street addresses (1015 Enfield Rd, 1452 Lockmoor, 2071 Dorothea Rd, etc.) — listing pages are indexed but low intent. (2) The money queries ARE ranking: "selling" (pos 6, the 1 click), "$7,500 first-time home buyer grant application" (pos 9.5). Grants + selling content is the strength.
+- Diagnosis confirms the AI-audit conclusion: content/tech are fine; the bottleneck is AUTHORITY. To convert impressions → clicks, rankings must cross to page 1, which needs BACKLINKS (still pending: Real Producers + Hour Detroit emails, Realtor.com profile, GMAR directory) + time. Prioritize links to /grants (query at pos 9.5 is one push from page-1 clicks).
 
 
 ### 2026-06-12 — GA4 review (last 28 days, May 15–Jun 11)
