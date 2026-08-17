@@ -3494,6 +3494,115 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "oakland-county-sales-down-prices-up-august-2026",
+    title: "Sales Fell in Oakland County. The Median Still Cleared $400,000.",
+    excerpt:
+      "July closings in Oakland County came in 2.3 percent below last year, yet the median hit $401,750 and homes sold faster than anywhere else in the region. That combination is not a cooling market.",
+    date: "2026-08-17",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/sorting-by-preparation.jpg",
+    imageAlt:
+      "Oakland County homes sorted by preparation as July sales volume fell and median prices rose",
+    relatedSlugs: [
+      "oakland-county-days-on-market-negotiating-leverage-august-2026",
+      "sorting-by-preparation-may-2026",
+      "best-time-to-sell-a-house-southeast-michigan",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "northville-mi",
+      "west-bloomfield-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Metro Detroit closed 4,578 home sales in July, down from 4,654 a year earlier, according to Realcomp data reported in early August. That is a 1.6 percent decline, and it is the kind of number that gets read as a market running out of air. Oakland County looked worse than anyone on that measure: 1,628 closings against 1,667 last July, a 2.3 percent drop, the steepest of the five counties in the report.",
+      },
+      {
+        type: "paragraph",
+        text: "The same month, Oakland County's median sale price came in at $401,750, up 4.4 percent from $385,000 a year ago. Regionwide the median reached $348,625, a high for 2026. Fewer homes changed hands. The ones that did went for more money. Anyone telling you that is a cooling market is reading one column of the report.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Oakland County closings",
+            value: "-2.3%",
+            note: "1,628 in July 2026 vs 1,667 in July 2025",
+          },
+          {
+            label: "Oakland County median",
+            value: "$401,750",
+            note: "up 4.4 percent year over year",
+          },
+          {
+            label: "Days on market",
+            value: "22",
+            note: "fastest of the five counties Realcomp tracks",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Volume and Price Answer Different Questions",
+      },
+      {
+        type: "paragraph",
+        text: "Sales volume tells you how many buyers cleared the financing hurdle. Price tells you what happened to the ones who did. Those two numbers move independently, and in a high rate environment they routinely move against each other. The 30-year climbed for six straight weeks this summer before easing slightly in mid August. Every step of that climb pushed a marginal buyer below the qualification line. That is your volume decline, and it is a lending story rather than a demand story.",
+      },
+      {
+        type: "paragraph",
+        text: "What remains after the marginal buyer exits is a smaller pool with more capacity, and that pool still faces the supply constraint Southeast Michigan has not solved. Oakland County homes sold in 22 days last month, the fastest pace of the five counties, while the regional average slipped to 25 days from 21 a year ago. Oakland got quicker while the region got slower. Fewer buyers, moving faster, paying more.",
+      },
+      {
+        type: "h2",
+        text: "The Livingston Tell",
+      },
+      {
+        type: "paragraph",
+        text: "One county posted a sales increase in July. Livingston rose 3.2 percent to 287 closings, with its median up 0.6 percent to $425,000, essentially flat. Compare that to Macomb, where the median jumped 5.5 percent to $295,500 on 1.4 percent fewer sales. Those two counties describe the same squeezed buyer from opposite ends. When payments tighten, some buyers push further out to hold their square footage at a price ceiling, and others trade down in geography to protect the payment. Livingston caught the first group. Macomb's price jump caught the second bidding on a thin supply of entry inventory.",
+      },
+      {
+        type: "callout",
+        label: "What the Headline Misses",
+        text: "A 2.3 percent sales decline in Oakland County and a median above $400,000 in the same month are not in conflict. Volume measures how many buyers could qualify. Price measures what the qualified ones paid for a short supply of prepared homes. Only one of those sits inside a seller's control.",
+      },
+      {
+        type: "h2",
+        text: "What It Means If You Are Moving This Fall",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If you are buying",
+          text: "You are competing against fewer people than you were in spring, and the 22-day figure says the well-prepared listings still move in about three weeks. Your leverage sits on homes that have aged past 30 days, not on the fresh, correctly priced ones. Get fully underwritten before you shop. In a market where volume is falling on qualification, a clean approval is a negotiating asset.",
+        },
+        right: {
+          label: "If you are selling",
+          text: "The 2026 price high is real, but it belongs to homes that presented well and priced to the current comp set rather than the spring one. Jeanette Schneider of RE/MAX of Southeastern Michigan put it plainly in the July report: well-priced, move-in-ready homes keep drawing buyers, while listings misaligned with expectations sit. With the pool thinner, a pricing mistake costs more weeks than it did in April.",
+        },
+      },
+      {
+        type: "bullets",
+        items: [
+          "Read closings and median price as two separate signals. A drop in one does not forecast the other.",
+          "Oakland County at 22 days is still the quickest county in the region. Speed has not left the market, selection has.",
+          "Livingston's sales gain on flat pricing is what buyer migration looks like before it reaches prices.",
+          "Price to the last 60 days of comparable sales. Spring comps describe a different rate environment than the one your buyer is financing in.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Cycles like this one sort a market rather than sink it. The deals that clear are the ones where the seller prepared and the buyer arrived financed, and that has been true through every rate environment worth remembering. If you want a read on your specific city and price band rather than a five-county average, request a valuation at thepatrickgrp.com/home-valuation, or reach the team at thepatrickgrp.com/contact.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
