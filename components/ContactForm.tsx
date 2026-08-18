@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { trackContactFormSubmitted } from "@/lib/analytics";
+import { trackContactFormSubmitted, getClientId } from "@/lib/analytics";
 
 const inputClass =
   "w-full border border-[var(--line)] px-4 py-3 text-sm text-[var(--ink)] focus:outline-none focus:border-[#c70000]";
@@ -54,6 +54,7 @@ export default function ContactForm() {
           tags: ["contact-form", interest].filter(Boolean),
           honeypot,
           _t: formLoadedAt,
+          ga_client_id: await getClientId(),
         }),
       });
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 const SIERRA_ORIGIN = "sierrasellersites.com";
 const DEFAULT_HEIGHT = 900;
@@ -8,6 +9,27 @@ const DEFAULT_HEIGHT = 900;
 export default function SierraValuationFrame() {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const [height, setHeight] = useState(DEFAULT_HEIGHT);
+
+  // The valuation form lives inside Sierra's cross-origin iframe, so gtag can't
+  // see submissions. Track INTENT instead: fire once when the tool scrolls into
+  // view. (Real conversion tracking needs Sierra to postMessage on submit.)
+  useEffect(() => {
+    const el = iframeRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          trackEvent("valuation_tool_viewed", {
+            page_path: window.location.pathname,
+          });
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.25 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     function handleMessage(event: MessageEvent) {

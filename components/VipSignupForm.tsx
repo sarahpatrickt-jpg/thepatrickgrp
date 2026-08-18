@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { trackVipBuyerSignup } from "@/lib/analytics";
+import { trackVipBuyerSignup, getClientId } from "@/lib/analytics";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -52,6 +52,7 @@ export default function VipSignupForm() {
           tags: ["vip-buyer", "coming-soon-list"],
           honeypot,
           _t: formLoadedAt,
+          ga_client_id: await getClientId(),
         }),
       });
       if (res.ok) {

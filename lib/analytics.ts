@@ -10,9 +10,10 @@
 declare global {
   interface Window {
     gtag: (
-      command: "config" | "event" | "js" | "set",
+      command: "config" | "event" | "js" | "set" | "get",
       targetId: string | Date,
-      config?: Record<string, unknown>
+      configOrField?: Record<string, unknown> | string,
+      callback?: (value: unknown) => void
     ) => void;
     dataLayer: unknown[];
   }
@@ -27,6 +28,52 @@ export function trackEvent(
   }
 }
 
+/**
+ * Fire a lead event BOTH ways: our specific named event (unchanged, keeps
+ * historical continuity) AND GA4's standard `generate_lead`, which is what
+ * the built-in Lead acquisition reports ("New leads" etc.) are built on.
+ * Without generate_lead those reports read 0 forever.
+ *
+ * `value` is optional; when provided GA4 requires a currency.
+ */
+export function trackLead(
+  eventName: string,
+  params: { lead_source?: string; value?: number } & Record<
+    string,
+    string | number | boolean | undefined
+  > = {}
+) {
+  const { value, ...rest } = params;
+  const clean = Object.fromEntries(
+    Object.entries(rest).filter(([, v]) => v !== undefined)
+  ) as Record<string, string | number | boolean>;
+
+  trackEvent(eventName, clean);
+  trackEvent("generate_lead", {
+    lead_source: (clean.lead_source as string) ?? eventName,
+    ...(typeof value === "number" ? { value, currency: "USD" } : {}),
+  });
+}
+
+/**
+ * GA4 client id for the current visitor. Captured at form-submit time and
+ * stored with the lead in Sierra, so qualified/closed leads can later be sent
+ * back to GA4 via Measurement Protocol and attributed to the original visit.
+ * Resolves null (never hangs the form) if gtag is blocked or slow.
+ */
+export function getClientId(): Promise<string | null> {
+  return new Promise((resolve) => {
+    if (typeof window === "undefined" || typeof window.gtag !== "function") {
+      return resolve(null);
+    }
+    const timer = setTimeout(() => resolve(null), 1500);
+    window.gtag("get", "G-DPFLY88Y4D", "client_id", (id: unknown) => {
+      clearTimeout(timer);
+      resolve(typeof id === "string" && id ? id : null);
+    });
+  });
+}
+
 // ─── Conversion Events ────────────────────────────────────────────────────────
 // Mark ALL of these as conversions in GA4 Admin > Conversions
 
@@ -36,23 +83,31 @@ export const trackHomValuationClick = () =>
 
 /** Fired when contact form submits successfully */
 export const trackContactFormSubmitted = (interest: string) =>
-  trackEvent("contact_form_submitted", { interest });
+  trackLead("contact_form_submitted", { interest, lead_source: "contact_page" });
 
 /** Fired when cash offer form submits successfully */
 export const trackCashOfferSubmitted = (situation: string, timeline: string) =>
-  trackEvent("cash_offer_submitted", { situation, timeline });
+  trackLead("cash_offer_submitted", {
+    situation,
+    timeline,
+    lead_source: "cash_offer",
+  });
 
 /** Fired when VIP buyer list form submits successfully */
 export const trackVipBuyerSignup = (priceRange: string, area: string) =>
-  trackEvent("vip_buyer_signup", { price_range: priceRange, area });
+  trackLead("vip_buyer_signup", {
+    price_range: priceRange,
+    area,
+    lead_source: "vip_buyers",
+  });
 
 /** Fired when newsletter/market report form submits successfully */
 export const trackNewsletterSignup = (interest: string) =>
   trackEvent("newsletter_signup", { interest });
 
-/** Fired when any phone number link is clicked */
+/** Fired when any phone number link is clicked (see PhoneClickTracker) */
 export const trackPhoneClick = (location: string) =>
-  trackEvent("phone_call_click", { location });
+  trackLead("phone_call_click", { location, lead_source: "phone" });
 
 // ─── Engagement Events ────────────────────────────────────────────────────────
 
@@ -70,7 +125,7 @@ export const trackGrantQualificationSubmitted = (county: string) =>
 
 /** Fired when grant lead (connect with lender) submits */
 export const trackGrantLeadSubmitted = (county: string) =>
-  trackEvent("grant_lead_submitted", { county });
+  trackLead("grant_lead_submitted", { county, lead_source: "grants" });
 
 /** Fired when inherited property wizard is submitted */
 export const trackInheritedPropertySubmitted = (
@@ -89,9 +144,10 @@ export const trackInheritedPropertyLeadSubmitted = (
   transferMethod: string,
   intention: string
 ) =>
-  trackEvent("inherited_property_lead_submitted", {
+  trackLead("inherited_property_lead_submitted", {
     transfer_method: transferMethod,
     intention,
+    lead_source: "inherited_property",
   });
 
 // ─── Wizard Funnel Events ─────────────────────────────────────────────────────

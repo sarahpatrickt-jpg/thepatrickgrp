@@ -5,8 +5,7 @@ import type { InheritedPropertyProfile } from "@/data/inherited-property";
 import {
   trackInheritedPropertySubmitted,
   trackInheritedPropertyLeadSubmitted,
-  trackWizardStep,
-} from "@/lib/analytics";
+  trackWizardStep, getClientId } from "@/lib/analytics";
 import StepIntake from "./StepIntake";
 import StepResults from "./StepResults";
 
@@ -63,6 +62,7 @@ export default function InheritedPropertyWizard() {
           note,
           tags,
           _t: formLoadedAt,
+          ga_client_id: await getClientId(),
         }),
       });
 

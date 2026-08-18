@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { trackPhoneClick } from "@/lib/analytics";
 
 // Left-side nav links (desktop), split around the Specialties dropdown
 const leftLinksBefore = [
@@ -238,7 +237,6 @@ export default function Nav() {
           <div className="hidden lg:flex items-center gap-3 flex-1 justify-end">
             <a
               href="tel:2487553545"
-              onClick={() => trackPhoneClick("nav")}
               className="text-[13px] font-medium transition-colors whitespace-nowrap mr-2"
               style={{
                 color: linkColor,
@@ -365,7 +363,6 @@ export default function Nav() {
               Call or text Brad:{" "}
               <a
                 href="tel:2487553545"
-                onClick={() => trackPhoneClick("nav-mobile")}
                 className="font-medium"
                 style={{ color: "var(--red)" }}
               >

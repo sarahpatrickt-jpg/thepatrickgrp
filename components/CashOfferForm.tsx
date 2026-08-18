@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { trackCashOfferSubmitted } from "@/lib/analytics";
+import { trackCashOfferSubmitted, getClientId } from "@/lib/analytics";
 
 const inputClass =
   "w-full border border-white/20 bg-[var(--paper)]/10 px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#c70000]";
@@ -48,6 +48,7 @@ export default function CashOfferForm() {
           tags: ["cash-offer-lead", "seller-lead"],
           honeypot,
           _t: formLoadedAt,
+          ga_client_id: await getClientId(),
         }),
       });
 

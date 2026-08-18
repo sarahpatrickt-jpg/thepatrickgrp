@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackGrantLeadSubmitted, getClientId } from "@/lib/analytics";
 import type { BuyerProfile } from "@/data/grants";
 import StepIntake from "./StepIntake";
 import StepResults from "./StepResults";
@@ -57,16 +58,13 @@ export default function GrantWizard() {
           note,
           tags: ["grant-qualifier", "buyer-lead"],
           _t: formLoadedAt,
+          ga_client_id: await getClientId(),
         }),
       });
 
       if (res.ok) {
         setLeadStatus("success");
-        if (typeof window !== "undefined" && typeof window.gtag === "function") {
-          window.gtag("event", "grant_lead_submitted", {
-            county: p.county,
-          });
-        }
+        trackGrantLeadSubmitted(p.county);
         // Only show results after lead is confirmed in Sierra
         setStep("results");
       } else {

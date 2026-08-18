@@ -89,6 +89,8 @@ export async function POST(req: NextRequest) {
       tags = [],
       honeypot,
       _t, // timestamp when form was rendered (bot-speed check)
+      ga_client_id, // GA4 client id — stored with the lead so qualified/closed
+      // leads can later be sent back to GA4 via Measurement Protocol
     } = await req.json();
 
     // Honeypot check — bots fill hidden fields, humans don't
@@ -130,7 +132,9 @@ export async function POST(req: NextRequest) {
       ...(phone ? { phone } : {}),
       leadType,
       source: source || "thepatrickgrp.com",
-      note: note || "",
+      note:
+        (note || "") +
+        (ga_client_id ? `\n[GA client ID: ${ga_client_id}]` : ""),
       tags,
       sendRegistrationEmail: false,
       emailStatus: "ValidAddress",
