@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       // Flexmls AWS S3 — older listings store photos here
       { protocol: "https", hostname: "flexmls-apidc-media.s3.amazonaws.com" },
       { protocol: "https", hostname: "flexmls-apicc-media.s3.amazonaws.com" },
+      // Path-style S3 URLs for the same buckets (some feeds emit this form)
+      { protocol: "https", hostname: "s3.amazonaws.com", pathname: "/flexmls-apidc-media/**" },
+      { protocol: "https", hostname: "s3.amazonaws.com", pathname: "/flexmls-apicc-media/**" },
     ],
   },
 };

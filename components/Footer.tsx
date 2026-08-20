@@ -140,6 +140,7 @@ export default function Footer() {
                 { href: "/reviews",        label: "Client Reviews" },
                 { href: "/neighborhoods",  label: "Neighborhood Guides" },
                 { href: "/market-updates", label: "Market Reports" },
+                { href: "/news",           label: "In the News" },
                 { href: "/faq",            label: "FAQ" },
                 { href: "/contact",        label: "Contact Us" },
                 { href: "/newsletter",     label: "Newsletter" },

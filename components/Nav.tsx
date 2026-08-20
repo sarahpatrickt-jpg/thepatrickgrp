@@ -15,6 +15,7 @@ const leftLinksAfter = [
   { href: "/neighborhoods",    label: "Neighborhoods" },
   { href: "/new-construction", label: "New Homes" },
   { href: "/market-updates",   label: "Market Reports" },
+  { href: "/news",             label: "In the News" },
 ];
 
 // Specialties dropdown, mirrors the footer "Specialties" section
@@ -50,6 +51,7 @@ const allLinks = [
   { href: "/grants",               label: "Homebuyer Grants" },
   { href: "/neighborhoods",        label: "Neighborhoods" },
   { href: "/market-updates",       label: "Market Reports" },
+  { href: "/news",                 label: "In the News" },
   { href: "/insights",             label: "Journal" },
   { href: "/about",                label: "Our Team" },
   { href: "/reviews",              label: "Reviews" },

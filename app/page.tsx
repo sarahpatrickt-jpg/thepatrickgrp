@@ -1007,6 +1007,45 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
+          §7.5  AS SEEN IN  (quiet press strip → /news)
+      ══════════════════════════════════════════════════════ */}
+      <section
+        className="py-10 border-t"
+        style={{ backgroundColor: "var(--paper-2)", borderColor: "var(--line)" }}
+      >
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <Link href="/news" className="group block text-center">
+            <p
+              className={eyebrow}
+              style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)" }}
+            >
+              As Seen In
+            </p>
+            <p
+              className="font-display mt-3 flex flex-wrap items-baseline justify-center gap-x-8 gap-y-1"
+              style={{ fontSize: "17px", color: "var(--ink-2)" }}
+            >
+              <span>Hour Detroit</span>
+              <span>Real Producers</span>
+              <span>AP News</span>
+              <span>EIN Presswire</span>
+            </p>
+            <p
+              className={eyebrow + " mt-3 group-hover:underline"}
+              style={{
+                color: "var(--red)",
+                fontFamily: "var(--font-mono, monospace)",
+                letterSpacing: "0.15em",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              Press &amp; recognition →
+            </p>
+          </Link>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
           §8  VALUATION CTA  (dark section)
       ══════════════════════════════════════════════════════ */}
       <section className="py-24" style={{ backgroundColor: "var(--ink)" }}>
