@@ -3603,6 +3603,120 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "michigan-pop-up-tax-uncapping-oakland-county-2026",
+    title: "Your Payment Quote Is Using the Seller's Tax Bill. That Is a Problem.",
+    excerpt:
+      "The property tax number in your payment quote belongs to the seller. Michigan resets it the year after you close, and on a median Oakland County sale that reset can cost more than a rate cut would save you.",
+    date: "2026-08-24",
+    author: "Sarah",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    image: "/images/insights/grants-rates-real-math.jpg",
+    imageAlt:
+      "Michigan property tax uncapping math for Oakland County buyers in 2026",
+    relatedSlugs: [
+      "michigan-homebuyer-grants-rates-how-to-afford-a-home-2026",
+      "cost-to-sell-a-house-michigan",
+      "michigan-sb-971-investor-limit-what-buyers-sellers-need-to-know",
+    ],
+    relatedCitySlugs: [
+      "troy-mi",
+      "royal-oak-mi",
+      "birmingham-mi",
+      "rochester-hills-mi",
+      "west-bloomfield-mi",
+      "plymouth-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Every payment quote you have seen on a Southeast Michigan home is built on a number that is about to expire. The property tax line comes from the seller's bill. The year after you close, Michigan resets it.",
+      },
+      {
+        type: "paragraph",
+        text: "This is not a loophole or a clerical error. It is Proposal A working exactly the way voters designed it in 1994. It is also the most expensive detail in a Michigan purchase that almost nobody prices before writing the offer.",
+      },
+      {
+        type: "h2",
+        text: "The Cap Protects the Seller, Not You",
+      },
+      {
+        type: "paragraph",
+        text: "Michigan taxes property on taxable value, which sits below state equalized value, and SEV is set at half of market value. As long as one owner holds the home, taxable value can rise only by the lesser of five percent or inflation. The State Tax Commission set the 2026 inflation multiplier at 1.027, so a current owner's taxable value could climb no more than 2.7 percent this year regardless of what the market did around them. Hold a house for a decade in an appreciating city and the gap between what it is worth and what it is taxed on gets wide. Transfer ownership and that gap closes in a single step. Assessors call it uncapping. Everyone else calls it the pop-up tax.",
+      },
+      {
+        type: "callout",
+        label: "The rule in one sentence",
+        text: "Taxable value uncaps to the current SEV in the year following a transfer of ownership, which means the buyer inherits the home at market value and none of the seller's cap protection.",
+      },
+      {
+        type: "h2",
+        text: "Run the Number Before You Write the Offer",
+      },
+      {
+        type: "paragraph",
+        text: "Oakland County's median sale price came in at $401,750 in July, according to Realcomp data. Call the SEV on a home like that roughly $200,000. If the seller has owned long enough that their taxable value sits near $150,000, the buyer's taxable value uncaps by about $50,000. Run that gap through Troy's published homestead millage of 30.6705 and the annual bill rises roughly $1,530, about $128 a month. It arrives the year after closing, not at the closing table.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "2026 taxable value cap",
+            value: "2.7%",
+            note: "Michigan's Proposal A inflation multiplier for 2026, per the State Tax Commission. It stops applying the year after a sale.",
+          },
+          {
+            label: "Illustrative uncapping cost",
+            value: "$128 / mo",
+            note: "A $50,000 uncapping gap at Troy's homestead rate of 30.6705 mills, roughly $1,530 a year.",
+          },
+          {
+            label: "Rate equivalent",
+            value: "0.6 points",
+            note: "What that same monthly figure costs on a $320,000 loan, measured against Freddie Mac's 6.65 percent on August 20.",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "That $128 is not a rounding error. On a $320,000 loan it costs about what six tenths of a percentage point on the mortgage rate costs. Buyers spent this summer refreshing Freddie Mac's weekly survey, which landed at 6.65 percent on August 20, waiting on a move a fraction of that size. The larger number was sitting in the tax record the whole time, and it does not need a Fed meeting to show up.",
+      },
+      {
+        type: "h2",
+        text: "Detroit Made This Visible. The Suburbs Hide It Better.",
+      },
+      {
+        type: "paragraph",
+        text: "The city has been the loud version of this story. An Outlier Media analysis of the 2026 assessment roll found Detroit homes would see an average property tax increase of about $1,403 if sold today, and even after stripping out the top one percent of cases, 1,208 homes would see estimated bills jump by more than $10,000. Wayne County and the city made the Pay As You Stay relief program permanent this week, as the Detroit News reported on August 20, which helps owners who have fallen behind and does nothing for the buyer who uncaps next year. The same mechanic runs quietly through Oakland, Macomb, Washtenaw, and Livingston counties, where the dollar amounts are larger and the coverage is thinner. Oakland County's median annual property tax bill already runs north of $4,200.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If you are buying",
+          text: "Do not accept the listing's tax figure as your tax figure. Pull the property record, find the current taxable value and the SEV, and treat the difference as your uncapping exposure. Multiply that gap by the local millage and underwrite the payment you will actually carry. Michigan's Treasury runs a property tax estimator that takes about two minutes. Then confirm your Principal Residence Exemption gets filed on time, because missing it adds roughly 18 mills in most communities.",
+        },
+        right: {
+          label: "If you are selling",
+          text: "Your buyer is going to find this number, and finding it late is what turns a signed contract into a renegotiation. Put the current taxable value, the SEV, and an honest estimate of the uncapped bill in your listing materials. A buyer who prices the increase up front closes. A buyer who discovers it during the loan process starts asking for concessions in the final week.",
+        },
+      },
+      {
+        type: "bullets",
+        items: [
+          "Taxable value uncaps the year after the transfer, not the day you close. Your first bill can look deceptively normal.",
+          "The gap that matters is SEV minus current taxable value, not the sale price by itself.",
+          "Millage across Oakland County generally runs in the 30 to 50 range depending on the community. The same uncapping gap costs meaningfully more in one city than another.",
+          "Long tenure widens the gap. A home held through years of appreciation carries the biggest pop-up, which is exactly the listing that looks like a bargain on paper.",
+          "Land contracts and many trust transfers trigger uncapping too. Certain transfers between close relatives are exempt, which is worth confirming before anyone restructures a title.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Rate forecasts get the attention because they change every week. The tax record changes once, at closing, and then it stays. Buyers who run the uncapping math before they write the offer are underwriting the house they will actually own rather than the one the seller has been paying for. If you want the taxable value, the SEV, and an estimated uncapped bill on a specific address before you decide, reach the team at thepatrickgrp.com/contact or request a valuation at thepatrickgrp.com/home-valuation.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
