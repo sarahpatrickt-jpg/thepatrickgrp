@@ -3717,6 +3717,116 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "condo-full-review-rule-august-2026-oakland-county",
+    title: "A Condo Rule Changed on August 3. Your Lender Now Underwrites the HOA.",
+    excerpt:
+      "Fannie Mae and Freddie Mac retired the shortcut condo review this month. Any project over 10 units now gets a full financial audit, and in Oakland County that quietly changes who can close.",
+    date: "2026-08-31",
+    author: "Sarah",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    image: "/images/insights/downsizing.jpg",
+    imageAlt:
+      "Oakland County condo buyers and sellers facing new Fannie Mae and Freddie Mac full review rules in 2026",
+    relatedSlugs: [
+      "downsizing-southeast-michigan",
+      "how-to-avoid-home-contract-collapse",
+      "cash-offer-home-michigan-is-it-right-for-you",
+    ],
+    relatedCitySlugs: [
+      "royal-oak-mi",
+      "birmingham-mi",
+      "troy-mi",
+      "bloomfield-hills-mi",
+      "northville-mi",
+      "west-bloomfield-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The mortgage rate got the coverage again this week. The 30-year fixed sat at 6.66 percent in Freddie Mac's late August survey, roughly where it has camped all summer. Meanwhile a rule that took effect on August 3 is deciding which Southeast Michigan condo deals close and which ones come apart, and almost nobody outside a lender's office is discussing it.",
+      },
+      {
+        type: "paragraph",
+        text: "Fannie Mae retired Limited Review. Freddie Mac retired Streamlined Review. Same day. If you are financing a unit in a project with more than 10 units, your loan now runs through Full Review regardless of how much you put down.",
+      },
+      {
+        type: "h2",
+        text: "What Full Review Actually Means",
+      },
+      {
+        type: "paragraph",
+        text: "Under the old shortcut, a buyer with a substantial down payment could largely skip the interrogation of the association. The lender underwrote the unit and the borrower, not the building. That pathway is gone. Under Full Review, an underwriter reads the association budget, the reserve funding, pending litigation, and the master insurance policy, then decides whether the project is eligible at all. A borrower can have perfect credit and still get declined over a building they do not own a piece of yet.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Full Review is now mandatory for any project with more than 10 units, no matter the down payment. Projects with 10 or fewer units can qualify for a waiver, which is genuinely good news for small buildings.",
+          "Reserve studies can no longer rely on the baseline funding method, which let associations run reserves near zero on paper.",
+          "Since July 1, master policy per-unit deductibles are capped at $50,000, and buyers must carry an HO-6 policy covering the gap. A project over that cap is treated as non-warrantable.",
+          "On January 4, 2027, the replacement reserve requirement rises from 10 percent of annual assessment income to 15 percent. Associations with a current professional reserve study funded at the highest recommended level can work around the threshold.",
+          "The 50 percent investor concentration cap was dropped for established projects in Full Review. That one cuts the other direction and helps some buildings.",
+        ],
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "30-Year Fixed",
+            value: "6.66%",
+            note: "Freddie Mac survey, week of August 27, 2026",
+          },
+          {
+            label: "Royal Oak Condo Median",
+            value: "$264,250",
+            note: "June 2026, against a roughly $382,000 county median sale price",
+          },
+          {
+            label: "New Reserve Threshold",
+            value: "15%",
+            note: "Of annual assessment income, effective January 4, 2027",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Why This Lands Harder Here Than the National Coverage Suggests",
+      },
+      {
+        type: "paragraph",
+        text: "Most of the write-ups framed this as a Florida and coastal high-rise story. That read misses Southeast Michigan entirely. Condos here do two jobs at once. They are the entry point, and they are the exit. A Royal Oak condo at a $264,250 median is where a buyer priced out of a county median near $382,000 actually lands. And an owner in Birmingham or Bloomfield Hills selling a large house is often buying a condo next, sometimes in a modest association whose board has not commissioned a reserve study in years.",
+      },
+      {
+        type: "paragraph",
+        text: "Those two groups, the first purchase and the downsize, are the ones whose loan file now includes an HOA. Detached inventory does not carry this constraint at all. So in the same stretch where Oakland County days on market ran near 36 against 27 a year earlier, one segment of the market picked up a brake that has nothing to do with buyer demand and everything to do with paperwork.",
+      },
+      {
+        type: "callout",
+        label: "Ask for these four documents",
+        text: "Before writing an offer on any unit in a project over 10 units: the current association budget, the most recent reserve study with its completion date, the master policy declarations page showing the per-unit deductible, and a written statement on pending litigation. If a board cannot produce those inside a week, treat the closing timeline as a risk rather than a formality.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Buying",
+          text: "Get association documents to your lender before the inspection, not after. Full Review takes longer than the old shortcut did, so build that time into the financing contingency instead of requesting an extension on day 25. If a project comes back non-warrantable, portfolio lenders and local credit unions that keep loans in house are the realistic path, and they price differently.",
+        },
+        right: {
+          label: "If You Are Selling",
+          text: "Your buyer pool is now partly a function of your association's records. Pull the budget, the reserve study, and the insurance declarations before you list, and find out where your reserve funding sits against the coming 15 percent line. Associations have until January to get ahead of it. Units that show up with clean documents will close while comparable units sit.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "There is a version of this that becomes a story about condos being a bad idea. That is not what is happening. Underwriting tightens after every cycle where losses surface somewhere, and this round is a direct response to deferred maintenance and insurance costs across the country. The practical effect locally is a sorting. Associations that have been funding reserves properly are about to look considerably stronger than the ones that held dues flat to keep owners comfortable, and that gap will eventually show up in price.",
+      },
+      {
+        type: "paragraph",
+        text: "Condos are now the part of the Southeast Michigan market where documentation decides the deal. If you want to know whether a specific project clears Full Review before you spend money on an inspection, or whether your own association's records will survive a buyer's lender, reach the team at thepatrickgrp.com/contact or request a valuation at thepatrickgrp.com/home-valuation.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
