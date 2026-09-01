@@ -63,8 +63,9 @@ const faqs = [
 
 // Region/eligibility tag per program id, for the overview cards
 const regionTag: Record<string, string> = {
-  "mshda-mi-dpa": "Statewide",
-  "mshda-10k-dpa": "Targeted Areas",
+  "mshda-10k-dpa": "Statewide",
+  "mshda-mcc": "Statewide tax credit",
+  "mshda-rate-relief": "Closed, funds exhausted",
   "mshda-first-gen": "Monitor for renewal",
   "oakland-county-dpa": "Oakland County",
   "detroit-dpa": "Detroit",
@@ -72,16 +73,17 @@ const regionTag: Record<string, string> = {
   "national-faith-wayne": "Wayne County",
   "genesee-county-dpa": "Genesee County",
   "washtenaw-oced": "Washtenaw County",
+  "warren-dpa": "City of Warren",
   "va-home-loan": "Veterans",
   "usda-rural": "Rural Areas",
   "good-neighbor": "Public Service",
   homeready: "Moderate Income",
   "chase-homebuyer-grant": "Eligible areas",
-  "wells-fargo-homebuyer-access": "Down payment grant",
-  "wells-fargo-closing-cost": "At or below 80% AMI",
+  "wells-fargo-homebuyer-access": "Not offered in Michigan",
+  "wells-fargo-closing-cost": "Not offered in Michigan",
   "rocket-one-plus": "Rocket covers 2%: up to $7K",
   "honor-cu-launch": "First-time buyers, 80% AMI",
-  "fhlb-homeboost": "Minority / first-gen buyers",
+  "fhlb-homeboost": "First-generation buyers",
   "flagstar-destination-home": "Community lending areas",
 };
 

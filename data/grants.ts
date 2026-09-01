@@ -3,13 +3,13 @@
  *
  * All qualification logic runs client-side. No API needed.
  * Data sourced from MSHDA, county housing authorities, and federal programs.
- * Last updated: August 3, 2026
+ * Last updated: September 1, 2026
  */
 
 // Monthly grant task: bump BOTH dates when refreshing this file.
 // Shown on /grants and in its structured data; freshness is a citation signal.
-export const GRANTS_LAST_UPDATED = "August 3, 2026";
-export const GRANTS_LAST_UPDATED_ISO = "2026-08-03";
+export const GRANTS_LAST_UPDATED = "September 1, 2026";
+export const GRANTS_LAST_UPDATED_ISO = "2026-09-01";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -70,66 +70,108 @@ export interface GrantProgram {
   qualify: (p: BuyerProfile) => { eligible: boolean; missing: string[] };
 }
 
-// ── Income Limits (2025-2026 HUD / MSHDA) ──────────────────────────────────
+// ── Income Limits ────────────────────────────────────────────────────────────
 
-const MSHDA_INCOME_LIMIT = 168_400; // statewide for DPA programs
-const MSHDA_10K_INCOME_LIMIT = 113_300; // lower limit for 10K DPA
-const OAKLAND_COUNTY_INCOME: Record<number, number> = {
-  1: 63_350,
-  2: 72_400,
-  3: 81_450,
-  4: 90_450,
-  5: 97_700,
-  6: 104_950,
-  7: 112_200,
-  8: 119_450,
+// MSHDA MI Home Loan / MI 10K DPA / MCC limits, effective June 1, 2026.
+// Source: MSHDA "Income and Sales Price Limits" (6.1.2026).
+// MSHDA splits limits two ways: 1-2 person vs 3-or-more person households, and
+// targeted vs non-targeted areas. Targeted areas also allow repeat buyers.
+type MshdaLimit = { small: number; large: number }; // 1-2 persons, 3 or more
+
+const MSHDA_NON_TARGETED: Record<County, MshdaLimit> = {
+  Oakland: { small: 104_800, large: 120_520 },
+  Wayne: { small: 104_800, large: 120_520 },
+  Macomb: { small: 104_800, large: 120_520 },
+  Livingston: { small: 129_000, large: 148_350 },
+  Genesee: { small: 98_400, large: 113_160 },
+  Monroe: { small: 98_400, large: 113_160 },
+  // Washtenaw is targeted countywide, so this row is never used for it.
+  Washtenaw: { small: 170_760, large: 199_220 },
 };
+
+const MSHDA_TARGETED: Record<County, MshdaLimit> = {
+  Oakland: { small: 125_760, large: 146_720 },
+  Wayne: { small: 125_760, large: 146_720 },
+  Macomb: { small: 125_760, large: 146_720 },
+  Livingston: { small: 154_800, large: 180_600 },
+  Genesee: { small: 118_080, large: 137_760 },
+  Monroe: { small: 118_080, large: 137_760 },
+  Washtenaw: { small: 170_760, large: 199_220 },
+};
+
+// MSHDA targeted areas inside the seven counties this tool covers, per the same
+// MSHDA table. Note Oakland's targeted area is Royal Oak Township, which is not
+// the City of Royal Oak, so Royal Oak is deliberately absent here.
+const MSHDA_TARGETED_CITIES: Record<County, string[]> = {
+  Oakland: ["Pontiac", "Southfield"],
+  Wayne: [
+    "Dearborn",
+    "Detroit",
+    "Ecorse",
+    "Hamtramck",
+    "Highland Park",
+    "Inkster",
+    "Lincoln Park",
+    "River Rouge",
+    "Taylor",
+    "Wayne",
+  ],
+  Macomb: ["Harrison Township", "Mount Clemens", "Mt. Clemens"],
+  Livingston: ["Howell"],
+  Genesee: ["Flint"],
+  Monroe: ["Luna Pier"],
+  Washtenaw: [], // entire county is targeted, handled in isMshdaTargeted
+};
+
+const MSHDA_PURCHASE_LIMIT = 566_355; // statewide single sales price limit, eff. June 1, 2026
+
+// Oakland County Treasurer / Independent Bank program: one published figure at
+// 120% of Oakland County AMI, not a per-household-size table.
+const OAKLAND_DPA_INCOME_LIMIT = 123_240;
+
+// City of Detroit DPA, 80% AMI as published on the program page.
 const DETROIT_DPA_INCOME: Record<number, number> = {
-  // 80% AMI for the Detroit-Warren-Dearborn area, per City of Detroit DPA program page
-  1: 56_600,
-  2: 64_650,
-  3: 72_750,
-  4: 80_800,
-  5: 87_300,
-  6: 93_750,
-  7: 100_200,
-  8: 106_700,
-};
-const WAYNE_COUNTY_INCOME: Record<number, number> = {
-  1: 55_300,
-  2: 63_200,
-  3: 71_100,
-  4: 79_000,
-  5: 85_350,
-  6: 91_650,
-  7: 98_000,
-  8: 104_300,
-};
-const GENESEE_INCOME: Record<number, number> = {
-  1: 47_600,
-  2: 54_400,
-  3: 61_200,
-  4: 68_000,
-  5: 73_450,
-  6: 78_900,
-  7: 84_350,
-  8: 89_750,
+  1: 58_700,
+  2: 67_100,
+  3: 75_500,
+  4: 83_850,
+  5: 90_300,
+  6: 97_300,
+  7: 104_000,
+  8: 110_700,
 };
 
-const MSHDA_PURCHASE_LIMIT = 566_355; // statewide single sales price limit (raised to $566,355 eff. June 1, 2026; was $544,233)
-const MSHDA_TARGET_PURCHASE_LIMIT = 566_355; // MSHDA applies one statewide sales price limit across all 83 counties
-const OAKLAND_PURCHASE_LIMIT = 294_600;
-const DETROIT_PURCHASE_LIMIT = 265_000;
+// Wayne County communities that run their own funds and are therefore outside
+// the countywide Wayne County / National Faith DPA program.
+const WAYNE_DPA_EXCLUDED_CITIES = [
+  "Canton",
+  "Dearborn",
+  "Detroit",
+  "Lincoln Park",
+  "Livonia",
+  "Redford",
+  "Taylor",
+  "Westland",
+];
 
-// 80% AMI by county (2025-2026 HUD), used for HomeReady/Home Possible
+// Genesee communities excluded from the countywide GCMPC program.
+const GENESEE_DPA_EXCLUDED_CITIES = ["Flint", "Clio", "Otter Lake", "Lennon"];
+
+// USDA Guaranteed Rural Housing income limits for Michigan, 2026.
+const USDA_INCOME_SMALL = 122_800; // 1-4 person households
+const USDA_INCOME_LARGE = 162_100; // 5-8 person households
+
+// HUD FY2026 LOW (80% AMI) income limits, effective May 1, 2026. Used for
+// HomeReady/Home Possible, county DPA programs, and lender 80% AMI products.
+// Oakland, Macomb, and Wayne share the Detroit-Warren-Livonia HUD Metro FMR Area.
 const AMI_80_BY_COUNTY: Record<County, Record<number, number>> = {
-  Oakland: { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
-  Macomb:  { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
-  Wayne:   { 1: 55_300, 2: 63_200, 3: 71_100, 4: 79_000, 5: 85_350, 6: 91_650, 7: 98_000, 8: 104_300 },
-  Washtenaw: { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
-  Livingston: { 1: 63_350, 2: 72_400, 3: 81_450, 4: 90_450, 5: 97_700, 6: 104_950, 7: 112_200, 8: 119_450 },
-  Genesee: { 1: 47_600, 2: 54_400, 3: 61_200, 4: 68_000, 5: 73_450, 6: 78_900, 7: 84_350, 8: 89_750 },
-  Monroe:  { 1: 47_600, 2: 54_400, 3: 61_200, 4: 68_000, 5: 73_450, 6: 78_900, 7: 84_350, 8: 89_750 },
+  Oakland:    { 1: 58_700, 2: 67_100, 3: 75_500, 4: 83_850, 5: 90_600, 6: 97_300, 7: 104_000, 8: 110_700 },
+  Macomb:     { 1: 58_700, 2: 67_100, 3: 75_500, 4: 83_850, 5: 90_600, 6: 97_300, 7: 104_000, 8: 110_700 },
+  Wayne:      { 1: 58_700, 2: 67_100, 3: 75_500, 4: 83_850, 5: 90_600, 6: 97_300, 7: 104_000, 8: 110_700 },
+  Washtenaw:  { 1: 74_800, 2: 85_450, 3: 96_150, 4: 106_800, 5: 115_350, 6: 123_900, 7: 132_450, 8: 141_000 },
+  Livingston: { 1: 72_250, 2: 82_600, 3: 92_900, 4: 103_200, 5: 111_500, 6: 119_750, 7: 128_000, 8: 136_250 },
+  Genesee:    { 1: 46_850, 2: 53_550, 3: 60_250, 4: 66_900, 5: 72_300, 6: 77_650, 7: 83_000, 8: 88_350 },
+  Monroe:     { 1: 53_350, 2: 60_950, 3: 68_550, 4: 76_150, 5: 82_250, 6: 88_350, 7: 94_450, 8: 100_550 },
 };
 
 // ── Helper ──────────────────────────────────────────────────────────────────
@@ -160,75 +202,103 @@ function getIncomeLimit(
   return table[capped] ?? table[4];
 }
 
+// Washtenaw is a MSHDA targeted county in full. Elsewhere, targeted status is
+// set at the city or township level.
+function isMshdaTargeted(p: BuyerProfile): boolean {
+  if (p.county === "Washtenaw") return true;
+  const city = p.city.trim().toLowerCase();
+  return MSHDA_TARGETED_CITIES[p.county].some((c) => c.toLowerCase() === city);
+}
+
+function mshdaIncomeLimit(p: BuyerProfile): number {
+  const row = (isMshdaTargeted(p) ? MSHDA_TARGETED : MSHDA_NON_TARGETED)[
+    p.county
+  ];
+  return p.householdSize >= 3 ? row.large : row.small;
+}
+
 // ── Programs ────────────────────────────────────────────────────────────────
 
 export const programs: GrantProgram[] = [
-  {
-    id: "mshda-mi-dpa",
-    name: "MSHDA MI DPA",
-    amount: "Up to $7,500",
-    type: "forgivable-loan",
-    description:
-      "Michigan's primary down payment assistance program. Provides up to $7,500 as a 0% interest second mortgage, forgiven over time. Available statewide when paired with an MSHDA first mortgage.",
-    highlights: [
-      "0% interest, no monthly payments",
-      "Forgiven after remaining in the home",
-      "Pairs with MSHDA first mortgage",
-      "Available statewide",
-    ],
-    requirements: [
-      "Must use an MSHDA-approved lender",
-      "Household income under $168,400",
-      "Credit score 640+",
-      "Homebuyer education course required",
-      "Primary residence only",
-    ],
-    url: "https://www.michigan.gov/mshda/homeownership/mi-home-loan",
-    qualify: (p) => {
-      const missing: string[] = [];
-      if (p.annualIncome > MSHDA_INCOME_LIMIT)
-        missing.push("Household income must be under $168,400");
-      if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
-        missing.push("Credit score of 640+ required");
-      if (creditUnknown(p.creditScore))
-        missing.push("Credit score of 640+ required, verify yours before applying");
-      if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $566,355");
-      return { eligible: missing.length === 0, missing };
-    },
-  },
   {
     id: "mshda-10k-dpa",
     name: "MSHDA MI 10K DPA",
     amount: "Up to $10,000",
     type: "forgivable-loan",
     description:
-      "MSHDA's MI 10K DPA provides up to $10,000 as a 0% interest second mortgage, forgiven over time. As of 2026 it is available statewide across all 83 Michigan counties (previously limited to ~236 targeted zip codes). Designed for low-to-moderate-income buyers.",
+      "MSHDA's MI 10K DPA is Michigan's primary down payment assistance program, providing up to $10,000 as a 0% interest second mortgage with no monthly payments. It is available statewide across all 83 counties and must be paired with a MSHDA MI Home Loan first mortgage. Repayment is deferred until you sell, refinance, pay off the first mortgage, or stop occupying the home. It replaced MSHDA's older $7,500 MI DPA program, which was discontinued in May 2023.",
     highlights: [
-      "$10,000 in down payment assistance",
-      "0% interest, forgiven over time",
-      "Now available statewide (expanded in 2026)",
-      "Pairs with MSHDA first mortgage",
+      "$10,000 in down payment, closing cost, and prepaid assistance",
+      "0% interest, no monthly payments, repayment deferred",
+      "Available statewide in all 83 counties",
+      "Pairs with a MSHDA MI Home Loan first mortgage",
     ],
     requirements: [
-      "Available statewide as of 2026",
-      "Household income under $113,300",
-      "Credit score 640+",
       "Must use an MSHDA-approved lender",
+      "First-time homebuyer, or any buyer in a MSHDA targeted area",
+      "Household income under the MSHDA limit for your county and household size",
+      "Sales price under $566,355 statewide",
+      "Credit score 640+ (660+ for multi-section manufactured homes)",
+      "No more than $20,000 in liquid cash assets",
       "Homebuyer education course required",
     ],
-    url: "https://www.michigan.gov/mshda/homeownership/mi-home-loan",
+    url: "https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan",
     qualify: (p) => {
       const missing: string[] = [];
-      if (p.annualIncome > MSHDA_10K_INCOME_LIMIT)
-        missing.push("Household income must be under $113,300");
+      const limit = mshdaIncomeLimit(p);
+      const sizeLabel = p.householdSize >= 3 ? "3 or more people" : "1 to 2 people";
+      if (p.annualIncome > limit)
+        missing.push(
+          `Household income must be under $${limit.toLocaleString()} for a household of ${sizeLabel} in ${p.county} County`
+        );
+      if (!p.isFirstTimeBuyer && !isMshdaTargeted(p))
+        missing.push(
+          "Must be a first-time homebuyer, repeat buyers only qualify in MSHDA targeted areas"
+        );
       if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required");
       if (creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ required, verify yours before applying");
-      if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
+      if (p.purchasePrice > MSHDA_PURCHASE_LIMIT)
         missing.push("Purchase price must be under $566,355");
-      // As of 2026 the MI 10K DPA is available statewide, the targeted-zip restriction no longer applies
+      return { eligible: missing.length === 0, missing };
+    },
+  },
+  {
+    id: "mshda-mcc",
+    name: "MSHDA Mortgage Credit Certificate",
+    amount: "Up to $2,000/year",
+    type: "rate-reduction",
+    description:
+      "The MSHDA Mortgage Credit Certificate turns 20% of the mortgage interest you pay each year into a dollar-for-dollar federal tax credit, up to $2,000 annually, for the life of the loan. It is not down payment money, it lowers what you owe the IRS every year you hold the mortgage. The MCC must be applied for and approved through an approved MCC lender before you close.",
+    highlights: [
+      "20% of annual mortgage interest as a federal tax credit",
+      "Up to $2,000 back every year for the life of the loan",
+      "Available statewide through approved MCC lenders",
+      "Can be layered with down payment assistance",
+    ],
+    requirements: [
+      "Must apply through an approved MCC lender before closing",
+      "First-time homebuyer, or any buyer in a MSHDA targeted area",
+      "Household income under the MSHDA limit for your county and household size",
+      "Sales price under $566,355 statewide",
+      "Primary residence only",
+    ],
+    url: "https://www.michigan.gov/mshda/pathway-to-housing/mortgage-credit-certificate-program",
+    qualify: (p) => {
+      const missing: string[] = [];
+      const limit = mshdaIncomeLimit(p);
+      const sizeLabel = p.householdSize >= 3 ? "3 or more people" : "1 to 2 people";
+      if (p.annualIncome > limit)
+        missing.push(
+          `Household income must be under $${limit.toLocaleString()} for a household of ${sizeLabel} in ${p.county} County`
+        );
+      if (!p.isFirstTimeBuyer && !isMshdaTargeted(p))
+        missing.push(
+          "Must be a first-time homebuyer, repeat buyers only qualify in MSHDA targeted areas"
+        );
+      if (p.purchasePrice > MSHDA_PURCHASE_LIMIT)
+        missing.push("Purchase price must be under $566,355");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -238,36 +308,29 @@ export const programs: GrantProgram[] = [
     amount: "~1% lower interest rate",
     type: "rate-reduction",
     description:
-      "MSHDA's Rate Relief Mortgage buys down the interest rate by a full percentage point for eligible first-time homebuyers, using proceeds from a bond purchased by FHLBank Indianapolis. At launch this dropped the typical MSHDA-with-DPA rate from about 6.375% to 5.375%, roughly $100/month lower on an average MSHDA loan. Limited funding, first-come first-served.",
+      "MSHDA's Rate Relief Mortgage bought down the interest rate by a full percentage point for eligible first-time homebuyers, funded by a $50 million bond purchased by FHLBank Indianapolis. At launch it dropped the typical MSHDA-with-DPA rate from about 6.375% to 5.375%, roughly $100 a month lower on an average MSHDA loan. All program funds have now been exhausted and MSHDA is no longer accepting applications. Worth monitoring in case the bond is renewed.",
     highlights: [
       "Interest rate reduced by about a full percentage point",
-      "Can be paired with MSHDA down payment assistance",
+      "Could be paired with MSHDA down payment assistance",
       "Lower monthly payment for the life of the loan",
-      "Limited bond funding, available while it lasts",
+      "Program closed, funds exhausted",
     ],
     requirements: [
       "First-time homebuyer",
       "Household income at or below 80% of area median income",
       "Credit score 640+",
-      "Must use a MSHDA-approved lender that is also an FHLBank Indianapolis member",
-      "Primary residence only",
+      "Sales price could not exceed $224,500",
+      "Program funding currently exhausted",
     ],
     url: "https://www.michigan.gov/mshda/pathway-to-housing/mshda-rate-relief-mortgage",
-    qualify: (p) => {
-      const missing: string[] = [];
-      if (!p.isFirstTimeBuyer)
-        missing.push("Must be a first-time homebuyer");
-      const amiTable = AMI_80_BY_COUNTY[p.county];
-      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
-      if (p.annualIncome > amiLimit)
-        missing.push(
-          `Household income must be at or below $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
-        );
-      if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
-        missing.push("Credit score of 640+ required");
-      if (creditUnknown(p.creditScore))
-        missing.push("Credit score of 640+ required, verify yours before applying");
-      return { eligible: missing.length === 0, missing };
+    qualify: () => {
+      // Funds exhausted, always near-miss so buyers know the program exists
+      return {
+        eligible: false,
+        missing: [
+          "Funding currently exhausted and the program is closed to new applications as of September 2026; check back",
+        ],
+      };
     },
   },
   {
@@ -276,17 +339,20 @@ export const programs: GrantProgram[] = [
     amount: "Up to $5,000",
     type: "grant",
     description:
-      "Oakland County Community Development provides a direct grant of up to $5,000 for down payment and closing costs. This does not need to be repaid. Available to income-qualified first-time buyers purchasing in Oakland County.",
+      "The Oakland County Treasurer's Office, in partnership with Independent Bank, offers a $5,000 grant toward down payment and closing costs for first-time buyers purchasing in Oakland County. It does not need to be repaid, and it can be stacked with other assistance. The mortgage itself has to be financed through Independent Bank, and funds run on a first-come first-served basis until they are exhausted.",
     highlights: [
       "True grant: does not need to be repaid",
-      "Up to $5,000 for down payment or closing costs",
-      "Specifically for Oakland County purchases",
+      "$5,000 toward down payment or closing costs",
+      "Can be combined with MSHDA and other programs",
+      "Income limit is a generous 120% of Oakland County AMI",
     ],
     requirements: [
-      "Must be a first-time homebuyer",
-      "Purchasing in Oakland County",
-      "Income limits apply (based on household size)",
-      "Homebuyer education course required",
+      "Must be a first-time homebuyer (no ownership in the past three years)",
+      "Purchasing in Oakland County as your year-round primary residence",
+      "Household income at or below 120% of Oakland County AMI ($123,240)",
+      "Mortgage must be financed through Independent Bank",
+      "Must contribute at least $1,000 of your own funds",
+      "Pre-purchase counseling course required",
     ],
     url: "https://www.oakgov.com/government/oakland-county-treasurer-s-office/financial-empowerment-center/homebuyer-assistance-program",
     qualify: (p) => {
@@ -295,13 +361,10 @@ export const programs: GrantProgram[] = [
         missing.push("Property must be in Oakland County");
       if (!p.isFirstTimeBuyer)
         missing.push("Must be a first-time homebuyer");
-      const limit = getIncomeLimit(OAKLAND_COUNTY_INCOME, p.householdSize);
-      if (p.annualIncome > limit)
+      if (p.annualIncome > OAKLAND_DPA_INCOME_LIMIT)
         missing.push(
-          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
+          `Household income must be at or below $${OAKLAND_DPA_INCOME_LIMIT.toLocaleString()} (120% of Oakland County AMI)`
         );
-      if (p.purchasePrice > OAKLAND_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $294,600");
       return { eligible: missing.length === 0, missing };
     },
   },
@@ -309,105 +372,112 @@ export const programs: GrantProgram[] = [
     id: "detroit-dpa",
     name: "Detroit Down Payment Assistance",
     amount: "Up to $25,000",
-    type: "forgivable-loan",
+    type: "grant",
     description:
-      "The City of Detroit offers up to $25,000 in down payment and closing cost assistance for buyers purchasing within the city. One of the most generous municipal DPA programs in the state.",
+      "The City of Detroit offers up to $25,000 in down payment, prepaid, and closing cost assistance for buyers purchasing within the city. It is one of the most generous municipal programs in the state, backed by roughly $9 million in federal CDBG and CDBG-DR funding, and it is currently accepting applications.",
     highlights: [
       "Up to $25,000, one of Michigan's largest",
-      "Forgivable over 5-10 years",
+      "Does not need to be repaid if you stay three years",
       "Available for purchases within Detroit city limits",
       "Can be combined with other programs",
     ],
     requirements: [
       "Property must be in Detroit city limits",
-      "Must have lived in Detroit for the last 12 months (or lost a Detroit home to tax foreclosure between 2010-2016)",
+      "Must have lived in Detroit for the last 12 months",
+      "Must not have owned property in the last three years (or lost a Detroit home to tax foreclosure between 2010 and 2016)",
       "Household income at or below 80% of area median income",
+      "Assistance cannot exceed 50% of the purchase price",
+      "Must remain the principal resident for three years or repay pro rata",
       "Homebuyer education course required",
-      "Must be primary residence",
     ],
-    url: "https://detroitmi.gov/departments/housing-and-revitalization-department",
+    url: "https://detroitmi.gov/departments/housing-and-revitalization-department/homebuyers/detroit-down-payment-assistance-program",
     qualify: (p) => {
       const missing: string[] = [];
       if (!p.livesInDetroit)
         missing.push("Property must be within Detroit city limits");
       if (!p.isFirstTimeBuyer)
-        missing.push("Must be a first-time homebuyer");
+        missing.push("Must not have owned property in the last three years");
       const limit = getIncomeLimit(DETROIT_DPA_INCOME, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
           `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
-      if (p.purchasePrice > DETROIT_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $265,000");
       return { eligible: missing.length === 0, missing };
     },
   },
   {
     id: "wayne-county-dpa",
     name: "Wayne County DPA",
-    amount: "Up to $7,500",
+    amount: "Up to $13,999",
     type: "forgivable-loan",
     description:
-      "Wayne County provides forgivable down payment assistance for income-qualified buyers purchasing in Wayne County (outside Detroit, which has its own program).",
+      "Wayne County provides a fixed, 0% interest forgivable loan of up to $13,999 for income-qualified buyers purchasing in participating Wayne County communities. The loan is forgiven after five years of ownership and occupancy. Detroit runs its own separate program, and several larger Wayne County cities administer their own funds instead.",
     highlights: [
-      "Up to $7,500 forgivable",
-      "Available throughout Wayne County",
+      "Up to $13,999, 0% interest",
+      "Forgiven after five years of ownership",
+      "Roughly 30 participating Wayne County communities",
       "Can be layered with MSHDA programs",
     ],
     requirements: [
-      "Purchasing in Wayne County",
-      "Income limits apply (based on household size)",
-      "First-time buyer preferred",
-      "Homebuyer education required",
+      "Purchasing in a participating Wayne County community",
+      "Household income at or below 80% of area median income",
+      "No ownership interest in real estate in the past three years",
+      "HUD-approved homebuyer education course required",
+      "Mortgage pre-approval required before applying",
     ],
-    url: "https://www.waynecounty.com/departments/lsh/community-development.aspx",
+    url: "https://nationalfaith.org/dpa/wayne/",
     qualify: (p) => {
       const missing: string[] = [];
       if (p.county !== "Wayne")
         missing.push("Property must be in Wayne County");
+      if (WAYNE_DPA_EXCLUDED_CITIES.includes(p.city))
+        missing.push(
+          `${p.city} runs its own assistance program and is not covered by the countywide Wayne County DPA`
+        );
       if (!p.isFirstTimeBuyer)
-        missing.push("Must be a first-time homebuyer");
-      const limit = getIncomeLimit(WAYNE_COUNTY_INCOME, p.householdSize);
+        missing.push("Must not have owned real estate in the past three years");
+      const limit = getIncomeLimit(AMI_80_BY_COUNTY.Wayne, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
           `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
-      if (p.purchasePrice > MSHDA_TARGET_PURCHASE_LIMIT)
-        missing.push("Purchase price must be under $566,355");
       return { eligible: missing.length === 0, missing };
     },
   },
   {
     id: "national-faith-wayne",
     name: "National Faith Homebuyers (Wayne County)",
-    amount: "Up to $14,999",
+    amount: "Up to $13,999",
     type: "forgivable-loan",
     description:
-      "National Faith Homebuyers provides up to $14,999 in down payment and closing cost assistance for buyers purchasing in Wayne County. 0% interest, forgivable after 5 years of occupancy.",
+      "National Faith Homebuyers administers down payment and closing cost assistance of up to $13,999 for first-time buyers in about 30 Wayne County communities. It is a 0% interest loan, fully forgiven after five years of occupancy. Funds are first-come, first-served, so availability moves through the year.",
     highlights: [
-      "Up to $14,999 in assistance",
-      "0% interest, forgivable after 5 years",
-      "Forgivable loan structure",
+      "Up to $13,999 in assistance",
+      "0% interest, forgiven after five years",
       "Nonprofit administered",
-      "Wayne County purchases",
+      "Roughly 30 participating Wayne County communities",
     ],
     requirements: [
-      "Purchasing in Wayne County",
-      "Income limits apply",
-      "Homebuyer education required",
-      "First-time buyer",
+      "Purchasing in a participating Wayne County community",
+      "Household income at or below 80% of area median income",
+      "No ownership interest in real estate in the past three years",
+      "HUD-approved homebuyer education course required",
     ],
-    url: "https://www.nationalfaith.org",
+    url: "https://nationalfaith.org/dpa/wayne/",
     qualify: (p) => {
       const missing: string[] = [];
       if (p.county !== "Wayne")
         missing.push("Property must be in Wayne County");
+      if (WAYNE_DPA_EXCLUDED_CITIES.includes(p.city))
+        missing.push(
+          `${p.city} is not among the participating communities for this program`
+        );
       if (!p.isFirstTimeBuyer)
-        missing.push("Must be a first-time homebuyer");
-      const limit = getIncomeLimit(WAYNE_COUNTY_INCOME, p.householdSize);
+        missing.push("Must not have owned real estate in the past three years");
+      const limit = getIncomeLimit(AMI_80_BY_COUNTY.Wayne, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
-          `Household income must be under $${limit.toLocaleString()} for ${p.householdSize}-person household`
+          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
       return { eligible: missing.length === 0, missing };
     },
@@ -416,31 +486,37 @@ export const programs: GrantProgram[] = [
     id: "genesee-county-dpa",
     name: "Genesee County GCMPC Grant",
     amount: "Up to $10,000",
-    type: "grant",
+    type: "forgivable-loan",
     description:
-      "The Genesee County Metropolitan Planning Commission offers up to $10,000 in down payment and closing cost assistance. Designed for low-to-moderate income first-time homebuyers in Genesee County.",
+      "The Genesee County Metropolitan Planning Commission offers up to $10,000 in down payment and closing cost assistance as a 0% interest loan, forgiven after five years in the home. It covers Genesee County outside the cities of Flint and Clio and the villages of Otter Lake and Lennon, which administer their own funds.",
     highlights: [
       "Up to $10,000 in assistance",
-      "Available in Genesee County",
+      "0% interest, forgiven after five years",
+      "Genesee County outside Flint and Clio",
       "First-time buyer program",
     ],
     requirements: [
-      "Purchasing in Genesee County",
+      "Purchasing in Genesee County, excluding Flint, Clio, Otter Lake, and Lennon",
       "First-time homebuyer",
-      "Income limits apply",
-      "Homebuyer education required",
+      "Household income at or below 80% of area median income",
+      "Must contribute 1% of the sales price or $500, whichever is greater",
+      "Eight hours of housing counseling required",
     ],
-    url: "https://www.gcmpc.org",
+    url: "https://gcmpc.org/down-payment-assistance/",
     qualify: (p) => {
       const missing: string[] = [];
       if (p.county !== "Genesee")
         missing.push("Property must be in Genesee County");
+      if (GENESEE_DPA_EXCLUDED_CITIES.includes(p.city))
+        missing.push(
+          `${p.city} is excluded from the countywide GCMPC program and runs its own funds`
+        );
       if (!p.isFirstTimeBuyer)
         missing.push("Must be a first-time homebuyer");
-      const limit = getIncomeLimit(GENESEE_INCOME, p.householdSize);
+      const limit = getIncomeLimit(AMI_80_BY_COUNTY.Genesee, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
-          `Household income must be under $${limit.toLocaleString()} for ${p.householdSize}-person household`
+          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
       return { eligible: missing.length === 0, missing };
     },
@@ -448,30 +524,63 @@ export const programs: GrantProgram[] = [
   {
     id: "washtenaw-oced",
     name: "Washtenaw County OCED DPA",
-    amount: "Up to $10,000",
+    amount: "Varies by cycle",
     type: "forgivable-loan",
     description:
-      "Washtenaw County Office of Community and Economic Development provides down payment assistance for income-qualified homebuyers purchasing within the county.",
+      "The Washtenaw County Office of Community and Economic Development provides down payment assistance for income-qualified buyers purchasing within the county. Funding opens in cycles and the award structure varies between a forgivable loan and a deferred second mortgage, so confirm the current terms and application window with OCED before counting on it.",
     highlights: [
-      "Up to $10,000 in assistance",
-      "Forgivable loan",
+      "Forgivable loan or deferred second mortgage",
       "Washtenaw County purchases",
+      "Funding opens in cycles, confirm current window",
     ],
     requirements: [
       "Purchasing in Washtenaw County",
-      "Income limits apply",
+      "Household income at or below 80% of area median income",
       "Homebuyer education required",
+      "Award amount and terms vary by funding cycle",
     ],
     url: "https://www.washtenaw.org/839/Office-of-Community-Economic-Developmen",
     qualify: (p) => {
       const missing: string[] = [];
       if (p.county !== "Washtenaw")
         missing.push("Property must be in Washtenaw County");
-      // Washtenaw uses HUD limits similar to Oakland
-      const limit = getIncomeLimit(OAKLAND_COUNTY_INCOME, p.householdSize);
+      const limit = getIncomeLimit(AMI_80_BY_COUNTY.Washtenaw, p.householdSize);
       if (p.annualIncome > limit)
         missing.push(
-          `Household income must be under $${limit.toLocaleString()} for ${p.householdSize}-person household`
+          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
+        );
+      return { eligible: missing.length === 0, missing };
+    },
+  },
+  {
+    id: "warren-dpa",
+    name: "City of Warren Homebuyer Assistance",
+    amount: "Up to $25,000",
+    type: "forgivable-loan",
+    description:
+      "The City of Warren covers half of the required down payment plus up to $3,500 in closing costs, to a maximum of $25,000 per household based on demonstrated need. It is a federally funded HOME program, structured as a deferred second mortgage that is fully forgiven at the end of the affordability period: five years for awards under $15,000, ten years for awards between $15,000 and $25,000.",
+    highlights: [
+      "Up to $25,000 based on need",
+      "No payments, fully forgiven after 5 to 10 years",
+      "Covers half your down payment plus closing costs",
+      "The largest local program in Macomb County",
+    ],
+    requirements: [
+      "Purchasing in the City of Warren",
+      "Household income at or below 80% of area median income",
+      "Must be your primary residence",
+      "Primary mortgage lender must meet city eligibility criteria",
+      "Homebuyer education required",
+    ],
+    url: "https://www.cityofwarren.org/community-development/",
+    qualify: (p) => {
+      const missing: string[] = [];
+      if (p.county !== "Macomb" || p.city !== "Warren")
+        missing.push("Property must be in the City of Warren");
+      const limit = getIncomeLimit(AMI_80_BY_COUNTY.Macomb, p.householdSize);
+      if (p.annualIncome > limit)
+        missing.push(
+          `Household income must be under $${limit.toLocaleString()} for a ${p.householdSize}-person household`
         );
       return { eligible: missing.length === 0, missing };
     },
@@ -499,7 +608,7 @@ export const programs: GrantProgram[] = [
       // Funding exhausted, always near-miss so users know it exists
       return {
         eligible: false,
-        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of August 2026; check back"],
+        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of September 2026; check back"],
       };
     },
   },
@@ -545,7 +654,7 @@ export const programs: GrantProgram[] = [
     ],
     requirements: [
       "Property must be in a USDA-eligible area",
-      "Income limits apply (2026 standard limit $119,850 for 1-4 person households, $158,250 for 5-8; higher in some high-cost areas). Updated by USDA July 2026.",
+      "Income limits apply. In Michigan the 2026 limits are $122,800 for 1 to 4 person households and $162,100 for 5 to 8 person households, higher in some high-cost areas.",
       "Primary residence only",
       "Credit score 640+ recommended",
     ],
@@ -556,6 +665,12 @@ export const programs: GrantProgram[] = [
       if (!ruralCounties.includes(p.county))
         missing.push(
           "Property must be in a USDA-eligible rural area (most likely in Monroe, Livingston, or Genesee County)"
+        );
+      const usdaLimit =
+        p.householdSize >= 5 ? USDA_INCOME_LARGE : USDA_INCOME_SMALL;
+      if (p.annualIncome > usdaLimit)
+        missing.push(
+          `Household income must be under $${usdaLimit.toLocaleString()} for a ${p.householdSize}-person household in Michigan`
         );
       if (!creditAtLeast(p.creditScore, 640) && !creditUnknown(p.creditScore))
         missing.push("Credit score of 640+ recommended");
@@ -634,23 +749,23 @@ export const programs: GrantProgram[] = [
   {
     id: "chase-homebuyer-grant",
     name: "Chase Homebuyer Grant",
-    amount: "Up to $7,500",
+    amount: "Up to $5,000",
     type: "grant",
     description:
-      "Chase offers up to $7,500 in grant funds toward down payment and closing costs for homebuyers purchasing in eligible areas. This is a true grant that does not need to be repaid. Available through Chase mortgage origination.",
+      "Chase offers a grant toward down payment, closing costs, or buying down your rate for purchases in eligible census tracts. It is a true grant that does not need to be repaid. Chase raised the grant to $7,500 in 15 metro areas, but Michigan is not among them, so Detroit-area buyers fall under the $5,000 tier. It applies to DreaMaker, standard agency, FHA, and VA mortgages originated through Chase.",
     highlights: [
       "True grant, no repayment required",
-      "Up to $7,500 toward down payment or closing costs",
+      "$5,000 toward down payment, closing costs, or rate buy-down",
       "Available in eligible census tracts",
       "Must originate mortgage through Chase",
     ],
     requirements: [
-      "Property must be in a Chase-eligible area",
+      "Property must be in a Chase-eligible census tract",
       "Must use Chase for your mortgage",
       "Primary residence only",
       "Minimum credit score requirements apply",
     ],
-    url: "https://www.chase.com/personal/mortgage/mortgage-assistance",
+    url: "https://www.chase.com/personal/mortgage/education/financing-a-home/chase-homebuyer-grant",
     qualify: (p) => {
       const missing: string[] = [];
       if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
@@ -667,28 +782,28 @@ export const programs: GrantProgram[] = [
     amount: "Up to $10,000",
     type: "grant",
     description:
-      "Wells Fargo's Homebuyer Access grant provides up to $10,000 toward down payment for buyers in eligible areas. No repayment required. Must originate your mortgage through Wells Fargo.",
+      "Wells Fargo's Homebuyer Access grant provides $10,000 toward down payment for buyers at or below 120% of area median income in underserved communities. It never has to be repaid. The program runs in 21 metro areas nationwide and no Michigan market is currently on that list, so Southeast Michigan buyers are not eligible today. Worth rechecking if Wells Fargo expands again.",
     highlights: [
       "Up to $10,000 down payment grant",
       "No repayment required",
-      "Available in eligible communities",
-      "Can be combined with other assistance",
+      "Income limit is a generous 120% of area median income",
+      "Not currently offered in any Michigan metro",
     ],
     requirements: [
-      "Property must be in a Wells Fargo-eligible area",
-      "Must use Wells Fargo for your mortgage",
-      "Income limits may apply",
+      "Property must be in an eligible Wells Fargo metro area",
+      "Must use Wells Fargo for a fixed-rate conventional mortgage",
+      "Household income at or below 120% of area median income",
       "Primary residence only",
     ],
     url: "https://www.wellsfargo.com/mortgage/homebuyer-access-grant/",
-    qualify: (p) => {
-      const missing: string[] = [];
-      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
-        missing.push("Credit score of 620+ typically required");
-      if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply, verify yours before applying");
-      missing.push("Property must be in a Wells Fargo-eligible area, ask a Wells Fargo loan officer to verify");
-      return { eligible: false, missing };
+    qualify: () => {
+      // Michigan is not among the 21 eligible metro areas as of September 2026
+      return {
+        eligible: false,
+        missing: [
+          "Not currently offered in any Michigan metro area; confirm with a Wells Fargo loan officer in case the program expands",
+        ],
+      };
     },
   },
   {
@@ -697,32 +812,27 @@ export const programs: GrantProgram[] = [
     amount: "Up to $5,000",
     type: "grant",
     description:
-      "Wells Fargo offers up to $5,000 in closing cost credits for income-qualified buyers at or below 80% of area median income. Can be combined with the Homebuyer Access grant for additional savings.",
+      "Wells Fargo offers up to $5,000 in closing cost credits for buyers at or below 80% of area median income, stackable with the Homebuyer Access grant for up to $15,000 combined. Like Homebuyer Access, it is limited to Wells Fargo's eligible metro areas, and no Michigan market is currently on that list.",
     highlights: [
       "Up to $5,000 toward closing costs",
       "For buyers at or below 80% AMI",
       "Can combine with Homebuyer Access grant",
-      "No repayment required",
+      "Not currently offered in any Michigan metro",
     ],
     requirements: [
       "Household income at or below 80% AMI",
+      "Property must be in an eligible Wells Fargo metro area",
       "Must use Wells Fargo for your mortgage",
       "Primary residence only",
     ],
     url: "https://www.wellsfargo.com/mortgage/homebuyer-access-grant/",
-    qualify: (p) => {
-      const missing: string[] = [];
-      const amiTable = AMI_80_BY_COUNTY[p.county];
-      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
-      if (p.annualIncome > amiLimit)
-        missing.push(
-          `Household income must be at or below $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
-        );
-      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
-        missing.push("Credit score of 620+ typically required");
-      if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply, verify yours before applying");
-      return { eligible: missing.length === 0, missing };
+    qualify: () => {
+      return {
+        eligible: false,
+        missing: [
+          "Not currently offered in any Michigan metro area; confirm with a Wells Fargo loan officer in case the program expands",
+        ],
+      };
     },
   },
   {
@@ -762,24 +872,25 @@ export const programs: GrantProgram[] = [
   },
   {
     id: "honor-cu-launch",
-    name: "Honor Credit Union Launch DPA",
+    name: "FHLBank Indianapolis Launch DPA",
     amount: "Up to $20,000",
     type: "forgivable-loan",
     description:
-      "Honor Credit Union's Launch program offers up to $20,000 in down payment assistance for first-time, income-qualified homebuyers. Designed for buyers at or below 80% AMI. Must originate your mortgage through Honor CU.",
+      "Launch is FHLBank Indianapolis's down payment assistance program, offering up to $20,000 toward down payment, closing costs, and counseling for first-time buyers at or below 80% of area median income. You access it through a participating FHLBank Indianapolis member lender, several of which lend across Southeast Michigan. Funds are first-come, first-served and carry a five-year retention period.",
     highlights: [
       "Up to $20,000 in assistance",
-      "For first-time homebuyers",
-      "Income-qualified (80% AMI)",
-      "Must use Honor Credit Union",
+      "For first-time homebuyers at or below 80% AMI",
+      "Five-year retention period, then fully yours",
+      "Offered through FHLBank Indianapolis member lenders",
     ],
     requirements: [
       "First-time homebuyer",
-      "Household income at or below 80% AMI",
-      "Must originate mortgage through Honor CU",
-      "Property in Honor CU service area",
+      "Household income at or below 80% of area median income",
+      "Must originate through a participating FHLBank Indianapolis member lender",
+      "Pre-purchase homebuyer education required",
+      "Funds are first-come, first-served, confirm the current round is still open",
     ],
-    url: "https://www.honorcu.com",
+    url: "https://www.fhlbi.com/services/voluntary-programs/",
     qualify: (p) => {
       const missing: string[] = [];
       if (!p.isFirstTimeBuyer)
@@ -803,24 +914,30 @@ export const programs: GrantProgram[] = [
     amount: "Up to $25,000",
     type: "grant",
     description:
-      "The Federal Home Loan Bank HomeBoost program provides up to $25,000 in down payment and closing cost assistance. Targeted toward minority and first-generation homebuyers. Available through participating FHLB member lenders.",
+      "FHLBank Indianapolis's HomeBoost program provides up to $25,000 in down payment, closing cost, and counseling assistance for first-generation, first-time homebuyers in Michigan and Indiana at or below 120% of area median income. The 2026 round opened July 8 with a $5.3 million allocation, awarded first-come first-served through participating member lenders.",
     highlights: [
       "Up to $25,000 in assistance",
-      "Targeted toward minority and first-gen buyers",
-      "Available through participating lenders",
-      "Grant, no repayment required",
+      "For first-generation, first-time homebuyers",
+      "Generous 120% AMI income limit",
+      "2026 round open, $5.3 million allocated",
     ],
     requirements: [
-      "Minority or first-generation homebuyer",
-      "Must use a participating FHLB member lender",
-      "Income limits may apply",
-      "Primary residence only",
+      "First-generation homebuyer (parents never owned a home, or you aged out of foster care or became emancipated)",
+      "First-time homebuyer",
+      "Household income at or below 120% of area median income",
+      "Must use a participating FHLBank Indianapolis member lender",
+      "Must contribute at least $500 toward the purchase",
+      "Pre-purchase homebuyer education required",
     ],
-    url: "https://www.fhlbi.com",
+    url: "https://www.fhlbi.com/services/community-programs/homeboost-down-payment-assistance-/",
     qualify: (p) => {
       const missing: string[] = [];
-      // Cannot determine minority/first-gen status from current profile
-      missing.push("Must be a minority or first-generation homebuyer, ask your lender about FHLB HomeBoost eligibility");
+      // First-generation status is not captured in the intake form
+      if (!p.isFirstTimeBuyer)
+        missing.push("Must be a first-time homebuyer");
+      missing.push(
+        "Must be a first-generation homebuyer, ask a FHLBank Indianapolis member lender to confirm HomeBoost eligibility"
+      );
       return { eligible: false, missing };
     },
   },
