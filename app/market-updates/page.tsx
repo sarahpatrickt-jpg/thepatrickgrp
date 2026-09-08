@@ -11,26 +11,32 @@ export const metadata: Metadata = {
     url: "https://www.thepatrickgrp.com/market-updates",
     title: "Southeast Michigan Market Reports",
     description:
-      "Monthly Southeast Michigan market reports: median price, price per sq ft, and days on market across five SE Michigan counties.",
+      "Monthly Southeast Michigan market reports: median price, price per sq ft, and days on market across six SE Michigan counties.",
     siteName: "The Patrick Group",
   },
 };
 
 // ── Latest data snapshot (April 2026) ────────────────────────────────────────
 const LATEST = {
-  label: "May 2026",
-  href: "/market-updates/may-2026",
-  headline: "Prices up across all five counties. Wayne leads YoY at +6.2%. Livingston is the only county where DOM dropped.",
+  label: "August 2026",
+  href: "/market-updates/august-2026",
+  headline: "Prices up in all six counties and sellers got full asking price everywhere. Homes now average about a month to sell, with the seasonal slowdown ahead.",
   counties: [
-    { name: "Oakland",    medianPrice: 368000, priceYoY: 3.7, dom: 13, domYoY:  18.2 },
-    { name: "Macomb",     medianPrice: 270000, priceYoY: 3.8, dom: 16, domYoY:  23.1 },
-    { name: "Wayne",      medianPrice: 206000, priceYoY: 6.2, dom: 35, domYoY:   6.1 },
-    { name: "Washtenaw",  medianPrice: 420000, priceYoY: 2.7, dom: 33, domYoY:   6.5 },
-    { name: "Livingston", medianPrice: 400000, priceYoY: 1.4, dom: 36, domYoY:  -2.7 },
+    { name: "Livingston", medianPrice: 439000, priceYoY: 12.3, dom: 27, invYoY: -3.8 },
+    { name: "Oakland",    medianPrice: 395000, priceYoY:  2.6, dom: 25, invYoY: 20.0 },
+    { name: "St. Clair",  medianPrice: 283500, priceYoY: 16.9, dom: 35, invYoY:  3.3 },
+    { name: "Macomb",     medianPrice: 281000, priceYoY:  1.3, dom: 29, invYoY: 21.7 },
+    { name: "Genesee",    medianPrice: 239900, priceYoY:  6.6, dom: 34, invYoY: 10.0 },
+    { name: "Wayne",      medianPrice: 230000, priceYoY:  7.0, dom: 31, invYoY: 11.4 },
   ],
 };
 
 const PAST_REPORTS = [
+  {
+    href: "/market-updates/may-2026",
+    month: "May 2026",
+    summary: "Prices up across all five counties. Wayne led YoY at +6.2%. Livingston was the only county where DOM dropped.",
+  },
   {
     href: "/market-updates/april-2026",
     month: "April 2026",
@@ -152,7 +158,7 @@ export default function MarketUpdatesPage() {
           </div>
 
           {/* County stat cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-0">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0">
             {LATEST.counties.map((c, i) => (
               <div
                 key={c.name}
@@ -204,10 +210,16 @@ export default function MarketUpdatesPage() {
                     className={eyebrow + " mt-1"}
                     style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)", fontSize: "8px" }}
                   >
-                    Days on Market
+                    Avg Days on Market
+                  </p>
+                  <p
+                    className={eyebrow + " mt-2"}
+                    style={{ color: "var(--ink-3)", fontFamily: "var(--font-mono, monospace)", fontSize: "8px" }}
+                  >
+                    Homes for Sale
                   </p>
                   <div className="mt-1">
-                    <Trend val={c.domYoY} />
+                    <Trend val={c.invYoY} />
                   </div>
                 </div>
               </div>
