@@ -3827,6 +3827,111 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "cost-of-waiting-13-months-oakland-county-2026",
+    title: "The Number That Matters This Week Is Not 6.71 Percent. It Is 13 Months.",
+    excerpt:
+      "The 30-year fixed hit a 13-month high this week. The more useful number came from a survey: 72 percent of buyers have paused their search, and the average pause is 13 months. In Oakland County, that wait has a price.",
+    date: "2026-09-08",
+    author: "Sarah",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    image: "/images/insights/fed-vote-timing-august-2026.jpg",
+    imageAlt:
+      "Mortgage rate chart and calendar illustrating the cost of waiting for lower rates in Oakland County",
+    relatedSlugs: [
+      "fannie-mae-rate-forecast-cost-of-waiting-2026",
+      "rate-spike-2026-high-oakland-county-sellers",
+      "national-buyers-market-vs-oakland-county-reality-july-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "west-bloomfield-mi",
+      "northville-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The 30-year fixed averaged 6.71 percent in Freddie Mac's September 3 survey, up from 6.66 percent the week before and the highest reading in 13 months. The 15-year came in at 6.04 percent. That is the headline everyone ran, and it is worth knowing. It is not the number I would build a decision around this week.",
+      },
+      {
+        type: "paragraph",
+        text: "The more useful figure came out of a survey. A Neighbors Bank poll of 1,000 adults, fielded in July, found 72 percent of would-be buyers have paused their search waiting on rates. The average pause they described was 13 months. More than half said the number they are holding out for is somewhere around 5 percent. Roughly four in ten said they already regret the delay.",
+      },
+      {
+        type: "h2",
+        text: "Price the Wait Before You Take It",
+      },
+      {
+        type: "paragraph",
+        text: "Oakland County's median single family sale price was $395,000 in Realcomp's June reporting. Put 20 percent down and you are financing $316,000. At 6.71 percent, principal and interest runs roughly $2,041 a month. At 5 percent, the same loan runs roughly $1,696. That $345 gap is what the waiting crowd is playing for, and I want to be fair about it: if 5 percent actually arrives, the wait pays.",
+      },
+      {
+        type: "paragraph",
+        text: "Now the other side of the ledger. Oakland County is tracking 2 to 4 percent appreciation this year, a step down from the 5 percent it posted in 2025. Call it 3 percent, and that same house costs about $11,850 more 13 months from now, which is roughly $2,370 more cash at the table and a bigger loan behind it. Financed at 5 percent, the payment lands near $1,747 instead of $1,696. Waiting still wins on payment, but by less than the sidelined version of the math suggests, and only in the world where the rate shows up. A year ago the 30-year averaged 6.50 percent. Everyone who paused last September is paying 21 basis points more today for the privilege.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "30-Year Fixed",
+            value: "6.71%",
+            note: "Freddie Mac, September 3. Highest in 13 months, and up from 6.50 percent a year ago.",
+          },
+          {
+            label: "Buyers On Pause",
+            value: "72%",
+            note: "Neighbors Bank survey, July 2026. Average intended wait of 13 months.",
+          },
+          {
+            label: "Active Listings, Metro Detroit",
+            value: "25,885",
+            note: "Up 12.6 percent year over year in Realcomp data, a five-year high.",
+          },
+        ],
+      },
+      {
+        type: "callout",
+        label: "The honest version",
+        text: "Waiting is not automatically wrong. Waiting without a number is. If you cannot say what your rate target saves you per month and what 13 months of local appreciation costs you, you have not made a decision. You have deferred one, and the market gets a vote in the meantime.",
+      },
+      {
+        type: "h2",
+        text: "The Local Read",
+      },
+      {
+        type: "paragraph",
+        text: "This is where the national story and the Southeast Michigan story separate. Nationally, the share of listings in pending status just turned slightly negative year over year for the first time since November 2025, and that is being written up as demand cracking. What the same conditions produced locally is choice. Realcomp shows roughly 25,885 active listings across the MLS, up 12.6 percent from last year and the most inventory metro Detroit has carried in five years. At the same time, supply sits at 2.9 months against the 4 to 6 months that describes balance, and the tri-county median was $310,000 in June, up 5.4 percent year over year. Inventory near a five-year high inside a market that is still structurally short is the combination that lets a prepared buyer negotiate without needing prices to break. Prices are not breaking.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Get the rate quoted on your file, not the survey average. Credit profile, down payment, and loan size all move it, sometimes by more than the weekly headline does.",
+          "Have your lender price a permanent buydown against a seller concession. With competition up 12.6 percent, that concession is on the table more often than it was in the spring.",
+          "Underwrite the payment you can carry at today's rate. If 5 percent arrives later, a refinance is a decision you get to make from inside the house rather than from the sidelines.",
+          "Watch days on market on the specific homes you like, not the county average. Sitting inventory is where the negotiating room actually lives.",
+        ],
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Buying",
+          text: "You are shopping the widest selection metro Detroit has offered in five years against a buyer pool where roughly seven in ten of your competitors are sitting this out by choice. That is the trade for a payment you would not have picked. Buy what you can carry at 6.71 percent, negotiate terms and concessions hard while the leverage is there, and treat any future rate relief as upside instead of the plan.",
+        },
+        right: {
+          label: "If You Are Selling",
+          text: "Your competition grew 12.6 percent this year, and a large share of your buyer pool has removed itself from the market on purpose. Pricing to the last comp that closed in May will cost you weeks you cannot get back. Price to what is actually going under contract now, and put money into condition and a rate buydown rather than into waiting for the market to come around to your number.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "Rates moved the wrong way this summer, and they may do it again. The piece you control is whether you know your own numbers before the market decides for you. If you want your specific payment math run against current Oakland County comps, reach the team at thepatrickgrp.com/contact, or start with a valuation at thepatrickgrp.com/home-valuation.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
