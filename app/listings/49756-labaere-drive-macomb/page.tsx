@@ -429,7 +429,7 @@ export default function LabaereLandingPage() {
           Showings Begin September 10
         </p>
         <h2 className="font-display text-3xl md:text-4xl mb-4" style={{ color: "var(--ink)" }}>
-          Get in before it hits the open market.
+          Let&apos;s get you on the schedule.
         </h2>
         <p className="font-editorial italic text-lg mb-8" style={{ color: "var(--ink-3)" }}>
           Listed by Brad Patrick, Realtor®, The Patrick Group at Oak & Stone Real Estate.
