@@ -159,5 +159,6 @@ Awaiting Sarah/Brad (drafted and ready): send Real Producers + Hour Detroit back
 
 ### 2026-09-08 — Featured listing landing page: 49756 Labaere Drive
 - New page `/listings/49756-labaere-drive-macomb` (static route, shadows /listings/[id]) + "Featured Listing" nav tab (desktop + mobile) + sitemap entry.
-- Photos pull live from Spark (`lib/featuredListingPhotos.ts`, StreetName Labaere + zip 48044, revalidate 1h). Realcomp holds Coming Soon records out of the feed until activation, so the gallery self-populates on 09/10; until then the page shows a "gallery goes live Sept 10" call-to-action. Verify photos appeared on 09/10.
+- Photos: the listing's own 27 images live in `public/images/listings/49756-labaere/` (Spark was tried first, but Realcomp withholds Coming Soon records from the feed until activation). MLS watermark bands cropped off; office attribution stays in the page disclaimer. Source files archived at `assets/photos-raw/labaere-2026/`.
+- Photo resolution is ~1000px wide (as supplied). If the photographer's full-res originals turn up, drop them in the same folder with the same filenames for a sharper gallery.
 - When this listing sells: retarget the nav tab href in `components/Nav.tsx` to the next featured listing (comment marks the line).
