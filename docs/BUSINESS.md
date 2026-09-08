@@ -156,3 +156,8 @@ Awaiting Sarah/Brad (drafted and ready): send Real Producers + Hour Detroit back
 | `content/` | gbp-content.md, handoff-christian.md |
 | `landing-pages/`, `listing-presentation/` | Standalone deliverable projects |
 | `website 2/` | OLD design handoff — never edit |
+
+### 2026-09-08 — Featured listing landing page: 49756 Labaere Drive
+- New page `/listings/49756-labaere-drive-macomb` (static route, shadows /listings/[id]) + "Featured Listing" nav tab (desktop + mobile) + sitemap entry.
+- Photos pull live from Spark (`lib/featuredListingPhotos.ts`, StreetName Labaere + zip 48044, revalidate 1h). Realcomp holds Coming Soon records out of the feed until activation, so the gallery self-populates on 09/10; until then the page shows a "gallery goes live Sept 10" call-to-action. Verify photos appeared on 09/10.
+- When this listing sells: retarget the nav tab href in `components/Nav.tsx` to the next featured listing (comment marks the line).
