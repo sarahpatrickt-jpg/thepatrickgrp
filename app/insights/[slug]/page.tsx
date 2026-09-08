@@ -49,12 +49,43 @@ const categoryColors: Record<string, string> = {
   "Team News": "bg-gray-100 text-[var(--ink-2)]",
 };
 
+/**
+ * Turn plain-text mentions of thepatrickgrp.com pages inside paragraph copy
+ * into real internal links (e.g. "thepatrickgrp.com/home-valuation").
+ */
+const SITE_URL_RE =
+  /(?:https?:\/\/)?(?:www\.)?thepatrickgrp\.com(\/[A-Za-z0-9\-/]*)?/g;
+
+function linkifyText(text: string): React.ReactNode {
+  const parts: React.ReactNode[] = [];
+  let last = 0;
+  let m: RegExpExecArray | null;
+  SITE_URL_RE.lastIndex = 0;
+  while ((m = SITE_URL_RE.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    const path = m[1] && m[1] !== "/" ? m[1] : "/";
+    parts.push(
+      <Link
+        key={`${m.index}-${path}`}
+        href={path}
+        className="text-[var(--red)] underline underline-offset-2 hover:text-[var(--red-deep)]"
+      >
+        {m[0]}
+      </Link>
+    );
+    last = m.index + m[0].length;
+  }
+  if (parts.length === 0) return text;
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
+}
+
 function renderBlock(block: ContentBlock, i: number) {
   switch (block.type) {
     case "paragraph":
       return (
         <p key={i} className="text-[var(--ink-2)] text-base leading-relaxed">
-          {block.text}
+          {linkifyText(block.text)}
         </p>
       );
     case "h2":
@@ -120,32 +151,42 @@ function renderBlock(block: ContentBlock, i: number) {
               </tr>
             </thead>
             <tbody>
-              {block.rows.map((row, r) => (
-                <tr key={r} className="border-b border-[var(--line)]">
-                  {row.map((cell, c) => {
-                    const isYoY = block.headers[c] === "YoY";
-                    const neg = cell.trim().startsWith("-");
-                    return (
-                      <td
-                        key={c}
-                        className={`py-2.5 px-3 ${
-                          c === 0
-                            ? "text-left font-medium text-[var(--ink)]"
-                            : "text-right"
-                        } ${
-                          isYoY
-                            ? neg
-                              ? "text-red-600 font-semibold"
-                              : "text-emerald-600 font-semibold"
-                            : "text-[var(--ink-2)]"
-                        }`}
-                      >
-                        {cell}
-                      </td>
-                    );
-                  })}
-                </tr>
-              ))}
+              {block.rows.map((row, r) => {
+                const emphasized = block.emphasizeRows?.includes(r) ?? false;
+                return (
+                  <tr
+                    key={r}
+                    className={`border-b border-[var(--line)] ${
+                      emphasized ? "bg-[var(--paper-2)]" : ""
+                    }`}
+                  >
+                    {row.map((cell, c) => {
+                      const isYoY = block.headers[c] === "YoY";
+                      const neg = cell.trim().startsWith("-");
+                      return (
+                        <td
+                          key={c}
+                          className={`py-2.5 px-3 ${
+                            c === 0
+                              ? "text-left font-medium text-[var(--ink)]"
+                              : "text-right"
+                          } ${
+                            isYoY
+                              ? neg
+                                ? "text-red-600 font-semibold"
+                                : "text-emerald-600 font-semibold"
+                              : emphasized
+                                ? "font-semibold text-[var(--ink)]"
+                                : "text-[var(--ink-2)]"
+                          }`}
+                        >
+                          {cell}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
           {block.caption && (

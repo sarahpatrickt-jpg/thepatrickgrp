@@ -6,7 +6,7 @@ export type ContentBlock =
   | { type: "bullets"; items: string[] }
   | { type: "two-col"; left: { label: string; text: string }; right: { label: string; text: string } }
   | { type: "stat-row"; stats: { label: string; value: string; note: string }[] }
-  | { type: "table"; headers: string[]; rows: string[][]; caption?: string };
+  | { type: "table"; headers: string[]; rows: string[][]; caption?: string; emphasizeRows?: number[] };
 
 export type Post = {
   slug: string;
@@ -24,6 +24,224 @@ export type Post = {
 };
 
 export const posts: Post[] = [
+  {
+    slug: "august-2026-southeast-michigan-market-update",
+    title:
+      "August 2026 Market Update: How Long It Really Takes to Sell a Home Right Now",
+    excerpt:
+      "Prices rose again in August and sellers got their full asking price in every county we follow. But homes are taking about a month to sell, and if the last three years are any guide, that number is about to get longer.",
+    date: "2026-09-08",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "7 min read",
+    image: "/images/insights/august-2026-southeast-michigan-market-update.jpg",
+    imageAlt:
+      "August 2026 Southeast Michigan market update: about a month to sell, for now",
+    relatedSlugs: [
+      "fed-vote-september-2026-southeast-michigan-timing",
+      "june-2026-southeast-michigan-market-update",
+      "best-time-to-sell-a-house-southeast-michigan",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "sterling-heights-mi",
+      "st-clair-shores-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "August was a good month to have sold a home in Southeast Michigan. Prices rose, buyers were active, and in every county we follow the typical seller got 100% of their asking price.",
+      },
+      {
+        type: "paragraph",
+        text: "It was also, in all likelihood, one of the last easy months of the year. Not because anything is wrong with the market, but because of a pattern that repeats every single fall and still manages to catch people off guard.",
+      },
+      {
+        type: "paragraph",
+        text: "Here is what August actually did, and what it suggests about the next few months.",
+      },
+      {
+        type: "h2",
+        text: "The Month in Three Numbers",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Median Sale Price",
+            value: "$300,000",
+            note: "+5.3% vs last August",
+          },
+          {
+            label: "Months of Inventory",
+            value: "3.4",
+            note: "Up about 21% from a year ago",
+          },
+          {
+            label: "Sale-to-List Price",
+            value: "100%",
+            note: "Every county, unchanged",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The inventory figure deserves a plain translation: if no new homes came on the market at all, it would take about three and a half months to sell everything currently listed. A year ago that figure was closer to two and three quarters months.",
+      },
+      {
+        type: "paragraph",
+        text: "Read together, those three numbers describe a market that is healthy but no longer frantic. For perspective, most people consider a market genuinely balanced between buyers and sellers somewhere around five to six months of inventory. We are not there. Sellers still hold the advantage in Southeast Michigan. It is simply a smaller advantage than last year, and buyers notice, because for the first time in a while they have more than one house to choose from.",
+      },
+      {
+        type: "h2",
+        text: "Where the Growth Happened May Surprise You",
+      },
+      {
+        type: "table",
+        headers: ["County", "Median Sale Price", "vs. Last August", "Inventory Change"],
+        rows: [
+          ["Livingston", "$439,000", "+12.3%", "Down 3.8%"],
+          ["Oakland", "$395,000", "+2.6%", "Up 20.0%"],
+          ["St. Clair", "$283,500", "+16.9%", "Up 3.3%"],
+          ["Macomb", "$281,000", "+1.3%", "Up 21.7%"],
+          ["Genesee", "$239,900", "+6.6%", "Up 10.0%"],
+          ["Wayne", "$230,000", "+7.0%", "Up 11.4%"],
+        ],
+        caption:
+          "August 2026, all price ranges and property types. Source: Realcomp/InfoSparks county statistics.",
+      },
+      {
+        type: "paragraph",
+        text: "The two counties with the smallest price gains, Oakland and Macomb, are also the two that took on the most new competition. Livingston, the only county where the number of homes for sale actually went down, led the region on price.",
+      },
+      {
+        type: "paragraph",
+        text: "That is not a coincidence, and it is the clearest lesson in this month's data. When buyers get more options, sellers lose pricing power. Oakland's price per square foot rose just 1.2% over a full year. Macomb's median gained 1.3%. Neither county is weak; both simply absorbed most of the region's new listings, and their price growth is what paid for it.",
+      },
+      {
+        type: "h2",
+        text: "How Long Homes Are Actually Taking to Sell",
+      },
+      {
+        type: "paragraph",
+        text: "This is where I see the widest gap between what sellers expect and what the numbers show.",
+      },
+      {
+        type: "paragraph",
+        text: "In August, here is how long it took the typical home to go from listed to an accepted offer:",
+      },
+      {
+        type: "table",
+        headers: ["County", "Days on Market"],
+        rows: [
+          ["Oakland", "25"],
+          ["Livingston", "27"],
+          ["Macomb", "29"],
+          ["Wayne", "31"],
+          ["Genesee", "34"],
+          ["St. Clair", "35"],
+          ["Region overall", "34"],
+        ],
+        emphasizeRows: [6],
+        caption: "Average days from listing to accepted offer, August 2026.",
+      },
+      {
+        type: "paragraph",
+        text: "Most homeowners I talk with guess something closer to a week. That expectation is a holdover from 2021 and it has not been accurate for some time. Even Oakland County, the fastest market in the region, takes about three and a half weeks.",
+      },
+      {
+        type: "paragraph",
+        text: "And August is one of the fastest stretches of the year. Every autumn the market slows, and every January it reaches its slowest point. This is not a forecast. It has happened three years running. Here is what this past January looked like against August:",
+      },
+      {
+        type: "table",
+        headers: ["County", "August 2026", "January 2026"],
+        rows: [
+          ["Oakland", "25 days", "43 days"],
+          ["Macomb", "29 days", "42 days"],
+          ["Wayne", "31 days", "44 days"],
+          ["Region overall", "34 days", "51 days"],
+        ],
+        emphasizeRows: [3],
+        caption: "Average days on market, August 2026 vs January 2026.",
+      },
+      {
+        type: "paragraph",
+        text: "Homes took roughly 50% to 70% longer to sell in January than they do right now. Sellers also accepted slightly less. In each of the last three Januaries, the typical home closed at about 98.5% of its most recent asking price rather than the flat 100% we saw last month.",
+      },
+      {
+        type: "h3",
+        text: "Three Things Worth Knowing About That Number",
+      },
+      {
+        type: "bullets",
+        items: [
+          "It only counts homes that sold. Listings that sat for months and were eventually withdrawn are not in the average. The true wait, counting homes that never found a buyer, is longer than these figures suggest.",
+          "It ends at the accepted offer, not at the closing. Add another 30 to 45 days for inspections, appraisal, and the lender. A home that sells in 25 days typically hands over keys closer to two months from listing.",
+          "It is an average across everything. Well prepared, well priced homes beat it comfortably. Homes priced on optimism are what drag it upward.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Put those together and the practical math is simple. A home listed in early September that performs at its county average is likely closing in late October or early November. A home listed at the end of October is being evaluated by buyers in December and January, the slowest and most price-sensitive weeks of the year.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You Are Selling",
+      },
+      {
+        type: "paragraph",
+        text: "The 100%-of-asking figure is the most encouraging number in this report, and it is also the most frequently misunderstood, so it is worth being precise.",
+      },
+      {
+        type: "paragraph",
+        text: "It measures the sale price against the most recent asking price, not the original one. A home that lists too high, sits for a month, reduces twice, and then sells is still recorded as receiving 100% of asking. The owner lost real money and real time. The statistic never shows it.",
+      },
+      {
+        type: "paragraph",
+        text: "That is the entire lesson of August in one sentence. You will almost certainly get your asking price. The only question that determines your outcome is which asking price, and that gets decided before the sign goes in the yard rather than at the closing table.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are considering waiting until spring, go in with clear eyes. You would be listing into January conditions first, when homes take about half again as long to sell and buyers negotiate harder. If you would like to know what August did to your particular home rather than to your county, our complimentary home valuation at thepatrickgrp.com/home-valuation is the fastest way to find out.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You Are Buying",
+      },
+      {
+        type: "paragraph",
+        text: "August handed buyers in Oakland and Macomb the best conditions they have seen in several years: more homes to choose from, no change in how quickly the market moves, and sellers who can see the competition building around them.",
+      },
+      {
+        type: "paragraph",
+        text: "There is one situation worth calling out specifically. If you own a home in Oakland County and want to move up within Oakland County, flat appreciation is quietly working in your favor. When prices rise only 2.6%, the gap between the home you own and the home you want stops widening, which means the cost of trading up holds steady. That window does not usually stay open long.",
+      },
+      {
+        type: "paragraph",
+        text: "The counties moving the other direction deserve more urgency. Livingston and St. Clair are appreciating several times faster than the corridor with tighter inventory, so waiting carries a real cost there. Buyers in our VIP Buyer program at thepatrickgrp.com/vip-buyers see our listings and off-market opportunities before the public does, which matters most in exactly those markets.",
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "August was not a soft month. Prices rose region-wide, every county paid full asking price, and homes sold as quickly as they did a year ago. What changed is that buyers finally have choices, and choices are what slow a market down and flatten price growth.",
+      },
+      {
+        type: "paragraph",
+        text: "None of that is cause for alarm. It is cause for accuracy. The sellers who do well this autumn will be the ones who price against the last ninety days of evidence rather than against a memory of 2021, and who understand that the calendar is working against them a little more with each passing week. If you would like to talk through what these numbers mean for your own plans, we would welcome the conversation at thepatrickgrp.com/contact.",
+      },
+      {
+        type: "callout",
+        label: "Unconditional Release Guarantee",
+        text: "Sarah Patrick, Principal Broker. The Patrick Group at Oak & Stone Real Estate. 248.755.3545. Every engagement carries our Unconditional Release Guarantee. If our service ever falls short of the standard you expect, you may end the relationship at any time, no obligation.",
+      },
+    ],
+  },
   {
     slug: "fed-vote-september-2026-southeast-michigan-timing",
     title: "Rates Finally Fell. Read the Fed Vote Before You Celebrate.",
