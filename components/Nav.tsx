@@ -12,6 +12,8 @@ const leftLinksBefore = [
 ];
 
 const leftLinksAfter = [
+  // Points at the current featured listing; retarget when it sells
+  { href: "/listings/49756-labaere-drive-macomb", label: "Featured Listing" },
   { href: "/neighborhoods",    label: "Neighborhoods" },
   { href: "/new-construction", label: "New Homes" },
   { href: "/market-updates",   label: "Market Reports" },
@@ -38,6 +40,7 @@ const specialtyHrefs = new Set(specialtyLinks.map((l) => l.href));
 const allLinks = [
   { href: "/buying",               label: "Buy" },
   { href: "/selling",              label: "Sell" },
+  { href: "/listings/49756-labaere-drive-macomb", label: "Featured Listing" },
   // Search Homes intentionally not in mobile drawer, it's a CTA button
   { href: "/cash-offer",           label: "Cash Offer Program" },
   { href: "/new-construction",     label: "New Construction" },
