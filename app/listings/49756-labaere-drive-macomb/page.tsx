@@ -5,9 +5,9 @@
  * Static route deliberately shadows /listings/[id] so this URL is shareable
  * for social, sign riders, and the "Featured Listing" nav tab.
  *
- * Photos come from the Spark API at request time (lib/featuredListingPhotos.ts)
- * and populate automatically when Realcomp releases the record on activation day.
- * Listing facts below are from the MLS listing sheet.
+ * Photos are the listing's own set, stored in public/images/listings/49756-labaere.
+ * The MLS watermark bands were cropped off; attribution to the listing office stays
+ * in the disclaimer at the foot of the page. Listing facts are from the MLS sheet.
  */
 
 import type { Metadata } from "next";
@@ -15,13 +15,42 @@ import Image from "next/image";
 import Link from "next/link";
 
 import ListingGallery from "@/components/ListingGallery";
-import { getLabaerePhotos } from "@/lib/featuredListingPhotos";
-
-export const revalidate = 3600;
 
 const ADDRESS = "49756 Labaere Drive";
 const CITY_LINE = "Macomb Township, MI 48044";
 const PRICE = "$550,000";
+
+const PHOTO_DIR = "/images/listings/49756-labaere";
+
+const PHOTOS: string[] = [
+  "01-exterior-twilight",
+  "02-exterior-front",
+  "03-foyer-staircase",
+  "04-entry",
+  "05-office",
+  "06-living-room",
+  "07-family-room-fireplace",
+  "08-living-to-kitchen",
+  "09-kitchen",
+  "10-kitchen-island",
+  "11-dining",
+  "12-powder-room",
+  "13-laundry",
+  "14-primary-bedroom",
+  "15-primary-bath-vanity",
+  "16-primary-bath-sauna",
+  "17-bedroom-two",
+  "18-bedroom-three",
+  "19-full-bath",
+  "20-full-bath-vanity",
+  "21-lower-level",
+  "22-lower-level-fireplace",
+  "23-wet-bar",
+  "24-wet-bar-wide",
+  "25-backyard-gazebo",
+  "26-floor-plan-main",
+  "27-floor-plan-second",
+].map((n) => `${PHOTO_DIR}/${n}.jpg`);
 
 const FACTS: { label: string; value: string }[] = [
   { label: "Price", value: PRICE },
@@ -93,6 +122,7 @@ export const metadata: Metadata = {
     title: `${ADDRESS}, ${CITY_LINE} · ${PRICE}`,
     description:
       "Coming Soon 09/10/2026. 4 bed, 2.2 bath colonial with a finished basement, sauna, and gazebo in Brook Run Sub.",
+    images: [{ url: `${PHOTO_DIR}/01-exterior-twilight.jpg` }],
   },
 };
 
@@ -131,6 +161,7 @@ function jsonLd() {
       availability: "https://schema.org/PreOrder",
       availabilityStarts: "2026-09-10",
     },
+    image: PHOTOS.map((p) => `https://www.thepatrickgrp.com${p}`),
     provider: {
       "@type": "RealEstateAgent",
       name: "The Patrick Group at Oak & Stone Real Estate",
@@ -140,9 +171,7 @@ function jsonLd() {
   };
 }
 
-export default async function LabaereLandingPage() {
-  const live = await getLabaerePhotos();
-
+export default function LabaereLandingPage() {
   return (
     <main style={{ backgroundColor: "var(--paper)" }}>
       <script
@@ -198,33 +227,9 @@ export default async function LabaereLandingPage() {
         </div>
       </section>
 
-      {/* Gallery, or pre-launch state until Realcomp releases the record */}
+      {/* Gallery */}
       <section className="max-w-6xl mx-auto px-6 pb-14">
-        {live ? (
-          <ListingGallery photos={live.photos} address={ADDRESS} />
-        ) : (
-          <div
-            className="w-full aspect-[16/9] flex flex-col items-center justify-center text-center px-8"
-            style={{ backgroundColor: "var(--paper-2)", border: "1px solid var(--line)" }}
-          >
-            <p
-              className="uppercase tracking-[0.22em] text-[10px] mb-4"
-              style={{ fontFamily: "var(--font-mono)", color: "var(--red)" }}
-            >
-              Professional Photography
-            </p>
-            <p className="font-display text-2xl md:text-3xl" style={{ color: "var(--ink)" }}>
-              The full photo gallery goes live September 10.
-            </p>
-            <p className="font-editorial italic text-lg mt-3" style={{ color: "var(--ink-3)" }}>
-              Want the photos and showing details the moment they release? Call us at{" "}
-              <a href="tel:+12487553545" className="underline" style={{ color: "var(--red)" }}>
-                (248) 755-3545
-              </a>
-              .
-            </p>
-          </div>
-        )}
+        <ListingGallery photos={PHOTOS} address={ADDRESS} />
       </section>
 
       {/* Overview */}
