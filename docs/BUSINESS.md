@@ -161,3 +161,12 @@ Awaiting Sarah/Brad (drafted and ready): send Real Producers + Hour Detroit back
 - New page `/listings/49756-labaere-drive-macomb` (static route, shadows /listings/[id]) + "Featured Listing" nav tab (desktop + mobile) + sitemap entry.
 - Photos: 41 images in `public/images/listings/49756-labaere/` (39 photographer originals at 2000px, unwatermarked, from Sarah's zip; plus the 2 MLS floor plans, which the zip did not include). Spark was tried first, but Realcomp withholds Coming Soon records from the feed until activation. Office attribution is in the page disclaimer.
 - When this listing sells: retarget the nav tab href in `components/Nav.tsx` to the next featured listing (comment marks the line).
+
+### 2026-09-09 - Labaere listing page: conversion fixes
+- GA4 (first ~24h): the listing page was 43% of all site views and 51% of active users (151 views / 141 users), 37s engagement vs 34s site avg, but **0 key events**. Views per user 1.07, so it was a dead end.
+- Cause: the only phone link was in the CTA block below 41 photos, and `components/Nav.tsx` wraps the nav phone in `hidden lg:flex`, so mobile visitors saw no phone number anywhere on screen.
+- Fixes shipped: call/text buttons directly under the stat row; `ListingStickyContactBar` (mobile-only, appears after 350px of scroll); `ListingNotifyForm` showing-alert capture posting to /api/sierra-lead with tags `coming-soon-alert` + `listing-<mls>`.
+- `PhoneClickTracker` now also tracks `sms:` links as `text_message_click`.
+- **GA4 admin TODO:** mark `text_message_click` and `listing_notify_submitted` as key events. Both already fire `generate_lead`, so Lead acquisition reports work either way.
+- Open item: homepage engagement is 6s across 76 views. Not yet diagnosed.
+- Note: the same mobile-hidden-phone issue affects EVERY page on the site, not just this one.
