@@ -217,3 +217,15 @@ export const trackListingCardClicked = (
     address,
     is_featured: isFeatured,
   });
+
+/**
+ * Fired when someone asks to be notified about a Coming Soon listing.
+ * Routed through trackLead so it also emits generate_lead. Mark
+ * `listing_notify_submitted` as a key event in GA4 Admin to see it in reports.
+ */
+export const trackListingNotifySubmitted = (listingId: string, address: string) =>
+  trackLead("listing_notify_submitted", {
+    lead_source: "listing_notify",
+    listing_id: listingId,
+    address,
+  });

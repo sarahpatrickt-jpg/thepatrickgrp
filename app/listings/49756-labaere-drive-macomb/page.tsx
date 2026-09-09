@@ -15,10 +15,16 @@ import Image from "next/image";
 import Link from "next/link";
 
 import ListingGallery from "@/components/ListingGallery";
+import ListingNotifyForm from "@/components/ListingNotifyForm";
+import ListingStickyContactBar from "@/components/ListingStickyContactBar";
 
 const ADDRESS = "49756 Labaere Drive";
 const CITY_LINE = "Macomb Township, MI 48044";
 const PRICE = "$550,000";
+
+const MLS_ID = "20261072213";
+const SHOWING_DATE = "Thursday, September 10";
+const SMS_BODY = "Hi Brad, I saw 49756 Labaere Drive online. Can you let me know when I can see it?";
 
 const PHOTO_DIR = "/images/listings/49756-labaere";
 
@@ -239,6 +245,32 @@ export default function LabaereLandingPage() {
             </div>
           ))}
         </div>
+
+        {/* Primary ask, kept at the top: most visitors arrive on a phone and
+            never reach the CTA at the foot of the page. */}
+        <div className="mt-6 flex flex-col sm:flex-row gap-3">
+          <a
+            href="tel:2487553545"
+            className="flex-1 text-center px-6 py-4 font-medium"
+            style={{ backgroundColor: "var(--red)", color: "#fff" }}
+          >
+            Call Brad · 248.755.3545
+          </a>
+          <a
+            href={`sms:2487553545?&body=${encodeURIComponent(SMS_BODY)}`}
+            className="flex-1 text-center px-6 py-4 font-medium"
+            style={{ border: "1px solid var(--ink)", color: "var(--ink)" }}
+          >
+            Text Brad
+          </a>
+          <a
+            href="#showing-alert"
+            className="flex-1 text-center px-6 py-4 font-medium"
+            style={{ border: "1px solid var(--line)", color: "var(--ink-2)" }}
+          >
+            Notify Me When Showings Open
+          </a>
+        </div>
       </section>
 
       {/* Gallery */}
@@ -421,15 +453,24 @@ export default function LabaereLandingPage() {
       </section>
 
       {/* CTA */}
-      <section className="max-w-3xl mx-auto px-6 py-20 text-center">
+      <section
+        id="showing-alert"
+        className="max-w-3xl mx-auto px-6 py-20 text-center scroll-mt-24"
+      >
+        <ListingNotifyForm
+          listingId={MLS_ID}
+          address={`${ADDRESS}, ${CITY_LINE}`}
+          showingDate={SHOWING_DATE}
+        />
+
         <p
-          className="uppercase tracking-[0.22em] text-[10px] mb-4"
+          className="uppercase tracking-[0.22em] text-[10px] mb-4 mt-16"
           style={{ fontFamily: "var(--font-mono)", color: "var(--red)" }}
         >
           Showings Begin September 10
         </p>
         <h2 className="font-display text-3xl md:text-4xl mb-4" style={{ color: "var(--ink)" }}>
-          Let&apos;s get you on the schedule.
+          Prefer to just talk to someone?
         </h2>
         <p className="font-editorial italic text-lg mb-8" style={{ color: "var(--ink-3)" }}>
           Listed by Brad Patrick, Realtor®, The Patrick Group at Oak & Stone Real Estate.
@@ -442,19 +483,21 @@ export default function LabaereLandingPage() {
           >
             Call (248) 755-3545
           </a>
-          <Link
-            href="/contact"
+          <a
+            href={`sms:2487553545?&body=${encodeURIComponent(SMS_BODY)}`}
             className="px-8 py-4 font-medium"
             style={{ border: "1px solid var(--ink)", color: "var(--ink)" }}
           >
-            Request Showing Details
-          </Link>
+            Text Brad
+          </a>
         </div>
-        <p className="text-[12px] mt-10" style={{ color: "var(--ink-3)" }}>
+        <p className="text-[12px] mt-10 pb-20 lg:pb-0" style={{ color: "var(--ink-3)" }}>
           MLS# 20261072213 · Listing courtesy of Oak and Stone Real Estate. Information deemed
           reliable but not guaranteed. Buyer to verify all information.
         </p>
       </section>
+
+      <ListingStickyContactBar phone="248.755.3545" smsBody={SMS_BODY} />
     </main>
   );
 }
