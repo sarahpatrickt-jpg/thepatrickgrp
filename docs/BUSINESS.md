@@ -175,3 +175,9 @@ Awaiting Sarah/Brad (drafted and ready): send Real Producers + Hour Detroit back
 - Two-sided letter PDF at `assets/listing-sheets/49756-labaere/` (sheet + standalone QR PNG). Build script is in the session scratchpad only; regenerate from this entry if needed.
 - QR points to the listing page tagged `utm_source=sheet&utm_medium=print&utm_campaign=labaere`. In GA4, scans from the printed sheet show up as source **sheet** / medium **print** (Traffic acquisition, session source/medium).
 - Sheet is deliberately status-free (no "Coming Soon", no dates) so it stays accurate once the listing is active.
+
+### 2026-09-11 - Labaere page switched to active
+- Listing went active (Sarah confirmed 09/11). Page title, meta and OG descriptions, eyebrow, and JSON-LD (`availability` now InStock) updated; no Coming Soon copy remains on the page.
+- `ListingNotifyForm` now takes `mode`: `"notify"` (Coming Soon alert, needs `showingDate`) or `"showing"` (showing request, phone required, optional preferred time). This page uses `"showing"`. Reusable for the next featured listing.
+- Showing requests post to Sierra tagged `showing-request` + `listing-<mls>` and fire **`listing_showing_requested`** (plus `generate_lead`).
+- **GA4 admin TODO (replaces the earlier one):** mark `listing_showing_requested` and `text_message_click` as key events. `listing_notify_submitted` no longer fires on this page.

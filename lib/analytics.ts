@@ -229,3 +229,14 @@ export const trackListingNotifySubmitted = (listingId: string, address: string) 
     listing_id: listingId,
     address,
   });
+
+/**
+ * Fired when someone requests a showing on an active featured listing.
+ * Mark `listing_showing_requested` as a key event in GA4 Admin.
+ */
+export const trackListingShowingRequested = (listingId: string, address: string) =>
+  trackLead("listing_showing_requested", {
+    lead_source: "listing_showing",
+    listing_id: listingId,
+    address,
+  });

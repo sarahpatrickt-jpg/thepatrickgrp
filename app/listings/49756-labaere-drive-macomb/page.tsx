@@ -1,6 +1,6 @@
 /**
  * Featured listing landing page: 49756 Labaere Drive, Macomb Township.
- * MLS# 20261072213 (Realcomp) · Coming Soon, activates 09/10/2026.
+ * MLS# 20261072213 (Realcomp) · Active since 09/10/2026.
  *
  * Static route deliberately shadows /listings/[id] so this URL is shareable
  * for social, sign riders, and the "Featured Listing" nav tab.
@@ -23,8 +23,7 @@ const CITY_LINE = "Macomb Township, MI 48044";
 const PRICE = "$550,000";
 
 const MLS_ID = "20261072213";
-const SHOWING_DATE = "Thursday, September 10";
-const SMS_BODY = "Hi Brad, I saw 49756 Labaere Drive online. Can you let me know when I can see it?";
+const SMS_BODY = "Hi Brad, I saw 49756 Labaere Drive online and would like to schedule a showing.";
 
 const PHOTO_DIR = "/images/listings/49756-labaere";
 
@@ -134,14 +133,14 @@ const AREA_POINTS: { title: string; body: string }[] = [
 const CANONICAL = "https://www.thepatrickgrp.com/listings/49756-labaere-drive-macomb";
 
 export const metadata: Metadata = {
-  title: `${ADDRESS}, Macomb Township | Coming Soon ${PRICE}`,
-  description: `Coming Soon 09/10/2026: 4 bedroom, 2 full and 2 half bath colonial in Brook Run Sub, Macomb Township. 3,043 finished sq ft, 3-car garage, finished basement with wet bar, primary bath with sauna. ${PRICE}.`,
+  title: `${ADDRESS}, Macomb Township | For Sale ${PRICE}`,
+  description: `For sale: 4 bedroom, 2 full and 2 half bath colonial in Brook Run Sub, Macomb Township. 3,043 finished sq ft, 3-car garage, finished basement with wet bar, primary bath with sauna. ${PRICE}.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
     type: "website",
     title: `${ADDRESS}, ${CITY_LINE} · ${PRICE}`,
     description:
-      "Coming Soon 09/10/2026. 4 bed, 2.2 bath colonial with a finished basement, sauna, and gazebo in Brook Run Sub.",
+      "Now showing. 4 bed, 2.2 bath colonial with a finished basement, sauna, and gazebo in Brook Run Sub.",
     images: [{ url: `${PHOTO_DIR}/01-exterior-twilight.jpg` }],
   },
 };
@@ -178,8 +177,7 @@ function jsonLd() {
       "@type": "Offer",
       price: 550000,
       priceCurrency: "USD",
-      availability: "https://schema.org/PreOrder",
-      availabilityStarts: "2026-09-10",
+      availability: "https://schema.org/InStock",
     },
     image: PHOTOS.map((p) => `https://www.thepatrickgrp.com${p}`),
     provider: {
@@ -205,7 +203,7 @@ export default function LabaereLandingPage() {
           className="uppercase tracking-[0.22em] text-[10px] mb-5"
           style={{ fontFamily: "var(--font-mono)", color: "var(--red)" }}
         >
-          Featured Listing · Coming Soon · September 10, 2026
+          Featured Listing · Now Showing · Macomb Township
         </p>
         <h1
           className="font-display text-4xl md:text-6xl leading-tight"
@@ -264,11 +262,11 @@ export default function LabaereLandingPage() {
             Text Brad
           </a>
           <a
-            href="#showing-alert"
+            href="#request-showing"
             className="flex-1 text-center px-6 py-4 font-medium"
             style={{ border: "1px solid var(--line)", color: "var(--ink-2)" }}
           >
-            Notify Me When Showings Open
+            Request a Showing
           </a>
         </div>
       </section>
@@ -454,20 +452,20 @@ export default function LabaereLandingPage() {
 
       {/* CTA */}
       <section
-        id="showing-alert"
+        id="request-showing"
         className="max-w-3xl mx-auto px-6 py-20 text-center scroll-mt-24"
       >
         <ListingNotifyForm
           listingId={MLS_ID}
           address={`${ADDRESS}, ${CITY_LINE}`}
-          showingDate={SHOWING_DATE}
+          mode="showing"
         />
 
         <p
           className="uppercase tracking-[0.22em] text-[10px] mb-4 mt-16"
           style={{ fontFamily: "var(--font-mono)", color: "var(--red)" }}
         >
-          Showings Begin September 10
+          Now Showing
         </p>
         <h2 className="font-display text-3xl md:text-4xl mb-4" style={{ color: "var(--ink)" }}>
           Prefer to just talk to someone?
