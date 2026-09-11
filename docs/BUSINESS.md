@@ -170,3 +170,8 @@ Awaiting Sarah/Brad (drafted and ready): send Real Producers + Hour Detroit back
 - **GA4 admin TODO:** mark `text_message_click` and `listing_notify_submitted` as key events. Both already fire `generate_lead`, so Lead acquisition reports work either way.
 - Open item: homepage engagement is 6s across 76 views. Not yet diagnosed.
 - Note: the same mobile-hidden-phone issue affects EVERY page on the site, not just this one.
+
+### 2026-09-11 - Labaere printed feature sheet
+- Two-sided letter PDF at `assets/listing-sheets/49756-labaere/` (sheet + standalone QR PNG). Build script is in the session scratchpad only; regenerate from this entry if needed.
+- QR points to the listing page tagged `utm_source=sheet&utm_medium=print&utm_campaign=labaere`. In GA4, scans from the printed sheet show up as source **sheet** / medium **print** (Traffic acquisition, session source/medium).
+- Sheet is deliberately status-free (no "Coming Soon", no dates) so it stays accurate once the listing is active.
