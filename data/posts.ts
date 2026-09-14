@@ -4150,6 +4150,111 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "months-of-supply-4-9-national-vs-oakland-county-september-2026",
+    title: "Everyone Quoted 4.9 Months of Supply. Oakland County Is at Two.",
+    excerpt:
+      "Existing home sales fell 2 percent in August and months of supply hit a ten year high of 4.9. That number is a fraction, and almost nobody who repeated it looked at the bottom of it.",
+    date: "2026-09-14",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/june-2026-southeast-michigan-market-update.jpg",
+    imageAlt:
+      "National months of supply compared against Oakland County inventory levels in September 2026",
+    relatedSlugs: [
+      "oakland-county-sales-down-prices-up-august-2026",
+      "national-buyers-market-vs-oakland-county-reality-july-2026",
+      "cost-of-waiting-13-months-oakland-county-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "northville-mi",
+      "clarkston-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "The National Association of Realtors released its August existing home sales report on September 10, and one figure did all the traveling: 4.9 months of supply, the highest reading in more than ten years. It got written up everywhere as the moment the market handed the keys to buyers. It is a real number. It is also a fraction, and almost nobody who repeated it looked at the bottom of it.",
+      },
+      {
+        type: "paragraph",
+        text: "Months of supply is inventory divided by the current monthly sales pace. That means it can rise two ways: more homes come to market, or fewer of them sell. In August, both happened at once.",
+      },
+      {
+        type: "h2",
+        text: "The Denominator Did Some of the Work",
+      },
+      {
+        type: "paragraph",
+        text: "Sales ran at a 3.98 million annualized pace last month, down 2.0 percent from July and 1.2 percent from a year ago. Unsold inventory finished August at 1.62 million homes, up 5.9 percent year over year. Run the arithmetic and supply moved from roughly 4.6 months last August to 4.9 this August. The larger share of that came from listings, and a real slice of it came from homes simply not trading. That distinction matters. A market with more choice and a market with fewer closings look identical in a headline and nothing alike when you are standing in one.",
+      },
+      {
+        type: "paragraph",
+        text: "The price line is the tell. NAR put the national median at $429,100, up 1.6 percent and the 38th consecutive month of year over year gains. Freddie Mac's September 10 survey had the 30 year fixed at 6.76 percent, up from 6.71 the week before and 6.35 a year ago, with the 15 year at 6.09 percent. Sales cool when borrowing costs climb. Prices do not fall simply because the transaction count does, and so far they have not.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Months of Supply, National",
+            value: "4.9",
+            note: "NAR, August 2026. The highest reading in over ten years, up from roughly 4.6 a year earlier.",
+          },
+          {
+            label: "Midwest Sales Pace",
+            value: "940,000",
+            note: "Down 3.1 percent from July and 2.1 percent from last year. The regional median still rose 3.3 percent to $340,400.",
+          },
+          {
+            label: "Oakland County Supply",
+            value: "About 2 months",
+            note: "Roughly 3,414 active listings against the current absorption pace, even after inventory climbed 15.2 percent.",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "What 4.9 Looks Like From Oakland County",
+      },
+      {
+        type: "paragraph",
+        text: "The Midwest posted the steepest month over month sales drop of any region in August, down 3.1 percent to a 940,000 pace, and its median price still rose 3.3 percent to $340,400. Southeast Michigan sits inside that number, and the local version is sharper. Oakland County's median sale price reached $401,750 in the most recent reporting, up 4.4 percent. Active listings climbed 15.2 percent to roughly 3,414, which sounds like relief until you divide it by how quickly this county still absorbs homes. That works out to about two months of supply against a national 4.9. Realcomp data has Oakland homes averaging 23 days on market, the quickest of the three counties, while metro Detroit as a whole moved to 25 days from 21 a year ago.",
+      },
+      {
+        type: "callout",
+        label: "What the number actually tells you",
+        text: "A supply reading of 4.9 describes the country. It does not describe your price band, your city, or your street. Oakland County is carrying roughly two months of inventory while the national conversation is about buyers taking control. Bring a national expectation into a two month market and you will lose a house you wanted while waiting on leverage that is not there.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Ask for months of supply in your price band and your city, not the county or the country. The gap between a $300,000 ranch in Royal Oak and a $700,000 colonial in Bloomfield Hills is wider than the gap between Michigan and the national average.",
+          "Read days on market before you read inventory count. Rising listings with flat days on market means more choice. Rising listings with climbing days on market means actual softening.",
+          "Separate a price reduction from a price decline. Overpriced listings correcting downward is normal in every cycle. Comparable sales falling is a different event, and Southeast Michigan is not showing it.",
+          "Watch the sales pace alongside supply. When transaction counts drop, the supply figure can climb in a market where nothing about pricing has changed.",
+        ],
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Buying",
+          text: "You have more to look at than a year ago and a national narrative telling you the leverage is yours. Half of that is true here. Inventory is genuinely up 15.2 percent in Oakland County, and that is real negotiating room on homes that have sat. It is not room on a well prepared listing in a two month market, where paying at or above ask remains a normal outcome. Decide which of those two houses you are writing on before you pick your number.",
+        },
+        right: {
+          label: "If You Are Selling",
+          text: "Your competition grew, your buyer pool is financing at 6.76 percent, and the regional sales pace fell 3.1 percent in a single month. None of that is an argument for discounting. It is an argument for being the listing that is priced and prepared correctly on day one. Oakland County is still averaging 23 days. The homes that miss on price in week one are the ones producing the longer numbers in next month's report.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "Every cycle produces a statistic that gets repeated far more often than it gets examined. This month it is 4.9. Understand how it was built and it stops being a verdict on your house and becomes what it actually is: a national average your specific block is entitled to ignore. If you want the supply, days on market, and pricing math for your own price band, reach the team at thepatrickgrp.com/contact, or start with a valuation at thepatrickgrp.com/home-valuation.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
