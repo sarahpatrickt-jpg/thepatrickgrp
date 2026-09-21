@@ -4255,6 +4255,115 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "fed-hike-7-percent-old-normal-oakland-county-september-2026",
+    title: "The Fed Hiked and Everyone Called 7 Percent the New Normal. It Is the Old One.",
+    excerpt:
+      "The Fed raised rates on September 16 for the first time in three years, and the 30-year fixed hit 6.95 percent. The anomaly was never 7 percent. It was 3, and Oakland County is still pricing around it.",
+    date: "2026-09-21",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/grants-rates-real-math.jpg",
+    imageAlt:
+      "Mortgage rate and payment math illustrating the September 2026 Fed rate hike and what it means for Oakland County buyers and sellers",
+    relatedSlugs: [
+      "rate-spike-2026-high-oakland-county-sellers",
+      "cost-of-waiting-13-months-oakland-county-2026",
+      "fannie-mae-rate-forecast-cost-of-waiting-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "bloomfield-hills-mi",
+      "royal-oak-mi",
+      "west-bloomfield-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "On September 16 the Federal Reserve raised its benchmark rate a quarter point to a range of 3.75 to 4.00 percent. It was the first increase since 2023, the vote was unanimous, and officials penciled in at least one more hike before the year is out. Freddie Mac's survey the next day put the 30-year fixed at 6.95 percent, up from 6.76 percent a week earlier and the highest reading since January 2025.",
+      },
+      {
+        type: "paragraph",
+        text: "The line that traveled furthest came from NAR Chief Economist Lawrence Yun, who suggested 7 percent could be the new normal for buyers. It spread across LinkedIn and X within hours. I understand why it landed. I also think it has the history backwards, and the way you read it changes what you should do next.",
+      },
+      {
+        type: "h2",
+        text: "Seven Percent Is Not New",
+      },
+      {
+        type: "paragraph",
+        text: "Freddie Mac has tracked the 30-year fixed since 1971, and the long-run average across that entire record sits a little under 8 percent. Seven percent is not an emergency reading. It is roughly where mortgage money has been priced for most of the last half century. The outlier was the stretch from 2020 into early 2022, when rates spent months below 3 percent. That window reset the expectations of an entire generation of buyers and, just as importantly, locked a large share of current owners into loans they are reluctant to give up.",
+      },
+      {
+        type: "paragraph",
+        text: "It is also worth being clear about what the Fed actually did. The Fed sets an overnight rate. It does not set your mortgage rate. Mortgage pricing follows the 10-year Treasury and the market's read on inflation, and most of this move happened before the vote. Daily rate indexes had the 30-year near 7.19 percent on decision day, up about 38 basis points since the Jackson Hole speech in late August. The hike confirmed a trend. It did not start one.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Fed Funds Target",
+            value: "3.75% to 4.00%",
+            note: "Raised September 16, the first hike since 2023, with at least one more signaled for 2026.",
+          },
+          {
+            label: "30-Year Fixed",
+            value: "6.95%",
+            note: "Freddie Mac, September 17. Up from 6.76 percent the prior week and the highest since January 2025.",
+          },
+          {
+            label: "Oakland County Median",
+            value: "$397,000",
+            note: "Redfin, three months ending July. Up 3.8 percent year over year, with homes selling in about 20 days.",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "What It Looks Like on an Oakland County House",
+      },
+      {
+        type: "paragraph",
+        text: "Take Redfin's Oakland County median of $397,000 and put 20 percent down. You are financing $317,600. At 6.95 percent, principal and interest runs about $2,100 a month. At 6 percent it would be about $1,900. At the 3 percent a lot of current owners are sitting on, it is about $1,340. That last number is the one quietly shaping this market. It is why so many owners have not listed, and it is why inventory in this county has stayed tight even as the national supply count climbs.",
+      },
+      {
+        type: "callout",
+        label: "The part the headline skips",
+        text: "A $200 monthly gap between 6 and 7 percent is real money. The $760 gap between 3 and 7 percent is the reason your move-up seller has not moved. Oakland County prices are still rising, up 3.8 percent in Redfin's latest read, because the rate did not create new supply. It mostly kept existing supply at home.",
+      },
+      {
+        type: "paragraph",
+        text: "Nationally, the rate pressure is showing up in transactions. Pending home sales in August were down 4.7 percent from a year earlier, and purchase applications for new construction fell for a fifth straight month. Locally the read is narrower. Fewer closings and firm prices can coexist for a long time in a county where supply is thin. I have watched that pattern hold through more than one tightening cycle, and it tends to break on inventory, not on rates alone.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Stop underwriting a purchase around a rate you hope to see. Underwrite it at today's quote on your own file, and treat a future refinance as optional upside.",
+          "Do not wait for the Fed to reverse. It just told you it plans to move the other way at least once more this year.",
+          "Ask your lender to price a seller-paid buydown. With rates near 7, a concession aimed at the rate often does more for your payment than the same dollars taken off price.",
+          "If you own with a sub-4 percent loan, run the real cost of the move before you list: the new payment, your equity, and what the next house costs. Buyers who purchased in 2020 and 2021 are sitting on meaningfully more equity than those who bought after 2022, and that cushion changes the math.",
+        ],
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Buying",
+          text: "The competition you are dreading is thinner than it looks, because a meaningful share of buyers are still waiting for a number that the Fed just pushed further away. Get preapproved at the current rate, shop the homes that have sat past the county's roughly 20-day average, and negotiate on terms and rate concessions. Do not assume a house in a two-month-supply county will discount just because the national news says rates are high.",
+        },
+        right: {
+          label: "If You Are Selling",
+          text: "Your buyer is financing near 7 percent and doing the payment math before the showing. Price to what that payment supports, not to the spring comp. Offering a rate buydown instead of a price cut can widen your buyer pool without resetting your number for the next appraisal. If you are a move-up seller holding a low rate, the decision is not about the rate you lose. It is about whether the equity you have built pays for the house you want.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "Calling 7 percent the new normal makes it sound like something went wrong. It is closer to the truth to say something unusual ended. The markets that adjust fastest are the ones that stop waiting for 2021 to come back. If you want your own payment, equity, and pricing math run against current Oakland County comps, reach the team at thepatrickgrp.com/contact, or start with a valuation at thepatrickgrp.com/home-valuation.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
