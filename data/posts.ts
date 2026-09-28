@@ -4364,6 +4364,115 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "seller-concessions-arm-share-oakland-county-september-2026",
+    title: "Nearly Half of Buyers Got Seller Concessions in August. Detroit Was Not on the List.",
+    excerpt:
+      "Redfin says 44.7 percent of August buyers got money from the seller, and ARM applications just hit 9.8 percent. Both are workarounds for 7 percent rates. Only one of them is reliably available in Oakland County.",
+    date: "2026-09-28",
+    author: "Sarah",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    image: "/images/insights/how-to-win-bidding-war.jpg",
+    imageAlt:
+      "Buyers negotiating an offer on a Southeast Michigan home as seller concessions and adjustable-rate mortgages rise nationally in September 2026",
+    relatedSlugs: [
+      "fed-hike-7-percent-old-normal-oakland-county-september-2026",
+      "months-of-supply-4-9-national-vs-oakland-county-september-2026",
+      "oakland-county-days-on-market-negotiating-leverage-august-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "clarkston-mi",
+      "shelby-township-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Two numbers moved through the industry last week, and they are really the same story. Redfin reported that sellers gave concessions in 44.7 percent of U.S. home sales in August, the highest share for that month since at least 2020, and called it the strongest buyer's market in its records. A few days later the Mortgage Bankers Association said adjustable-rate loans climbed to 9.8 percent of all applications, up from 8.4 percent the week before. Then on September 24, Freddie Mac put the 30-year fixed at 7.03 percent, the first reading above 7 in twenty months.",
+      },
+      {
+        type: "paragraph",
+        text: "Put those together and you get a clear picture of how buyers are coping with the rate. Some are getting the seller to pay part of it. Some are borrowing on a shorter fuse. What the headlines did not mention is that Detroit was not one of the 29 metros in Redfin's concession table at all, and the markets at the top of it look very little like ours.",
+      },
+      {
+        type: "h2",
+        text: "Look at Who Is Leading That List",
+      },
+      {
+        type: "paragraph",
+        text: "Atlanta led with concessions in 72.8 percent of sales, followed by Charlotte, Phoenix, Las Vegas, and Raleigh. Eight of the top ten are in the South or the West. Those are markets that built aggressively over the last several years, where builders compete directly with resale owners and buy down rates to move inventory. When a new house down the road comes with a subsidized rate, the resale seller next to it has to match. That is what a 70 percent concession rate is made of.",
+      },
+      {
+        type: "paragraph",
+        text: "Oakland County is a different animal. Redfin has the county median at $397,000, up 3.8 percent year over year, with homes selling in about 20 days. Supply here has been running near two months while the national figure sits around 4.9. New construction is a small slice of what trades. A national average that blends Atlanta with Birmingham, Michigan tells you the direction of the wind. It does not tell you what the seller across the table is going to do.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Sales With Concessions",
+            value: "44.7%",
+            note: "Redfin, August 2026. Highest August share since at least 2020. Detroit was not among the 29 metros reported.",
+          },
+          {
+            label: "ARM Share of Applications",
+            value: "9.8%",
+            note: "MBA, week ending September 18. The 5/1 ARM averaged 6.10 percent, more than a point below the 30-year fixed.",
+          },
+          {
+            label: "30-Year Fixed",
+            value: "7.03%",
+            note: "Freddie Mac, September 24. First reading above 7 percent since January 2025. It was 6.30 percent a year ago.",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Concessions Here Belong to the House, Not the Market",
+      },
+      {
+        type: "paragraph",
+        text: "In a two-month-supply county, concessions do not show up evenly. They show up on specific listings: the home that was priced to a spring comp, the one that needs a roof, the one sitting past 30 days while the county average is 20. On a freshly listed, well-prepared house in Troy or Royal Oak, asking for 3 percent back is often how you lose it to the buyer who did not ask. On a house that has been sitting for five weeks, the same request is a normal conversation. The skill is knowing which one you are standing in before you write.",
+      },
+      {
+        type: "callout",
+        label: "What the ARM math actually buys you",
+        text: "On a $397,000 home with 20 percent down, a $317,600 loan at 7.03 percent runs about $2,119 a month in principal and interest. At the 6.10 percent 5/1 ARM rate, it is about $1,925. That $194 is real, and it is fixed for five years. After that, the rate resets to whatever the market says. A 3 percent seller concession on the same house is $11,910, which a lender can apply to a permanent buydown that never resets.",
+      },
+      {
+        type: "paragraph",
+        text: "I am not against adjustable loans. Today's ARMs are fully underwritten, capped, and a long way from the products that caused trouble two decades ago. For a buyer who knows they will move or refinance inside five years, a 5/1 can be the right tool. What I push back on is using an ARM because it is the only way the payment works. That is not a plan for the rate. That is a bet on it, and the Fed just told everyone it expects to raise again before year end.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Before asking for a concession, check days on market against the roughly 20-day county average. Past 30 days, ask. Under 10 on a well-priced home, lead with a clean offer.",
+          "Have your lender price three versions of the same house: the 30-year fixed, a 5/1 ARM, and the fixed rate with a seller-paid permanent buydown. Compare them over the years you actually expect to own.",
+          "If you take an ARM, underwrite yourself at the first adjustment cap, not the start rate. If that payment would break your budget, the loan is too big.",
+          "Concession dollars are capped by loan type and down payment. Confirm your limit with your lender before you write it into an offer.",
+        ],
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Buying",
+          text: "The national data says you have leverage, and on the right house you do. Spend it where it is real: the listings that have sat, the homes with visible deferred work, the sellers who already moved their price once. Use concession dollars on the rate before you use them on closing costs. A permanent buydown keeps paying you every month you own the house.",
+        },
+        right: {
+          label: "If You Are Selling",
+          text: "Your buyer has read the same Redfin headline and will ask. That does not mean you owe it. A home priced to current contracts and presented well in this county still sells in about three weeks without giving much back. If you are past 30 days, a rate buydown offered in the listing often widens your buyer pool more than the same dollars taken off price, and it protects your number for the next appraisal.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "Every cycle has a moment where the national story and the local one pull apart, and this is one of them. The buyer's market in the headlines is real in Atlanta and Phoenix. In Oakland County it is real on a house by house basis, which is a more useful thing to know. If you want your own payment run three ways against current comps, reach the team at thepatrickgrp.com/contact, or start with a valuation at thepatrickgrp.com/home-valuation.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
