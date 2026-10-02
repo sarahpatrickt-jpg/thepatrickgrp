@@ -82,8 +82,8 @@ const regionTag: Record<string, string> = {
   "wells-fargo-homebuyer-access": "Not offered in Michigan",
   "wells-fargo-closing-cost": "Not offered in Michigan",
   "rocket-one-plus": "Rocket covers 2%: up to $7K",
-  "honor-cu-launch": "First-time buyers, 80% AMI",
-  "fhlb-homeboost": "First-generation buyers",
+  "honor-cu-launch": "Closed, funds exhausted",
+  "fhlb-homeboost": "2026 round closed",
   "flagstar-destination-home": "Community lending areas",
 };
 

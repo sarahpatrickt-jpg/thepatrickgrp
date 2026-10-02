@@ -3,13 +3,13 @@
  *
  * All qualification logic runs client-side. No API needed.
  * Data sourced from MSHDA, county housing authorities, and federal programs.
- * Last updated: September 1, 2026
+ * Last updated: October 2, 2026
  */
 
 // Monthly grant task: bump BOTH dates when refreshing this file.
 // Shown on /grants and in its structured data; freshness is a citation signal.
-export const GRANTS_LAST_UPDATED = "September 1, 2026";
-export const GRANTS_LAST_UPDATED_ISO = "2026-09-01";
+export const GRANTS_LAST_UPDATED = "October 2, 2026";
+export const GRANTS_LAST_UPDATED_ISO = "2026-10-02";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -117,9 +117,9 @@ const MSHDA_TARGETED_CITIES: Record<County, string[]> = {
     "Wayne",
   ],
   Macomb: ["Harrison Township", "Mount Clemens", "Mt. Clemens"],
-  Livingston: ["Howell"],
-  Genesee: ["Flint"],
-  Monroe: ["Luna Pier"],
+  Livingston: ["Howell", "Cohoctah Township", "Conway Township", "Iosco Township"],
+  Genesee: ["Flint", "Genesee Township", "Mount Morris Township", "Mt. Morris Township"],
+  Monroe: ["Luna Pier", "Frenchtown Township"],
   Washtenaw: [], // entire county is targeted, handled in isMshdaTargeted
 };
 
@@ -127,7 +127,7 @@ const MSHDA_PURCHASE_LIMIT = 566_355; // statewide single sales price limit, eff
 
 // Oakland County Treasurer / Independent Bank program: one published figure at
 // 120% of Oakland County AMI, not a per-household-size table.
-const OAKLAND_DPA_INCOME_LIMIT = 123_240;
+const OAKLAND_DPA_INCOME_LIMIT = 127_320; // 2026 figure per the Treasurer's program page
 
 // City of Detroit DPA, 80% AMI as published on the program page.
 const DETROIT_DPA_INCOME: Record<number, number> = {
@@ -267,13 +267,13 @@ export const programs: GrantProgram[] = [
   {
     id: "mshda-mcc",
     name: "MSHDA Mortgage Credit Certificate",
-    amount: "Up to $2,000/year",
+    amount: "20% of mortgage interest yearly",
     type: "rate-reduction",
     description:
-      "The MSHDA Mortgage Credit Certificate turns 20% of the mortgage interest you pay each year into a dollar-for-dollar federal tax credit, up to $2,000 annually, for the life of the loan. It is not down payment money, it lowers what you owe the IRS every year you hold the mortgage. The MCC must be applied for and approved through an approved MCC lender before you close.",
+      "The MSHDA Mortgage Credit Certificate turns 20% of the mortgage interest you pay each year into a dollar-for-dollar federal tax credit for the life of the loan. The credit cannot exceed your federal tax liability for the year, but at MSHDA's 20% rate the federal $2,000 annual cap does not apply (that cap only applies to certificates above 20%). It is not down payment money, it lowers what you owe the IRS every year you hold the mortgage. The MCC must be applied for and approved through an approved MCC lender before you close.",
     highlights: [
       "20% of annual mortgage interest as a federal tax credit",
-      "Up to $2,000 back every year for the life of the loan",
+      "Credit every year for the life of the loan",
       "Available statewide through approved MCC lenders",
       "Can be layered with down payment assistance",
     ],
@@ -328,7 +328,7 @@ export const programs: GrantProgram[] = [
       return {
         eligible: false,
         missing: [
-          "Funding currently exhausted and the program is closed to new applications as of September 2026; check back",
+          "Funding currently exhausted and the program is closed to new applications as of October 2026; check back",
         ],
       };
     },
@@ -349,12 +349,12 @@ export const programs: GrantProgram[] = [
     requirements: [
       "Must be a first-time homebuyer (no ownership in the past three years)",
       "Purchasing in Oakland County as your year-round primary residence",
-      "Household income at or below 120% of Oakland County AMI ($123,240)",
+      "Household income at or below 120% of Oakland County AMI ($127,320 for 2026)",
       "Mortgage must be financed through Independent Bank",
       "Must contribute at least $1,000 of your own funds",
       "Pre-purchase counseling course required",
     ],
-    url: "https://www.oakgov.com/government/oakland-county-treasurer-s-office/financial-empowerment-center/homebuyer-assistance-program",
+    url: "https://www.oaklandcountymi.gov/government/oakland-county-treasurer-s-office/financial-empowerment-center/homebuyer-assistance-program",
     qualify: (p) => {
       const missing: string[] = [];
       if (p.county !== "Oakland")
@@ -608,7 +608,7 @@ export const programs: GrantProgram[] = [
       // Funding exhausted, always near-miss so users know it exists
       return {
         eligible: false,
-        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of September 2026; check back"],
+        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of October 2026; check back"],
       };
     },
   },
@@ -797,7 +797,7 @@ export const programs: GrantProgram[] = [
     ],
     url: "https://www.wellsfargo.com/mortgage/homebuyer-access-grant/",
     qualify: () => {
-      // Michigan is not among the 21 eligible metro areas as of September 2026
+      // Michigan is not among the 21 eligible metro areas as of October 2026
       return {
         eligible: false,
         missing: [
@@ -841,16 +841,17 @@ export const programs: GrantProgram[] = [
     amount: "1% down (Rocket covers 2%)",
     type: "grant",
     description:
-      "Rocket Mortgage's ONE+ program lets qualified buyers purchase with just 1% down. Rocket provides an additional 2% grant (up to $7,000) to bring your total equity to 3%. Designed for income-qualified buyers.",
+      "Rocket Mortgage's ONE+ program lets qualified buyers purchase with just 1% down. Rocket provides an additional 2% grant (up to $7,000) to bring your total equity to 3%. Designed for income-qualified buyers on conventional loans up to $350,000. Private mortgage insurance still applies until you reach 20% equity; Rocket stopped covering it in January 2024.",
     highlights: [
       "Only 1% down payment from you",
       "Rocket contributes 2% grant (up to $7,000)",
       "Start with 3% equity on day one",
-      "No PMI with 3% equity structure",
+      "Conventional loans up to $350,000",
     ],
     requirements: [
       "Household income at or below 80% AMI",
       "Must originate through Rocket Mortgage",
+      "Maximum loan amount $350,000",
       "Credit score 620+",
       "Primary residence, single-family home",
     ],
@@ -876,36 +877,30 @@ export const programs: GrantProgram[] = [
     amount: "Up to $20,000",
     type: "forgivable-loan",
     description:
-      "Launch is FHLBank Indianapolis's down payment assistance program, offering up to $20,000 toward down payment, closing costs, and counseling for first-time buyers at or below 80% of area median income. You access it through a participating FHLBank Indianapolis member lender, several of which lend across Southeast Michigan. Funds are first-come, first-served and carry a five-year retention period.",
+      "Launch is FHLBank Indianapolis's down payment assistance program, offering up to $20,000 toward down payment, closing costs, and counseling for first-time buyers at or below 80% of area median income. You access it through a participating FHLBank Indianapolis member lender, several of which lend across Southeast Michigan. The 2026 round is closed and Launch funds are currently exhausted. FHLBank Indianapolis typically opens a new round each year, so it is worth monitoring.",
     highlights: [
       "Up to $20,000 in assistance",
       "For first-time homebuyers at or below 80% AMI",
       "Five-year retention period, then fully yours",
       "Offered through FHLBank Indianapolis member lenders",
+      "2026 round closed, funds exhausted",
     ],
     requirements: [
       "First-time homebuyer",
       "Household income at or below 80% of area median income",
       "Must originate through a participating FHLBank Indianapolis member lender",
       "Pre-purchase homebuyer education required",
-      "Funds are first-come, first-served, confirm the current round is still open",
+      "Program funding currently exhausted",
     ],
-    url: "https://www.fhlbi.com/services/voluntary-programs/",
-    qualify: (p) => {
-      const missing: string[] = [];
-      if (!p.isFirstTimeBuyer)
-        missing.push("Must be a first-time homebuyer");
-      const amiTable = AMI_80_BY_COUNTY[p.county];
-      const amiLimit = getIncomeLimit(amiTable, p.householdSize);
-      if (p.annualIncome > amiLimit)
-        missing.push(
-          `Household income must be at or below $${amiLimit.toLocaleString()} (80% AMI) for a ${p.householdSize}-person household in ${p.county} County`
-        );
-      if (!creditAtLeast(p.creditScore, 620) && !creditUnknown(p.creditScore))
-        missing.push("Credit score of 620+ typically required");
-      if (creditUnknown(p.creditScore))
-        missing.push("Credit score requirements apply, verify yours before applying");
-      return { eligible: missing.length === 0, missing };
+    url: "https://www.fhlbi.com/services/community-programs/launch/",
+    qualify: () => {
+      // Funds exhausted, always near-miss so buyers know the program exists
+      return {
+        eligible: false,
+        missing: [
+          "Funding currently exhausted, the 2026 round is closed as of October 2026; check back for the next round",
+        ],
+      };
     },
   },
   {
@@ -914,12 +909,12 @@ export const programs: GrantProgram[] = [
     amount: "Up to $25,000",
     type: "grant",
     description:
-      "FHLBank Indianapolis's HomeBoost program provides up to $25,000 in down payment, closing cost, and counseling assistance for first-generation, first-time homebuyers in Michigan and Indiana at or below 120% of area median income. The 2026 round opened July 8 with a $5.3 million allocation, awarded first-come first-served through participating member lenders.",
+      "FHLBank Indianapolis's HomeBoost program provides up to $25,000 in down payment, closing cost, and counseling assistance for first-generation, first-time homebuyers in Michigan and Indiana at or below 120% of area median income. The 2026 round opened July 8 with a $5.3 million allocation and is now closed. Awards are first-come first-served through participating member lenders, so watch for the next annual round.",
     highlights: [
       "Up to $25,000 in assistance",
       "For first-generation, first-time homebuyers",
       "Generous 120% AMI income limit",
-      "2026 round open, $5.3 million allocated",
+      "2026 round closed, watch for the next round",
     ],
     requirements: [
       "First-generation homebuyer (parents never owned a home, or you aged out of foster care or became emancipated)",
@@ -928,17 +923,17 @@ export const programs: GrantProgram[] = [
       "Must use a participating FHLBank Indianapolis member lender",
       "Must contribute at least $500 toward the purchase",
       "Pre-purchase homebuyer education required",
+      "Program funding currently exhausted",
     ],
     url: "https://www.fhlbi.com/services/community-programs/homeboost-down-payment-assistance-/",
-    qualify: (p) => {
-      const missing: string[] = [];
-      // First-generation status is not captured in the intake form
-      if (!p.isFirstTimeBuyer)
-        missing.push("Must be a first-time homebuyer");
-      missing.push(
-        "Must be a first-generation homebuyer, ask a FHLBank Indianapolis member lender to confirm HomeBoost eligibility"
-      );
-      return { eligible: false, missing };
+    qualify: () => {
+      // Funds exhausted, always near-miss so buyers know the program exists
+      return {
+        eligible: false,
+        missing: [
+          "Funding currently exhausted, the 2026 round is closed as of October 2026; check back for the next round",
+        ],
+      };
     },
   },
   {
