@@ -4473,6 +4473,119 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "rates-7-28-october-listing-vs-spring-oakland-county-2026",
+    title: "Rates Hit 7.28 Percent. That Is Not a Reason to Pull Your Listing Until Spring.",
+    excerpt:
+      "Freddie Mac's 25 basis point jump was the biggest in four years, and the national story is that housing froze. For Oakland County sellers, the math on waiting until spring looks worse than the math on listing now.",
+    date: "2026-10-05",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "6 min read",
+    image: "/images/insights/best-time-to-sell.jpg",
+    imageAlt:
+      "A Southeast Michigan home prepared for an October listing as mortgage rates reach 7.28 percent in fall 2026",
+    relatedSlugs: [
+      "seller-concessions-arm-share-oakland-county-september-2026",
+      "best-time-to-sell-a-house-southeast-michigan",
+      "rate-spike-2026-high-oakland-county-sellers",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "bloomfield-hills-mi",
+      "northville-mi",
+      "west-bloomfield-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Last Thursday Freddie Mac put the 30-year fixed at 7.28 percent, up 25 basis points in a single week. That is the largest weekly jump since October 2022 and the highest average in nearly three years. Daily trackers ran even hotter, with Mortgage News Daily showing 7.6 percent on September 30. The Mortgage Bankers Association reported purchase applications 14 percent below a year ago, and the headlines did what headlines do. Housing froze.",
+      },
+      {
+        type: "paragraph",
+        text: "The phone calls I am getting this week are from sellers who had planned to list this month and are now asking whether they should sit tight until spring. It is a reasonable question. For most of them, I think the answer is no, and the reasons are more about the calendar than the rate.",
+      },
+      {
+        type: "h2",
+        text: "Read the Regional Line, Not the National One",
+      },
+      {
+        type: "paragraph",
+        text: "The same week's national reporting, drawing on Realtor.com and Compass data, showed prices down 3.8 percent year over year in the Northeast, down 2.4 percent in the South, and down 0.8 percent in the West. The Midwest was flat. Pending sales nationally fell 6.1 percent, cancellations climbed to about 13 percent, and 43 percent of listings carried a price cut. Those are real numbers. They are also averages pulled down hardest by markets that overbuilt or overpriced, and ours did neither.",
+      },
+      {
+        type: "paragraph",
+        text: "Locally, metro Detroit ended August at roughly 3.0 months of supply, up from 2.8 a year earlier. Oakland County has been running closer to two. Balanced sits near six. That is a market where buyers have more room to negotiate than they did in 2022, not a market where sellers are stranded.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "30-Year Fixed",
+            value: "7.28%",
+            note: "Freddie Mac, October 1. Up 25 basis points in one week, the biggest weekly move since October 2022.",
+          },
+          {
+            label: "Purchase Applications",
+            value: "-14%",
+            note: "MBA, week ending September 25, versus a year ago. The fourth straight weekly decline in total applications.",
+          },
+          {
+            label: "Midwest Prices",
+            value: "Flat",
+            note: "Year over year, while the Northeast fell 3.8 percent and the South fell 2.4 percent.",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "What Waiting Until Spring Actually Costs",
+      },
+      {
+        type: "paragraph",
+        text: "Sellers who wait are usually betting on two things: that rates come down and that spring brings more buyers. The second part is true. Spring does bring more buyers. It also brings far more listings, because everyone who waited through the fall lists in March and April at the same time. In every cycle I have worked, the sellers who were already on the market in October and November faced the thinnest competition of the year. The buyers shopping in the fall are not browsing. They have a relocation date, a lease ending, or a closed sale on their last house.",
+      },
+      {
+        type: "paragraph",
+        text: "The rate part of the bet is harder to call. The Fed raised in September and signaled it may go again before year end. Nobody should list or delist based on a forecast for where mortgage rates land in April. You can control the competition you face. You cannot control the rate.",
+      },
+      {
+        type: "callout",
+        label: "What the jump did to a buyer's payment",
+        text: "On a $397,000 home with 20 percent down, a $317,600 loan at 7.03 percent runs about $2,119 a month in principal and interest. At 7.28 percent it is about $2,173. That is roughly $54 a month. It is enough to make a buyer hesitate. It is not enough to remove the buyers who need to move this fall, and those are the buyers an October listing is built for.",
+      },
+      {
+        type: "h2",
+        text: "If You List This Month, List Differently",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Price to what has gone under contract in the last 30 days, not to what closed in June. Spring comps were written at lower rates.",
+          "Plan for 30 to 45 days on market rather than a weekend. If you need to close by a fixed date, back your timeline into that.",
+          "Consider offering a rate buydown in the listing instead of building room into the price. It speaks directly to this week's headline and protects your number for the appraisal.",
+          "Get the house fully ready before the first photo. With 43 percent of listings nationally showing a cut, buyers are trained to wait out anything that looks unfinished.",
+        ],
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Selling",
+          text: "The fall buyer pool is smaller and more serious. You face fewer competing listings now than you will in April, and the Midwest has held price while other regions gave some back. A well-prepared home priced to current contracts still sells here. The sellers who struggle this season will be the ones priced to last spring.",
+        },
+        right: {
+          label: "If You Are Buying",
+          text: "This is the week to be in the market, not the week to step out. Purchase applications are down 14 percent, which means fewer people are writing on the same house. Lock when you have an accepted offer, ask your lender to price a seller-paid buydown, and focus on listings past 30 days, where sellers are most open to a conversation.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "Rate spikes feel permanent the week they happen. They rarely are, and they rarely matter as much as the headlines suggest to a seller who prices correctly. If you are weighing October against March, reach the team at thepatrickgrp.com/contact, or start with a valuation at thepatrickgrp.com/home-valuation, and we will run both timelines against current Oakland County contracts.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
