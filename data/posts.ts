@@ -25,6 +25,176 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "september-2026-southeast-michigan-market-update",
+    title:
+      "September 2026 Market Update: The Fall Shift Arrived on Schedule",
+    excerpt:
+      "Last month we said the seasonal slowdown was coming. In September it showed up: more homes for sale than any September in three years, homes taking a little longer to sell, and sellers giving up half a percent at the closing table. Here is what that means if you are buying or selling this fall.",
+    date: "2026-10-06",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/september-2026-southeast-michigan-market-update.jpg",
+    imageAlt:
+      "September 2026 Southeast Michigan market update: the fall shift arrived on schedule",
+    relatedSlugs: [
+      "august-2026-southeast-michigan-market-update",
+      "rates-7-28-october-listing-vs-spring-oakland-county-2026",
+      "best-time-to-sell-a-house-southeast-michigan",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "sterling-heights-mi",
+      "plymouth-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "In last month's update I wrote that August was likely one of the last easy months of the year, because every autumn the market slows and every January it reaches its slowest point. September's numbers are in, and the slowdown arrived right on time.",
+      },
+      {
+        type: "paragraph",
+        text: "None of it is dramatic. Prices are still higher than a year ago almost everywhere. But three things moved in the same direction at once, and together they tell you a great deal about how to approach the next few months.",
+      },
+      {
+        type: "h2",
+        text: "The Month in Three Numbers",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Months of Inventory",
+            value: "3.5",
+            note: "Highest September in three years",
+          },
+          {
+            label: "Sale-to-List Price",
+            value: "99.5%",
+            note: "Down from 100% in August",
+          },
+          {
+            label: "Average Days on Market",
+            value: "37",
+            note: "Up from 34 in August",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Inventory rose, sellers gave a little on price, and homes took a few more days to sell. That is what a market looks like when buyers start to have real choices, and it is exactly what the calendar predicted.",
+      },
+      {
+        type: "h2",
+        text: "More Choice Than Any Fall in Three Years",
+      },
+      {
+        type: "paragraph",
+        text: "Months of supply is the clearest single measure of who holds the advantage. It answers a simple question: if no new homes came on the market, how long would it take to sell everything currently listed? Here is September, three years apart:",
+      },
+      {
+        type: "table",
+        headers: ["County", "Sept 2023", "Sept 2025", "Sept 2026"],
+        rows: [
+          ["Oakland", "2.0", "2.6", "3.2"],
+          ["Macomb", "1.6", "2.4", "3.0"],
+          ["Wayne", "2.9", "3.7", "4.0"],
+          ["Region overall", "2.3", "2.9", "3.5"],
+        ],
+        emphasizeRows: [3],
+        caption:
+          "Months of supply, all price ranges and property types. Source: Realcomp/InfoSparks.",
+      },
+      {
+        type: "paragraph",
+        text: "Every county we follow is now at its highest supply reading since at least early 2023. Washtenaw, which we added to this report in September, jumped 42.9% in a single year to 4.0 months. Oakland is up 23.1%, Macomb 25.0%.",
+      },
+      {
+        type: "paragraph",
+        text: "For perspective, a market is generally considered balanced somewhere around five to six months of supply. We are not there, and Southeast Michigan is still a seller's market. It is simply the mildest seller's market we have had in three years, and buyers can feel the difference.",
+      },
+      {
+        type: "h2",
+        text: "Where Prices Went",
+      },
+      {
+        type: "table",
+        headers: ["County", "Median Sale Price", "vs. Last September", "Months of Supply"],
+        rows: [
+          ["Livingston", "$418,610", "+3.4%", "2.9"],
+          ["Washtenaw", "$405,000", "-8.0%", "4.0"],
+          ["Oakland", "$380,000", "+1.3%", "3.2"],
+          ["Macomb", "$281,000", "+3.3%", "3.0"],
+          ["Genesee", "$234,500", "+2.0%", "3.4"],
+          ["Wayne", "$218,000", "+3.8%", "4.0"],
+          ["Region overall", "$295,000", "+4.3%", "3.5"],
+        ],
+        emphasizeRows: [6],
+        caption:
+          "September 2026, all price ranges and property types. Source: Realcomp/InfoSparks county statistics.",
+      },
+      {
+        type: "paragraph",
+        text: "If you compare these to August you will see lower numbers almost across the board. Oakland's median went from $395,000 to $380,000. Wayne went from $230,000 to $218,000. That is the normal seasonal pattern rather than a reversal: prices have softened every fall and firmed again every spring for three years running. The comparison that matters is the year-over-year column, and five of six counties are still up.",
+      },
+      {
+        type: "paragraph",
+        text: "The exception is the most useful lesson in the report. Washtenaw took on the most new inventory of any county, and it is the only one where the median price fell, down 8.0% from a year ago, with homes averaging 48 days to an accepted offer. Livingston sits at the other end: the tightest supply at 2.9 months, the fastest sales at 26 days, and price per square foot up 5.7%. Last month's conclusion holds. When buyers get more options, sellers lose pricing power, and the counties with the most new competition are the ones where prices are working hardest.",
+      },
+      {
+        type: "h2",
+        text: "The Half Percent",
+      },
+      {
+        type: "paragraph",
+        text: "In August, the typical home in every county we follow sold for 100% of its last asking price. In September the region slipped to 99.5%, with Oakland at 99.5% and Washtenaw at 99.4%. Region-wide, last September still closed at a full 100%, so the give arrived a little earlier this year.",
+      },
+      {
+        type: "paragraph",
+        text: "Half a percent sounds small. On a $380,000 Oakland home it is about $1,900, and it is the first sign that buyers are using their extra choices at the negotiating table. Remember too that this figure measures the final asking price, not the original one. Homes that cut their price before selling still count close to 100%. The real cost of overpricing never shows up in this number. It shows up in time.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You Are Selling",
+      },
+      {
+        type: "paragraph",
+        text: "The calendar is the most important factor right now. A home listed in early October that sells at its county average, and then takes the usual 30 to 45 days from accepted offer to keys, closes in early to mid December. A home that misses on price in its first few weeks will be shown in January, when the region averaged 51 days on market this year, compared with 37 now.",
+      },
+      {
+        type: "paragraph",
+        text: "You are also competing with more homes than at any time in three years. Buyers are comparing, and they are noticing which listings are priced to the evidence and which are priced to last spring. Price against the last ninety days of closed sales in your neighborhood, prepare the home before the photos are taken, and you will very likely still get a strong result. If you would like to know where your own home stands, our complimentary home valuation at thepatrickgrp.com/home-valuation is the fastest way to find out.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You Are Buying",
+      },
+      {
+        type: "paragraph",
+        text: "This is the most choice you have had in three autumns. In Oakland and Washtenaw, sellers have started closing below their asking price for the first time since spring, and in Washtenaw, with prices down from a year ago and homes averaging seven weeks to an offer, there is genuine room to negotiate.",
+      },
+      {
+        type: "paragraph",
+        text: "Do not assume that applies everywhere. Livingston homes are still selling in under four weeks, and a well prepared, well priced home in any county still draws attention fast. Choosing your battles matters. Buyers in our VIP Buyer program at thepatrickgrp.com/vip-buyers see our listings and off-market opportunities before the public does.",
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "September did exactly what the last three Septembers did, only with more homes for sale. Nothing about it suggests a weakening market. Prices are higher than a year ago in five of six counties, and sellers are still getting close to full asking price. What it does suggest is that the next three months reward preparation and accurate pricing more than they have in years. If you would like to talk through what these numbers mean for your plans, we would welcome the conversation at thepatrickgrp.com/contact.",
+      },
+      {
+        type: "callout",
+        label: "Unconditional Release Guarantee",
+        text: "Sarah Patrick, Principal Broker. The Patrick Group at Oak & Stone Real Estate. 248.755.3545. Every engagement carries our Unconditional Release Guarantee. If our service ever falls short of the standard you expect, you may end the relationship at any time, no obligation.",
+      },
+    ],
+  },
+  {
     slug: "august-2026-southeast-michigan-market-update",
     title:
       "August 2026 Market Update: How Long It Really Takes to Sell a Home Right Now",

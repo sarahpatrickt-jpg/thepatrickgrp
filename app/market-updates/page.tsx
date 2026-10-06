@@ -16,22 +16,27 @@ export const metadata: Metadata = {
   },
 };
 
-// ── Latest data snapshot (April 2026) ────────────────────────────────────────
+// ── Latest data snapshot (September 2026) ────────────────────────────────────
 const LATEST = {
-  label: "August 2026",
-  href: "/market-updates/august-2026",
-  headline: "Prices up in all six counties and sellers got full asking price everywhere. Homes now average about a month to sell, with the seasonal slowdown ahead.",
+  label: "September 2026",
+  href: "/market-updates/september-2026",
+  headline: "Homes for sale reached a three-year high in every county, and sellers started giving a little on price. The fall shift arrived on schedule.",
   counties: [
-    { name: "Livingston", medianPrice: 439000, priceYoY: 12.3, dom: 27, invYoY: -3.8 },
-    { name: "Oakland",    medianPrice: 395000, priceYoY:  2.6, dom: 25, invYoY: 20.0 },
-    { name: "St. Clair",  medianPrice: 283500, priceYoY: 16.9, dom: 35, invYoY:  3.3 },
-    { name: "Macomb",     medianPrice: 281000, priceYoY:  1.3, dom: 29, invYoY: 21.7 },
-    { name: "Genesee",    medianPrice: 239900, priceYoY:  6.6, dom: 34, invYoY: 10.0 },
-    { name: "Wayne",      medianPrice: 230000, priceYoY:  7.0, dom: 31, invYoY: 11.4 },
+    { name: "Livingston", medianPrice: 418610, priceYoY:  3.4, dom: 26, invYoY: 20.8 },
+    { name: "Washtenaw",  medianPrice: 405000, priceYoY: -8.0, dom: 48, invYoY: 42.9 },
+    { name: "Oakland",    medianPrice: 380000, priceYoY:  1.3, dom: 28, invYoY: 23.1 },
+    { name: "Macomb",     medianPrice: 281000, priceYoY:  3.3, dom: 30, invYoY: 25.0 },
+    { name: "Genesee",    medianPrice: 234500, priceYoY:  2.0, dom: 32, invYoY: 13.3 },
+    { name: "Wayne",      medianPrice: 218000, priceYoY:  3.8, dom: 33, invYoY:  8.1 },
   ],
 };
 
 const PAST_REPORTS = [
+  {
+    href: "/market-updates/august-2026",
+    month: "August 2026",
+    summary: "Prices up in all six counties and full asking price everywhere. Livingston led at +12.3% YoY. Homes averaged about a month to sell.",
+  },
   {
     href: "/market-updates/may-2026",
     month: "May 2026",
@@ -134,7 +139,7 @@ export default function MarketUpdatesPage() {
                 className="font-display mt-2"
                 style={{ fontSize: "clamp(28px, 3.5vw, 44px)", lineHeight: "1", letterSpacing: "-0.01em" }}
               >
-                Five-county snapshot
+                Six-county snapshot
               </h2>
               <p
                 className="font-editorial italic mt-2"
@@ -248,7 +253,7 @@ export default function MarketUpdatesPage() {
             className="font-editorial italic mt-4"
             style={{ fontSize: "clamp(20px, 2.5vw, 26px)", lineHeight: "1.5", color: "var(--ink)" }}
           >
-            &ldquo;Livingston moving faster while everything else slows is worth watching. Oakland at 13 days is still a seller&apos;s market. Wayne buyers are finally getting room, but prices haven&apos;t followed DOM down. They rarely do.&rdquo;
+            &ldquo;Nothing in September surprised me, and that is the point. The fall slowdown shows up every year. What changed is that buyers now have more homes to compare than at any time in three years, and they are starting to use that when they write offers.&rdquo;
           </blockquote>
           <div className="flex items-center gap-3 mt-5">
             <div style={{ width: 1, height: 32, backgroundColor: "var(--red)" }} />

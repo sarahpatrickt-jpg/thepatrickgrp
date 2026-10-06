@@ -34,7 +34,7 @@ const neighborhoods = [
   "romulus-mi",
 ];
 
-const marketReports = ["august-2026", "may-2026", "april-2026", "march-2026"];
+const marketReports = ["september-2026", "august-2026", "may-2026", "april-2026", "march-2026"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
