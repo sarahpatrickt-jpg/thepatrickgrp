@@ -2,6 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    // Serve images directly instead of through Vercel Image Optimization.
+    // The plan's monthly optimization allowance ran out on 2026-10-06 and every
+    // next/image request returned 402 (OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED).
+    // Remove this line to turn optimization back on (e.g. after upgrading the plan).
+    unoptimized: true,
     remotePatterns: [
       // Spark Platform — MLS listing photos
       { protocol: "https", hostname: "cdn.resize.sparkplatform.com" },
