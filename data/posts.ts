@@ -4756,6 +4756,115 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "zillow-early-winter-metro-detroit-inventory-october-2026",
+    title: "Zillow Called an Early Winter. Metro Detroit's Row in the Same Report Says Something Else.",
+    excerpt:
+      "Zillow's September report says newly pending sales fell 8.5 percent and winter came early. The Detroit metro line in that same table shows inventory up 6.6 percent, more than double the national gain. For buyers here, that is the number that matters.",
+    date: "2026-10-12",
+    author: "Sarah",
+    category: "Buyer Tips",
+    readTime: "6 min read",
+    image: "/images/insights/may-2026-market-pulse.jpg",
+    imageAlt:
+      "Aerial view of a Southeast Michigan neighborhood as metro Detroit for-sale inventory rises in fall 2026",
+    relatedSlugs: [
+      "months-of-supply-4-9-national-vs-oakland-county-september-2026",
+      "june-2026-quiet-buyer-window-oakland-county",
+      "cost-of-waiting-13-months-oakland-county-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "royal-oak-mi",
+      "rochester-hills-mi",
+      "northville-mi",
+      "west-bloomfield-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "On October 6 Zillow released its September market report and the headline wrote itself: newly pending sales down 8.5 percent from a year ago and 11.2 percent from August, which Zillow described as an early winter for housing. Two days later Freddie Mac put the 30-year fixed at 7.40 percent, the seventh straight weekly increase and the highest reading since November 2023. Redfin added that pending sales nationally sit at their lowest level in nearly three years. Put those together and the story this week is that buyers went home.",
+      },
+      {
+        type: "paragraph",
+        text: "I read the whole table. The Detroit metro row in Zillow's report tells a different story than the national paragraph above it, and if you are shopping in Oakland, Macomb, Wayne, Washtenaw, or Livingston County, it is the row you should be reading.",
+      },
+      {
+        type: "h2",
+        text: "The Detroit Row",
+      },
+      {
+        type: "paragraph",
+        text: "Zillow's typical home value for the Detroit metro came in at $264,838 in September, down 0.7 percent from August and up 1.5 percent from a year ago. For-sale inventory is up 6.6 percent year over year. Nationally, inventory is up 2.5 percent. Our supply is growing at more than twice the national pace. Zillow's sales nowcast for the metro is down 7.7 percent, so fewer buyers are competing for more homes. Typical rent in the metro rose 4.2 percent to $1,514, the kind of number that keeps the buy-versus-rent question alive even at 7.4 percent.",
+      },
+      {
+        type: "paragraph",
+        text: "Our own September market update, published last week, lines up with that. Oakland County moved to 3.2 months of supply, up 23.1 percent from a year ago and the highest September reading in three years. The county median settled at $380,000, down from $395,000 in August on the normal seasonal pattern but still 1.3 percent above last September. Sellers closed at 99.5 percent of asking after getting the full 100 percent in August, and the average home took 37 days to go under contract. More listings, slightly longer marketing times, prices holding. That is a market loosening from a very tight starting point, not a market rolling over.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Metro Detroit Inventory",
+            value: "+6.6%",
+            note: "Zillow, September, year over year. National inventory was up 2.5 percent in the same report.",
+          },
+          {
+            label: "30-Year Fixed",
+            value: "7.40%",
+            note: "Freddie Mac, October 8. Seventh straight weekly increase. A year ago the rate was 6.30 percent.",
+          },
+          {
+            label: "Oakland County Supply",
+            value: "3.2 months",
+            note: "September, up 23.1 percent from a year ago. Median $380,000, sellers closing at 99.5 percent of asking.",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "What the Monthly Dip Means, and What It Does Not",
+      },
+      {
+        type: "paragraph",
+        text: "The 0.7 percent monthly decline in Zillow's Detroit index is the first thing a nervous buyer will point to. Keep it in proportion. Values drift down most Septembers as the spring premium comes out of the comps, and a 0.7 percent move on a $265,000 typical value is about $1,850. In every cycle I have worked, the sellers who hold through a slow fall are the ones who were never in a hurry, and the sellers who adjust are the ones who are. Your job as a buyer is to find the second group, and rising inventory is what makes that possible.",
+      },
+      {
+        type: "callout",
+        label: "What 7.40 percent costs on an Oakland County purchase",
+        text: "On a $380,000 home with 20 percent down, a $304,000 loan at 7.40 percent runs about $2,105 a month in principal and interest. At last October's 6.30 percent it would have been about $1,882. That is roughly $223 a month, or about $2,700 a year. It is also about the size of the concession a seller on day 45 will discuss once competing offers have thinned out, and a seller-paid buydown can cover most of that gap for the first two years.",
+      },
+      {
+        type: "h2",
+        text: "How to Shop an Early Winter",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Sort by days on market, not by newest. Oakland County is averaging 37 days to an accepted offer, so a home past 45 days has a seller who has had time to recalibrate.",
+          "Ask for a 2-1 buydown before you ask for a price cut. A price cut saves you a few dollars a month. A buydown resets your first two years of payments and leaves the seller's number intact for the appraisal.",
+          "Get fully underwritten at 7.40 percent and say so in the offer. Sellers are reading the same headlines you are, and a buyer who is already approved is worth more to them than one who is a quarter point lower on paper.",
+          "Do not assume a discount everywhere. Redfin's latest four-week read had about a quarter of homes nationally still selling above list. A finished, correctly priced house in a tight Oakland County submarket still moves fast.",
+        ],
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Buying",
+          text: "This is the widest selection of homes metro Detroit has offered in about three years, with a smaller crowd to share it. The rate is high, and it was high last week too. Shop the inventory that has sat, negotiate terms before price, and let a seller-paid buydown do the work a Fed cut is not going to do for you this year.",
+        },
+        right: {
+          label: "If You Are Selling",
+          text: "Your competition grew 6.6 percent in a year and your buyer pool shrank. That does not mean cut your price. It means price to the last 30 days of contracts, get the house fully ready before the first photo, and budget a buydown into your net sheet instead of a second reduction in November.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "Zillow is right that the national market went quiet early this year. It is also publishing, in the same report, the best buyer conditions metro Detroit has offered in a while: more homes, fewer competing buyers, and prices that have held rather than broken. If you want the Detroit row run against the specific cities you are watching, reach the team at thepatrickgrp.com/contact, or start with a valuation at thepatrickgrp.com/home-valuation.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
