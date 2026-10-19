@@ -4865,6 +4865,112 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "metro-detroit-contract-cancellations-17-percent-october-2026",
+    title: "One in Six Metro Detroit Deals Fell Apart in September. Most Were Lost Before the Offer Was Written.",
+    excerpt:
+      "Redfin says 17.3 percent of metro Detroit purchase contracts were canceled in September, nearly three points above the national rate. The headline reads like buyers fleeing. The closing table tells a more specific story, and it is one you can prepare for.",
+    date: "2026-10-19",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "6 min read",
+    image: "/images/insights/how-to-avoid-home-contract-collapse.jpg",
+    imageAlt:
+      "A signed purchase agreement on a kitchen counter, representing metro Detroit contract cancellations in fall 2026",
+    relatedSlugs: [
+      "how-to-avoid-home-contract-collapse",
+      "what-a-home-inspection-covers-michigan",
+      "zillow-early-winter-metro-detroit-inventory-october-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "troy-mi",
+      "rochester-hills-mi",
+      "royal-oak-mi",
+      "west-bloomfield-mi",
+      "shelby-township-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "On October 12 Redfin published its September market report, and the line that traveled was the cancellation rate. Nationally, 14.5 percent of homes that went under contract fell out of contract. In metro Detroit the figure was 17.3 percent, about 2.8 points above the national rate and in the same neighborhood as Phoenix and San Antonio. At the other end of the table, San Francisco came in at 2.8 percent. Patch picked it up the same afternoon under a headline about a surprising shift in buyer behavior, and by midweek Crain's was describing a gloomy fall and year-end for Southeast Michigan housing.",
+      },
+      {
+        type: "paragraph",
+        text: "A day after the Redfin report, RE/MAX of Southeastern Michigan released its own September numbers, and they do not read like a market in retreat. Closed sales were down 4.3 percent from a year ago, the regional median edged up to about $331,000, average days on market fell to 27, and pending sales rose 7.8 percent year over year. Redfin's metro figure had pending sales down 10.7 percent. Two reports, same month, opposite signs on the forward indicator. That is not a mistake. It is two different footprints and two different data sets, and it should make you cautious about any single number that claims to describe this region.",
+      },
+      {
+        type: "h2",
+        text: "What a Metro Average Hides",
+      },
+      {
+        type: "paragraph",
+        text: "Metro Detroit is one of the widest price spreads of any large market in the country. In the same RE/MAX report, the city of Detroit's September median was $100,000. Oakland County's was $381,500, up 0.4 percent on 1,349 closings, down just 1.2 percent from last year. Livingston County closed 10.2 percent more homes at a $415,000 median. Macomb was the soft spot, with sales down 10.9 percent. When you blend all of that into one cancellation rate, the number is driven by wherever contracts are most fragile, and contracts are most fragile at lower price points, on older housing stock, with financing that has no room for a surprise. Redfin itself noted that cancellations run highest where buyers have leverage to walk, and lowest where competition makes walking expensive. Our region has both conditions, often within a fifteen-minute drive of each other.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Metro Detroit cancellations",
+            value: "17.3%",
+            note: "Redfin, September 2026, vs. 14.5% nationally",
+          },
+          {
+            label: "Oakland County median",
+            value: "$381,500",
+            note: "RE/MAX of Southeastern Michigan, up 0.4% year over year",
+          },
+          {
+            label: "Regional days on market",
+            value: "27",
+            note: "One day faster than September 2025",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Where Deals Actually Die",
+      },
+      {
+        type: "paragraph",
+        text: "Having watched contracts fall apart through more than one rate cycle, I can tell you the causes rarely change. What changes is how much margin each side has to absorb them. In a 2021 market, a buyer who found a cracked heat exchanger on inspection swallowed it, because the next house had twelve offers. This fall that same buyer has 3.4 months of regional supply to choose from and a payment that is already stretched. The surprise does not have to be big to end the deal.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Inspection findings on homes that were never pre-inspected. Roofs, furnaces, electrical panels, and basement water are the repeat offenders on 1950s and 1960s stock across Oakland and Macomb.",
+          "Appraisal gaps on homes priced to last spring's comps instead of the last 60 days. With sale-to-list ratios slipping below 100 percent regionally, the appraiser is working from softer data than the list price assumed.",
+          "Financing that was approved at the edge. A buyer who went under contract in late August without a rate lock watched the 30-year fixed climb through seven straight weekly increases before closing.",
+          "Condo projects that cannot produce budgets, reserve studies, or insurance declarations inside the lender's timeline under the Full Review rule that took effect in August.",
+          "Buyers who signed on emotion and did the math afterward. These are the ones a good pre-approval conversation catches before the offer, not after.",
+        ],
+      },
+      {
+        type: "callout",
+        label: "The Rate Lock Math",
+        text: "Freddie Mac held the 30-year fixed at 7.40 percent in its October 15 survey, flat from the prior week and up from roughly 6.74 percent in mid-August. On a $380,000 Oakland County purchase with ten percent down, that move added close to $150 a month to the payment between offer and closing for anyone who floated. For a buyer approved near the top of their debt-to-income limit, $150 is the whole deal.",
+      },
+      {
+        type: "h2",
+        text: "Keeping a Contract Together This Fall",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Selling",
+          text: "Pre-inspect before you list and fix or disclose what it finds. Price to the last 60 days of closed comps, not to the neighbor's number from April. Ask for the buyer's lock confirmation, not just the pre-approval letter, and ask when it expires. A contract with a floating rate in a rising-rate month is a contract with a hidden contingency. Shorter inspection and financing windows protect you more than a higher price does right now.",
+        },
+        right: {
+          label: "If You Are Buying",
+          text: "Lock the rate the day the contract is accepted and know the expiration date. Get the inspection scheduled inside the first week so a problem surfaces while there is time to negotiate a credit instead of walking. Have your lender run the payment at a quarter point above today's rate before you write the offer. If that number does not work, the house does not work, and finding that out now costs nothing.",
+        },
+      },
+      {
+        type: "paragraph",
+        text: "The Fed meets October 27 and 28, and whatever it does will move the headlines again. What it will not change is this: the deals that close in a tight-margin market are the ones where both sides removed the surprises before the ink dried. Metro Detroit's 17.3 percent is a real number and a regional one. In Oakland County, where the median is holding and homes are still moving in under a month, the cancellation risk you can control is larger than the one the market hands you.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
