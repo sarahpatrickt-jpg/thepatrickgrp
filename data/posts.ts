@@ -4971,6 +4971,120 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "private-listing-pitch-compass-mls-lawsuits-oakland-county-sellers-october-2026",
+    title:
+      "The Private Listing Pitch Is Coming to Oakland County. Here Is What It Actually Costs.",
+    excerpt:
+      "Six MLSs sued Compass this week over who controls how a home is marketed. The study underneath the fight covered 10 million sales. On a $381,500 Oakland County house, the private listing discount is real money.",
+    date: "2026-10-26",
+    author: "Sarah",
+    category: "Seller Tips",
+    readTime: "6 min read",
+    image: "/images/insights/cost-to-sell-michigan.jpg",
+    imageAlt:
+      "What a private listing costs an Oakland County seller compared to listing on the MLS",
+    relatedSlugs: [
+      "cost-to-sell-a-house-michigan",
+      "best-time-to-sell-a-house-southeast-michigan",
+      "oakland-county-days-on-market-negotiating-leverage-august-2026",
+    ],
+    relatedCitySlugs: [
+      "birmingham-mi",
+      "bloomfield-hills-mi",
+      "west-bloomfield-mi",
+      "northville-mi",
+      "rochester-hills-mi",
+      "troy-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "On October 21, six multiple listing services from Arizona, Colorado, the Carolinas, and the Bay Area sued Compass in federal court in New York. California Regional MLS, the largest in the country, had done the same two weeks earlier, and Compass sued it back on October 16. The question is whether a brokerage can market a home publicly while keeping it out of the shared MLS database. Compass says the homeowner should decide. Framed that way it sounds like a consumer rights story. It is a story about who holds your listing, and it is headed for Southeast Michigan whether or not a judge in New York ever rules.",
+      },
+      {
+        type: "paragraph",
+        text: "The pitch is already in circulation here, and sellers in Birmingham, Bloomfield Hills, and Northville hear it most often. List privately first. Test the price with our buyers. Stay off the days-on-market clock. It sounds reasonable in a listing presentation. The data says it costs you money.",
+      },
+      {
+        type: "h2",
+        text: "What the Study Underneath the Lawsuits Found",
+      },
+      {
+        type: "paragraph",
+        text: "In September, ARELLO, the association of state real estate regulators, published a white paper covering more than 10 million residential sales from January 2024 through June 2026. Private listings sold 1.26 percent below comparable MLS listings in 2024 and 0.87 percent below in 2025. Coming-soon listings, which are pre-marketed for a short window and then enter the MLS, sold 1.16 percent above standard MLS listings in 2025 and 1.55 percent above in the first half of this year. Zillow's own analysis of 15 million sales found a 1.3 percent penalty for off-MLS homes, wider at lower price points. A Bright MLS and Drexel University study found a gap near 17.5 percent. Compass, using 70,809 of its own closed transactions, reports that its phased marketing produced 4.6 percent more.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Private vs. MLS, 2025",
+            value: "0.87% below",
+            note: "ARELLO white paper, 10 million transactions",
+          },
+          {
+            label: "Coming-soon vs. MLS, H1 2026",
+            value: "1.55% above",
+            note: "Pre-marketed, then entered into the MLS",
+          },
+          {
+            label: "Oakland County median, September",
+            value: "$381,500",
+            note: "1,349 closed sales, RE/MAX of Southeastern Michigan",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Spread those figures across a local sale. Oakland County's September median was $381,500 on 1,349 closed sales, according to the RE/MAX of Southeastern Michigan housing report. ARELLO's 2025 gap is about $3,300 on that house. Zillow's is about $4,960. Bright's would be more than $66,000, and I do not believe that number travels to our market. But the smallest credible estimate is still a year of car payments handed over for a marketing theory. ARELLO notes the gap shows association, not proof of cause. Fair enough. I have yet to meet a seller who wanted to test it with their own equity.",
+      },
+      {
+        type: "h2",
+        text: "Why Private Listings Underperform in a Market Like Ours",
+      },
+      {
+        type: "paragraph",
+        text: "The reason is arithmetic. One brokerage's buyer list is a fraction of the pool working through every brokerage in Realcomp, the MLS that covers Southeast Michigan. Fewer eyes, fewer offers, less competition for your price. The private pitch promises protection from a long days-on-market count. In September the typical metro Detroit home went under contract in 27 days, a day faster than a year ago. You do not need protection from a 27-day clock. The homes that linger here are priced for a different month, and keeping a listing private does not fix the price. It only delays finding out.",
+      },
+      {
+        type: "callout",
+        label: "The rule the whole fight is about",
+        text: "The National Association of Realtors' Clear Cooperation Policy requires a listing to be entered into the MLS within one business day of any public marketing. Realcomp enforces it locally. That single business day is what Compass is suing over, and the lawsuits filed this month exist to defend it.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Selling",
+          text: "The one part of the private pitch the data supports is a short coming-soon window, and it works because it ends in the MLS with momentum behind it. Use it for photography, pre-inspection, and a firm launch date. Then go wide. If a brokerage proposes keeping your home in its own network beyond that, get the exit date in writing.",
+        },
+        right: {
+          label: "If You Are Buying",
+          text: "Private networks mean there are homes you are not seeing, and with 3.4 months of supply you have more to look at than a year ago. Ask your Realtor® to confirm you receive coming-soon alerts, not only active listings. If the listing side offers you an off-market home, the same brokerage is representing the seller's price and your offer at once. Negotiate accordingly.",
+        },
+      },
+      {
+        type: "h2",
+        text: "When Privacy Is Actually the Point",
+      },
+      {
+        type: "paragraph",
+        text: "Some sellers need discretion. An estate with heirs who disagree. A divorce where neither spouse wants a public price history. Tenants in place, or a security concern. Those cases are real and I handle them. The distinction the MLS side draws in these lawsuits is the right one: a seller choosing privacy is different from a brokerage choosing it for them. Before you sign an office exclusive, ask four questions.",
+      },
+      {
+        type: "bullets",
+        items: [
+          "How many buyers will actually see this listing in the private period, and how many of them are represented by your office?",
+          "What happens on the day the private window ends? Does the home go to Realcomp at the same price, or do you expect to reduce?",
+          "Will the private period count toward days on market when the listing goes public, and if not, will a buyer's Realtor® be able to see it anyway?",
+          "If the buyer comes from inside your office, who represents whom, and how is the commission split?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The Fed meets Tuesday and Wednesday and is expected to hold. Freddie Mac's rate slipped to 7.32 percent last week, the first weekly drop since August. None of that changes the advice. With Oakland County's median holding and homes moving in under a month, the widest net is still the one that pays the seller. Market the house to everyone, from a position of preparation, and let the buyers compete for it.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
