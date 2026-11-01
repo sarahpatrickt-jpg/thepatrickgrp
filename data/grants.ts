@@ -3,13 +3,13 @@
  *
  * All qualification logic runs client-side. No API needed.
  * Data sourced from MSHDA, county housing authorities, and federal programs.
- * Last updated: October 2, 2026
+ * Last updated: November 1, 2026
  */
 
 // Monthly grant task: bump BOTH dates when refreshing this file.
 // Shown on /grants and in its structured data; freshness is a citation signal.
-export const GRANTS_LAST_UPDATED = "October 2, 2026";
-export const GRANTS_LAST_UPDATED_ISO = "2026-10-02";
+export const GRANTS_LAST_UPDATED = "November 1, 2026";
+export const GRANTS_LAST_UPDATED_ISO = "2026-11-01";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -146,6 +146,7 @@ const DETROIT_DPA_INCOME: Record<number, number> = {
 const WAYNE_DPA_EXCLUDED_CITIES = [
   "Canton",
   "Dearborn",
+  "Dearborn Heights",
   "Detroit",
   "Lincoln Park",
   "Livonia",
@@ -328,7 +329,7 @@ export const programs: GrantProgram[] = [
       return {
         eligible: false,
         missing: [
-          "Funding currently exhausted and the program is closed to new applications as of October 2026; check back",
+          "Funding currently exhausted and the program is closed to new applications as of November 2026; check back",
         ],
       };
     },
@@ -422,6 +423,8 @@ export const programs: GrantProgram[] = [
       "Purchasing in a participating Wayne County community",
       "Household income at or below 80% of area median income",
       "No ownership interest in real estate in the past three years",
+      "Maximum purchase price of $234,000",
+      "No more than $20,000 in liquid assets",
       "HUD-approved homebuyer education course required",
       "Mortgage pre-approval required before applying",
     ],
@@ -461,6 +464,8 @@ export const programs: GrantProgram[] = [
       "Purchasing in a participating Wayne County community",
       "Household income at or below 80% of area median income",
       "No ownership interest in real estate in the past three years",
+      "Maximum purchase price of $234,000",
+      "No more than $20,000 in liquid assets",
       "HUD-approved homebuyer education course required",
     ],
     url: "https://nationalfaith.org/dpa/wayne/",
@@ -608,7 +613,7 @@ export const programs: GrantProgram[] = [
       // Funding exhausted, always near-miss so users know it exists
       return {
         eligible: false,
-        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of October 2026; check back"],
+        missing: ["Funding currently exhausted (depleted May 2025), no renewal announced as of November 2026; check back"],
       };
     },
   },
@@ -795,9 +800,9 @@ export const programs: GrantProgram[] = [
       "Household income at or below 120% of area median income",
       "Primary residence only",
     ],
-    url: "https://www.wellsfargo.com/mortgage/homebuyer-access-grant/",
+    url: "https://www.wellsfargo.com/mortgage/jump/down-payment-help",
     qualify: () => {
-      // Michigan is not among the 21 eligible metro areas as of October 2026
+      // Michigan is not among the eligible metro areas as of November 2026
       return {
         eligible: false,
         missing: [
@@ -825,7 +830,7 @@ export const programs: GrantProgram[] = [
       "Must use Wells Fargo for your mortgage",
       "Primary residence only",
     ],
-    url: "https://www.wellsfargo.com/mortgage/homebuyer-access-grant/",
+    url: "https://www.wellsfargo.com/mortgage/jump/down-payment-help",
     qualify: () => {
       return {
         eligible: false,
@@ -898,7 +903,7 @@ export const programs: GrantProgram[] = [
       return {
         eligible: false,
         missing: [
-          "Funding currently exhausted, the 2026 round is closed as of October 2026; check back for the next round",
+          "Funding currently exhausted, the 2026 round is closed as of November 2026; check back for the next round",
         ],
       };
     },
@@ -931,7 +936,7 @@ export const programs: GrantProgram[] = [
       return {
         eligible: false,
         missing: [
-          "Funding currently exhausted, the 2026 round is closed as of October 2026; check back for the next round",
+          "Funding currently exhausted, the 2026 round is closed as of November 2026; check back for the next round",
         ],
       };
     },
