@@ -5085,6 +5085,112 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "builder-confidence-new-homes-below-resale-oakland-county-november-2026",
+    title:
+      "New Homes Now Sell for Less Than Resale. In Oakland County, Read the Fine Print.",
+    excerpt:
+      "Builder confidence just hit its lowest point since 2012 and 43 percent of builders are cutting prices. The real opening is narrower than the headline, and resale sellers need to know where it is.",
+    date: "2026-11-02",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/new-construction-vs-resale.jpg",
+    imageAlt:
+      "House keys and a pen resting on a home purchase contract on a dark wood table",
+    relatedSlugs: [
+      "new-construction-vs-resale-michigan",
+      "oakland-county-permits-down-inventory-window-august-2026",
+      "metro-detroit-contract-cancellations-17-percent-october-2026",
+    ],
+    relatedCitySlugs: [
+      "rochester-hills-mi",
+      "shelby-township-mi",
+      "clarkston-mi",
+      "troy-mi",
+      "northville-mi",
+      "birmingham-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Census Bureau data released October 27 put the median new-home price at $400,400 for September, down 3.9 percent from a year ago. First American's Odeta Kushi placed that $17,100 below the existing-home median in National Association of Realtors data, the seventh straight month new construction has sold for less than resale. A week earlier, the National Association of Home Builders reported builder confidence at 29, the lowest since June 2012. The takeaway making the rounds is simple: new is now the cheaper option. In Oakland County, that conclusion needs work.",
+      },
+      {
+        type: "paragraph",
+        text: "Kushi herself said part of the price decline reflects a shift toward smaller homes, so the median is partly measuring a smaller product. The national figures also blend very different builders. NAHB's three-month regional index reads 26 in the West and 40 in the Midwest. And Oakland County's September resale median was $381,500, according to RE/MAX of Southeastern Michigan. That is $18,900 below the national new-home median before anyone picks a countertop. The useful question here is where the builder's flexibility actually sits, and who it affects.",
+      },
+      {
+        type: "h2",
+        text: "The Number Under the Headline",
+      },
+      {
+        type: "paragraph",
+        text: "An 8.4-month supply of new homes reads like a glut. Look inside it. Of the 476,000 new homes for sale at the end of September, only 111,000 were finished, down from 122,000 a year earlier. Homes not yet started rose to 115,000 from 103,000. A finished, unsold house is the builder's most expensive problem because it carries costs every month. That is where I would expect the most room to negotiate, and fewer than one in four homes in that count fit the description. An unstarted home gives the builder less urgency and leaves you exposed to rates for months.",
+      },
+      {
+        type: "stat-row",
+        stats: [
+          {
+            label: "Builders cutting prices, October",
+            value: "43%",
+            note: "NAHB, highest share of 2020 to 2026. Average cut: 6%",
+          },
+          {
+            label: "Builders using incentives",
+            value: "65%",
+            note: "NAHB, 19th straight month at 60% or more",
+          },
+          {
+            label: "Finished new homes for sale",
+            value: "111,000",
+            note: "Census via Inman, down from 122,000 a year earlier",
+          },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Price Cut or Rate: Run Both",
+      },
+      {
+        type: "paragraph",
+        text: "Take a $380,000 purchase with 10 percent down at Freddie Mac's October 29 average of 7.24 percent. Principal and interest come to about $2,331 a month. NAHB's average 6 percent cut takes $22,800 off the price and saves about $140 a month. A rate one full point lower, on the original price, saves about $227. The cost of that rate reduction varies by builder and lender, so make them show you. Waiting for the market to do it is a weak plan. The Fed held on October 28, and the Mortgage Bankers Association's chief economist does not expect significant relief over the forecast horizon.",
+      },
+      {
+        type: "callout",
+        label: "An update to our own advice",
+        text: "Our March guide to new construction said Southeast Michigan builders rarely move on base price. With 43 percent cutting nationally, test that. No one publishes a clean county figure, so ask directly. The rest of that guide still holds: the gap between base price and finished price can run 15 to 35 percent here, and a discount on the sign can disappear in the design center.",
+      },
+      {
+        type: "two-col",
+        left: {
+          label: "If You Are Buying",
+          text: "Ask for finished and nearly finished homes first. Compare the all-in price and payment against resale, including lot premium and options. Bring your Realtor® to the first sales office visit, and pay for an independent inspection. Remember that resale sellers negotiate too. A concession toward your rate is a fair ask on a home that has been sitting.",
+        },
+        right: {
+          label: "If You Are Selling",
+          text: "Near active production building, in places like Shelby Township, Macomb Township, and parts of Clarkston and Rochester Hills, a finished spec home is now part of your competition. Macomb was already the soft spot in September, with sales down 10.9 percent. In established towns like Birmingham and Royal Oak, the direct pressure is lighter. Either way, price a rate concession alongside a price cut. It may do more for the buyer's payment.",
+        },
+      },
+      {
+        type: "h2",
+        text: "Four Questions for the Sales Office",
+      },
+      {
+        type: "bullets",
+        items: [
+          "Which homes are finished or can close within 60 days, and how long has each been available?",
+          "Is the rate offer permanent or temporary, and what is the payment when it ends?",
+          "Does the incentive require your lender or title company, and what does my own lender quote without it?",
+          "What is the total price with this lot and these options, in writing, before I visit the design center?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The last time builder confidence read this low, the 30-year fixed was under 4 percent and the industry was still digging out of the foreclosure crisis. This time the pressure is rates and costs, and that kind of pressure can lift. Builders are adjusting now because they have to. Most resale sellers adjust later. For a buyer, that lag is the opening, on a specific finished house rather than on new construction in general. For a seller, it is a reason to look at the spec home down the road before setting a list price.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
