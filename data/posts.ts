@@ -25,6 +25,182 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "october-2026-southeast-michigan-market-update",
+    title:
+      "October 2026 Market Update: Prices Keep Climbing While Homes Take Longer to Sell",
+    excerpt:
+      "Five of the six counties we follow posted higher prices over the past year, but in most of them homes are taking longer to sell and buyers have more to choose from. Washtenaw and Livingston are the two stories worth watching.",
+    date: "2026-11-02",
+    author: "Sarah",
+    category: "Market Update",
+    readTime: "6 min read",
+    image: "/images/insights/october-2026-southeast-michigan-market-update.jpg",
+    imageAlt:
+      "October 2026 Southeast Michigan market update: prices keep climbing while homes take longer to sell",
+    relatedSlugs: [
+      "september-2026-southeast-michigan-market-update",
+      "zillow-early-winter-metro-detroit-inventory-october-2026",
+      "best-time-to-sell-a-house-southeast-michigan",
+    ],
+    relatedCitySlugs: [
+      "rochester-hills-mi",
+      "macomb-township-mi",
+      "plymouth-mi",
+      "brighton-mi",
+      "ann-arbor-mi",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Southeast Michigan home prices are still rising. That is the first thing the data through October says, and it holds in five of the six counties we follow. The second thing is more useful: almost everywhere, homes are taking longer to sell, and buyers have more of them to choose from than they did a year ago.",
+      },
+      {
+        type: "paragraph",
+        text: "Prices up and pace down is not a contradiction, and it is not a warning. It is what a market looks like when it moves from a sprint to a more measured stride. Understanding exactly where that shift is happening, and where it is not, is the difference between pricing a home well and pricing it against a memory.",
+      },
+      {
+        type: "h2",
+        text: "How to Read These Numbers",
+      },
+      {
+        type: "paragraph",
+        text: "The figures below cover the twelve months ending in October 2026, which smooths out the seasonal swings that can make any single month misleading. They include all price ranges and all property types, so condominiums and multifamily homes are part of each county's picture. Median sale price and median price per square foot describe the middle of the market. Days on market is an average, and it counts only homes that actually sold.",
+      },
+      {
+        type: "h2",
+        text: "The Region at a Glance",
+      },
+      {
+        type: "table",
+        headers: [
+          "County",
+          "Median Sale Price",
+          "YoY",
+          "Avg Days on Market",
+          "YoY",
+          "Median $/Sq Ft",
+          "YoY",
+        ],
+        rows: [
+          ["Livingston", "$410,000", "+3.4%", "33", "-8.3%", "$234", "+2.6%"],
+          ["Oakland", "$375,000", "+2.7%", "29", "+7.4%", "$226", "+1.8%"],
+          ["Macomb", "$271,000", "+2.3%", "33", "+6.5%", "$192", "+2.1%"],
+          ["St. Clair", "$251,325", "+2.6%", "39", "0.0%", "$177", "+3.5%"],
+          ["Wayne", "$210,000", "+5.0%", "36", "+9.1%", "$167", "+3.7%"],
+          ["Entire MLS", "$285,000", "+4.0%", "40", "+5.3%", "$198", "+3.1%"],
+        ],
+        emphasizeRows: [5],
+        caption:
+          "Trailing twelve months ending October 2026, all price ranges and property types. Source: Realcomp/InfoSparks county statistics.",
+      },
+      {
+        type: "paragraph",
+        text: "The region as a whole gained 4.0% on price over the year. Wayne County led its peers at 5.0%, followed by Livingston at 3.4%. Oakland, St. Clair, and Macomb grew more modestly, between 2.3% and 2.7%. Washtenaw County is the one market that moved the other way. Its median sale price of $416,250, the highest of any county in this review, slipped 0.9% from a year ago, and its median price per square foot held flat at $245, also the highest in the group.",
+      },
+      {
+        type: "h2",
+        text: "Where the Pace Changed",
+      },
+      {
+        type: "paragraph",
+        text: "Look at the days-on-market column and a pattern emerges. Wayne homes took 9.1% longer to sell than a year ago, now averaging 36 days. Oakland rose 7.4% to 29 days. Macomb rose 6.5% to 33 days. None of those numbers is alarming on its own; Oakland remains the quickest county in the group. But they all point the same direction, and the direction matters more than the level.",
+      },
+      {
+        type: "paragraph",
+        text: "The reason is visible in the inventory figures. Months of supply, which measures how long it would take to sell every home currently listed if no new ones appeared, has climbed in every county:",
+      },
+      {
+        type: "table",
+        headers: ["County", "Months of Supply", "YoY"],
+        rows: [
+          ["Wayne", "3.5", "+16.7%"],
+          ["Washtenaw", "2.7", "+17.4%"],
+          ["St. Clair", "2.6", "+8.3%"],
+          ["Oakland", "2.5", "+19.0%"],
+          ["Macomb", "2.5", "+19.0%"],
+          ["Livingston", "2.3", "+9.5%"],
+          ["Entire MLS", "2.8", "+12.0%"],
+        ],
+        emphasizeRows: [6],
+        caption:
+          "Trailing twelve months ending October 2026, all price ranges and property types. Source: Realcomp/InfoSparks county statistics.",
+      },
+      {
+        type: "paragraph",
+        text: "Oakland and Macomb each gained 19% more supply than a year ago. Washtenaw added 17.4%. For context, a market is generally considered balanced between buyers and sellers at roughly five to six months of supply. Every county here remains well short of that mark, which is why prices continue to rise. But the gap is closing, and buyers who spent the last several years competing for a single listing are now comparing several.",
+      },
+      {
+        type: "h2",
+        text: "The County Moving the Other Way",
+      },
+      {
+        type: "paragraph",
+        text: "Livingston County is the outlier worth studying. It is the only county in this review where homes are selling faster than a year ago, with average days on market down 8.3% to 33. It also carries the second-highest median sale price of the group at $410,000, up 3.4%, and it has the tightest inventory at 2.3 months of supply.",
+      },
+      {
+        type: "paragraph",
+        text: "That combination is not a coincidence. When supply is limited and buyers are willing to act, homes move. Livingston shows what the rest of the region looked like when inventory was scarcer, and it is a useful reminder that these shifts are local. A seller in Livingston and a seller in Wayne are operating in measurably different conditions, even though they share a regional headline.",
+      },
+      {
+        type: "paragraph",
+        text: "St. Clair County sits between the two stories. Days on market held steady at 39, with price per square foot up 3.5%, the second strongest gain among the counties shown. It is a market that has absorbed more supply without losing momentum.",
+      },
+      {
+        type: "h2",
+        text: "Washtenaw: The Premium Market Pauses",
+      },
+      {
+        type: "paragraph",
+        text: "Washtenaw deserves its own mention. It has the highest median price and the highest price per square foot of the six counties, yet it is the only one where the median sale price is lower than a year ago. Its months of supply rose 17.4% to 2.7, one of the larger increases in the region.",
+      },
+      {
+        type: "paragraph",
+        text: "The pattern fits the rest of the data. Where more homes have come to market, price growth has cooled; where inventory remains scarce, as in Livingston, it has held up. A pause at the top of the range is not a decline in demand for exceptional homes. It is a sign that buyers in the most expensive markets are comparing options, and that a sale price depends on the specific home far more than on the county it sits in.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You Are Selling",
+      },
+      {
+        type: "paragraph",
+        text: "Rising prices are real, and sellers across the region have benefited from them. But a longer selling window changes the strategy. In a market where homes sold quickly regardless of presentation, an ambitious list price cost little. In a market where buyers can compare several options and take an extra week to decide, a price set above the evidence tends to cost time, and time is where negotiating leverage quietly leaks away.",
+      },
+      {
+        type: "paragraph",
+        text: "The most dependable approach is to price against the most recent comparable closings in your immediate area, present the home with care, and treat the first two weeks on the market as the period of greatest attention. If you would like to understand where your own home sits against what has actually sold nearby, our complimentary home valuation at thepatrickgrp.com/home-valuation offers a current, specific answer rather than a county average.",
+      },
+      {
+        type: "h2",
+        text: "What This Means If You Are Buying",
+      },
+      {
+        type: "paragraph",
+        text: "For buyers, the most important change is breathing room. More supply and slightly longer selling times mean more opportunity to tour thoughtfully, to ask for a proper inspection period, and to negotiate terms rather than simply match a price. In Oakland and Macomb in particular, where supply has grown fastest, patience is being rewarded in a way it was not a year ago.",
+      },
+      {
+        type: "paragraph",
+        text: "That said, the best homes still attract attention quickly in every county, including the ones where averages have drifted upward. Well-presented properties with distinctive character or architectural significance continue to sell ahead of the average. Buyers who see new listings early have a real advantage, which is the purpose of our VIP Buyer program at thepatrickgrp.com/vip-buyers, where curated listings and off-market opportunities reach members before they reach the public.",
+      },
+      {
+        type: "h2",
+        text: "The Bottom Line",
+      },
+      {
+        type: "paragraph",
+        text: "October's data describes a market that is healthy and maturing. Prices are higher than last year in five of six counties, inventory is rebuilding steadily, and the speed of a sale now depends more on the individual home and the individual county than it has in years. Livingston is moving faster. Wayne and Oakland are moving a little slower. Washtenaw, the priciest county in the group, is the one place where the median price eased as supply grew.",
+      },
+      {
+        type: "paragraph",
+        text: "None of this calls for alarm. It calls for local, current information and a plan built around it. If you are weighing a move in the coming months, we would welcome the conversation at thepatrickgrp.com/contact.",
+      },
+      {
+        type: "callout",
+        label: "Unconditional Release Guarantee",
+        text: "Sarah Patrick, Principal Broker. The Patrick Group at Oak & Stone Real Estate. 248.755.3545. Every engagement carries our Unconditional Release Guarantee. If our service ever falls short of the standard you expect, you may end the relationship at any time, no obligation.",
+      },
+    ],
+  },
+  {
     slug: "september-2026-southeast-michigan-market-update",
     title:
       "September 2026 Market Update: The Fall Shift Arrived on Schedule",
